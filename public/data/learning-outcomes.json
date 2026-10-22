@@ -60,6 +60,26 @@
       "classroom": "10G3",
       "targetCount": 6,
       "revision": 1
+    },
+    {
+      "id": "70400104-1003-4e08-8c32-070400010004",
+      "classroom": "10G3",
+      "title": "Find and interpret the maximum and minimum values of a quadratic function",
+      "titleAr": "إيجاد القيم العظمى والصغرى للدالة التربيعية وتفسيرها",
+      "bookPages": "Graph questions 1–4 · أسئلة الرسوم 1–4",
+      "targetCount": 4,
+      "position": 4,
+      "revision": 1
+    },
+    {
+      "id": "71100106-1003-4e08-8c32-071100010006",
+      "classroom": "10G3",
+      "title": "Solve quadratic equations by graphing",
+      "titleAr": "حل المعادلات التربيعية بيانياً",
+      "bookPages": "711 (Q1–6)",
+      "targetCount": 6,
+      "position": 5,
+      "revision": 1
     }
   ],
   "assignments": [
@@ -351,6 +371,56 @@
     {
       "question_id": "10g3-factoring-10",
       "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-extrema-frq-1",
+      "outcome_id": "70400104-1003-4e08-8c32-070400010004",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-extrema-frq-2",
+      "outcome_id": "70400104-1003-4e08-8c32-070400010004",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-extrema-frq-3",
+      "outcome_id": "70400104-1003-4e08-8c32-070400010004",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-extrema-frq-4",
+      "outcome_id": "70400104-1003-4e08-8c32-070400010004",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-graphing-frq-1",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-graphing-frq-2",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-graphing-frq-3",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-graphing-frq-4",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-graphing-frq-5",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-graphing-frq-6",
+      "outcome_id": "71100106-1003-4e08-8c32-071100010006",
       "position": 6
     }
   ],

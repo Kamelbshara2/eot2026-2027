@@ -146,3 +146,5 @@ button:disabled{opacity:.42;cursor:default;transform:none!important}
 @media(max-width:360px){.practice-slide .compact-options{grid-template-columns:1fr}}
 
 @media(max-width:760px){.question-number{min-height:44px}}
+.worksheet-tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.worksheet-tools .secondary{font-size:11px;padding:10px 12px}.question-heading>.worksheet-tools{margin-left:auto}.extrema-fields{margin-top:16px}.print-frame{border:0}
+@media(max-width:760px){.question-heading>.worksheet-tools{width:100%;margin:8px 0}.worksheet-tools .secondary{flex:1;min-height:44px;padding:9px;font-size:10px}.worksheet .value-table{max-width:none}.worksheet .value-table input{min-height:36px}.extrema-fields{grid-template-columns:1fr}}

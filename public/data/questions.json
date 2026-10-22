@@ -4567,6 +4567,390 @@
       "sourcePage": 721,
       "sourceQuestion": 10,
       "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-extrema-frq-1",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Graph 1 · Maximum/minimum & features · القيم القصوى وخصائص المنحنى",
+      "marks": 9,
+      "prompt": "Use the graph to identify the axis of symmetry, vertex, y-intercept, domain and range. Describe the end behavior in both directions. State the maximum or minimum value, say where it occurs, and interpret what this tells you about all function values. Each grid square represents 1 unit. You may solve on paper and upload a photo/PDF.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "graphReading": {
+        "coefficients": [
+          -4,
+          0,
+          1
+        ],
+        "bounds": [
+          -5,
+          5,
+          -8,
+          2
+        ],
+        "sourceNumber": 1
+      },
+      "answer": "Axis of symmetry: $x=0$. Vertex: $(0,1)$. y-intercept: $(0,1)$.\nDomain: $(-\\infty,\\infty)$. Range: $(-\\infty, 1]$.\nAs $x\\to-\\infty$, $y\\to-\\infty$; as $x\\to+\\infty$, $y\\to-\\infty$.\nMaximum value: $1$ at $x=0$. For every real $x$, $y\\le1$. There is no minimum value.\nMarking guide (9 marks): axis, vertex, y-intercept, domain, range, left end, right end, extremum value/type, and interpretation/location (1 each).",
+      "promptAr": "استعن بالرسم لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى، ثم صف سلوك طرفي المنحنى. حدد القيمة العظمى أو الصغرى ومكان حدوثها، وفسّر ما تعنيه لجميع قيم الدالة. يمثل كل مربع وحدة واحدة. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=0$. الرأس: $(0,1)$. التقاطع مع محور الصادات: $(0,1)$.\nالمجال: $(-\\infty,\\infty)$. المدى: $(-\\infty, 1]$.\nعندما $x\\to-\\infty$ فإن $y\\to-\\infty$، وعندما $x\\to+\\infty$ فإن $y\\to-\\infty$.\nالقيمة العظمى هي $1$ عند $x=0$. لجميع قيم $x$ الحقيقية: $y\\le1$. لا توجد قيمة صغرى.\nالتصحيح (٩ درجات): درجة لكل من المحور والرأس والتقاطع والمجال والمدى والطرفين والقيمة القصوى ونوعها والتفسير مع مكان حدوثها.",
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 39,
+      "sourceQuestion": 1
+    },
+    {
+      "id": "10g3-extrema-frq-2",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Graph 2 · Maximum/minimum & features · القيم القصوى وخصائص المنحنى",
+      "marks": 9,
+      "prompt": "Use the graph to identify the axis of symmetry, vertex, y-intercept, domain and range. Describe the end behavior in both directions. State the maximum or minimum value, say where it occurs, and interpret what this tells you about all function values. Each grid square represents 1 unit. You may solve on paper and upload a photo/PDF.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "graphReading": {
+        "coefficients": [
+          3,
+          -6,
+          4
+        ],
+        "bounds": [
+          -5,
+          5,
+          -3,
+          7
+        ],
+        "sourceNumber": 2
+      },
+      "answer": "Axis of symmetry: $x=1$. Vertex: $(1,1)$. y-intercept: $(0,4)$.\nDomain: $(-\\infty,\\infty)$. Range: $[1, \\infty)$.\nAs $x\\to-\\infty$, $y\\to+\\infty$; as $x\\to+\\infty$, $y\\to+\\infty$.\nMinimum value: $1$ at $x=1$. For every real $x$, $y\\ge1$. There is no maximum value.\nMarking guide (9 marks): axis, vertex, y-intercept, domain, range, left end, right end, extremum value/type, and interpretation/location (1 each).",
+      "promptAr": "استعن بالرسم لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى، ثم صف سلوك طرفي المنحنى. حدد القيمة العظمى أو الصغرى ومكان حدوثها، وفسّر ما تعنيه لجميع قيم الدالة. يمثل كل مربع وحدة واحدة. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=1$. الرأس: $(1,1)$. التقاطع مع محور الصادات: $(0,4)$.\nالمجال: $(-\\infty,\\infty)$. المدى: $[1, \\infty)$.\nعندما $x\\to-\\infty$ فإن $y\\to+\\infty$، وعندما $x\\to+\\infty$ فإن $y\\to+\\infty$.\nالقيمة الصغرى هي $1$ عند $x=1$. لجميع قيم $x$ الحقيقية: $y\\ge1$. لا توجد قيمة عظمى.\nالتصحيح (٩ درجات): درجة لكل من المحور والرأس والتقاطع والمجال والمدى والطرفين والقيمة القصوى ونوعها والتفسير مع مكان حدوثها.",
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 40,
+      "sourceQuestion": 2
+    },
+    {
+      "id": "10g3-extrema-frq-3",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Graph 3 · Maximum/minimum & features · القيم القصوى وخصائص المنحنى",
+      "marks": 9,
+      "prompt": "Use the graph to identify the axis of symmetry, vertex, y-intercept, domain and range. Describe the end behavior in both directions. State the maximum or minimum value, say where it occurs, and interpret what this tells you about all function values. Each grid square represents 1 unit. You may solve on paper and upload a photo/PDF.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "graphReading": {
+        "coefficients": [
+          1,
+          0,
+          -4
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourceNumber": 3
+      },
+      "answer": "Axis of symmetry: $x=0$. Vertex: $(0,-4)$. y-intercept: $(0,-4)$.\nDomain: $(-\\infty,\\infty)$. Range: $[-4, \\infty)$.\nAs $x\\to-\\infty$, $y\\to+\\infty$; as $x\\to+\\infty$, $y\\to+\\infty$.\nMinimum value: $-4$ at $x=0$. For every real $x$, $y\\ge-4$. There is no maximum value.\nMarking guide (9 marks): axis, vertex, y-intercept, domain, range, left end, right end, extremum value/type, and interpretation/location (1 each).",
+      "promptAr": "استعن بالرسم لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى، ثم صف سلوك طرفي المنحنى. حدد القيمة العظمى أو الصغرى ومكان حدوثها، وفسّر ما تعنيه لجميع قيم الدالة. يمثل كل مربع وحدة واحدة. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=0$. الرأس: $(0,-4)$. التقاطع مع محور الصادات: $(0,-4)$.\nالمجال: $(-\\infty,\\infty)$. المدى: $[-4, \\infty)$.\nعندما $x\\to-\\infty$ فإن $y\\to+\\infty$، وعندما $x\\to+\\infty$ فإن $y\\to+\\infty$.\nالقيمة الصغرى هي $-4$ عند $x=0$. لجميع قيم $x$ الحقيقية: $y\\ge-4$. لا توجد قيمة عظمى.\nالتصحيح (٩ درجات): درجة لكل من المحور والرأس والتقاطع والمجال والمدى والطرفين والقيمة القصوى ونوعها والتفسير مع مكان حدوثها.",
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 41,
+      "sourceQuestion": 3
+    },
+    {
+      "id": "10g3-extrema-frq-4",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Graph 4 · Maximum/minimum & features · القيم القصوى وخصائص المنحنى",
+      "marks": 9,
+      "prompt": "Use the graph to identify the axis of symmetry, vertex, y-intercept, domain and range. Describe the end behavior in both directions. State the maximum or minimum value, say where it occurs, and interpret what this tells you about all function values. Each grid square represents 1 unit. You may solve on paper and upload a photo/PDF.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "graphReading": {
+        "coefficients": [
+          1,
+          6,
+          3
+        ],
+        "bounds": [
+          -8,
+          2,
+          -7,
+          3
+        ],
+        "sourceNumber": 4
+      },
+      "answer": "Axis of symmetry: $x=-3$. Vertex: $(-3,-6)$. y-intercept: $(0,3)$.\nDomain: $(-\\infty,\\infty)$. Range: $[-6, \\infty)$.\nAs $x\\to-\\infty$, $y\\to+\\infty$; as $x\\to+\\infty$, $y\\to+\\infty$.\nMinimum value: $-6$ at $x=-3$. For every real $x$, $y\\ge-6$. There is no maximum value.\nMarking guide (9 marks): axis, vertex, y-intercept, domain, range, left end, right end, extremum value/type, and interpretation/location (1 each).",
+      "promptAr": "استعن بالرسم لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى، ثم صف سلوك طرفي المنحنى. حدد القيمة العظمى أو الصغرى ومكان حدوثها، وفسّر ما تعنيه لجميع قيم الدالة. يمثل كل مربع وحدة واحدة. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=-3$. الرأس: $(-3,-6)$. التقاطع مع محور الصادات: $(0,3)$.\nالمجال: $(-\\infty,\\infty)$. المدى: $[-6, \\infty)$.\nعندما $x\\to-\\infty$ فإن $y\\to+\\infty$، وعندما $x\\to+\\infty$ فإن $y\\to+\\infty$.\nالقيمة الصغرى هي $-6$ عند $x=-3$. لجميع قيم $x$ الحقيقية: $y\\ge-6$. لا توجد قيمة عظمى.\nالتصحيح (٩ درجات): درجة لكل من المحور والرأس والتقاطع والمجال والمدى والطرفين والقيمة القصوى ونوعها والتفسير مع مكان حدوثها.",
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 42,
+      "sourceQuestion": 4
+    },
+    {
+      "id": "10g3-graphing-frq-1",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q1 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2+7x+14=0$$\nGraph $y=x^2+7x+14$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=-3.5$.\nOrdered pairs: $(-5.5, 5.75)$, $(-4.5, 2.75)$, $(-3.5, 1.75)$, $(-2.5, 2.75)$, $(-1.5, 5.75)$.\nNo x-intercepts; no real solutions.\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          -5.5,
+          -4.5,
+          -3.5,
+          -2.5,
+          -1.5
+        ],
+        "bounds": [
+          -7,
+          1,
+          -1,
+          8
+        ],
+        "xStep": 1,
+        "yStep": 1,
+        "coefficients": [
+          1,
+          7,
+          14
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2+7x+14=0$$\nارسم الدالة $y=x^2+7x+14$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=-3.5$.\nالأزواج المرتبة: $(-5.5, 5.75)$, $(-4.5, 2.75)$, $(-3.5, 1.75)$, $(-2.5, 2.75)$, $(-1.5, 5.75)$.\nلا توجد نقاط تقاطع مع محور السينات، ولا توجد حلول حقيقية.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 43,
+      "sourcePage": 711,
+      "sourceQuestion": 1
+    },
+    {
+      "id": "10g3-graphing-frq-2",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q2 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2+2x-24=0$$\nGraph $y=x^2+2x-24$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=-1$.\nOrdered pairs: $(-7, 11)$, $(-4, -16)$, $(-1, -25)$, $(2, -16)$, $(5, 11)$.\nx-intercepts: $(-6,0)$ and $(4,0)$. Solutions: $x=-6$ or $x=4$.\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          -7,
+          -4,
+          -1,
+          2,
+          5
+        ],
+        "bounds": [
+          -8,
+          6,
+          -30,
+          20
+        ],
+        "xStep": 1,
+        "yStep": 5,
+        "coefficients": [
+          1,
+          2,
+          -24
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2+2x-24=0$$\nارسم الدالة $y=x^2+2x-24$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=-1$.\nالأزواج المرتبة: $(-7, 11)$, $(-4, -16)$, $(-1, -25)$, $(2, -16)$, $(5, 11)$.\nنقطتا التقاطع: $(-6,0)$ و $(4,0)$. الحل: $x=-6$ أو $x=4$.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 44,
+      "sourcePage": 711,
+      "sourceQuestion": 2
+    },
+    {
+      "id": "10g3-graphing-frq-3",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q3 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2+16x+64=0$$\nGraph $y=x^2+16x+64$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=-8$.\nOrdered pairs: $(-10, 4)$, $(-9, 1)$, $(-8, 0)$, $(-7, 1)$, $(-6, 4)$.\nx-intercept: $(-8,0)$. Solution: $x=-8$ (a repeated root).\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          -10,
+          -9,
+          -8,
+          -7,
+          -6
+        ],
+        "bounds": [
+          -12,
+          2,
+          -2,
+          8
+        ],
+        "xStep": 1,
+        "yStep": 1,
+        "coefficients": [
+          1,
+          16,
+          64
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2+16x+64=0$$\nارسم الدالة $y=x^2+16x+64$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=-8$.\nالأزواج المرتبة: $(-10, 4)$, $(-9, 1)$, $(-8, 0)$, $(-7, 1)$, $(-6, 4)$.\nنقطة التقاطع: $(-8,0)$. الحل: $x=-8$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 45,
+      "sourcePage": 711,
+      "sourceQuestion": 3
+    },
+    {
+      "id": "10g3-graphing-frq-4",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q4 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2-5x+12=0$$\nGraph $y=x^2-5x+12$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=2.5$.\nOrdered pairs: $(0.5, 9.75)$, $(1.5, 6.75)$, $(2.5, 5.75)$, $(3.5, 6.75)$, $(4.5, 9.75)$.\nNo x-intercepts; no real solutions.\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          0.5,
+          1.5,
+          2.5,
+          3.5,
+          4.5
+        ],
+        "bounds": [
+          -1,
+          6,
+          -2,
+          12
+        ],
+        "xStep": 1,
+        "yStep": 1,
+        "coefficients": [
+          1,
+          -5,
+          12
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2-5x+12=0$$\nارسم الدالة $y=x^2-5x+12$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=2.5$.\nالأزواج المرتبة: $(0.5, 9.75)$, $(1.5, 6.75)$, $(2.5, 5.75)$, $(3.5, 6.75)$, $(4.5, 9.75)$.\nلا توجد نقاط تقاطع مع محور السينات، ولا توجد حلول حقيقية.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 46,
+      "sourcePage": 711,
+      "sourceQuestion": 4
+    },
+    {
+      "id": "10g3-graphing-frq-5",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q5 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2+14x=-49$$\nGraph $y=x^2+14x+49$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=-7$.\nOrdered pairs: $(-9, 4)$, $(-8, 1)$, $(-7, 0)$, $(-6, 1)$, $(-5, 4)$.\nx-intercept: $(-7,0)$. Solution: $x=-7$ (a repeated root).\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          -9,
+          -8,
+          -7,
+          -6,
+          -5
+        ],
+        "bounds": [
+          -11,
+          2,
+          -2,
+          8
+        ],
+        "xStep": 1,
+        "yStep": 1,
+        "coefficients": [
+          1,
+          14,
+          49
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2+14x=-49$$\nارسم الدالة $y=x^2+14x+49$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=-7$.\nالأزواج المرتبة: $(-9, 4)$, $(-8, 1)$, $(-7, 0)$, $(-6, 1)$, $(-5, 4)$.\nنقطة التقاطع: $(-7,0)$. الحل: $x=-7$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 47,
+      "sourcePage": 711,
+      "sourceQuestion": 5
+    },
+    {
+      "id": "10g3-graphing-frq-6",
+      "type": "FRQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 711 · Q6 · Solve by graphing · الحل بيانياً",
+      "marks": 6,
+      "prompt": "Solve by graphing.\n$$x^2=2x-1$$\nGraph $y=x^2-2x+1$. Complete the table of values, plot the five ordered pairs, and sketch a smooth parabola. Use the x-intercepts to solve the equation. If the graph does not meet the x-axis, state that there are no real solutions. You may solve on paper and upload a photo/PDF.",
+      "diagram": "grid",
+      "difficulty": "Standard",
+      "options": [],
+      "image": "",
+      "answer": "Axis of symmetry: $x=1$.\nOrdered pairs: $(-1, 4)$, $(0, 1)$, $(1, 0)$, $(2, 1)$, $(3, 4)$.\nx-intercept: $(1,0)$. Solution: $x=1$ (a repeated root).\nMarking guide (6 marks): table values (2), plotted points (1), smooth symmetric parabola (1), x-intercepts (1), solutions (1).",
+      "graphing": {
+        "xs": [
+          -1,
+          0,
+          1,
+          2,
+          3
+        ],
+        "bounds": [
+          -3,
+          5,
+          -2,
+          8
+        ],
+        "xStep": 1,
+        "yStep": 1,
+        "coefficients": [
+          1,
+          -2,
+          1
+        ]
+      },
+      "promptAr": "حل المعادلة بيانياً.\n$$x^2=2x-1$$\nارسم الدالة $y=x^2-2x+1$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية. يمكنك الحل على الورق ورفع صورة أو ملف PDF.",
+      "answerAr": "محور التماثل: $x=1$.\nالأزواج المرتبة: $(-1, 4)$, $(0, 1)$, $(1, 0)$, $(2, 1)$, $(3, 4)$.\nنقطة التقاطع: $(1,0)$. الحل: $x=1$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 48,
+      "sourcePage": 711,
+      "sourceQuestion": 6
     }
   ],
   "exam": {
@@ -4580,7 +4964,7 @@
     {
       "classroom": "10G3",
       "title": "8th week exam",
-      "questions": 38
+      "questions": 48
     },
     {
       "classroom": "10A1",
