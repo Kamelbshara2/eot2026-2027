@@ -37,7 +37,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2+7x+14=0$$\nارسم الدالة $y=x^2+7x+14$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=-3.5$.\nالأزواج المرتبة: $(-5.5, 5.75)$, $(-4.5, 2.75)$, $(-3.5, 1.75)$, $(-2.5, 2.75)$, $(-1.5, 5.75)$.\nلا توجد نقاط تقاطع مع محور السينات، ولا توجد حلول حقيقية.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 1
     },
     {
       "id": "graphing-quadratic-02",
@@ -75,7 +77,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2+2x-24=0$$\nارسم الدالة $y=x^2+2x-24$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=-1$.\nالأزواج المرتبة: $(-7, 11)$, $(-4, -16)$, $(-1, -25)$, $(2, -16)$, $(5, 11)$.\nنقطتا التقاطع: $(-6,0)$ و $(4,0)$. الحل: $x=-6$ أو $x=4$.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 2
     },
     {
       "id": "graphing-quadratic-03",
@@ -113,7 +117,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2+16x+64=0$$\nارسم الدالة $y=x^2+16x+64$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=-8$.\nالأزواج المرتبة: $(-10, 4)$, $(-9, 1)$, $(-8, 0)$, $(-7, 1)$, $(-6, 4)$.\nنقطة التقاطع: $(-8,0)$. الحل: $x=-8$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 3
     },
     {
       "id": "graphing-quadratic-04",
@@ -151,7 +157,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2-5x+12=0$$\nارسم الدالة $y=x^2-5x+12$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=2.5$.\nالأزواج المرتبة: $(0.5, 9.75)$, $(1.5, 6.75)$, $(2.5, 5.75)$, $(3.5, 6.75)$, $(4.5, 9.75)$.\nلا توجد نقاط تقاطع مع محور السينات، ولا توجد حلول حقيقية.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 4
     },
     {
       "id": "graphing-quadratic-05",
@@ -189,7 +197,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2+14x=-49$$\nارسم الدالة $y=x^2+14x+49$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=-7$.\nالأزواج المرتبة: $(-9, 4)$, $(-8, 1)$, $(-7, 0)$, $(-6, 1)$, $(-5, 4)$.\nنقطة التقاطع: $(-7,0)$. الحل: $x=-7$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 5
     },
     {
       "id": "graphing-quadratic-06",
@@ -227,7 +237,9 @@
       },
       "promptAr": "حل المعادلة بيانياً.\n$$x^2=2x-1$$\nارسم الدالة $y=x^2-2x+1$. أكمل جدول القيم، ومثّل الأزواج المرتبة الخمسة، ثم ارسم قطعاً مكافئاً أملس. استنتج الحل من نقاط التقاطع مع محور السينات. إذا لم يتقاطع المنحنى مع محور السينات، فاكتب أنه لا توجد حلول حقيقية.",
       "answerAr": "محور التماثل: $x=1$.\nالأزواج المرتبة: $(-1, 4)$, $(0, 1)$, $(1, 0)$, $(2, 1)$, $(3, 4)$.\nنقطة التقاطع: $(1,0)$. الحل: $x=1$، وهو جذر مكرر.\nالتصحيح (٦ درجات): قيم الجدول (٢)، تمثيل النقاط (١)، منحنى أملس متماثل (١)، نقاط التقاطع (١)، الحل (١).",
-      "section": "Quadratic equations · Graphing practice"
+      "section": "Quadratic equations · Graphing practice",
+      "classroom": "10G3",
+      "position": 6
     },
     {
       "id": "graph-features-01",
@@ -257,7 +269,9 @@
       "answer": "Axis of symmetry: $x=0$.\nVertex: $(0, 1)$.\ny-intercept: $(0, 1)$.\nAs $x \\to -\\infty$, $y \\to -\\infty$.\nAs $x \\to +\\infty$, $y \\to -\\infty$.\nDomain: $(-\\infty, \\infty)$ (all real numbers).\nRange: $(-\\infty, 1]$.\nMarking guide (7 marks): axis (1), vertex (1), y-intercept (1), domain (1), range (1), left end behavior (1), right end behavior (1).",
       "promptAr": "استعن بالرسم البياني لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى. ثم صف سلوك طرفي المنحنى. يمثل كل مربع وحدة واحدة. اكتب المجال والمدى بصيغة الفترات.",
       "answerAr": "محور التماثل: $x=-0$.\nالرأس: $(-0, 1)$.\nنقطة التقاطع مع محور الصادات: $(0, 1)$.\nالمجال: $(-\\infty, \\infty)$.\nالمدى: $(-\\infty, 1]$.\nعندما $x \\to -\\infty$ فإن $y \\to -\\infty$.\nعندما $x \\to +\\infty$ فإن $y \\to -\\infty$.\nالتصحيح: درجة واحدة لكل عنصر من العناصر السبعة.",
-      "section": "Quadratic graphs · Features and end behavior"
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 7
     },
     {
       "id": "graph-features-02",
@@ -287,7 +301,9 @@
       "answer": "Axis of symmetry: $x=1$.\nVertex: $(1, 1)$.\ny-intercept: $(0, 4)$.\nAs $x \\to -\\infty$, $y \\to +\\infty$.\nAs $x \\to +\\infty$, $y \\to +\\infty$.\nDomain: $(-\\infty, \\infty)$ (all real numbers).\nRange: $[1, \\infty)$.\nMarking guide (7 marks): axis (1), vertex (1), y-intercept (1), domain (1), range (1), left end behavior (1), right end behavior (1).",
       "promptAr": "استعن بالرسم البياني لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى. ثم صف سلوك طرفي المنحنى. يمثل كل مربع وحدة واحدة. اكتب المجال والمدى بصيغة الفترات.",
       "answerAr": "محور التماثل: $x=1$.\nالرأس: $(1, 1)$.\nنقطة التقاطع مع محور الصادات: $(0, 4)$.\nالمجال: $(-\\infty, \\infty)$.\nالمدى: $[1, \\infty)$.\nعندما $x \\to -\\infty$ فإن $y \\to +\\infty$.\nعندما $x \\to +\\infty$ فإن $y \\to +\\infty$.\nالتصحيح: درجة واحدة لكل عنصر من العناصر السبعة.",
-      "section": "Quadratic graphs · Features and end behavior"
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 8
     },
     {
       "id": "graph-features-03",
@@ -317,7 +333,9 @@
       "answer": "Axis of symmetry: $x=0$.\nVertex: $(0, -4)$.\ny-intercept: $(0, -4)$.\nAs $x \\to -\\infty$, $y \\to +\\infty$.\nAs $x \\to +\\infty$, $y \\to +\\infty$.\nDomain: $(-\\infty, \\infty)$ (all real numbers).\nRange: $[-4, \\infty)$.\nMarking guide (7 marks): axis (1), vertex (1), y-intercept (1), domain (1), range (1), left end behavior (1), right end behavior (1).",
       "promptAr": "استعن بالرسم البياني لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى. ثم صف سلوك طرفي المنحنى. يمثل كل مربع وحدة واحدة. اكتب المجال والمدى بصيغة الفترات.",
       "answerAr": "محور التماثل: $x=0$.\nالرأس: $(0, -4)$.\nنقطة التقاطع مع محور الصادات: $(0, -4)$.\nالمجال: $(-\\infty, \\infty)$.\nالمدى: $[-4, \\infty)$.\nعندما $x \\to -\\infty$ فإن $y \\to +\\infty$.\nعندما $x \\to +\\infty$ فإن $y \\to +\\infty$.\nالتصحيح: درجة واحدة لكل عنصر من العناصر السبعة.",
-      "section": "Quadratic graphs · Features and end behavior"
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 9
     },
     {
       "id": "graph-features-04",
@@ -347,7 +365,9 @@
       "answer": "Axis of symmetry: $x=-3$.\nVertex: $(-3, -6)$.\ny-intercept: $(0, 3)$.\nAs $x \\to -\\infty$, $y \\to +\\infty$.\nAs $x \\to +\\infty$, $y \\to +\\infty$.\nDomain: $(-\\infty, \\infty)$ (all real numbers).\nRange: $[-6, \\infty)$.\nMarking guide (7 marks): axis (1), vertex (1), y-intercept (1), domain (1), range (1), left end behavior (1), right end behavior (1).",
       "promptAr": "استعن بالرسم البياني لتحديد محور التماثل والرأس ونقطة التقاطع مع محور الصادات والمجال والمدى. ثم صف سلوك طرفي المنحنى. يمثل كل مربع وحدة واحدة. اكتب المجال والمدى بصيغة الفترات.",
       "answerAr": "محور التماثل: $x=-3$.\nالرأس: $(-3, -6)$.\nنقطة التقاطع مع محور الصادات: $(0, 3)$.\nالمجال: $(-\\infty, \\infty)$.\nالمدى: $[-6, \\infty)$.\nعندما $x \\to -\\infty$ فإن $y \\to +\\infty$.\nعندما $x \\to +\\infty$ فإن $y \\to +\\infty$.\nالتصحيح: درجة واحدة لكل عنصر من العناصر السبعة.",
-      "section": "Quadratic graphs · Features and end behavior"
+      "section": "Quadratic graphs · Features and end behavior",
+      "classroom": "10G3",
+      "position": 10
     },
     {
       "id": "transformation-graph-03",
@@ -406,7 +426,9 @@
         "sourceNumber": 3,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 11
     },
     {
       "id": "transformation-description-03",
@@ -465,7 +487,9 @@
         "sourceNumber": 3,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 12
     },
     {
       "id": "transformation-graph-04",
@@ -524,7 +548,9 @@
         "sourceNumber": 4,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 13
     },
     {
       "id": "transformation-description-04",
@@ -583,7 +609,9 @@
         "sourceNumber": 4,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 14
     },
     {
       "id": "transformation-graph-05",
@@ -642,7 +670,9 @@
         "sourceNumber": 5,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 15
     },
     {
       "id": "transformation-description-05",
@@ -701,7 +731,9 @@
         "sourceNumber": 5,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 16
     },
     {
       "id": "transformation-graph-06",
@@ -760,7 +792,9 @@
         "sourceNumber": 6,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 17
     },
     {
       "id": "transformation-description-06",
@@ -819,7 +853,9 @@
         "sourceNumber": 6,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 18
     },
     {
       "id": "transformation-graph-07",
@@ -878,7 +914,9 @@
         "sourceNumber": 7,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 19
     },
     {
       "id": "transformation-description-07",
@@ -937,7 +975,9 @@
         "sourceNumber": 7,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 20
     },
     {
       "id": "transformation-graph-08",
@@ -996,7 +1036,9 @@
         "sourceNumber": 8,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 21
     },
     {
       "id": "transformation-description-08",
@@ -1055,7 +1097,9 @@
         "sourceNumber": 8,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 22
     },
     {
       "id": "transformation-graph-09",
@@ -1114,7 +1158,9 @@
         "sourceNumber": 9,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 23
     },
     {
       "id": "transformation-description-09",
@@ -1173,7 +1219,9 @@
         "sourceNumber": 9,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 24
     },
     {
       "id": "transformation-graph-10",
@@ -1232,7 +1280,9 @@
         "sourceNumber": 10,
         "kind": "graph"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 25
     },
     {
       "id": "transformation-description-10",
@@ -1291,7 +1341,9 @@
         "sourceNumber": 10,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 26
     },
     {
       "id": "transformation-description-23",
@@ -1350,7 +1402,9 @@
         "sourceNumber": 23,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 27
     },
     {
       "id": "transformation-description-24",
@@ -1409,7 +1463,9 @@
         "sourceNumber": 24,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 28
     },
     {
       "id": "transformation-description-25",
@@ -1468,7 +1524,9 @@
         "sourceNumber": 25,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 29
     },
     {
       "id": "transformation-description-26",
@@ -1527,7 +1585,9 @@
         "sourceNumber": 26,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 30
     },
     {
       "id": "transformation-description-27",
@@ -1586,7 +1646,9 @@
         "sourceNumber": 27,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 31
     },
     {
       "id": "transformation-description-28",
@@ -1645,7 +1707,9 @@
         "sourceNumber": 28,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 32
     },
     {
       "id": "transformation-description-29",
@@ -1704,7 +1768,9 @@
         "sourceNumber": 29,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 33
     },
     {
       "id": "transformation-description-30",
@@ -1763,7 +1829,9 @@
         "sourceNumber": 30,
         "kind": "description"
       },
-      "section": "Quadratic transformations · تحويلات الدوال التربيعية"
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 34
     },
     {
       "id": "equation-solutions-05",
@@ -1791,7 +1859,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 35
     },
     {
       "id": "equation-solutions-06",
@@ -1819,7 +1889,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 36
     },
     {
       "id": "equation-solutions-07",
@@ -1847,7 +1919,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 37
     },
     {
       "id": "equation-solutions-08",
@@ -1875,7 +1949,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 38
     },
     {
       "id": "equation-solutions-09",
@@ -1903,7 +1979,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 39
     },
     {
       "id": "equation-solutions-10",
@@ -1931,7 +2009,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Solving quadratic equations · حل المعادلات التربيعية"
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 40
     },
     {
       "id": "application-29-time",
@@ -1959,7 +2039,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Quadratic applications · تطبيقات المعادلات التربيعية"
+      "section": "Quadratic applications · تطبيقات المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 41
     },
     {
       "id": "application-29-factors",
@@ -1987,7 +2069,9 @@
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "section": "Quadratic applications · تطبيقات المعادلات التربيعية"
+      "section": "Quadratic applications · تطبيقات المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 42
     },
     {
       "id": "application-30-factors",
@@ -2015,7 +2099,9 @@
       "diagram": "box-net",
       "difficulty": "Standard",
       "image": "",
-      "section": "Quadratic applications · تطبيقات المعادلات التربيعية"
+      "section": "Quadratic applications · تطبيقات المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 43
     },
     {
       "id": "application-30-volume",
@@ -2043,7 +2129,9 @@
       "diagram": "box-net",
       "difficulty": "Standard",
       "image": "",
-      "section": "Quadratic applications · تطبيقات المعادلات التربيعية"
+      "section": "Quadratic applications · تطبيقات المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 44
     },
     {
       "id": "graph-to-function-31",
@@ -2086,7 +2174,9 @@
         "sourceNumber": 31,
         "yStep": 1
       },
-      "section": "Write a quadratic function · كتابة دالة تربيعية"
+      "section": "Write a quadratic function · كتابة دالة تربيعية",
+      "classroom": "10G3",
+      "position": 45
     },
     {
       "id": "graph-to-function-32",
@@ -2129,7 +2219,9 @@
         "sourceNumber": 32,
         "yStep": 1
       },
-      "section": "Write a quadratic function · كتابة دالة تربيعية"
+      "section": "Write a quadratic function · كتابة دالة تربيعية",
+      "classroom": "10G3",
+      "position": 46
     },
     {
       "id": "graph-to-function-33",
@@ -2172,7 +2264,9 @@
         "sourceNumber": 33,
         "yStep": 1
       },
-      "section": "Write a quadratic function · كتابة دالة تربيعية"
+      "section": "Write a quadratic function · كتابة دالة تربيعية",
+      "classroom": "10G3",
+      "position": 47
     },
     {
       "id": "graph-to-function-34",
@@ -2215,7 +2309,1729 @@
         "sourceNumber": 34,
         "yStep": 2
       },
-      "section": "Write a quadratic function · كتابة دالة تربيعية"
+      "section": "Write a quadratic function · كتابة دالة تربيعية",
+      "classroom": "10G3",
+      "position": 48
+    },
+    {
+      "id": "10a1-dilation-13-graph",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 13 · Choose the graph · اختر الرسم",
+      "marks": 1,
+      "prompt": "A triangle has vertices $F(-10,4)$, $G(-4,4)$, $H(-4,-8)$. Apply a dilation centered at the origin with scale factor $k=0.25$. Which graph shows the image after dilation? The original is dashed grey; the image is solid blue. All choices use the same scale.",
+      "promptAr": "رؤوس المثلث هي $F(-10,4)$, $G(-4,4)$, $H(-4,-8)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=0.25$. أي رسم بياني يمثل الصورة بعد التمدد؟ الرسم الأصلي رمادي متقطع، والصورة باللون الأزرق. جميع الخيارات تستخدم المقياس نفسه.",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "answer": "Correct option: A.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $0.25$. The image vertices are $F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$.",
+      "answerAr": "الإجابة الصحيحة: A.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $0.25$. رؤوس الصورة هي $F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "graph",
+        "labels": [
+          "F",
+          "G",
+          "H"
+        ],
+        "vertices": [
+          [
+            -10,
+            4
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -4,
+            -8
+          ]
+        ],
+        "k": 0.25,
+        "target": [
+          [
+            -2.5,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -2.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -2.5,
+              1.0
+            ],
+            [
+              -1.0,
+              1.0
+            ],
+            [
+              -1.0,
+              -2.0
+            ]
+          ],
+          [
+            [
+              2.5,
+              -1.0
+            ],
+            [
+              1.0,
+              -1.0
+            ],
+            [
+              1.0,
+              2.0
+            ]
+          ],
+          [
+            [
+              -2.5,
+              4
+            ],
+            [
+              -1.0,
+              4
+            ],
+            [
+              -1.0,
+              -8
+            ]
+          ],
+          [
+            [
+              -10,
+              1.0
+            ],
+            [
+              -4,
+              1.0
+            ],
+            [
+              -4,
+              -2.0
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 1
+    },
+    {
+      "id": "10a1-dilation-14-graph",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 14 · Choose the graph · اختر الرسم",
+      "marks": 1,
+      "prompt": "A triangle has vertices $X(2,-1)$, $Y(-6,4)$, $Z(-2,-5)$. Apply a dilation centered at the origin with scale factor $k=\\frac54$. Which graph shows the image after dilation? The original is dashed grey; the image is solid blue. All choices use the same scale.",
+      "promptAr": "رؤوس المثلث هي $X(2,-1)$, $Y(-6,4)$, $Z(-2,-5)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=\\frac54$. أي رسم بياني يمثل الصورة بعد التمدد؟ الرسم الأصلي رمادي متقطع، والصورة باللون الأزرق. جميع الخيارات تستخدم المقياس نفسه.",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 1,
+      "answer": "Correct option: B.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $\\frac54$. The image vertices are $X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $\\frac54$. رؤوس الصورة هي $X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "graph",
+        "labels": [
+          "X",
+          "Y",
+          "Z"
+        ],
+        "vertices": [
+          [
+            2,
+            -1
+          ],
+          [
+            -6,
+            4
+          ],
+          [
+            -2,
+            -5
+          ]
+        ],
+        "k": 1.25,
+        "target": [
+          [
+            2.5,
+            -1.25
+          ],
+          [
+            -7.5,
+            5.0
+          ],
+          [
+            -2.5,
+            -6.25
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -2.5,
+              1.25
+            ],
+            [
+              7.5,
+              -5.0
+            ],
+            [
+              2.5,
+              6.25
+            ]
+          ],
+          [
+            [
+              2.5,
+              -1.25
+            ],
+            [
+              -7.5,
+              5.0
+            ],
+            [
+              -2.5,
+              -6.25
+            ]
+          ],
+          [
+            [
+              2.5,
+              -1
+            ],
+            [
+              -7.5,
+              4
+            ],
+            [
+              -2.5,
+              -5
+            ]
+          ],
+          [
+            [
+              2,
+              -1.25
+            ],
+            [
+              -6,
+              5.0
+            ],
+            [
+              -2,
+              -6.25
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 2
+    },
+    {
+      "id": "10a1-dilation-15-graph",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 15 · Choose the graph · اختر الرسم",
+      "marks": 1,
+      "prompt": "A triangle has vertices $M(4,6)$, $N(-6,2)$, $P(0,-8)$. Apply a dilation centered at the origin with scale factor $k=\\frac34$. Which graph shows the image after dilation? The original is dashed grey; the image is solid blue. All choices use the same scale.",
+      "promptAr": "رؤوس المثلث هي $M(4,6)$, $N(-6,2)$, $P(0,-8)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=\\frac34$. أي رسم بياني يمثل الصورة بعد التمدد؟ الرسم الأصلي رمادي متقطع، والصورة باللون الأزرق. جميع الخيارات تستخدم المقياس نفسه.",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 2,
+      "answer": "Correct option: C.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $\\frac34$. The image vertices are $M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$.",
+      "answerAr": "الإجابة الصحيحة: C.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $\\frac34$. رؤوس الصورة هي $M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "graph",
+        "labels": [
+          "M",
+          "N",
+          "P"
+        ],
+        "vertices": [
+          [
+            4,
+            6
+          ],
+          [
+            -6,
+            2
+          ],
+          [
+            0,
+            -8
+          ]
+        ],
+        "k": 0.75,
+        "target": [
+          [
+            3.0,
+            4.5
+          ],
+          [
+            -4.5,
+            1.5
+          ],
+          [
+            0.0,
+            -6.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -3.0,
+              -4.5
+            ],
+            [
+              4.5,
+              -1.5
+            ],
+            [
+              -0.0,
+              6.0
+            ]
+          ],
+          [
+            [
+              3.0,
+              6
+            ],
+            [
+              -4.5,
+              2
+            ],
+            [
+              0.0,
+              -8
+            ]
+          ],
+          [
+            [
+              3.0,
+              4.5
+            ],
+            [
+              -4.5,
+              1.5
+            ],
+            [
+              0.0,
+              -6.0
+            ]
+          ],
+          [
+            [
+              4,
+              4.5
+            ],
+            [
+              -6,
+              1.5
+            ],
+            [
+              0,
+              -6.0
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 3
+    },
+    {
+      "id": "10a1-dilation-16-graph",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 16 · Choose the graph · اختر الرسم",
+      "marks": 1,
+      "prompt": "A triangle has vertices $R(-2,6)$, $S(0,-1)$, $T(-5,3)$. Apply a dilation centered at the origin with scale factor $k=1.5$. Which graph shows the image after dilation? The original is dashed grey; the image is solid blue. All choices use the same scale.",
+      "promptAr": "رؤوس المثلث هي $R(-2,6)$, $S(0,-1)$, $T(-5,3)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=1.5$. أي رسم بياني يمثل الصورة بعد التمدد؟ الرسم الأصلي رمادي متقطع، والصورة باللون الأزرق. جميع الخيارات تستخدم المقياس نفسه.",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 3,
+      "answer": "Correct option: D.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $1.5$. The image vertices are $R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$.",
+      "answerAr": "الإجابة الصحيحة: D.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $1.5$. رؤوس الصورة هي $R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "graph",
+        "labels": [
+          "R",
+          "S",
+          "T"
+        ],
+        "vertices": [
+          [
+            -2,
+            6
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -5,
+            3
+          ]
+        ],
+        "k": 1.5,
+        "target": [
+          [
+            -3.0,
+            9.0
+          ],
+          [
+            0.0,
+            -1.5
+          ],
+          [
+            -7.5,
+            4.5
+          ]
+        ],
+        "choices": [
+          [
+            [
+              3.0,
+              -9.0
+            ],
+            [
+              -0.0,
+              1.5
+            ],
+            [
+              7.5,
+              -4.5
+            ]
+          ],
+          [
+            [
+              -3.0,
+              6
+            ],
+            [
+              0.0,
+              -1
+            ],
+            [
+              -7.5,
+              3
+            ]
+          ],
+          [
+            [
+              -2,
+              9.0
+            ],
+            [
+              0,
+              -1.5
+            ],
+            [
+              -5,
+              4.5
+            ]
+          ],
+          [
+            [
+              -3.0,
+              9.0
+            ],
+            [
+              0.0,
+              -1.5
+            ],
+            [
+              -7.5,
+              4.5
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 4
+    },
+    {
+      "id": "10a1-dilation-17-graph",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 5 · Choose the graph · اختر الرسم",
+      "marks": 1,
+      "prompt": "A triangle has vertices $A(2,2)$, $B(3,4)$, $C(5,2)$. Apply a dilation centered at the origin with scale factor $k=2.5$. Which graph shows the image after dilation? The original is dashed grey; the image is solid blue. All choices use the same scale.",
+      "promptAr": "رؤوس المثلث هي $A(2,2)$, $B(3,4)$, $C(5,2)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=2.5$. أي رسم بياني يمثل الصورة بعد التمدد؟ الرسم الأصلي رمادي متقطع، والصورة باللون الأزرق. جميع الخيارات تستخدم المقياس نفسه.",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "answer": "Correct option: A.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $2.5$. The image vertices are $A'(5, 5), B'(7.5, 10), C'(12.5, 5)$.",
+      "answerAr": "الإجابة الصحيحة: A.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $2.5$. رؤوس الصورة هي $A'(5, 5), B'(7.5, 10), C'(12.5, 5)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "graph",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "vertices": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "k": 2.5,
+        "target": [
+          [
+            5.0,
+            5.0
+          ],
+          [
+            7.5,
+            10.0
+          ],
+          [
+            12.5,
+            5.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              5.0,
+              5.0
+            ],
+            [
+              7.5,
+              10.0
+            ],
+            [
+              12.5,
+              5.0
+            ]
+          ],
+          [
+            [
+              -5.0,
+              -5.0
+            ],
+            [
+              -7.5,
+              -10.0
+            ],
+            [
+              -12.5,
+              -5.0
+            ]
+          ],
+          [
+            [
+              5.0,
+              2
+            ],
+            [
+              7.5,
+              4
+            ],
+            [
+              12.5,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              5.0
+            ],
+            [
+              3,
+              10.0
+            ],
+            [
+              5,
+              5.0
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 5
+    },
+    {
+      "id": "10a1-dilation-13-coordinates",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 13 · New coordinates · الإحداثيات الجديدة",
+      "marks": 1,
+      "prompt": "A triangle has vertices $F(-10,4)$, $G(-4,4)$, $H(-4,-8)$. Apply a dilation centered at the origin with scale factor $k=0.25$. Which set lists the new ordered pairs of the image vertices?",
+      "promptAr": "رؤوس المثلث هي $F(-10,4)$, $G(-4,4)$, $H(-4,-8)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=0.25$. أي مجموعة تمثل الأزواج المرتبة الجديدة لرؤوس الصورة؟",
+      "options": [
+        "$F'(2.5, -1), G'(1, -1), H'(1, 2)$",
+        "$F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$",
+        "$F'(-2.5, 4), G'(-1, 4), H'(-1, -8)$",
+        "$F'(-10, 1), G'(-4, 1), H'(-4, -2)$"
+      ],
+      "optionsAr": [
+        "$F'(2.5, -1), G'(1, -1), H'(1, 2)$",
+        "$F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$",
+        "$F'(-2.5, 4), G'(-1, 4), H'(-1, -8)$",
+        "$F'(-10, 1), G'(-4, 1), H'(-4, -2)$"
+      ],
+      "correctIndex": 1,
+      "answer": "Correct option: B.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $0.25$. The image vertices are $F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $0.25$. رؤوس الصورة هي $F'(-2.5, 1), G'(-1, 1), H'(-1, -2)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "coordinates",
+        "labels": [
+          "F",
+          "G",
+          "H"
+        ],
+        "vertices": [
+          [
+            -10,
+            4
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -4,
+            -8
+          ]
+        ],
+        "k": 0.25,
+        "target": [
+          [
+            -2.5,
+            1.0
+          ],
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -1.0,
+            -2.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              2.5,
+              -1.0
+            ],
+            [
+              1.0,
+              -1.0
+            ],
+            [
+              1.0,
+              2.0
+            ]
+          ],
+          [
+            [
+              -2.5,
+              1.0
+            ],
+            [
+              -1.0,
+              1.0
+            ],
+            [
+              -1.0,
+              -2.0
+            ]
+          ],
+          [
+            [
+              -2.5,
+              4
+            ],
+            [
+              -1.0,
+              4
+            ],
+            [
+              -1.0,
+              -8
+            ]
+          ],
+          [
+            [
+              -10,
+              1.0
+            ],
+            [
+              -4,
+              1.0
+            ],
+            [
+              -4,
+              -2.0
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 6
+    },
+    {
+      "id": "10a1-dilation-14-coordinates",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 14 · New coordinates · الإحداثيات الجديدة",
+      "marks": 1,
+      "prompt": "A triangle has vertices $X(2,-1)$, $Y(-6,4)$, $Z(-2,-5)$. Apply a dilation centered at the origin with scale factor $k=\\frac54$. Which set lists the new ordered pairs of the image vertices?",
+      "promptAr": "رؤوس المثلث هي $X(2,-1)$, $Y(-6,4)$, $Z(-2,-5)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=\\frac54$. أي مجموعة تمثل الأزواج المرتبة الجديدة لرؤوس الصورة؟",
+      "options": [
+        "$X'(-2.5, 1.25), Y'(7.5, -5), Z'(2.5, 6.25)$",
+        "$X'(2.5, -1), Y'(-7.5, 4), Z'(-2.5, -5)$",
+        "$X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$",
+        "$X'(2, -1.25), Y'(-6, 5), Z'(-2, -6.25)$"
+      ],
+      "optionsAr": [
+        "$X'(-2.5, 1.25), Y'(7.5, -5), Z'(2.5, 6.25)$",
+        "$X'(2.5, -1), Y'(-7.5, 4), Z'(-2.5, -5)$",
+        "$X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$",
+        "$X'(2, -1.25), Y'(-6, 5), Z'(-2, -6.25)$"
+      ],
+      "correctIndex": 2,
+      "answer": "Correct option: C.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $\\frac54$. The image vertices are $X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$.",
+      "answerAr": "الإجابة الصحيحة: C.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $\\frac54$. رؤوس الصورة هي $X'(2.5, -1.25), Y'(-7.5, 5), Z'(-2.5, -6.25)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "coordinates",
+        "labels": [
+          "X",
+          "Y",
+          "Z"
+        ],
+        "vertices": [
+          [
+            2,
+            -1
+          ],
+          [
+            -6,
+            4
+          ],
+          [
+            -2,
+            -5
+          ]
+        ],
+        "k": 1.25,
+        "target": [
+          [
+            2.5,
+            -1.25
+          ],
+          [
+            -7.5,
+            5.0
+          ],
+          [
+            -2.5,
+            -6.25
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -2.5,
+              1.25
+            ],
+            [
+              7.5,
+              -5.0
+            ],
+            [
+              2.5,
+              6.25
+            ]
+          ],
+          [
+            [
+              2.5,
+              -1
+            ],
+            [
+              -7.5,
+              4
+            ],
+            [
+              -2.5,
+              -5
+            ]
+          ],
+          [
+            [
+              2.5,
+              -1.25
+            ],
+            [
+              -7.5,
+              5.0
+            ],
+            [
+              -2.5,
+              -6.25
+            ]
+          ],
+          [
+            [
+              2,
+              -1.25
+            ],
+            [
+              -6,
+              5.0
+            ],
+            [
+              -2,
+              -6.25
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 7
+    },
+    {
+      "id": "10a1-dilation-15-coordinates",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 15 · New coordinates · الإحداثيات الجديدة",
+      "marks": 1,
+      "prompt": "A triangle has vertices $M(4,6)$, $N(-6,2)$, $P(0,-8)$. Apply a dilation centered at the origin with scale factor $k=\\frac34$. Which set lists the new ordered pairs of the image vertices?",
+      "promptAr": "رؤوس المثلث هي $M(4,6)$, $N(-6,2)$, $P(0,-8)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=\\frac34$. أي مجموعة تمثل الأزواج المرتبة الجديدة لرؤوس الصورة؟",
+      "options": [
+        "$M'(-3, -4.5), N'(4.5, -1.5), P'(-0, 6)$",
+        "$M'(3, 6), N'(-4.5, 2), P'(0, -8)$",
+        "$M'(4, 4.5), N'(-6, 1.5), P'(0, -6)$",
+        "$M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$"
+      ],
+      "optionsAr": [
+        "$M'(-3, -4.5), N'(4.5, -1.5), P'(-0, 6)$",
+        "$M'(3, 6), N'(-4.5, 2), P'(0, -8)$",
+        "$M'(4, 4.5), N'(-6, 1.5), P'(0, -6)$",
+        "$M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$"
+      ],
+      "correctIndex": 3,
+      "answer": "Correct option: D.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $\\frac34$. The image vertices are $M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$.",
+      "answerAr": "الإجابة الصحيحة: D.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $\\frac34$. رؤوس الصورة هي $M'(3, 4.5), N'(-4.5, 1.5), P'(0, -6)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "coordinates",
+        "labels": [
+          "M",
+          "N",
+          "P"
+        ],
+        "vertices": [
+          [
+            4,
+            6
+          ],
+          [
+            -6,
+            2
+          ],
+          [
+            0,
+            -8
+          ]
+        ],
+        "k": 0.75,
+        "target": [
+          [
+            3.0,
+            4.5
+          ],
+          [
+            -4.5,
+            1.5
+          ],
+          [
+            0.0,
+            -6.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -3.0,
+              -4.5
+            ],
+            [
+              4.5,
+              -1.5
+            ],
+            [
+              -0.0,
+              6.0
+            ]
+          ],
+          [
+            [
+              3.0,
+              6
+            ],
+            [
+              -4.5,
+              2
+            ],
+            [
+              0.0,
+              -8
+            ]
+          ],
+          [
+            [
+              4,
+              4.5
+            ],
+            [
+              -6,
+              1.5
+            ],
+            [
+              0,
+              -6.0
+            ]
+          ],
+          [
+            [
+              3.0,
+              4.5
+            ],
+            [
+              -4.5,
+              1.5
+            ],
+            [
+              0.0,
+              -6.0
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 8
+    },
+    {
+      "id": "10a1-dilation-16-coordinates",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 16 · New coordinates · الإحداثيات الجديدة",
+      "marks": 1,
+      "prompt": "A triangle has vertices $R(-2,6)$, $S(0,-1)$, $T(-5,3)$. Apply a dilation centered at the origin with scale factor $k=1.5$. Which set lists the new ordered pairs of the image vertices?",
+      "promptAr": "رؤوس المثلث هي $R(-2,6)$, $S(0,-1)$, $T(-5,3)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=1.5$. أي مجموعة تمثل الأزواج المرتبة الجديدة لرؤوس الصورة؟",
+      "options": [
+        "$R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$",
+        "$R'(3, -9), S'(-0, 1.5), T'(7.5, -4.5)$",
+        "$R'(-3, 6), S'(0, -1), T'(-7.5, 3)$",
+        "$R'(-2, 9), S'(0, -1.5), T'(-5, 4.5)$"
+      ],
+      "optionsAr": [
+        "$R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$",
+        "$R'(3, -9), S'(-0, 1.5), T'(7.5, -4.5)$",
+        "$R'(-3, 6), S'(0, -1), T'(-7.5, 3)$",
+        "$R'(-2, 9), S'(0, -1.5), T'(-5, 4.5)$"
+      ],
+      "correctIndex": 0,
+      "answer": "Correct option: A.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $1.5$. The image vertices are $R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$.",
+      "answerAr": "الإجابة الصحيحة: A.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $1.5$. رؤوس الصورة هي $R'(-3, 9), S'(0, -1.5), T'(-7.5, 4.5)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "coordinates",
+        "labels": [
+          "R",
+          "S",
+          "T"
+        ],
+        "vertices": [
+          [
+            -2,
+            6
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -5,
+            3
+          ]
+        ],
+        "k": 1.5,
+        "target": [
+          [
+            -3.0,
+            9.0
+          ],
+          [
+            0.0,
+            -1.5
+          ],
+          [
+            -7.5,
+            4.5
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -3.0,
+              9.0
+            ],
+            [
+              0.0,
+              -1.5
+            ],
+            [
+              -7.5,
+              4.5
+            ]
+          ],
+          [
+            [
+              3.0,
+              -9.0
+            ],
+            [
+              -0.0,
+              1.5
+            ],
+            [
+              7.5,
+              -4.5
+            ]
+          ],
+          [
+            [
+              -3.0,
+              6
+            ],
+            [
+              0.0,
+              -1
+            ],
+            [
+              -7.5,
+              3
+            ]
+          ],
+          [
+            [
+              -2,
+              9.0
+            ],
+            [
+              0,
+              -1.5
+            ],
+            [
+              -5,
+              4.5
+            ]
+          ]
+        ],
+        "focus": null
+      },
+      "position": 9
+    },
+    {
+      "id": "10a1-dilation-17-coordinates",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Dilations centered at the origin · التمدد حول نقطة الأصل",
+      "topic": "Dilation 5 · New coordinates · الإحداثيات الجديدة",
+      "marks": 1,
+      "prompt": "A triangle has vertices $A(2,2)$, $B(3,4)$, $C(5,2)$. Apply a dilation centered at the origin with scale factor $k=2.5$. What are the new coordinates of $C'$?",
+      "promptAr": "رؤوس المثلث هي $A(2,2)$, $B(3,4)$, $C(5,2)$. نطبق تمدداً مركزه نقطة الأصل ومعامله $k=2.5$. ما إحداثيات النقطة $C'$ بعد التمدد؟",
+      "options": [
+        "$C'(-12.5, -5)$",
+        "$C'(12.5, 5)$",
+        "$C'(12.5, 2)$",
+        "$C'(5, 5)$"
+      ],
+      "optionsAr": [
+        "$C'(-12.5, -5)$",
+        "$C'(12.5, 5)$",
+        "$C'(12.5, 2)$",
+        "$C'(5, 5)$"
+      ],
+      "correctIndex": 1,
+      "answer": "Correct option: B.\nFor a dilation centered at the origin, $(x,y)\\mapsto(kx,ky)$. Multiply both coordinates by $2.5$. The image vertices are $A'(5, 5), B'(7.5, 10), C'(12.5, 5)$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي التمدد الذي مركزه نقطة الأصل نطبق $(x,y)\\mapsto(kx,ky)$. نضرب كلا الإحداثيين في $2.5$. رؤوس الصورة هي $A'(5, 5), B'(7.5, 10), C'(12.5, 5)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilation": {
+        "kind": "coordinates",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "vertices": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "k": 2.5,
+        "target": [
+          [
+            12.5,
+            5.0
+          ]
+        ],
+        "choices": [
+          [
+            [
+              -12.5,
+              -5.0
+            ]
+          ],
+          [
+            [
+              12.5,
+              5.0
+            ]
+          ],
+          [
+            [
+              12.5,
+              2
+            ]
+          ],
+          [
+            [
+              5,
+              5.0
+            ]
+          ]
+        ],
+        "focus": 2
+      },
+      "position": 10
+    },
+    {
+      "id": "10a1-dilation-scale-10",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Scale factors and dilation type · معامل التمدد ونوعه",
+      "topic": "Dilation 10 · Scale and type · المعامل والنوع",
+      "marks": 1,
+      "prompt": "The blue polygon is the original; the green polygon is its image after a dilation centered at the origin. Find the scale factor from the original to the image, and classify the dilation as an enlargement or reduction.",
+      "promptAr": "المضلع الأزرق هو الشكل الأصلي، والمضلع الأخضر صورته بعد تمدد مركزه نقطة الأصل. أوجد معامل التمدد من الشكل الأصلي إلى الصورة، ثم حدد هل التمدد تكبير أم تصغير.",
+      "options": [
+        "$k=\\frac12$; reduction.",
+        "$k=2$; reduction.",
+        "$k=2$; enlargement.",
+        "$k=\\frac12$; enlargement."
+      ],
+      "optionsAr": [
+        "$k=\\frac12$؛ تصغير.",
+        "$k=2$؛ تصغير.",
+        "$k=2$؛ تكبير.",
+        "$k=\\frac12$؛ تكبير."
+      ],
+      "correctIndex": 2,
+      "answer": "Correct option: C.\nUse image distance divided by original distance from the origin: $k=\\frac{8}{4}=2$. Since $k>1$, the dilation is an enlargement.",
+      "answerAr": "الإجابة الصحيحة: C.\nنقسم بُعد الصورة عن نقطة الأصل على بُعد النقطة الأصلية عنها: $k=\\frac{8}{4}=2$. بما أن $k>1$ فالتمدد تكبير.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilationScale": {
+        "k": 2,
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "image": [
+          [
+            4,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "labels": [
+          "J",
+          "K",
+          "P"
+        ],
+        "bounds": [
+          -1,
+          9,
+          -1,
+          9
+        ],
+        "step": 1,
+        "choices": [
+          {
+            "k": 0.5,
+            "type": "reduction"
+          },
+          {
+            "k": 2,
+            "type": "reduction"
+          },
+          {
+            "k": 2,
+            "type": "enlargement"
+          },
+          {
+            "k": 0.5,
+            "type": "enlargement"
+          }
+        ]
+      },
+      "position": 11
+    },
+    {
+      "id": "10a1-dilation-scale-11",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Scale factors and dilation type · معامل التمدد ونوعه",
+      "topic": "Dilation 11 · Scale and type · المعامل والنوع",
+      "marks": 1,
+      "prompt": "The blue polygon is the original; the green polygon is its image after a dilation centered at the origin. Find the scale factor from the original to the image, and classify the dilation as an enlargement or reduction.",
+      "promptAr": "المضلع الأزرق هو الشكل الأصلي، والمضلع الأخضر صورته بعد تمدد مركزه نقطة الأصل. أوجد معامل التمدد من الشكل الأصلي إلى الصورة، ثم حدد هل التمدد تكبير أم تصغير.",
+      "options": [
+        "$k=\\frac23$; reduction.",
+        "$k=\\frac32$; reduction.",
+        "$k=\\frac23$; enlargement.",
+        "$k=\\frac32$; enlargement."
+      ],
+      "optionsAr": [
+        "$k=\\frac23$؛ تصغير.",
+        "$k=\\frac32$؛ تصغير.",
+        "$k=\\frac23$؛ تكبير.",
+        "$k=\\frac32$؛ تكبير."
+      ],
+      "correctIndex": 3,
+      "answer": "Correct option: D.\nUse image distance divided by original distance from the origin: $k=\\frac{3}{2}=1.5$. Since $k>1$, the dilation is an enlargement.",
+      "answerAr": "الإجابة الصحيحة: D.\nنقسم بُعد الصورة عن نقطة الأصل على بُعد النقطة الأصلية عنها: $k=\\frac{3}{2}=1.5$. بما أن $k>1$ فالتمدد تكبير.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilationScale": {
+        "k": 1.5,
+        "vertices": [
+          [
+            -2,
+            0
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "image": [
+          [
+            -3.0,
+            0.0
+          ],
+          [
+            3.0,
+            -3.0
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "labels": [
+          "D",
+          "F",
+          "G"
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "step": 1,
+        "choices": [
+          {
+            "k": 0.6666666666666666,
+            "type": "reduction"
+          },
+          {
+            "k": 1.5,
+            "type": "reduction"
+          },
+          {
+            "k": 0.6666666666666666,
+            "type": "enlargement"
+          },
+          {
+            "k": 1.5,
+            "type": "enlargement"
+          }
+        ]
+      },
+      "position": 12
+    },
+    {
+      "id": "10a1-dilation-scale-12",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Scale factors and dilation type · معامل التمدد ونوعه",
+      "topic": "Dilation 12 · Scale and type · المعامل والنوع",
+      "marks": 1,
+      "prompt": "Tyrone dilated a logo. The original is blue and its image is green. Find the scale factor from the original to the image, and classify the dilation as an enlargement or reduction.",
+      "promptAr": "رسم تايرون شعاراً وصورته بعد التمدد. الشكل الأصلي أزرق وصورته خضراء. أوجد معامل التمدد من الشكل الأصلي إلى الصورة، ثم حدد هل التمدد تكبير أم تصغير.",
+      "options": [
+        "$k=\\frac52$; enlargement.",
+        "$k=\\frac25$; reduction.",
+        "$k=\\frac52$; reduction.",
+        "$k=\\frac25$; enlargement."
+      ],
+      "optionsAr": [
+        "$k=\\frac52$؛ تكبير.",
+        "$k=\\frac25$؛ تصغير.",
+        "$k=\\frac52$؛ تصغير.",
+        "$k=\\frac25$؛ تكبير."
+      ],
+      "correctIndex": 0,
+      "answer": "Correct option: A.\nUse image distance divided by original distance from the origin: $k=\\frac{5}{2}=2.5$. Since $k>1$, the dilation is an enlargement.",
+      "answerAr": "الإجابة الصحيحة: A.\nنقسم بُعد الصورة عن نقطة الأصل على بُعد النقطة الأصلية عنها: $k=\\frac{5}{2}=2.5$. بما أن $k>1$ فالتمدد تكبير.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilationScale": {
+        "k": 2.5,
+        "vertices": [
+          [
+            -2,
+            3
+          ],
+          [
+            0.25,
+            1.25
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            0,
+            0.5
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -0.5,
+            1.25
+          ]
+        ],
+        "image": [
+          [
+            -5.0,
+            7.5
+          ],
+          [
+            0.625,
+            3.125
+          ],
+          [
+            5.0,
+            5.0
+          ],
+          [
+            1.875,
+            1.25
+          ],
+          [
+            5.0,
+            -2.5
+          ],
+          [
+            0.0,
+            1.25
+          ],
+          [
+            -5.0,
+            0.0
+          ],
+          [
+            -1.25,
+            3.125
+          ]
+        ],
+        "labels": [],
+        "bounds": [
+          -7,
+          7,
+          -5,
+          9
+        ],
+        "step": 1,
+        "choices": [
+          {
+            "k": 2.5,
+            "type": "enlargement"
+          },
+          {
+            "k": 0.4,
+            "type": "reduction"
+          },
+          {
+            "k": 2.5,
+            "type": "reduction"
+          },
+          {
+            "k": 0.4,
+            "type": "enlargement"
+          }
+        ]
+      },
+      "position": 13
+    },
+    {
+      "id": "10a1-dilation-scale-17",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Scale factors and dilation type · معامل التمدد ونوعه",
+      "topic": "Dilation 17 · Scale and type · المعامل والنوع",
+      "marks": 1,
+      "prompt": "The blue polygon is the original; the green polygon is its image after a dilation centered at the origin. Find the scale factor from the original to the image, and classify the dilation as an enlargement or reduction.",
+      "promptAr": "المضلع الأزرق هو الشكل الأصلي، والمضلع الأخضر صورته بعد تمدد مركزه نقطة الأصل. أوجد معامل التمدد من الشكل الأصلي إلى الصورة، ثم حدد هل التمدد تكبير أم تصغير.",
+      "options": [
+        "$k=\\frac32$; enlargement.",
+        "$k=\\frac23$; reduction.",
+        "$k=\\frac23$; enlargement.",
+        "$k=\\frac32$; reduction."
+      ],
+      "optionsAr": [
+        "$k=\\frac32$؛ تكبير.",
+        "$k=\\frac23$؛ تصغير.",
+        "$k=\\frac23$؛ تكبير.",
+        "$k=\\frac32$؛ تصغير."
+      ],
+      "correctIndex": 1,
+      "answer": "Correct option: B.\nUse image distance divided by original distance from the origin: $k=\\frac{4}{6}=\\frac23$. Since $0<k<1$, the dilation is a reduction.",
+      "answerAr": "الإجابة الصحيحة: B.\nنقسم بُعد الصورة عن نقطة الأصل على بُعد النقطة الأصلية عنها: $k=\\frac{4}{6}=\\frac23$. بما أن $0<k<1$ فالتمدد تصغير.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilationScale": {
+        "k": 0.6666666666666666,
+        "vertices": [
+          [
+            -6,
+            6
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            -6
+          ],
+          [
+            -6,
+            -6
+          ]
+        ],
+        "image": [
+          [
+            -4.0,
+            4.0
+          ],
+          [
+            4.0,
+            2.0
+          ],
+          [
+            4.0,
+            -4.0
+          ],
+          [
+            -4.0,
+            -4.0
+          ]
+        ],
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "bounds": [
+          -8,
+          8,
+          -8,
+          8
+        ],
+        "step": 2,
+        "choices": [
+          {
+            "k": 1.5,
+            "type": "enlargement"
+          },
+          {
+            "k": 0.6666666666666666,
+            "type": "reduction"
+          },
+          {
+            "k": 0.6666666666666666,
+            "type": "enlargement"
+          },
+          {
+            "k": 1.5,
+            "type": "reduction"
+          }
+        ]
+      },
+      "position": 14
+    },
+    {
+      "id": "10a1-dilation-scale-18",
+      "classroom": "10A1",
+      "type": "MCQ",
+      "exam": "EOT · 10A1 · Week 8 Exam · امتحان الأسبوع الثامن",
+      "section": "Scale factors and dilation type · معامل التمدد ونوعه",
+      "topic": "Dilation 18 · Scale and type · المعامل والنوع",
+      "marks": 1,
+      "prompt": "The blue polygon is the original; the green polygon is its image after a dilation centered at the origin. Find the scale factor from the original to the image, and classify the dilation as an enlargement or reduction.",
+      "promptAr": "المضلع الأزرق هو الشكل الأصلي، والمضلع الأخضر صورته بعد تمدد مركزه نقطة الأصل. أوجد معامل التمدد من الشكل الأصلي إلى الصورة، ثم حدد هل التمدد تكبير أم تصغير.",
+      "options": [
+        "$k=\\frac23$; reduction.",
+        "$k=\\frac32$; reduction.",
+        "$k=\\frac32$; enlargement.",
+        "$k=\\frac23$; enlargement."
+      ],
+      "optionsAr": [
+        "$k=\\frac23$؛ تصغير.",
+        "$k=\\frac32$؛ تصغير.",
+        "$k=\\frac32$؛ تكبير.",
+        "$k=\\frac23$؛ تكبير."
+      ],
+      "correctIndex": 2,
+      "answer": "Correct option: C.\nUse image distance divided by original distance from the origin: $k=\\frac{6}{4}=\\frac32$. Since $k>1$, the dilation is an enlargement.",
+      "answerAr": "الإجابة الصحيحة: C.\nنقسم بُعد الصورة عن نقطة الأصل على بُعد النقطة الأصلية عنها: $k=\\frac{6}{4}=\\frac32$. بما أن $k>1$ فالتمدد تكبير.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "dilationScale": {
+        "k": 1.5,
+        "vertices": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            -4
+          ],
+          [
+            -4,
+            2
+          ]
+        ],
+        "image": [
+          [
+            3.0,
+            6.0
+          ],
+          [
+            6.0,
+            -6.0
+          ],
+          [
+            -6.0,
+            3.0
+          ]
+        ],
+        "labels": [
+          "P",
+          "Q",
+          "R"
+        ],
+        "bounds": [
+          -8,
+          8,
+          -8,
+          8
+        ],
+        "step": 2,
+        "choices": [
+          {
+            "k": 0.6666666666666666,
+            "type": "reduction"
+          },
+          {
+            "k": 1.5,
+            "type": "reduction"
+          },
+          {
+            "k": 1.5,
+            "type": "enlargement"
+          },
+          {
+            "k": 0.6666666666666666,
+            "type": "enlargement"
+          }
+        ]
+      },
+      "position": 15
     }
   ],
   "exam": {
@@ -2224,5 +4040,17 @@
     "grade": 10,
     "track": "General",
     "week": 8
-  }
+  },
+  "exams": [
+    {
+      "classroom": "10G3",
+      "title": "8th week exam",
+      "questions": 48
+    },
+    {
+      "classroom": "10A1",
+      "title": "8th week exam",
+      "questions": 15
+    }
+  ]
 }

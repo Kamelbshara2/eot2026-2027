@@ -1,6 +1,6 @@
 import {handleCors} from '../lib/cors.js';
 import {neon} from '@neondatabase/serverless';
-import {authorized} from './questions.js';
+import {getAdmin} from '../lib/admin-auth.js';
 export function validateStudent(input){
  if(!input||typeof input!=='object')return null;
  const {id,classroom,grade}=input;
@@ -13,7 +13,7 @@ export function createStudentHandler(getSql=()=>neon(process.env.DATABASE_URL)){
  return async(req,res)=>{
   res.setHeader('Cache-Control','no-store');if(handleCors(req,res))return;
   if(!['GET','POST'].includes(req.method)){res.setHeader('Allow','GET, POST');return res.status(405).json({error:'Method not allowed'})}
-  if(req.method==='GET'&&!authorized(req.headers.authorization,process.env.ADMIN_TOKEN))return res.status(401).json({error:'Admin key required'});
+  if(req.method==='GET'){try{if(!await getAdmin(req,getSql))return res.status(401).json({error:'Admin sign-in required'})}catch{return res.status(503).json({error:'Admin authorization unavailable'})}}
   let student;
   if(req.method==='POST'){
    if(!req.headers['content-type']?.toLowerCase().startsWith('application/json'))return res.status(415).json({error:'JSON required'});

@@ -1,3 +1,4 @@
+import {getAdmin} from '../lib/admin-auth.js';
 import {handleCors} from '../lib/cors.js';
 import { neon } from '@neondatabase/serverless';
 import { timingSafeEqual } from 'node:crypto';
@@ -5,7 +6,7 @@ import {valid} from '../lib/validation.js';
 export function authorized(header,expected){if(!expected||!header?.startsWith('Bearer '))return false;const a=Buffer.from(header.slice(7)),b=Buffer.from(expected);return a.length===b.length&&timingSafeEqual(a,b)}
 export function createHandler(getSql=()=>neon(process.env.DATABASE_URL)){
 return async function handler(req,res){res.setHeader('Cache-Control','no-store');if(handleCors(req,res))return;if(!['GET','POST'].includes(req.method)){res.setHeader('Allow','GET, POST');return res.status(405).json({error:'Method not allowed'})}
- if(req.method==='POST'&&!authorized(req.headers.authorization,process.env.ADMIN_TOKEN))return res.status(401).json({error:'Cloud editing key required'});
+ if(req.method==='POST'){try{if(!await getAdmin(req,getSql))return res.status(401).json({error:'Admin sign-in required'})}catch{return res.status(503).json({error:'Admin authorization unavailable'})}}
  if(!process.env.DATABASE_URL)return res.status(503).json({error:'Database not configured'});
  try{const sql=getSql();
  if(req.method==='GET'){const rows=await sql`SELECT id, data, revision, deleted FROM questions ORDER BY id`;return res.status(200).json({rows})}
