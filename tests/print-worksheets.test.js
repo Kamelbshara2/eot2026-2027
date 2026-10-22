@@ -30,3 +30,12 @@ test('paper worksheets never include keys, draft inputs or worked table values; 
 test('empty Cartesian planes use equal physical grid-square spacing and keep curves blank',()=>{
  for(const q of frqs.filter(q=>q.graphing)){const svg=blankQuadraticPlane(q.graphing),coords=svg.match(/data-draw-bounds="([^"]+)"/)[1].split(',').map(Number),[left,top,right,bottom]=coords,[xmin,xmax,ymin,ymax]=q.graphing.bounds;assert(Math.abs((right-left)/((xmax-xmin)/q.graphing.xStep)-(bottom-top)/((ymax-ymin)/q.graphing.yStep))<1e-9);assert(svg.includes('viewBox="0 0 600 410"'));assert(svg.includes('class="drawing"'));assert(!/NaN|Infinity/.test(svg));}
 });
+
+test('every printed page bears the teacher watermark and MCQs never become worksheets',()=>{
+ for(const q of bank.questions){
+  if(q.type==='MCQ'){assert.equal(printableQuestion(q),false);assert.throws(()=>worksheetPage(q),/no printable FRQ/);continue}
+  const html=worksheetPage(q);
+  assert.equal((html.match(/class="question-watermark"/g)||[]).length,1);
+  assert(html.includes('ألاستاذ كامل بشارة 0502837825'));
+ }
+});
