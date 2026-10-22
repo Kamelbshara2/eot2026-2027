@@ -42,3 +42,17 @@ Applications 29 and 30 each have two standalone bilingual MCQs: free-fall time a
 Graphs 31–34 each have a standalone bilingual MCQ showing a vector graph with four quadratic-function options. No feature-entry worksheet accompanies these MCQs. Graph 34 uses one unit per x step and two per y step; axis labels and question text state this explicitly.
 
 All 48 questions belong to the EOT Grade 10 General Week 8 exam. Each question stores the common bilingual exam title plus its original section for topic grouping. Existing exact starter records are upgraded without replacing teacher edits.
+
+## Railway deployment (recommended host)
+
+The app now includes a standalone Node.js production server and a multi-stage Docker build. Railway serves the frontend and `/api/questions` from one service; Neon remains the database. The existing Vercel adapter remains available.
+
+1. In Railway, create a project → Deploy from GitHub repo → `Kamelbshara2/eot2026-2027`, branch `main`.
+2. Set service variables `DATABASE_URL` (Neon connection string with TLS) and `ADMIN_TOKEN` (a long private editing key). Vercel variables do not transfer automatically. Do not add these to Git or Docker build arguments.
+3. Railway reads `railway.json`: build the Dockerfile, run `npm run db:migrate` before deployment, then `npm start`. Migrations create the schema, seed all 48 questions and update exact starter records while retaining custom edits and deletions. Missing database credentials stop the pre-deploy step.
+4. In the service Networking settings, generate a public domain. The server binds `0.0.0.0` and uses Railway's `PORT` automatically. Readiness checks use `/healthz`.
+5. Check `/` for the exam app and `/api/questions` for the database rows; enable cloud editing in the browser and verify synchronization from a second browser.
+
+For local production testing, run `npm run build` then `npm start` (default port 3000). Database settings can be loaded privately from `.env`; the static app still loads when the database is unavailable, and sync status reports the failure. A healthy `/healthz` indicates the HTTP process is running; database readiness requires a successful `/api/questions` request.
+
+CLI deployment requires a Railway project token supplied securely as `RAILWAY_TOKEN` in the execution environment. Never enter token values in chat or commit them. No Railway login or project provisioning is implied by these files.
