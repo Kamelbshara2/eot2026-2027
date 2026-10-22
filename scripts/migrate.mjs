@@ -3,6 +3,8 @@ import { readFile } from 'node:fs/promises';
 if(!process.env.DATABASE_URL)throw Error('Set DATABASE_URL securely before running migration.');
 const sql=neon(process.env.DATABASE_URL);
 await sql`CREATE TABLE IF NOT EXISTS questions (id text PRIMARY KEY, data jsonb, revision integer NOT NULL DEFAULT 1 CHECK (revision>0), deleted boolean NOT NULL DEFAULT false, updated_at timestamptz NOT NULL DEFAULT now())`;
+await sql`CREATE TABLE IF NOT EXISTS student_logins (id uuid PRIMARY KEY,name text NOT NULL CHECK (char_length(name) BETWEEN 2 AND 100),school text NOT NULL CHECK (char_length(school) BETWEEN 2 AND 150),grade smallint NOT NULL,classroom text NOT NULL,created_at timestamptz NOT NULL DEFAULT now(),CHECK ((classroom IN ('10A1','10G3') AND grade=10) OR (classroom='9G3' AND grade=9)))`;
+await sql`CREATE INDEX IF NOT EXISTS student_logins_recent ON student_logins(created_at DESC)`;
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url),'utf8'));
 await sql.transaction(bank.questions.map(q=>sql`INSERT INTO questions(id,data) VALUES(${q.id},${JSON.stringify(q)}::jsonb) ON CONFLICT(id) DO NOTHING`));
 const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url),'utf8'));

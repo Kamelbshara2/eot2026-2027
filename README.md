@@ -56,3 +56,11 @@ The app now includes a standalone Node.js production server and a multi-stage Do
 For local production testing, run `npm run build` then `npm start` (default port 3000). Database settings can be loaded privately from `.env`; the static app still loads when the database is unavailable, and sync status reports the failure. A healthy `/healthz` indicates the HTTP process is running; database readiness requires a successful `/api/questions` request.
 
 CLI deployment requires a Railway project token supplied securely as `RAILWAY_TOKEN` in the execution environment. Never enter token values in chat or commit them. No Railway login or project provisioning is implied by these files.
+
+## Classroom portal and student sign-ins
+
+The home screen has cards for 10A1, 10G3 and 9G3. 10G3 contains the **8th week exam** card linking to `#/classrooms/10G3/exams/week-8`. The other classrooms show an empty-exam state. Name, school and grade are required before entering the exam; classroom is taken from the selected card. These are self-reported check-ins, not verified student identities or password accounts. A tab remembers a confirmed sign-in until sign-out or closing the tab.
+
+`POST /api/student-logins` records an event in Neon only after validation. Each request carries a UUID, making retries idempotent and preventing duplicate events after an uncertain connection. The server records the timestamp; malformed data, incorrect classroom/grade combinations, and unavailable databases return explicit errors. Students cannot enter through the normal portal until their database write is confirmed. Names and schools are not queued in localStorage and failed requests do not pretend to be successful.
+
+Run `npm run db:migrate` after this update (Railway pre-deploy and Vercel builds run it automatically) to create the `student_logins` table. `GET /api/student-logins` returns the most recent 100 events only with `Authorization: Bearer <ADMIN_TOKEN>`; public reads are rejected. Do not publish or commit student records. This feature requires the Node/Vercel API and cannot record visits on GitHub Pages alone.

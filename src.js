@@ -1,3 +1,4 @@
+import {mountPortal} from './lib/portal.js';
 import {boxDiagram} from './lib/box-diagram.js';
 import {bilingual,mcqOptions,enableMcq} from './lib/mcq.js';
 import {valid} from './lib/validation.js';
@@ -24,6 +25,7 @@ $('#form').onsubmit=e=>{e.preventDefault();const q=collect();if(!valid(q)){ $('#
 function toast(s){$('#toast').textContent=s;setTimeout(()=>$('#toast').textContent='',3500)}
 $('#export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({version:1,questions},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='questions.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 $('#import').onchange=async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>20*1024*1024)throw Error('File too large (20 MB maximum).');const data=JSON.parse(await file.text());if(data.version!==1||!Array.isArray(data.questions)||!data.questions.every(valid))throw Error('Invalid question database format.');const old=questions;questions=[...new Map([...questions,...data.questions].map(q=>[q.id,q])).values()];try{save()}catch(err){questions=old;throw err}render();toast('Question database imported')}catch(err){alert(err.message)}e.target.value=''};
+mountPortal();
 async function init(){try{
  const published=(await (await fetch('/data/questions.json')).json()).questions;
  if(!Array.isArray(published)||!published.every(valid))throw Error('Invalid published bank');
