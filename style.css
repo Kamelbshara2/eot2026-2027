@@ -150,3 +150,23 @@ button:disabled{opacity:.42;cursor:default;transform:none!important}
 @media(max-width:760px){.question-heading>.worksheet-tools{width:100%;margin:8px 0}.worksheet-tools .secondary{flex:1;min-height:44px;padding:9px;font-size:10px}.worksheet .value-table{max-width:none}.worksheet .value-table input{min-height:36px}.extrema-fields{grid-template-columns:1fr}}
 .rate-table-figure{max-width:360px;margin:24px auto!important}.rate-data-table{border-collapse:collapse;width:100%;font-size:18px;text-align:center}.rate-data-table caption{font-size:11px;color:#738579;margin-bottom:12px}.rate-data-table th{background:#1e7588;color:white;font-style:italic}.rate-data-table th,.rate-data-table td{border:1px solid #b4d0d2;padding:12px 18px;width:50%}.rate-data-table tbody tr:nth-child(even){background:#f4f9f8}.linear-function-graph{display:block;width:100%;max-width:520px;height:auto;margin:0 auto}.linear-figure figcaption{font-size:11px;text-align:center;color:#758579;margin-top:10px}.response-parts{display:grid;gap:16px;margin-top:22px}.response-parts label{display:block;font-size:13px;line-height:1.8;color:#4c6c59}.response-parts .response{min-height:100px;margin-top:8px}.practice-slide .slide-question .linear-figure svg{max-height:480px}
 @media(max-width:760px){.rate-data-table{font-size:17px}.rate-data-table th,.rate-data-table td{padding:11px}.practice-slide .slide-question .linear-figure svg{max-height:none}}
+
+/* Classroom outcomes are the entry point; question practice stays in one outcome. */
+.outcome-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin:24px 0 30px;padding:24px;background:#fff;border:1px solid var(--line,#e5e5df);border-radius:18px}
+.outcome-toolbar>p:first-child{flex:1 1 240px;margin:0;font-size:17px}
+.print-feedback:empty{display:none}
+.print-feedback{flex-basis:100%;color:#a33}
+.outcome-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.outcome-card{display:flex;flex-direction:column;gap:14px;background:#fff;border:1px solid var(--line,#e5e5df);border-radius:20px;padding:28px;min-width:0}
+.outcome-card h2{font-size:23px;line-height:1.65;margin:0;overflow-wrap:anywhere}
+.outcome-card p{font-size:16px;line-height:1.6;margin:0;color:#555;overflow-wrap:anywhere}
+.outcome-card small{color:#666;line-height:1.7}
+.outcome-counts{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:12px}
+.outcome-counts span{font-size:12px;background:#f4f5ee;border-radius:8px;padding:7px 10px}
+.outcome-card-actions{display:flex;flex-direction:column;gap:10px}
+.outcome-card-actions a,.outcome-toolbar a,.outcome-practice-tools a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;text-align:center}
+.outcome-card-actions .primary{line-height:1.7;white-space:normal}
+.outcome-practice-tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.outcome-toolbar button:disabled{opacity:.5;cursor:not-allowed}
+@media(max-width:1000px){.outcome-cards{grid-template-columns:1fr}}
+@media(max-width:600px){.outcome-card{padding:20px}.outcome-toolbar{padding:18px}.outcome-toolbar .primary{width:100%;white-space:normal;line-height:1.7}.outcome-practice-tools>*{width:100%}}
