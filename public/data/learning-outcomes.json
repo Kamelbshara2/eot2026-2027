@@ -80,6 +80,46 @@
       "targetCount": 6,
       "position": 5,
       "revision": 1
+    },
+    {
+      "id": "12501122-9003-4e08-8c32-012500110022",
+      "title": "Solve equations for specific variables",
+      "titleAr": "حل المعادلات بالنسبة إلى متغير محدد",
+      "bookPages": "125 (Q11–22; MCQ Q11–18, FRQ Q19–22)",
+      "targetCount": 12,
+      "classroom": "9G3",
+      "position": 1,
+      "revision": 1
+    },
+    {
+      "id": "22100304-9003-4e08-8c32-022100030004",
+      "title": "Calculate and interpret rate of change",
+      "titleAr": "حساب معدل التغير وتفسيره",
+      "bookPages": "221 (Examples 3–4)",
+      "targetCount": 4,
+      "classroom": "9G3",
+      "position": 2,
+      "revision": 1
+    },
+    {
+      "id": "22300507-9003-4e08-8c32-022300050007",
+      "title": "Calculate and interpret slope",
+      "titleAr": "حساب ميل المستقيم وتفسيره",
+      "bookPages": "223 (Examples 5–6 + 3 original practice questions)",
+      "targetCount": 5,
+      "classroom": "9G3",
+      "position": 3,
+      "revision": 1
+    },
+    {
+      "id": "21500508-9003-4e08-8c32-021500050008",
+      "title": "Graph linear functions by making tables of values",
+      "titleAr": "تمثيل الدوال الخطية بيانياً باستخدام جداول القيم",
+      "bookPages": "215 (Q5–8)",
+      "targetCount": 4,
+      "classroom": "9G3",
+      "position": 4,
+      "revision": 1
     }
   ],
   "assignments": [
@@ -422,6 +462,131 @@
       "question_id": "10g3-graphing-frq-6",
       "outcome_id": "71100106-1003-4e08-8c32-071100010006",
       "position": 6
+    },
+    {
+      "question_id": "9g3-literal-mcq-11",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-literal-mcq-12",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-literal-mcq-13",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-literal-mcq-14",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-literal-mcq-15",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-literal-mcq-16",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 6
+    },
+    {
+      "question_id": "9g3-literal-mcq-17",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 7
+    },
+    {
+      "question_id": "9g3-literal-mcq-18",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 8
+    },
+    {
+      "question_id": "9g3-literal-frq-19",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 9
+    },
+    {
+      "question_id": "9g3-literal-frq-20",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 10
+    },
+    {
+      "question_id": "9g3-literal-frq-21",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 11
+    },
+    {
+      "question_id": "9g3-literal-frq-22",
+      "outcome_id": "12501122-9003-4e08-8c32-012500110022",
+      "position": 12
+    },
+    {
+      "question_id": "9g3-rate-ex3-a",
+      "outcome_id": "22100304-9003-4e08-8c32-022100030004",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-rate-ex3-b",
+      "outcome_id": "22100304-9003-4e08-8c32-022100030004",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-rate-ex4-a",
+      "outcome_id": "22100304-9003-4e08-8c32-022100030004",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-rate-ex4-b",
+      "outcome_id": "22100304-9003-4e08-8c32-022100030004",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-slope-ex5",
+      "outcome_id": "22300507-9003-4e08-8c32-022300050007",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-slope-ex6",
+      "outcome_id": "22300507-9003-4e08-8c32-022300050007",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-linear-table-frq-5",
+      "outcome_id": "21500508-9003-4e08-8c32-021500050008",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-linear-table-frq-6",
+      "outcome_id": "21500508-9003-4e08-8c32-021500050008",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-linear-table-frq-7",
+      "outcome_id": "21500508-9003-4e08-8c32-021500050008",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-linear-table-frq-8",
+      "outcome_id": "21500508-9003-4e08-8c32-021500050008",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-slope-original-1",
+      "outcome_id": "22300507-9003-4e08-8c32-022300050007",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-slope-original-2",
+      "outcome_id": "22300507-9003-4e08-8c32-022300050007",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-slope-original-3",
+      "outcome_id": "22300507-9003-4e08-8c32-022300050007",
+      "position": 5
     }
   ],
   "previousSeedIds": [

@@ -4951,6 +4951,1046 @@
       "position": 48,
       "sourcePage": 711,
       "sourceQuestion": 6
+    },
+    {
+      "id": "9g3-literal-mcq-11",
+      "classroom": "9G3",
+      "position": 1,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$v=\\frac{u-z}{w}$",
+        "$v=\\frac{u+z}{w}$",
+        "$v=w(u-z)$",
+        "$v=\\frac{w}{u-z}$"
+      ],
+      "optionsAr": [
+        "$v=\\frac{u-z}{w}$",
+        "$v=\\frac{u+z}{w}$",
+        "$v=w(u-z)$",
+        "$v=\\frac{w}{u-z}$"
+      ],
+      "topic": "Page 125 · Q11 · Solve for v · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 11,
+      "prompt": "Solve for $v$. Assume all variable denominators are nonzero.\n$$u=vw+z$$",
+      "promptAr": "حل بالنسبة إلى $v$. افترض أن مقامات المتغيرات غير صفرية.\n$$u=vw+z$$",
+      "correctIndex": 0,
+      "answer": "Correct option: A. Subtract z: $u-z=vw$, then divide by $w$. Assume $w\\ne0$.",
+      "answerAr": "الإجابة الصحيحة: A. نطرح $z$ فنحصل على $u-z=vw$، ثم نقسم على $w$، حيث $w\\ne0$.",
+      "literalEquation": {
+        "number": 11,
+        "variable": "v"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-12",
+      "classroom": "9G3",
+      "position": 2,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$c=\\frac{x-b}{d}$",
+        "$c=\\frac{b-x}{d}$",
+        "$c=d(b-x)$",
+        "$c=\\frac{b+x}{d}$"
+      ],
+      "optionsAr": [
+        "$c=\\frac{x-b}{d}$",
+        "$c=\\frac{b-x}{d}$",
+        "$c=d(b-x)$",
+        "$c=\\frac{b+x}{d}$"
+      ],
+      "topic": "Page 125 · Q12 · Solve for c · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 12,
+      "prompt": "Solve for $c$. Assume all variable denominators are nonzero.\n$$x=b-cd$$",
+      "promptAr": "حل بالنسبة إلى $c$. افترض أن مقامات المتغيرات غير صفرية.\n$$x=b-cd$$",
+      "correctIndex": 1,
+      "answer": "Correct option: B. Rearrange: $cd=b-x$, then divide by $d$. Assume $d\\ne0$.",
+      "answerAr": "الإجابة الصحيحة: B. نعيد الترتيب: $cd=b-x$، ثم نقسم على $d$، حيث $d\\ne0$.",
+      "literalEquation": {
+        "number": 12,
+        "variable": "c"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-13",
+      "classroom": "9G3",
+      "position": 3,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$g=\\frac{10j-9h}{f}$",
+        "$g=f(10j+9h)$",
+        "$g=\\frac{10j+9h}{f}$",
+        "$g=\\frac{f}{10j+9h}$"
+      ],
+      "optionsAr": [
+        "$g=\\frac{10j-9h}{f}$",
+        "$g=f(10j+9h)$",
+        "$g=\\frac{10j+9h}{f}$",
+        "$g=\\frac{f}{10j+9h}$"
+      ],
+      "topic": "Page 125 · Q13 · Solve for g · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 13,
+      "prompt": "Solve for $g$. Assume all variable denominators are nonzero.\n$$fg-9h=10j$$",
+      "promptAr": "حل بالنسبة إلى $g$. افترض أن مقامات المتغيرات غير صفرية.\n$$fg-9h=10j$$",
+      "correctIndex": 2,
+      "answer": "Correct option: C. Add $9h$: $fg=10j+9h$, then divide by $f$. Assume $f\\ne0$.",
+      "answerAr": "الإجابة الصحيحة: C. نجمع $9h$ فنحصل على $fg=10j+9h$، ثم نقسم على $f$، حيث $f\\ne0$.",
+      "literalEquation": {
+        "number": 13,
+        "variable": "g"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-14",
+      "classroom": "9G3",
+      "position": 4,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$m=\\frac{p+n}{10}$",
+        "$m=10(p-n)$",
+        "$m=\\frac{n-p}{10}$",
+        "$m=\\frac{p-n}{10}$"
+      ],
+      "optionsAr": [
+        "$m=\\frac{p+n}{10}$",
+        "$m=10(p-n)$",
+        "$m=\\frac{n-p}{10}$",
+        "$m=\\frac{p-n}{10}$"
+      ],
+      "topic": "Page 125 · Q14 · Solve for m · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 14,
+      "prompt": "Solve for $m$. Assume all variable denominators are nonzero.\n$$10m-p=-n$$",
+      "promptAr": "حل بالنسبة إلى $m$. افترض أن مقامات المتغيرات غير صفرية.\n$$10m-p=-n$$",
+      "correctIndex": 3,
+      "answer": "Correct option: D. Add p: $10m=p-n$. Divide by 10.",
+      "answerAr": "الإجابة الصحيحة: D. نجمع $p$ فنحصل على $10m=p-n$، ثم نقسم على $10$.",
+      "literalEquation": {
+        "number": 14,
+        "variable": "m"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-15",
+      "classroom": "9G3",
+      "position": 5,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$t=\\frac{3(r-v)}{2}$",
+        "$t=\\frac{2(r-v)}{3}$",
+        "$t=\\frac{3(r+v)}{2}$",
+        "$t=\\frac{3r-v}{2}$"
+      ],
+      "optionsAr": [
+        "$t=\\frac{3(r-v)}{2}$",
+        "$t=\\frac{2(r-v)}{3}$",
+        "$t=\\frac{3(r+v)}{2}$",
+        "$t=\\frac{3r-v}{2}$"
+      ],
+      "topic": "Page 125 · Q15 · Solve for t · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 15,
+      "prompt": "Solve for $t$. Assume all variable denominators are nonzero.\n$$r=\\frac{2}{3}t+v$$",
+      "promptAr": "حل بالنسبة إلى $t$. افترض أن مقامات المتغيرات غير صفرية.\n$$r=\\frac{2}{3}t+v$$",
+      "correctIndex": 0,
+      "answer": "Correct option: A. Subtract v, then multiply by $3/2$: $t=\\frac32(r-v)$.",
+      "answerAr": "الإجابة الصحيحة: A. نطرح $v$، ثم نضرب في $3/2$: $t=\\frac32(r-v)$.",
+      "literalEquation": {
+        "number": 15,
+        "variable": "t"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-16",
+      "classroom": "9G3",
+      "position": 6,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$v=\\frac{5(z-w)}{9}$",
+        "$v=\\frac{9(z-w)}{5}$",
+        "$v=\\frac{9(z+w)}{5}$",
+        "$v=\\frac{9z-w}{5}$"
+      ],
+      "optionsAr": [
+        "$v=\\frac{5(z-w)}{9}$",
+        "$v=\\frac{9(z-w)}{5}$",
+        "$v=\\frac{9(z+w)}{5}$",
+        "$v=\\frac{9z-w}{5}$"
+      ],
+      "topic": "Page 125 · Q16 · Solve for v · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 16,
+      "prompt": "Solve for $v$. Assume all variable denominators are nonzero.\n$$\\frac{5}{9}v+w=z$$",
+      "promptAr": "حل بالنسبة إلى $v$. افترض أن مقامات المتغيرات غير صفرية.\n$$\\frac{5}{9}v+w=z$$",
+      "correctIndex": 1,
+      "answer": "Correct option: B. Subtract w, then multiply by $9/5$.",
+      "answerAr": "الإجابة الصحيحة: B. نطرح $w$، ثم نضرب في $9/5$.",
+      "literalEquation": {
+        "number": 16,
+        "variable": "v"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-17",
+      "classroom": "9G3",
+      "position": 7,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$a=\\frac{x+33}{10c}$",
+        "$a=\\frac{11x-3}{10c}$",
+        "$a=\\frac{x-33}{10c}$",
+        "$a=\\frac{x-3}{110c}$"
+      ],
+      "optionsAr": [
+        "$a=\\frac{x+33}{10c}$",
+        "$a=\\frac{11x-3}{10c}$",
+        "$a=\\frac{x-33}{10c}$",
+        "$a=\\frac{x-3}{110c}$"
+      ],
+      "topic": "Page 125 · Q17 · Solve for a · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 17,
+      "prompt": "Solve for $a$. Assume all variable denominators are nonzero.\n$$\\frac{10ac-x}{11}=-3$$",
+      "promptAr": "حل بالنسبة إلى $a$. افترض أن مقامات المتغيرات غير صفرية.\n$$\\frac{10ac-x}{11}=-3$$",
+      "correctIndex": 2,
+      "answer": "Correct option: C. Multiply by 11: $10ac-x=-33$. Add x and divide by $10c$, where $c\\ne0$.",
+      "answerAr": "الإجابة الصحيحة: C. نضرب في $11$: $10ac-x=-33$، ثم نجمع $x$ ونقسم على $10c$، حيث $c\\ne0$.",
+      "literalEquation": {
+        "number": 17,
+        "variable": "a"
+      }
+    },
+    {
+      "id": "9g3-literal-mcq-18",
+      "classroom": "9G3",
+      "position": 8,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$f=\\frac{6g+10}{d}$",
+        "$f=d(6g-10)$",
+        "$f=\\frac{g-10}{6d}$",
+        "$f=\\frac{6g-10}{d}$"
+      ],
+      "optionsAr": [
+        "$f=\\frac{6g+10}{d}$",
+        "$f=d(6g-10)$",
+        "$f=\\frac{g-10}{6d}$",
+        "$f=\\frac{6g-10}{d}$"
+      ],
+      "topic": "Page 125 · Q18 · Solve for f · عزل المتغير",
+      "sourcePage": 125,
+      "sourceQuestion": 18,
+      "prompt": "Solve for $f$. Assume all variable denominators are nonzero.\n$$\\frac{df+10}{6}=g$$",
+      "promptAr": "حل بالنسبة إلى $f$. افترض أن مقامات المتغيرات غير صفرية.\n$$\\frac{df+10}{6}=g$$",
+      "correctIndex": 3,
+      "answer": "Correct option: D. Multiply by 6: $df+10=6g$. Subtract 10 and divide by $d$, where $d\\ne0$.",
+      "answerAr": "الإجابة الصحيحة: D. نضرب في $6$: $df+10=6g$، ثم نطرح $10$ ونقسم على $d$، حيث $d\\ne0$.",
+      "literalEquation": {
+        "number": 18,
+        "variable": "f"
+      }
+    },
+    {
+      "id": "9g3-literal-frq-19",
+      "classroom": "9G3",
+      "position": 9,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 4,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 125,
+      "sourceQuestion": 19,
+      "topic": "Page 125 · Q19 · Rectangles · المستطيلات",
+      "prompt": "The perimeter of a rectangle is $P=2\\ell+2w$, where $\\ell$ is the length and $w$ the width.\n(a) Solve for $\\ell$.\n(b) Find the length when $w=4$ meters and $P=36$ meters.",
+      "promptAr": "محيط المستطيل هو $P=2\\ell+2w$، حيث $\\ell$ الطول و$w$ العرض.\n(أ) حل بالنسبة إلى $\\ell$.\n(ب) أوجد الطول عندما يكون العرض $4$ أمتار والمحيط $36$ متراً.",
+      "answer": "(a) $\\ell=\\frac{P-2w}{2}=\\frac P2-w$. (b) $\\ell=36/2-4=14$ m. Check: $2(14)+2(4)=36$.\nMarking guide (4 marks): isolate the variable (1), correct symbolic formula (1), substitution/calculation (1), final value and units or context (1).",
+      "answerAr": "(أ) $\\ell=\\frac{P-2w}{2}=\\frac P2-w$. (ب) $\\ell=36/2-4=14$ متراً. التحقق: $2(14)+2(4)=36$.\nالتصحيح (٤ درجات): عزل المتغير (١)، الصيغة الصحيحة (١)، التعويض والحساب (١)، القيمة مع الوحدة أو السياق (١).",
+      "responseParts": [
+        {
+          "label": "Part A: formula and working · الجزء أ: الصيغة وخطوات الحل"
+        },
+        {
+          "label": "Part B: value and units/context · الجزء ب: القيمة والوحدة أو السياق"
+        }
+      ]
+    },
+    {
+      "id": "9g3-literal-frq-20",
+      "classroom": "9G3",
+      "position": 10,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 4,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 125,
+      "sourceQuestion": 20,
+      "topic": "Page 125 · Q20 · Baseball · البيسبول",
+      "prompt": "A batter’s batting average is $a=\\frac hb$, where $h$ is hits and $b$ is times at bat.\n(a) Solve for $b$ (assume $a\\ne0$).\n(b) Find the number of times at bat when $a=0.325$ and $h=39$.",
+      "promptAr": "متوسط ضرب اللاعب هو $a=\\frac hb$، حيث $h$ عدد الضربات الناجحة و$b$ عدد مرات الضرب.\n(أ) حل بالنسبة إلى $b$، حيث $a\\ne0$.\n(ب) أوجد عدد مرات الضرب عندما $a=0.325$ و$h=39$.",
+      "answer": "(a) $ab=h$, so $b=h/a$. (b) $b=39/0.325=120$ times at bat. Check: $39/120=0.325$.\nMarking guide (4 marks): isolate the variable (1), correct symbolic formula (1), substitution/calculation (1), final value and units or context (1).",
+      "answerAr": "(أ) من $ab=h$ نحصل على $b=h/a$. (ب) $b=39/0.325=120$ مرة. التحقق: $39/120=0.325$.\nالتصحيح (٤ درجات): عزل المتغير (١)، الصيغة الصحيحة (١)، التعويض والحساب (١)، القيمة مع الوحدة أو السياق (١).",
+      "responseParts": [
+        {
+          "label": "Part A: formula and working · الجزء أ: الصيغة وخطوات الحل"
+        },
+        {
+          "label": "Part B: value and units/context · الجزء ب: القيمة والوحدة أو السياق"
+        }
+      ]
+    },
+    {
+      "id": "9g3-literal-frq-21",
+      "classroom": "9G3",
+      "position": 11,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 4,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 125,
+      "sourceQuestion": 21,
+      "topic": "Page 125 · Q21 · Shopping · التسوق",
+      "prompt": "Thomas buys video games at 13.50 dollars each and controllers. His total cost is $c=13.50g+p$, where $g$ is the number of games and $p$ is the cost of the controllers. The controllers cost 55 dollars and the total is 136 dollars.\n(a) Solve for $g$.\n(b) How many games did Thomas buy?",
+      "promptAr": "يشتري توماس ألعاب فيديو بسعر $13.50$ دولاراً للعبة، وأدوات تحكم. التكلفة الكلية $c=13.50g+p$، حيث $g$ عدد الألعاب و$p$ تكلفة أدوات التحكم. تكلفة أدوات التحكم $55$ دولاراً، والإجمالي $136$ دولاراً.\n(أ) حل بالنسبة إلى $g$.\n(ب) كم لعبة اشترى توماس؟",
+      "answer": "(a) $g=\\frac{c-p}{13.50}$. (b) $g=(136-55)/13.50=81/13.50=6$ games. Check: $13.50(6)+55=136$.\nMarking guide (4 marks): isolate the variable (1), correct symbolic formula (1), substitution/calculation (1), final value and units or context (1).",
+      "answerAr": "(أ) $g=\\frac{c-p}{13.50}$. (ب) $g=(136-55)/13.50=81/13.50=6$ ألعاب. التحقق: $13.50(6)+55=136$.\nالتصحيح (٤ درجات): عزل المتغير (١)، الصيغة الصحيحة (١)، التعويض والحساب (١)، القيمة مع الوحدة أو السياق (١).",
+      "responseParts": [
+        {
+          "label": "Part A: formula and working · الجزء أ: الصيغة وخطوات الحل"
+        },
+        {
+          "label": "Part B: value and units/context · الجزء ب: القيمة والوحدة أو السياق"
+        }
+      ]
+    },
+    {
+      "id": "9g3-literal-frq-22",
+      "classroom": "9G3",
+      "position": 12,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 4,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 125,
+      "sourceQuestion": 22,
+      "topic": "Page 125 · Q22 · Box volume · حجم الصندوق",
+      "prompt": "The volume of a box is $V=\\ell wh$, where $\\ell$ is length, $w$ is width and $h$ is height.\n(a) Solve for $h$ (assume $\\ell w\\ne0$).\n(b) Find the height if $V=50$ cubic meters, $\\ell=10$ meters and $w=2$ meters.",
+      "promptAr": "حجم الصندوق هو $V=\\ell wh$، حيث $\\ell$ الطول و$w$ العرض و$h$ الارتفاع.\n(أ) حل بالنسبة إلى $h$، حيث $\\ell w\\ne0$.\n(ب) أوجد الارتفاع عندما يكون الحجم $50$ متراً مكعباً والطول $10$ أمتار والعرض $2$ متر.",
+      "answer": "(a) $h=\\frac{V}{\\ell w}$. (b) $h=50/(10\\cdot2)=2.5$ m. Check: $10\\cdot2\\cdot2.5=50$.\nMarking guide (4 marks): isolate the variable (1), correct symbolic formula (1), substitution/calculation (1), final value and units or context (1).",
+      "answerAr": "(أ) $h=\\frac{V}{\\ell w}$. (ب) $h=50/(10\\cdot2)=2.5$ متر. التحقق: $10\\cdot2\\cdot2.5=50$.\nالتصحيح (٤ درجات): عزل المتغير (١)، الصيغة الصحيحة (١)، التعويض والحساب (١)، القيمة مع الوحدة أو السياق (١).",
+      "responseParts": [
+        {
+          "label": "Part A: formula and working · الجزء أ: الصيغة وخطوات الحل"
+        },
+        {
+          "label": "Part B: value and units/context · الجزء ب: القيمة والوحدة أو السياق"
+        }
+      ]
+    },
+    {
+      "id": "9g3-rate-ex3-a",
+      "classroom": "9G3",
+      "position": 13,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$\\frac15$: y increases by 1 for every increase of 5 in x.",
+        "$5$: y increases by 5 for every increase of 1 in x.",
+        "$-\\frac15$: y decreases by 1 for every increase of 5 in x.",
+        "$1$: y increases by 1 for every increase of 1 in x."
+      ],
+      "optionsAr": [
+        "$\\frac15$: تزداد الصادات بمقدار 1 لكل زيادة 5 في السينات.",
+        "$5$: تزداد الصادات بمقدار 5 لكل زيادة 1 في السينات.",
+        "$-\\frac15$: تنقص الصادات بمقدار 1 لكل زيادة 5 في السينات.",
+        "$1$: تزداد الصادات بمقدار 1 لكل زيادة 1 في السينات."
+      ],
+      "sourcePage": 221,
+      "sourceQuestion": 3,
+      "sourcePart": "A",
+      "topic": "Page 221 · Example 3A · Rate of change · معدل التغير",
+      "prompt": "Use the table to calculate the rates of change and choose the correct interpretation. Check whether adjacent pairs give the same rate.",
+      "promptAr": "استعمل الجدول لحساب معدلات التغير واختر التفسير الصحيح. تحقق مما إذا كانت الأزواج المتتالية تعطي المعدل نفسه.",
+      "rateTable": {
+        "rows": [
+          [
+            5,
+            2
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            15,
+            4
+          ],
+          [
+            20,
+            5
+          ]
+        ]
+      },
+      "correctIndex": 0,
+      "answer": "Correct option: A. $m=(3-2)/(10-5)=1/5$. Every adjacent pair gives the same rate.",
+      "answerAr": "الإجابة الصحيحة: A. $m=(3-2)/(10-5)=1/5$. يعطي كل زوج متتالٍ معدل التغير نفسه."
+    },
+    {
+      "id": "9g3-rate-ex3-b",
+      "classroom": "9G3",
+      "position": 14,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$6$: y increases by 6 for each unit increase in x.",
+        "$-6$: y decreases by 6 for each unit increase in x.",
+        "$-\\frac16$: y decreases by 1 for each increase of 6 in x.",
+        "$9$: y increases by 9 for each unit increase in x."
+      ],
+      "optionsAr": [
+        "$6$: تزداد الصادات بمقدار 6 لكل زيادة وحدة في السينات.",
+        "$-6$: تنقص الصادات بمقدار 6 لكل زيادة وحدة في السينات.",
+        "$-\\frac16$: تنقص الصادات بمقدار 1 لكل زيادة 6 في السينات.",
+        "$9$: تزداد الصادات بمقدار 9 لكل زيادة وحدة في السينات."
+      ],
+      "sourcePage": 221,
+      "sourceQuestion": 3,
+      "sourcePart": "B",
+      "topic": "Page 221 · Example 3B · Rate of change · معدل التغير",
+      "prompt": "Use the table to calculate the rates of change and choose the correct interpretation. Check whether adjacent pairs give the same rate.",
+      "promptAr": "استعمل الجدول لحساب معدلات التغير واختر التفسير الصحيح. تحقق مما إذا كانت الأزواج المتتالية تعطي المعدل نفسه.",
+      "rateTable": {
+        "rows": [
+          [
+            1,
+            15
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            -3
+          ]
+        ]
+      },
+      "correctIndex": 1,
+      "answer": "Correct option: B. $m=(9-15)/(2-1)=-6$. The rate is constant and negative.",
+      "answerAr": "الإجابة الصحيحة: B. $m=(9-15)/(2-1)=-6$. معدل التغير ثابت وسالب."
+    },
+    {
+      "id": "9g3-rate-ex4-a",
+      "classroom": "9G3",
+      "position": 15,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$\\frac23$: y increases by 2 for each increase of 3 in x.",
+        "$-\\frac32$: y decreases by 3 for each increase of 2 in x.",
+        "$-\\frac23$: y decreases by 2 for each increase of 3 in x.",
+        "$-2$: y decreases by 2 for each unit increase in x."
+      ],
+      "optionsAr": [
+        "$\\frac23$: تزداد الصادات بمقدار 2 لكل زيادة 3 في السينات.",
+        "$-\\frac32$: تنقص الصادات بمقدار 3 لكل زيادة 2 في السينات.",
+        "$-\\frac23$: تنقص الصادات بمقدار 2 لكل زيادة 3 في السينات.",
+        "$-2$: تنقص الصادات بمقدار 2 لكل زيادة وحدة في السينات."
+      ],
+      "sourcePage": 221,
+      "sourceQuestion": 4,
+      "sourcePart": "A",
+      "topic": "Page 221 · Example 4A · Rate of change · معدل التغير",
+      "prompt": "Use the table to calculate the rates of change and choose the correct interpretation. Check whether adjacent pairs give the same rate.",
+      "promptAr": "استعمل الجدول لحساب معدلات التغير واختر التفسير الصحيح. تحقق مما إذا كانت الأزواج المتتالية تعطي المعدل نفسه.",
+      "rateTable": {
+        "rows": [
+          [
+            11,
+            -5
+          ],
+          [
+            8,
+            -3
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -1,
+            3
+          ]
+        ]
+      },
+      "correctIndex": 2,
+      "answer": "Correct option: C. $m=(-3-(-5))/(8-11)=2/(-3)=-2/3$. As x increases by 3, y decreases by 2.",
+      "answerAr": "الإجابة الصحيحة: C. $m=(-3-(-5))/(8-11)=2/(-3)=-2/3$. عندما تزداد السينات بمقدار 3 تنقص الصادات بمقدار 2."
+    },
+    {
+      "id": "9g3-rate-ex4-b",
+      "classroom": "9G3",
+      "position": 16,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$-\\frac37$: y decreases by 3 for each increase of 7 in x.",
+        "$\\frac73$: y increases by 7 for each increase of 3 in x.",
+        "$\\frac17$: y increases by 1 for each increase of 7 in x.",
+        "$\\frac37$: y increases by 3 for each increase of 7 in x."
+      ],
+      "optionsAr": [
+        "$-\\frac37$: تنقص الصادات بمقدار 3 لكل زيادة 7 في السينات.",
+        "$\\frac73$: تزداد الصادات بمقدار 7 لكل زيادة 3 في السينات.",
+        "$\\frac17$: تزداد الصادات بمقدار 1 لكل زيادة 7 في السينات.",
+        "$\\frac37$: تزداد الصادات بمقدار 3 لكل زيادة 7 في السينات."
+      ],
+      "sourcePage": 221,
+      "sourceQuestion": 4,
+      "sourcePart": "B",
+      "topic": "Page 221 · Example 4B · Rate of change · معدل التغير",
+      "prompt": "Use the table to calculate the rates of change and choose the correct interpretation. Check whether adjacent pairs give the same rate.",
+      "promptAr": "استعمل الجدول لحساب معدلات التغير واختر التفسير الصحيح. تحقق مما إذا كانت الأزواج المتتالية تعطي المعدل نفسه.",
+      "rateTable": {
+        "rows": [
+          [
+            22,
+            -4
+          ],
+          [
+            29,
+            -1
+          ],
+          [
+            36,
+            2
+          ],
+          [
+            43,
+            5
+          ],
+          [
+            50,
+            8
+          ]
+        ]
+      },
+      "correctIndex": 3,
+      "answer": "Correct option: D. $m=(-1-(-4))/(29-22)=3/7$. All adjacent pairs give $3/7$, so the rate is constant. y increases by 3 for each increase of 7 in x.",
+      "answerAr": "الإجابة الصحيحة: D. $m=(-1-(-4))/(29-22)=3/7$. تعطي جميع الأزواج المتتالية المعدل $3/7$، لذا فهو ثابت. تزداد الصادات بمقدار 3 لكل زيادة 7 في السينات."
+    },
+    {
+      "id": "9g3-slope-ex5",
+      "classroom": "9G3",
+      "position": 17,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$m=0$",
+        "The slope is undefined.",
+        "$m=6$",
+        "$m=-5$"
+      ],
+      "optionsAr": [
+        "$m=0$",
+        "الميل غير معرّف.",
+        "$m=6$",
+        "$m=-5$"
+      ],
+      "sourcePage": 223,
+      "sourceQuestion": 5,
+      "topic": "Page 223 · Example 5 · Slope of a line · ميل المستقيم",
+      "prompt": "Find the slope of the line shown. Each grid square represents 1 unit.",
+      "promptAr": "أوجد ميل المستقيم المرسوم. يمثل كل مربع وحدة واحدة.",
+      "linearGraph": {
+        "coefficients": [
+          0,
+          -5
+        ],
+        "bounds": [
+          -5,
+          5,
+          -7,
+          3
+        ],
+        "sourcePoints": [
+          [
+            -2,
+            -5
+          ],
+          [
+            4,
+            -5
+          ]
+        ]
+      },
+      "correctIndex": 0,
+      "answer": "Correct option: A. The line is horizontal. Its y-values do not change, so $m=0$.",
+      "answerAr": "الإجابة الصحيحة: A. المستقيم أفقي، فلا تتغير قيم الصادات، ولذلك $m=0$."
+    },
+    {
+      "id": "9g3-slope-ex6",
+      "classroom": "9G3",
+      "position": 18,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "$m=\\frac43$",
+        "$m=-\\frac34$",
+        "$m=\\frac34$",
+        "$m=3$"
+      ],
+      "optionsAr": [
+        "$m=\\frac43$",
+        "$m=-\\frac34$",
+        "$m=\\frac34$",
+        "$m=3$"
+      ],
+      "sourcePage": 223,
+      "sourceQuestion": 6,
+      "topic": "Page 223 · Example 6 · Slope of a line · ميل المستقيم",
+      "prompt": "Find the slope of the line shown. Each grid square represents 1 unit.",
+      "promptAr": "أوجد ميل المستقيم المرسوم. يمثل كل مربع وحدة واحدة.",
+      "linearGraph": {
+        "coefficients": [
+          0.75,
+          6.25
+        ],
+        "bounds": [
+          -6,
+          4,
+          -2,
+          8
+        ],
+        "sourcePoints": [
+          [
+            -3,
+            4
+          ],
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      "correctIndex": 2,
+      "answer": "Correct option: C. For points $(-3,4)$ and $(1,7)$, $m=(7-4)/(1-(-3))=3/4$. The line rises 3 units for a run of 4.",
+      "answerAr": "الإجابة الصحيحة: C. من النقطتين $(-3,4)$ و$(1,7)$: $m=(7-4)/(1-(-3))=3/4$. يرتفع المستقيم 3 وحدات لكل انتقال أفقي 4 وحدات."
+    },
+    {
+      "id": "9g3-linear-table-frq-5",
+      "classroom": "9G3",
+      "position": 19,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 5,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 215,
+      "sourceQuestion": 5,
+      "topic": "Page 215 · Q5 · Table & graph · الجدول والرسم",
+      "prompt": "Make a table of five convenient x-values and their y-values. Plot the ordered pairs, draw the straight line, and label its intercepts. Show your working.\n$$y-8=-x$$",
+      "promptAr": "كوّن جدولاً لخمس قيم مناسبة للسينات وقيم الصادات المناظرة. مثّل الأزواج المرتبة وارسم المستقيم وبيّن تقاطعاته مع المحورين، موضحاً خطوات الحل.\n$$y-8=-x$$",
+      "linearGraphing": {
+        "coefficients": [
+          -1,
+          8
+        ],
+        "xs": [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        "bounds": [
+          -2,
+          10,
+          -2,
+          10
+        ],
+        "xStep": 1,
+        "yStep": 1
+      },
+      "answer": "Rearrange: $y=-1x+8$. One valid table gives $(0,8), (2,6), (4,4), (6,2), (8,0)$. The line has slope $-1$, y-intercept $(0,8)$, and x-intercept $(8,0)$. Alternative correct tables are accepted.\nMarking guide (5 marks): rearranging (1), table (1), plotting (1), accurate straight line (1), labels/intercepts (1).",
+      "answerAr": "نعيد الترتيب: $y=-1x+8$. مثال لجدول صحيح: $(0,8), (2,6), (4,4), (6,2), (8,0)$. الميل $-1$، والتقاطع مع محور الصادات $(0,8)$، ومع محور السينات $(8,0)$. تُقبل الجداول الصحيحة الأخرى.\nالتصحيح (٥ درجات): إعادة الترتيب (١)، الجدول (١)، تمثيل النقاط (١)، المستقيم الصحيح (١)، التسميات والتقاطعات (١)."
+    },
+    {
+      "id": "9g3-linear-table-frq-6",
+      "classroom": "9G3",
+      "position": 20,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 5,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 215,
+      "sourceQuestion": 6,
+      "topic": "Page 215 · Q6 · Table & graph · الجدول والرسم",
+      "prompt": "Make a table of five convenient x-values and their y-values. Plot the ordered pairs, draw the straight line, and label its intercepts. Show your working.\n$$x=10-y$$",
+      "promptAr": "كوّن جدولاً لخمس قيم مناسبة للسينات وقيم الصادات المناظرة. مثّل الأزواج المرتبة وارسم المستقيم وبيّن تقاطعاته مع المحورين، موضحاً خطوات الحل.\n$$x=10-y$$",
+      "linearGraphing": {
+        "coefficients": [
+          -1,
+          10
+        ],
+        "xs": [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        "bounds": [
+          -2,
+          12,
+          -2,
+          12
+        ],
+        "xStep": 1,
+        "yStep": 1
+      },
+      "answer": "Rearrange: $y=-1x+10$. One valid table gives $(0,10), (2,8), (4,6), (6,4), (8,2)$. The line has slope $-1$, y-intercept $(0,10)$, and x-intercept $(10,0)$. Alternative correct tables are accepted.\nMarking guide (5 marks): rearranging (1), table (1), plotting (1), accurate straight line (1), labels/intercepts (1).",
+      "answerAr": "نعيد الترتيب: $y=-1x+10$. مثال لجدول صحيح: $(0,10), (2,8), (4,6), (6,4), (8,2)$. الميل $-1$، والتقاطع مع محور الصادات $(0,10)$، ومع محور السينات $(10,0)$. تُقبل الجداول الصحيحة الأخرى.\nالتصحيح (٥ درجات): إعادة الترتيب (١)، الجدول (١)، تمثيل النقاط (١)، المستقيم الصحيح (١)، التسميات والتقاطعات (١)."
+    },
+    {
+      "id": "9g3-linear-table-frq-7",
+      "classroom": "9G3",
+      "position": 21,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 5,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 215,
+      "sourceQuestion": 7,
+      "topic": "Page 215 · Q7 · Table & graph · الجدول والرسم",
+      "prompt": "Make a table of five convenient x-values and their y-values. Plot the ordered pairs, draw the straight line, and label its intercepts. Show your working.\n$$y=\\frac12x+1$$",
+      "promptAr": "كوّن جدولاً لخمس قيم مناسبة للسينات وقيم الصادات المناظرة. مثّل الأزواج المرتبة وارسم المستقيم وبيّن تقاطعاته مع المحورين، موضحاً خطوات الحل.\n$$y=\\frac12x+1$$",
+      "linearGraphing": {
+        "coefficients": [
+          0.5,
+          1
+        ],
+        "xs": [
+          -4,
+          -2,
+          0,
+          2,
+          4
+        ],
+        "bounds": [
+          -6,
+          6,
+          -4,
+          6
+        ],
+        "xStep": 1,
+        "yStep": 1
+      },
+      "answer": "Rearrange: $y=0.5x+1$. One valid table gives $(-4,-1), (-2,0), (0,1), (2,2), (4,3)$. The line has slope $0.5$, y-intercept $(0,1)$, and x-intercept $(-2,0)$. Alternative correct tables are accepted.\nMarking guide (5 marks): rearranging (1), table (1), plotting (1), accurate straight line (1), labels/intercepts (1).",
+      "answerAr": "نعيد الترتيب: $y=0.5x+1$. مثال لجدول صحيح: $(-4,-1), (-2,0), (0,1), (2,2), (4,3)$. الميل $0.5$، والتقاطع مع محور الصادات $(0,1)$، ومع محور السينات $(-2,0)$. تُقبل الجداول الصحيحة الأخرى.\nالتصحيح (٥ درجات): إعادة الترتيب (١)، الجدول (١)، تمثيل النقاط (١)، المستقيم الصحيح (١)، التسميات والتقاطعات (١)."
+    },
+    {
+      "id": "9g3-linear-table-frq-8",
+      "classroom": "9G3",
+      "position": 22,
+      "type": "FRQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 5,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [],
+      "optionsAr": [],
+      "sourcePage": 215,
+      "sourceQuestion": 8,
+      "topic": "Page 215 · Q8 · Table & graph · الجدول والرسم",
+      "prompt": "Make a table of five convenient x-values and their y-values. Plot the ordered pairs, draw the straight line, and label its intercepts. Show your working.\n$$y+2=\\frac14x$$",
+      "promptAr": "كوّن جدولاً لخمس قيم مناسبة للسينات وقيم الصادات المناظرة. مثّل الأزواج المرتبة وارسم المستقيم وبيّن تقاطعاته مع المحورين، موضحاً خطوات الحل.\n$$y+2=\\frac14x$$",
+      "linearGraphing": {
+        "coefficients": [
+          0.25,
+          -2
+        ],
+        "xs": [
+          -8,
+          -4,
+          0,
+          4,
+          8
+        ],
+        "bounds": [
+          -8,
+          12,
+          -6,
+          4
+        ],
+        "xStep": 1,
+        "yStep": 1
+      },
+      "answer": "Rearrange: $y=0.25x-2$. One valid table gives $(-8,-4), (-4,-3), (0,-2), (4,-1), (8,0)$. The line has slope $0.25$, y-intercept $(0,-2)$, and x-intercept $(8,0)$. Alternative correct tables are accepted.\nMarking guide (5 marks): rearranging (1), table (1), plotting (1), accurate straight line (1), labels/intercepts (1).",
+      "answerAr": "نعيد الترتيب: $y=0.25x-2$. مثال لجدول صحيح: $(-8,-4), (-4,-3), (0,-2), (4,-1), (8,0)$. الميل $0.25$، والتقاطع مع محور الصادات $(0,-2)$، ومع محور السينات $(8,0)$. تُقبل الجداول الصحيحة الأخرى.\nالتصحيح (٥ درجات): إعادة الترتيب (١)، الجدول (١)، تمثيل النقاط (١)، المستقيم الصحيح (١)، التسميات والتقاطعات (١)."
+    },
+    {
+      "id": "9g3-slope-original-1",
+      "classroom": "9G3",
+      "position": 23,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "sourcePage": 223,
+      "sourceKind": "original",
+      "sourcePart": "Additional practice 1",
+      "topic": "Slope practice 1 · سؤال ميل إضافي 1",
+      "prompt": "Find the slope of the line shown. Each grid square represents 1 unit.",
+      "promptAr": "أوجد ميل المستقيم المرسوم. يمثل كل مربع وحدة واحدة.",
+      "linearGraph": {
+        "coefficients": [
+          -2,
+          1
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      },
+      "options": [
+        "$m=2$",
+        "$m=-2$",
+        "$m=-\\frac12$",
+        "$m=1$"
+      ],
+      "optionsAr": [
+        "$m=2$",
+        "$m=-2$",
+        "$m=-\\frac12$",
+        "$m=1$"
+      ],
+      "correctIndex": 1,
+      "answer": "Correct option: B. Use points $(-1,3)$ and $(1,-1)$: $m=\\frac{-1-(3)}{1-(-1)}=-2$.",
+      "answerAr": "الإجابة الصحيحة: B. باستعمال النقطتين $(-1,3)$ و$(1,-1)$: $m=\\frac{-1-(3)}{1-(-1)}=-2$."
+    },
+    {
+      "id": "9g3-slope-original-2",
+      "classroom": "9G3",
+      "position": 24,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "sourcePage": 223,
+      "sourceKind": "original",
+      "sourcePart": "Additional practice 2",
+      "topic": "Slope practice 2 · سؤال ميل إضافي 2",
+      "prompt": "Find the slope of the line shown. Each grid square represents 1 unit.",
+      "promptAr": "أوجد ميل المستقيم المرسوم. يمثل كل مربع وحدة واحدة.",
+      "linearGraph": {
+        "coefficients": [
+          0.6666666666666666,
+          -2
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            0,
+            -2
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "options": [
+        "$m=\\frac32$",
+        "$m=-\\frac23$",
+        "$m=\\frac23$",
+        "$m=-2$"
+      ],
+      "optionsAr": [
+        "$m=\\frac32$",
+        "$m=-\\frac23$",
+        "$m=\\frac23$",
+        "$m=-2$"
+      ],
+      "correctIndex": 2,
+      "answer": "Correct option: C. Use points $(0,-2)$ and $(3,0)$: $m=\\frac{0-(-2)}{3-(0)}=\\frac23$.",
+      "answerAr": "الإجابة الصحيحة: C. باستعمال النقطتين $(0,-2)$ و$(3,0)$: $m=\\frac{0-(-2)}{3-(0)}=\\frac23$."
+    },
+    {
+      "id": "9g3-slope-original-3",
+      "classroom": "9G3",
+      "position": 25,
+      "type": "MCQ",
+      "exam": "EOT · 9G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف التاسع",
+      "marks": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "sourcePage": 223,
+      "sourceKind": "original",
+      "sourcePart": "Additional practice 3",
+      "topic": "Slope practice 3 · سؤال ميل إضافي 3",
+      "prompt": "Find the slope of the line shown. Each grid square represents 1 unit.",
+      "promptAr": "أوجد ميل المستقيم المرسوم. يمثل كل مربع وحدة واحدة.",
+      "linearGraph": {
+        "coefficients": [
+          2,
+          -3
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            0,
+            -3
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "options": [
+        "$m=\\frac12$",
+        "$m=-2$",
+        "$m=-3$",
+        "$m=2$"
+      ],
+      "optionsAr": [
+        "$m=\\frac12$",
+        "$m=-2$",
+        "$m=-3$",
+        "$m=2$"
+      ],
+      "correctIndex": 3,
+      "answer": "Correct option: D. Use points $(0,-3)$ and $(2,1)$: $m=\\frac{1-(-3)}{2-(0)}=2$.",
+      "answerAr": "الإجابة الصحيحة: D. باستعمال النقطتين $(0,-3)$ و$(2,1)$: $m=\\frac{1-(-3)}{2-(0)}=2$."
     }
   ],
   "exam": {
@@ -4970,6 +6010,11 @@
       "classroom": "10A1",
       "title": "8th week exam",
       "questions": 35
+    },
+    {
+      "classroom": "9G3",
+      "title": "8th week exam",
+      "questions": 25
     }
   ]
 }
