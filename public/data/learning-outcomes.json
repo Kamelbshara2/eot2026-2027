@@ -30,6 +30,36 @@
       "targetCount": 7,
       "position": 3,
       "revision": 1
+    },
+    {
+      "id": "70700310-1003-4e08-8c32-070700030010",
+      "title": "Transform graphs of quadratic functions of the form y=a(x-h)^2+k",
+      "titleAr": "تحويل الرسوم البيانية للدوال التربيعية — الإزاحات (ص707، س3–10)",
+      "bookPages": "707 (Q3–10)",
+      "position": 1,
+      "classroom": "10G3",
+      "targetCount": 16,
+      "revision": 1
+    },
+    {
+      "id": "70802330-1003-4e08-8c32-070800230030",
+      "title": "Transform graphs of quadratic functions of the form y=a(x-h)^2+k",
+      "titleAr": "تحويل الرسوم البيانية للدوال التربيعية — الانعكاس والتمدد والإزاحة (ص707–708، س23–30)",
+      "bookPages": "707–708 (Q23–30)",
+      "position": 2,
+      "classroom": "10G3",
+      "targetCount": 16,
+      "revision": 1
+    },
+    {
+      "id": "72100510-1003-4e08-8c32-072100050010",
+      "title": "Solve quadratic equations by factoring",
+      "titleAr": "حل المعادلات التربيعية بالتحليل إلى عوامل",
+      "bookPages": "721 (Q5–10)",
+      "position": 3,
+      "classroom": "10G3",
+      "targetCount": 6,
+      "revision": 1
     }
   ],
   "assignments": [
@@ -132,6 +162,201 @@
       "question_id": "10a1-similar-triangles-frq-11",
       "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
       "position": 7
+    },
+    {
+      "question_id": "10g3-quadratic-graph-03",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-quadratic-graph-04",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-quadratic-graph-05",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-quadratic-graph-06",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-quadratic-graph-07",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-quadratic-graph-08",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-quadratic-graph-09",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-quadratic-graph-10",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 8
+    },
+    {
+      "question_id": "10g3-quadratic-description-03",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 9
+    },
+    {
+      "question_id": "10g3-quadratic-description-04",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 10
+    },
+    {
+      "question_id": "10g3-quadratic-description-05",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 11
+    },
+    {
+      "question_id": "10g3-quadratic-description-06",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 12
+    },
+    {
+      "question_id": "10g3-quadratic-description-07",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 13
+    },
+    {
+      "question_id": "10g3-quadratic-description-08",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 14
+    },
+    {
+      "question_id": "10g3-quadratic-description-09",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 15
+    },
+    {
+      "question_id": "10g3-quadratic-description-10",
+      "outcome_id": "70700310-1003-4e08-8c32-070700030010",
+      "position": 16
+    },
+    {
+      "question_id": "10g3-quadratic-graph-23",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-quadratic-graph-24",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-quadratic-graph-25",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-quadratic-graph-26",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-quadratic-graph-27",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-quadratic-graph-28",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-quadratic-graph-29",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-quadratic-graph-30",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 8
+    },
+    {
+      "question_id": "10g3-quadratic-description-23",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 9
+    },
+    {
+      "question_id": "10g3-quadratic-description-24",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 10
+    },
+    {
+      "question_id": "10g3-quadratic-description-25",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 11
+    },
+    {
+      "question_id": "10g3-quadratic-description-26",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 12
+    },
+    {
+      "question_id": "10g3-quadratic-description-27",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 13
+    },
+    {
+      "question_id": "10g3-quadratic-description-28",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 14
+    },
+    {
+      "question_id": "10g3-quadratic-description-29",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 15
+    },
+    {
+      "question_id": "10g3-quadratic-description-30",
+      "outcome_id": "70802330-1003-4e08-8c32-070800230030",
+      "position": 16
+    },
+    {
+      "question_id": "10g3-factoring-05",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-factoring-06",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-factoring-07",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-factoring-08",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-factoring-09",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-factoring-10",
+      "outcome_id": "72100510-1003-4e08-8c32-072100050010",
+      "position": 6
     }
+  ],
+  "previousSeedIds": [
+    "c9d5fa67-10a1-4e08-8c32-012800111414",
+    "aa133008-10a1-4e08-8c32-012800111414",
+    "13900011-10a1-4e08-8c32-012800111414"
   ]
 }

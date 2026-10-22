@@ -2321,6 +2321,2252 @@
       "image": "",
       "sourcePage": 139,
       "sourceQuestion": 11
+    },
+    {
+      "id": "10g3-quadratic-graph-03",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q3 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=(x-1)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=(x-1)^2$$",
+      "answer": "Correct option: A. From $f(x)=x^2$: 1 unit(s) right. No reflection or stretch is needed. Vertex: $(1,0)$.",
+      "answerAr": "الإجابة الصحيحة: A. من الدالة الأم: إزاحة بمقدار 1 وحدة يميناً. لا يلزم انعكاس أو تمدد. الرأس: $(1,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          1,
+          1,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            0
+          ]
+        ],
+        "sourceNumber": 3,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 1,
+      "sourcePage": 707,
+      "sourceQuestion": 3,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-04",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q4 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=x^2-8$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=x^2-8$$",
+      "answer": "Correct option: B. From $f(x)=x^2$: 8 unit(s) down. No reflection or stretch is needed. Vertex: $(0,-8)$.",
+      "answerAr": "الإجابة الصحيحة: B. من الدالة الأم: إزاحة بمقدار 8 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(0,-8)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          -8
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            8
+          ],
+          [
+            1,
+            0,
+            -8
+          ],
+          [
+            1,
+            -8,
+            0
+          ],
+          [
+            -1,
+            0,
+            -8
+          ]
+        ],
+        "sourceNumber": 4,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 2,
+      "sourcePage": 707,
+      "sourceQuestion": 4,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-05",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q5 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=(x+3)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=(x+3)^2$$",
+      "answer": "Correct option: C. From $f(x)=x^2$: 3 unit(s) left. No reflection or stretch is needed. Vertex: $(-3,0)$.",
+      "answerAr": "الإجابة الصحيحة: C. من الدالة الأم: إزاحة بمقدار 3 وحدة يساراً. لا يلزم انعكاس أو تمدد. الرأس: $(-3,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          1,
+          -3,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            -3
+          ],
+          [
+            1,
+            -3,
+            0
+          ],
+          [
+            -1,
+            -3,
+            0
+          ]
+        ],
+        "sourceNumber": 5,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 3,
+      "sourcePage": 707,
+      "sourceQuestion": 5,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-06",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q6 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=x^2+7$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=x^2+7$$",
+      "answer": "Correct option: D. From $f(x)=x^2$: 7 unit(s) up. No reflection or stretch is needed. Vertex: $(0,7)$.",
+      "answerAr": "الإجابة الصحيحة: D. من الدالة الأم: إزاحة بمقدار 7 وحدة إلى الأعلى. لا يلزم انعكاس أو تمدد. الرأس: $(0,7)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          7
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            -7
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            -1,
+            0,
+            7
+          ],
+          [
+            1,
+            0,
+            7
+          ]
+        ],
+        "sourceNumber": 6,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 4,
+      "sourcePage": 707,
+      "sourceQuestion": 6,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-07",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q7 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=(x+2.5)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=(x+2.5)^2$$",
+      "answer": "Correct option: A. From $f(x)=x^2$: 2.5 unit(s) left. No reflection or stretch is needed. Vertex: $(-2.5,0)$.",
+      "answerAr": "الإجابة الصحيحة: A. من الدالة الأم: إزاحة بمقدار 2.5 وحدة يساراً. لا يلزم انعكاس أو تمدد. الرأس: $(-2.5,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          1,
+          -2.5,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            -2.5,
+            0
+          ],
+          [
+            1,
+            2.5,
+            0
+          ],
+          [
+            1,
+            0,
+            -2.5
+          ],
+          [
+            -1,
+            -2.5,
+            0
+          ]
+        ],
+        "sourceNumber": 7,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 5,
+      "sourcePage": 707,
+      "sourceQuestion": 7,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-08",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q8 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=(x+5)^2-2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=(x+5)^2-2$$",
+      "answer": "Correct option: B. From $f(x)=x^2$: 5 unit(s) left; 2 unit(s) down. No reflection or stretch is needed. Vertex: $(-5,-2)$.",
+      "answerAr": "الإجابة الصحيحة: B. من الدالة الأم: إزاحة بمقدار 5 وحدة يساراً؛ إزاحة بمقدار 2 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(-5,-2)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          1,
+          -5,
+          -2
+        ],
+        "choices": [
+          [
+            1,
+            5,
+            -2
+          ],
+          [
+            1,
+            -5,
+            -2
+          ],
+          [
+            1,
+            -5,
+            2
+          ],
+          [
+            2,
+            -5,
+            -2
+          ]
+        ],
+        "sourceNumber": 8,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 6,
+      "sourcePage": 707,
+      "sourceQuestion": 8,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-09",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q9 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=6+x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=6+x^2$$",
+      "answer": "Correct option: C. From $f(x)=x^2$: 6 unit(s) up. No reflection or stretch is needed. Vertex: $(0,6)$.",
+      "answerAr": "الإجابة الصحيحة: C. من الدالة الأم: إزاحة بمقدار 6 وحدة إلى الأعلى. لا يلزم انعكاس أو تمدد. الرأس: $(0,6)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          6
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            -6
+          ],
+          [
+            1,
+            6,
+            0
+          ],
+          [
+            1,
+            0,
+            6
+          ],
+          [
+            -1,
+            0,
+            6
+          ]
+        ],
+        "sourceNumber": 9,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 7,
+      "sourcePage": 707,
+      "sourceQuestion": 9,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-10",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q10 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=-4+(x-3)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=-4+(x-3)^2$$",
+      "answer": "Correct option: D. From $f(x)=x^2$: 3 unit(s) right; 4 unit(s) down. No reflection or stretch is needed. Vertex: $(3,-4)$.",
+      "answerAr": "الإجابة الصحيحة: D. من الدالة الأم: إزاحة بمقدار 3 وحدة يميناً؛ إزاحة بمقدار 4 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(3,-4)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1,
+          3,
+          -4
+        ],
+        "choices": [
+          [
+            1,
+            -3,
+            -4
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            -4
+          ],
+          [
+            1,
+            3,
+            -4
+          ]
+        ],
+        "sourceNumber": 10,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 8,
+      "sourcePage": 707,
+      "sourceQuestion": 10,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-description-03",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q3 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=(x-1)^2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=(x-1)^2$$",
+      "answer": "Correct option: B. From $f(x)=x^2$: 1 unit(s) right. No reflection or stretch is needed. Vertex: $(1,0)$.",
+      "answerAr": "الإجابة الصحيحة: B. من الدالة الأم: إزاحة بمقدار 1 وحدة يميناً. لا يلزم انعكاس أو تمدد. الرأس: $(1,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "1 unit(s) left.",
+        "1 unit(s) right.",
+        "1 unit(s) up.",
+        "1 unit(s) right; reflection across the x-axis."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 1 وحدة يساراً.",
+        "إزاحة بمقدار 1 وحدة يميناً.",
+        "إزاحة بمقدار 1 وحدة إلى الأعلى.",
+        "إزاحة بمقدار 1 وحدة يميناً؛ انعكاس حول محور السينات."
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          1,
+          1,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            0
+          ]
+        ],
+        "sourceNumber": 3,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 9,
+      "sourcePage": 707,
+      "sourceQuestion": 3,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-04",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q4 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=x^2-8$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=x^2-8$$",
+      "answer": "Correct option: C. From $f(x)=x^2$: 8 unit(s) down. No reflection or stretch is needed. Vertex: $(0,-8)$.",
+      "answerAr": "الإجابة الصحيحة: C. من الدالة الأم: إزاحة بمقدار 8 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(0,-8)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "8 unit(s) up.",
+        "8 unit(s) left.",
+        "8 unit(s) down.",
+        "8 unit(s) down; reflection across the x-axis."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 8 وحدة إلى الأعلى.",
+        "إزاحة بمقدار 8 وحدة يساراً.",
+        "إزاحة بمقدار 8 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 8 وحدة إلى الأسفل؛ انعكاس حول محور السينات."
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          -8
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            8
+          ],
+          [
+            1,
+            -8,
+            0
+          ],
+          [
+            1,
+            0,
+            -8
+          ],
+          [
+            -1,
+            0,
+            -8
+          ]
+        ],
+        "sourceNumber": 4,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 10,
+      "sourcePage": 707,
+      "sourceQuestion": 4,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-05",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q5 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=(x+3)^2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=(x+3)^2$$",
+      "answer": "Correct option: D. From $f(x)=x^2$: 3 unit(s) left. No reflection or stretch is needed. Vertex: $(-3,0)$.",
+      "answerAr": "الإجابة الصحيحة: D. من الدالة الأم: إزاحة بمقدار 3 وحدة يساراً. لا يلزم انعكاس أو تمدد. الرأس: $(-3,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "3 unit(s) right.",
+        "3 unit(s) down.",
+        "3 unit(s) left; reflection across the x-axis.",
+        "3 unit(s) left."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 3 وحدة يميناً.",
+        "إزاحة بمقدار 3 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 3 وحدة يساراً؛ انعكاس حول محور السينات.",
+        "إزاحة بمقدار 3 وحدة يساراً."
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1,
+          -3,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            -3
+          ],
+          [
+            -1,
+            -3,
+            0
+          ],
+          [
+            1,
+            -3,
+            0
+          ]
+        ],
+        "sourceNumber": 5,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 11,
+      "sourcePage": 707,
+      "sourceQuestion": 5,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-06",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q6 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=x^2+7$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=x^2+7$$",
+      "answer": "Correct option: A. From $f(x)=x^2$: 7 unit(s) up. No reflection or stretch is needed. Vertex: $(0,7)$.",
+      "answerAr": "الإجابة الصحيحة: A. من الدالة الأم: إزاحة بمقدار 7 وحدة إلى الأعلى. لا يلزم انعكاس أو تمدد. الرأس: $(0,7)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "7 unit(s) up.",
+        "7 unit(s) down.",
+        "7 unit(s) right.",
+        "7 unit(s) up; reflection across the x-axis."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 7 وحدة إلى الأعلى.",
+        "إزاحة بمقدار 7 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 7 وحدة يميناً.",
+        "إزاحة بمقدار 7 وحدة إلى الأعلى؛ انعكاس حول محور السينات."
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          7
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            7
+          ],
+          [
+            1,
+            0,
+            -7
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            -1,
+            0,
+            7
+          ]
+        ],
+        "sourceNumber": 6,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 12,
+      "sourcePage": 707,
+      "sourceQuestion": 6,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-07",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q7 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=(x+2.5)^2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=(x+2.5)^2$$",
+      "answer": "Correct option: B. From $f(x)=x^2$: 2.5 unit(s) left. No reflection or stretch is needed. Vertex: $(-2.5,0)$.",
+      "answerAr": "الإجابة الصحيحة: B. من الدالة الأم: إزاحة بمقدار 2.5 وحدة يساراً. لا يلزم انعكاس أو تمدد. الرأس: $(-2.5,0)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "2.5 unit(s) right.",
+        "2.5 unit(s) left.",
+        "2.5 unit(s) down.",
+        "2.5 unit(s) left; reflection across the x-axis."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 2.5 وحدة يميناً.",
+        "إزاحة بمقدار 2.5 وحدة يساراً.",
+        "إزاحة بمقدار 2.5 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 2.5 وحدة يساراً؛ انعكاس حول محور السينات."
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          1,
+          -2.5,
+          0
+        ],
+        "choices": [
+          [
+            1,
+            2.5,
+            0
+          ],
+          [
+            1,
+            -2.5,
+            0
+          ],
+          [
+            1,
+            0,
+            -2.5
+          ],
+          [
+            -1,
+            -2.5,
+            0
+          ]
+        ],
+        "sourceNumber": 7,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 13,
+      "sourcePage": 707,
+      "sourceQuestion": 7,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-08",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q8 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=(x+5)^2-2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=(x+5)^2-2$$",
+      "answer": "Correct option: C. From $f(x)=x^2$: 5 unit(s) left; 2 unit(s) down. No reflection or stretch is needed. Vertex: $(-5,-2)$.",
+      "answerAr": "الإجابة الصحيحة: C. من الدالة الأم: إزاحة بمقدار 5 وحدة يساراً؛ إزاحة بمقدار 2 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(-5,-2)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "5 unit(s) right; 2 unit(s) down.",
+        "5 unit(s) left; 2 unit(s) up.",
+        "5 unit(s) left; 2 unit(s) down.",
+        "5 unit(s) left; 2 unit(s) down; vertical stretch by factor 2."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 5 وحدة يميناً؛ إزاحة بمقدار 2 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 5 وحدة يساراً؛ إزاحة بمقدار 2 وحدة إلى الأعلى.",
+        "إزاحة بمقدار 5 وحدة يساراً؛ إزاحة بمقدار 2 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 5 وحدة يساراً؛ إزاحة بمقدار 2 وحدة إلى الأسفل؛ تمدد رأسي بمعامل 2."
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          1,
+          -5,
+          -2
+        ],
+        "choices": [
+          [
+            1,
+            5,
+            -2
+          ],
+          [
+            1,
+            -5,
+            2
+          ],
+          [
+            1,
+            -5,
+            -2
+          ],
+          [
+            2,
+            -5,
+            -2
+          ]
+        ],
+        "sourceNumber": 8,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 14,
+      "sourcePage": 707,
+      "sourceQuestion": 8,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-09",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q9 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=6+x^2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=6+x^2$$",
+      "answer": "Correct option: D. From $f(x)=x^2$: 6 unit(s) up. No reflection or stretch is needed. Vertex: $(0,6)$.",
+      "answerAr": "الإجابة الصحيحة: D. من الدالة الأم: إزاحة بمقدار 6 وحدة إلى الأعلى. لا يلزم انعكاس أو تمدد. الرأس: $(0,6)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "6 unit(s) down.",
+        "6 unit(s) right.",
+        "6 unit(s) up; reflection across the x-axis.",
+        "6 unit(s) up."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 6 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 6 وحدة يميناً.",
+        "إزاحة بمقدار 6 وحدة إلى الأعلى؛ انعكاس حول محور السينات.",
+        "إزاحة بمقدار 6 وحدة إلى الأعلى."
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1,
+          0,
+          6
+        ],
+        "choices": [
+          [
+            1,
+            0,
+            -6
+          ],
+          [
+            1,
+            6,
+            0
+          ],
+          [
+            -1,
+            0,
+            6
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ],
+        "sourceNumber": 9,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 15,
+      "sourcePage": 707,
+      "sourceQuestion": 9,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-10",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q10 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe the transformation from the parent function $f(x)=x^2$. Choose the correct description.\n$$g(x)=-4+(x-3)^2$$",
+      "promptAr": "صف التحويل الهندسي من الدالة الأم $f(x)=x^2$. اختر الوصف الصحيح.\n$$g(x)=-4+(x-3)^2$$",
+      "answer": "Correct option: A. From $f(x)=x^2$: 3 unit(s) right; 4 unit(s) down. No reflection or stretch is needed. Vertex: $(3,-4)$.",
+      "answerAr": "الإجابة الصحيحة: A. من الدالة الأم: إزاحة بمقدار 3 وحدة يميناً؛ إزاحة بمقدار 4 وحدة إلى الأسفل. لا يلزم انعكاس أو تمدد. الرأس: $(3,-4)$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "3 unit(s) right; 4 unit(s) down.",
+        "3 unit(s) left; 4 unit(s) down.",
+        "3 unit(s) right; 4 unit(s) up.",
+        "3 unit(s) right; 4 unit(s) down; vertical stretch by factor 2."
+      ],
+      "optionsAr": [
+        "إزاحة بمقدار 3 وحدة يميناً؛ إزاحة بمقدار 4 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 3 وحدة يساراً؛ إزاحة بمقدار 4 وحدة إلى الأسفل.",
+        "إزاحة بمقدار 3 وحدة يميناً؛ إزاحة بمقدار 4 وحدة إلى الأعلى.",
+        "إزاحة بمقدار 3 وحدة يميناً؛ إزاحة بمقدار 4 وحدة إلى الأسفل؛ تمدد رأسي بمعامل 2."
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          1,
+          3,
+          -4
+        ],
+        "choices": [
+          [
+            1,
+            3,
+            -4
+          ],
+          [
+            1,
+            -3,
+            -4
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            -4
+          ]
+        ],
+        "sourceNumber": 10,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 16,
+      "sourcePage": 707,
+      "sourceQuestion": 10,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-graph-23",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q23 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=-\\frac{1}{3}x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=-\\frac{1}{3}x^2$$",
+      "answer": "Correct option: A.\nThe negative sign outside the square reflects the graph across the x-axis; the output scale $1/3$ compresses it vertically.",
+      "answerAr": "الإجابة الصحيحة: A.\nالإشارة السالبة خارج التربيع تعكس الرسم حول محور السينات، ومعامل المخرجات $1/3$ يسبب انضغاطاً رأسياً.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          -0.3333333333333333,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            -0.3333333333333333,
+            0,
+            0
+          ],
+          [
+            -3,
+            0,
+            0
+          ],
+          [
+            0.3333333333333333,
+            0,
+            0
+          ],
+          [
+            -0.5,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 23,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 17,
+      "sourcePage": 707,
+      "sourceQuestion": 23,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-24",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q24 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=\\left(-\\frac{2}{3}x\\right)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=\\left(-\\frac{2}{3}x\\right)^2$$",
+      "answer": "Correct option: B.\nFor $f(bx)$, the horizontal scale factor is $1/|b|=3/2$. The negative input represents reflection across the y-axis. Since $x^2$ is even, that reflection does not visibly change the graph. Equivalently, $g(x)=\\frac{4}{9}x^2$ is a vertical compression by $4/9$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي $f(bx)$ يكون معامل التحويل الأفقي $1/|b|=3/2$. تشير الإشارة السالبة داخل المدخل إلى انعكاس حول محور الصادات. ولأن الدالة $x^2$ زوجية، لا يغير هذا الانعكاس شكل الرسم ظاهرياً. وبصورة مكافئة، $g(x)=\\frac{4}{9}x^2$ انضغاط رأسي بمعامل $4/9$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          0.4444444444444444,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            2.25,
+            0,
+            0
+          ],
+          [
+            0.4444444444444444,
+            0,
+            0
+          ],
+          [
+            -0.4444444444444444,
+            0,
+            0
+          ],
+          [
+            0.25,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 24,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 18,
+      "sourcePage": 707,
+      "sourceQuestion": 24,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-25",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q25 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=-2x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=-2x^2$$",
+      "answer": "Correct option: C.\nThe output multiplier $-2$ reflects across the x-axis and doubles all vertical distances.",
+      "answerAr": "الإجابة الصحيحة: C.\nالمعامل الخارجي $-2$ يعكس الرسم حول محور السينات ويضاعف المسافات الرأسية.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          -2,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            -0.5,
+            0,
+            0
+          ],
+          [
+            -2,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 25,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 19,
+      "sourcePage": 707,
+      "sourceQuestion": 25,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-26",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q26 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=\\left(-\\frac{6}{5}x\\right)^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=\\left(-\\frac{6}{5}x\\right)^2$$",
+      "answer": "Correct option: D.\nThe horizontal scale factor is $1/|{-6/5}|=5/6$, a compression. Reflection across the y-axis has no visible effect on this even parent function. Equivalently, $g(x)=\\frac{36}{25}x^2$ is a vertical stretch by $36/25$.",
+      "answerAr": "الإجابة الصحيحة: D.\nمعامل التحويل الأفقي هو $1/|{-6/5}|=5/6$، ولذلك يحدث انضغاط أفقي. لا يظهر أثر الانعكاس حول محور الصادات لأن الدالة الأم زوجية. وبصورة مكافئة، $g(x)=\\frac{36}{25}x^2$ تمدد رأسي بمعامل $36/25$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1.44,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            0.6944444444444444,
+            0,
+            0
+          ],
+          [
+            -1.44,
+            0,
+            0
+          ],
+          [
+            2.25,
+            0,
+            0
+          ],
+          [
+            1.44,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 26,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 20,
+      "sourcePage": 707,
+      "sourceQuestion": 26,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-27",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q27 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$h(x)=-7-x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$h(x)=-7-x^2$$",
+      "answer": "Correct option: A.\nRewrite as $h(x)=-x^2-7$: reflect across the x-axis, then move down $7$.",
+      "answerAr": "الإجابة الصحيحة: A.\nنكتب $h(x)=-x^2-7$: انعكاس حول محور السينات، ثم إزاحة $7$ وحدات إلى الأسفل.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          -1,
+          0,
+          -7
+        ],
+        "choices": [
+          [
+            -1,
+            0,
+            -7
+          ],
+          [
+            -1,
+            0,
+            7
+          ],
+          [
+            1,
+            0,
+            -7
+          ],
+          [
+            -1,
+            -7,
+            0
+          ]
+        ],
+        "sourceNumber": 27,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 21,
+      "sourcePage": 708,
+      "sourceQuestion": 27,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-28",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q28 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=2(x-3)^2+8$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=2(x-3)^2+8$$",
+      "answer": "Correct option: B.\nIn $a(x-h)^2+k$, $a=2$, $h=3$, and $k=8$: vertical stretch by $2$, right $3$, up $8$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي الصيغة $a(x-h)^2+k$ لدينا $a=2$ و$h=3$ و$k=8$: تمدد رأسي بمعامل $2$، وإزاحة $3$ يميناً و$8$ إلى الأعلى.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          2,
+          3,
+          8
+        ],
+        "choices": [
+          [
+            2,
+            -3,
+            8
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            -8
+          ],
+          [
+            0.5,
+            3,
+            8
+          ]
+        ],
+        "sourceNumber": 28,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 22,
+      "sourcePage": 708,
+      "sourceQuestion": 28,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-29",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q29 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$h(x)=6+\\frac{2}{3}x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$h(x)=6+\\frac{2}{3}x^2$$",
+      "answer": "Correct option: C.\nThe multiplier $2/3$ compresses vertically, and the added $6$ moves the graph up.",
+      "answerAr": "الإجابة الصحيحة: C.\nالمعامل $2/3$ يسبب انضغاطاً رأسياً، وإضافة $6$ تنقل الرسم إلى الأعلى.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          0.6666666666666666,
+          0,
+          6
+        ],
+        "choices": [
+          [
+            1.5,
+            0,
+            6
+          ],
+          [
+            0.6666666666666666,
+            0,
+            -6
+          ],
+          [
+            0.6666666666666666,
+            0,
+            6
+          ],
+          [
+            -0.6666666666666666,
+            0,
+            6
+          ]
+        ],
+        "sourceNumber": 29,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 23,
+      "sourcePage": 708,
+      "sourceQuestion": 29,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-graph-30",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q30 · Graph selection · اختيار الرسم",
+      "marks": 1,
+      "prompt": "Which graph represents the function? Choose one graph. All options use the same scale.\n$$g(x)=-5-\\frac{4}{3}x^2$$",
+      "promptAr": "أي رسم بياني يمثل الدالة؟ اختر رسماً واحداً. جميع الرسوم لها المقياس نفسه.\n$$g(x)=-5-\\frac{4}{3}x^2$$",
+      "answer": "Correct option: D.\nThe negative coefficient reflects across the x-axis, its magnitude $4/3$ stretches vertically, and $-5$ translates down.",
+      "answerAr": "الإجابة الصحيحة: D.\nالمعامل السالب يعكس الرسم حول محور السينات، وقيمته المطلقة $4/3$ تسبب تمدداً رأسياً، والحد $-5$ ينقل الرسم إلى الأسفل.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Graph A",
+        "Graph B",
+        "Graph C",
+        "Graph D"
+      ],
+      "optionsAr": [
+        "الرسم A",
+        "الرسم B",
+        "الرسم C",
+        "الرسم D"
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          -1.3333333333333333,
+          0,
+          -5
+        ],
+        "choices": [
+          [
+            -0.75,
+            0,
+            -5
+          ],
+          [
+            1.3333333333333333,
+            0,
+            -5
+          ],
+          [
+            -1.3333333333333333,
+            0,
+            5
+          ],
+          [
+            -1.3333333333333333,
+            0,
+            -5
+          ]
+        ],
+        "sourceNumber": 30,
+        "kind": "graph"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 24,
+      "sourcePage": 708,
+      "sourceQuestion": 30,
+      "sourcePart": "graph"
+    },
+    {
+      "id": "10g3-quadratic-description-23",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q23 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=-\\frac{1}{3}x^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=-\\frac{1}{3}x^2$$",
+      "answer": "Correct option: A.\nThe negative sign outside the square reflects the graph across the x-axis; the output scale $1/3$ compresses it vertically.",
+      "answerAr": "الإجابة الصحيحة: A.\nالإشارة السالبة خارج التربيع تعكس الرسم حول محور السينات، ومعامل المخرجات $1/3$ يسبب انضغاطاً رأسياً.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Reflect across the x-axis and compress vertically by a factor of $\\frac{1}{3}$.",
+        "Reflect across the x-axis and stretch vertically by a factor of $3$.",
+        "Compress vertically by a factor of $\\frac{1}{3}$, with no reflection.",
+        "Reflect across the x-axis and compress vertically by a factor of $\\frac{1}{2}$."
+      ],
+      "optionsAr": [
+        "انعكاس حول محور السينات وانضغاط رأسي بمعامل $\\frac{1}{3}$.",
+        "انعكاس حول محور السينات وتمدد رأسي بمعامل $3$.",
+        "انضغاط رأسي بمعامل $\\frac{1}{3}$ دون انعكاس.",
+        "انعكاس حول محور السينات وانضغاط رأسي بمعامل $\\frac{1}{2}$."
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          -0.3333333333333333,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            -0.3333333333333333,
+            0,
+            0
+          ],
+          [
+            -3,
+            0,
+            0
+          ],
+          [
+            0.3333333333333333,
+            0,
+            0
+          ],
+          [
+            -0.5,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 23,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 25,
+      "sourcePage": 707,
+      "sourceQuestion": 23,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-24",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q24 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=\\left(-\\frac{2}{3}x\\right)^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=\\left(-\\frac{2}{3}x\\right)^2$$",
+      "answer": "Correct option: B.\nFor $f(bx)$, the horizontal scale factor is $1/|b|=3/2$. The negative input represents reflection across the y-axis. Since $x^2$ is even, that reflection does not visibly change the graph. Equivalently, $g(x)=\\frac{4}{9}x^2$ is a vertical compression by $4/9$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي $f(bx)$ يكون معامل التحويل الأفقي $1/|b|=3/2$. تشير الإشارة السالبة داخل المدخل إلى انعكاس حول محور الصادات. ولأن الدالة $x^2$ زوجية، لا يغير هذا الانعكاس شكل الرسم ظاهرياً. وبصورة مكافئة، $g(x)=\\frac{4}{9}x^2$ انضغاط رأسي بمعامل $4/9$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Reflect across the y-axis and compress horizontally by a factor of $\\frac{2}{3}$.",
+        "Reflect across the y-axis and stretch horizontally by a factor of $\\frac{3}{2}$.",
+        "Reflect across the x-axis and stretch horizontally by a factor of $\\frac{3}{2}$.",
+        "Reflect across the y-axis and stretch horizontally by a factor of $2$."
+      ],
+      "optionsAr": [
+        "انعكاس حول محور الصادات وانضغاط أفقي بمعامل $\\frac{2}{3}$.",
+        "انعكاس حول محور الصادات وتمدد أفقي بمعامل $\\frac{3}{2}$.",
+        "انعكاس حول محور السينات وتمدد أفقي بمعامل $\\frac{3}{2}$.",
+        "انعكاس حول محور الصادات وتمدد أفقي بمعامل $2$."
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          0.4444444444444444,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            2.25,
+            0,
+            0
+          ],
+          [
+            0.4444444444444444,
+            0,
+            0
+          ],
+          [
+            -0.4444444444444444,
+            0,
+            0
+          ],
+          [
+            0.25,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 24,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 26,
+      "sourcePage": 707,
+      "sourceQuestion": 24,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-25",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q25 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=-2x^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=-2x^2$$",
+      "answer": "Correct option: C.\nThe output multiplier $-2$ reflects across the x-axis and doubles all vertical distances.",
+      "answerAr": "الإجابة الصحيحة: C.\nالمعامل الخارجي $-2$ يعكس الرسم حول محور السينات ويضاعف المسافات الرأسية.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Stretch vertically by a factor of $2$, with no reflection.",
+        "Reflect across the x-axis and compress vertically by a factor of $\\frac{1}{2}$.",
+        "Reflect across the x-axis and stretch vertically by a factor of $2$.",
+        "Compress vertically by a factor of $\\frac{1}{2}$, with no reflection."
+      ],
+      "optionsAr": [
+        "تمدد رأسي بمعامل $2$ دون انعكاس.",
+        "انعكاس حول محور السينات وانضغاط رأسي بمعامل $\\frac{1}{2}$.",
+        "انعكاس حول محور السينات وتمدد رأسي بمعامل $2$.",
+        "انضغاط رأسي بمعامل $\\frac{1}{2}$ دون انعكاس."
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          -2,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            -0.5,
+            0,
+            0
+          ],
+          [
+            -2,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 25,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 27,
+      "sourcePage": 707,
+      "sourceQuestion": 25,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-26",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 707 · Q26 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=\\left(-\\frac{6}{5}x\\right)^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=\\left(-\\frac{6}{5}x\\right)^2$$",
+      "answer": "Correct option: D.\nThe horizontal scale factor is $1/|{-6/5}|=5/6$, a compression. Reflection across the y-axis has no visible effect on this even parent function. Equivalently, $g(x)=\\frac{36}{25}x^2$ is a vertical stretch by $36/25$.",
+      "answerAr": "الإجابة الصحيحة: D.\nمعامل التحويل الأفقي هو $1/|{-6/5}|=5/6$، ولذلك يحدث انضغاط أفقي. لا يظهر أثر الانعكاس حول محور الصادات لأن الدالة الأم زوجية. وبصورة مكافئة، $g(x)=\\frac{36}{25}x^2$ تمدد رأسي بمعامل $36/25$.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Reflect across the y-axis and stretch horizontally by a factor of $\\frac{6}{5}$.",
+        "Reflect across the x-axis and compress horizontally by a factor of $\\frac{5}{6}$.",
+        "Reflect across the y-axis and compress horizontally by a factor of $\\frac{2}{3}$.",
+        "Reflect across the y-axis and compress horizontally by a factor of $\\frac{5}{6}$."
+      ],
+      "optionsAr": [
+        "انعكاس حول محور الصادات وتمدد أفقي بمعامل $\\frac{6}{5}$.",
+        "انعكاس حول محور السينات وانضغاط أفقي بمعامل $\\frac{5}{6}$.",
+        "انعكاس حول محور الصادات وانضغاط أفقي بمعامل $\\frac{2}{3}$.",
+        "انعكاس حول محور الصادات وانضغاط أفقي بمعامل $\\frac{5}{6}$."
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          1.44,
+          0,
+          0
+        ],
+        "choices": [
+          [
+            0.6944444444444444,
+            0,
+            0
+          ],
+          [
+            -1.44,
+            0,
+            0
+          ],
+          [
+            2.25,
+            0,
+            0
+          ],
+          [
+            1.44,
+            0,
+            0
+          ]
+        ],
+        "sourceNumber": 26,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 28,
+      "sourcePage": 707,
+      "sourceQuestion": 26,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-27",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q27 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$h(x)=-7-x^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$h(x)=-7-x^2$$",
+      "answer": "Correct option: A.\nRewrite as $h(x)=-x^2-7$: reflect across the x-axis, then move down $7$.",
+      "answerAr": "الإجابة الصحيحة: A.\nنكتب $h(x)=-x^2-7$: انعكاس حول محور السينات، ثم إزاحة $7$ وحدات إلى الأسفل.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Reflect across the x-axis, then translate $7$ units down.",
+        "Reflect across the x-axis, then translate $7$ units up.",
+        "Translate $7$ units down, with no reflection.",
+        "Reflect across the x-axis, then translate $7$ units left."
+      ],
+      "optionsAr": [
+        "انعكاس حول محور السينات، ثم إزاحة $7$ وحدات إلى الأسفل.",
+        "انعكاس حول محور السينات، ثم إزاحة $7$ وحدات إلى الأعلى.",
+        "إزاحة $7$ وحدات إلى الأسفل دون انعكاس.",
+        "انعكاس حول محور السينات، ثم إزاحة $7$ وحدات يساراً."
+      ],
+      "correctIndex": 0,
+      "transformation": {
+        "target": [
+          -1,
+          0,
+          -7
+        ],
+        "choices": [
+          [
+            -1,
+            0,
+            -7
+          ],
+          [
+            -1,
+            0,
+            7
+          ],
+          [
+            1,
+            0,
+            -7
+          ],
+          [
+            -1,
+            -7,
+            0
+          ]
+        ],
+        "sourceNumber": 27,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 29,
+      "sourcePage": 708,
+      "sourceQuestion": 27,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-28",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q28 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=2(x-3)^2+8$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=2(x-3)^2+8$$",
+      "answer": "Correct option: B.\nIn $a(x-h)^2+k$, $a=2$, $h=3$, and $k=8$: vertical stretch by $2$, right $3$, up $8$.",
+      "answerAr": "الإجابة الصحيحة: B.\nفي الصيغة $a(x-h)^2+k$ لدينا $a=2$ و$h=3$ و$k=8$: تمدد رأسي بمعامل $2$، وإزاحة $3$ يميناً و$8$ إلى الأعلى.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Stretch vertically by a factor of $2$, then translate $3$ units left and $8$ units up.",
+        "Stretch vertically by a factor of $2$, then translate $3$ units right and $8$ units up.",
+        "Stretch vertically by a factor of $2$, then translate $3$ units right and $8$ units down.",
+        "Compress vertically by a factor of $\\frac{1}{2}$, then translate $3$ units right and $8$ units up."
+      ],
+      "optionsAr": [
+        "تمدد رأسي بمعامل $2$، ثم إزاحة $3$ وحدات يساراً و$8$ وحدات إلى الأعلى.",
+        "تمدد رأسي بمعامل $2$، ثم إزاحة $3$ وحدات يميناً و$8$ وحدات إلى الأعلى.",
+        "تمدد رأسي بمعامل $2$، ثم إزاحة $3$ وحدات يميناً و$8$ وحدات إلى الأسفل.",
+        "انضغاط رأسي بمعامل $\\frac{1}{2}$، ثم إزاحة $3$ وحدات يميناً و$8$ وحدات إلى الأعلى."
+      ],
+      "correctIndex": 1,
+      "transformation": {
+        "target": [
+          2,
+          3,
+          8
+        ],
+        "choices": [
+          [
+            2,
+            -3,
+            8
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            -8
+          ],
+          [
+            0.5,
+            3,
+            8
+          ]
+        ],
+        "sourceNumber": 28,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 30,
+      "sourcePage": 708,
+      "sourceQuestion": 28,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-29",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q29 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$h(x)=6+\\frac{2}{3}x^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$h(x)=6+\\frac{2}{3}x^2$$",
+      "answer": "Correct option: C.\nThe multiplier $2/3$ compresses vertically, and the added $6$ moves the graph up.",
+      "answerAr": "الإجابة الصحيحة: C.\nالمعامل $2/3$ يسبب انضغاطاً رأسياً، وإضافة $6$ تنقل الرسم إلى الأعلى.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Stretch vertically by a factor of $\\frac{3}{2}$, then translate $6$ units up.",
+        "Compress vertically by a factor of $\\frac{2}{3}$, then translate $6$ units down.",
+        "Compress vertically by a factor of $\\frac{2}{3}$, then translate $6$ units up.",
+        "Reflect across the x-axis, compress vertically by a factor of $\\frac{2}{3}$, then translate $6$ units up."
+      ],
+      "optionsAr": [
+        "تمدد رأسي بمعامل $\\frac{3}{2}$، ثم إزاحة $6$ وحدات إلى الأعلى.",
+        "انضغاط رأسي بمعامل $\\frac{2}{3}$، ثم إزاحة $6$ وحدات إلى الأسفل.",
+        "انضغاط رأسي بمعامل $\\frac{2}{3}$، ثم إزاحة $6$ وحدات إلى الأعلى.",
+        "انعكاس حول محور السينات وانضغاط رأسي بمعامل $\\frac{2}{3}$، ثم إزاحة $6$ وحدات إلى الأعلى."
+      ],
+      "correctIndex": 2,
+      "transformation": {
+        "target": [
+          0.6666666666666666,
+          0,
+          6
+        ],
+        "choices": [
+          [
+            1.5,
+            0,
+            6
+          ],
+          [
+            0.6666666666666666,
+            0,
+            -6
+          ],
+          [
+            0.6666666666666666,
+            0,
+            6
+          ],
+          [
+            -0.6666666666666666,
+            0,
+            6
+          ]
+        ],
+        "sourceNumber": 29,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 31,
+      "sourcePage": 708,
+      "sourceQuestion": 29,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-quadratic-description-30",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 708 · Q30 · Transformation · وصف التحويل",
+      "marks": 1,
+      "prompt": "Describe how this function is related to the parent function $f(x)=x^2$. Choose the correct transformation description.\n$$g(x)=-5-\\frac{4}{3}x^2$$",
+      "promptAr": "صف علاقة الرسم البياني للدالة الآتية بالرسم البياني للدالة الأم $f(x)=x^2$. اختر وصف التحويل الصحيح.\n$$g(x)=-5-\\frac{4}{3}x^2$$",
+      "answer": "Correct option: D.\nThe negative coefficient reflects across the x-axis, its magnitude $4/3$ stretches vertically, and $-5$ translates down.",
+      "answerAr": "الإجابة الصحيحة: D.\nالمعامل السالب يعكس الرسم حول محور السينات، وقيمته المطلقة $4/3$ تسبب تمدداً رأسياً، والحد $-5$ ينقل الرسم إلى الأسفل.",
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "options": [
+        "Reflect across the x-axis, compress vertically by a factor of $\\frac{3}{4}$, then translate $5$ units down.",
+        "Stretch vertically by a factor of $\\frac{4}{3}$, then translate $5$ units down, with no reflection.",
+        "Reflect across the x-axis, stretch vertically by a factor of $\\frac{4}{3}$, then translate $5$ units up.",
+        "Reflect across the x-axis, stretch vertically by a factor of $\\frac{4}{3}$, then translate $5$ units down."
+      ],
+      "optionsAr": [
+        "انعكاس حول محور السينات وانضغاط رأسي بمعامل $\\frac{3}{4}$، ثم إزاحة $5$ وحدات إلى الأسفل.",
+        "تمدد رأسي بمعامل $\\frac{4}{3}$، ثم إزاحة $5$ وحدات إلى الأسفل دون انعكاس.",
+        "انعكاس حول محور السينات وتمدد رأسي بمعامل $\\frac{4}{3}$، ثم إزاحة $5$ وحدات إلى الأعلى.",
+        "انعكاس حول محور السينات وتمدد رأسي بمعامل $\\frac{4}{3}$، ثم إزاحة $5$ وحدات إلى الأسفل."
+      ],
+      "correctIndex": 3,
+      "transformation": {
+        "target": [
+          -1.3333333333333333,
+          0,
+          -5
+        ],
+        "choices": [
+          [
+            -0.75,
+            0,
+            -5
+          ],
+          [
+            1.3333333333333333,
+            0,
+            -5
+          ],
+          [
+            -1.3333333333333333,
+            0,
+            5
+          ],
+          [
+            -1.3333333333333333,
+            0,
+            -5
+          ]
+        ],
+        "sourceNumber": 30,
+        "kind": "description"
+      },
+      "section": "Quadratic transformations · تحويلات الدوال التربيعية",
+      "classroom": "10G3",
+      "position": 32,
+      "sourcePage": 708,
+      "sourceQuestion": 30,
+      "sourcePart": "description"
+    },
+    {
+      "id": "10g3-factoring-05",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q5 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$3b(9b-27)=0$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$3b(9b-27)=0$$",
+      "answer": "Correct option: A.\nBy the zero-product property, $3b=0$ or $9b-27=0$, so $b=0$ or $b=3$. Check: $3(0)(9(0)-27)=0$ and $3(3)(9(3)-27)=9(0)=0$.",
+      "answerAr": "الإجابة الصحيحة: A.\nباستخدام خاصية حاصل الضرب الصفري: $3b=0$ أو $9b-27=0$، ومن ثم $b=0$ أو $b=3$. التحقق: $3(0)(9(0)-27)=0$ و$3(3)(9(3)-27)=9(0)=0$.",
+      "options": [
+        "$b \\in \\{0,3\\}$",
+        "$b \\in \\{0,-3\\}$",
+        "$b \\in \\{3\\}$",
+        "$b \\in \\{0,9\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{0,3\\}$",
+        "مجموعة الحل: $\\{0,-3\\}$",
+        "مجموعة الحل: $\\{3\\}$",
+        "مجموعة الحل: $\\{0,9\\}$"
+      ],
+      "correctIndex": 0,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 33,
+      "sourcePage": 721,
+      "sourceQuestion": 5,
+      "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-factoring-06",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q6 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$(7x+3)(2x-6)=0$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$(7x+3)(2x-6)=0$$",
+      "answer": "Correct option: B.\nSet each factor equal to zero: $7x+3=0$ or $2x-6=0$. Thus $x=-\\frac{3}{7}$ or $x=3$. Check: at $x=-\\frac{3}{7}$, the first factor is $0$; at $x=3$, the second factor is $0$. Both products equal $0$.",
+      "answerAr": "الإجابة الصحيحة: B.\nنجعل كل عامل مساوياً للصفر: $7x+3=0$ أو $2x-6=0$. إذن $x=-\\frac{3}{7}$ أو $x=3$. التحقق: عند $x=-\\frac{3}{7}$ يساوي العامل الأول $0$، وعند $x=3$ يساوي العامل الثاني $0$؛ لذلك يساوي حاصل الضرب $0$ في الحالتين.",
+      "options": [
+        "$x \\in \\{\\frac{3}{7},3\\}$",
+        "$x \\in \\{-\\frac{3}{7},3\\}$",
+        "$x \\in \\{-\\frac{3}{7},-3\\}$",
+        "$x \\in \\{-3,\\frac{3}{7}\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{\\frac{3}{7},3\\}$",
+        "مجموعة الحل: $\\{-\\frac{3}{7},3\\}$",
+        "مجموعة الحل: $\\{-\\frac{3}{7},-3\\}$",
+        "مجموعة الحل: $\\{-3,\\frac{3}{7}\\}$"
+      ],
+      "correctIndex": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 34,
+      "sourcePage": 721,
+      "sourceQuestion": 6,
+      "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-factoring-07",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q7 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$b^2=-3b$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$b^2=-3b$$",
+      "answer": "Correct option: C.\nMove all terms to one side: $b^2+3b=b(b+3)=0$. Therefore $b=0$ or $b=-3$. Do not divide by $b$, because that would lose the zero solution. Check: $0^2=-3(0)=0$ and $(-3)^2=-3(-3)=9$.",
+      "answerAr": "الإجابة الصحيحة: C.\nننقل الحدود إلى طرف واحد: $b^2+3b=b(b+3)=0$. إذن $b=0$ أو $b=-3$. لا نقسم على $b$ حتى لا نفقد الحل الصفري. التحقق: $0^2=-3(0)=0$ و$(-3)^2=-3(-3)=9$.",
+      "options": [
+        "$b \\in \\{0,3\\}$",
+        "$b \\in \\{-3\\}$",
+        "$b \\in \\{-3,0\\}$",
+        "$b \\in \\{-3,3\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{0,3\\}$",
+        "مجموعة الحل: $\\{-3\\}$",
+        "مجموعة الحل: $\\{-3,0\\}$",
+        "مجموعة الحل: $\\{-3,3\\}$"
+      ],
+      "correctIndex": 2,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 35,
+      "sourcePage": 721,
+      "sourceQuestion": 7,
+      "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-factoring-08",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q8 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$a^2=4a$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$a^2=4a$$",
+      "answer": "Correct option: D.\nRearrange and factor: $a^2-4a=a(a-4)=0$. Hence $a=0$ or $a=4$. Check: $0^2=4(0)=0$ and $4^2=4(4)=16$.",
+      "answerAr": "الإجابة الصحيحة: D.\nنعيد الترتيب ثم نحلل: $a^2-4a=a(a-4)=0$. إذن $a=0$ أو $a=4$. التحقق: $0^2=4(0)=0$ و$4^2=4(4)=16$.",
+      "options": [
+        "$a \\in \\{0,-4\\}$",
+        "$a \\in \\{4\\}$",
+        "$a \\in \\{-4,4\\}$",
+        "$a \\in \\{0,4\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{0,-4\\}$",
+        "مجموعة الحل: $\\{4\\}$",
+        "مجموعة الحل: $\\{-4,4\\}$",
+        "مجموعة الحل: $\\{0,4\\}$"
+      ],
+      "correctIndex": 3,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 36,
+      "sourcePage": 721,
+      "sourceQuestion": 8,
+      "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-factoring-09",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q9 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$x^2-6x=27$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$x^2-6x=27$$",
+      "answer": "Correct option: A.\n$x^2-6x-27=(x-9)(x+3)=0$, so $x=9$ or $x=-3$. Check: $9^2-6(9)=81-54=27$ and $(-3)^2-6(-3)=9+18=27$.",
+      "answerAr": "الإجابة الصحيحة: A.\n$x^2-6x-27=(x-9)(x+3)=0$، ومن ثم $x=9$ أو $x=-3$. التحقق: $9^2-6(9)=81-54=27$ و$(-3)^2-6(-3)=9+18=27$.",
+      "options": [
+        "$x \\in \\{-3,9\\}$",
+        "$x \\in \\{-9,3\\}$",
+        "$x \\in \\{3,9\\}$",
+        "$x \\in \\{-3,-9\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{-3,9\\}$",
+        "مجموعة الحل: $\\{-9,3\\}$",
+        "مجموعة الحل: $\\{3,9\\}$",
+        "مجموعة الحل: $\\{-3,-9\\}$"
+      ],
+      "correctIndex": 0,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 37,
+      "sourcePage": 721,
+      "sourceQuestion": 9,
+      "sourcePart": "solutions"
+    },
+    {
+      "id": "10g3-factoring-10",
+      "type": "MCQ",
+      "exam": "EOT · 10G3 · Week 8 Exam · امتحان الأسبوع الثامن — الصف العاشر العام",
+      "topic": "Page 721 · Q10 · Factoring · الحل بالتحليل",
+      "marks": 1,
+      "prompt": "Solve the equation and check your solutions. Choose the complete solution set.\n$$a^2+11a=-18$$",
+      "promptAr": "حل المعادلة وتحقق من حلولك. اختر مجموعة الحل الكاملة.\n$$a^2+11a=-18$$",
+      "answer": "Correct option: B.\n$a^2+11a+18=(a+9)(a+2)=0$, so $a=-9$ or $a=-2$. Check: $(-9)^2+11(-9)=81-99=-18$ and $(-2)^2+11(-2)=4-22=-18$.",
+      "answerAr": "الإجابة الصحيحة: B.\n$a^2+11a+18=(a+9)(a+2)=0$، ومن ثم $a=-9$ أو $a=-2$. التحقق: $(-9)^2+11(-9)=81-99=-18$ و$(-2)^2+11(-2)=4-22=-18$.",
+      "options": [
+        "$a \\in \\{9,2\\}$",
+        "$a \\in \\{-9,-2\\}$",
+        "$a \\in \\{-9,2\\}$",
+        "$a \\in \\{-6,-3\\}$"
+      ],
+      "optionsAr": [
+        "مجموعة الحل: $\\{9,2\\}$",
+        "مجموعة الحل: $\\{-9,-2\\}$",
+        "مجموعة الحل: $\\{-9,2\\}$",
+        "مجموعة الحل: $\\{-6,-3\\}$"
+      ],
+      "correctIndex": 1,
+      "diagram": "none",
+      "difficulty": "Standard",
+      "image": "",
+      "section": "Solving quadratic equations · حل المعادلات التربيعية",
+      "classroom": "10G3",
+      "position": 38,
+      "sourcePage": 721,
+      "sourceQuestion": 10,
+      "sourcePart": "solutions"
     }
   ],
   "exam": {
@@ -2334,7 +4580,7 @@
     {
       "classroom": "10G3",
       "title": "8th week exam",
-      "questions": 48
+      "questions": 38
     },
     {
       "classroom": "10A1",
