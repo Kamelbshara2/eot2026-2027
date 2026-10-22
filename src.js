@@ -1,3 +1,4 @@
+import {requestApi} from './lib/api-client.js';
 import {mountPortal} from './lib/portal.js';
 import {boxDiagram} from './lib/box-diagram.js';
 import {bilingual,mcqOptions,enableMcq} from './lib/mcq.js';
@@ -27,14 +28,14 @@ $('#export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify
 $('#import').onchange=async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>20*1024*1024)throw Error('File too large (20 MB maximum).');const data=JSON.parse(await file.text());if(data.version!==1||!Array.isArray(data.questions)||!data.questions.every(valid))throw Error('Invalid question database format.');const old=questions;questions=[...new Map([...questions,...data.questions].map(q=>[q.id,q])).values()];try{save()}catch(err){questions=old;throw err}render();toast('Question database imported')}catch(err){alert(err.message)}e.target.value=''};
 mountPortal();
 async function init(){try{
- const published=(await (await fetch('/data/questions.json')).json()).questions;
+ const published=(await (await fetch(`${import.meta.env.BASE_URL}data/questions.json`)).json()).questions;
  if(!Array.isArray(published)||!published.every(valid))throw Error('Invalid published bank');
- sync=new QuestionSync({storage:localStorage,request:fetch,onChange:items=>{questions=items;render()},onStatus:message=>{$('.status').textContent=message}});
+ sync=new QuestionSync({storage:localStorage,request:requestApi,onChange:items=>{questions=items;render()},onStatus:message=>{$('.status').textContent=message}});
  sync.init(published,key);questions=sync.questions;render();await sync.run();
  window.addEventListener('online',()=>sync.run());
  window.addEventListener('storage',e=>{if(e.key===sync.key)location.reload()});
  setInterval(()=>{if(!document.hidden)sync.run()},15000);
- $('#cloud-reset').onclick=async()=>{if(!confirm('Replace local questions and pending edits with the cloud version? Export a backup first.'))return;try{const r=await fetch('/api/questions',{cache:'no-store'});if(!r.ok)throw Error();const {rows}=await r.json();const items=rows.filter(r=>!r.deleted).map(r=>r.data);if(!items.every(valid))throw Error();sync.persist({questions:items,rows:Object.fromEntries(rows.map(r=>[r.id,r])),pending:{}});questions=sync.questions;render();sync.run()}catch{toast('Cloud unavailable. Local changes kept.')}};
+ $('#cloud-reset').onclick=async()=>{if(!confirm('Replace local questions and pending edits with the cloud version? Export a backup first.'))return;try{const r=await requestApi('/api/questions',{cache:'no-store'});if(!r.ok)throw Error();const {rows}=await r.json();const items=rows.filter(r=>!r.deleted).map(r=>r.data);if(!items.every(valid))throw Error();sync.persist({questions:items,rows:Object.fromEntries(rows.map(r=>[r.id,r])),pending:{}});questions=sync.questions;render();sync.run()}catch{toast('Cloud unavailable. Local changes kept.')}};
  $('#cloud-login').onclick=()=>{const token=prompt('Enter your cloud editing key (configured as ADMIN_TOKEN on the server). It stays in this tab until you close it.');if(token===null)return;sessionStorage.setItem('forma-admin-token',token);sync.run()};
 }catch{toast('Could not load question bank. Your stored data has not been changed.')}render();}
 init();

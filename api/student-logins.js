@@ -1,3 +1,4 @@
+import {handleCors} from '../lib/cors.js';
 import {neon} from '@neondatabase/serverless';
 import {authorized} from './questions.js';
 export function validateStudent(input){
@@ -10,7 +11,7 @@ export function validateStudent(input){
 }
 export function createStudentHandler(getSql=()=>neon(process.env.DATABASE_URL)){
  return async(req,res)=>{
-  res.setHeader('Cache-Control','no-store');
+  res.setHeader('Cache-Control','no-store');if(handleCors(req,res))return;
   if(!['GET','POST'].includes(req.method)){res.setHeader('Allow','GET, POST');return res.status(405).json({error:'Method not allowed'})}
   if(req.method==='GET'&&!authorized(req.headers.authorization,process.env.ADMIN_TOKEN))return res.status(401).json({error:'Admin key required'});
   let student;
