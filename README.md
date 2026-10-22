@@ -67,7 +67,7 @@ Run `npm run db:migrate` after this update (Railway pre-deploy and Vercel builds
 
 ## GitHub Pages frontend
 
-`.github/workflows/pages.yml` builds and publishes only `dist` from `main`. It attempts to enable Pages automatically; if the repository token cannot enable it, choose **Settings → Pages → Source: GitHub Actions** manually. GitHub account/repository visibility restrictions still apply. The project path is `/eot2026-2027/`; assets and bundled database requests honor that base path. Classroom and exam links use hashes, so direct exam links work without server rewrites.
+`.github/workflows/pages.yml` builds and publishes only `dist` from `main`. Before the first deployment, the repository owner must choose **Settings → Pages → Source: GitHub Actions**. The default workflow token cannot create a Pages site. Build and tests run independently; the deploy job checks that Pages is enabled before publishing. GitHub account/repository visibility restrictions still apply. The project path is `/eot2026-2027/`; assets and bundled database requests honor that base path. Classroom and exam links use hashes, so direct exam links work without server rewrites.
 
 Pages cannot execute API code or connect directly to Neon securely. Provide a running Railway/Vercel Node backend. Set repository Actions variable `API_BASE_URL` to its public HTTPS origin, then rerun the Pages workflow. Configure `DATABASE_URL` and `ADMIN_TOKEN` on that backend, run its schema migration, and set backend variable `PUBLIC_APP_ORIGIN=https://kamelbshara2.github.io`. CORS permits that frontend origin, including preflight for JSON sign-in and authenticated editing. Never use database credentials as frontend variables or commit student records.
 
