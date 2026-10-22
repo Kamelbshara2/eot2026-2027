@@ -1,0 +1,22 @@
+{
+  "name": "exam-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "db:migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
+    "test": "node --test",
+    "build:vercel": "npm run db:migrate && npm run build"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "katex": "^0.16.22",
+    "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

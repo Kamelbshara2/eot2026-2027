@@ -1,0 +1,10 @@
+import { neon } from '@neondatabase/serverless';
+import { readFile } from 'node:fs/promises';
+if(!process.env.DATABASE_URL)throw Error('Set DATABASE_URL securely before running migration.');
+const sql=neon(process.env.DATABASE_URL);
+await sql`CREATE TABLE IF NOT EXISTS questions (id text PRIMARY KEY, data jsonb, revision integer NOT NULL DEFAULT 1 CHECK (revision>0), deleted boolean NOT NULL DEFAULT false, updated_at timestamptz NOT NULL DEFAULT now())`;
+const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url),'utf8'));
+await sql.transaction(bank.questions.map(q=>sql`INSERT INTO questions(id,data) VALUES(${q.id},${JSON.stringify(q)}::jsonb) ON CONFLICT(id) DO NOTHING`));
+const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url),'utf8'));
+await sql.transaction(updates.map(u=>sql`UPDATE questions SET data=${JSON.stringify(u.after)}::jsonb,revision=revision+1,updated_at=now() WHERE id=${u.before.id} AND NOT deleted AND data=${JSON.stringify(u.before)}::jsonb`));
+console.log('Schema ready; bundled questions seeded without overwriting existing questions.');
