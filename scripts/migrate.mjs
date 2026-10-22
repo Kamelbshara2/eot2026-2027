@@ -13,6 +13,12 @@ await sql`CREATE TABLE IF NOT EXISTS outcome_questions (question_id text PRIMARY
 await sql`CREATE TABLE IF NOT EXISTS practice_uploads (login_id uuid NOT NULL,question_id text NOT NULL,name text NOT NULL,mime text NOT NULL,size integer NOT NULL CHECK(size BETWEEN 1 AND 2097152),content bytea NOT NULL,PRIMARY KEY(login_id,question_id),FOREIGN KEY(login_id,question_id) REFERENCES practice_responses(login_id,question_id) ON DELETE CASCADE)`;
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url),'utf8'));
 await sql.transaction(bank.questions.map(q=>sql`INSERT INTO questions(id,data) VALUES(${q.id},${JSON.stringify(q)}::jsonb) ON CONFLICT(id) DO NOTHING`));
+// Retire only the old 10G3 IDs; future questions added by outcome remain untouched.
+const retired=JSON.parse(await readFile(new URL('../lib/retired-questions.json',import.meta.url),'utf8'));
+await sql.transaction([
+ sql`DELETE FROM outcome_questions WHERE question_id = ANY(${retired}::text[])`,
+ sql`UPDATE questions SET data=NULL,deleted=true,revision=revision+1,updated_at=now() WHERE id = ANY(${retired}::text[]) AND NOT deleted`
+]);
 const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url),'utf8'));
 await sql.transaction(updates.map(u=>sql`UPDATE questions SET data=${JSON.stringify(u.after)}::jsonb,revision=revision+1,updated_at=now() WHERE id=${u.before.id} AND NOT deleted AND data=${JSON.stringify(u.before)}::jsonb`));
 const outcomeSeed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url),'utf8'));
