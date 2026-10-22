@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "outcomes": [
+    {
+      "id": "c9d5fa67-10a1-4e08-8c32-012800111414",
+      "classroom": "10A1",
+      "title": "Solving problems using the properties of similar polygons",
+      "titleAr": "حل المسائل باستخدام خصائص المضلعات المتشابهة",
+      "bookPages": "128 (Q11–14)",
+      "targetCount": 4,
+      "position": 1,
+      "revision": 1
+    },
+    {
+      "id": "aa133008-10a1-4e08-8c32-012800111414",
+      "classroom": "10A1",
+      "title": "Identify similar triangles using the AA Similarity Postulate",
+      "titleAr": "تحديد المثلثات المتشابهة باستخدام مسلمة التشابه بزاويتين (AA)",
+      "bookPages": "133 (Q1–8; Q8A, Q8B)",
+      "targetCount": 9,
+      "position": 2,
+      "revision": 1
+    },
+    {
+      "id": "13900011-10a1-4e08-8c32-012800111414",
+      "classroom": "10A1",
+      "title": "Using similar triangles to solve problems (FRQ)",
+      "titleAr": "استخدام المثلثات المتشابهة في حل المسائل — أسئلة بإجابة حرة",
+      "bookPages": "139 (Q5–11)",
+      "targetCount": 7,
+      "position": 3,
+      "revision": 1
+    }
+  ],
+  "assignments": [
+    {
+      "question_id": "10a1-similar-polygons-11",
+      "outcome_id": "c9d5fa67-10a1-4e08-8c32-012800111414",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-similar-polygons-12",
+      "outcome_id": "c9d5fa67-10a1-4e08-8c32-012800111414",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-similar-polygons-13",
+      "outcome_id": "c9d5fa67-10a1-4e08-8c32-012800111414",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-similar-polygons-14",
+      "outcome_id": "c9d5fa67-10a1-4e08-8c32-012800111414",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-aa-similarity-1",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-aa-similarity-2",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-aa-similarity-3",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-aa-similarity-4",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-aa-similarity-5",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-aa-similarity-6",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-aa-similarity-7",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 7
+    },
+    {
+      "question_id": "10a1-aa-similarity-8a",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 8
+    },
+    {
+      "question_id": "10a1-aa-similarity-8b",
+      "outcome_id": "aa133008-10a1-4e08-8c32-012800111414",
+      "position": 9
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-5",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-6",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-7",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-8",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-9",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-10",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-similar-triangles-frq-11",
+      "outcome_id": "13900011-10a1-4e08-8c32-012800111414",
+      "position": 7
+    }
+  ]
+}

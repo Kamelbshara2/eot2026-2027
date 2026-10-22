@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validatePaper,PAPER_LIMIT} from '../lib/paper-files.js';
+import {validateResponse} from '../api/practice.js';
+import {createPaperHandler} from '../api/practice-paper.js';
+const bytes=Buffer.from('%PDF-1.4\nTest paper');const paper={name:'work.pdf',type:'application/pdf',size:bytes.length,data:'data:application/pdf;base64,'+bytes.toString('base64')};
+test('paper-only answers accept bounded PDF or image data and reject mismatched or executable files',()=>{assert(validatePaper(paper));assert(validateResponse({questionId:'q',fields:[],paths:[],selected:null,paper}));for(const change of [{size:PAPER_LIMIT+1},{size:1},{type:'text/html'},{data:'data:application/pdf;base64,AAAA'},{type:'image/png',data:'data:image/png;base64,'+bytes.toString('base64')}])assert.equal(validatePaper({...paper,...change}),null);assert.equal(validateResponse({questionId:'q',fields:[],paths:[],selected:null,paper:{...paper,type:'image/svg+xml'}}),null)});
+test('paper downloads reject another student and never expose the uploaded data',async()=>{const old=process.env.DATABASE_URL;process.env.DATABASE_URL='test';try{let queries=0;const h=createPaperHandler(()=>async()=>{queries++;return []});const res={setHeader(){},status(n){this.code=n;return this},json(data){this.data=data;return this}};await h({method:'GET',url:'/api/practice-paper?loginId=7ed63817-f053-4d1d-899e-6176fd9408bd&questionId=q',headers:{authorization:'Bearer other-student'}},res);assert.equal(res.code,401);assert.equal(queries,0)}finally{if(old===undefined)delete process.env.DATABASE_URL;else process.env.DATABASE_URL=old}});

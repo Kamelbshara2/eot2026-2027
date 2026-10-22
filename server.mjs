@@ -6,19 +6,21 @@ import questionsHandler from './api/questions.js';
 import studentHandler from './api/student-logins.js';
 import adminHandler from './api/admin.js';
 import practiceHandler from './api/practice.js';
+import outcomeHandler from './api/learning-outcomes.js';
+import paperHandler from './api/practice-paper.js';
 
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff':'font/woff','.woff2':'font/woff2','.ttf':'font/ttf','.ico':'image/x-icon'};
-export function createApp({root=resolve('dist'),api=questionsHandler,students=studentHandler,admin=adminHandler,practice=practiceHandler}={}){
+export function createApp({root=resolve('dist'),api=questionsHandler,students=studentHandler,admin=adminHandler,practice=practiceHandler,outcomes=outcomeHandler,paper=paperHandler}={}){
  return createServer(async(req,res)=>{
   res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');
   res.status=code=>{res.statusCode=code;return res};res.json=value=>{res.setHeader('Content-Type','application/json; charset=utf-8');res.end(JSON.stringify(value));return res};
   try{
    const path=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
    if(path==='/healthz'){res.setHeader('Cache-Control','no-store');return res.json({status:'ok'})}
-   if(['/api/questions','/api/questions/','/api/student-logins','/api/student-logins/','/api/admin','/api/admin/','/api/practice','/api/practice/'].includes(path)){
+   if(['/api/questions','/api/questions/','/api/student-logins','/api/student-logins/','/api/admin','/api/admin/','/api/practice','/api/practice/','/api/learning-outcomes','/api/learning-outcomes/','/api/practice-paper','/api/practice-paper/'].includes(path)){
     let size=0,body=[];
     for await(const chunk of req){size+=chunk.length;if(size>4_000_000){res.status(413).json({error:'Question exceeds 4 MB'});return}body.push(chunk)}
-    req.body=Buffer.concat(body).toString('utf8');return await (path.startsWith('/api/practice')?practice:path.startsWith('/api/admin')?admin:path.startsWith('/api/student-logins')?students:api)(req,res);
+    req.body=Buffer.concat(body).toString('utf8');return await (path.startsWith('/api/practice-paper')?paper:path.startsWith('/api/learning-outcomes')?outcomes:path.startsWith('/api/practice')?practice:path.startsWith('/api/admin')?admin:path.startsWith('/api/student-logins')?students:api)(req,res);
    }
    if(!['GET','HEAD'].includes(req.method)){res.setHeader('Allow','GET, HEAD');return res.status(405).json({error:'Method not allowed'})}
    const file=resolve(root,'.'+(path==='/'?'/index.html':path));
