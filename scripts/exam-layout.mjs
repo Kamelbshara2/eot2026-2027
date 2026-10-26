@@ -14,7 +14,7 @@ export function selectQuestions(classroom,ids){
 }
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const rich=s=>String(s).split(/(\$\$[\s\S]*?\$\$|\$[^$]+\$)/g).map(t=>t.startsWith('$$')?katex.renderToString(t.slice(2,-2),{displayMode:true,throwOnError:true}):t.startsWith('$')?katex.renderToString(t.slice(1,-1),{throwOnError:true}):esc(t).replaceAll('\n','<br>')).join('');
-let mathCss=await readFile(resolve(root,'node_modules/katex/dist/katex.min.css'),'utf8');
+export let mathCss=await readFile(resolve(root,'node_modules/katex/dist/katex.min.css'),'utf8');
 const sources=[...mathCss.matchAll(/src:url\((fonts\/[^)]+\.woff2)\)[^}]+/g)];
 for(const match of sources){const font=await readFile(resolve(root,'node_modules/katex/dist',match[1]));mathCss=mathCss.replace(match[0],`src:url(data:font/woff2;base64,${font.toString('base64')}) format("woff2")`)}
 export const bilingual=(en,ar)=>`<div class="bilingual"><div lang="en" dir="ltr">${rich(en)}</div><div lang="ar" dir="rtl">${rich(ar)}</div></div>`;
