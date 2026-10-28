@@ -14,7 +14,7 @@ test('Week 9 plans capture all ten screenshot rows, including repeated topics an
   assert.deepEqual(groups.map(o=>[o.assessmentItem,o.bookPages]),refs);
   for(const o of groups){assert.equal(o.questions.length,o.targetCount);assert(o.titleAr&&o.title);assert(validateOutcome({...o,revision:0,questionIds:[]}));assert.equal(seed.assignments.filter(a=>a.outcome_id===o.id).length,o.questions.length)}
  }
- assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,60);
+ assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,70);
 });
 test('route week selection preserves legacy Week 8 links and keeps explicit week scopes',()=>{
  assert.equal(classroomRoute('#/classrooms/10G3').examWeek,9);
@@ -30,7 +30,7 @@ test('new questions and unassigned practice are isolated by classroom and exam w
  assert(valid(newQuestion));assert(!valid({...newQuestion,examWeek:'9'}));
  const assignments=[...seed.assignments,{question_id:newQuestion.id,outcome_id:outcome.id,position:1}];
  const all=[...bank.questions,newQuestion,{...newQuestion,id:'other-class',classroom:'10A1'}];
- const scoped=classroomGroups('10G3',all,seed.outcomes,assignments,9).flatMap(o=>o.questions);assert.equal(scoped.length,15);assert(scoped.some(q=>q.id==='new-week9'));assert(scoped.every(q=>q.classroom==='10G3'&&q.examWeek===9));
+ const scoped=classroomGroups('10G3',all,seed.outcomes,assignments,9).flatMap(o=>o.questions);assert.equal(scoped.length,22);assert(scoped.some(q=>q.id==='new-week9'));assert(scoped.every(q=>q.classroom==='10G3'&&q.examWeek===9));
  assert.equal(classroomGroups('10G3',all,seed.outcomes,assignments,8).flatMap(o=>o.questions).length,48);
  const extra=classroomGroups('10A1',all,seed.outcomes,assignments,9).find(o=>o.id==='unassigned');assert.deepEqual(extra.questions.map(q=>q.id),['other-class']);
 });

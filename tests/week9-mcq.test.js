@@ -11,8 +11,8 @@ const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',imp
 const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url)));
 const qs=bank.questions.filter(q=>q.examWeek===9);
 const numeric=tex=>{let s=tex.replaceAll('$','').replaceAll('\\ ', '').replace(/\\frac\{([\d.]+)\}\{([\d.]+)\}/g,'($1/$2)').replace(/\\sqrt\{(\d+)\}/g,'Math.sqrt($1)').replace(/\\sqrt(\d)/g,'Math.sqrt($1)').replace(/(\d)(Math\.sqrt)/g,'$1*$2');assert(/^[\d.()+*/\-Mathsqrt]+$/.test(s),tex);return Function(`return (${s})`)()};
-test('all 60 Week 9 exercises are four-option MCQs with bilingual valid mathematics, and none is printable as FRQ',()=>{
- assert.equal(qs.length,60);assert.deepEqual(['10A1','10G3','9G3'].map(c=>qs.filter(q=>q.classroom===c).length),[27,14,19]);
+test('all 70 Week 9 exercises are four-option MCQs with bilingual valid mathematics, and none is printable as FRQ',()=>{
+ assert.equal(qs.length,70);assert.deepEqual(['10A1','10G3','9G3'].map(c=>qs.filter(q=>q.classroom===c).length),[27,21,22]);
  for(const q of qs){assert(valid(q),q.id);assert.equal(q.type,'MCQ');assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert(!q.responseParts);assert(!printableQuestion(q));const html=mcqOptions(q);assert.equal((html.match(/type="radio"/g)||[]).length,4);assert(!/NaN|undefined/.test(html));for(const s of [q.prompt,q.promptAr,q.answer,q.answerAr,...q.options,...q.optionsAr])for(const m of s.matchAll(/\$([^$]+)\$/g))assert.doesNotThrow(()=>katex.renderToString(m[1],{throwOnError:true}),q.id)}
 });
 test('every advanced selected option agrees with the independently checked numerical model and distractors differ',()=>{
@@ -38,6 +38,6 @@ test('37 original written records upgrade in place, retaining IDs, diagrams, and
 test('old offline Grade 9 plans receive new question assignments once, without restoring teacher unassignments',async()=>{
  const {mergeOutcomeSeeds}=await import('../lib/outcomes.js');const seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url)));
  const originals=seed.outcomes.filter(o=>o.classroom==='9G3'&&o.examWeek===9).map(o=>({...o,targetCount:o.bookPages.startsWith('236')?3:o.bookPages.startsWith('233')?1:8}));
- const seen=seed.outcomes.map(o=>o.id);const merged=mergeOutcomeSeeds({outcomes:originals,assignments:[]},seed,seen);assert.equal(merged.assignments.length,19);assert.deepEqual(merged.outcomes.map(o=>o.targetCount),[8,9,2]);
+ const seen=seed.outcomes.map(o=>o.id);const merged=mergeOutcomeSeeds({outcomes:originals,assignments:[]},seed,seen);assert.equal(merged.assignments.length,22);assert.deepEqual(merged.outcomes.map(o=>o.targetCount),[8,9,5]);
  const removed=merged.assignments[0].question_id;const edited={...merged,assignments:merged.assignments.slice(1)};const next=mergeOutcomeSeeds(edited,seed,[...seen,...seed.assignmentSeedQuestionIds.map(id=>`question:${id}`)]);assert(!next.assignments.some(a=>a.question_id===removed));
 });

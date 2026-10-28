@@ -7452,16 +7452,16 @@
       "sourceKind": "worked-example",
       "squareChoices": [
         [
-          16.0,
-          -4.0
+          16,
+          -4
         ],
         [
-          4.0,
-          2.0
+          4,
+          2
         ],
         [
-          16.0,
-          4.0
+          16,
+          4
         ],
         [
           64,
@@ -7515,16 +7515,16 @@
           26
         ],
         [
-          169.0,
-          -13.0
+          169,
+          -13
         ],
         [
           42.25,
           6.5
         ],
         [
-          169.0,
-          13.0
+          169,
+          13
         ]
       ],
       "correctIndex": 3
@@ -7570,20 +7570,20 @@
       },
       "squareChoices": [
         [
-          144.0,
-          -12.0
+          144,
+          -12
         ],
         [
           576,
           -24
         ],
         [
-          144.0,
-          12.0
+          144,
+          12
         ],
         [
-          36.0,
-          -6.0
+          36,
+          -6
         ]
       ],
       "correctIndex": 0
@@ -9031,6 +9031,602 @@
         ]
       },
       "sourcePage": 233
+    },
+    {
+      "id": "9g3-w9-designed-233-1",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Graph and interpret linear functions",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Which graph represents $y=-3$? Each grid square is 1 unit.",
+      "promptAr": "أي رسم يمثل $y=-3$؟ كل مربع يمثل وحدة واحدة.",
+      "options": [
+        "$y=x-3$",
+        "$y=-3$",
+        "$y=3$",
+        "$x=-3$"
+      ],
+      "optionsAr": [
+        "$y=x-3$",
+        "$y=-3$",
+        "$y=3$",
+        "$x=-3$"
+      ],
+      "correctIndex": 1,
+      "answer": "The equation $y=-3$ fixes the y-coordinate. Its graph is a horizontal line through $(0,-3)$, parallel to the x-axis, with slope 0.",
+      "answerAr": "المعادلة $y=-3$ تثبت قيمة الصادات؛ لذا يمثلها مستقيم أفقي يمر بالنقطة $(0,-3)$ ويوازي محور السينات وميله صفر.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 233; not a numbered textbook question.",
+      "linearChoices": {
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "target": {
+          "kind": "line",
+          "m": 0,
+          "b": -3
+        },
+        "choices": [
+          {
+            "kind": "line",
+            "m": 1,
+            "b": -3
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": -3
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": 3
+          },
+          {
+            "kind": "vertical",
+            "x": -3
+          }
+        ]
+      }
+    },
+    {
+      "id": "9g3-w9-designed-233-2",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Graph and interpret linear functions",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Which graph represents $y=4$? Each grid square is 1 unit.",
+      "promptAr": "أي رسم يمثل $y=4$؟ كل مربع يمثل وحدة واحدة.",
+      "options": [
+        "$x=4$",
+        "$y=x+4$",
+        "$y=4$",
+        "$y=-4$"
+      ],
+      "optionsAr": [
+        "$x=4$",
+        "$y=x+4$",
+        "$y=4$",
+        "$y=-4$"
+      ],
+      "correctIndex": 2,
+      "answer": "The equation $y=4$ fixes the y-coordinate. Its graph is a horizontal line through $(0,4)$, parallel to the x-axis, with slope 0.",
+      "answerAr": "المعادلة $y=4$ تثبت قيمة الصادات؛ لذا يمثلها مستقيم أفقي يمر بالنقطة $(0,4)$ ويوازي محور السينات وميله صفر.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 233; not a numbered textbook question.",
+      "linearChoices": {
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "target": {
+          "kind": "line",
+          "m": 0,
+          "b": 4
+        },
+        "choices": [
+          {
+            "kind": "vertical",
+            "x": 4
+          },
+          {
+            "kind": "line",
+            "m": 1,
+            "b": 4
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": 4
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": -4
+          }
+        ]
+      }
+    },
+    {
+      "id": "9g3-w9-designed-233-3",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Graph and interpret linear functions",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Which graph represents $y=-2$? Each grid square is 1 unit.",
+      "promptAr": "أي رسم يمثل $y=-2$؟ كل مربع يمثل وحدة واحدة.",
+      "options": [
+        "$y=2$",
+        "$x=-2$",
+        "$y=x-2$",
+        "$y=-2$"
+      ],
+      "optionsAr": [
+        "$y=2$",
+        "$x=-2$",
+        "$y=x-2$",
+        "$y=-2$"
+      ],
+      "correctIndex": 3,
+      "answer": "The equation $y=-2$ fixes the y-coordinate. Its graph is a horizontal line through $(0,-2)$, parallel to the x-axis, with slope 0.",
+      "answerAr": "المعادلة $y=-2$ تثبت قيمة الصادات؛ لذا يمثلها مستقيم أفقي يمر بالنقطة $(0,-2)$ ويوازي محور السينات وميله صفر.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 233; not a numbered textbook question.",
+      "linearChoices": {
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "target": {
+          "kind": "line",
+          "m": 0,
+          "b": -2
+        },
+        "choices": [
+          {
+            "kind": "line",
+            "m": 0,
+            "b": 2
+          },
+          {
+            "kind": "vertical",
+            "x": -2
+          },
+          {
+            "kind": "line",
+            "m": 1,
+            "b": -2
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": -2
+          }
+        ]
+      }
+    },
+    {
+      "id": "10g3-w9-designed-722-1",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by factoring",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Solve $x^2-7x+12=0$ by factoring. Choose the complete solution set.",
+      "promptAr": "حل $x^2-7x+12=0$ بالتحليل. اختر مجموعة الحل الكاملة.",
+      "options": [
+        "$x=-4\\text{ or }3$",
+        "$x=3\\text{ or }4$",
+        "$x=-4\\text{ or }-3$",
+        "$x=-3\\text{ or }4$"
+      ],
+      "optionsAr": [
+        "$x=-4\\text{ or }3$",
+        "$x=3\\text{ or }4$",
+        "$x=-4\\text{ or }-3$",
+        "$x=-3\\text{ or }4$"
+      ],
+      "correctIndex": 1,
+      "answer": "$x^2-7x+12=(x-3)(x-4)$. By the Zero Product Property, $x=3$ or $x=4$.",
+      "answerAr": "نحلل: $x^2-7x+12=(x-3)(x-4)$. وبخاصية حاصل الضرب الصفري يكون $x=3$ أو $x=4$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 722; not a numbered textbook question.",
+      "problemData": {
+        "kind": "solve-factoring",
+        "coefficients": [
+          1,
+          -7,
+          12
+        ],
+        "rootChoices": [
+          [
+            -4,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            -4,
+            -3
+          ],
+          [
+            -3,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10g3-w9-designed-730-1",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by using the Square Root Property",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Use the Square Root Property to solve $(x-3)^2=25$. Choose both solutions.",
+      "promptAr": "استعمل خاصية الجذر التربيعي لحل $(x-3)^2=25$. اختر الحلين.",
+      "options": [
+        "$x=-2\\text{ or }2$",
+        "$x=-2\\text{ or }8$",
+        "$x=2\\text{ or }8$",
+        "$x=-8\\text{ or }2$"
+      ],
+      "optionsAr": [
+        "$x=-2\\text{ or }2$",
+        "$x=-2\\text{ or }8$",
+        "$x=2\\text{ or }8$",
+        "$x=-8\\text{ or }2$"
+      ],
+      "correctIndex": 1,
+      "answer": "$x-3=\\pm5$, so $x=3\\pm5$. The two solutions are $x=-2$ and $x=8$.",
+      "answerAr": "$x-3=\\pm5$، ومنه $x=3\\pm5$. إذن الحلان $x=-2$ و$x=8$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 730; not a numbered textbook question.",
+      "problemData": {
+        "kind": "solve-square-root",
+        "coefficients": [
+          1,
+          -6,
+          -16
+        ],
+        "rootChoices": [
+          [
+            -2,
+            2
+          ],
+          [
+            -2,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            -8,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10g3-w9-designed-730-2",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by using the Square Root Property",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Use the Square Root Property to solve $2x^2-18=0$. Choose the complete solution set.",
+      "promptAr": "استعمل خاصية الجذر التربيعي لحل $2x^2-18=0$. اختر مجموعة الحل الكاملة.",
+      "options": [
+        "$x=3$",
+        "$x=-3$",
+        "$x=-3\\text{ or }3$",
+        "$x=-9\\text{ or }9$"
+      ],
+      "optionsAr": [
+        "$x=3$",
+        "$x=-3$",
+        "$x=-3\\text{ or }3$",
+        "$x=-9\\text{ or }9$"
+      ],
+      "correctIndex": 2,
+      "answer": "$2x^2=18$, so $x^2=9$ and $x=\\pm3$. Both signs are required.",
+      "answerAr": "$2x^2=18$، ومنه $x^2=9$، ولذلك $x=\\pm3$. يجب أخذ الإشارتين.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 730; not a numbered textbook question.",
+      "problemData": {
+        "kind": "solve-square-root",
+        "coefficients": [
+          2,
+          0,
+          -18
+        ],
+        "rootChoices": [
+          [
+            3
+          ],
+          [
+            -3
+          ],
+          [
+            -3,
+            3
+          ],
+          [
+            -9,
+            9
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10g3-w9-designed-725-1",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by completing the square",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Solve $x^2+6x+5=0$ by completing the square. Choose both solutions.",
+      "promptAr": "حل $x^2+6x+5=0$ بإكمال المربع. اختر الحلين.",
+      "options": [
+        "$x=-5\\text{ or }1$",
+        "$x=-5\\text{ or }-1$",
+        "$x=1\\text{ or }5$",
+        "$x=-3\\text{ or }3$"
+      ],
+      "optionsAr": [
+        "$x=-5\\text{ or }1$",
+        "$x=-5\\text{ or }-1$",
+        "$x=1\\text{ or }5$",
+        "$x=-3\\text{ or }3$"
+      ],
+      "correctIndex": 1,
+      "answer": "$x^2+6x=-5$. Add $(6/2)^2=9$ to both sides: $(x+3)^2=4$. Thus $x+3=\\pm2$, giving $x=-5$ or $x=-1$.",
+      "answerAr": "$x^2+6x=-5$. نضيف $(6/2)^2=9$ للطرفين، فنحصل على $(x+3)^2=4$. إذن $x+3=\\pm2$، ومنه $x=-5$ أو $x=-1$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 725; not a numbered textbook question.",
+      "problemData": {
+        "kind": "solve-completing-square",
+        "coefficients": [
+          1,
+          6,
+          5
+        ],
+        "rootChoices": [
+          [
+            -5,
+            1
+          ],
+          [
+            -5,
+            -1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            -3,
+            3
+          ]
+        ],
+        "completion": {
+          "shift": 3,
+          "rhs": 4
+        }
+      }
+    },
+    {
+      "id": "10g3-w9-designed-725-2",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by completing the square",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Solve $x^2-4x-12=0$ by completing the square. Choose both solutions.",
+      "promptAr": "حل $x^2-4x-12=0$ بإكمال المربع. اختر الحلين.",
+      "options": [
+        "$x=2\\text{ or }6$",
+        "$x=-4\\text{ or }4$",
+        "$x=-2\\text{ or }6$",
+        "$x=-6\\text{ or }2$"
+      ],
+      "optionsAr": [
+        "$x=2\\text{ or }6$",
+        "$x=-4\\text{ or }4$",
+        "$x=-2\\text{ or }6$",
+        "$x=-6\\text{ or }2$"
+      ],
+      "correctIndex": 2,
+      "answer": "$x^2-4x=12$. Add $(-4/2)^2=4$ to both sides: $(x-2)^2=16$. Thus $x-2=\\pm4$, giving $x=-2$ or $x=6$.",
+      "answerAr": "$x^2-4x=12$. نضيف $(-4/2)^2=4$ للطرفين، فنحصل على $(x-2)^2=16$. إذن $x-2=\\pm4$، ومنه $x=-2$ أو $x=6$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 725; not a numbered textbook question.",
+      "problemData": {
+        "kind": "solve-completing-square",
+        "coefficients": [
+          1,
+          -4,
+          -12
+        ],
+        "rootChoices": [
+          [
+            2,
+            6
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -2,
+            6
+          ],
+          [
+            -6,
+            2
+          ]
+        ],
+        "completion": {
+          "shift": -2,
+          "rhs": 16
+        }
+      }
+    },
+    {
+      "id": "10g3-w9-designed-725-3",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by completing the square",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Which value of c and binomial square complete $x^2+12x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2+12x+c$ بصورة صحيحة؟",
+      "options": [
+        "$c=144,\\quad (x+12)^2$",
+        "$c=36,\\quad (x-6)^2$",
+        "$c=9,\\quad (x+3)^2$",
+        "$c=36,\\quad (x+6)^2$"
+      ],
+      "optionsAr": [
+        "$c=144,\\quad (x+12)^2$",
+        "$c=36,\\quad (x-6)^2$",
+        "$c=9,\\quad (x+3)^2$",
+        "$c=36,\\quad (x+6)^2$"
+      ],
+      "correctIndex": 3,
+      "answer": "Half of 12 is 6. Squaring gives $c=(6)^2=36$. Therefore $x^2+12x+36=(x+6)^2$.",
+      "answerAr": "نصف 12 هو 6، ومربعه $c=(6)^2=36$. إذن $x^2+12x+36=(x+6)^2$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 725; not a numbered textbook question.",
+      "squareChoices": [
+        [
+          144,
+          12
+        ],
+        [
+          36,
+          -6
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          36,
+          6
+        ]
+      ],
+      "problemData": {
+        "kind": "complete-square",
+        "b": 12,
+        "c": 36,
+        "shift": 6
+      }
+    },
+    {
+      "id": "10g3-w9-designed-725-4",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "exam": "9th week practice",
+      "type": "MCQ",
+      "topic": "Solve quadratic equations by completing the square",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "prompt": "Which value of c and binomial square complete $x^2-7x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2-7x+c$ بصورة صحيحة؟",
+      "options": [
+        "$c=12.25,\\quad (x-3.5)^2$",
+        "$c=49,\\quad (x-7)^2$",
+        "$c=12.25,\\quad (x+3.5)^2$",
+        "$c=3.0625,\\quad (x-1.75)^2$"
+      ],
+      "optionsAr": [
+        "$c=12.25,\\quad (x-3.5)^2$",
+        "$c=49,\\quad (x-7)^2$",
+        "$c=12.25,\\quad (x+3.5)^2$",
+        "$c=3.0625,\\quad (x-1.75)^2$"
+      ],
+      "correctIndex": 0,
+      "answer": "Half of -7 is -3.5. Squaring gives $c=(-3.5)^2=12.25$. Therefore $x^2-7x+12.25=(x-3.5)^2$.",
+      "answerAr": "نصف -7 هو -3.5، ومربعه $c=(-3.5)^2=12.25$. إذن $x^2-7x+12.25=(x-3.5)^2$.",
+      "sourceKind": "teacher-designed",
+      "sourceReference": "Teacher-designed supplementary practice aligned with page 725; not a numbered textbook question.",
+      "squareChoices": [
+        [
+          12.25,
+          -3.5
+        ],
+        [
+          49,
+          -7
+        ],
+        [
+          12.25,
+          3.5
+        ],
+        [
+          3.0625,
+          -1.75
+        ]
+      ],
+      "problemData": {
+        "kind": "complete-square",
+        "b": -7,
+        "c": 12.25,
+        "shift": -3.5
+      }
     }
   ],
   "exam": {
@@ -9066,13 +9662,13 @@
       "classroom": "10G3",
       "examWeek": 9,
       "title": "9th week practice",
-      "questions": 14
+      "questions": 21
     },
     {
       "classroom": "9G3",
       "examWeek": 9,
       "title": "9th week practice",
-      "questions": 19
+      "questions": 22
     }
   ]
 }

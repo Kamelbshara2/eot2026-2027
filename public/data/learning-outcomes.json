@@ -189,7 +189,7 @@
       "title": "Graph and interpret linear functions",
       "titleAr": "تمثيل الدوال الخطية بيانياً وتفسيرها",
       "bookPages": "233 (Example 6 · مثال 6)",
-      "targetCount": 2,
+      "targetCount": 5,
       "position": 3,
       "revision": 1
     },
@@ -201,7 +201,7 @@
       "title": "Solve quadratic equations by factoring",
       "titleAr": "حل المعادلات التربيعية بالتحليل",
       "bookPages": "722 (Q29 & Q30)",
-      "targetCount": 4,
+      "targetCount": 5,
       "position": 1,
       "revision": 1
     },
@@ -213,7 +213,7 @@
       "title": "Solve quadratic equations by using the Square Root Property",
       "titleAr": "حل المعادلات التربيعية باستخدام خاصية الجذر التربيعي",
       "bookPages": "730 (Q37–39)",
-      "targetCount": 3,
+      "targetCount": 5,
       "position": 2,
       "revision": 1
     },
@@ -225,7 +225,7 @@
       "title": "Solve quadratic equations by completing the square",
       "titleAr": "حل المعادلات التربيعية بإكمال المربع",
       "bookPages": "725 (Learn · تعلّم)",
-      "targetCount": 1,
+      "targetCount": 5,
       "position": 3,
       "revision": 1
     },
@@ -1007,6 +1007,56 @@
       "question_id": "9g3-w9-p233-example6-2",
       "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
       "position": 2
+    },
+    {
+      "question_id": "9g3-w9-designed-233-1",
+      "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w9-designed-233-2",
+      "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w9-designed-233-3",
+      "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w9-designed-722-1",
+      "outcome_id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w9-designed-730-1",
+      "outcome_id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w9-designed-730-2",
+      "outcome_id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w9-designed-725-1",
+      "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w9-designed-725-2",
+      "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w9-designed-725-3",
+      "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w9-designed-725-4",
+      "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "position": 5
     }
   ],
   "previousSeedIds": [
@@ -1042,6 +1092,55 @@
     "9g3-w9-supplement-graph-5",
     "9g3-w9-supplement-graph-6",
     "9g3-w9-p233-example6-1",
-    "9g3-w9-p233-example6-2"
+    "9g3-w9-p233-example6-2",
+    "9g3-w9-designed-233-1",
+    "9g3-w9-designed-233-2",
+    "9g3-w9-designed-233-3",
+    "10g3-w9-designed-722-1",
+    "10g3-w9-designed-730-1",
+    "10g3-w9-designed-730-2",
+    "10g3-w9-designed-725-1",
+    "10g3-w9-designed-725-2",
+    "10g3-w9-designed-725-3",
+    "10g3-w9-designed-725-4"
+  ],
+  "targetCountUpdates": [
+    {
+      "outcomeId": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "from": [
+        3
+      ],
+      "to": 9
+    },
+    {
+      "outcomeId": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "from": [
+        1,
+        2
+      ],
+      "to": 5
+    },
+    {
+      "outcomeId": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "from": [
+        2,
+        4
+      ],
+      "to": 5
+    },
+    {
+      "outcomeId": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "from": [
+        3
+      ],
+      "to": 5
+    },
+    {
+      "outcomeId": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "from": [
+        1
+      ],
+      "to": 5
+    }
   ]
 }
