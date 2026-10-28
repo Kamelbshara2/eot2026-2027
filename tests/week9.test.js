@@ -6,15 +6,15 @@ import {validateOutcome,mergeOutcomeSeeds} from '../lib/outcomes.js';
 import {valid} from '../lib/validation.js';
 const seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url)));
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url)));
-test('Week 9 plans capture all ten screenshot rows, including repeated topics and exact references, with no invented questions',()=>{
+test('Week 9 plans capture all ten screenshot rows, including repeated topics and exact references, with correctly scoped questions',()=>{
  const expected={'10A1':[['Q13','146 (Q11–16)'],['Q14','153 (Q1–11)'],['Q15','165 (Q1–6, Q11–14)']],'9G3':[['Q12','235 (Q1–8)'],['Q13','236 (Q37–39)'],['Q18','233 (Example 6 · مثال 6)']],'10G3':[['Q14','722 (Q29 & Q30)'],['Q15','730 (Q37–39)'],['Q15','725 (Learn · تعلّم)'],['Q20','729 (Q1–6)']]};
  assert.equal(seed.outcomes.filter(o=>o.examWeek===9).length,10);
  for(const [classroom,refs]of Object.entries(expected)){
   const groups=classroomGroups(classroom,bank.questions,seed.outcomes,seed.assignments,9);
   assert.deepEqual(groups.map(o=>[o.assessmentItem,o.bookPages]),refs);
-  for(const o of groups){assert.equal(o.questions.length,0);assert(o.titleAr&&o.title);assert(validateOutcome({...o,revision:0,questionIds:[]}));assert(!seed.assignments.some(a=>a.outcome_id===o.id))}
+  for(const o of groups){assert.equal(o.questions.length,classroom==='10A1'?o.targetCount:0);assert(o.titleAr&&o.title);assert(validateOutcome({...o,revision:0,questionIds:[]}));assert.equal(seed.assignments.filter(a=>a.outcome_id===o.id).length,o.questions.length)}
  }
- assert.equal(bank.questions.length,108);assert(bank.questions.every(q=>weekOf(q)===8));
+ assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,27);
 });
 test('route week selection preserves legacy Week 8 links and keeps explicit week scopes',()=>{
  assert.equal(classroomRoute('#/classrooms/10G3').examWeek,9);

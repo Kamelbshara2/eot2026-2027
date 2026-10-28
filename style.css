@@ -225,3 +225,5 @@ h1{color:var(--ink)}.portal-heading{position:relative;padding:32px 0 24px}.porta
 .assessment-item{align-self:flex-start;background:var(--tint);color:var(--accent);padding:6px 10px;font-size:12px;border-radius:8px;font-weight:700}
 .outcome-card .awaiting-questions{background:#f2f6fa;color:var(--muted);font-size:13px;padding:13px;border-radius:10px;text-align:center;margin:0}
 @media(max-width:520px){.week-tabs{width:100%}.week-tabs a{flex:1;text-align:center;padding:11px 8px;font-size:12px}}
+.week9-geometry-figure{margin:22px 0;padding:12px;overflow-x:auto}.week9-geometry-figure svg{display:block;width:100%;height:auto;min-width:450px}.week9-geometry-figure figcaption{text-align:center;font-size:11px;line-height:1.8;color:var(--muted,#65798b)}
+.practice-slide .slide-question .week9-geometry-figure svg{min-width:0;max-height:380px}

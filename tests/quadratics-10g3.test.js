@@ -34,6 +34,6 @@ test('new outcome seeds reach existing browsers without replacing edits or resto
  const old=seed.outcomes[0],fresh=seed.outcomes.find(o=>o.examWeek===9),edited={...old,title:'Teacher edited title',revision:8};
  const current={outcomes:[edited],assignments:[{question_id:'teacher-question',outcome_id:old.id,position:1}]};
  const merged=mergeOutcomeSeeds(current,seed,seed.previousSeedIds);
- assert.equal(merged.outcomes.find(o=>o.id===old.id).title,'Teacher edited title');assert(!merged.outcomes.some(o=>o.id===seed.outcomes[1].id));assert(merged.outcomes.some(o=>o.id===fresh.id));assert.equal(merged.assignments.filter(a=>a.outcome_id===fresh.id).length,0);
+ assert.equal(merged.outcomes.find(o=>o.id===old.id).title,'Teacher edited title');assert(!merged.outcomes.some(o=>o.id===seed.outcomes[1].id));assert(merged.outcomes.some(o=>o.id===fresh.id));assert.equal(merged.assignments.filter(a=>a.outcome_id===fresh.id).length,seed.assignments.filter(a=>a.outcome_id===fresh.id).length);
  const repeated=mergeOutcomeSeeds(merged,seed,seed.outcomes.map(o=>o.id));assert.deepEqual(repeated,merged);
 });
