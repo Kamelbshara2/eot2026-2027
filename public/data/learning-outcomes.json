@@ -177,7 +177,7 @@
       "title": "Graph and interpret linear functions",
       "titleAr": "تمثيل الدوال الخطية بيانياً وتفسيرها",
       "bookPages": "236 (Q37–39)",
-      "targetCount": 3,
+      "targetCount": 9,
       "position": 2,
       "revision": 1
     },
@@ -189,7 +189,7 @@
       "title": "Graph and interpret linear functions",
       "titleAr": "تمثيل الدوال الخطية بيانياً وتفسيرها",
       "bookPages": "233 (Example 6 · مثال 6)",
-      "targetCount": 1,
+      "targetCount": 2,
       "position": 3,
       "revision": 1
     },
@@ -912,6 +912,101 @@
       "question_id": "10g3-w9-p729-q6",
       "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
       "position": 6
+    },
+    {
+      "question_id": "9g3-w9-p235-q1",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w9-p235-q2",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w9-p235-q3",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w9-p235-q4",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w9-p235-q5",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-w9-p235-q6",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 6
+    },
+    {
+      "question_id": "9g3-w9-p235-q7",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 7
+    },
+    {
+      "question_id": "9g3-w9-p235-q8",
+      "outcome_id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "position": 8
+    },
+    {
+      "question_id": "9g3-w9-p236-q37",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w9-p236-q38",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w9-p236-q39",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-1",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-2",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-3",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 6
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-4",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 7
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-5",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 8
+    },
+    {
+      "question_id": "9g3-w9-supplement-graph-6",
+      "outcome_id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "position": 9
+    },
+    {
+      "question_id": "9g3-w9-p233-example6-1",
+      "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w9-p233-example6-2",
+      "outcome_id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "position": 2
     }
   ],
   "previousSeedIds": [
@@ -927,5 +1022,26 @@
     "22100304-9003-4e08-8c32-022100030004",
     "22300507-9003-4e08-8c32-022300050007",
     "21500508-9003-4e08-8c32-021500050008"
+  ],
+  "assignmentSeedQuestionIds": [
+    "9g3-w9-p235-q1",
+    "9g3-w9-p235-q2",
+    "9g3-w9-p235-q3",
+    "9g3-w9-p235-q4",
+    "9g3-w9-p235-q5",
+    "9g3-w9-p235-q6",
+    "9g3-w9-p235-q7",
+    "9g3-w9-p235-q8",
+    "9g3-w9-p236-q37",
+    "9g3-w9-p236-q38",
+    "9g3-w9-p236-q39",
+    "9g3-w9-supplement-graph-1",
+    "9g3-w9-supplement-graph-2",
+    "9g3-w9-supplement-graph-3",
+    "9g3-w9-supplement-graph-4",
+    "9g3-w9-supplement-graph-5",
+    "9g3-w9-supplement-graph-6",
+    "9g3-w9-p233-example6-1",
+    "9g3-w9-p233-example6-2"
   ]
 }

@@ -3,8 +3,10 @@ const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',imp
 const qs=bank.questions.filter(q=>q.classroom==='10A1'&&q.examWeek===9),ids=new Set(qs.map(q=>q.id)),links=seed.assignments.filter(a=>ids.has(a.question_id)),outcomes=seed.outcomes.filter(o=>o.classroom==='10A1'&&o.examWeek===9);
 if(qs.length!==27||links.length!==27||outcomes.length!==3)throw Error('Incomplete Week 9 data');
 const str=s=>`'${String(s).replaceAll("'","''")}'`,json=q=>{const s=JSON.stringify(q);if(s.includes('$question_json$'))throw Error('Unsafe delimiter');return `$question_json$${s}$question_json$::jsonb`};
+const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url))).filter(u=>ids.has(u.before.id)&&u.before.type==='FRQ'&&u.after.type==='MCQ');
+const upgrades=updates.map(u=>`UPDATE questions SET data=${json(u.after)},revision=revision+1,updated_at=now() WHERE id=${str(u.before.id)} AND NOT deleted AND data=${json(u.before)};`).join('\n');
 const tuples=links.map(a=>`(${str(a.question_id)},${str(a.outcome_id)}::uuid,${a.position})`).join(',\n');
-const sql=`-- Grade 10 Advanced / Week 9: 27 FRQs, routed 6 + 11 + 10.
+const sql=`-- Grade 10 Advanced / Week 9: 27 MCQs, routed 6 + 11 + 10.
 -- Run this complete script in the connected Neon SQL Editor.
 -- Existing question edits, deletions, assignments, and all Week 8 data are preserved.
 BEGIN;
@@ -16,6 +18,7 @@ CREATE TABLE IF NOT EXISTS outcome_questions(question_id text PRIMARY KEY REFERE
 INSERT INTO learning_outcomes(id,classroom,exam_week,assessment_item,title,title_ar,book_pages,target_count,position,last_operation) VALUES
 ${outcomes.map(o=>`(${str(o.id)}::uuid,'10A1',9,${str(o.assessmentItem)},${str(o.title)},${str(o.titleAr)},${str(o.bookPages)},${o.targetCount},${o.position},${str(o.id)}::uuid)`).join(',\n')}
 ON CONFLICT(id) DO NOTHING;
+${upgrades}
 INSERT INTO questions(id,data) VALUES
 ${qs.map(q=>`(${str(q.id)},${json(q)})`).join(',\n')}
 ON CONFLICT(id) DO NOTHING;

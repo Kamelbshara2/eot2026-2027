@@ -3,8 +3,10 @@ const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',imp
 const qs=bank.questions.filter(q=>q.classroom==='10G3'&&q.examWeek===9),ids=new Set(qs.map(q=>q.id)),links=seed.assignments.filter(a=>ids.has(a.question_id)),outcomes=seed.outcomes.filter(o=>o.classroom==='10G3'&&o.examWeek===9);
 if(qs.length!==14||links.length!==14||outcomes.length!==4)throw Error('Incomplete Week 9 data');
 const str=s=>`'${String(s).replaceAll("'","''")}'`,json=q=>{const s=JSON.stringify(q);if(s.includes('$question_json$'))throw Error('Unsafe delimiter');return `$question_json$${s}$question_json$::jsonb`};
+const updates=JSON.parse(await readFile(new URL('../lib/content-updates.json',import.meta.url))).filter(u=>ids.has(u.before.id)&&u.before.type==='FRQ'&&u.after.type==='MCQ');
+const upgrades=updates.map(u=>`UPDATE questions SET data=${json(u.after)},revision=revision+1,updated_at=now() WHERE id=${str(u.before.id)} AND NOT deleted AND data=${json(u.before)};`).join('\n');
 const tuples=links.map(a=>`(${str(a.question_id)},${str(a.outcome_id)}::uuid,${a.position})`).join(',\n');
-const sql=`-- Grade 10 General / Week 9: 14 FRQs, routed 4 + 3 + 1 + 6.
+const sql=`-- Grade 10 General / Week 9: 14 MCQs, routed 4 + 3 + 1 + 6.
 -- Run this complete script in the connected Neon SQL Editor.
 -- Existing question edits, deletions, assignments, and all Week 8 data are preserved.
 BEGIN;
@@ -18,6 +20,7 @@ ${outcomes.map(o=>`(${str(o.id)}::uuid,'10G3',9,${str(o.assessmentItem)},${str(o
 ON CONFLICT(id) DO NOTHING;
 -- Increase the untouched original two-question plan for the four split source parts.
 UPDATE learning_outcomes SET target_count=4,revision=revision+1 WHERE id='65883fee-f0d9-4fc4-98d7-69bd60ac365d'::uuid AND classroom='10G3' AND exam_week=9 AND revision=1 AND last_operation=id AND target_count=2 AND NOT deleted;
+${upgrades}
 INSERT INTO questions(id,data) VALUES
 ${qs.map(q=>`(${str(q.id)},${json(q)})`).join(',\n')}
 ON CONFLICT(id) DO NOTHING;

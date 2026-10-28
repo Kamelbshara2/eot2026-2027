@@ -5997,12 +5997,12 @@
       "classroom": "10A1",
       "examWeek": 9,
       "position": 1,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q11 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 4,
-      "prompt": "Find x and y. The three marked lines are parallel, and the two marked segments on the left transversal are congruent. Show your equations.",
-      "promptAr": "أوجد x وy. المستقيمات الثلاثة المعلمة متوازية، والقطعتان المعلمتان على القاطع الأيسر متطابقتان. اكتب معادلتي الحل.",
+      "marks": 1,
+      "prompt": "Find x and y. The three marked lines are parallel, and the two marked segments on the left transversal are congruent. Show your equations. Choose the correct answer.",
+      "promptAr": "أوجد x وy. المستقيمات الثلاثة المعلمة متوازية، والقطعتان المعلمتان على القاطع الأيسر متطابقتان. اكتب معادلتي الحل. اختر الإجابة الصحيحة.",
       "answer": "Equal intercepts: $2x+1=x+7$, so $x=6$. On the other transversal $3y-8=y+5$, so $2y=13$ and $y=\\frac{13}{2}=6.5$.",
       "answerAr": "من تساوي القطع: $2x+1=x+7$، ومنه $x=6$. وعلى القاطع الآخر $3y-8=y+5$، لذلك $2y=13$ ثم $y=\\frac{13}{2}=6.5$.",
       "diagram": "week9-geometry",
@@ -6012,34 +6012,37 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=6,\\ y=6.5$",
+        "$x=6,\\ y=13$",
+        "$x=8,\\ y=6.5$",
+        "$x=6,\\ y=2.5$"
+      ],
+      "optionsAr": [
+        "$x=6,\\ y=6.5$",
+        "$x=6,\\ y=13$",
+        "$x=8,\\ y=6.5$",
+        "$x=6,\\ y=2.5$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 11,
       "expectedValues": {
         "x": 6,
         "y": 6.5
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p146-q12",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 2,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q12 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 4,
-      "prompt": "Find x and y. The inner segment is parallel to the lower side, and the two marked segments on the upper side are congruent.",
-      "promptAr": "أوجد x وy. القطعة الداخلية توازي الضلع السفلي، والقطعتان المعلمتان على الضلع العلوي متطابقتان.",
+      "marks": 1,
+      "prompt": "Find x and y. The inner segment is parallel to the lower side, and the two marked segments on the upper side are congruent. Choose the correct answer.",
+      "promptAr": "أوجد x وy. القطعة الداخلية توازي الضلع السفلي، والقطعتان المعلمتان على الضلع العلوي متطابقتان. اختر الإجابة الصحيحة.",
       "answer": "A parallel through a midpoint bisects the other side: $x+3=\\frac32x+2$, hence $x=2$. Also $2y-1=3y-5$, so $y=4$.",
       "answerAr": "المستقيم الموازي المار بمنتصف ضلع ينصف الضلع الآخر: $x+3=\\frac32x+2$، ومنه $x=2$. وكذلك $2y-1=3y-5$، لذلك $y=4$.",
       "diagram": "week9-geometry",
@@ -6049,34 +6052,37 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=-2,\\ y=4$",
+        "$x=2,\\ y=4$",
+        "$x=2,\\ y=5$",
+        "$x=4,\\ y=2$"
+      ],
+      "optionsAr": [
+        "$x=-2,\\ y=4$",
+        "$x=2,\\ y=4$",
+        "$x=2,\\ y=5$",
+        "$x=4,\\ y=2$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 12,
       "expectedValues": {
         "x": 2,
         "y": 4
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p146-q13",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 3,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q13 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 3,
-      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The full side LM is 30.",
-      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول الضلع LM كاملاً هو 30.",
+      "marks": 1,
+      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The full side LM is 30. Choose the correct answer.",
+      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول الضلع LM كاملاً هو 30. اختر الإجابة الصحيحة.",
       "answer": "A midsegment is half the parallel side: $x=\\frac{30}{2}=15$.",
       "answerAr": "القطعة المتوسطة تساوي نصف الضلع الموازي: $x=\\frac{30}{2}=15$.",
       "diagram": "week9-geometry",
@@ -6086,30 +6092,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$60$",
+        "$7.5$",
+        "$15$",
+        "$30$"
+      ],
+      "optionsAr": [
+        "$60$",
+        "$7.5$",
+        "$15$",
+        "$30$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 13,
       "expectedValues": {
         "x": 15
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p146-q14",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 4,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q14 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 3,
-      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The midsegment JH is 9.",
-      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول القطعة المتوسطة JH هو 9.",
+      "marks": 1,
+      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The midsegment JH is 9. Choose the correct answer.",
+      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول القطعة المتوسطة JH هو 9. اختر الإجابة الصحيحة.",
       "answer": "The full side is twice the midsegment: $x=2(9)=18$.",
       "answerAr": "الضلع الكامل ضعف القطعة المتوسطة: $x=2(9)=18$.",
       "diagram": "week9-geometry",
@@ -6119,30 +6131,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$9$",
+        "$4.5$",
+        "$36$",
+        "$18$"
+      ],
+      "optionsAr": [
+        "$9$",
+        "$4.5$",
+        "$36$",
+        "$18$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 14,
       "expectedValues": {
         "x": 18
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p146-q15",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 5,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q15 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 3,
-      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The marked half of LM is 8; the full side LM is twice this length.",
-      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول النصف المعلم من LM هو 8، وطول LM الكامل ضعف ذلك.",
+      "marks": 1,
+      "prompt": "$JH$ is a midsegment of $\\triangle KLM$. Find $x$. The marked half of LM is 8; the full side LM is twice this length. Choose the correct answer.",
+      "promptAr": "القطعة $JH$ قطعة متوسطة في $\\triangle KLM$. أوجد $x$. طول النصف المعلم من LM هو 8، وطول LM الكامل ضعف ذلك. اختر الإجابة الصحيحة.",
       "answer": "The marked half is 8, so $LM=16$ and $x=JH=\\frac{16}{2}=8$.",
       "answerAr": "النصف المعلم يساوي 8، لذلك $LM=16$ و$x=JH=\\frac{16}{2}=8$.",
       "diagram": "week9-geometry",
@@ -6152,30 +6170,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$8$",
+        "$4$",
+        "$16$",
+        "$24$"
+      ],
+      "optionsAr": [
+        "$8$",
+        "$4$",
+        "$16$",
+        "$24$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 15,
       "expectedValues": {
         "x": 8
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p146-q16",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 6,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 146 · Q16 · Proportional parts · الأجزاء المتناسبة",
-      "marks": 3,
-      "prompt": "In $\\triangle ABC$, $DE\\parallel AC$ and $DE=10$. If DE is a midsegment, find AC.",
-      "promptAr": "في $\\triangle ABC$، $DE\\parallel AC$ و$DE=10$. إذا كانت DE قطعة متوسطة فأوجد AC.",
+      "marks": 1,
+      "prompt": "In $\\triangle ABC$, $DE\\parallel AC$ and $DE=10$. If DE is a midsegment, find AC. Choose the correct answer.",
+      "promptAr": "في $\\triangle ABC$، $DE\\parallel AC$ و$DE=10$. إذا كانت DE قطعة متوسطة فأوجد AC. اختر الإجابة الصحيحة.",
       "answer": "$DE=\\frac12AC$, so $AC=2(10)=20$. The stated midsegment length determines the answer.",
       "answerAr": "$DE=\\frac12AC$، ومنه $AC=2(10)=20$. نعتمد طول القطعة المتوسطة المعطى في نص السؤال.",
       "diagram": "week9-geometry",
@@ -6185,30 +6209,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$40$",
+        "$20$",
+        "$10$",
+        "$5$"
+      ],
+      "optionsAr": [
+        "$40$",
+        "$20$",
+        "$10$",
+        "$5$"
+      ],
       "sourcePage": 146,
       "sourceQuestion": 16,
       "expectedValues": {
         "AC": 20
       },
-      "responseParts": [
-        {
-          "label": "AC · قيمة AC — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p153-q1",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 7,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q1 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding side lengths are 7+7 and 5.25+5.25; the inner segments are 22 and x.",
-      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. طولا الضلعين المتناظرين هما 7+7 و5.25+5.25، والقطعتان الداخليتان 22 وx.",
+      "marks": 1,
+      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding side lengths are 7+7 and 5.25+5.25; the inner segments are 22 and x. Choose the correct answer.",
+      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. طولا الضلعين المتناظرين هما 7+7 و5.25+5.25، والقطعتان الداخليتان 22 وx. اختر الإجابة الصحيحة.",
       "answer": "The side ratio is $\\frac{10.5}{14}=\\frac34$. Corresponding inner segments have the same ratio, so $x=22\\cdot\\frac34=16.5$.",
       "answerAr": "نسبة الضلعين $\\frac{10.5}{14}=\\frac34$. وللقطعتين المتناظرتين النسبة نفسها، لذلك $x=22\\cdot\\frac34=16.5$.",
       "diagram": "week9-geometry",
@@ -6218,30 +6248,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$22$",
+        "$\\frac{88}{3}$",
+        "$16.5$",
+        "$14$"
+      ],
+      "optionsAr": [
+        "$22$",
+        "$\\frac{88}{3}$",
+        "$16.5$",
+        "$14$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 1,
       "expectedValues": {
         "x": 16.5
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p153-q2",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 8,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q2 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding bases are 15 and 10; the corresponding medians are 33 and x.",
-      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. القاعدتان المتناظرتان 15 و10، والمتوسطان المتناظران 33 وx.",
+      "marks": 1,
+      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding bases are 15 and 10; the corresponding medians are 33 and x. Choose the correct answer.",
+      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. القاعدتان المتناظرتان 15 و10، والمتوسطان المتناظران 33 وx. اختر الإجابة الصحيحة.",
       "answer": "$\\frac{x}{33}=\\frac{10}{15}$, hence $x=33\\cdot\\frac23=22$.",
       "answerAr": "$\\frac{x}{33}=\\frac{10}{15}$، ومنه $x=33\\cdot\\frac23=22$.",
       "diagram": "week9-geometry",
@@ -6251,30 +6287,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$49.5$",
+        "$15$",
+        "$33$",
+        "$22$"
+      ],
+      "optionsAr": [
+        "$49.5$",
+        "$15$",
+        "$33$",
+        "$22$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 2,
       "expectedValues": {
         "x": 22
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p153-q3",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 9,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q3 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding altitudes are 20 and 10, and the corresponding sides are 22 and x.",
-      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. الارتفاعان المتناظران 20 و10، والضلعان المتناظران 22 وx.",
+      "marks": 1,
+      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding altitudes are 20 and 10, and the corresponding sides are 22 and x. Choose the correct answer.",
+      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. الارتفاعان المتناظران 20 و10، والضلعان المتناظران 22 وx. اختر الإجابة الصحيحة.",
       "answer": "$\\frac{x}{22}=\\frac{10}{20}$, so $x=11$.",
       "answerAr": "$\\frac{x}{22}=\\frac{10}{20}$، ولذلك $x=11$.",
       "diagram": "week9-geometry",
@@ -6284,30 +6326,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$11$",
+        "$44$",
+        "$20$",
+        "$10$"
+      ],
+      "optionsAr": [
+        "$11$",
+        "$44$",
+        "$20$",
+        "$10$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 3,
       "expectedValues": {
         "x": 11
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p153-q4",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 10,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q4 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding medians are 18 and 12, and the corresponding sides are x and 12.6.",
-      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. المتوسطان المتناظران 18 و12، والضلعان المتناظران x و12.6.",
+      "marks": 1,
+      "prompt": "Each pair of triangles is similar. Find x using corresponding sides and corresponding medians or altitudes. The corresponding medians are 18 and 12, and the corresponding sides are x and 12.6. Choose the correct answer.",
+      "promptAr": "كل زوج من المثلثات متشابه. أوجد x باستعمال الأضلاع والقطع المتناظرة من المتوسطات أو الارتفاعات. المتوسطان المتناظران 18 و12، والضلعان المتناظران x و12.6. اختر الإجابة الصحيحة.",
       "answer": "$\\frac{x}{12.6}=\\frac{18}{12}$, so $x=18.9$.",
       "answerAr": "$\\frac{x}{12.6}=\\frac{18}{12}$، ومنه $x=18.9$.",
       "diagram": "week9-geometry",
@@ -6317,30 +6365,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$27$",
+        "$18.9$",
+        "$8.4$",
+        "$12.6$"
+      ],
+      "optionsAr": [
+        "$27$",
+        "$18.9$",
+        "$8.4$",
+        "$12.6$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 4,
       "expectedValues": {
         "x": 18.9
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p153-q5",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 11,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q5 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "If $\\triangle RST\\sim\\triangle EFG$, SH is an altitude of RST and FJ is an altitude of EFG. Given $ST=6$, $SH=5$ and $FJ=7$, find FG.",
-      "promptAr": "إذا كان $\\triangle RST\\sim\\triangle EFG$ وSH ارتفاعاً في RST وFJ ارتفاعاً في EFG، وكان $ST=6$ و$SH=5$ و$FJ=7$، فأوجد FG.",
+      "marks": 1,
+      "prompt": "If $\\triangle RST\\sim\\triangle EFG$, SH is an altitude of RST and FJ is an altitude of EFG. Given $ST=6$, $SH=5$ and $FJ=7$, find FG. Choose the correct answer.",
+      "promptAr": "إذا كان $\\triangle RST\\sim\\triangle EFG$ وSH ارتفاعاً في RST وFJ ارتفاعاً في EFG، وكان $ST=6$ و$SH=5$ و$FJ=7$، فأوجد FG. اختر الإجابة الصحيحة.",
       "answer": "$ST\\leftrightarrow FG$ and $SH\\leftrightarrow FJ$. Thus $\\frac{FG}{6}=\\frac75$ and $FG=8.4$.",
       "answerAr": "$ST\\leftrightarrow FG$ و$SH\\leftrightarrow FJ$. إذن $\\frac{FG}{6}=\\frac75$ ومنه $FG=8.4$.",
       "diagram": "week9-geometry",
@@ -6350,30 +6404,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$7$",
+        "$11$",
+        "$8.4$",
+        "$\\frac{30}{7}$"
+      ],
+      "optionsAr": [
+        "$7$",
+        "$11$",
+        "$8.4$",
+        "$\\frac{30}{7}$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 5,
       "expectedValues": {
         "FG": 8.4
       },
-      "responseParts": [
-        {
-          "label": "FG · قيمة FG — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p153-q6",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 12,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q6 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "If $\\triangle ABC\\sim\\triangle MNP$, AD is an altitude of ABC and MQ is an altitude of MNP. Given $AB=24$, $AD=14$ and $MQ=10.5$, find MN.",
-      "promptAr": "إذا كان $\\triangle ABC\\sim\\triangle MNP$ وAD ارتفاعاً في ABC وMQ ارتفاعاً في MNP، وكان $AB=24$ و$AD=14$ و$MQ=10.5$، فأوجد MN.",
+      "marks": 1,
+      "prompt": "If $\\triangle ABC\\sim\\triangle MNP$, AD is an altitude of ABC and MQ is an altitude of MNP. Given $AB=24$, $AD=14$ and $MQ=10.5$, find MN. Choose the correct answer.",
+      "promptAr": "إذا كان $\\triangle ABC\\sim\\triangle MNP$ وAD ارتفاعاً في ABC وMQ ارتفاعاً في MNP، وكان $AB=24$ و$AD=14$ و$MQ=10.5$، فأوجد MN. اختر الإجابة الصحيحة.",
       "answer": "$\\frac{MN}{24}=\\frac{10.5}{14}=\\frac34$, so $MN=18$.",
       "answerAr": "$\\frac{MN}{24}=\\frac{10.5}{14}=\\frac34$، ولذلك $MN=18$.",
       "diagram": "week9-geometry",
@@ -6383,30 +6443,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$32$",
+        "$14$",
+        "$24$",
+        "$18$"
+      ],
+      "optionsAr": [
+        "$32$",
+        "$14$",
+        "$24$",
+        "$18$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 6,
       "expectedValues": {
         "MN": 18
       },
-      "responseParts": [
-        {
-          "label": "MN · قيمة MN — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p153-q7",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 13,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q7 · Similar triangles · المثلثات المتشابهة",
-      "marks": 4,
-      "prompt": "The intersection B of two paths forms two similar triangles. AC=50 yards and MP=35 yards. The fountain is 5 yards from B along the perpendicular to MP. How far is the stadium entrance from B along the corresponding perpendicular to AC? Round to the nearest yard.",
-      "promptAr": "يشكل تقاطع المسارين عند B مثلثين متشابهين. AC=50 ياردة وMP=35 ياردة، وتبعد النافورة 5 ياردات عن B على العمود على MP. ما بُعد مدخل الملعب عن B على العمود المناظر على AC؟ قرّب إلى أقرب ياردة.",
+      "marks": 1,
+      "prompt": "The intersection B of two paths forms two similar triangles. AC=50 yards and MP=35 yards. The fountain is 5 yards from B along the perpendicular to MP. How far is the stadium entrance from B along the corresponding perpendicular to AC? Round to the nearest yard. Choose the correct answer.",
+      "promptAr": "يشكل تقاطع المسارين عند B مثلثين متشابهين. AC=50 ياردة وMP=35 ياردة، وتبعد النافورة 5 ياردات عن B على العمود على MP. ما بُعد مدخل الملعب عن B على العمود المناظر على AC؟ قرّب إلى أقرب ياردة. اختر الإجابة الصحيحة.",
       "answer": "Corresponding altitudes are proportional to the bases: $\\frac{h}{5}=\\frac{50}{35}$. Thus $h=\\frac{50}{7}\\approx7.14$, so the distance is about $7$ yards.",
       "answerAr": "الارتفاعات المتناظرة تتناسب مع القواعد: $\\frac{h}{5}=\\frac{50}{35}$. إذن $h=\\frac{50}{7}\\approx7.14$، والمسافة نحو $7$ ياردات.",
       "diagram": "week9-geometry",
@@ -6416,30 +6482,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$7$",
+        "$5$",
+        "$10$",
+        "$14$"
+      ],
+      "optionsAr": [
+        "$7$",
+        "$5$",
+        "$10$",
+        "$14$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 7,
       "expectedValues": {
         "distance": 7
       },
-      "responseParts": [
-        {
-          "label": "Distance · المسافة — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p153-q8",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 14,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q8 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "The marked segment bisects the top angle. Find m to the nearest tenth. The opposite side is split into lengths 8 and 12; the right side is 20.",
-      "promptAr": "القطعة المعلمة تنصف الزاوية العليا. أوجد m إلى أقرب عُشر. قُسم الضلع المقابل إلى قطعتين 8 و12، وطول الضلع الأيمن 20.",
+      "marks": 1,
+      "prompt": "The marked segment bisects the top angle. Find m to the nearest tenth. The opposite side is split into lengths 8 and 12; the right side is 20. Choose the correct answer.",
+      "promptAr": "القطعة المعلمة تنصف الزاوية العليا. أوجد m إلى أقرب عُشر. قُسم الضلع المقابل إلى قطعتين 8 و12، وطول الضلع الأيمن 20. اختر الإجابة الصحيحة.",
       "answer": "By the Angle Bisector Theorem, $\\frac{m}{20}=\\frac8{12}$. Hence $m=\\frac{40}{3}\\approx13.3$.",
       "answerAr": "وفق نظرية منصف الزاوية $\\frac{m}{20}=\\frac8{12}$، ومنه $m=\\frac{40}{3}\\approx13.3$.",
       "diagram": "week9-geometry",
@@ -6449,30 +6521,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$15$",
+        "$13.3$",
+        "$30$",
+        "$8$"
+      ],
+      "optionsAr": [
+        "$15$",
+        "$13.3$",
+        "$30$",
+        "$8$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 8,
       "expectedValues": {
         "m": 13.3
       },
-      "responseParts": [
-        {
-          "label": "m · قيمة m — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p153-q9",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 15,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q9 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "The marked segment bisects the left angle. Find x to the nearest tenth. The adjacent sides are 24 and 20, and the opposite side is split into x and 7.",
-      "promptAr": "القطعة المعلمة تنصف الزاوية اليسرى. أوجد x إلى أقرب عُشر. طولا الضلعين المجاورين 24 و20، وقُسم الضلع المقابل إلى x و7.",
+      "marks": 1,
+      "prompt": "The marked segment bisects the left angle. Find x to the nearest tenth. The adjacent sides are 24 and 20, and the opposite side is split into x and 7. Choose the correct answer.",
+      "promptAr": "القطعة المعلمة تنصف الزاوية اليسرى. أوجد x إلى أقرب عُشر. طولا الضلعين المجاورين 24 و20، وقُسم الضلع المقابل إلى x و7. اختر الإجابة الصحيحة.",
       "answer": "$\\frac{x}{7}=\\frac{24}{20}$, so $x=8.4$.",
       "answerAr": "$\\frac{x}{7}=\\frac{24}{20}$، ومنه $x=8.4$.",
       "diagram": "week9-geometry",
@@ -6482,30 +6560,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$7$",
+        "$16.8$",
+        "$8.4$",
+        "$5.8$"
+      ],
+      "optionsAr": [
+        "$7$",
+        "$16.8$",
+        "$8.4$",
+        "$5.8$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 9,
       "expectedValues": {
         "x": 8.4
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p153-q10",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 16,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q10 · Similar triangles · المثلثات المتشابهة",
-      "marks": 4,
-      "prompt": "For this question, $\\triangle ABC\\sim\\triangle DEF$. BX and EY are corresponding altitudes, $AB=12$ cm, $BX=8$ cm, $AC=14$ cm and $DE=8$ cm. Find XC to the nearest tenth.",
-      "promptAr": "في هذا السؤال $\\triangle ABC\\sim\\triangle DEF$، وBX وEY ارتفاعان متناظران، و$AB=12$ سم و$BX=8$ سم و$AC=14$ سم و$DE=8$ سم. أوجد XC إلى أقرب عُشر.",
+      "marks": 1,
+      "prompt": "For this question, $\\triangle ABC\\sim\\triangle DEF$. BX and EY are corresponding altitudes, $AB=12$ cm, $BX=8$ cm, $AC=14$ cm and $DE=8$ cm. Find XC to the nearest tenth. Choose the correct answer.",
+      "promptAr": "في هذا السؤال $\\triangle ABC\\sim\\triangle DEF$، وBX وEY ارتفاعان متناظران، و$AB=12$ سم و$BX=8$ سم و$AC=14$ سم و$DE=8$ سم. أوجد XC إلى أقرب عُشر. اختر الإجابة الصحيحة.",
       "answer": "In right triangle ABX, $AX=\\sqrt{12^2-8^2}=\\sqrt{80}=4\\sqrt5$. Hence $XC=14-4\\sqrt5\\approx5.1$ cm.",
       "answerAr": "في المثلث القائم ABX، $AX=\\sqrt{12^2-8^2}=4\\sqrt5$. إذن $XC=14-4\\sqrt5\\approx5.1$ سم.",
       "diagram": "week9-geometry",
@@ -6515,30 +6599,36 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$8.9$",
+        "$6$",
+        "$22.9$",
+        "$5.1$"
+      ],
+      "optionsAr": [
+        "$8.9$",
+        "$6$",
+        "$22.9$",
+        "$5.1$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 10,
       "expectedValues": {
         "XC": 5.1
       },
-      "responseParts": [
-        {
-          "label": "XC · قيمة XC — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p153-q11",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 17,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 153 · Q11 · Similar triangles · المثلثات المتشابهة",
-      "marks": 3,
-      "prompt": "For this question, $\\triangle ABC\\sim\\triangle DEF$. BX and EY are corresponding altitudes, $AB=12$ cm, $BX=8$ cm, $AC=14$ cm and $DE=8$ cm. Find EY to the nearest tenth.",
-      "promptAr": "في هذا السؤال $\\triangle ABC\\sim\\triangle DEF$، وBX وEY ارتفاعان متناظران، و$AB=12$ سم و$BX=8$ سم و$AC=14$ سم و$DE=8$ سم. أوجد EY إلى أقرب عُشر.",
+      "marks": 1,
+      "prompt": "For this question, $\\triangle ABC\\sim\\triangle DEF$. BX and EY are corresponding altitudes, $AB=12$ cm, $BX=8$ cm, $AC=14$ cm and $DE=8$ cm. Find EY to the nearest tenth. Choose the correct answer.",
+      "promptAr": "في هذا السؤال $\\triangle ABC\\sim\\triangle DEF$، وBX وEY ارتفاعان متناظران، و$AB=12$ سم و$BX=8$ سم و$AC=14$ سم و$DE=8$ سم. أوجد EY إلى أقرب عُشر. اختر الإجابة الصحيحة.",
       "answer": "The scale factor from ABC to DEF is $\\frac{DE}{AB}=\\frac8{12}=\\frac23$. Thus $EY=8\\cdot\\frac23=\\frac{16}{3}\\approx5.3$ cm.",
       "answerAr": "معامل التشابه من ABC إلى DEF هو $\\frac{DE}{AB}=\\frac8{12}=\\frac23$. ومنه $EY=8\\cdot\\frac23=\\frac{16}{3}\\approx5.3$ سم.",
       "diagram": "week9-geometry",
@@ -6548,228 +6638,270 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$5.3$",
+        "$12$",
+        "$8$",
+        "$10.7$"
+      ],
+      "optionsAr": [
+        "$5.3$",
+        "$12$",
+        "$8$",
+        "$10.7$"
+      ],
       "sourcePage": 153,
       "sourceQuestion": 11,
       "expectedValues": {
         "EY": 5.3
       },
-      "responseParts": [
-        {
-          "label": "EY · قيمة EY — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p165-q1",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 18,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q1 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $4$ and $6$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $4$ و$6$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $4$ and $6$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $4$ و$6$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{24}=2\\sqrt6$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{24}=2\\sqrt6$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$24$",
+        "$2\\sqrt6$",
+        "$10$",
+        "$\\sqrt{10}$"
+      ],
+      "optionsAr": [
+        "$24$",
+        "$2\\sqrt6$",
+        "$10$",
+        "$\\sqrt{10}$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 1,
       "expectedValues": {
         "mean": 4.898979485566356
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         4,
         6
-      ]
+      ],
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p165-q2",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 19,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q2 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $\\frac12$ and $2$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $\\frac12$ و$2$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $\\frac12$ and $2$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $\\frac12$ و$2$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{1}=1$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{1}=1$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$2.5$",
+        "$\\sqrt2$",
+        "$1$",
+        "$1.25$"
+      ],
+      "optionsAr": [
+        "$2.5$",
+        "$\\sqrt2$",
+        "$1$",
+        "$1.25$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 2,
       "expectedValues": {
         "mean": 1
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         0.5,
         2
-      ]
+      ],
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p165-q3",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 20,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q3 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $4$ and $25$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $4$ و$25$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $4$ and $25$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $4$ و$25$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{100}=10$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{100}=10$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$29$",
+        "$100$",
+        "$14.5$",
+        "$10$"
+      ],
+      "optionsAr": [
+        "$29$",
+        "$100$",
+        "$14.5$",
+        "$10$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 3,
       "expectedValues": {
         "mean": 10
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         4,
         25
-      ]
+      ],
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p165-q4",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 21,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q4 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $12$ and $20$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $12$ و$20$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $12$ and $20$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $12$ و$20$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{240}=4\\sqrt{15}$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{240}=4\\sqrt{15}$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$4\\sqrt{15}$",
+        "$16$",
+        "$2\\sqrt2$",
+        "$240$"
+      ],
+      "optionsAr": [
+        "$4\\sqrt{15}$",
+        "$16$",
+        "$2\\sqrt2$",
+        "$240$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 4,
       "expectedValues": {
         "mean": 15.491933384829668
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         12,
         20
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p165-q5",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 22,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q5 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $17$ and $3$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $17$ و$3$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $17$ and $3$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $17$ و$3$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{51}=\\sqrt{51}$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{51}=\\sqrt{51}$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$51$",
+        "$\\sqrt{51}$",
+        "$10$",
+        "$20$"
+      ],
+      "optionsAr": [
+        "$51$",
+        "$\\sqrt{51}$",
+        "$10$",
+        "$20$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 5,
       "expectedValues": {
         "mean": 7.14142842854285
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         17,
         3
-      ]
+      ],
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p165-q6",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 23,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q6 · Geometric mean · الوسط الهندسي",
-      "marks": 2,
-      "prompt": "Find the geometric mean between $3$ and $24$. Give the positive exact value in simplest radical form.",
-      "promptAr": "أوجد الوسط الهندسي بين $3$ و$24$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية.",
+      "marks": 1,
+      "prompt": "Find the geometric mean between $3$ and $24$. Give the positive exact value in simplest radical form. Choose the correct answer.",
+      "promptAr": "أوجد الوسط الهندسي بين $3$ و$24$. اكتب القيمة الموجبة الدقيقة بأبسط صورة جذرية. اختر الإجابة الصحيحة.",
       "answer": "The geometric mean is $g=\\sqrt{ab}=\\sqrt{72}=6\\sqrt2$. Use the positive root.",
       "answerAr": "الوسط الهندسي $g=\\sqrt{ab}=\\sqrt{72}=6\\sqrt2$. نأخذ الجذر الموجب.",
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$27$",
+        "$72$",
+        "$6\\sqrt2$",
+        "$13.5$"
+      ],
+      "optionsAr": [
+        "$27$",
+        "$72$",
+        "$6\\sqrt2$",
+        "$13.5$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 6,
       "expectedValues": {
         "mean": 8.48528137423857
       },
-      "responseParts": [
-        {
-          "label": "Geometric mean · الوسط الهندسي — show working · وضح خطوات الحل"
-        }
-      ],
       "geometricMean": [
         3,
         24
-      ]
+      ],
+      "correctIndex": 2
     },
     {
       "id": "10a1-w9-p165-q11",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 24,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q11 · Geometric mean · الوسط الهندسي",
-      "marks": 6,
-      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; you may also give decimal checks to the nearest tenth. The hypotenuse is split into lengths 8 and 23.",
-      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. قُسم الوتر إلى قطعتين طولهما 8 و23.",
+      "marks": 1,
+      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; select the exact values. The hypotenuse is split into lengths 8 and 23. Choose the correct answer.",
+      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. قُسم الوتر إلى قطعتين طولهما 8 و23. اختر الإجابة الصحيحة.",
       "answer": "The hypotenuse is $c=8+23=31$. Altitude: $x^2=8(23)$, so $x=2\\sqrt{46}\\approx13.6$. Legs: $y^2=31(8)$, so $y=2\\sqrt{62}\\approx15.7$; $z^2=31(23)$, so $z=\\sqrt{713}\\approx26.7$.",
       "answerAr": "الوتر $c=8+23=31$. للارتفاع $x^2=8(23)$، ومنه $x=2\\sqrt{46}\\approx13.6$. وللضلعين $y^2=31(8)$، لذلك $y=2\\sqrt{62}\\approx15.7$؛ و$z^2=31(23)$، لذلك $z=\\sqrt{713}\\approx26.7$.",
       "diagram": "week9-geometry",
@@ -6779,8 +6911,18 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=2\\sqrt{62},\\ y=2\\sqrt{46},\\ z=\\sqrt{713}$",
+        "$x=2\\sqrt{46},\\ y=\\sqrt{713},\\ z=2\\sqrt{62}$",
+        "$x=184,\\ y=248,\\ z=713$",
+        "$x=2\\sqrt{46},\\ y=2\\sqrt{62},\\ z=\\sqrt{713}$"
+      ],
+      "optionsAr": [
+        "$x=2\\sqrt{62},\\ y=2\\sqrt{46},\\ z=\\sqrt{713}$",
+        "$x=2\\sqrt{46},\\ y=\\sqrt{713},\\ z=2\\sqrt{62}$",
+        "$x=184,\\ y=248,\\ z=713$",
+        "$x=2\\sqrt{46},\\ y=2\\sqrt{62},\\ z=\\sqrt{713}$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 11,
       "expectedValues": {
@@ -6788,29 +6930,19 @@
         "y": 15.748015748023622,
         "z": 26.70205984563738
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "z · قيمة z — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 3
     },
     {
       "id": "10a1-w9-p165-q12",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 25,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q12 · Geometric mean · الوسط الهندسي",
-      "marks": 6,
-      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; you may also give decimal checks to the nearest tenth. The whole hypotenuse is 25 and its right-hand segment is 6.",
-      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الوتر كاملاً 25 وطول جزئه الأيمن 6.",
+      "marks": 1,
+      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; select the exact values. The whole hypotenuse is 25 and its right-hand segment is 6. Choose the correct answer.",
+      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الوتر كاملاً 25 وطول جزئه الأيمن 6. اختر الإجابة الصحيحة.",
       "answer": "The other hypotenuse segment is $25-6=19$. $x^2=19(6)$ gives $x=\\sqrt{114}\\approx10.7$. $y^2=25(6)$ gives $y=5\\sqrt6\\approx12.2$. $z^2=25(19)$ gives $z=5\\sqrt{19}\\approx21.8$.",
       "answerAr": "جزء الوتر الآخر $25-6=19$. من $x^2=19(6)$ نحصل على $x=\\sqrt{114}\\approx10.7$. ومن $y^2=25(6)$ نحصل على $y=5\\sqrt6\\approx12.2$. ومن $z^2=25(19)$ نحصل على $z=5\\sqrt{19}\\approx21.8$.",
       "diagram": "week9-geometry",
@@ -6820,8 +6952,18 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=\\sqrt{114},\\ y=5\\sqrt6,\\ z=5\\sqrt{19}$",
+        "$x=\\sqrt{114},\\ y=5\\sqrt{19},\\ z=5\\sqrt6$",
+        "$x=6,\\ y=5\\sqrt6,\\ z=5\\sqrt{19}$",
+        "$x=114,\\ y=150,\\ z=475$"
+      ],
+      "optionsAr": [
+        "$x=\\sqrt{114},\\ y=5\\sqrt6,\\ z=5\\sqrt{19}$",
+        "$x=\\sqrt{114},\\ y=5\\sqrt{19},\\ z=5\\sqrt6$",
+        "$x=6,\\ y=5\\sqrt6,\\ z=5\\sqrt{19}$",
+        "$x=114,\\ y=150,\\ z=475$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 12,
       "expectedValues": {
@@ -6829,29 +6971,19 @@
         "y": 12.24744871391589,
         "z": 21.79449471770337
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "z · قيمة z — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 0
     },
     {
       "id": "10a1-w9-p165-q13",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 26,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q13 · Geometric mean · الوسط الهندسي",
-      "marks": 6,
-      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; you may also give decimal checks to the nearest tenth. The altitude is 3; the left hypotenuse segment is 2, the right segment is x, the whole hypotenuse is z, and the left leg is y.",
-      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الارتفاع 3، وجزء الوتر الأيسر 2 والأيمن x، وطول الوتر كاملاً z، والضلع الأيسر y.",
+      "marks": 1,
+      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; select the exact values. The altitude is 3; the left hypotenuse segment is 2, the right segment is x, the whole hypotenuse is z, and the left leg is y. Choose the correct answer.",
+      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الارتفاع 3، وجزء الوتر الأيسر 2 والأيمن x، وطول الوتر كاملاً z، والضلع الأيسر y. اختر الإجابة الصحيحة.",
       "answer": "Altitude theorem: $3^2=2x$, so $x=\\frac92=4.5$. Thus $z=2+x=\\frac{13}{2}=6.5$. Leg theorem: $y^2=2z=13$, so $y=\\sqrt{13}\\approx3.6$.",
       "answerAr": "من نظرية الارتفاع $3^2=2x$، لذلك $x=\\frac92=4.5$. ومنه $z=2+x=\\frac{13}{2}=6.5$. وبنظرية الضلع $y^2=2z=13$، لذلك $y=\\sqrt{13}\\approx3.6$.",
       "diagram": "week9-geometry",
@@ -6861,8 +6993,18 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=3,\\ y=\\sqrt{10},\\ z=5$",
+        "$x=4.5,\\ y=\\sqrt{13},\\ z=6.5$",
+        "$x=6.5,\\ y=\\sqrt{13},\\ z=4.5$",
+        "$x=4.5,\\ y=13,\\ z=6.5$"
+      ],
+      "optionsAr": [
+        "$x=3,\\ y=\\sqrt{10},\\ z=5$",
+        "$x=4.5,\\ y=\\sqrt{13},\\ z=6.5$",
+        "$x=6.5,\\ y=\\sqrt{13},\\ z=4.5$",
+        "$x=4.5,\\ y=13,\\ z=6.5$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 13,
       "expectedValues": {
@@ -6870,29 +7012,19 @@
         "y": 3.605551275463989,
         "z": 6.5
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "z · قيمة z — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 1
     },
     {
       "id": "10a1-w9-p165-q14",
       "classroom": "10A1",
       "examWeek": 9,
       "position": 27,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10A1 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 165 · Q14 · Geometric mean · الوسط الهندسي",
-      "marks": 6,
-      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; you may also give decimal checks to the nearest tenth. The whole hypotenuse is 20 and the right leg is 10. The hypotenuse parts are x and y; the left leg is z.",
-      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الوتر كاملاً 20 والضلع الأيمن 10. جزآ الوتر هما x وy، وطول الضلع الأيسر z.",
+      "marks": 1,
+      "prompt": "In the right triangle, the marked altitude is perpendicular to the hypotenuse. Find x, y and z. Give exact simplified values; select the exact values. The whole hypotenuse is 20 and the right leg is 10. The hypotenuse parts are x and y; the left leg is z. Choose the correct answer.",
+      "promptAr": "في المثلث القائم، الارتفاع المعلم عمودي على الوتر. أوجد x وy وz بالقيم الدقيقة المبسطة، ويمكنك إضافة قيم عشرية للتحقق إلى أقرب عُشر. طول الوتر كاملاً 20 والضلع الأيمن 10. جزآ الوتر هما x وy، وطول الضلع الأيسر z. اختر الإجابة الصحيحة.",
       "answer": "Leg theorem: $10^2=20y$, so $y=5$. Hence $x=20-5=15$. Then $z^2=20(15)=300$, so $z=10\\sqrt3\\approx17.3$.",
       "answerAr": "من نظرية الضلع $10^2=20y$، ومنه $y=5$. إذن $x=20-5=15$. ثم $z^2=20(15)=300$، لذلك $z=10\\sqrt3\\approx17.3$.",
       "diagram": "week9-geometry",
@@ -6902,8 +7034,18 @@
       },
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$x=15,\\ y=5,\\ z=5\\sqrt3$",
+        "$x=10,\\ y=10,\\ z=10$",
+        "$x=15,\\ y=5,\\ z=10\\sqrt3$",
+        "$x=5,\\ y=15,\\ z=10\\sqrt3$"
+      ],
+      "optionsAr": [
+        "$x=15,\\ y=5,\\ z=5\\sqrt3$",
+        "$x=10,\\ y=10,\\ z=10$",
+        "$x=15,\\ y=5,\\ z=10\\sqrt3$",
+        "$x=5,\\ y=15,\\ z=10\\sqrt3$"
+      ],
       "sourcePage": 165,
       "sourceQuestion": 14,
       "expectedValues": {
@@ -6911,17 +7053,7 @@
         "y": 5,
         "z": 17.320508075688775
       },
-      "responseParts": [
-        {
-          "label": "x · قيمة x — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "y · قيمة y — show working · وضح خطوات الحل"
-        },
-        {
-          "label": "z · قيمة z — show working · وضح خطوات الحل"
-        }
-      ]
+      "correctIndex": 2
     },
     {
       "id": "10g3-w9-p722-q29-a",
@@ -7136,29 +7268,31 @@
       "classroom": "10G3",
       "examWeek": 9,
       "position": 5,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 730 · Q37 · Quadratic reasoning · الاستدلال التربيعي",
-      "prompt": "Which expression does not belong with the other three? Explain your reasoning by checking whether each is a perfect square.\nA. $n^2-n+\\frac14$\nB. $n^2+n+\\frac14$\nC. $n^2-\\frac23n+\\frac19$\nD. $n^2+\\frac13n+\\frac19$",
-      "promptAr": "أي عبارة لا تنتمي إلى العبارات الثلاث الأخرى؟ علّل بالتحقق مما إذا كانت كل عبارة مربعاً كاملاً.\nA. $n^2-n+\\frac14$\nB. $n^2+n+\\frac14$\nC. $n^2-\\frac23n+\\frac19$\nD. $n^2+\\frac13n+\\frac19$",
+      "prompt": "Which expression is not a perfect-square trinomial?",
+      "promptAr": "أي عبارة ليست ثلاثية حدود تمثل مربعاً كاملاً؟",
       "answer": "D does not belong. A $=(n-\\frac12)^2$, B $=(n+\\frac12)^2$, and C $=(n-\\frac13)^2$. In D, half the linear coefficient is $\\frac16$, whose square is $\\frac1{36}$, not $\\frac19$. Therefore D is not a perfect-square trinomial.",
       "answerAr": "العبارة D لا تنتمي. فالعبارة A تساوي $(n-\\frac12)^2$، وB تساوي $(n+\\frac12)^2$، وC تساوي $(n-\\frac13)^2$. في D نصف معامل n هو $\\frac16$ ومربعه $\\frac1{36}$ وليس $\\frac19$؛ لذا ليست مربعاً كاملاً.",
-      "marks": 4,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$n^2-n+\\frac14$",
+        "$n^2+n+\\frac14$",
+        "$n^2-\\frac23n+\\frac19$",
+        "$n^2+\\frac13n+\\frac19$"
+      ],
+      "optionsAr": [
+        "$n^2-n+\\frac14$",
+        "$n^2+n+\\frac14$",
+        "$n^2-\\frac23n+\\frac19$",
+        "$n^2+\\frac13n+\\frac19$"
+      ],
       "sourcePage": 730,
       "sourceQuestion": 37,
-      "responseParts": [
-        {
-          "label": "Expression that does not belong · العبارة المختلفة"
-        },
-        {
-          "label": "Reason and square forms · التعليل وصور المربعات"
-        }
-      ],
       "problemData": {
         "kind": "odd-one-out",
         "coefficients": [
@@ -7185,36 +7319,39 @@
         ],
         "oddIndex": 3
       },
-      "sourceKind": "reasoning"
+      "sourceKind": "reasoning",
+      "correctIndex": 3
     },
     {
       "id": "10g3-w9-p730-q38",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 6,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 730 · Q38 · Quadratic reasoning · الاستدلال التربيعي",
-      "prompt": "Write a quadratic equation for which the only solution is 4. Explain why it has no other solution.",
-      "promptAr": "اكتب معادلة تربيعية حلها الوحيد هو 4، وفسّر لماذا لا يوجد حل آخر.",
+      "prompt": "Which quadratic equation has 4 as its only solution?",
+      "promptAr": "أي معادلة تربيعية حلها الوحيد هو 4؟",
       "answer": "One example is $(x-4)^2=0$, or $x^2-8x+16=0$. Taking square roots gives $x-4=0$, hence $x=4$, a repeated root. Any equation $a(x-4)^2=0$ with $a\\ne0$ is acceptable.",
       "answerAr": "مثال صحيح: $(x-4)^2=0$، أي $x^2-8x+16=0$. بأخذ الجذر التربيعي نحصل على $x-4=0$، ومنه $x=4$ وهو جذر مكرر. تُقبل أي معادلة $a(x-4)^2=0$ حيث $a\\ne0$.",
-      "marks": 3,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$(x-4)^2=0$",
+        "$(x+4)^2=0$",
+        "$x^2-16=0$",
+        "$x^2+16=0$"
+      ],
+      "optionsAr": [
+        "$(x-4)^2=0$",
+        "$(x+4)^2=0$",
+        "$x^2-16=0$",
+        "$x^2+16=0$"
+      ],
       "sourcePage": 730,
       "sourceQuestion": 38,
-      "responseParts": [
-        {
-          "label": "Quadratic equation · المعادلة التربيعية"
-        },
-        {
-          "label": "Explain the repeated root · تفسير الجذر المكرر"
-        }
-      ],
       "expectedValues": {
         "root": 4
       },
@@ -7226,36 +7363,39 @@
           16
         ]
       },
-      "sourceKind": "reasoning"
+      "sourceKind": "reasoning",
+      "correctIndex": 0
     },
     {
       "id": "10g3-w9-p730-q39",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 7,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 730 · Q39 · Quadratic reasoning · الاستدلال التربيعي",
-      "prompt": "Compare and contrast completing the square, graphing, and factoring for solving $x^2-5x-7=0$. Use completing the square to give exact solutions, state approximate graph intercepts, and discuss whether simple rational factoring is possible.",
-      "promptAr": "قارن بين إكمال المربع والرسم البياني والتحليل لحل $x^2-5x-7=0$. أعطِ الحلول الدقيقة بإكمال المربع، والتقاطعات التقريبية من الرسم، وناقش إمكان التحليل البسيط بمعاملات نسبية.",
+      "prompt": "Which comparison is correct for solving $x^2-5x-7=0$?",
+      "promptAr": "أي مقارنة صحيحة لحل $x^2-5x-7=0$؟",
       "answer": "Completing the square: $x^2-5x=7$, then $x^2-5x+\\frac{25}{4}=\\frac{53}{4}$, so $(x-\\frac52)^2=\\frac{53}{4}$. Thus $x=\\frac{5\\pm\\sqrt{53}}2$. Graphing $y=x^2-5x-7$ gives approximate x-intercepts $(-1.14,0)$ and $(6.14,0)$. The discriminant is 53, not a rational square, so the polynomial does not factor into linear factors with rational coefficients. Real radical factors exist, but are less convenient to find directly. Completing the square is efficient for exact answers; graphing checks the approximate roots.",
       "answerAr": "بإكمال المربع: $x^2-5x=7$، ثم $x^2-5x+\\frac{25}{4}=\\frac{53}{4}$، ولذلك $(x-\\frac52)^2=\\frac{53}{4}$. إذن $x=\\frac{5\\pm\\sqrt{53}}2$. يعطي رسم $y=x^2-5x-7$ التقاطعين التقريبيين $(-1.14,0)$ و$(6.14,0)$. المميز 53 ليس مربع عدد نسبي، فلا تتحلل كثيرة الحدود إلى عوامل خطية بمعاملات نسبية. يمكن كتابتها بعوامل جذرية حقيقية، لكن إيجادها مباشرة أقل سهولة. إكمال المربع مناسب للحلول الدقيقة، والرسم للتحقق التقريبي.",
-      "marks": 5,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "Completing the square gives $(x-5)^2=32$, so $x=5\\pm\\sqrt{32}$.",
+        "Completing the square gives $x=\\frac{5\\pm\\sqrt{53}}2$; graphing gives approximately −1.14 and 6.14; no rational linear factors.",
+        "Factoring gives $(x-7)(x+1)=0$, so the solutions are 7 and −1.",
+        "There are no real solutions because integer factoring is impossible."
+      ],
+      "optionsAr": [
+        "بإكمال المربع $(x-5)^2=32$، ومنه $x=5\\pm\\sqrt{32}$.",
+        "بإكمال المربع $x=\\frac{5\\pm\\sqrt{53}}2$، وبالرسم تقريباً −1.14 و6.14؛ لا توجد عوامل خطية نسبية.",
+        "بالتحليل $(x-7)(x+1)=0$، فالحلان 7 و−1.",
+        "لا توجد حلول حقيقية لأن التحليل بعوامل صحيحة غير ممكن."
+      ],
       "sourcePage": 730,
       "sourceQuestion": 39,
-      "responseParts": [
-        {
-          "label": "Completing the square and exact roots · إكمال المربع والحلول الدقيقة"
-        },
-        {
-          "label": "Graphing and factoring comparison · مقارنة الرسم والتحليل"
-        }
-      ],
       "problemData": {
         "kind": "compare-strategies",
         "coefficients": [
@@ -7265,40 +7405,40 @@
         ],
         "discriminant": 53
       },
-      "sourceKind": "reasoning"
+      "sourceKind": "reasoning",
+      "correctIndex": 1
     },
     {
       "id": "10g3-w9-p725-q1-example",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 8,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 725 · Example1 · Completing the square · إكمال المربع",
-      "prompt": "Completing-the-square algorithm for $x^2+bx$: halve b, square the result, then add it. The rule is $x^2+bx+(\\frac b2)^2=(x+\\frac b2)^2$.\nFind c so that $x^2+8x+c$ is a perfect-square trinomial. Show half of 8, the value of c, and the resulting binomial square.",
-      "promptAr": "خوارزمية إكمال المربع للعبارة $x^2+bx$: خذ نصف b، ثم ربّعه، ثم أضف الناتج. القاعدة $x^2+bx+(\\frac b2)^2=(x+\\frac b2)^2$.\nأوجد c لكي تكون $x^2+8x+c$ ثلاثية حدود تمثل مربعاً كاملاً. اكتب نصف 8 وقيمة c وصورة مربع ذي الحدين.",
+      "prompt": "Which value of c and binomial square complete $x^2+8x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2+8x+c$ بصورة صحيحة؟",
       "answer": "Step 1: $8\\div2=4$. Step 2: $c=4^2=16$. Step 3: $x^2+8x+16=(x+4)^2$.",
       "answerAr": "الخطوة ١: $8\\div2=4$. الخطوة ٢: $c=4^2=16$. الخطوة ٣: $x^2+8x+16=(x+4)^2$.",
-      "marks": 3,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=16,\\quad (x-4)^2$",
+        "$c=4,\\quad (x+2)^2$",
+        "$c=16,\\quad (x+4)^2$",
+        "$c=64,\\quad (x+8)^2$"
+      ],
+      "optionsAr": [
+        "$c=16,\\quad (x-4)^2$",
+        "$c=4,\\quad (x+2)^2$",
+        "$c=16,\\quad (x+4)^2$",
+        "$c=64,\\quad (x+8)^2$"
+      ],
       "sourcePage": 725,
       "sourceQuestion": 1,
       "sourcePart": "Example 1",
-      "responseParts": [
-        {
-          "label": "Half of b · نصف معامل x"
-        },
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form · صورة المربع الكامل"
-        }
-      ],
       "expectedValues": {
         "half": 4,
         "c": 16
@@ -7309,36 +7449,57 @@
         "c": 16,
         "shift": 4
       },
-      "sourceKind": "worked-example"
+      "sourceKind": "worked-example",
+      "squareChoices": [
+        [
+          16.0,
+          -4.0
+        ],
+        [
+          4.0,
+          2.0
+        ],
+        [
+          16.0,
+          4.0
+        ],
+        [
+          64,
+          8
+        ]
+      ],
+      "correctIndex": 2
     },
     {
       "id": "10g3-w9-p729-q1",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 9,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q1 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2+26x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2+26x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2+26x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2+26x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{26}{2})^2=169$. Hence $x^2+26x+169=(x+13)^2$.",
       "answerAr": "$c=(\\frac{26}{2})^2=169$. ومنه $x^2+26x+169=(x+13)^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=676,\\quad (x+26)^2$",
+        "$c=169,\\quad (x-13)^2$",
+        "$c=42.25,\\quad (x+6.5)^2$",
+        "$c=169,\\quad (x+13)^2$"
+      ],
+      "optionsAr": [
+        "$c=676,\\quad (x+26)^2$",
+        "$c=169,\\quad (x-13)^2$",
+        "$c=42.25,\\quad (x+6.5)^2$",
+        "$c=169,\\quad (x+13)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 1,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 169
       },
@@ -7347,36 +7508,57 @@
         "b": 26,
         "c": 169,
         "shift": 13
-      }
+      },
+      "squareChoices": [
+        [
+          676,
+          26
+        ],
+        [
+          169.0,
+          -13.0
+        ],
+        [
+          42.25,
+          6.5
+        ],
+        [
+          169.0,
+          13.0
+        ]
+      ],
+      "correctIndex": 3
     },
     {
       "id": "10g3-w9-p729-q2",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 10,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q2 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2-24x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2-24x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2-24x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2-24x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{-24}{2})^2=144$. Hence $x^2-24x+144=(x-12)^2$.",
       "answerAr": "$c=(\\frac{-24}{2})^2=144$. ومنه $x^2-24x+144=(x-12)^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=144,\\quad (x-12)^2$",
+        "$c=576,\\quad (x-24)^2$",
+        "$c=144,\\quad (x+12)^2$",
+        "$c=36,\\quad (x-6)^2$"
+      ],
+      "optionsAr": [
+        "$c=144,\\quad (x-12)^2$",
+        "$c=576,\\quad (x-24)^2$",
+        "$c=144,\\quad (x+12)^2$",
+        "$c=36,\\quad (x-6)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 2,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 144
       },
@@ -7385,36 +7567,57 @@
         "b": -24,
         "c": 144,
         "shift": -12
-      }
+      },
+      "squareChoices": [
+        [
+          144.0,
+          -12.0
+        ],
+        [
+          576,
+          -24
+        ],
+        [
+          144.0,
+          12.0
+        ],
+        [
+          36.0,
+          -6.0
+        ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "10g3-w9-p729-q3",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 11,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q3 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2-19x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2-19x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2-19x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2-19x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{-19}{2})^2=\\frac{361}{4}=90.25$. Hence $x^2-19x+\\frac{361}{4}=(x-\\frac{19}{2})^2$.",
       "answerAr": "$c=(\\frac{-19}{2})^2=\\frac{361}{4}=90.25$. ومنه $x^2-19x+\\frac{361}{4}=(x-\\frac{19}{2})^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=22.5625,\\quad (x-4.75)^2$",
+        "$c=90.25,\\quad (x-9.5)^2$",
+        "$c=361,\\quad (x-19)^2$",
+        "$c=90.25,\\quad (x+9.5)^2$"
+      ],
+      "optionsAr": [
+        "$c=22.5625,\\quad (x-4.75)^2$",
+        "$c=90.25,\\quad (x-9.5)^2$",
+        "$c=361,\\quad (x-19)^2$",
+        "$c=90.25,\\quad (x+9.5)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 3,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 90.25
       },
@@ -7423,36 +7626,57 @@
         "b": -19,
         "c": 90.25,
         "shift": -9.5
-      }
+      },
+      "squareChoices": [
+        [
+          22.5625,
+          -4.75
+        ],
+        [
+          90.25,
+          -9.5
+        ],
+        [
+          361,
+          -19
+        ],
+        [
+          90.25,
+          9.5
+        ]
+      ],
+      "correctIndex": 1
     },
     {
       "id": "10g3-w9-p729-q4",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 12,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q4 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2+17x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2+17x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2+17x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2+17x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{17}{2})^2=\\frac{289}{4}=72.25$. Hence $x^2+17x+\\frac{289}{4}=(x+\\frac{17}{2})^2$.",
       "answerAr": "$c=(\\frac{17}{2})^2=\\frac{289}{4}=72.25$. ومنه $x^2+17x+\\frac{289}{4}=(x+\\frac{17}{2})^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=72.25,\\quad (x-8.5)^2$",
+        "$c=18.0625,\\quad (x+4.25)^2$",
+        "$c=72.25,\\quad (x+8.5)^2$",
+        "$c=289,\\quad (x+17)^2$"
+      ],
+      "optionsAr": [
+        "$c=72.25,\\quad (x-8.5)^2$",
+        "$c=18.0625,\\quad (x+4.25)^2$",
+        "$c=72.25,\\quad (x+8.5)^2$",
+        "$c=289,\\quad (x+17)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 4,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 72.25
       },
@@ -7461,36 +7685,57 @@
         "b": 17,
         "c": 72.25,
         "shift": 8.5
-      }
+      },
+      "squareChoices": [
+        [
+          72.25,
+          -8.5
+        ],
+        [
+          18.0625,
+          4.25
+        ],
+        [
+          72.25,
+          8.5
+        ],
+        [
+          289,
+          17
+        ]
+      ],
+      "correctIndex": 2
     },
     {
       "id": "10g3-w9-p729-q5",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 13,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q5 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2+5x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2+5x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2+5x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2+5x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{5}{2})^2=\\frac{25}{4}=6.25$. Hence $x^2+5x+\\frac{25}{4}=(x+\\frac{5}{2})^2$.",
       "answerAr": "$c=(\\frac{5}{2})^2=\\frac{25}{4}=6.25$. ومنه $x^2+5x+\\frac{25}{4}=(x+\\frac{5}{2})^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=25,\\quad (x+5)^2$",
+        "$c=6.25,\\quad (x-2.5)^2$",
+        "$c=1.5625,\\quad (x+1.25)^2$",
+        "$c=6.25,\\quad (x+2.5)^2$"
+      ],
+      "optionsAr": [
+        "$c=25,\\quad (x+5)^2$",
+        "$c=6.25,\\quad (x-2.5)^2$",
+        "$c=1.5625,\\quad (x+1.25)^2$",
+        "$c=6.25,\\quad (x+2.5)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 5,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 6.25
       },
@@ -7499,36 +7744,57 @@
         "b": 5,
         "c": 6.25,
         "shift": 2.5
-      }
+      },
+      "squareChoices": [
+        [
+          25,
+          5
+        ],
+        [
+          6.25,
+          -2.5
+        ],
+        [
+          1.5625,
+          1.25
+        ],
+        [
+          6.25,
+          2.5
+        ]
+      ],
+      "correctIndex": 3
     },
     {
       "id": "10g3-w9-p729-q6",
       "classroom": "10G3",
       "examWeek": 9,
       "position": 14,
-      "type": "FRQ",
+      "type": "MCQ",
       "exam": "EOT · 10G3 · Week 9 Practice · تدريب الأسبوع التاسع",
       "topic": "Page 729 · Q6 · Completing the square · إكمال المربع",
-      "prompt": "Find c so that $x^2-13x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.",
-      "promptAr": "أوجد c لكي تكون $x^2-13x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.",
+      "prompt": "Which value of c and binomial square complete $x^2-13x+c$ correctly?",
+      "promptAr": "أي قيمة لـ c وصورة مربع ذي الحدين تكمل $x^2-13x+c$ بصورة صحيحة؟",
       "answer": "$c=(\\frac{-13}{2})^2=\\frac{169}{4}=42.25$. Hence $x^2-13x+\\frac{169}{4}=(x-\\frac{13}{2})^2$.",
       "answerAr": "$c=(\\frac{-13}{2})^2=\\frac{169}{4}=42.25$. ومنه $x^2-13x+\\frac{169}{4}=(x-\\frac{13}{2})^2$.",
-      "marks": 2,
+      "marks": 1,
       "diagram": "none",
       "difficulty": "Standard",
       "image": "",
-      "options": [],
-      "optionsAr": [],
+      "options": [
+        "$c=42.25,\\quad (x-6.5)^2$",
+        "$c=169,\\quad (x-13)^2$",
+        "$c=42.25,\\quad (x+6.5)^2$",
+        "$c=10.5625,\\quad (x-3.25)^2$"
+      ],
+      "optionsAr": [
+        "$c=42.25,\\quad (x-6.5)^2$",
+        "$c=169,\\quad (x-13)^2$",
+        "$c=42.25,\\quad (x+6.5)^2$",
+        "$c=10.5625,\\quad (x-3.25)^2$"
+      ],
       "sourcePage": 729,
       "sourceQuestion": 6,
-      "responseParts": [
-        {
-          "label": "Value of c · قيمة c"
-        },
-        {
-          "label": "Perfect-square form / check · صورة المربع والتحقق"
-        }
-      ],
       "expectedValues": {
         "c": 42.25
       },
@@ -7537,7 +7803,1234 @@
         "b": -13,
         "c": 42.25,
         "shift": -6.5
+      },
+      "squareChoices": [
+        [
+          42.25,
+          -6.5
+        ],
+        [
+          169,
+          -13
+        ],
+        [
+          42.25,
+          6.5
+        ],
+        [
+          10.5625,
+          -3.25
+        ]
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "9g3-w9-p235-q1",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $5$ and y-intercept $-3$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $5$ ومقطعه الصادي $-3$؟",
+      "answer": "The slope is $m=5$ and the y-intercept is $b=-3$, so $y=5x-3$.",
+      "answerAr": "الإجابة الصحيحة: $y=5x-3$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=5x+3$",
+        "$y=5x-3$",
+        "$y=-3x+5$",
+        "$y=-5x-3$"
+      ],
+      "optionsAr": [
+        "$y=5x+3$",
+        "$y=5x-3$",
+        "$y=-3x+5$",
+        "$y=-5x-3$"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 1,
+      "linearEquationChoices": {
+        "target": [
+          5,
+          -3
+        ],
+        "choices": [
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            -3
+          ],
+          [
+            -3,
+            5
+          ],
+          [
+            -5,
+            -3
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q2",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $-2$ and y-intercept $7$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $-2$ ومقطعه الصادي $7$؟",
+      "answer": "The slope is $m=-2$ and the y-intercept is $b=7$, so $y=-2x+7$.",
+      "answerAr": "الإجابة الصحيحة: $y=-2x+7$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=2x+7$",
+        "$y=-2x-7$",
+        "$y=-2x+7$",
+        "$y=7x-2$"
+      ],
+      "optionsAr": [
+        "$y=2x+7$",
+        "$y=-2x-7$",
+        "$y=-2x+7$",
+        "$y=7x-2$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 2,
+      "linearEquationChoices": {
+        "target": [
+          -2,
+          7
+        ],
+        "choices": [
+          [
+            2,
+            7
+          ],
+          [
+            -2,
+            -7
+          ],
+          [
+            -2,
+            7
+          ],
+          [
+            7,
+            -2
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q3",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $-6$ and y-intercept $-2$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $-6$ ومقطعه الصادي $-2$؟",
+      "answer": "The slope is $m=-6$ and the y-intercept is $b=-2$, so $y=-6x-2$.",
+      "answerAr": "الإجابة الصحيحة: $y=-6x-2$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=-2x-6$",
+        "$y=6x-2$",
+        "$y=-6x+2$",
+        "$y=-6x-2$"
+      ],
+      "optionsAr": [
+        "$y=-2x-6$",
+        "$y=6x-2$",
+        "$y=-6x+2$",
+        "$y=-6x-2$"
+      ],
+      "correctIndex": 3,
+      "sourceQuestion": 3,
+      "linearEquationChoices": {
+        "target": [
+          -6,
+          -2
+        ],
+        "choices": [
+          [
+            -2,
+            -6
+          ],
+          [
+            6,
+            -2
+          ],
+          [
+            -6,
+            2
+          ],
+          [
+            -6,
+            -2
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q4",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $7$ and y-intercept $1$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $7$ ومقطعه الصادي $1$؟",
+      "answer": "The slope is $m=7$ and the y-intercept is $b=1$, so $y=7x+1$.",
+      "answerAr": "الإجابة الصحيحة: $y=7x+1$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=7x+1$",
+        "$y=1x+7$",
+        "$y=-7x+1$",
+        "$y=7x-1$"
+      ],
+      "optionsAr": [
+        "$y=7x+1$",
+        "$y=1x+7$",
+        "$y=-7x+1$",
+        "$y=7x-1$"
+      ],
+      "correctIndex": 0,
+      "sourceQuestion": 4,
+      "linearEquationChoices": {
+        "target": [
+          7,
+          1
+        ],
+        "choices": [
+          [
+            7,
+            1
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            -7,
+            1
+          ],
+          [
+            7,
+            -1
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q5",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $3$ and y-intercept $2$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $3$ ومقطعه الصادي $2$؟",
+      "answer": "The slope is $m=3$ and the y-intercept is $b=2$, so $y=3x+2$.",
+      "answerAr": "الإجابة الصحيحة: $y=3x+2$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=3x-2$",
+        "$y=3x+2$",
+        "$y=2x+3$",
+        "$y=-3x+2$"
+      ],
+      "optionsAr": [
+        "$y=3x-2$",
+        "$y=3x+2$",
+        "$y=2x+3$",
+        "$y=-3x+2$"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 5,
+      "linearEquationChoices": {
+        "target": [
+          3,
+          2
+        ],
+        "choices": [
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q6",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $-4$ and y-intercept $-9$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $-4$ ومقطعه الصادي $-9$؟",
+      "answer": "The slope is $m=-4$ and the y-intercept is $b=-9$, so $y=-4x-9$.",
+      "answerAr": "الإجابة الصحيحة: $y=-4x-9$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=4x-9$",
+        "$y=-4x+9$",
+        "$y=-4x-9$",
+        "$y=-9x-4$"
+      ],
+      "optionsAr": [
+        "$y=4x-9$",
+        "$y=-4x+9$",
+        "$y=-4x-9$",
+        "$y=-9x-4$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 6,
+      "linearEquationChoices": {
+        "target": [
+          -4,
+          -9
+        ],
+        "choices": [
+          [
+            4,
+            -9
+          ],
+          [
+            -4,
+            9
+          ],
+          [
+            -4,
+            -9
+          ],
+          [
+            -9,
+            -4
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q7",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $1$ and y-intercept $-12$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $1$ ومقطعه الصادي $-12$؟",
+      "answer": "The slope is $m=1$ and the y-intercept is $b=-12$, so $y=1x-12$.",
+      "answerAr": "الإجابة الصحيحة: $y=1x-12$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=-12x+1$",
+        "$y=-1x-12$",
+        "$y=1x+12$",
+        "$y=1x-12$"
+      ],
+      "optionsAr": [
+        "$y=-12x+1$",
+        "$y=-1x-12$",
+        "$y=1x+12$",
+        "$y=1x-12$"
+      ],
+      "correctIndex": 3,
+      "sourceQuestion": 7,
+      "linearEquationChoices": {
+        "target": [
+          1,
+          -12
+        ],
+        "choices": [
+          [
+            -12,
+            1
+          ],
+          [
+            -1,
+            -12
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            -12
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p235-q8",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents a line with slope $0$ and y-intercept $8$?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل مستقيماً ميله $0$ ومقطعه الصادي $8$؟",
+      "answer": "The slope is $m=0$ and the y-intercept is $b=8$, so $y=8$.",
+      "answerAr": "الإجابة الصحيحة: $y=8$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=8$",
+        "$y=8x+0$",
+        "$y=-8$",
+        "$y=1x+8$"
+      ],
+      "optionsAr": [
+        "$y=8$",
+        "$y=8x+0$",
+        "$y=-8$",
+        "$y=1x+8$"
+      ],
+      "correctIndex": 0,
+      "sourceQuestion": 8,
+      "linearEquationChoices": {
+        "target": [
+          0,
+          8
+        ],
+        "choices": [
+          [
+            0,
+            8
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "sourcePage": 235
+    },
+    {
+      "id": "9g3-w9-p236-q37",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=2$ and the y-intercept is $b=-3$, so $y=2x-3$.",
+      "answerAr": "الإجابة الصحيحة: $y=2x-3$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=2x+3$",
+        "$y=2x-3$",
+        "$y=-3x+2$",
+        "$y=-2x-3$"
+      ],
+      "optionsAr": [
+        "$y=2x+3$",
+        "$y=2x-3$",
+        "$y=-3x+2$",
+        "$y=-2x-3$"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 37,
+      "linearEquationChoices": {
+        "target": [
+          2,
+          -3
+        ],
+        "choices": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            -3
+          ]
+        ]
+      },
+      "sourcePage": 236,
+      "linearGraph": {
+        "coefficients": [
+          2,
+          -3
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            0,
+            -3
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "showPoints": true
       }
+    },
+    {
+      "id": "9g3-w9-p236-q38",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=-3$ and the y-intercept is $b=2$, so $y=-3x+2$.",
+      "answerAr": "الإجابة الصحيحة: $y=-3x+2$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=3x+2$",
+        "$y=-3x-2$",
+        "$y=-3x+2$",
+        "$y=2x-3$"
+      ],
+      "optionsAr": [
+        "$y=3x+2$",
+        "$y=-3x-2$",
+        "$y=-3x+2$",
+        "$y=2x-3$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 38,
+      "linearEquationChoices": {
+        "target": [
+          -3,
+          2
+        ],
+        "choices": [
+          [
+            3,
+            2
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -3,
+            2
+          ],
+          [
+            2,
+            -3
+          ]
+        ]
+      },
+      "sourcePage": 236,
+      "linearGraph": {
+        "coefficients": [
+          -3,
+          2
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            -4
+          ]
+        ],
+        "showPoints": true
+      }
+    },
+    {
+      "id": "9g3-w9-p236-q39",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=-1$ and the y-intercept is $b=-1$, so $y=-1x-1$.",
+      "answerAr": "الإجابة الصحيحة: $y=-1x-1$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=1x-1$",
+        "$y=-1x+1$",
+        "$y=-1$",
+        "$y=-1x-1$"
+      ],
+      "optionsAr": [
+        "$y=1x-1$",
+        "$y=-1x+1$",
+        "$y=-1$",
+        "$y=-1x-1$"
+      ],
+      "correctIndex": 3,
+      "sourceQuestion": 39,
+      "linearEquationChoices": {
+        "target": [
+          -1,
+          -1
+        ],
+        "choices": [
+          [
+            1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      },
+      "sourcePage": 236,
+      "linearGraph": {
+        "coefficients": [
+          -1,
+          -1
+        ],
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "sourcePoints": [
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -3
+          ]
+        ],
+        "showPoints": true
+      }
+    },
+    {
+      "id": "9g3-w9-supplement-graph-1",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=3$ and the y-intercept is $b=-8$, so $y=3x-8$.",
+      "answerAr": "الإجابة الصحيحة: $y=3x-8$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=3x+8$",
+        "$y=3x-8$",
+        "$y=-8x+3$",
+        "$y=-3x-8$"
+      ],
+      "optionsAr": [
+        "$y=3x+8$",
+        "$y=3x-8$",
+        "$y=-8x+3$",
+        "$y=-3x-8$"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 1,
+      "linearEquationChoices": {
+        "target": [
+          3,
+          -8
+        ],
+        "choices": [
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            -8
+          ],
+          [
+            -8,
+            3
+          ],
+          [
+            -3,
+            -8
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          3,
+          -8
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-supplement-graph-2",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=-3$ and the y-intercept is $b=8$, so $y=-3x+8$.",
+      "answerAr": "الإجابة الصحيحة: $y=-3x+8$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=3x+8$",
+        "$y=-3x-8$",
+        "$y=-3x+8$",
+        "$y=8x-3$"
+      ],
+      "optionsAr": [
+        "$y=3x+8$",
+        "$y=-3x-8$",
+        "$y=-3x+8$",
+        "$y=8x-3$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 2,
+      "linearEquationChoices": {
+        "target": [
+          -3,
+          8
+        ],
+        "choices": [
+          [
+            3,
+            8
+          ],
+          [
+            -3,
+            -8
+          ],
+          [
+            -3,
+            8
+          ],
+          [
+            8,
+            -3
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          -3,
+          8
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-supplement-graph-3",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=0$ and the y-intercept is $b=-4$, so $y=-4$.",
+      "answerAr": "الإجابة الصحيحة: $y=-4$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=-4x+0$",
+        "$y=4$",
+        "$y=1x-4$",
+        "$y=-4$"
+      ],
+      "optionsAr": [
+        "$y=-4x+0$",
+        "$y=4$",
+        "$y=1x-4$",
+        "$y=-4$"
+      ],
+      "correctIndex": 3,
+      "sourceQuestion": 3,
+      "linearEquationChoices": {
+        "target": [
+          0,
+          -4
+        ],
+        "choices": [
+          [
+            -4,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            -4
+          ],
+          [
+            0,
+            -4
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          0,
+          -4
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-supplement-graph-4",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=0$ and the y-intercept is $b=8$, so $y=8$.",
+      "answerAr": "الإجابة الصحيحة: $y=8$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=8$",
+        "$y=8x+0$",
+        "$y=-8$",
+        "$y=1x+8$"
+      ],
+      "optionsAr": [
+        "$y=8$",
+        "$y=8x+0$",
+        "$y=-8$",
+        "$y=1x+8$"
+      ],
+      "correctIndex": 0,
+      "sourceQuestion": 4,
+      "linearEquationChoices": {
+        "target": [
+          0,
+          8
+        ],
+        "choices": [
+          [
+            0,
+            8
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            -8
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          0,
+          8
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-supplement-graph-5",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=\\frac{3}{7}$ and the y-intercept is $b=-4$, so $y=\\frac{3}{7}x-4$.",
+      "answerAr": "الإجابة الصحيحة: $y=\\frac{3}{7}x-4$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=\\frac{3}{7}x+4$",
+        "$y=\\frac{3}{7}x-4$",
+        "$y=-4x+\\frac{3}{7}$",
+        "$y=-\\frac{3}{7}x-4$"
+      ],
+      "optionsAr": [
+        "$y=\\frac{3}{7}x+4$",
+        "$y=\\frac{3}{7}x-4$",
+        "$y=-4x+\\frac{3}{7}$",
+        "$y=-\\frac{3}{7}x-4$"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 5,
+      "linearEquationChoices": {
+        "target": [
+          0.42857142857142855,
+          -4
+        ],
+        "choices": [
+          [
+            0.42857142857142855,
+            4
+          ],
+          [
+            0.42857142857142855,
+            -4
+          ],
+          [
+            -4,
+            0.42857142857142855
+          ],
+          [
+            -0.42857142857142855,
+            -4
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          0.42857142857142855,
+          -4
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-supplement-graph-6",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which equation in slope-intercept form represents the graphed line?",
+      "promptAr": "أي معادلة بصيغة الميل والمقطع تمثل المستقيم المرسوم؟",
+      "answer": "The slope is $m=-\\frac{3}{7}$ and the y-intercept is $b=-4$, so $y=-\\frac{3}{7}x-4$.",
+      "answerAr": "الإجابة الصحيحة: $y=-\\frac{3}{7}x-4$. نكتب المعادلة على الصورة $y=mx+b$؛ m هو الميل وb التقاطع مع محور الصادات.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=\\frac{3}{7}x-4$",
+        "$y=-\\frac{3}{7}x+4$",
+        "$y=-\\frac{3}{7}x-4$",
+        "$y=-4x-\\frac{3}{7}$"
+      ],
+      "optionsAr": [
+        "$y=\\frac{3}{7}x-4$",
+        "$y=-\\frac{3}{7}x+4$",
+        "$y=-\\frac{3}{7}x-4$",
+        "$y=-4x-\\frac{3}{7}$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 6,
+      "linearEquationChoices": {
+        "target": [
+          -0.42857142857142855,
+          -4
+        ],
+        "choices": [
+          [
+            0.42857142857142855,
+            -4
+          ],
+          [
+            -0.42857142857142855,
+            4
+          ],
+          [
+            -0.42857142857142855,
+            -4
+          ],
+          [
+            -4,
+            -0.42857142857142855
+          ]
+        ]
+      },
+      "linearGraph": {
+        "coefficients": [
+          -0.42857142857142855,
+          -4
+        ],
+        "bounds": [
+          -10,
+          10,
+          -10,
+          10
+        ]
+      },
+      "sourceReference": "Supplementary graph matching exercise supplied by teacher (page unspecified)"
+    },
+    {
+      "id": "9g3-w9-p233-example6-1",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which graph represents $y=2$? Each square represents 1 unit.",
+      "promptAr": "أي رسم يمثل $y=2$؟ كل مربع يمثل وحدة واحدة.",
+      "answer": "The graph of $y=2$ is a horizontal line through $(0,2)$, with slope 0.",
+      "answerAr": "الإجابة الصحيحة: $y=2$. الرسم خط أفقي يمر بالنقطة $(0,2)$ وميله صفر.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "$y=1x+2$",
+        "$y=2$",
+        "$y=-2$",
+        "Vertical line"
+      ],
+      "optionsAr": [
+        "$y=1x+2$",
+        "$y=2$",
+        "$y=-2$",
+        "Vertical line"
+      ],
+      "correctIndex": 1,
+      "sourceQuestion": 6,
+      "sourcePart": "Example",
+      "linearChoices": {
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "target": {
+          "kind": "line",
+          "m": 0,
+          "b": 2
+        },
+        "choices": [
+          {
+            "kind": "line",
+            "m": 1,
+            "b": 2
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": 2
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": -2
+          },
+          {
+            "kind": "vertical",
+            "x": 2
+          }
+        ]
+      },
+      "sourcePage": 233
+    },
+    {
+      "id": "9g3-w9-p233-example6-2",
+      "type": "MCQ",
+      "exam": "9th week practice",
+      "examWeek": 9,
+      "classroom": "9G3",
+      "topic": "Linear functions",
+      "prompt": "Which graph represents $y=1$? Each square represents 1 unit.",
+      "promptAr": "أي رسم يمثل $y=1$؟ كل مربع يمثل وحدة واحدة.",
+      "answer": "The graph of $y=1$ is a horizontal line through $(0,1)$, with slope 0.",
+      "answerAr": "الإجابة الصحيحة: $y=1$. الرسم خط أفقي يمر بالنقطة $(0,1)$ وميله صفر.",
+      "difficulty": "Standard",
+      "marks": 1,
+      "diagram": "none",
+      "image": "",
+      "options": [
+        "Vertical line",
+        "$y=1x+1$",
+        "$y=1$",
+        "$y=-1$"
+      ],
+      "optionsAr": [
+        "Vertical line",
+        "$y=1x+1$",
+        "$y=1$",
+        "$y=-1$"
+      ],
+      "correctIndex": 2,
+      "sourceQuestion": 6,
+      "sourcePart": "Check",
+      "linearChoices": {
+        "bounds": [
+          -5,
+          5,
+          -5,
+          5
+        ],
+        "target": {
+          "kind": "line",
+          "m": 0,
+          "b": 1
+        },
+        "choices": [
+          {
+            "kind": "vertical",
+            "x": 1
+          },
+          {
+            "kind": "line",
+            "m": 1,
+            "b": 1
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": 1
+          },
+          {
+            "kind": "line",
+            "m": 0,
+            "b": -1
+          }
+        ]
+      },
+      "sourcePage": 233
     }
   ],
   "exam": {
@@ -7574,6 +9067,12 @@
       "examWeek": 9,
       "title": "9th week practice",
       "questions": 14
+    },
+    {
+      "classroom": "9G3",
+      "examWeek": 9,
+      "title": "9th week practice",
+      "questions": 19
     }
   ]
 }

@@ -1,10 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
-import {valid} from '../lib/validation.js';import {week9GeometryDiagram,validWeek9Geometry} from '../lib/week9-geometry.js';import {classroomGroups} from '../lib/classroom-navigation.js';import {worksheetPage} from '../lib/print-worksheet.js';import katex from 'katex';
+import {valid} from '../lib/validation.js';import {week9GeometryDiagram,validWeek9Geometry} from '../lib/week9-geometry.js';import {classroomGroups} from '../lib/classroom-navigation.js';import {printableQuestion} from '../lib/print-worksheet.js';import katex from 'katex';
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url))),seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url))),qs=bank.questions.filter(q=>q.classroom==='10A1'&&q.examWeek===9);
 const q=(p,n)=>qs.find(q=>q.sourcePage===p&&q.sourceQuestion===n);
-test('all 27 Grade 10 Advanced questions are bilingual FRQs routed in source order to Week 9 only',()=>{
+test('all 27 Grade 10 Advanced questions are bilingual MCQs routed in source order to Week 9 only',()=>{
  assert.equal(qs.length,27);assert.equal(new Set(qs.map(q=>q.id)).size,27);const groups=classroomGroups('10A1',bank.questions,seed.outcomes,seed.assignments,9);assert.deepEqual(groups.map(o=>o.questions.length),[6,11,10]);assert.deepEqual(groups[0].questions.map(q=>q.sourceQuestion),[11,12,13,14,15,16]);assert.deepEqual(groups[1].questions.map(q=>q.sourceQuestion),[1,2,3,4,5,6,7,8,9,10,11]);assert.deepEqual(groups[2].questions.map(q=>q.sourceQuestion),[1,2,3,4,5,6,11,12,13,14]);
- for(const item of qs){assert(valid(item),item.id);assert.equal(item.type,'FRQ');assert(item.promptAr&&item.answerAr);assert(item.responseParts.length);assert.equal(seed.assignments.filter(a=>a.question_id===item.id).length,1);for(const str of [item.prompt,item.promptAr,item.answer,item.answerAr])for(const m of str.matchAll(/\$([^$]+)\$/g))assert.doesNotThrow(()=>katex.renderToString(m[1],{throwOnError:true}))}
+ for(const item of qs){assert(valid(item),item.id);assert.equal(item.type,'MCQ');assert.equal(item.options.length,4);assert.equal(new Set(item.options).size,4);assert.equal(item.optionsAr.length,4);assert(item.promptAr&&item.answerAr);assert(!item.responseParts);assert.equal(seed.assignments.filter(a=>a.question_id===item.id).length,1);for(const str of [item.prompt,item.promptAr,item.answer,item.answerAr,...item.options,...item.optionsAr])for(const m of str.matchAll(/\$([^$]+)\$/g))assert.doesNotThrow(()=>katex.renderToString(m[1],{throwOnError:true}))}
  assert.equal(classroomGroups('10A1',bank.questions,seed.outcomes,seed.assignments,8).flatMap(g=>g.questions).length,35);assert.equal(classroomGroups('10G3',bank.questions,seed.outcomes,seed.assignments,9).flatMap(g=>g.questions).length,14);
 });
 test('page 146 solutions respect equal intercepts, the midsegment theorem, and the confirmed half-side bracket',()=>{
@@ -23,7 +23,7 @@ test('page 165 exact geometric means and right-triangle altitude/leg identities 
  v=q(165,13).expectedValues;assert.equal(2*v.x,9);assert.equal(v.z,2+v.x);assert(Math.abs(v.y**2-2*v.z)<1e-8);
  v=q(165,14).expectedValues;assert.equal(v.x+v.y,20);assert.equal(20*v.y,100);assert(Math.abs(v.z**2-20*v.x)<1e-8);
 });
-test('21 vector diagrams validate their source and render in compact printable worksheets without response keys',()=>{
- assert.equal(qs.filter(q=>q.geometryDiagram).length,21);for(const item of qs.filter(q=>q.geometryDiagram)){assert(validWeek9Geometry(item.geometryDiagram));const visual=week9GeometryDiagram(item.geometryDiagram);assert(visual.includes('<svg'));assert(!/NaN|undefined/.test(visual));assert(!valid({...item,classroom:'10G3'}));assert(!valid({...item,examWeek:8}));assert(!valid({...item,geometryDiagram:{page:165,number:7}}));const page=worksheetPage(item,{visual});assert(page.includes('print-geometry-page'));assert(!page.includes(item.answer));assert(!page.includes('<textarea'));assert(!page.includes('<input'))}
+test('21 vector diagrams validate their source and remain in MCQ practice and are excluded from FRQ printing',()=>{
+ assert.equal(qs.filter(q=>q.geometryDiagram).length,21);for(const item of qs.filter(q=>q.geometryDiagram)){assert(validWeek9Geometry(item.geometryDiagram));const visual=week9GeometryDiagram(item.geometryDiagram);assert(visual.includes('<svg'));assert(!/NaN|undefined/.test(visual));assert(!valid({...item,classroom:'10G3'}));assert(!valid({...item,examWeek:8}));assert(!valid({...item,geometryDiagram:{page:165,number:7}}));assert(!printableQuestion(item))}
  assert.equal(week9GeometryDiagram({page:146,number:99}),'');
 });

@@ -12,9 +12,9 @@ test('Week 9 plans capture all ten screenshot rows, including repeated topics an
  for(const [classroom,refs]of Object.entries(expected)){
   const groups=classroomGroups(classroom,bank.questions,seed.outcomes,seed.assignments,9);
   assert.deepEqual(groups.map(o=>[o.assessmentItem,o.bookPages]),refs);
-  for(const o of groups){assert.equal(o.questions.length,classroom==='9G3'?0:o.targetCount);assert(o.titleAr&&o.title);assert(validateOutcome({...o,revision:0,questionIds:[]}));assert.equal(seed.assignments.filter(a=>a.outcome_id===o.id).length,o.questions.length)}
+  for(const o of groups){assert.equal(o.questions.length,o.targetCount);assert(o.titleAr&&o.title);assert(validateOutcome({...o,revision:0,questionIds:[]}));assert.equal(seed.assignments.filter(a=>a.outcome_id===o.id).length,o.questions.length)}
  }
- assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,41);
+ assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,60);
 });
 test('route week selection preserves legacy Week 8 links and keeps explicit week scopes',()=>{
  assert.equal(classroomRoute('#/classrooms/10G3').examWeek,9);

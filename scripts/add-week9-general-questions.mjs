@@ -1,3 +1,4 @@
+import conversions from '../lib/week9-mcq-conversions.json' with {type:'json'};
 import {readFile,writeFile} from 'node:fs/promises';
 const S=String.raw,bankPath=new URL('../public/data/questions.json',import.meta.url),planPath=new URL('../public/data/learning-outcomes.json',import.meta.url);
 const bank=JSON.parse(await readFile(bankPath,'utf8')),plan=JSON.parse(await readFile(planPath,'utf8')),made=[];
@@ -29,7 +30,8 @@ for(const [i,b]of [26,-24,-19,17,5,-13].entries()){
  const bTex=String(abs),shiftTex=Number.isInteger(Math.abs(shift))?String(Math.abs(shift)):S`\frac{${abs}}{2}`,cTex=Number.isInteger(c)?String(c):S`\frac{${b*b}}{4}`;
  add(729,i+1,'',S`Find c so that $x^2${sign}${bTex}x+c$ is a perfect-square trinomial. Verify by writing it as a binomial square.`,S`أوجد c لكي تكون $x^2${sign}${bTex}x+c$ ثلاثية حدود تمثل مربعاً كاملاً. تحقق بكتابتها في صورة مربع ذي حدين.`,S`$c=(\frac{${b}}{2})^2=${cTex}${Number.isInteger(c)?'':`=${c}`}$. Hence $x^2${sign}${bTex}x+${cTex}=(x${sign}${shiftTex})^2$.`,S`$c=(\frac{${b}}{2})^2=${cTex}${Number.isInteger(c)?'':`=${c}`}$. ومنه $x^2${sign}${bTex}x+${cTex}=(x${sign}${shiftTex})^2$.`,{marks:2,responses:['Value of c · قيمة c','Perfect-square form / check · صورة المربع والتحقق'],expectedValues:{c},problemData:{kind:'complete-square',b,c,shift}});
 }
+for(let i=0;i<made.length;i++)if(conversions[made[i].id])made[i]=structuredClone(conversions[made[i].id]);
 const ids=new Set(made.map(q=>q.id));bank.questions=[...bank.questions.filter(q=>!ids.has(q.id)),...made];plan.assignments=plan.assignments.filter(a=>!ids.has(a.question_id));
 for(const page of [722,730,725,729]){const o=plan.outcomes.find(o=>o.classroom==='10G3'&&o.examWeek===9&&o.bookPages.startsWith(String(page)));if(!o)throw Error('Missing outcome');const qs=made.filter(q=>q.sourcePage===page);o.targetCount=qs.length;qs.forEach((q,i)=>plan.assignments.push({question_id:q.id,outcome_id:o.id,position:i+1}))}
 bank.exams=bank.exams.filter(e=>!(e.classroom==='10G3'&&e.examWeek===9));bank.exams.push({classroom:'10G3',examWeek:9,title:'9th week practice',questions:made.length});
-await writeFile(bankPath,JSON.stringify(bank,null,2)+'\n');await writeFile(planPath,JSON.stringify(plan,null,2)+'\n');console.log(`Saved and routed ${made.length} Grade 10 General Week 9 practice items (4 MCQ, 10 FRQ).`);
+await writeFile(bankPath,JSON.stringify(bank,null,2)+'\n');await writeFile(planPath,JSON.stringify(plan,null,2)+'\n');console.log(`Saved and routed ${made.length} Grade 10 General Week 9 practice items (14 MCQ).`);

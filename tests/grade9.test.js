@@ -6,7 +6,7 @@ import {lineSegment,linearFunctionGraph,linearGraphWorksheet,rateTable} from '..
 import {worksheetPage,printableQuestion} from '../lib/print-worksheet.js';
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url),'utf8'));
 const seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url),'utf8'));
-const qs=bank.questions.filter(q=>q.classroom==='9G3');
+const qs=bank.questions.filter(q=>q.classroom==='9G3'&&(q.examWeek??8)===8);
 test('9G3 has a distinct 25-question exam and all questions are assigned to four completed outcomes',()=>{
  assert.equal(qs.length,25);assert.equal(qs.filter(q=>q.type==='FRQ').length,8);assert.equal(qs.filter(q=>q.type==='MCQ').length,17);
  assert.equal(bank.exams.find(e=>e.classroom==='9G3').questions,25);
@@ -44,7 +44,7 @@ test('four page 215 FRQs use correct linear functions, five-point tables, and bl
  for(const q of graphs){const g=q.linearGraphing,[m,b]=g.coefficients,[xmin,xmax,ymin,ymax]=g.bounds;assert.equal(q.sourcePage,215);for(const x of g.xs)assert(x>=xmin&&x<=xmax&&m*x+b>=ymin&&m*x+b<=ymax);const online=linearGraphWorksheet(q);assert.equal((online.match(/<tr/g)||[]).length,6);assert.equal((online.match(/<input/g)||[]).length,12);assert(!online.includes('axis of symmetry'));const paper=worksheetPage(q);assert.equal((paper.match(/<td><\/td>/g)||[]).length,10);assert(!paper.includes('axis of symmetry'));assert(paper.includes('y-intercept'));}
 });
 test('all FRQs are printable with complete word-problem text and both parts, without leaking model keys',()=>{
- assert.equal(bank.questions.filter(printableQuestion).length,62);
+ assert.equal(bank.questions.filter(printableQuestion).length,25);
  const apps=qs.filter(q=>q.responseParts);assert.deepEqual(apps.map(q=>q.sourceQuestion),[19,20,21,22]);
  for(const q of apps){assert.equal(q.responseParts.length,2);const paper=worksheetPage({...q,answer:'SECRET KEY',answerAr:'SECRET ARABIC'});assert(!paper.includes('SECRET'));assert(paper.includes('(a)'));assert(paper.includes('(b)'));assert.equal((paper.match(/class="print-answer-box /g)||[]).length,2);assert(!/<textarea|<input|<select/.test(paper));}
  assert(worksheetPage(apps[2]).includes('Thomas'));assert(worksheetPage(apps[2]).includes('136'));assert(apps[0].answer.includes('14'));assert(apps[1].answer.includes('120'));assert(apps[2].answer.includes('=6'));assert(apps[3].answer.includes('2.5'));
