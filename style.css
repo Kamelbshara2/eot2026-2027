@@ -219,3 +219,9 @@ h1{color:var(--ink)}.portal-heading{position:relative;padding:32px 0 24px}.porta
 .contact-icon svg{width:18px;height:18px}.classroom-arrow svg{display:block;width:24px;height:24px}
 .hero-visual{display:none}
 @media(min-width:1250px){.classrooms-heading{min-height:350px}.hero-visual{display:block;position:absolute;left:12px;top:84px;width:265px;transform:rotate(-6deg);background:#ffffffb0;border:1px solid #dce8ee;border-radius:26px;box-shadow:12px 14px 0 #e5edf885;padding:8px}.hero-visual svg{display:block;width:100%;height:auto}.classrooms-heading .hero-english{margin-top:22px}}
+.week-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:4px 0 24px;padding:6px;background:#eaf0f8;border-radius:14px;width:fit-content}
+.week-tabs a{padding:12px 20px;text-decoration:none;border-radius:10px;color:var(--muted);font-size:13px;line-height:1.6}
+.week-tabs a[aria-current=page]{background:var(--ink);color:white;box-shadow:0 3px 8px #172d5015}
+.assessment-item{align-self:flex-start;background:var(--tint);color:var(--accent);padding:6px 10px;font-size:12px;border-radius:8px;font-weight:700}
+.outcome-card .awaiting-questions{background:#f2f6fa;color:var(--muted);font-size:13px;padding:13px;border-radius:10px;text-align:center;margin:0}
+@media(max-width:520px){.week-tabs{width:100%}.week-tabs a{flex:1;text-align:center;padding:11px 8px;font-size:12px}}

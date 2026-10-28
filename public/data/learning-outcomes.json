@@ -120,6 +120,126 @@
       "classroom": "9G3",
       "position": 4,
       "revision": 1
+    },
+    {
+      "id": "d4ab9449-ab93-409f-b9fe-73ec19c0f74f",
+      "classroom": "10A1",
+      "examWeek": 9,
+      "assessmentItem": "Q13",
+      "title": "Use proportional parts within triangles",
+      "titleAr": "استخدام الأجزاء المتناسبة داخل المثلثات",
+      "bookPages": "146 (Q11–16)",
+      "targetCount": 6,
+      "position": 1,
+      "revision": 1
+    },
+    {
+      "id": "e0d8ee6c-0a18-4059-ab23-a56c1c913745",
+      "classroom": "10A1",
+      "examWeek": 9,
+      "assessmentItem": "Q14",
+      "title": "Recognize and use proportional relationships of corresponding angle bisectors, altitudes, and medians of similar triangles",
+      "titleAr": "تمييز واستخدام العلاقات التناسبية بين منصفات الزوايا والارتفاعات والمتوسطات المتناظرة في المثلثات المتشابهة",
+      "bookPages": "153 (Q1–11)",
+      "targetCount": 11,
+      "position": 2,
+      "revision": 1
+    },
+    {
+      "id": "8475eb8f-d882-4be3-8caf-919cfb34762d",
+      "classroom": "10A1",
+      "examWeek": 9,
+      "assessmentItem": "Q15",
+      "title": "Find the geometric mean between two numbers",
+      "titleAr": "إيجاد الوسط الهندسي بين عددين",
+      "bookPages": "165 (Q1–6, Q11–14)",
+      "targetCount": 10,
+      "position": 3,
+      "revision": 1
+    },
+    {
+      "id": "01c2a39e-f3b0-44dc-9f36-bd0b1602621d",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "assessmentItem": "Q12",
+      "title": "Rewrite linear equations in slope-intercept form",
+      "titleAr": "إعادة كتابة المعادلات الخطية بصيغة الميل والمقطع",
+      "bookPages": "235 (Q1–8)",
+      "targetCount": 8,
+      "position": 1,
+      "revision": 1
+    },
+    {
+      "id": "770b7721-da86-40cd-95ba-930cc84aa47c",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "assessmentItem": "Q13",
+      "title": "Graph and interpret linear functions",
+      "titleAr": "تمثيل الدوال الخطية بيانياً وتفسيرها",
+      "bookPages": "236 (Q37–39)",
+      "targetCount": 3,
+      "position": 2,
+      "revision": 1
+    },
+    {
+      "id": "4976444a-a131-47e4-8dfd-3a9aee82b2d8",
+      "classroom": "9G3",
+      "examWeek": 9,
+      "assessmentItem": "Q18",
+      "title": "Graph and interpret linear functions",
+      "titleAr": "تمثيل الدوال الخطية بيانياً وتفسيرها",
+      "bookPages": "233 (Example 6 · مثال 6)",
+      "targetCount": 1,
+      "position": 3,
+      "revision": 1
+    },
+    {
+      "id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "assessmentItem": "Q14",
+      "title": "Solve quadratic equations by factoring",
+      "titleAr": "حل المعادلات التربيعية بالتحليل",
+      "bookPages": "722 (Q29 & Q30)",
+      "targetCount": 2,
+      "position": 1,
+      "revision": 1
+    },
+    {
+      "id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "assessmentItem": "Q15",
+      "title": "Solve quadratic equations by using the Square Root Property",
+      "titleAr": "حل المعادلات التربيعية باستخدام خاصية الجذر التربيعي",
+      "bookPages": "730 (Q37–39)",
+      "targetCount": 3,
+      "position": 2,
+      "revision": 1
+    },
+    {
+      "id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "assessmentItem": "Q15",
+      "title": "Solve quadratic equations by completing the square",
+      "titleAr": "حل المعادلات التربيعية بإكمال المربع",
+      "bookPages": "725 (Learn · تعلّم)",
+      "targetCount": 1,
+      "position": 3,
+      "revision": 1
+    },
+    {
+      "id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "classroom": "10G3",
+      "examWeek": 9,
+      "assessmentItem": "Q20",
+      "title": "Solve quadratic equations by completing the square",
+      "titleAr": "حل المعادلات التربيعية بإكمال المربع",
+      "bookPages": "729 (Q1–6)",
+      "targetCount": 6,
+      "position": 4,
+      "revision": 1
     }
   ],
   "assignments": [
@@ -592,6 +712,15 @@
   "previousSeedIds": [
     "c9d5fa67-10a1-4e08-8c32-012800111414",
     "aa133008-10a1-4e08-8c32-012800111414",
-    "13900011-10a1-4e08-8c32-012800111414"
+    "13900011-10a1-4e08-8c32-012800111414",
+    "70700310-1003-4e08-8c32-070700030010",
+    "70802330-1003-4e08-8c32-070800230030",
+    "72100510-1003-4e08-8c32-072100050010",
+    "70400104-1003-4e08-8c32-070400010004",
+    "71100106-1003-4e08-8c32-071100010006",
+    "12501122-9003-4e08-8c32-012500110022",
+    "22100304-9003-4e08-8c32-022100030004",
+    "22300507-9003-4e08-8c32-022300050007",
+    "21500508-9003-4e08-8c32-021500050008"
   ]
 }

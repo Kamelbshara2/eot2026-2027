@@ -9,7 +9,7 @@ for(const [classroom,slug,mcqs,frqs]of [['9G3','grade-9-general',3,1],['10G3','g
   const html=await readFile(new URL(base+'.html',import.meta.url),'utf8');
   const entries=[...html.matchAll(/data-question-id="([^"]+)" data-type="(MCQ|FRQ)"/g)];
   assert.equal(entries.length,mcqs+frqs);assert.equal(new Set(entries.map(m=>m[1])).size,entries.length);
-  const expected=outcomes.filter(o=>o.classroom===classroom).map(o=>o.id).sort();
+  const expected=outcomes.filter(o=>o.classroom===classroom&&(o.examWeek??8)===8).map(o=>o.id).sort();
   const actual=entries.map(([,id,type])=>{const q=questions.find(q=>q.id===id);assert(q);assert.equal(q.classroom,classroom);assert.equal(q.type,type);assert(!html.includes(q.answer));return assignments.find(a=>a.question_id===id)?.outcome_id}).sort();
   assert.deepEqual(actual,expected);assert.equal(entries.filter(m=>m[2]==='MCQ').length,mcqs);assert.equal(entries.filter(m=>m[2]==='FRQ').length,frqs);
   assert(!/question-watermark|0502837825|<input|<textarea|correctIndex/.test(html));

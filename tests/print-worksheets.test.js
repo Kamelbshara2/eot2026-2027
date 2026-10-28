@@ -8,7 +8,7 @@ const seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.j
 const frqs=bank.questions.filter(q=>q.classroom==='10G3'&&q.type==='FRQ');
 test('10G3 has four extrema FRQs and six graph-solving FRQs in two separate outcomes',()=>{
  assert.equal(frqs.length,10);assert.equal(frqs.filter(q=>q.graphReading).length,4);assert.equal(frqs.filter(q=>q.graphing).length,6);
- const outcomes=seed.outcomes.filter(o=>o.position>=4&&o.classroom==='10G3');assert.deepEqual(outcomes.map(o=>o.targetCount),[4,6]);
+ const outcomes=seed.outcomes.filter(o=>o.position>=4&&o.classroom==='10G3'&&(o.examWeek??8)===8);assert.deepEqual(outcomes.map(o=>o.targetCount),[4,6]);
  for(const o of outcomes){const qs=seed.assignments.filter(a=>a.outcome_id===o.id).map(a=>frqs.find(q=>q.id===a.question_id));assert.equal(qs.length,o.targetCount);assert(qs.every(Boolean));}
  for(const q of frqs){assert(printableQuestion(q));assert(q.promptAr&&q.answerAr);assert.equal(q.options.length,0);assert(!q.id.startsWith('graphing-quadratic-'));}
 });

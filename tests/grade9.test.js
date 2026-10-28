@@ -10,7 +10,7 @@ const qs=bank.questions.filter(q=>q.classroom==='9G3');
 test('9G3 has a distinct 25-question exam and all questions are assigned to four completed outcomes',()=>{
  assert.equal(qs.length,25);assert.equal(qs.filter(q=>q.type==='FRQ').length,8);assert.equal(qs.filter(q=>q.type==='MCQ').length,17);
  assert.equal(bank.exams.find(e=>e.classroom==='9G3').questions,25);
- const outcomes=seed.outcomes.filter(o=>o.classroom==='9G3');assert.deepEqual(outcomes.map(o=>o.targetCount),[12,4,5,4]);
+ const outcomes=seed.outcomes.filter(o=>o.classroom==='9G3'&&(o.examWeek??8)===8);assert.deepEqual(outcomes.map(o=>o.targetCount),[12,4,5,4]);
  for(const o of outcomes){const assigned=seed.assignments.filter(a=>a.outcome_id===o.id);assert.equal(assigned.length,o.targetCount);assert(assigned.every(a=>qs.some(q=>q.id===a.question_id)))}
  for(const q of qs){assert(valid(q),q.id);assert(q.exam.includes('9G3'));assert(q.promptAr&&q.answerAr);assert.equal(seed.assignments.filter(a=>a.question_id===q.id).length,1);if(q.type==='MCQ'){assert.equal(q.options.length,4);assert.equal(q.optionsAr.length,4);assert.equal(new Set(q.options).size,4)}}
 });

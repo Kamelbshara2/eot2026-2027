@@ -8,7 +8,7 @@ export const {outcomes,assignments}=JSON.parse(await readFile(resolve(root,'publ
 export const lo=q=>outcomes.find(o=>o.id===assignments.find(a=>a.question_id===q.id)?.outcome_id);
 export function selectQuestions(classroom,ids){
  const selected=ids.map(id=>questions.find(q=>q.id===id));
- const expected=outcomes.filter(o=>o.classroom===classroom);
+ const expected=outcomes.filter(o=>o.classroom===classroom&&(o.examWeek??8)===8);
  if(selected.some(q=>!q||q.classroom!==classroom)||new Set(ids).size!==ids.length||selected.length!==expected.length||new Set(selected.map(q=>lo(q)?.id)).size!==expected.length||expected.some(o=>!selected.some(q=>lo(q)?.id===o.id)))throw Error(`Exactly one question per assigned learning outcome required for ${classroom}`);
  return selected;
 }
