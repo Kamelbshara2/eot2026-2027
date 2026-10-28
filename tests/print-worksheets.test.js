@@ -5,7 +5,7 @@ import {worksheetPage,printableQuestion} from '../lib/print-worksheet.js';
 import {blankQuadraticPlane,graphWorksheet} from '../lib/quadratic-worksheets.js';
 const bank=JSON.parse(await readFile(new URL('../public/data/questions.json',import.meta.url),'utf8'));
 const seed=JSON.parse(await readFile(new URL('../public/data/learning-outcomes.json',import.meta.url),'utf8'));
-const frqs=bank.questions.filter(q=>q.classroom==='10G3'&&q.type==='FRQ');
+const frqs=bank.questions.filter(q=>q.classroom==='10G3'&&(q.examWeek??8)===8&&q.type==='FRQ');
 test('10G3 has four extrema FRQs and six graph-solving FRQs in two separate outcomes',()=>{
  assert.equal(frqs.length,10);assert.equal(frqs.filter(q=>q.graphReading).length,4);assert.equal(frqs.filter(q=>q.graphing).length,6);
  const outcomes=seed.outcomes.filter(o=>o.position>=4&&o.classroom==='10G3'&&(o.examWeek??8)===8);assert.deepEqual(outcomes.map(o=>o.targetCount),[4,6]);

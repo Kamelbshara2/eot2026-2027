@@ -201,7 +201,7 @@
       "title": "Solve quadratic equations by factoring",
       "titleAr": "حل المعادلات التربيعية بالتحليل",
       "bookPages": "722 (Q29 & Q30)",
-      "targetCount": 2,
+      "targetCount": 4,
       "position": 1,
       "revision": 1
     },
@@ -842,6 +842,76 @@
       "question_id": "10a1-w9-p165-q14",
       "outcome_id": "8475eb8f-d882-4be3-8caf-919cfb34762d",
       "position": 10
+    },
+    {
+      "question_id": "10g3-w9-p722-q29-a",
+      "outcome_id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w9-p722-q29-b",
+      "outcome_id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w9-p722-q30-a",
+      "outcome_id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w9-p722-q30-b",
+      "outcome_id": "65883fee-f0d9-4fc4-98d7-69bd60ac365d",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w9-p730-q37",
+      "outcome_id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w9-p730-q38",
+      "outcome_id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w9-p730-q39",
+      "outcome_id": "43923d3e-bf8e-47e1-a2e5-e6c2a7987d78",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w9-p725-q1-example",
+      "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w9-p729-q1",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w9-p729-q2",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w9-p729-q3",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w9-p729-q4",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w9-p729-q5",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w9-p729-q6",
+      "outcome_id": "f05471a3-c621-4611-acf5-cd26a3838997",
+      "position": 6
     }
   ],
   "previousSeedIds": [
