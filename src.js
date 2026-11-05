@@ -24,6 +24,8 @@ import {valid} from './lib/validation.js';
 import {QuestionSync} from './lib/sync.js';
 import './style.css';
 import 'katex/dist/katex.min.css';
+import './student-theme.css';
+document.body.classList.add('student-design');
 import renderMath from 'katex/contrib/auto-render';
 const watermarkStyle=document.createElement('style');watermarkStyle.textContent=watermarkCss;document.head.append(watermarkStyle);
 const key='forma-question-bank-v1';

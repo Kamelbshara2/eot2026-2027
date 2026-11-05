@@ -156,3 +156,9 @@ Run `node scripts/add-week10-grade9-questions.mjs` to generate the question and 
 10A1 has 50 questions: 10 geometric-mean MCQs, 15 Pythagorean/converse MCQs, 13 special-triangle MCQs, and 12 printable 3D midpoint/distance FRQs. The duplicated midpoint screenshot is included once. Coordinate questions Q13–24 belong to the confirmed Q24 outcome; no textbook page is invented for that image. The Week 9 geometric-mean exercises retain their original IDs and assignments; Week 10 uses separately assigned copies.
 
 Authoring scripts are `scripts/add-week10-general-questions.mjs` and `scripts/add-week10-advanced-questions.mjs`. Matching `build-week10-*-worksheets.mjs` scripts generate printable HTML; `export-week10-*-sql.mjs` scripts generate transaction-safe imports. All three Week 10 FRQ PDF reviews are in `public/worksheets/`. Every Week 10 outcome has at least five questions. All 178 Week 8/9 question records are preserved.
+
+### Student interface
+
+The student interface uses `student-theme.css` and `lib/student-design.js` for the classroom home, math illustration, responsive classroom/outcome cards, and study workspace. Home statistics come from the current week's published questions and outcomes. Outcome progress uses the same saved-draft check as question navigation; it does not indicate correctness or award invented progress. Question actions appear below the content so they do not cover equations.
+
+Arabic regular/bold fonts are served from `public/fonts/` under the included Noto SIL Open Font License; no external font service is required. The theme is scoped to screens, leaving the existing A4 FRQ print styles and watermarks intact. Keyboard focus, reduced-motion preferences, student name/school entry, teacher sign-in, and Weeks 8–10 navigation remain available.
