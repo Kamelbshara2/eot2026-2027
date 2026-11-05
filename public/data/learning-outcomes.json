@@ -240,6 +240,138 @@
       "targetCount": 6,
       "position": 4,
       "revision": 1
+    },
+    {
+      "id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "classroom": "9G3",
+      "examWeek": 10,
+      "title": "Apply dilations to linear functions",
+      "titleAr": "تطبيق التمدد على الدوال الخطية",
+      "bookPages": "246 (Q10–15)",
+      "assessmentItem": "Q11",
+      "position": 1,
+      "targetCount": 12
+    },
+    {
+      "id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "classroom": "9G3",
+      "examWeek": 10,
+      "title": "Construct arithmetic sequences",
+      "titleAr": "إنشاء المتتابعات الحسابية",
+      "bookPages": "257 (Q28–31)",
+      "assessmentItem": "Q17",
+      "position": 2,
+      "targetCount": 13
+    },
+    {
+      "id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "classroom": "9G3",
+      "examWeek": 10,
+      "title": "Construct arithmetic sequences: find the nth term",
+      "titleAr": "إنشاء المتتابعات الحسابية وإيجاد الحد العام",
+      "bookPages": "255 (Q19–22)",
+      "assessmentItem": "Q26",
+      "position": 3,
+      "targetCount": 5
+    },
+    {
+      "id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "classroom": "9G3",
+      "examWeek": 10,
+      "title": "Apply the arithmetic sequence formula",
+      "titleAr": "تطبيق صيغة المتتابعة الحسابية",
+      "bookPages": "255 (Q19–22)",
+      "assessmentItem": "Q26",
+      "position": 4,
+      "targetCount": 5
+    },
+    {
+      "id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "classroom": "10G3",
+      "examWeek": 10,
+      "title": "Simplify expressions using the multiplication properties of exponents",
+      "titleAr": "تبسيط العبارات باستعمال خصائص ضرب الأسس",
+      "bookPages": "578 (Q56–58); supplied Q25–31 (page unspecified)",
+      "assessmentItem": "Q23",
+      "position": 1,
+      "targetCount": 10
+    },
+    {
+      "id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "classroom": "10G3",
+      "examWeek": 10,
+      "title": "Divide monomials using the properties of exponents",
+      "titleAr": "قسمة وحيدات الحد باستعمال خصائص الأسس",
+      "bookPages": "581 (Learn); 583 (Q3, Q5–9)",
+      "assessmentItem": "Q8",
+      "position": 2,
+      "targetCount": 9
+    },
+    {
+      "id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "classroom": "10G3",
+      "examWeek": 10,
+      "title": "Simplify expressions containing negative and zero exponents",
+      "titleAr": "تبسيط العبارات التي تتضمن أسساً سالبة وصفرية",
+      "bookPages": "587 (Learn); 591 (Q11–14)",
+      "assessmentItem": "Q9",
+      "position": 3,
+      "targetCount": 7
+    },
+    {
+      "id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "classroom": "10G3",
+      "examWeek": 10,
+      "title": "Evaluate and rewrite expressions involving rational exponents",
+      "titleAr": "إيجاد قيم العبارات ذات الأسس النسبية وإعادة كتابتها",
+      "bookPages": "599 (Q9–16)",
+      "assessmentItem": "Q10",
+      "position": 4,
+      "targetCount": 10
+    },
+    {
+      "id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Find the geometric mean between two numbers",
+      "titleAr": "إيجاد الوسط الهندسي بين عددين",
+      "bookPages": "165 (Q1–6, Q11–14)",
+      "assessmentItem": "Q15",
+      "position": 1,
+      "targetCount": 10
+    },
+    {
+      "id": "16238684-4124-4402-931c-ab70a306d490",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Use the Pythagorean Theorem and its converse",
+      "titleAr": "استعمال نظرية فيثاغورس وعكسها",
+      "bookPages": "171 (Q7–12); 172 (Q20–22); supplied Q1–6",
+      "assessmentItem": "Q16",
+      "position": 2,
+      "targetCount": 15
+    },
+    {
+      "id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Use the properties of 45°–45°–90° and 30°–60°–90° triangles",
+      "titleAr": "استعمال خصائص المثلثات ٤٥°–٤٥°–٩٠° و٣٠°–٦٠°–٩٠°",
+      "bookPages": "184 (Q19–25); 185 (Q33–38)",
+      "assessmentItem": "Q17",
+      "position": 3,
+      "targetCount": 13
+    },
+    {
+      "id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Find midpoints and distances in three-dimensional coordinates",
+      "titleAr": "إيجاد منتصف القطعة والمسافة في الإحداثيات الثلاثية",
+      "bookPages": "Supplied Q13–24 (page unspecified)",
+      "assessmentItem": "Q24",
+      "position": 4,
+      "targetCount": 12
     }
   ],
   "assignments": [
@@ -1057,6 +1189,611 @@
       "question_id": "10g3-w9-designed-725-4",
       "outcome_id": "af78925a-ba6e-45ec-8cf8-91bb3304efd5",
       "position": 5
+    },
+    {
+      "question_id": "9g3-w10-p246-q10-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w10-p246-q10-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w10-p246-q11-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w10-p246-q11-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w10-p246-q12-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-w10-p246-q12-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 6
+    },
+    {
+      "question_id": "9g3-w10-p246-q13-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 7
+    },
+    {
+      "question_id": "9g3-w10-p246-q13-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 8
+    },
+    {
+      "question_id": "9g3-w10-p246-q14-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 9
+    },
+    {
+      "question_id": "9g3-w10-p246-q14-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 10
+    },
+    {
+      "question_id": "9g3-w10-p246-q15-description",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 11
+    },
+    {
+      "question_id": "9g3-w10-p246-q15-graph",
+      "outcome_id": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+      "position": 12
+    },
+    {
+      "question_id": "9g3-w10-p257-q28-argument",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w10-p257-q28-next",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w10-p257-q28-nth",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w10-p257-q28-eleventh",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w10-p257-q29-argument",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-w10-p257-q30-argument",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 6
+    },
+    {
+      "question_id": "9g3-w10-p257-q30-next",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 7
+    },
+    {
+      "question_id": "9g3-w10-p257-q30-nth",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 8
+    },
+    {
+      "question_id": "9g3-w10-p257-q30-eleventh",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 9
+    },
+    {
+      "question_id": "9g3-w10-p257-q31-argument",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 10
+    },
+    {
+      "question_id": "9g3-w10-p257-q31-next",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 11
+    },
+    {
+      "question_id": "9g3-w10-p257-q31-nth",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 12
+    },
+    {
+      "question_id": "9g3-w10-p257-q31-eleventh",
+      "outcome_id": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+      "position": 13
+    },
+    {
+      "question_id": "9g3-w10-p255-q19-nth",
+      "outcome_id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w10-p255-q19-apply",
+      "outcome_id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "position": 1
+    },
+    {
+      "question_id": "9g3-w10-p255-q20-nth",
+      "outcome_id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w10-p255-q20-apply",
+      "outcome_id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "position": 2
+    },
+    {
+      "question_id": "9g3-w10-p255-q21-nth",
+      "outcome_id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w10-p255-q21-apply",
+      "outcome_id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "position": 3
+    },
+    {
+      "question_id": "9g3-w10-p255-q22-nth",
+      "outcome_id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w10-p255-q22-apply",
+      "outcome_id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "position": 4
+    },
+    {
+      "question_id": "9g3-w10-p255-designed-nth",
+      "outcome_id": "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+      "position": 5
+    },
+    {
+      "question_id": "9g3-w10-p255-designed-apply",
+      "outcome_id": "703f9f26-dfdc-4bca-8fb8-0596a58fe33e",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w10-p578-q56",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w10-p578-q57",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w10-p578-q58",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w10-supplied-q25",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w10-supplied-q26",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w10-supplied-q27",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-w10-supplied-q28",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-w10-supplied-q29",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 8
+    },
+    {
+      "question_id": "10g3-w10-supplied-q30",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 9
+    },
+    {
+      "question_id": "10g3-w10-supplied-q31",
+      "outcome_id": "14c1b86e-fc6a-4e77-b799-7def97beca04",
+      "position": 10
+    },
+    {
+      "question_id": "10g3-w10-p583-q3",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w10-p583-q5",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w10-p583-q6",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w10-p583-q7",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w10-p583-q8",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w10-p583-q9",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-w10-p581-learn-1",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-w10-p581-learn-2",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 8
+    },
+    {
+      "question_id": "10g3-w10-p581-learn-3",
+      "outcome_id": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+      "position": 9
+    },
+    {
+      "question_id": "10g3-w10-p591-q11",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w10-p591-q12",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w10-p591-q13",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w10-p591-q14",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w10-p587-example1-a",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w10-p587-example1-b",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-w10-p587-designed",
+      "outcome_id": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-w10-p599-q9",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 1
+    },
+    {
+      "question_id": "10g3-w10-p599-q10",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 2
+    },
+    {
+      "question_id": "10g3-w10-p599-q11",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 3
+    },
+    {
+      "question_id": "10g3-w10-p599-q12",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 4
+    },
+    {
+      "question_id": "10g3-w10-p599-q13",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 5
+    },
+    {
+      "question_id": "10g3-w10-p599-q14",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 6
+    },
+    {
+      "question_id": "10g3-w10-p599-q15",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 7
+    },
+    {
+      "question_id": "10g3-w10-p599-q16",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 8
+    },
+    {
+      "question_id": "10g3-w10-p599-designed-rewrite-1",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 9
+    },
+    {
+      "question_id": "10g3-w10-p599-designed-rewrite-2",
+      "outcome_id": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+      "position": 10
+    },
+    {
+      "question_id": "10a1-w10-p165-q1",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-w10-p165-q2",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-w10-p165-q3",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-w10-p165-q4",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-w10-p165-q5",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-w10-p165-q6",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-w10-p165-q11",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 7
+    },
+    {
+      "question_id": "10a1-w10-p165-q12",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 8
+    },
+    {
+      "question_id": "10a1-w10-p165-q13",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 9
+    },
+    {
+      "question_id": "10a1-w10-p165-q14",
+      "outcome_id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "position": 10
+    },
+    {
+      "question_id": "10a1-w10-p171-q1",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-w10-p171-q2",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-w10-p171-q3",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-w10-p171-q4",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-w10-p171-q5",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-w10-p171-q6",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-w10-p171-q7",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 7
+    },
+    {
+      "question_id": "10a1-w10-p171-q8",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 8
+    },
+    {
+      "question_id": "10a1-w10-p171-q9",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 9
+    },
+    {
+      "question_id": "10a1-w10-p171-q10",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 10
+    },
+    {
+      "question_id": "10a1-w10-p171-q11",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 11
+    },
+    {
+      "question_id": "10a1-w10-p171-q12",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 12
+    },
+    {
+      "question_id": "10a1-w10-p172-q20",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 13
+    },
+    {
+      "question_id": "10a1-w10-p172-q21",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 14
+    },
+    {
+      "question_id": "10a1-w10-p172-q22",
+      "outcome_id": "16238684-4124-4402-931c-ab70a306d490",
+      "position": 15
+    },
+    {
+      "question_id": "10a1-w10-p184-q19",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-w10-p184-q20",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-w10-p184-q21",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-w10-p184-q22",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-w10-p184-q23",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-w10-p184-q24",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-w10-p185-q33",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 7
+    },
+    {
+      "question_id": "10a1-w10-p185-q34",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 8
+    },
+    {
+      "question_id": "10a1-w10-p185-q35",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 9
+    },
+    {
+      "question_id": "10a1-w10-p185-q36",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 10
+    },
+    {
+      "question_id": "10a1-w10-p185-q37",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 11
+    },
+    {
+      "question_id": "10a1-w10-p185-q38",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 12
+    },
+    {
+      "question_id": "10a1-w10-p184-q25",
+      "outcome_id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "position": 13
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q13",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 1
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q14",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 2
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q15",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 3
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q16",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 4
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q17",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 5
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q18",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 6
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q19",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 7
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q20",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 8
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q21",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 9
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q22",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 10
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q23",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 11
+    },
+    {
+      "question_id": "10a1-w10-coordinate-q24",
+      "outcome_id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "position": 12
     }
   ],
   "previousSeedIds": [
@@ -1102,7 +1839,128 @@
     "10g3-w9-designed-725-1",
     "10g3-w9-designed-725-2",
     "10g3-w9-designed-725-3",
-    "10g3-w9-designed-725-4"
+    "10g3-w9-designed-725-4",
+    "9g3-w10-p246-q10-description",
+    "9g3-w10-p246-q10-graph",
+    "9g3-w10-p246-q11-description",
+    "9g3-w10-p246-q11-graph",
+    "9g3-w10-p246-q12-description",
+    "9g3-w10-p246-q12-graph",
+    "9g3-w10-p246-q13-description",
+    "9g3-w10-p246-q13-graph",
+    "9g3-w10-p246-q14-description",
+    "9g3-w10-p246-q14-graph",
+    "9g3-w10-p246-q15-description",
+    "9g3-w10-p246-q15-graph",
+    "9g3-w10-p257-q28-argument",
+    "9g3-w10-p257-q28-next",
+    "9g3-w10-p257-q28-nth",
+    "9g3-w10-p257-q28-eleventh",
+    "9g3-w10-p257-q29-argument",
+    "9g3-w10-p257-q30-argument",
+    "9g3-w10-p257-q30-next",
+    "9g3-w10-p257-q30-nth",
+    "9g3-w10-p257-q30-eleventh",
+    "9g3-w10-p257-q31-argument",
+    "9g3-w10-p257-q31-next",
+    "9g3-w10-p257-q31-nth",
+    "9g3-w10-p257-q31-eleventh",
+    "9g3-w10-p255-q19-nth",
+    "9g3-w10-p255-q19-apply",
+    "9g3-w10-p255-q20-nth",
+    "9g3-w10-p255-q20-apply",
+    "9g3-w10-p255-q21-nth",
+    "9g3-w10-p255-q21-apply",
+    "9g3-w10-p255-q22-nth",
+    "9g3-w10-p255-q22-apply",
+    "9g3-w10-p255-designed-nth",
+    "9g3-w10-p255-designed-apply",
+    "10g3-w10-p578-q56",
+    "10g3-w10-p578-q57",
+    "10g3-w10-p578-q58",
+    "10g3-w10-supplied-q25",
+    "10g3-w10-supplied-q26",
+    "10g3-w10-supplied-q27",
+    "10g3-w10-supplied-q28",
+    "10g3-w10-supplied-q29",
+    "10g3-w10-supplied-q30",
+    "10g3-w10-supplied-q31",
+    "10g3-w10-p583-q3",
+    "10g3-w10-p583-q5",
+    "10g3-w10-p583-q6",
+    "10g3-w10-p583-q7",
+    "10g3-w10-p583-q8",
+    "10g3-w10-p583-q9",
+    "10g3-w10-p581-learn-1",
+    "10g3-w10-p581-learn-2",
+    "10g3-w10-p581-learn-3",
+    "10g3-w10-p591-q11",
+    "10g3-w10-p591-q12",
+    "10g3-w10-p591-q13",
+    "10g3-w10-p591-q14",
+    "10g3-w10-p587-example1-a",
+    "10g3-w10-p587-example1-b",
+    "10g3-w10-p587-designed",
+    "10g3-w10-p599-q9",
+    "10g3-w10-p599-q10",
+    "10g3-w10-p599-q11",
+    "10g3-w10-p599-q12",
+    "10g3-w10-p599-q13",
+    "10g3-w10-p599-q14",
+    "10g3-w10-p599-q15",
+    "10g3-w10-p599-q16",
+    "10g3-w10-p599-designed-rewrite-1",
+    "10g3-w10-p599-designed-rewrite-2",
+    "10a1-w10-p165-q1",
+    "10a1-w10-p165-q2",
+    "10a1-w10-p165-q3",
+    "10a1-w10-p165-q4",
+    "10a1-w10-p165-q5",
+    "10a1-w10-p165-q6",
+    "10a1-w10-p165-q11",
+    "10a1-w10-p165-q12",
+    "10a1-w10-p165-q13",
+    "10a1-w10-p165-q14",
+    "10a1-w10-p171-q1",
+    "10a1-w10-p171-q2",
+    "10a1-w10-p171-q3",
+    "10a1-w10-p171-q4",
+    "10a1-w10-p171-q5",
+    "10a1-w10-p171-q6",
+    "10a1-w10-p171-q7",
+    "10a1-w10-p171-q8",
+    "10a1-w10-p171-q9",
+    "10a1-w10-p171-q10",
+    "10a1-w10-p171-q11",
+    "10a1-w10-p171-q12",
+    "10a1-w10-p172-q20",
+    "10a1-w10-p172-q21",
+    "10a1-w10-p172-q22",
+    "10a1-w10-p184-q19",
+    "10a1-w10-p184-q20",
+    "10a1-w10-p184-q21",
+    "10a1-w10-p184-q22",
+    "10a1-w10-p184-q23",
+    "10a1-w10-p184-q24",
+    "10a1-w10-p185-q33",
+    "10a1-w10-p185-q34",
+    "10a1-w10-p185-q35",
+    "10a1-w10-p185-q36",
+    "10a1-w10-p185-q37",
+    "10a1-w10-p185-q38",
+    "10a1-w10-p184-q25",
+    "10a1-w10-coordinate-q13",
+    "10a1-w10-coordinate-q14",
+    "10a1-w10-coordinate-q15",
+    "10a1-w10-coordinate-q16",
+    "10a1-w10-coordinate-q17",
+    "10a1-w10-coordinate-q18",
+    "10a1-w10-coordinate-q19",
+    "10a1-w10-coordinate-q20",
+    "10a1-w10-coordinate-q21",
+    "10a1-w10-coordinate-q22",
+    "10a1-w10-coordinate-q23",
+    "10a1-w10-coordinate-q24"
   ],
   "targetCountUpdates": [
     {

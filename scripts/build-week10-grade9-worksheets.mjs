@@ -1,0 +1,12 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import katex from 'katex';
+import {root,mathCss} from './exam-layout.mjs';
+import {worksheetPage,worksheetPrintCss} from '../lib/print-worksheet.js';
+const bank=JSON.parse(await readFile(resolve(root,'public/data/questions.json'))),plan=JSON.parse(await readFile(resolve(root,'public/data/learning-outcomes.json')));
+const groups=plan.outcomes.filter(o=>o.classroom==='9G3'&&o.examWeek===10).sort((a,b)=>a.position-b.position),selected=groups.flatMap(o=>plan.assignments.filter(a=>a.outcome_id===o.id).sort((a,b)=>a.position-b.position).map(a=>({q:bank.questions.find(q=>q.id===a.question_id),o}))).filter(({q})=>q?.type==='FRQ');
+if(selected.length!==10)throw Error('Expected ten printable sequence FRQs');
+const pages=selected.map(({q,o},i)=>worksheetPage(q,{outcome:o,index:i+1,total:selected.length})).join('');
+const rendered=pages.replace(/\$([^$]+)\$/g,(_,expression)=>katex.renderToString(expression.replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'),{throwOnError:true}));
+const html=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>Grade 9 General — Week 10 — Arithmetic sequence FRQ review</title><style>${mathCss}\n${worksheetPrintCss}\nbody.worksheet-print-body .katex-mathml{display:none!important}.print-full-question{font-size:9.5pt;line-height:1.65}.print-generic-answer-grid{gap:3mm}.print-generic-answer-grid .print-answer-box{min-height:23mm}.print-outcome{font-size:8pt}</style></head><body class="worksheet-print-body">${rendered}</body></html>`;
+await mkdir(resolve(root,'public/worksheets'),{recursive:true});await writeFile(resolve(root,'public/worksheets/grade-9-general-week10-arithmetic-frq-review.html'),html);console.log('Built ten FRQ review sheets, grouped by both written outcomes, with platform watermark.');

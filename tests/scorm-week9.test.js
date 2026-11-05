@@ -1,0 +1,20 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';import {execFileSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const archive=fileURLToPath(new URL('../downloads/10G3-Week9-Math-SCORM12.zip',import.meta.url));
+const packaged=JSON.parse(execFileSync('python',['-c',`import json,sys,zipfile,xml.etree.ElementTree as E
+with zipfile.ZipFile(sys.argv[1]) as z:
+ assert z.testzip() is None
+ names=z.namelist()
+ manifest=E.fromstring(z.read('imsmanifest.xml'))
+ ns={'i':'http://www.imsproject.org/xsd/imscp_rootv1p1p2'}
+ assert manifest.find('i:metadata/i:schemaversion',ns).text=='1.2'
+ assert all(f.attrib['href'] in names for f in manifest.findall('.//i:file',ns))
+ print(json.dumps({n:z.read(n).decode() for n in ['assets/core.js','assets/lms.js','assets/data.js','README.txt']}))`,archive],{encoding:'utf8'}));
+const {createAttempt,remaining,finishAttempt,grade,validAttempt,scormTime,DURATION_MS}=await import('data:text/javascript;base64,'+Buffer.from(packaged['assets/core.js']).toString('base64'));
+const {connect,findAPI}=await import('data:text/javascript;base64,'+Buffer.from(packaged['assets/lms.js']).toString('base64'));
+const context={window:{}};vm.runInNewContext(packaged['assets/data.js'],context);const data=JSON.parse(JSON.stringify(context.window.EXAM_DATA));
+test('five existing Week 9 MCQs cover all four outcomes and total ten marks',()=>{assert.equal(data.questions.length,5);assert.equal(new Set(data.questions.map(q=>q.outcomeId)).size,4);assert.equal(data.durationSeconds,600);assert.equal(data.totalMarks,10);assert(data.questions.every(q=>q.optionHTML.length===4));const m=JSON.parse(fs.readFileSync(new URL('../public/exams/week9-exam-manifest.json',import.meta.url))).exams.find(e=>e.classroom==='10G3');assert.deepEqual(data.questions.map(q=>q.id),m.questions.map(q=>q.id))});
+test('timer includes time away and never resets on resume',()=>{const s=createAttempt(data,1000000);assert.equal(s.deadline,1000000+DURATION_MS);assert.equal(remaining(s,1000000),600);assert.equal(remaining(JSON.parse(JSON.stringify(s)),1000000+590000),10);assert.equal(remaining(s,1000000+600001),0);assert(validAttempt(s,data))});
+test('all correct / partially correct / blank responses score 10 / 4 / 0',()=>{const s=createAttempt(data,1000000);assert.equal(grade(s,data),0);for(const q of data.questions.slice(0,2))s.answers[q.id]=q.correctIndex;assert.equal(grade(s,data),4);for(const q of data.questions)s.answers[q.id]=q.correctIndex;assert.equal(grade(s,data),10);const f=finishAttempt(s,data,1001000);assert.equal(f.finished,true);assert.equal(f.score,10);assert.deepEqual(finishAttempt(f,data,2000000),f)});
+test('invalid saved state cannot silently create a fresh attempt',()=>{const s=createAttempt(data,1000000);assert(!validAttempt({...s,deadline:s.deadline+1},data));assert(!validAttempt({...s,order:Array(5).fill(s.order[0])},data));assert(!validAttempt({...s,answers:{fake:0}},data));assert(!validAttempt({...s,options:{...s.options,[s.order[0]]:[0,0,0,0]}},data));assert(!validAttempt({...s,index:5},data))});
+test('shuffled options retain canonical correct answers',()=>{for(let i=0;i<30;i++){const s=createAttempt(data,1000000);assert(validAttempt(s,data));for(const q of data.questions){const displayIndex=s.options[q.id].indexOf(q.correctIndex);assert.equal(s.options[q.id][displayIndex],q.correctIndex)}}});
+test('SCORM 1.2 API discovery, init, commit errors and finish behavior',()=>{let finished=0;const API={LMSInitialize:()=> 'true',LMSGetValue:()=> 'student-1',LMSSetValue:()=> 'true',LMSCommit:()=> 'false',LMSFinish:()=>{finished++;return 'true'}};const parent={API};parent.parent=parent;const child={parent};assert.equal(findAPI(child),API);const lms=connect(child);assert.equal(lms.get('cmi.core.student_id'),'student-1');assert(lms.set('cmi.core.score.raw',10));assert.equal(lms.commit(),false);assert(lms.close());assert(lms.close());assert.equal(finished,1);assert.equal(lms.set('x','y'),false);assert.throws(()=>connect({parent:null}),/LMS/);assert.equal(scormTime(61000),'0000:01:01.00')});

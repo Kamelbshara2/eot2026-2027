@@ -140,3 +140,19 @@ Graphing grids use equal physical spacing for grid squares. Axis labels and inst
 At the teacher's request, the last rate table was adjusted to a straight-line pattern: x = 22, 29, 36, 43, 50 and y = −4, −1, 2, 5, 8, giving constant rate 3/7. All four rate tables now have constant rates. Slope graphs are exact SVG plots with a numbered unit grid, axes and only the blue function line; the original rise/run helper segments are omitted. The three extra slope graphs are labeled as original practice, rather than attributed to missing textbook artwork.
 
 Every FRQ is now printable. Generic word-problem pages retain the complete English/Arabic scenario, equations and both parts, with separate response areas and ruled working space. Generic geometry pages retain their diagrams. Linear graphing pages have blank five-row tables and suitably scaled empty Cartesian planes, without the quadratic axis-of-symmetry instruction. Each page identifies its classroom, learning outcome and textbook reference. Printing an outcome or the whole classroom uses its FRQs; it excludes all model answers and student drafts. Verified packets contain 8 A4 pages for 9G3, 7 for 10A1 and 10 for 10G3.
+
+### Grade 9 General — Week 10
+
+Week 10 has four separate learning outcomes: linear-function dilations (12 MCQs, one description and one graph question for each exercise on page 246); arithmetic-sequence reasoning, continuation, nth-term rules and 11th terms (13 MCQs, page 257); deriving nth-term formulas (5 FRQs); and using a formula to find the 101st term and an inverse term position (5 FRQs). The two written outcomes use page 255 Q19–22 plus one clearly identified teacher-designed sequence each. The sequence 10, 15, 25, 40 is retained as a non-arithmetic reasoning question; arithmetic formulas are not applied to it.
+
+Open **9G3 → Week 10** to practise each outcome. **Print FRQ review** collects the ten written questions only, with the platform watermark. The same review is available at `public/worksheets/grade-9-general-week10-arithmetic-frq-review.pdf`.
+
+Run `node scripts/add-week10-grade9-questions.mjs` to generate the question and outcome seeds; `node scripts/build-week10-grade9-worksheets.mjs` generates the printable HTML. `node scripts/export-week10-grade9-sql.mjs` prepares a transaction-safe Neon import with exact routing. The existing `npm run db:migrate` also seeds this content when the backend database is reachable. Bundled data and local browser caching do not confirm database persistence.
+
+### Grade 10 General and Advanced — Week 10
+
+10G3 has 36 questions: 10 printable FRQs on multiplication properties and applications, 9 MCQs on dividing monomials, 7 MCQs on zero/negative exponents, and 10 MCQs on rational exponents. The rational-exponent outcome includes all page 599 Q9–16 and two additional rewriting exercises. Q57 uses the confirmed outer power `2t`; Q58 provides an empty classification table and a drawable equal-unit Cartesian plane, including in its printable review.
+
+10A1 has 50 questions: 10 geometric-mean MCQs, 15 Pythagorean/converse MCQs, 13 special-triangle MCQs, and 12 printable 3D midpoint/distance FRQs. The duplicated midpoint screenshot is included once. Coordinate questions Q13–24 belong to the confirmed Q24 outcome; no textbook page is invented for that image. The Week 9 geometric-mean exercises retain their original IDs and assignments; Week 10 uses separately assigned copies.
+
+Authoring scripts are `scripts/add-week10-general-questions.mjs` and `scripts/add-week10-advanced-questions.mjs`. Matching `build-week10-*-worksheets.mjs` scripts generate printable HTML; `export-week10-*-sql.mjs` scripts generate transaction-safe imports. All three Week 10 FRQ PDF reviews are in `public/worksheets/`. Every Week 10 outcome has at least five questions. All 178 Week 8/9 question records are preserved.
