@@ -1,5 +1,21 @@
 # Downloadable exams
 
+## Week 10 — SCORM 1.2
+
+- [9G3 — Grade 9 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Math-SCORM12.zip)
+- [10G3 — Grade 10 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10G3-Week10-Math-SCORM12.zip)
+- [10A1 — Grade 10 Advanced](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10A1-Week10-Math-SCORM12.zip)
+
+Each Forms-style exam has **15 minutes, one attempt and 10 marks**: three MCQs worth two marks each, plus one common four-part FRQ with four numeric blanks worth one mark each. Short answers are automatically corrected, including equivalent fractions/decimals and Arabic digits. Student name and student number are required before the timer starts; leading zeros are preserved.
+
+Each learner receives one randomly selected MCQ from each of three fixed topic/task pools. The common FRQ is identical within each classroom. Every classroom learning outcome is represented; 9G3's description and graph questions cannot repeat the same source exercise. Pools contain 16 MCQs for 9G3, 12 for 10G3, and 16 for 10A1. Random draws may coincide. All content is adapted from existing Week 10 student practice; no unseen questions were added.
+
+Upload each ZIP directly to its class's LMS activity. **Set maximum attempts to 1 and gradebook maximum to 10**, allow resuming the same attempt, and hide answer review. SCORM reports scores on a 0–100 scale; the LMS scales them to 10 marks. Full-screen/focus warnings, copy restrictions, timeout submission, persisted forms/answers/deadlines and completion locks deter casual cheating; they are not secure proctoring. The included `README.txt` contains setup and marking details. Verified with a simulated SCORM 1.2 LMS; test in your own LMS before assigning.
+
+Rebuild with `node scripts/build-week10-scorm.mjs`. Sources are in `scorm/week10/`; the reviewable topic blueprint is `week10-scorm-manifest.json`.
+
+## Week 9
+
 [Download the 10G3 Week 9 SCORM 1.2 ZIP](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10G3-Week9-Math-SCORM12.zip)
 
 This standalone LMS package contains five multiple-choice questions, worth two marks each, for a total of 10 marks. The exam has a 10-minute timer, saves progress within the same attempt, submits automatically when time expires, shuffles questions and options, and records focus changes. Completed attempts are locked.

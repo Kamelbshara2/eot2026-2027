@@ -1,0 +1,265 @@
+{
+  "week": 10,
+  "scorm": "1.2",
+  "durationSeconds": 900,
+  "totalMarks": 10,
+  "mcqCount": 3,
+  "mcqMarks": 2,
+  "frqCount": 1,
+  "frqBlanks": 4,
+  "blankMarks": 1,
+  "maxAttempts": 1,
+  "frqPolicy": "Same common four-part FRQ for every learner in each classroom; no random difficulty difference.",
+  "exams": [
+    {
+      "classroom": "9G3",
+      "packageId": "math-9g3-week10-v1",
+      "file": "9G3-Week10-Math-SCORM12.zip",
+      "pools": [
+        {
+          "id": "dilation-description",
+          "title": "Linear dilation: description",
+          "task": "Interpret positive input scale factor and reciprocal horizontal dilation.",
+          "marks": 2,
+          "questionIds": [
+            "9g3-w10-p246-q10-description",
+            "9g3-w10-p246-q11-description",
+            "9g3-w10-p246-q12-description",
+            "9g3-w10-p246-q13-description",
+            "9g3-w10-p246-q14-description",
+            "9g3-w10-p246-q15-description"
+          ],
+          "outcomeIds": [
+            "c7d88dcf-1447-43f6-828b-81bea41a4853"
+          ]
+        },
+        {
+          "id": "dilation-graph",
+          "title": "Linear dilation: graph",
+          "task": "Identify a line through the origin from the transformed slope, on a common graph scale.",
+          "marks": 2,
+          "questionIds": [
+            "9g3-w10-p246-q10-graph",
+            "9g3-w10-p246-q11-graph",
+            "9g3-w10-p246-q12-graph",
+            "9g3-w10-p246-q13-graph",
+            "9g3-w10-p246-q14-graph",
+            "9g3-w10-p246-q15-graph"
+          ],
+          "outcomeIds": [
+            "c7d88dcf-1447-43f6-828b-81bea41a4853"
+          ]
+        },
+        {
+          "id": "sequence-argument",
+          "title": "Arithmetic sequence: reasoning",
+          "task": "Compare all three consecutive differences and choose a valid argument.",
+          "marks": 2,
+          "questionIds": [
+            "9g3-w10-p257-q28-argument",
+            "9g3-w10-p257-q29-argument",
+            "9g3-w10-p257-q30-argument",
+            "9g3-w10-p257-q31-argument"
+          ],
+          "outcomeIds": [
+            "f34f2dc5-4128-4de2-b3f1-ff310342e902"
+          ]
+        }
+      ],
+      "frq": {
+        "id": "9g3-w10-scorm-sequence",
+        "practiceIds": [
+          "9g3-w10-p255-q19-nth",
+          "9g3-w10-p255-q19-apply"
+        ],
+        "outcomeIds": [
+          "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+          "703f9f26-dfdc-4bca-8fb8-0596a58fe33e"
+        ],
+        "marks": 4,
+        "blanks": [
+          {
+            "id": "slope",
+            "marks": 1
+          },
+          {
+            "id": "constant",
+            "marks": 1
+          },
+          {
+            "id": "term101",
+            "marks": 1
+          },
+          {
+            "id": "index",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "classroom": "10G3",
+      "packageId": "math-10g3-week10-v1",
+      "file": "10G3-Week10-Math-SCORM12.zip",
+      "pools": [
+        {
+          "id": "quotient-power",
+          "title": "Power of a monomial quotient",
+          "task": "Apply an outer integer power to a quotient; multiply variable exponents and raise the coefficient.",
+          "marks": 2,
+          "questionIds": [
+            "10g3-w10-p583-q5",
+            "10g3-w10-p583-q7",
+            "10g3-w10-p583-q8"
+          ],
+          "outcomeIds": [
+            "8b641081-a301-4718-8ea0-487f9ea4fbc7"
+          ]
+        },
+        {
+          "id": "negative-exponents",
+          "title": "Negative and zero exponent outcome: positive-power rewriting",
+          "task": "Rewrite a monomial quotient with negative powers using positive exponents.",
+          "marks": 2,
+          "questionIds": [
+            "10g3-w10-p591-q11",
+            "10g3-w10-p591-q13"
+          ],
+          "outcomeIds": [
+            "3218eea3-e7d8-470c-8a49-4e71d4aad727"
+          ]
+        },
+        {
+          "id": "rational-root",
+          "title": "Evaluate a rational exponent or root",
+          "task": "Evaluate a single exact positive root of a perfect power (possibly a reciprocal).",
+          "marks": 2,
+          "questionIds": [
+            "10g3-w10-p599-q9",
+            "10g3-w10-p599-q10",
+            "10g3-w10-p599-q11",
+            "10g3-w10-p599-q12",
+            "10g3-w10-p599-q13",
+            "10g3-w10-p599-q14",
+            "10g3-w10-p599-q16"
+          ],
+          "outcomeIds": [
+            "7ed9b45c-eadb-4785-8e94-3d988527a442"
+          ]
+        }
+      ],
+      "frq": {
+        "id": "10g3-w10-scorm-product",
+        "practiceIds": [
+          "10g3-w10-supplied-q28"
+        ],
+        "outcomeIds": [
+          "14c1b86e-fc6a-4e77-b799-7def97beca04"
+        ],
+        "marks": 4,
+        "blanks": [
+          {
+            "id": "coefficient",
+            "marks": 1
+          },
+          {
+            "id": "first-power",
+            "marks": 1
+          },
+          {
+            "id": "second-power",
+            "marks": 1
+          },
+          {
+            "id": "final-power",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "classroom": "10A1",
+      "packageId": "math-10a1-week10-v1",
+      "file": "10A1-Week10-Math-SCORM12.zip",
+      "pools": [
+        {
+          "id": "geometric-mean",
+          "title": "Geometric mean",
+          "task": "Find the positive geometric mean of two positive integers in exact radical form.",
+          "marks": 2,
+          "questionIds": [
+            "10a1-w10-p165-q1",
+            "10a1-w10-p165-q3",
+            "10a1-w10-p165-q4",
+            "10a1-w10-p165-q5",
+            "10a1-w10-p165-q6"
+          ],
+          "outcomeIds": [
+            "955b8d24-9b63-455e-8623-d8f35d240d0c"
+          ]
+        },
+        {
+          "id": "pythagorean-leg",
+          "title": "Pythagorean theorem: missing leg",
+          "task": "Find one missing leg of a right triangle with integer Pythagorean-triple side lengths.",
+          "marks": 2,
+          "questionIds": [
+            "10a1-w10-p171-q2",
+            "10a1-w10-p171-q3",
+            "10a1-w10-p171-q7",
+            "10a1-w10-p171-q11",
+            "10a1-w10-p171-q12"
+          ],
+          "outcomeIds": [
+            "16238684-4124-4402-931c-ab70a306d490"
+          ]
+        },
+        {
+          "id": "special-triangle",
+          "title": "Special right triangles",
+          "task": "Use the 30–60–90 ratio to find two exact side lengths from one labelled side.",
+          "marks": 2,
+          "questionIds": [
+            "10a1-w10-p184-q19",
+            "10a1-w10-p184-q20",
+            "10a1-w10-p184-q21",
+            "10a1-w10-p184-q22",
+            "10a1-w10-p184-q23",
+            "10a1-w10-p184-q24"
+          ],
+          "outcomeIds": [
+            "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf"
+          ]
+        }
+      ],
+      "frq": {
+        "id": "10a1-w10-scorm-coordinates",
+        "practiceIds": [
+          "10a1-w10-coordinate-q19"
+        ],
+        "outcomeIds": [
+          "5ccc9f87-f16f-4382-8d13-f22ceadcd14b"
+        ],
+        "marks": 4,
+        "blanks": [
+          {
+            "id": "mx",
+            "marks": 1
+          },
+          {
+            "id": "my",
+            "marks": 1
+          },
+          {
+            "id": "mz",
+            "marks": 1
+          },
+          {
+            "id": "distance",
+            "marks": 1
+          }
+        ]
+      }
+    }
+  ]
+}
