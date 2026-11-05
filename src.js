@@ -1,3 +1,4 @@
+import {mountStudentThemePicker} from './lib/student-theme-picker.js';
 import {rightTriangleDiagram} from './lib/right-triangle-diagrams.js';
 import {exponentAnalysisWorksheet,exponentModelDiagram} from './lib/exponent-worksheets.js';
 import {week9GeometryDiagram} from './lib/week9-geometry.js';
@@ -25,6 +26,8 @@ import {QuestionSync} from './lib/sync.js';
 import './style.css';
 import 'katex/dist/katex.min.css';
 import './student-theme.css';
+import './student-theme-variants.css';
+import './math-helper.css';
 document.body.classList.add('student-design');
 import renderMath from 'katex/contrib/auto-render';
 const watermarkStyle=document.createElement('style');watermarkStyle.textContent=watermarkCss;document.head.append(watermarkStyle);
@@ -50,6 +53,7 @@ $('#form').onsubmit=e=>{e.preventDefault();if(!adminState.active)return;const q=
 function toast(s){$('#toast').textContent=s;setTimeout(()=>$('#toast').textContent='',3500)}
 $('#export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({version:1,questions},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='questions.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 $('#import').onchange=async e=>{if(!adminState.active)return;try{const file=e.target.files[0];if(!file)return;if(file.size>20*1024*1024)throw Error('File too large (20 MB maximum).');const data=JSON.parse(await file.text());if(data.version!==1||!Array.isArray(data.questions)||!data.questions.every(valid))throw Error('Invalid question database format.');const old=questions;questions=[...new Map([...questions,...data.questions].map(q=>[q.id,q])).values()];try{save()}catch(err){questions=old;throw err}render();toast('Question database imported')}catch(err){alert(err.message)}e.target.value=''};
+mountStudentThemePicker();
 mountPortal({getQuestions:()=>questions,printQuestions:selection=>printWorksheets({questions:selection,body,math,outcomes:outcomeState.outcomes,assignments:outcomeState.assignments})});
 mountAdmin({onChange:()=>{invalidatePractice();if(sync){sync.canWrite=()=>adminState.active;render();sync.run()}}});
 mountDashboard();
