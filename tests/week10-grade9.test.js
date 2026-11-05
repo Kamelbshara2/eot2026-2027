@@ -17,8 +17,8 @@ test('written sequence questions separate deriving the rule from using it for th
  const frqs=qs.filter(printableQuestion);assert.equal(frqs.length,10);for(const q of frqs){assert(validSequence(q));const {a1,d,coefficients:[m,b],kind,value101,target,index}=q.sequence;assert.equal(m,d);assert.equal(m+b,a1);for(const n of [1,4,7,101])assert.equal(m*n+b,a1+(n-1)*d);if(kind==='frq-apply'){assert.equal(value101,m*101+b);assert.equal(m*index+b,target);assert(index>=1&&Number.isInteger(index))}const html=worksheetPage({...q,answer:'SECRET MODEL KEY',answerAr:'SECRET ARABIC KEY'});assert(!html.includes('SECRET'));assert(html.includes('ألاستاذ كامل بشارة 0502837825'));assert(!/<input|<textarea/.test(html));assert.equal((html.match(/class="print-answer-box /g)||[]).length,3)}
  assert.deepEqual(frqs.filter(q=>q.sequence.kind==='frq-nth'&&q.sourcePage).map(q=>q.sourceQuestion),[19,20,21,22]);assert.equal(frqs.filter(q=>q.sourceKind==='teacher-designed').length,2);
 });
-test('Week 10 routes and labels preserve the historic Week 8 and default Week 9 routes',()=>{
- const o=plan.outcomes.find(o=>o.examWeek===10);const route=classroomRoute(outcomePath('9G3',o.id,10));assert.equal(route.examWeek,10);assert.equal(route.outcomeId,o.id);assert(route.validWeek);assert.equal(weekLabel(10),'الأسبوع العاشر');assert.equal(classroomRoute('#/classrooms/9G3').examWeek,9);assert.equal(classroomRoute('#/classrooms/9G3/outcomes/legacy').examWeek,8);
+test('Week 10 routes and labels default to Week 10 and preserve historic Week 8 and explicit Week 9 routes',()=>{
+ const o=plan.outcomes.find(o=>o.examWeek===10);const route=classroomRoute(outcomePath('9G3',o.id,10));assert.equal(route.examWeek,10);assert.equal(route.outcomeId,o.id);assert(route.validWeek);assert.equal(weekLabel(10),'الأسبوع العاشر');assert.equal(classroomRoute('#/classrooms/9G3').examWeek,10);assert.equal(classroomRoute('#/classrooms/9G3/outcomes/legacy').examWeek,8);assert.equal(classroomRoute('#/classrooms/9G3/weeks/9').examWeek,9);
 });
 
 test('Week 10 printable review contains all ten FRQs grouped by outcome, with watermarks and no model keys',async()=>{

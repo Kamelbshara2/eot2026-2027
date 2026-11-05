@@ -17,7 +17,7 @@ test('Week 9 plans capture all ten screenshot rows, including repeated topics an
  assert.equal(bank.questions.filter(q=>weekOf(q)===8).length,108);assert.equal(bank.questions.filter(q=>weekOf(q)===9).length,70);
 });
 test('route week selection preserves legacy Week 8 links and keeps explicit week scopes',()=>{
- assert.equal(classroomRoute('#/classrooms/10G3').examWeek,9);
+ assert.equal(classroomRoute('#/classrooms/10G3').examWeek,10);
  assert.equal(classroomRoute('#/classrooms/10G3/exams/week-8').examWeek,8);
  assert.equal(classroomRoute('#/classrooms/10G3/outcomes/old').examWeek,8);
  const selected=classroomRoute(outcomePath('10A1','new-id',9));assert.equal(selected.examWeek,9);assert.equal(selected.outcomeId,'new-id');assert.equal(selected.validWeek,true);
