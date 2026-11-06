@@ -1,5 +1,13 @@
 # Downloadable exams
 
+## 10A1 Week 10 — one additional attempt
+
+[Download the separate additional-attempt SCORM 1.2 ZIP](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10A1-Week10-Extra-Attempt-SCORM12.zip).
+
+Import this as a **new LMS activity**, named **10A1 Week 10 — Additional attempt**. Do not replace the first activity or delete its submissions. Set maximum attempts to **1** and maximum grade to **10**, and restrict the new activity to students who submitted the original exam using LMS groups/access rules. The ZIP cannot inspect another activity's completion or assign students by itself.
+
+The new package has its own SCORM identifier and browser attempt-storage namespace. A completed first exam therefore does not consume this new activity's attempt. The first activity's grades and submissions stay intact; the new activity records its score separately. All approved settings remain: **15 minutes, 10 marks, three shuffled pooled MCQs, one common four-part auto-marked FRQ, images, student name/number, focus alarm, timeout submission and LMS reporting**. Rebuild only this new file with `node scripts/build-week10-extra-attempt.mjs` after building the original package. No database reset is performed.
+
 ## Week 10 — paper backup
 
 - [9G3 paper exam — PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Paper-Exam.pdf)

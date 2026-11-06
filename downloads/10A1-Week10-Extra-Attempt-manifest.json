@@ -1,0 +1,23 @@
+{
+  "classroom": "10A1",
+  "week": 10,
+  "file": "10A1-Week10-Extra-Attempt-SCORM12.zip",
+  "packageId": "math-10a1-week10-extra-v1",
+  "manifestId": "MATH_10A1_WEEK10_EXTRA_V1",
+  "originalPackageId": "math-10a1-week10-v1",
+  "originalArchiveSha256": "2d093e44810dc22654abedc214f0cca9a260137022298c29807df0227807a062",
+  "totalMarks": 10,
+  "durationSeconds": 900,
+  "maxAttempts": 1,
+  "requiresNewLmsActivity": true,
+  "audience": "Students who submitted the original exam; enforce through LMS groups/access restrictions.",
+  "preservesOriginalActivity": true,
+  "questionPoolIds": [
+    "geometric-mean",
+    "pythagorean-leg",
+    "special-triangle"
+  ],
+  "frqId": "10a1-w10-scorm-coordinates",
+  "focusAlarm": true,
+  "shuffleMcqOrder": true
+}

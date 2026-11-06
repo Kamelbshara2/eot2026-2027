@@ -1,0 +1,25 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import vm from 'node:vm';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),output=resolve(root,'downloads');
+const source=resolve(output,'10A1-Week10-Math-SCORM12.zip'),destination=resolve(output,'10A1-Week10-Extra-Attempt-SCORM12.zip');
+const before=createHash('sha256').update(await readFile(source)).digest('hex');
+const files=JSON.parse(execFileSync('python',['-c',"import zipfile,json,sys\nwith zipfile.ZipFile(sys.argv[1]) as z:\n print(json.dumps({n:z.read(n).decode() for n in ['assets/data.js','index.html','imsmanifest.xml','README.txt']}))",source],{encoding:'utf8',maxBuffer:4e6}));
+const context={window:{}};vm.runInNewContext(files['assets/data.js'],context);const original=JSON.parse(JSON.stringify(context.window.EXAM_DATA));
+if(original.classroom!=='10A1'||original.durationSeconds!==900||original.totalMarks!==10||!original.focusAlarm||!original.shuffleMcqOrder)throw Error('Original package must contain the approved 10A1 specification');
+const id='math-10a1-week10-extra-v1',manifestId='MATH_10A1_WEEK10_EXTRA_V1';
+const data={...original,id,additionalAttempt:true,originalPackageId:original.id};
+const replacements={
+ 'assets/data.js':'window.EXAM_DATA='+JSON.stringify(data).replaceAll('<','\\u003c')+';\n',
+ 'index.html':files['index.html'].replace('<title>10A1 Math Week 10 — 10 marks</title>','<title>10A1 Week 10 — Additional attempt — 10 marks</title>').replace('<h1>Math · Week 10</h1>','<h1>Math · Week 10</h1><p class="badge">Additional attempt · محاولة إضافية</p>'),
+ 'imsmanifest.xml':files['imsmanifest.xml'].replace('identifier="MATH_10A1_WEEK10_V1"',`identifier="${manifestId}"`).replace('<title>10A1 Mathematics Week 10</title>','<title>10A1 Week 10 — Additional attempt</title>').replace('<title>Week 10 — 10 marks — 15 minutes — one attempt</title>','<title>Additional attempt — 10 marks — 15 minutes — one attempt</title>'),
+ 'README.txt':`10A1 WEEK 10 — SEPARATE ADDITIONAL ATTEMPT\n\nImport this ZIP as a NEW SCORM 1.2 activity. DO NOT replace/update the original activity or delete its attempts.\nName the new activity "10A1 Week 10 — Additional attempt".\nSet maximum attempts to ONE and maximum grade to TEN. Permit resuming the same new attempt.\nAssign/restrict this new activity to the students who submitted the first exam, using your LMS group or access restrictions. The package cannot inspect another LMS activity's completion or grant access by itself.\nThe original exam's submissions, scores and completion locks stay in the original LMS activity. This new activity records its own score and responses separately. Its package identifier and browser attempt-storage key are different, so the old browser completion does not lock this new exam.\nOne extra attempt is available through this activity; it is not unlimited retries. Do not merge or overwrite old grades automatically.\n\nارفع الملف كنشاط SCORM جديد، ولا تستبدل نشاط الاختبار الأول ولا تحذف تسليماته. اضبط المحاولات على 1 والدرجة على 10، وخصص النشاط للطلاب الذين سلموا الاختبار الأول عبر مجموعات أو شروط الإتاحة في نظام LMS.\n\nSAME EXAM SPECIFICATION\n15 minutes from Start; 10 marks; three MCQs x 2 and one four-part numeric FRQ x 1 per blank; automated marking; images for every question; student name and number; shuffled topic-pool questions, MCQ order and choices; focus warning sound; same-attempt recovery and automatic timeout submission; score and response reporting to the LMS. Random forms may coincide.\n\nOriginal package setup and integrity details:\n${files['README.txt']}`
+};
+await mkdir(output,{recursive:true});
+execFileSync('python',['-c',`import zipfile,json,sys\nr=json.load(sys.stdin)\nwith zipfile.ZipFile(sys.argv[1]) as old,zipfile.ZipFile(sys.argv[2],'w',zipfile.ZIP_DEFLATED) as new:\n for name in sorted(old.namelist()):\n  info=zipfile.ZipInfo(name,(2026,1,1,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16\n  new.writestr(info,r[name].encode() if name in r else old.read(name))`,source,destination],{input:JSON.stringify(replacements)});
+if(createHash('sha256').update(await readFile(source)).digest('hex')!==before)throw Error('Original exam must remain unchanged');
+await writeFile(resolve(output,'10A1-Week10-Extra-Attempt-manifest.json'),JSON.stringify({classroom:'10A1',week:10,file:'10A1-Week10-Extra-Attempt-SCORM12.zip',packageId:id,manifestId,originalPackageId:original.id,originalArchiveSha256:before,totalMarks:10,durationSeconds:900,maxAttempts:1,requiresNewLmsActivity:true,audience:'Students who submitted the original exam; enforce through LMS groups/access restrictions.',preservesOriginalActivity:true,questionPoolIds:data.pools.map(p=>p.id),frqId:data.frq.id,focusAlarm:true,shuffleMcqOrder:true},null,2)+'\n');
+console.log('New independent 10A1 additional-attempt ZIP created; original ZIP unchanged.');
