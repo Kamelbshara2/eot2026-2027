@@ -1,5 +1,13 @@
 # Downloadable exams
 
+## 9G3 — individual exam, one trial
+
+[Download the new single-student Grade 9 SCORM 1.2 exam](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Single-Student-SCORM12.zip).
+
+Import as a **new LMS activity**, assign/restrict it to **only the intended student**, set maximum attempts to **1** and maximum grade to **10**. Use the LMS's individual assignment or a group containing only that learner. The ZIP cannot identify the intended student or enforce its audience by itself; typed student details are not access credentials.
+
+It preserves the approved **20-minute** Grade 9 exam, with the same pools, images, shuffled questions/options, four-part automatically marked FRQ, sound warning, saved progress, timeout submission and LMS grade reporting. Its distinct identifier provides a fresh attempt without altering earlier results. Rebuild with `node scripts/build-grade9-single-student-scorm.mjs`.
+
 ## Grade 9 Week 10 — 20-minute shuffled exam
 
 [Download the Grade 9 20-minute SCORM 1.2 exam](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-20min-SCORM12.zip).

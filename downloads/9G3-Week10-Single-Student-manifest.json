@@ -1,0 +1,18 @@
+{
+  "classroom": "9G3",
+  "week": 10,
+  "file": "9G3-Week10-Single-Student-SCORM12.zip",
+  "packageId": "math-9g3-week10-single-student-v1",
+  "manifestId": "MATH_9G3_WEEK10_SINGLE_STUDENT_V1",
+  "originalPackageId": "math-9g3-week10-20min-v1",
+  "originalArchiveSha256": "db92ff85939e9434a593d77ee80a570c103d6088e2d6d016ea2787d851d82f05",
+  "durationSeconds": 1200,
+  "totalMarks": 10,
+  "maxAttempts": 1,
+  "requiresNewLmsActivity": true,
+  "requiresIndividualLmsAssignment": true,
+  "intendedStudent": "Set in LMS; no student identity is embedded in this public package.",
+  "preservesPreviousSubmissions": true,
+  "focusAlarm": true,
+  "shuffleMcqOrder": true
+}
