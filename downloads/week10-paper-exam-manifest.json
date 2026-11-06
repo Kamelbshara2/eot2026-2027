@@ -1,0 +1,262 @@
+{
+  "week": 10,
+  "marks": 10,
+  "durationMinutes": 15,
+  "form": "Paper A",
+  "studentPagesPerExam": 2,
+  "exams": [
+    {
+      "classroom": "9G3",
+      "slug": "9G3-Week10-Paper-Exam",
+      "grade": "Grade 9 General",
+      "pages": 2,
+      "questions": [
+        {
+          "number": 1,
+          "id": "9g3-w10-p246-q12-description",
+          "poolId": "dilation-description",
+          "outcomeId": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+          "marks": 2,
+          "optionOrder": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "correctIndex": 1
+        },
+        {
+          "number": 2,
+          "id": "9g3-w10-p257-q29-argument",
+          "poolId": "sequence-argument",
+          "outcomeId": "f34f2dc5-4128-4de2-b3f1-ff310342e902",
+          "marks": 2,
+          "optionOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "correctIndex": 0
+        },
+        {
+          "number": 3,
+          "id": "9g3-w10-p246-q11-graph",
+          "poolId": "dilation-graph",
+          "outcomeId": "c7d88dcf-1447-43f6-828b-81bea41a4853",
+          "marks": 2,
+          "optionOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "frq": {
+        "id": "9g3-w10-scorm-sequence",
+        "number": 4,
+        "marks": 4,
+        "practiceIds": [
+          "9g3-w10-p255-q19-nth",
+          "9g3-w10-p255-q19-apply"
+        ],
+        "outcomeIds": [
+          "dee1f9d2-936b-4994-bd4d-37d6bf0a608d",
+          "703f9f26-dfdc-4bca-8fb8-0596a58fe33e"
+        ],
+        "blanks": [
+          {
+            "id": "slope",
+            "marks": 1,
+            "answer": -5
+          },
+          {
+            "id": "constant",
+            "marks": 1,
+            "answer": 2
+          },
+          {
+            "id": "term101",
+            "marks": 1,
+            "answer": -503
+          },
+          {
+            "id": "index",
+            "marks": 1,
+            "answer": 21
+          }
+        ]
+      }
+    },
+    {
+      "classroom": "10G3",
+      "slug": "10G3-Week10-Paper-Exam",
+      "grade": "Grade 10 General",
+      "pages": 2,
+      "questions": [
+        {
+          "number": 1,
+          "id": "10g3-w10-p583-q7",
+          "poolId": "quotient-power",
+          "outcomeId": "8b641081-a301-4718-8ea0-487f9ea4fbc7",
+          "marks": 2,
+          "optionOrder": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "correctIndex": 2
+        },
+        {
+          "number": 2,
+          "id": "10g3-w10-p591-q13",
+          "poolId": "negative-exponents",
+          "outcomeId": "3218eea3-e7d8-470c-8a49-4e71d4aad727",
+          "marks": 2,
+          "optionOrder": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "correctIndex": 0
+        },
+        {
+          "number": 3,
+          "id": "10g3-w10-p599-q14",
+          "poolId": "rational-root",
+          "outcomeId": "7ed9b45c-eadb-4785-8e94-3d988527a442",
+          "marks": 2,
+          "optionOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "correctIndex": 3
+        }
+      ],
+      "frq": {
+        "id": "10g3-w10-scorm-product",
+        "number": 4,
+        "marks": 4,
+        "practiceIds": [
+          "10g3-w10-supplied-q28"
+        ],
+        "outcomeIds": [
+          "14c1b86e-fc6a-4e77-b799-7def97beca04"
+        ],
+        "blanks": [
+          {
+            "id": "coefficient",
+            "marks": 1,
+            "answer": 16
+          },
+          {
+            "id": "first-power",
+            "marks": 1,
+            "answer": 12
+          },
+          {
+            "id": "second-power",
+            "marks": 1,
+            "answer": 9
+          },
+          {
+            "id": "final-power",
+            "marks": 1,
+            "answer": 21
+          }
+        ]
+      }
+    },
+    {
+      "classroom": "10A1",
+      "slug": "10A1-Week10-Paper-Exam",
+      "grade": "Grade 10 Advanced",
+      "pages": 2,
+      "questions": [
+        {
+          "number": 1,
+          "id": "10a1-w10-p165-q4",
+          "poolId": "geometric-mean",
+          "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+          "marks": 2,
+          "optionOrder": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "correctIndex": 3
+        },
+        {
+          "number": 2,
+          "id": "10a1-w10-p171-q7",
+          "poolId": "pythagorean-leg",
+          "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+          "marks": 2,
+          "optionOrder": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "correctIndex": 1
+        },
+        {
+          "number": 3,
+          "id": "10a1-w10-p184-q19",
+          "poolId": "special-triangle",
+          "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+          "marks": 2,
+          "optionOrder": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "frq": {
+        "id": "10a1-w10-scorm-coordinates",
+        "number": 4,
+        "marks": 4,
+        "practiceIds": [
+          "10a1-w10-coordinate-q19"
+        ],
+        "outcomeIds": [
+          "5ccc9f87-f16f-4382-8d13-f22ceadcd14b"
+        ],
+        "blanks": [
+          {
+            "id": "mx",
+            "marks": 1,
+            "answer": -3
+          },
+          {
+            "id": "my",
+            "marks": 1,
+            "answer": -1
+          },
+          {
+            "id": "mz",
+            "marks": 1,
+            "answer": 1
+          },
+          {
+            "id": "distance",
+            "marks": 1,
+            "answer": 6
+          }
+        ]
+      }
+    }
+  ],
+  "studentPack": "Week10-All-Classes-Paper-Exams",
+  "teacherKey": "Week10-Teacher-Answer-Keys"
+}

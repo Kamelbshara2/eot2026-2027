@@ -1,6 +1,20 @@
 # Downloadable exams
 
+## Week 10 — paper backup
+
+- [9G3 paper exam — PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Paper-Exam.pdf)
+- [10G3 paper exam — PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10G3-Week10-Paper-Exam.pdf)
+- [10A1 paper exam — PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10A1-Week10-Paper-Exam.pdf)
+- [All three student exams — six-page PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/Week10-All-Classes-Paper-Exams.pdf)
+- [Separate teacher answer keys — three-page PDF](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/Week10-Teacher-Answer-Keys.pdf)
+
+Print at **100% / actual size on A4**. Each classroom's two-page paper has the same **15-minute / 10-mark** blueprint as its LMS exam: three MCQs worth two marks each, and the same common four-part numeric FRQ worth one mark per blank. Name, student-number, class and date fields are blank. The paper MCQs form a fixed selection from the released SCORM topic pools; printed option letters are mapped in the separate teacher key. The student PDFs contain no model answers or watermarks.
+
+Build HTML and the review manifest with `node scripts/build-week10-paper-exams.mjs`, then export using `node scripts/export-week10-paper-pdfs.mjs` with Playwright/Chromium installed. If provided by the execution environment, set `PLAYWRIGHT_MODULE` to its installed module path and `CHROMIUM_PATH` to its browser executable. The exporter checks content against page footers and horizontal bounds before writing the PDFs. HTML sources and `week10-paper-exam-manifest.json` are included beside the PDFs for review.
+
 ## Week 10 — SCORM 1.2
+
+**10A1 correction:** its ZIP now includes the required triangle diagrams. If you imported the earlier copy, replace it in your LMS with the corrected ZIP below before administering the exam. The scoring, question pools and common FRQ are unchanged.
 
 - [9G3 — Grade 9 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Math-SCORM12.zip)
 - [10G3 — Grade 10 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10G3-Week10-Math-SCORM12.zip)
