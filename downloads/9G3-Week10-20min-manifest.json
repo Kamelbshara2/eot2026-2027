@@ -1,0 +1,59 @@
+{
+  "classroom": "9G3",
+  "week": 10,
+  "file": "9G3-Week10-20min-SCORM12.zip",
+  "packageId": "math-9g3-week10-20min-v1",
+  "manifestId": "MATH_9G3_WEEK10_20MIN_V1",
+  "originalPackageId": "math-9g3-week10-v1",
+  "originalArchiveSha256": "bfb09f6c18f2bb336f457cf02147955f7f030a471f04a8b948da68abea896555",
+  "totalMarks": 10,
+  "durationSeconds": 1200,
+  "maxAttempts": 1,
+  "requiresNewLmsActivity": true,
+  "focusAlarm": true,
+  "shuffleMcqOrder": true,
+  "pools": [
+    {
+      "id": "dilation-description",
+      "marks": 2,
+      "questionIds": [
+        "9g3-w10-p246-q10-description",
+        "9g3-w10-p246-q11-description",
+        "9g3-w10-p246-q12-description",
+        "9g3-w10-p246-q13-description",
+        "9g3-w10-p246-q14-description",
+        "9g3-w10-p246-q15-description"
+      ]
+    },
+    {
+      "id": "dilation-graph",
+      "marks": 2,
+      "questionIds": [
+        "9g3-w10-p246-q10-graph",
+        "9g3-w10-p246-q11-graph",
+        "9g3-w10-p246-q12-graph",
+        "9g3-w10-p246-q13-graph",
+        "9g3-w10-p246-q14-graph",
+        "9g3-w10-p246-q15-graph"
+      ]
+    },
+    {
+      "id": "sequence-argument",
+      "marks": 2,
+      "questionIds": [
+        "9g3-w10-p257-q28-argument",
+        "9g3-w10-p257-q29-argument",
+        "9g3-w10-p257-q30-argument",
+        "9g3-w10-p257-q31-argument"
+      ]
+    }
+  ],
+  "frq": {
+    "id": "9g3-w10-scorm-sequence",
+    "marks": 4,
+    "practiceIds": [
+      "9g3-w10-p255-q19-nth",
+      "9g3-w10-p255-q19-apply"
+    ]
+  }
+}

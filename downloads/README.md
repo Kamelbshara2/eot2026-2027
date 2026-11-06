@@ -1,5 +1,17 @@
 # Downloadable exams
 
+## Grade 9 Week 10 — 20-minute shuffled exam
+
+[Download the Grade 9 20-minute SCORM 1.2 exam](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-20min-SCORM12.zip).
+
+Import this as a **new LMS activity** for **9G3 / Grade 9 General**. Set maximum attempts to **1** and gradebook maximum to **10**. This version has a distinct package ID so previous 15-minute exam records stay intact. Its actual timer and all student-facing time labels are **20 minutes**, starting at Start and including time away. A reload resumes the same questions, options, responses and deadline.
+
+Every form draws one MCQ from each published Week 10 pool: dilation descriptions (6 items), dilation graphs (6), and arithmetic-sequence arguments (4). Each MCQ earns two marks; the common four-part numeric FRQ earns four marks, one per blank. All original question IDs, prompts, choices and correct indices are preserved. Description and graph questions cannot repeat a source exercise. MCQ order and options are shuffled independently; random forms can coincide. The FRQ stays last and retains the same marking across learners.
+
+All questions include relevant images: a parent graph for dilation descriptions, four accurately mapped graph options for graph-choice questions, and given-term illustrations for sequence arguments and the FRQ. The illustrations do not show differences, formulas or future terms. Student name/number, automatic correction, LMS score/response reporting, warning sound, focus logs, copy/print restrictions, automatic timeout submission and completed-attempt locks are included. Enable/test sound before starting and after reopening; browser/device restrictions can suppress audio. These browser controls do not provide secure remote proctoring.
+
+Build with `node scripts/build-grade9-week10-20min-scorm.mjs`; inspect `9G3-Week10-20min-manifest.json` for the pool blueprint. The original Grade 9 and Grade 10 ZIPs are unchanged.
+
 ## 10A1 Week 10 — one additional attempt
 
 [Download the separate additional-attempt SCORM 1.2 ZIP](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10A1-Week10-Extra-Attempt-SCORM12.zip).
