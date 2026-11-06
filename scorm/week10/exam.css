@@ -2,3 +2,5 @@
 @media(max-width:560px){.shell{margin:12px auto;padding:0 10px 25px}header,.form-card,.start,.result{padding:20px 16px}.school{flex-direction:column;gap:0}h1{font-size:24px}.time-row{gap:8px;padding:10px;font-size:11px}.time-row button{font-size:11px;padding:7px}#timer{font-size:22px}.student-fields{grid-template-columns:1fr}.submit-row{flex-wrap:wrap}.graph-options{grid-template-columns:1fr;gap:10px}.graph-options .option{padding:7px}.bilingual{font-size:15px}}
 @media print{.shell,dialog{display:none!important}.print-block{display:block;font-size:24px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.alarm-tools{display:flex;align-items:center;gap:12px;margin-top:12px;padding:12px;background:#fff6dd;border:1px solid #d6bd78;border-radius:8px}.alarm-tools button{font-size:12px;flex-shrink:0}.alarm-tools span{font-size:12px;line-height:1.6}.geometric-mean-exam-figure figcaption,.coordinate-exam-figure figcaption{font-size:12px;line-height:1.6;color:#566e63;text-align:center}@media(max-width:560px){.alarm-tools{align-items:stretch;flex-direction:column}.alarm-tools button{align-self:flex-start}}

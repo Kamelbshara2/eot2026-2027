@@ -13,6 +13,7 @@
   "exams": [
     {
       "classroom": "9G3",
+      "audibleFocusWarning": false,
       "packageId": "math-9g3-week10-v1",
       "file": "9G3-Week10-Math-SCORM12.zip",
       "pools": [
@@ -99,6 +100,7 @@
     },
     {
       "classroom": "10G3",
+      "audibleFocusWarning": false,
       "packageId": "math-10g3-week10-v1",
       "file": "10G3-Week10-Math-SCORM12.zip",
       "pools": [
@@ -179,6 +181,7 @@
     },
     {
       "classroom": "10A1",
+      "audibleFocusWarning": true,
       "packageId": "math-10a1-week10-v1",
       "file": "10A1-Week10-Math-SCORM12.zip",
       "pools": [

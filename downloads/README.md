@@ -16,6 +16,8 @@ Build HTML and the review manifest with `node scripts/build-week10-paper-exams.m
 
 **10A1 correction:** its ZIP now includes the required triangle diagrams. If you imported the earlier copy, replace it in your LMS with the corrected ZIP below before administering the exam. The scoring, question pools and common FRQ are unchanged.
 
+**10A1 images and sound:** every MCQ pool variant, including Question 1's geometric mean, and the common 3D-coordinate FRQ include embedded SVG diagrams. The 10A1 paper backup also includes these illustrations. The 10A1 SCORM exam plays a repeating warning tone when the exam tab becomes hidden or its window loses focus, and stops on return or submission. Start unlocks sound; students can use **Test / enable alarm** before starting and after reopening. Keep device audio on and allow audio in the LMS player. Browser/OS restrictions or mute can suppress sound; the visible warning and LMS focus log remain. Focus loss can indicate minimizing or switching apps, but the browser cannot identify the other app. Scores, student details and warnings continue to be reported to the LMS after submission. The sound feature is enabled for 10A1 only.
+
 - [9G3 — Grade 9 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Math-SCORM12.zip)
 - [10G3 — Grade 10 General](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10G3-Week10-Math-SCORM12.zip)
 - [10A1 — Grade 10 Advanced](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/10A1-Week10-Math-SCORM12.zip)
