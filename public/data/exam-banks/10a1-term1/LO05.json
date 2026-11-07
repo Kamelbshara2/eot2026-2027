@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO05",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO05",
+    "question_count": 6,
+    "mcq_count": 6,
+    "frq_count": 0
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Interior angles of polygons",
+      "statement": "Find and use the sum of the measures of the interior angles of a polygon.",
+      "rule_summary": "For a simple n-sided polygon, the interior angle sum is (n − 2)180°. For a regular polygon, each interior angle is (n − 2)180°/n.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 63,
+          "exercises_or_section": "1–4"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q05-MCQ-01",
+      "display_number": "5.1",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "What is the sum of the interior angles of a nonagon?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1260°"
+        },
+        {
+          "id": "B",
+          "text": "1620°"
+        },
+        {
+          "id": "C",
+          "text": "1080°"
+        },
+        {
+          "id": "D",
+          "text": "1440°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "1260°",
+        "explanation": "(9−2)180=1260."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-02",
+      "display_number": "5.2",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A polygon has an interior angle sum of 1980°. How many sides does it have?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "14"
+        },
+        {
+          "id": "B",
+          "text": "11"
+        },
+        {
+          "id": "C",
+          "text": "13"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "13",
+        "explanation": "n−2=1980/180=11."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-03",
+      "display_number": "5.3",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "What is each interior angle of a regular decagon?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "140°"
+        },
+        {
+          "id": "B",
+          "text": "150°"
+        },
+        {
+          "id": "C",
+          "text": "144°"
+        },
+        {
+          "id": "D",
+          "text": "36°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "144°",
+        "explanation": "1440/10=144."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-04",
+      "display_number": "5.4",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A pentagon has angles 105°, 110°, 120°, 95°, and x°. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "110°"
+        },
+        {
+          "id": "B",
+          "text": "90°"
+        },
+        {
+          "id": "C",
+          "text": "100°"
+        },
+        {
+          "id": "D",
+          "text": "130°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "110°",
+        "explanation": "540−(105+110+120+95)=110."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-05",
+      "display_number": "5.5",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A quadrilateral has angles x°, (x + 20)°, 2x°, and (2x − 20)°. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "60°"
+        },
+        {
+          "id": "B",
+          "text": "70°"
+        },
+        {
+          "id": "C",
+          "text": "90°"
+        },
+        {
+          "id": "D",
+          "text": "50°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "60°",
+        "explanation": "6x=360."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-06",
+      "display_number": "5.6",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A regular polygon has interior angle 165°. How many sides does it have?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "22"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "24",
+        "explanation": "Its exterior angle is 15° and 360/15=24."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    }
+  ]
+}

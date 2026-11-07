@@ -1,0 +1,11 @@
+# Grade 10 Advanced Term 1 bank
+
+`Grade10_Advanced_Question_Bank.json` is the supplied source file, retained byte-for-byte. It contains 25 learning outcomes, 120 MCQs and 15 multipart FRQs. Its textbook references identify alignment; the questions are newly authored parallel practice, as stated in the file.
+
+Run `node scripts/import-grade10-advanced-term1-bank.mjs` to publish the standalone 10A1 bank in `public/data/exam-banks/10a1-term1/`. The output contains the original source, the complete organized `bank.json`, a site index, one downloadable JSON bank per LO and the three referenced SVG illustrations. The importer rejects unknown outcomes, duplicate IDs, invalid answer mappings, incorrect FRQ mark totals and executable/external SVG content.
+
+The site exposes this bank under **10A1 → Term 1 exam question bank**, independently of Weeks 8–10. MCQ marks remain `null`, as supplied; each written practice set retains its author-assigned 10 marks. Student drafts are held in the current browser tab only and are explicitly labelled as not sent to the teacher. This addition does not seed or modify the live Neon database or alter existing question/exam records.
+
+One documented content clarification is applied to the published question copy: **G10A-Q23-FRQ-03, part (b)** now uses a separate pair of similar triangles with the same 3:5 scale factor. The original triangle's sides 6, 9, 12 imply a median from A of √90/2, so the additional stated median 7.2 could not belong to that triangle. The new wording preserves the supplied number, intended answer 12 and two marks. The index and LO23 download record the original and revised wording; the original source download is untouched.
+
+**G10A-Q19-MCQ-03** also carries a calculator-precision note: 45/tan(18°) ≈ 138.495759 m rounds to 138 m. The original question, correct option and explanation remain intact; the note prevents rounding the intermediate value to 138.5 before rounding again.
