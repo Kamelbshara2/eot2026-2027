@@ -1,0 +1,324 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO15",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO15",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO15",
+      "exam_slot": "Q15",
+      "title": "Square root and completing-square methods",
+      "title_ar": "الجذر التربيعي وإكمال المربع",
+      "statement": "Solve quadratic equations using the Square Root Property and by completing the square.",
+      "rule_summary": "Isolate (x−h)²; take both square roots. Complete the square by adding (b/2)².",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 730,
+          "exercises_or_section": "37–39"
+        },
+        {
+          "printed_page": 725,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 729,
+          "exercises_or_section": "10–12 (supplementary same-LO equations)"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q15-MCQ-01",
+        "G10G-Q15-MCQ-02",
+        "G10G-Q15-MCQ-03",
+        "G10G-Q15-MCQ-04",
+        "G10G-Q15-MCQ-05",
+        "G10G-Q15-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO15.json",
+      "booklet_question_ids": [
+        "G10G-Q15-MCQ-01",
+        "G10G-Q15-MCQ-02",
+        "G10G-Q15-MCQ-03",
+        "G10G-Q15-MCQ-05"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q15-MCQ-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.1",
+      "instruction": "Which expression does not belong because it is not a perfect square trinomial?",
+      "stem": "Which expression does not belong because it is not a perfect square trinomial?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "n^2+n+\\frac34",
+          "math_latex": "n^2+n+\\frac34"
+        },
+        {
+          "id": "B",
+          "text": "n^2-n+\\frac14",
+          "math_latex": "n^2-n+\\frac14"
+        },
+        {
+          "id": "C",
+          "text": "n^2-\\frac23n+\\frac19",
+          "math_latex": "n^2-\\frac23n+\\frac19"
+        },
+        {
+          "id": "D",
+          "text": "n^2+\\frac13n+\\frac1{36}",
+          "math_latex": "n^2+\\frac13n+\\frac1{36}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "n^2+n+\\frac34",
+        "explanation": "The first, third and fourth forms equal (n−½)², (n−⅓)² and (n+⅙)². For n²+n+c, c must be ¼, not ¾."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 730,
+        "pdf_page": 162,
+        "exercise": "37",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q15-MCQ-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.2",
+      "instruction": "Create a quadratic equation for which the only solution is 4. Choose a valid equation.",
+      "stem": "Create a quadratic equation for which the only solution is 4. Choose a valid equation.",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x^2-16=0",
+          "math_latex": "x^2-16=0"
+        },
+        {
+          "id": "B",
+          "text": "(x+4)^2=0",
+          "math_latex": "(x+4)^2=0"
+        },
+        {
+          "id": "C",
+          "text": "x^2-4=0",
+          "math_latex": "x^2-4=0"
+        },
+        {
+          "id": "D",
+          "text": "(x-4)^2=0",
+          "math_latex": "(x-4)^2=0"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "(x-4)^2=0",
+        "explanation": "(x−4)²=0 has the repeated root x=4; x²−16=0 also has −4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 730,
+        "pdf_page": 162,
+        "exercise": "38",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q15-MCQ-03",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.3",
+      "instruction": "For x²−5x−7=0, which comparison of completing the square, graphing and factoring is correct?",
+      "stem": "For x²−5x−7=0, which comparison of completing the square, graphing and factoring is correct?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Graphing always gives exact irrational roots."
+        },
+        {
+          "id": "B",
+          "text": "Completing the square gives only one root."
+        },
+        {
+          "id": "C",
+          "text": "Completing the square gives exact irrational roots; graphing estimates them; integer factoring does not work."
+        },
+        {
+          "id": "D",
+          "text": "Integer factoring gives roots 7 and −1."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Completing the square gives exact irrational roots; graphing estimates them; integer factoring does not work.",
+        "explanation": "The discriminant is 53, not a perfect square. Completing the square gives (5±√53)/2; graphing estimates the two intercepts."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 730,
+        "pdf_page": 162,
+        "exercise": "39",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q15-MCQ-04",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.4",
+      "instruction": "Solve by completing the square.",
+      "stem": "Solve by completing the square. x^2+6x-16=0",
+      "math_latex": "x^2+6x-16=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-3\\pm4",
+          "math_latex": "x=-3\\pm4"
+        },
+        {
+          "id": "B",
+          "text": "x=2,-8",
+          "math_latex": "x=2,-8"
+        },
+        {
+          "id": "C",
+          "text": "x=-2,8",
+          "math_latex": "x=-2,8"
+        },
+        {
+          "id": "D",
+          "text": "x=4,-4",
+          "math_latex": "x=4,-4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "x=2,-8",
+        "explanation": "Move the constant term; add (half the x-coefficient)² to both sides; take both square roots."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "10",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q15-MCQ-05",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.5",
+      "instruction": "Solve by completing the square.",
+      "stem": "Solve by completing the square. x^2-2x-14=0",
+      "math_latex": "x^2-2x-14=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=1\\pm\\sqrt{15}",
+          "math_latex": "x=1\\pm\\sqrt{15}"
+        },
+        {
+          "id": "B",
+          "text": "x=-1\\pm\\sqrt{15}",
+          "math_latex": "x=-1\\pm\\sqrt{15}"
+        },
+        {
+          "id": "C",
+          "text": "x=1\\pm\\sqrt{14}",
+          "math_latex": "x=1\\pm\\sqrt{14}"
+        },
+        {
+          "id": "D",
+          "text": "x=2\\pm\\sqrt{15}",
+          "math_latex": "x=2\\pm\\sqrt{15}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "x=1\\pm\\sqrt{15}",
+        "explanation": "Move the constant term; add (half the x-coefficient)² to both sides; take both square roots."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "11",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q15-MCQ-06",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.6",
+      "instruction": "Solve by completing the square.",
+      "stem": "Solve by completing the square. x^2-8x-1=8",
+      "math_latex": "x^2-8x-1=8",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-9,1",
+          "math_latex": "x=-9,1"
+        },
+        {
+          "id": "B",
+          "text": "x=4\\pm\\sqrt{17}",
+          "math_latex": "x=4\\pm\\sqrt{17}"
+        },
+        {
+          "id": "C",
+          "text": "x=8,-1",
+          "math_latex": "x=8,-1"
+        },
+        {
+          "id": "D",
+          "text": "x=9,-1",
+          "math_latex": "x=9,-1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x=9,-1",
+        "explanation": "Move the constant term; add (half the x-coefficient)² to both sides; take both square roots."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "12",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

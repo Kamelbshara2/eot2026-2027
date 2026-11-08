@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO17",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO17",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Factoring quadratic equations",
+      "title_ar": "حل المعادلات التربيعية بالتحليل",
+      "statement": "Solve quadratic equations by factoring.",
+      "rule_summary": "Write one side as zero, factor fully, and apply the zero-product property. Check every root.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 721,
+          "exercises_or_section": "5–10"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q17-MCQ-01",
+        "G10G-Q17-MCQ-02",
+        "G10G-Q17-MCQ-03",
+        "G10G-Q17-MCQ-04",
+        "G10G-Q17-MCQ-05",
+        "G10G-Q17-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO17.json",
+      "booklet_question_ids": [
+        "G10G-Q17-MCQ-01",
+        "G10G-Q17-MCQ-02",
+        "G10G-Q17-MCQ-03",
+        "G10G-Q17-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q17-MCQ-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.1",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. 3b(9b-27)=0",
+      "math_latex": "3b(9b-27)=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "b=0,-3",
+          "math_latex": "b=0,-3"
+        },
+        {
+          "id": "B",
+          "text": "b=-3,3",
+          "math_latex": "b=-3,3"
+        },
+        {
+          "id": "C",
+          "text": "b=0,3",
+          "math_latex": "b=0,3"
+        },
+        {
+          "id": "D",
+          "text": "b=3",
+          "math_latex": "b=3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "b=0,3",
+        "explanation": "Either 3b=0 or 9b−27=0, so b=0 or 3."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q17-MCQ-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.2",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. (7x+3)(2x-6)=0",
+      "math_latex": "(7x+3)(2x-6)=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-\\frac73,3",
+          "math_latex": "x=-\\frac73,3"
+        },
+        {
+          "id": "B",
+          "text": "x=-\\frac37,3",
+          "math_latex": "x=-\\frac37,3"
+        },
+        {
+          "id": "C",
+          "text": "x=\\frac37,-3",
+          "math_latex": "x=\\frac37,-3"
+        },
+        {
+          "id": "D",
+          "text": "x=-3,3",
+          "math_latex": "x=-3,3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "x=-\\frac37,3",
+        "explanation": "Set 7x+3=0 and 2x−6=0 separately."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q17-MCQ-03",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.3",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. b^2=-3b",
+      "math_latex": "b^2=-3b",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "b=0,-3",
+          "math_latex": "b=0,-3"
+        },
+        {
+          "id": "B",
+          "text": "b=-3",
+          "math_latex": "b=-3"
+        },
+        {
+          "id": "C",
+          "text": "b=0,3",
+          "math_latex": "b=0,3"
+        },
+        {
+          "id": "D",
+          "text": "b=-3,3",
+          "math_latex": "b=-3,3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "b=0,-3",
+        "explanation": "b²+3b=b(b+3)=0. Do not divide by b and lose zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "7",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q17-MCQ-04",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.4",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. a^2=4a",
+      "math_latex": "a^2=4a",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "a=4",
+          "math_latex": "a=4"
+        },
+        {
+          "id": "B",
+          "text": "a=0,-4",
+          "math_latex": "a=0,-4"
+        },
+        {
+          "id": "C",
+          "text": "a=-4,4",
+          "math_latex": "a=-4,4"
+        },
+        {
+          "id": "D",
+          "text": "a=0,4",
+          "math_latex": "a=0,4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "a=0,4",
+        "explanation": "a(a−4)=0, so a=0 or 4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "8",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q17-MCQ-05",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.5",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. x^2-6x=27",
+      "math_latex": "x^2-6x=27",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=3,9",
+          "math_latex": "x=3,9"
+        },
+        {
+          "id": "B",
+          "text": "x=-3,-9",
+          "math_latex": "x=-3,-9"
+        },
+        {
+          "id": "C",
+          "text": "x=-3,9",
+          "math_latex": "x=-3,9"
+        },
+        {
+          "id": "D",
+          "text": "x=3,-9",
+          "math_latex": "x=3,-9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "x=-3,9",
+        "explanation": "x²−6x−27=(x−9)(x+3)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "9",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q17-MCQ-06",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.6",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. a^2+11a=-18",
+      "math_latex": "a^2+11a=-18",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "a=2,-9",
+          "math_latex": "a=2,-9"
+        },
+        {
+          "id": "B",
+          "text": "a=-2,-9",
+          "math_latex": "a=-2,-9"
+        },
+        {
+          "id": "C",
+          "text": "a=2,9",
+          "math_latex": "a=2,9"
+        },
+        {
+          "id": "D",
+          "text": "a=-3,-6",
+          "math_latex": "a=-3,-6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "a=-2,-9",
+        "explanation": "a²+11a+18=(a+2)(a+9)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "10",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

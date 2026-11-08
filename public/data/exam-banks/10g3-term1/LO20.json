@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO20",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO20",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO20",
+      "exam_slot": "Q20",
+      "title": "Complete the square",
+      "title_ar": "إكمال المربع",
+      "statement": "Solve quadratic equations by completing the square.",
+      "rule_summary": "First make the coefficient of x² equal to 1. Add (b/2)² to form a perfect square.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 729,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q20-MCQ-01",
+        "G10G-Q20-MCQ-02",
+        "G10G-Q20-MCQ-03",
+        "G10G-Q20-MCQ-04",
+        "G10G-Q20-MCQ-05",
+        "G10G-Q20-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO20.json",
+      "booklet_question_ids": [
+        "G10G-Q20-MCQ-01",
+        "G10G-Q20-MCQ-02",
+        "G10G-Q20-MCQ-03",
+        "G10G-Q20-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q20-MCQ-01",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.1",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2+26x+c",
+      "math_latex": "x^2+26x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "26",
+          "math_latex": "26"
+        },
+        {
+          "id": "B",
+          "text": "676",
+          "math_latex": "676"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{169}{4}",
+          "math_latex": "\\frac{169}{4}"
+        },
+        {
+          "id": "D",
+          "text": "169",
+          "math_latex": "169"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "169",
+        "explanation": "c=(b/2)²=(26/2)²=169."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "1",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q20-MCQ-02",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.2",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2-24x+c",
+      "math_latex": "x^2-24x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "576",
+          "math_latex": "576"
+        },
+        {
+          "id": "B",
+          "text": "36",
+          "math_latex": "36"
+        },
+        {
+          "id": "C",
+          "text": "144",
+          "math_latex": "144"
+        },
+        {
+          "id": "D",
+          "text": "24",
+          "math_latex": "24"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "144",
+        "explanation": "c=(b/2)²=(-24/2)²=144."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "2",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q20-MCQ-03",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.3",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2-19x+c",
+      "math_latex": "x^2-19x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{361}{16}",
+          "math_latex": "\\frac{361}{16}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{361}{4}",
+          "math_latex": "\\frac{361}{4}"
+        },
+        {
+          "id": "C",
+          "text": "19",
+          "math_latex": "19"
+        },
+        {
+          "id": "D",
+          "text": "361",
+          "math_latex": "361"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{361}{4}",
+        "explanation": "c=(b/2)²=(-19/2)²=361/4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q20-MCQ-04",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.4",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2+11x+c",
+      "math_latex": "x^2+11x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{121}{4}",
+          "math_latex": "\\frac{121}{4}"
+        },
+        {
+          "id": "B",
+          "text": "11",
+          "math_latex": "11"
+        },
+        {
+          "id": "C",
+          "text": "121",
+          "math_latex": "121"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{121}{16}",
+          "math_latex": "\\frac{121}{16}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{121}{4}",
+        "explanation": "c=(b/2)²=(11/2)²=121/4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q20-MCQ-05",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.5",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2+5x+c",
+      "math_latex": "x^2+5x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5",
+          "math_latex": "5"
+        },
+        {
+          "id": "B",
+          "text": "25",
+          "math_latex": "25"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{25}{16}",
+          "math_latex": "\\frac{25}{16}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{25}{4}",
+          "math_latex": "\\frac{25}{4}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{25}{4}",
+        "explanation": "c=(b/2)²=(5/2)²=25/4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q20-MCQ-06",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.6",
+      "instruction": "Find c so that the trinomial is a perfect square.",
+      "stem": "Find c so that the trinomial is a perfect square. x^2-8x+c",
+      "math_latex": "x^2-8x+c",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "64",
+          "math_latex": "64"
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "C",
+          "text": "16",
+          "math_latex": "16"
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "math_latex": "8"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "16",
+        "explanation": "c=(b/2)²=(-8/2)²=16."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 729,
+        "pdf_page": 161,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

@@ -7,3 +7,6 @@
 .theme-masar .term-mock-heading>a{color:#e5f4b9}.theme-masar #mock-save-status{color:#c4d7b8}
 @media(max-width:650px){.term-mock-entry{flex-direction:column;align-items:stretch;padding:20px}.term-mock-entry h2{font-size:20px}.term-mock-start,.term-mock-result{padding:20px 16px}.term-mock-start h2{font-size:20px}.term-mock-clock{gap:8px;padding:12px;font-size:11px;top:4px}.term-mock-clock strong{font-size:26px}.term-mock-nav{gap:6px}.term-mock-nav button{min-width:38px;min-height:42px}.term-mock-review summary{flex-direction:column;align-items:flex-start;gap:5px}.term-mock-heading h1{font-size:28px}}
 }
+@media screen{
+.term-exam-bank .term-bank-math{font-size:20px;line-height:2;overflow-x:auto;max-width:100%;padding:12px 0;color:#234632}.term-exam-bank .term-bank-source{font:12px/1.8 Arial,sans-serif;color:#65765c;margin:12px 0}.term-exam-bank .term-bank-options .katex{font-size:1.05em}.term-exam-bank .term-bank-question,.term-exam-bank .term-bank-card,.term-exam-bank .term-bank-outcome-context{color:#234632}.term-exam-bank .term-bank-question-meta{gap:20px}.theme-masar .term-bank-heading h1{color:#eef5d4}.theme-masar .term-bank-heading>a{color:#e5f4b9}.term-exam-bank .term-bank-figure img{object-fit:contain;max-height:400px}.term-exam-bank .term-bank-figure{max-width:420px}.term-mock-exam .term-bank-source{display:none}
+}

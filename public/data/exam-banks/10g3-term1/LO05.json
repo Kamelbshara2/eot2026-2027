@@ -1,0 +1,316 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO05",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO05",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Analyse monic trinomial factors",
+      "title_ar": "تحليل ثلاثيات الحدود ومعاملاتها",
+      "statement": "Factor trinomials of the form x² + bx + c.",
+      "rule_summary": "For (x+r)(x+s), r+s=b and rs=c. Enumerate integer factor pairs.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 674,
+          "exercises_or_section": "73–78"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q05-MCQ-01",
+        "G10G-Q05-MCQ-02",
+        "G10G-Q05-MCQ-03",
+        "G10G-Q05-MCQ-04",
+        "G10G-Q05-MCQ-05",
+        "G10G-Q05-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO05.json",
+      "booklet_question_ids": [
+        "G10G-Q05-MCQ-02",
+        "G10G-Q05-MCQ-03",
+        "G10G-Q05-MCQ-05",
+        "G10G-Q05-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q05-MCQ-01",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.1",
+      "instruction": "Which expression does not belong because it cannot be factored using integers?",
+      "stem": "Which expression does not belong because it cannot be factored using integers?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x^{2} + 11 x + 24",
+          "math_latex": "x^{2} + 11 x + 24"
+        },
+        {
+          "id": "B",
+          "text": "x^{2} - 10 x - 24",
+          "math_latex": "x^{2} - 10 x - 24"
+        },
+        {
+          "id": "C",
+          "text": "x^{2} + 12 x + 24",
+          "math_latex": "x^{2} + 12 x + 24"
+        },
+        {
+          "id": "D",
+          "text": "x^{2} + 2 x - 24",
+          "math_latex": "x^{2} + 2 x - 24"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "x^{2} + 12 x + 24",
+        "explanation": "For 24, no integer factor pair sums to 12. The other three factor into integer binomials."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "73",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q05-MCQ-02",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.2",
+      "instruction": "Jamaall: (x+2)(x−8). Charles: (x−2)(x+8). Who correctly factored x²+6x−16?",
+      "stem": "Jamaall: (x+2)(x−8). Charles: (x−2)(x+8). Who correctly factored x²+6x−16?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Neither student"
+        },
+        {
+          "id": "B",
+          "text": "Charles only"
+        },
+        {
+          "id": "C",
+          "text": "Jamaall only"
+        },
+        {
+          "id": "D",
+          "text": "Both students"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Charles only",
+        "explanation": "Charles: (x−2)(x+8)=x²+6x−16. Jamaall gets a middle term of −6x."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "74",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q05-MCQ-03",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.3",
+      "instruction": "Find all values of k for which the polynomial factors using integers.",
+      "stem": "Find all values of k for which the polynomial factors using integers. x^2+kx-19",
+      "math_latex": "x^2+kx-19",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "k\\in\\{-18,18\\}",
+          "math_latex": "k\\in\\{-18,18\\}"
+        },
+        {
+          "id": "B",
+          "text": "k\\in\\{-20,20\\}",
+          "math_latex": "k\\in\\{-20,20\\}"
+        },
+        {
+          "id": "C",
+          "text": "k\\in\\{-19,19\\}",
+          "math_latex": "k\\in\\{-19,19\\}"
+        },
+        {
+          "id": "D",
+          "text": "k=18",
+          "math_latex": "k=18"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "k\\in\\{-18,18\\}",
+        "explanation": "The integer factors of −19 are (1,−19) and (−1,19); the sums are −18 and 18."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "75",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q05-MCQ-04",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.4",
+      "instruction": "Find all values of k for which the polynomial factors using integers.",
+      "stem": "Find all values of k for which the polynomial factors using integers. x^2+kx+14",
+      "math_latex": "x^2+kx+14",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "k\\in\\{9,15\\}",
+          "math_latex": "k\\in\\{9,15\\}"
+        },
+        {
+          "id": "B",
+          "text": "k\\in\\{-14,14\\}",
+          "math_latex": "k\\in\\{-14,14\\}"
+        },
+        {
+          "id": "C",
+          "text": "k\\in\\{-8,8\\}",
+          "math_latex": "k\\in\\{-8,8\\}"
+        },
+        {
+          "id": "D",
+          "text": "k\\in\\{-15,-9,9,15\\}",
+          "math_latex": "k\\in\\{-15,-9,9,15\\}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "k\\in\\{-15,-9,9,15\\}",
+        "explanation": "Integer pairs with product 14 give sums ±15 and ±9."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "76",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q05-MCQ-05",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.5",
+      "instruction": "Find all values of k for which the polynomial factors using integers.",
+      "stem": "Find all values of k for which the polynomial factors using integers. x^2-8x+k,\\quad k>0",
+      "math_latex": "x^2-8x+k,\\quad k>0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "k\\in\\{8,16\\}",
+          "math_latex": "k\\in\\{8,16\\}"
+        },
+        {
+          "id": "B",
+          "text": "k\\in\\{1,2,3,4\\}",
+          "math_latex": "k\\in\\{1,2,3,4\\}"
+        },
+        {
+          "id": "C",
+          "text": "k\\in\\{7,12,15,16\\}",
+          "math_latex": "k\\in\\{7,12,15,16\\}"
+        },
+        {
+          "id": "D",
+          "text": "k\\in\\{7,12,15\\}",
+          "math_latex": "k\\in\\{7,12,15\\}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "k\\in\\{7,12,15,16\\}",
+        "explanation": "Pairs of negative integers with sum −8 have products 7, 12, 15 and 16."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "77",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q05-MCQ-06",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.6",
+      "instruction": "Find all values of k for which the polynomial factors using integers.",
+      "stem": "Find all values of k for which the polynomial factors using integers. x^2-5x+k,\\quad k>0",
+      "math_latex": "x^2-5x+k,\\quad k>0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "k=6",
+          "math_latex": "k=6"
+        },
+        {
+          "id": "B",
+          "text": "k\\in\\{4,6\\}",
+          "math_latex": "k\\in\\{4,6\\}"
+        },
+        {
+          "id": "C",
+          "text": "k\\in\\{4,5,6\\}",
+          "math_latex": "k\\in\\{4,5,6\\}"
+        },
+        {
+          "id": "D",
+          "text": "k\\in\\{1,5\\}",
+          "math_latex": "k\\in\\{1,5\\}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "k\\in\\{4,6\\}",
+        "explanation": "The negative integer pairs (−1,−4) and (−2,−3) give products 4 and 6."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 674,
+        "pdf_page": 106,
+        "exercise": "78",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

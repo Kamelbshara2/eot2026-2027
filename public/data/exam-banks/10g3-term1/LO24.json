@@ -1,0 +1,315 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO24",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO24",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Quadratic extrema and graph features",
+      "title_ar": "القيم العظمى والصغرى وخصائص المنحنى",
+      "statement": "Find and interpret maximum and minimum values of a quadratic function.",
+      "rule_summary": "The vertex (h,k) gives the minimum k when the graph opens up and maximum k when it opens down; the axis is x=h.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 695,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q24-FRQ-01",
+        "G10G-Q24-FRQ-02",
+        "G10G-Q24-FRQ-03",
+        "G10G-Q24-FRQ-04"
+      ],
+      "question_count": 4,
+      "download": "LO24.json",
+      "booklet_question_ids": [
+        "G10G-Q24-FRQ-01",
+        "G10G-Q24-FRQ-02",
+        "G10G-Q24-FRQ-03",
+        "G10G-Q24-FRQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q24-FRQ-01",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.1",
+      "instruction": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "stem": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Axis of symmetry and vertex.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Axis x=0 (2); vertex (0,1) (3).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "y-intercept and end behavior.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "y-intercept (0,1) (2); y→−∞ as x→±∞; maximum 1 (3). The extremum is the vertex y-coordinate.",
+            "math_latex": ""
+          }
+        }
+      ],
+      "diagram_asset_ids": [
+        "extrema_1"
+      ],
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "1",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q24-FRQ-02",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.2",
+      "instruction": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "stem": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Axis of symmetry and vertex.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Axis x=1 (2); vertex (1,1) (3).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "y-intercept and end behavior.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "y-intercept (0,4) (2); y→+∞ as x→±∞; minimum 1 (3). The extremum is the vertex y-coordinate.",
+            "math_latex": ""
+          }
+        }
+      ],
+      "diagram_asset_ids": [
+        "extrema_2"
+      ],
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "2",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q24-FRQ-03",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.3",
+      "instruction": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "stem": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Axis of symmetry and vertex.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Axis x=0 (2); vertex (0,−4) (3).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "y-intercept and end behavior.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "y-intercept (0,−4) (2); y→+∞ as x→±∞; minimum −4 (3). The extremum is the vertex y-coordinate.",
+            "math_latex": ""
+          }
+        }
+      ],
+      "diagram_asset_ids": [
+        "extrema_3"
+      ],
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "3",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q24-FRQ-04",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.4",
+      "instruction": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "stem": "Identify the axis of symmetry, vertex and y-intercept of the graph. Then describe the end behavior.",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Axis of symmetry and vertex.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Axis x=−3 (2); vertex (−3,−6) (3).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "y-intercept and end behavior.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "y-intercept (0,3) (2); y→+∞ as x→±∞; minimum −6 (3). The extremum is the vertex y-coordinate.",
+            "math_latex": ""
+          }
+        }
+      ],
+      "diagram_asset_ids": [
+        "extrema_4"
+      ],
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "4",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    }
+  ],
+  "assets": {
+    "extrema_1": {
+      "src": "assets/extrema_1.png",
+      "width": 314,
+      "height": 312,
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 1; one unit per grid square.",
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "extrema_1",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.18,
+        0.14,
+        0.355,
+        0.263
+      ]
+    },
+    "extrema_3": {
+      "src": "assets/extrema_3.png",
+      "width": 314,
+      "height": 312,
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 3; one unit per grid square.",
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "extrema_3",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.18,
+        0.302,
+        0.355,
+        0.425
+      ]
+    },
+    "extrema_4": {
+      "src": "assets/extrema_4.png",
+      "width": 310,
+      "height": 312,
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 4; one unit per grid square.",
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "extrema_4",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.542,
+        0.302,
+        0.715,
+        0.425
+      ]
+    },
+    "extrema_2": {
+      "src": "assets/extrema_2.png",
+      "width": 310,
+      "height": 312,
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 2; one unit per grid square.",
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "extrema_2",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.542,
+        0.14,
+        0.715,
+        0.263
+      ]
+    }
+  }
+}

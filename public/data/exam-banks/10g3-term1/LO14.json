@@ -1,0 +1,324 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO14",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO14",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO14",
+      "exam_slot": "Q14",
+      "title": "Factoring in context",
+      "title_ar": "تطبيق التحليل في مسائل تربيعية",
+      "statement": "Solve quadratic equations by factoring.",
+      "rule_summary": "Set a physical model equal to the required height/volume, factor, then reject roots outside its domain.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 722,
+          "exercises_or_section": "29–30"
+        },
+        {
+          "printed_page": 721,
+          "exercises_or_section": "15–18 (supplementary same-LO exercises)"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q14-MCQ-01",
+        "G10G-Q14-MCQ-02",
+        "G10G-Q14-MCQ-03",
+        "G10G-Q14-MCQ-04",
+        "G10G-Q14-MCQ-05",
+        "G10G-Q14-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO14.json",
+      "booklet_question_ids": [
+        "G10G-Q14-MCQ-01",
+        "G10G-Q14-MCQ-02",
+        "G10G-Q14-MCQ-03",
+        "G10G-Q14-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q14-MCQ-01",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.1",
+      "instruction": "A ballast bag is dropped from 576 ft. Its height is f(t)=−16t²+576. After how many seconds does it hit the ground?",
+      "stem": "A ballast bag is dropped from 576 ft. Its height is f(t)=−16t²+576. After how many seconds does it hit the ground?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "36",
+          "math_latex": "36"
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "C",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "D",
+          "text": "18",
+          "math_latex": "18"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "6",
+        "explanation": "Set f(t)=0: −16(t−6)(t+6)=0. Time cannot be negative, so t=6 s."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 722,
+        "pdf_page": 154,
+        "exercise": "29",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q14-MCQ-02",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.2",
+      "instruction": "Factor the volume expression for Catalina’s open-topped box.",
+      "stem": "Factor the volume expression for Catalina’s open-topped box. V=3x^2-36x+108",
+      "math_latex": "V=3x^2-36x+108",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3(x-6)^2",
+          "math_latex": "3(x-6)^2"
+        },
+        {
+          "id": "B",
+          "text": "3(x+6)^2",
+          "math_latex": "3(x+6)^2"
+        },
+        {
+          "id": "C",
+          "text": "(3x-6)^2",
+          "math_latex": "(3x-6)^2"
+        },
+        {
+          "id": "D",
+          "text": "3(x-12)^2",
+          "math_latex": "3(x-12)^2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3(x-6)^2",
+        "explanation": "Factor out 3: 3(x²−12x+36)=3(x−6)²."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 722,
+        "pdf_page": 154,
+        "exercise": "30(a)",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q14-MCQ-03",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.3",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. x^2+9x+18=0",
+      "math_latex": "x^2+9x+18=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=6,3",
+          "math_latex": "x=6,3"
+        },
+        {
+          "id": "B",
+          "text": "x=-9,-2",
+          "math_latex": "x=-9,-2"
+        },
+        {
+          "id": "C",
+          "text": "x=0,-9",
+          "math_latex": "x=0,-9"
+        },
+        {
+          "id": "D",
+          "text": "x=-6,-3",
+          "math_latex": "x=-6,-3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x=-6,-3",
+        "explanation": "Write the equation as a product equal to zero and set each factor equal to zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "15",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q14-MCQ-04",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.4",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. 4x^2+28x+49=0",
+      "math_latex": "4x^2+28x+49=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-7",
+          "math_latex": "x=-7"
+        },
+        {
+          "id": "B",
+          "text": "x=-\\frac74",
+          "math_latex": "x=-\\frac74"
+        },
+        {
+          "id": "C",
+          "text": "x=-\\frac72",
+          "math_latex": "x=-\\frac72"
+        },
+        {
+          "id": "D",
+          "text": "x=\\frac72",
+          "math_latex": "x=\\frac72"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "x=-\\frac72",
+        "explanation": "Write the equation as a product equal to zero and set each factor equal to zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "16",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q14-MCQ-05",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.5",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. -9x^2=30x+25",
+      "math_latex": "-9x^2=30x+25",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-5",
+          "math_latex": "x=-5"
+        },
+        {
+          "id": "B",
+          "text": "x=-\\frac53",
+          "math_latex": "x=-\\frac53"
+        },
+        {
+          "id": "C",
+          "text": "x=\\frac53",
+          "math_latex": "x=\\frac53"
+        },
+        {
+          "id": "D",
+          "text": "x=-\\frac35",
+          "math_latex": "x=-\\frac35"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "x=-\\frac53",
+        "explanation": "Write the equation as a product equal to zero and set each factor equal to zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "17",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q14-MCQ-06",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.6",
+      "instruction": "Solve by factoring. Check the solutions.",
+      "stem": "Solve by factoring. Check the solutions. -x^2-12=-8x",
+      "math_latex": "-x^2-12=-8x",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=2,6",
+          "math_latex": "x=2,6"
+        },
+        {
+          "id": "B",
+          "text": "x=-2,-6",
+          "math_latex": "x=-2,-6"
+        },
+        {
+          "id": "C",
+          "text": "x=3,4",
+          "math_latex": "x=3,4"
+        },
+        {
+          "id": "D",
+          "text": "x=-3,-4",
+          "math_latex": "x=-3,-4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "x=2,6",
+        "explanation": "Write the equation as a product equal to zero and set each factor equal to zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 721,
+        "pdf_page": 153,
+        "exercise": "18",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

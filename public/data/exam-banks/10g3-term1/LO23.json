@@ -1,0 +1,292 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO23",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO23",
+    "question_count": 5
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO23",
+      "exam_slot": "Q23",
+      "title": "Multiplication properties of exponents",
+      "title_ar": "خواص ضرب القوى",
+      "statement": "Multiply monomials and simplify expressions using multiplication properties of exponents.",
+      "rule_summary": "Add exponents in a product; multiply exponents in a power. Apply the power to the coefficient too.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 576,
+          "exercises_or_section": "25–30"
+        },
+        {
+          "printed_page": 578,
+          "exercises_or_section": "56–58"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q23-FRQ-01",
+        "G10G-Q23-FRQ-02",
+        "G10G-Q23-FRQ-03",
+        "G10G-Q23-FRQ-04",
+        "G10G-Q23-FRQ-05"
+      ],
+      "question_count": 5,
+      "download": "LO23.json",
+      "booklet_question_ids": [
+        "G10G-Q23-FRQ-01",
+        "G10G-Q23-FRQ-02",
+        "G10G-Q23-FRQ-03",
+        "G10G-Q23-FRQ-04",
+        "G10G-Q23-FRQ-05"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q23-FRQ-01",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.1",
+      "instruction": "A square field has side length 5x³y⁵. What is its area in terms of x and y?",
+      "stem": "A square field has side length 5x³y⁵. What is its area in terms of x and y?",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show the area calculation.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "A=s²=(5x³y⁵)²=25x⁶y¹⁰. Square the coefficient (3), multiply each exponent by 2 (5), final expression (2).",
+            "math_latex": "A=25x^6y^{10}"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 576,
+        "pdf_page": 8,
+        "exercise": "25",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q23-FRQ-02",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.2",
+      "instruction": "A cube-shaped shipping box has side length 4m⁸n⁴. What is its volume in terms of m and n?",
+      "stem": "A cube-shaped shipping box has side length 4m⁸n⁴. What is its volume in terms of m and n?",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show the volume calculation.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "V=s³=(4m⁸n⁴)³=64m²⁴n¹². Cube the coefficient (3), multiply each exponent by 3 (5), final expression (2).",
+            "math_latex": "V=64m^{24}n^{12}"
+          }
+        }
+      ],
+      "diagram_asset_ids": [
+        "shipping_cube"
+      ],
+      "source": {
+        "printed_page": 576,
+        "pdf_page": 8,
+        "exercise": "27",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q23-FRQ-03",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.3",
+      "instruction": "Consider the two expressions.",
+      "stem": "Consider the two expressions. (m^p)(m^q)\\quad\\text{and}\\quad(m^p)^q",
+      "math_latex": "(m^p)(m^q)\\quad\\text{and}\\quad(m^p)^q",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "What must be true about p and q for the expressions to be equal? Give an example.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "For positive m≠1, require p+q=pq, or (p−1)(q−1)=1 (3). Example p=q=2 (2). Without that assumption, m=1 makes both expressions equal for all defined p,q; other bases require domain care.",
+            "math_latex": "p+q=pq\\quad (m>0,\\ m\\ne1)"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Assuming m, p and q are positive integers, can (mᵖ)(mᑫ) > (mᵖ)ᑫ ever be true? Explain.",
+          "math_latex": "",
+          "marks": 5,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Yes. Take m=2 and p=q=1: 2·2=4>2¹=2 (3). For m>1 compare exponents p+q and pq (2).",
+            "math_latex": "2^1\\cdot2^1=4>2^{1\\cdot1}=2"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 578,
+        "pdf_page": 10,
+        "exercise": "56",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q23-FRQ-04",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.4",
+      "instruction": "For nonzero real a and b and integers m and t, simplify and explain.",
+      "stem": "For nonzero real a and b and integers m and t, simplify and explain. (-\\frac{a^m}{b^t})^{2t}",
+      "math_latex": "(-\\frac{a^m}{b^t})^{2t}",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Apply the power rules and explain the sign.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 45
+          },
+          "answer": {
+            "model_answer_and_marking": "Since 2t is even, (−1)²ᵗ=1 (3). Multiply the numerator exponents to get 2mt (3), and denominator exponents to get 2t² (3); final quotient (1). Nonzero a,b make all integer powers defined.",
+            "math_latex": "\\frac{a^{2mt}}{b^{2t^2}}"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 578,
+        "pdf_page": 10,
+        "exercise": "57",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q23-FRQ-05",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.5",
+      "instruction": "Consider y=x, y=x² and y=x³.",
+      "stem": "Consider y=x, y=x² and y=x³.",
+      "math_latex": "",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "For each equation, write the related expression and record the power of x.",
+          "math_latex": "",
+          "marks": 3,
+          "workspace": {
+            "height_mm": 20
+          },
+          "answer": {
+            "model_answer_and_marking": "x=x¹ (power 1), x·x=x² (power 2), x·x·x=x³ (power 3). One mark per row.",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Graph each equation using a graphing calculator.",
+          "math_latex": "",
+          "marks": 3,
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct line, upward parabola and increasing cubic through the origin. One mark per graph.",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Classify each graph as linear or nonlinear.",
+          "math_latex": "",
+          "marks": 1,
+          "workspace": {
+            "height_mm": 15
+          },
+          "answer": {
+            "model_answer_and_marking": "y=x is linear; y=x² and y=x³ are nonlinear. One mark for all three correct.",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Explain how to determine whether an equation, or its related expression, is linear or nonlinear without graphing.",
+          "math_latex": "",
+          "marks": 3,
+          "workspace": {
+            "height_mm": 20
+          },
+          "answer": {
+            "model_answer_and_marking": "After simplification, y=ax+b is linear (2); higher powers of x such as x² and x³ are nonlinear (1).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 578,
+        "pdf_page": 10,
+        "exercise": "58",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": true
+    }
+  ],
+  "assets": {
+    "shipping_cube": {
+      "src": "assets/shipping_cube.png",
+      "width": 228,
+      "height": 261,
+      "alt_text": "Original cube-shaped shipping box, Reveal p. 576 exercise 27; side length 4m⁸n⁴.",
+      "source": {
+        "printed_page": 576,
+        "pdf_page": 8,
+        "exercise": "shipping_cube",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.423,
+        0.149,
+        0.55,
+        0.252
+      ]
+    }
+  }
+}

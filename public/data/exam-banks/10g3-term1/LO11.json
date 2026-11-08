@@ -1,0 +1,363 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO11",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO11",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Products of square roots",
+      "title_ar": "ضرب الجذور التربيعية",
+      "statement": "Simplify radical expressions by using the Product Property of Square Roots.",
+      "rule_summary": "√a·√b=√(ab) for a,b≥0. Extract perfect-square factors; area uses the full formula.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 609,
+          "exercises_or_section": "67–70"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q11-MCQ-01",
+        "G10G-Q11-MCQ-02",
+        "G10G-Q11-MCQ-03",
+        "G10G-Q11-MCQ-04",
+        "G10G-Q11-MCQ-05",
+        "G10G-Q11-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO11.json",
+      "booklet_question_ids": [
+        "G10G-Q11-MCQ-01",
+        "G10G-Q11-MCQ-02",
+        "G10G-Q11-MCQ-03",
+        "G10G-Q11-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q11-MCQ-01",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.1",
+      "instruction": "The base of a triangle is 6√2 m and its height is 3√6 m. What is its area?",
+      "stem": "The base of a triangle is 6√2 m and its height is 3√6 m. What is its area?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "18 \\sqrt{3}",
+          "math_latex": "18 \\sqrt{3}"
+        },
+        {
+          "id": "B",
+          "text": "36 \\sqrt{3}",
+          "math_latex": "36 \\sqrt{3}"
+        },
+        {
+          "id": "C",
+          "text": "18 \\sqrt{2}",
+          "math_latex": "18 \\sqrt{2}"
+        },
+        {
+          "id": "D",
+          "text": "9 \\sqrt{3}",
+          "math_latex": "9 \\sqrt{3}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "18 \\sqrt{3}",
+        "explanation": "A=½bh=½(6√2)(3√6)=9√12=18√3 m²."
+      },
+      "diagram_asset_ids": [
+        "radical_triangle"
+      ],
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "67",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q11-MCQ-02",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.2",
+      "instruction": "A rectangle is 8√12 cm long and 4√8 cm wide. What is its area?",
+      "stem": "A rectangle is 8√12 cm long and 4√8 cm wide. What is its area?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "64 \\sqrt{6}",
+          "math_latex": "64 \\sqrt{6}"
+        },
+        {
+          "id": "B",
+          "text": "32 \\sqrt{6}",
+          "math_latex": "32 \\sqrt{6}"
+        },
+        {
+          "id": "C",
+          "text": "128 \\sqrt{3}",
+          "math_latex": "128 \\sqrt{3}"
+        },
+        {
+          "id": "D",
+          "text": "128 \\sqrt{6}",
+          "math_latex": "128 \\sqrt{6}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "128 \\sqrt{6}",
+        "explanation": "A=lw=32√96=128√6 cm²."
+      },
+      "diagram_asset_ids": [
+        "radical_rectangle"
+      ],
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "68",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q11-MCQ-03",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.3",
+      "instruction": "Use √(h·k) to find the geometric mean of 32 and 14 in simplified radical form.",
+      "stem": "Use √(h·k) to find the geometric mean of 32 and 14 in simplified radical form.",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "16 \\sqrt{7}",
+          "math_latex": "16 \\sqrt{7}"
+        },
+        {
+          "id": "B",
+          "text": "8 \\sqrt{14}",
+          "math_latex": "8 \\sqrt{14}"
+        },
+        {
+          "id": "C",
+          "text": "8 \\sqrt{7}",
+          "math_latex": "8 \\sqrt{7}"
+        },
+        {
+          "id": "D",
+          "text": "4 \\sqrt{7}",
+          "math_latex": "4 \\sqrt{7}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "8 \\sqrt{7}",
+        "explanation": "√(32·14)=√448=8√7."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "69",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q11-MCQ-04",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.4",
+      "instruction": "Fernanda has paint to cover 5 square yards of a cubic prop. Use s=√(A/6). What is the longest side length, to the nearest tenth of a yard?",
+      "stem": "Fernanda has paint to cover 5 square yards of a cubic prop. Use s=√(A/6). What is the longest side length, to the nearest tenth of a yard?",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{1}{2}",
+          "math_latex": "\\frac{1}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{9}{10}",
+          "math_latex": "\\frac{9}{10}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{4}{5}",
+          "math_latex": "\\frac{4}{5}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{6}{5}",
+          "math_latex": "\\frac{6}{5}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{9}{10}",
+        "explanation": "s=√(5/6)≈0.9128709, so the requested rounded answer is 0.9 yard."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "70",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q11-MCQ-05",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.5",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt5\\cdot\\sqrt{10}",
+      "math_latex": "\\sqrt5\\cdot\\sqrt{10}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5 \\sqrt{2}",
+          "math_latex": "5 \\sqrt{2}"
+        },
+        {
+          "id": "B",
+          "text": "10 \\sqrt{2}",
+          "math_latex": "10 \\sqrt{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{5 \\sqrt{2}}{2}",
+          "math_latex": "\\frac{5 \\sqrt{2}}{2}"
+        },
+        {
+          "id": "D",
+          "text": "1 + 5 \\sqrt{2}",
+          "math_latex": "1 + 5 \\sqrt{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5 \\sqrt{2}",
+        "explanation": "Multiply under one radical, then extract the perfect square: 5·sqrt(2)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "7",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q11-MCQ-06",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.6",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt{10}\\cdot\\sqrt{20}",
+      "math_latex": "\\sqrt{10}\\cdot\\sqrt{20}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 \\sqrt{2}",
+          "math_latex": "20 \\sqrt{2}"
+        },
+        {
+          "id": "B",
+          "text": "5 \\sqrt{2}",
+          "math_latex": "5 \\sqrt{2}"
+        },
+        {
+          "id": "C",
+          "text": "1 + 10 \\sqrt{2}",
+          "math_latex": "1 + 10 \\sqrt{2}"
+        },
+        {
+          "id": "D",
+          "text": "10 \\sqrt{2}",
+          "math_latex": "10 \\sqrt{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "10 \\sqrt{2}",
+        "explanation": "Multiply under one radical, then extract the perfect square: 10·sqrt(2)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "8",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {
+    "radical_triangle": {
+      "src": "assets/radical_triangle.png",
+      "width": 461,
+      "height": 231,
+      "alt_text": "Original triangle from Reveal p. 609 exercise 67; base 6√2 m and height 3√6 m.",
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "radical_triangle",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.705,
+        0.27,
+        0.963,
+        0.361
+      ]
+    },
+    "radical_rectangle": {
+      "src": "assets/radical_rectangle.png",
+      "width": 412,
+      "height": 215,
+      "alt_text": "Original rectangle from Reveal p. 609 exercise 68; length 8√12 cm and width 4√8 cm.",
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "radical_rectangle",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.74,
+        0.36,
+        0.97,
+        0.445
+      ]
+    }
+  }
+}

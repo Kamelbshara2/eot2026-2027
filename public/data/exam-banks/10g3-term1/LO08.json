@@ -1,0 +1,324 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO08",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO08",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO08",
+      "exam_slot": "Q8",
+      "title": "Divide monomials",
+      "title_ar": "قسمة وحيدات الحد",
+      "statement": "Divide monomials using the properties of exponents.",
+      "rule_summary": "Subtract exponents when dividing; multiply every exponent when raising a quotient to a power.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 581,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 583,
+          "exercises_or_section": "5–9"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q08-MCQ-01",
+        "G10G-Q08-MCQ-02",
+        "G10G-Q08-MCQ-03",
+        "G10G-Q08-MCQ-04",
+        "G10G-Q08-MCQ-05",
+        "G10G-Q08-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO08.json",
+      "booklet_question_ids": [
+        "G10G-Q08-MCQ-02",
+        "G10G-Q08-MCQ-03",
+        "G10G-Q08-MCQ-04",
+        "G10G-Q08-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q08-MCQ-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.1",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. \\frac{c^4d^4f^3}{c^2d^4f^3}",
+      "math_latex": "\\frac{c^4d^4f^3}{c^2d^4f^3}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 c^{2}",
+          "math_latex": "2 c^{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{c^{2}}{2}",
+          "math_latex": "\\frac{c^{2}}{2}"
+        },
+        {
+          "id": "C",
+          "text": "c^{2} + 1",
+          "math_latex": "c^{2} + 1"
+        },
+        {
+          "id": "D",
+          "text": "c^{2}",
+          "math_latex": "c^{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "c^{2}",
+        "explanation": "Apply quotient and power rules. Simplified result: c²."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q08-MCQ-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.2",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. (\\frac{p^2t^7}{10})^3",
+      "math_latex": "(\\frac{p^2t^7}{10})^3",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{p^{6} t^{21}}{2000}",
+          "math_latex": "\\frac{p^{6} t^{21}}{2000}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{p^{6} t^{21}}{1000} + 1",
+          "math_latex": "\\frac{p^{6} t^{21}}{1000} + 1"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{p^{6} t^{21}}{1000}",
+          "math_latex": "\\frac{p^{6} t^{21}}{1000}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{p^{6} t^{21}}{500}",
+          "math_latex": "\\frac{p^{6} t^{21}}{500}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{p^{6} t^{21}}{1000}",
+        "explanation": "Apply quotient and power rules. Simplified result: p⁶·t²¹/1000."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q08-MCQ-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.3",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. \\frac{a^7b^8c^8}{a^5bc^7}",
+      "math_latex": "\\frac{a^7b^8c^8}{a^5bc^7}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "a^{2} b^{7} c + 1",
+          "math_latex": "a^{2} b^{7} c + 1"
+        },
+        {
+          "id": "B",
+          "text": "a^{2} b^{7} c",
+          "math_latex": "a^{2} b^{7} c"
+        },
+        {
+          "id": "C",
+          "text": "2 a^{2} b^{7} c",
+          "math_latex": "2 a^{2} b^{7} c"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{a^{2} b^{7} c}{2}",
+          "math_latex": "\\frac{a^{2} b^{7} c}{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "a^{2} b^{7} c",
+        "explanation": "Apply quotient and power rules. Simplified result: a²·b⁷·c."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q08-MCQ-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.4",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. (\\frac{3np^3}{7q^2})^2",
+      "math_latex": "(\\frac{3np^3}{7q^2})^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{9 n^{2} p^{6}}{49 q^{4}}",
+          "math_latex": "\\frac{9 n^{2} p^{6}}{49 q^{4}}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{18 n^{2} p^{6}}{49 q^{4}}",
+          "math_latex": "\\frac{18 n^{2} p^{6}}{49 q^{4}}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{9 n^{2} p^{6}}{98 q^{4}}",
+          "math_latex": "\\frac{9 n^{2} p^{6}}{98 q^{4}}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{9 n^{2} p^{6}}{49 q^{4}} + 1",
+          "math_latex": "\\frac{9 n^{2} p^{6}}{49 q^{4}} + 1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{9 n^{2} p^{6}}{49 q^{4}}",
+        "explanation": "Apply quotient and power rules. Simplified result: 9·n²·p⁶/(49·q⁴)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "7",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q08-MCQ-05",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.5",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. (\\frac{2r^3t^6}{5u^9})^4",
+      "math_latex": "(\\frac{2r^3t^6}{5u^9})^4",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{32 r^{12} t^{24}}{625 u^{36}}",
+          "math_latex": "\\frac{32 r^{12} t^{24}}{625 u^{36}}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{8 r^{12} t^{24}}{625 u^{36}}",
+          "math_latex": "\\frac{8 r^{12} t^{24}}{625 u^{36}}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{16 r^{12} t^{24}}{625 u^{36}} + 1",
+          "math_latex": "\\frac{16 r^{12} t^{24}}{625 u^{36}} + 1"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{16 r^{12} t^{24}}{625 u^{36}}",
+          "math_latex": "\\frac{16 r^{12} t^{24}}{625 u^{36}}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{16 r^{12} t^{24}}{625 u^{36}}",
+        "explanation": "Apply quotient and power rules. Simplified result: 16·r¹²·t²⁴/(625·u³⁶)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "8",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q08-MCQ-06",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.6",
+      "instruction": "Simplify. Assume no denominator equals zero.",
+      "stem": "Simplify. Assume no denominator equals zero. (\\frac{3m^5r^3}{4p^8})^4",
+      "math_latex": "(\\frac{3m^5r^3}{4p^8})^4",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{81 m^{20} r^{12}}{512 p^{32}}",
+          "math_latex": "\\frac{81 m^{20} r^{12}}{512 p^{32}}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{81 m^{20} r^{12}}{256 p^{32}} + 1",
+          "math_latex": "\\frac{81 m^{20} r^{12}}{256 p^{32}} + 1"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{81 m^{20} r^{12}}{256 p^{32}}",
+          "math_latex": "\\frac{81 m^{20} r^{12}}{256 p^{32}}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{81 m^{20} r^{12}}{128 p^{32}}",
+          "math_latex": "\\frac{81 m^{20} r^{12}}{128 p^{32}}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{81 m^{20} r^{12}}{256 p^{32}}",
+        "explanation": "Apply quotient and power rules. Simplified result: 81·m²⁰·r¹²/(256·p³²)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "9",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

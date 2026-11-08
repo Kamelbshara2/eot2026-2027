@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO13",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO13",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO13",
+      "exam_slot": "Q13",
+      "title": "Add and subtract radicals",
+      "title_ar": "جمع الجذور وطرحها",
+      "statement": "Add and subtract radical expressions.",
+      "rule_summary": "Simplify the radicals first; combine coefficients only when their radicands match.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 615,
+          "exercises_or_section": "1–8"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q13-MCQ-01",
+        "G10G-Q13-MCQ-02",
+        "G10G-Q13-MCQ-03",
+        "G10G-Q13-MCQ-04",
+        "G10G-Q13-MCQ-05",
+        "G10G-Q13-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO13.json",
+      "booklet_question_ids": [
+        "G10G-Q13-MCQ-01",
+        "G10G-Q13-MCQ-02",
+        "G10G-Q13-MCQ-05",
+        "G10G-Q13-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q13-MCQ-01",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.1",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 7\\sqrt7-2\\sqrt7",
+      "math_latex": "7\\sqrt7-2\\sqrt7",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- 5 \\sqrt{7}",
+          "math_latex": "- 5 \\sqrt{7}"
+        },
+        {
+          "id": "B",
+          "text": "1 + 5 \\sqrt{7}",
+          "math_latex": "1 + 5 \\sqrt{7}"
+        },
+        {
+          "id": "C",
+          "text": "5 \\sqrt{7}",
+          "math_latex": "5 \\sqrt{7}"
+        },
+        {
+          "id": "D",
+          "text": "10 \\sqrt{7}",
+          "math_latex": "10 \\sqrt{7}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "5 \\sqrt{7}",
+        "explanation": "Combine like radicals after simplifying: 5·sqrt(7)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "1",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q13-MCQ-02",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.2",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 3\\sqrt8+7\\sqrt8",
+      "math_latex": "3\\sqrt8+7\\sqrt8",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 + 20 \\sqrt{2}",
+          "math_latex": "1 + 20 \\sqrt{2}"
+        },
+        {
+          "id": "B",
+          "text": "20 \\sqrt{2}",
+          "math_latex": "20 \\sqrt{2}"
+        },
+        {
+          "id": "C",
+          "text": "40 \\sqrt{2}",
+          "math_latex": "40 \\sqrt{2}"
+        },
+        {
+          "id": "D",
+          "text": "- 20 \\sqrt{2}",
+          "math_latex": "- 20 \\sqrt{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "20 \\sqrt{2}",
+        "explanation": "Combine like radicals after simplifying: 20·sqrt(2)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "2",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q13-MCQ-03",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.3",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 7\\sqrt5+4\\sqrt5",
+      "math_latex": "7\\sqrt5+4\\sqrt5",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "11 \\sqrt{5}",
+          "math_latex": "11 \\sqrt{5}"
+        },
+        {
+          "id": "B",
+          "text": "22 \\sqrt{5}",
+          "math_latex": "22 \\sqrt{5}"
+        },
+        {
+          "id": "C",
+          "text": "- 11 \\sqrt{5}",
+          "math_latex": "- 11 \\sqrt{5}"
+        },
+        {
+          "id": "D",
+          "text": "1 + 11 \\sqrt{5}",
+          "math_latex": "1 + 11 \\sqrt{5}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "11 \\sqrt{5}",
+        "explanation": "Combine like radicals after simplifying: 11·sqrt(5)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q13-MCQ-04",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.4",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 2\\sqrt6+9\\sqrt6",
+      "math_latex": "2\\sqrt6+9\\sqrt6",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "22 \\sqrt{6}",
+          "math_latex": "22 \\sqrt{6}"
+        },
+        {
+          "id": "B",
+          "text": "- 11 \\sqrt{6}",
+          "math_latex": "- 11 \\sqrt{6}"
+        },
+        {
+          "id": "C",
+          "text": "1 + 11 \\sqrt{6}",
+          "math_latex": "1 + 11 \\sqrt{6}"
+        },
+        {
+          "id": "D",
+          "text": "11 \\sqrt{6}",
+          "math_latex": "11 \\sqrt{6}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "11 \\sqrt{6}",
+        "explanation": "Combine like radicals after simplifying: 11·sqrt(6)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q13-MCQ-05",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.5",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 3\\sqrt5-2\\sqrt{20}",
+      "math_latex": "3\\sqrt5-2\\sqrt{20}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\sqrt{5}",
+          "math_latex": "\\sqrt{5}"
+        },
+        {
+          "id": "B",
+          "text": "1 - \\sqrt{5}",
+          "math_latex": "1 - \\sqrt{5}"
+        },
+        {
+          "id": "C",
+          "text": "- \\sqrt{5}",
+          "math_latex": "- \\sqrt{5}"
+        },
+        {
+          "id": "D",
+          "text": "- 2 \\sqrt{5}",
+          "math_latex": "- 2 \\sqrt{5}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "- \\sqrt{5}",
+        "explanation": "Combine like radicals after simplifying: -sqrt(5)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "7",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q13-MCQ-06",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.6",
+      "instruction": "Simplify.",
+      "stem": "Simplify. 3\\sqrt{50}-3\\sqrt{32}",
+      "math_latex": "3\\sqrt{50}-3\\sqrt{32}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 + 3 \\sqrt{2}",
+          "math_latex": "1 + 3 \\sqrt{2}"
+        },
+        {
+          "id": "B",
+          "text": "3 \\sqrt{2}",
+          "math_latex": "3 \\sqrt{2}"
+        },
+        {
+          "id": "C",
+          "text": "6 \\sqrt{2}",
+          "math_latex": "6 \\sqrt{2}"
+        },
+        {
+          "id": "D",
+          "text": "- 3 \\sqrt{2}",
+          "math_latex": "- 3 \\sqrt{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3 \\sqrt{2}",
+        "explanation": "Combine like radicals after simplifying: 3·sqrt(2)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 615,
+        "pdf_page": 47,
+        "exercise": "8",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

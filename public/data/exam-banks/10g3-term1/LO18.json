@@ -1,0 +1,308 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO18",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO18",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO18",
+      "exam_slot": "Q18",
+      "title": "Dilations and reflections of quadratics",
+      "title_ar": "تمدد وانعكاس الدوال التربيعية",
+      "statement": "Write quadratics in vertex form and transform their graphs.",
+      "rule_summary": "A negative outside coefficient reflects across the x-axis; |a|>1 stretches vertically. Simplify an inside coefficient before comparing.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 703,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 704,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 707,
+          "exercises_or_section": "23–26"
+        },
+        {
+          "printed_page": 708,
+          "exercises_or_section": "27–30"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q18-MCQ-01",
+        "G10G-Q18-MCQ-02",
+        "G10G-Q18-MCQ-03",
+        "G10G-Q18-MCQ-04",
+        "G10G-Q18-MCQ-05",
+        "G10G-Q18-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO18.json",
+      "booklet_question_ids": [
+        "G10G-Q18-MCQ-01",
+        "G10G-Q18-MCQ-02",
+        "G10G-Q18-MCQ-04",
+        "G10G-Q18-MCQ-05"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q18-MCQ-01",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.1",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². g(x)=-\\frac13x^2",
+      "math_latex": "g(x)=-\\frac13x^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflect across the x-axis; stretch by 4"
+        },
+        {
+          "id": "B",
+          "text": "Reflect across the x-axis; vertically compress by 1/3"
+        },
+        {
+          "id": "C",
+          "text": "Reflect across the y-axis; stretch by 4"
+        },
+        {
+          "id": "D",
+          "text": "Shift down 4 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Reflect across the x-axis; vertically compress by 1/3",
+        "explanation": "The coefficient of x² is −⅓."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "23",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q18-MCQ-02",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.2",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². g(x)=(-\\frac23x)^2",
+      "math_latex": "g(x)=(-\\frac23x)^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical compression by 4/9; no reflection"
+        },
+        {
+          "id": "B",
+          "text": "Reflect across the x-axis; stretch by 9"
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by 3"
+        },
+        {
+          "id": "D",
+          "text": "Shift left 3 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Vertical compression by 4/9; no reflection",
+        "explanation": "(−⅔x)²=(4/9)x²; squaring removes the sign. Equivalent horizontal stretch: 3/2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "24",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q18-MCQ-03",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.3",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². g(x)=-2x^2",
+      "math_latex": "g(x)=-2x^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflect across the y-axis only"
+        },
+        {
+          "id": "B",
+          "text": "Compress vertically by 1/2"
+        },
+        {
+          "id": "C",
+          "text": "Shift down 2 units"
+        },
+        {
+          "id": "D",
+          "text": "Reflect across the x-axis; stretch vertically by 2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Reflect across the x-axis; stretch vertically by 2",
+        "explanation": "The outside coefficient is −2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "25",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q18-MCQ-04",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.4",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². h(x)=-7-x^2",
+      "math_latex": "h(x)=-7-x^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Stretch by 7, then shift down 1"
+        },
+        {
+          "id": "B",
+          "text": "Reflect across the x-axis, then shift up 7"
+        },
+        {
+          "id": "C",
+          "text": "Reflect across the x-axis, then shift down 7"
+        },
+        {
+          "id": "D",
+          "text": "Reflect across the y-axis, then shift up 7"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Reflect across the x-axis, then shift down 7",
+        "explanation": "The coefficient is −1 and the vertical shift is −7."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 708,
+        "pdf_page": 140,
+        "exercise": "27",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q18-MCQ-05",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.5",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². g(x)=2(x-3)^2+8",
+      "math_latex": "g(x)=2(x-3)^2+8",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflect across the x-axis, then shift up 8"
+        },
+        {
+          "id": "B",
+          "text": "Stretch vertically by 2, shift right 3 and up 8"
+        },
+        {
+          "id": "C",
+          "text": "Stretch vertically by 3/2, then shift up 8"
+        },
+        {
+          "id": "D",
+          "text": "Compress vertically by 2/3, then shift down 8"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Stretch vertically by 2, shift right 3 and up 8",
+        "explanation": "a=2, h=3 and k=8 in vertex form."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 708,
+        "pdf_page": 140,
+        "exercise": "28",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    },
+    {
+      "id": "G10G-Q18-MCQ-06",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.6",
+      "instruction": "Describe the graph relative to the parent y=x².",
+      "stem": "Describe the graph relative to the parent y=x². g(x)=-5-\\frac43x^2",
+      "math_latex": "g(x)=-5-\\frac43x^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflect across the x-axis, stretch by 4/3, then shift down 5"
+        },
+        {
+          "id": "B",
+          "text": "Reflect and stretch by 4, then shift down 5"
+        },
+        {
+          "id": "C",
+          "text": "Compress by 1/4, then shift up 5"
+        },
+        {
+          "id": "D",
+          "text": "Shift left 5 and down 1/4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Reflect across the x-axis, stretch by 4/3, then shift down 5",
+        "explanation": "The coefficient is −4/3 and the vertical shift is −5."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 708,
+        "pdf_page": 140,
+        "exercise": "30",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": true
+    }
+  ],
+  "assets": {}
+}

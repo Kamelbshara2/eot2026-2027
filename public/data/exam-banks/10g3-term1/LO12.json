@@ -1,0 +1,324 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO12",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO12",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO12",
+      "exam_slot": "Q12",
+      "title": "Quotients of radicals",
+      "title_ar": "قسمة الجذور وتبسيطها",
+      "statement": "Simplify radical expressions by using the Quotient Property of Square Roots.",
+      "rule_summary": "√(a/b)=√a/√b for a≥0,b>0. Simplify and rationalise the denominator. For cube roots, extract cubes.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 607,
+          "exercises_or_section": "15–18"
+        },
+        {
+          "printed_page": 608,
+          "exercises_or_section": "55–56 (cube-root extension)"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q12-MCQ-01",
+        "G10G-Q12-MCQ-02",
+        "G10G-Q12-MCQ-03",
+        "G10G-Q12-MCQ-04",
+        "G10G-Q12-MCQ-05",
+        "G10G-Q12-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO12.json",
+      "booklet_question_ids": [
+        "G10G-Q12-MCQ-01",
+        "G10G-Q12-MCQ-02",
+        "G10G-Q12-MCQ-03",
+        "G10G-Q12-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q12-MCQ-01",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.1",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt{\\frac{192}{216}}",
+      "math_latex": "\\sqrt{\\frac{192}{216}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{4 \\sqrt{2}}{3}",
+          "math_latex": "\\frac{4 \\sqrt{2}}{3}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{\\sqrt{2}}{3}",
+          "math_latex": "\\frac{\\sqrt{2}}{3}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2 \\sqrt{2}}{3} + 1",
+          "math_latex": "\\frac{2 \\sqrt{2}}{3} + 1"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{2 \\sqrt{2}}{3}",
+          "math_latex": "\\frac{2 \\sqrt{2}}{3}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{2 \\sqrt{2}}{3}",
+        "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(2)/3."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "15",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q12-MCQ-02",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.2",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt{\\frac{88}{18}}",
+      "math_latex": "\\sqrt{\\frac{88}{18}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{\\sqrt{11}}{3}",
+          "math_latex": "\\frac{\\sqrt{11}}{3}"
+        },
+        {
+          "id": "B",
+          "text": "1 + \\frac{2 \\sqrt{11}}{3}",
+          "math_latex": "1 + \\frac{2 \\sqrt{11}}{3}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2 \\sqrt{11}}{3}",
+          "math_latex": "\\frac{2 \\sqrt{11}}{3}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{4 \\sqrt{11}}{3}",
+          "math_latex": "\\frac{4 \\sqrt{11}}{3}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{2 \\sqrt{11}}{3}",
+        "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(11)/3."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "16",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q12-MCQ-03",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.3",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt{\\frac{84}{121}}",
+      "math_latex": "\\sqrt{\\frac{84}{121}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2 \\sqrt{21}}{11} + 1",
+          "math_latex": "\\frac{2 \\sqrt{21}}{11} + 1"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{2 \\sqrt{21}}{11}",
+          "math_latex": "\\frac{2 \\sqrt{21}}{11}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{4 \\sqrt{21}}{11}",
+          "math_latex": "\\frac{4 \\sqrt{21}}{11}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{\\sqrt{21}}{11}",
+          "math_latex": "\\frac{\\sqrt{21}}{11}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{2 \\sqrt{21}}{11}",
+        "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(21)/11."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "17",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q12-MCQ-04",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.4",
+      "instruction": "Simplify.",
+      "stem": "Simplify. \\sqrt{\\frac{75}{20}}",
+      "math_latex": "\\sqrt{\\frac{75}{20}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{\\sqrt{15}}{2}",
+          "math_latex": "\\frac{\\sqrt{15}}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\sqrt{15}",
+          "math_latex": "\\sqrt{15}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{\\sqrt{15}}{4}",
+          "math_latex": "\\frac{\\sqrt{15}}{4}"
+        },
+        {
+          "id": "D",
+          "text": "1 + \\frac{\\sqrt{15}}{2}",
+          "math_latex": "1 + \\frac{\\sqrt{15}}{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{\\sqrt{15}}{2}",
+        "explanation": "Reduce the fraction, simplify the radical and rationalise: sqrt(15)/2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 607,
+        "pdf_page": 39,
+        "exercise": "18",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q12-MCQ-05",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.5",
+      "instruction": "Simplify. The denominator is nonzero.",
+      "stem": "Simplify. The denominator is nonzero. \\sqrt[3]{\\frac{192x^7}{1029x^{10}}}",
+      "math_latex": "\\sqrt[3]{\\frac{192x^7}{1029x^{10}}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{4x}{7}",
+          "math_latex": "\\frac{4x}{7}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{4}{7x^3}",
+          "math_latex": "\\frac{4}{7x^3}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{8}{7x}",
+          "math_latex": "\\frac{8}{7x}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{4}{7x}",
+          "math_latex": "\\frac{4}{7x}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{4}{7x}",
+        "explanation": "192/1029=64/343 and x⁷/x¹⁰=1/x³, so the real cube root is 4/(7x)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 608,
+        "pdf_page": 40,
+        "exercise": "55",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q12-MCQ-06",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.6",
+      "instruction": "Simplify. The denominator is nonzero.",
+      "stem": "Simplify. The denominator is nonzero. \\sqrt[3]{\\frac{640a^3b^8}{5ab^4}}",
+      "math_latex": "\\sqrt[3]{\\frac{640a^3b^8}{5ab^4}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "8b\\sqrt[3]{a^2b}",
+          "math_latex": "8b\\sqrt[3]{a^2b}"
+        },
+        {
+          "id": "B",
+          "text": "4b^2\\sqrt[3]{2a}",
+          "math_latex": "4b^2\\sqrt[3]{2a}"
+        },
+        {
+          "id": "C",
+          "text": "4b\\sqrt[3]{2a^2b}",
+          "math_latex": "4b\\sqrt[3]{2a^2b}"
+        },
+        {
+          "id": "D",
+          "text": "4ab\\sqrt[3]{2b}",
+          "math_latex": "4ab\\sqrt[3]{2b}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "4b\\sqrt[3]{2a^2b}",
+        "explanation": "The radicand is 128a²b⁴=64b³·2a²b. Extract the real cube root of 64b³."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 608,
+        "pdf_page": 40,
+        "exercise": "56",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

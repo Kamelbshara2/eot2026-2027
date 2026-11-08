@@ -1,0 +1,247 @@
+{
+  "classroom": "10G3",
+  "pages": 30,
+  "selected_question_ids": [
+    "G10G-Q01-MCQ-01",
+    "G10G-Q01-MCQ-02",
+    "G10G-Q01-MCQ-03",
+    "G10G-Q01-MCQ-04",
+    "G10G-Q02-MCQ-01",
+    "G10G-Q02-MCQ-02",
+    "G10G-Q02-MCQ-03",
+    "G10G-Q02-MCQ-04",
+    "G10G-Q03-MCQ-01",
+    "G10G-Q03-MCQ-02",
+    "G10G-Q03-MCQ-03",
+    "G10G-Q03-MCQ-04",
+    "G10G-Q04-MCQ-01",
+    "G10G-Q04-MCQ-02",
+    "G10G-Q04-MCQ-03",
+    "G10G-Q04-MCQ-04",
+    "G10G-Q05-MCQ-02",
+    "G10G-Q05-MCQ-03",
+    "G10G-Q05-MCQ-05",
+    "G10G-Q05-MCQ-06",
+    "G10G-Q06-MCQ-01",
+    "G10G-Q06-MCQ-02",
+    "G10G-Q06-MCQ-03",
+    "G10G-Q06-MCQ-04",
+    "G10G-Q07-MCQ-01",
+    "G10G-Q07-MCQ-02",
+    "G10G-Q07-MCQ-03",
+    "G10G-Q07-MCQ-04",
+    "G10G-Q08-MCQ-02",
+    "G10G-Q08-MCQ-03",
+    "G10G-Q08-MCQ-04",
+    "G10G-Q08-MCQ-06",
+    "G10G-Q09-MCQ-01",
+    "G10G-Q09-MCQ-02",
+    "G10G-Q09-MCQ-03",
+    "G10G-Q09-MCQ-04",
+    "G10G-Q10-MCQ-01",
+    "G10G-Q10-MCQ-02",
+    "G10G-Q10-MCQ-05",
+    "G10G-Q10-MCQ-06",
+    "G10G-Q11-MCQ-01",
+    "G10G-Q11-MCQ-02",
+    "G10G-Q11-MCQ-03",
+    "G10G-Q11-MCQ-04",
+    "G10G-Q12-MCQ-01",
+    "G10G-Q12-MCQ-02",
+    "G10G-Q12-MCQ-03",
+    "G10G-Q12-MCQ-04",
+    "G10G-Q13-MCQ-01",
+    "G10G-Q13-MCQ-02",
+    "G10G-Q13-MCQ-05",
+    "G10G-Q13-MCQ-06",
+    "G10G-Q14-MCQ-01",
+    "G10G-Q14-MCQ-02",
+    "G10G-Q14-MCQ-03",
+    "G10G-Q14-MCQ-06",
+    "G10G-Q15-MCQ-01",
+    "G10G-Q15-MCQ-02",
+    "G10G-Q15-MCQ-03",
+    "G10G-Q15-MCQ-05",
+    "G10G-Q16-MCQ-01",
+    "G10G-Q16-MCQ-02",
+    "G10G-Q16-MCQ-05",
+    "G10G-Q16-MCQ-06",
+    "G10G-Q17-MCQ-01",
+    "G10G-Q17-MCQ-02",
+    "G10G-Q17-MCQ-03",
+    "G10G-Q17-MCQ-04",
+    "G10G-Q18-MCQ-01",
+    "G10G-Q18-MCQ-02",
+    "G10G-Q18-MCQ-04",
+    "G10G-Q18-MCQ-05",
+    "G10G-Q19-MCQ-01",
+    "G10G-Q19-MCQ-02",
+    "G10G-Q19-MCQ-03",
+    "G10G-Q19-MCQ-06",
+    "G10G-Q20-MCQ-01",
+    "G10G-Q20-MCQ-02",
+    "G10G-Q20-MCQ-03",
+    "G10G-Q20-MCQ-04",
+    "G10G-Q21-FRQ-01",
+    "G10G-Q21-FRQ-02",
+    "G10G-Q21-FRQ-03",
+    "G10G-Q21-FRQ-04",
+    "G10G-Q22-FRQ-01",
+    "G10G-Q22-FRQ-02",
+    "G10G-Q22-FRQ-03",
+    "G10G-Q22-FRQ-04",
+    "G10G-Q23-FRQ-01",
+    "G10G-Q23-FRQ-02",
+    "G10G-Q23-FRQ-03",
+    "G10G-Q23-FRQ-04",
+    "G10G-Q23-FRQ-05",
+    "G10G-Q24-FRQ-01",
+    "G10G-Q24-FRQ-02",
+    "G10G-Q24-FRQ-03",
+    "G10G-Q24-FRQ-04",
+    "G10G-Q25-FRQ-01",
+    "G10G-Q25-FRQ-02",
+    "G10G-Q25-FRQ-03",
+    "G10G-Q25-FRQ-04"
+  ],
+  "mcq_count": 80,
+  "frq_count": 21,
+  "coverage": [
+    [
+      "Q1",
+      "FOIL binomial products",
+      2
+    ],
+    [
+      "Q2",
+      "Squares of sums and differences",
+      2
+    ],
+    [
+      "Q3",
+      "Sum and difference products",
+      3
+    ],
+    [
+      "Q4",
+      "Factor using distribution",
+      3
+    ],
+    [
+      "Q5",
+      "Analyse monic trinomial factors",
+      4
+    ],
+    [
+      "Q6",
+      "Factor non-monic trinomials",
+      4
+    ],
+    [
+      "Q7",
+      "Difference of squares",
+      5
+    ],
+    [
+      "Q8",
+      "Divide monomials",
+      6
+    ],
+    [
+      "Q9",
+      "Negative and zero exponents",
+      7
+    ],
+    [
+      "Q10",
+      "Rational exponents",
+      7
+    ],
+    [
+      "Q11",
+      "Products of square roots",
+      8
+    ],
+    [
+      "Q12",
+      "Quotients of radicals",
+      9
+    ],
+    [
+      "Q13",
+      "Add and subtract radicals",
+      10
+    ],
+    [
+      "Q14",
+      "Factoring in context",
+      10
+    ],
+    [
+      "Q15",
+      "Square root and completing-square methods",
+      11
+    ],
+    [
+      "Q16",
+      "Translations of quadratics",
+      12
+    ],
+    [
+      "Q17",
+      "Factoring quadratic equations",
+      13
+    ],
+    [
+      "Q18",
+      "Dilations and reflections of quadratics",
+      14
+    ],
+    [
+      "Q19",
+      "Solve quadratics by graphing",
+      15
+    ],
+    [
+      "Q20",
+      "Complete the square",
+      15
+    ],
+    [
+      "Q21",
+      "Add and subtract polynomials",
+      16
+    ],
+    [
+      "Q22",
+      "Multiply polynomials",
+      18
+    ],
+    [
+      "Q23",
+      "Multiplication properties of exponents",
+      20
+    ],
+    [
+      "Q24",
+      "Quadratic extrema and graph features",
+      23
+    ],
+    [
+      "Q25",
+      "Write a quadratic from its graph",
+      25
+    ],
+    [
+      "KEY",
+      "MCQ answers",
+      27
+    ],
+    [
+      "KEY",
+      "Worked written answers",
+      28
+    ]
+  ],
+  "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+}

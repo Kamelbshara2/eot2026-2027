@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO06",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO06",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO06",
+      "exam_slot": "Q6",
+      "title": "Factor non-monic trinomials",
+      "title_ar": "تحليل ثلاثيات الحدود غير الأحادية",
+      "statement": "Factor trinomials of the form ax² + bx + c.",
+      "rule_summary": "Find two numbers with product ac and sum b; split the middle term and group.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 672,
+          "exercises_or_section": "21–26"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q06-MCQ-01",
+        "G10G-Q06-MCQ-02",
+        "G10G-Q06-MCQ-03",
+        "G10G-Q06-MCQ-04",
+        "G10G-Q06-MCQ-05",
+        "G10G-Q06-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO06.json",
+      "booklet_question_ids": [
+        "G10G-Q06-MCQ-01",
+        "G10G-Q06-MCQ-02",
+        "G10G-Q06-MCQ-03",
+        "G10G-Q06-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q06-MCQ-01",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.1",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 5 x^{2} + 34 x + 24",
+      "math_latex": "5 x^{2} + 34 x + 24",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(x + 6\\right) \\left(5 x + 4\\right)",
+          "math_latex": "2 \\left(x + 6\\right) \\left(5 x + 4\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(x + 6\\right) \\left(5 x + 4\\right)",
+          "math_latex": "\\left(x + 6\\right) \\left(5 x + 4\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(x + 4\\right) \\left(5 x + 6\\right)",
+          "math_latex": "\\left(x + 4\\right) \\left(5 x + 6\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(x + 6\\right) \\left(5 x + 4\\right)",
+          "math_latex": "- \\left(x + 6\\right) \\left(5 x + 4\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\left(x + 6\\right) \\left(5 x + 4\\right)",
+        "explanation": "Split the middle term and factor by grouping: (x + 6)·(5·x + 4)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "21",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q06-MCQ-02",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.2",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 2 x^{2} + 19 x + 24",
+      "math_latex": "2 x^{2} + 19 x + 24",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(x + 8\\right) \\left(2 x + 3\\right)",
+          "math_latex": "\\left(x + 8\\right) \\left(2 x + 3\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(x + 3\\right) \\left(2 x + 8\\right)",
+          "math_latex": "\\left(x + 3\\right) \\left(2 x + 8\\right)"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(x + 8\\right) \\left(2 x + 3\\right)",
+          "math_latex": "- \\left(x + 8\\right) \\left(2 x + 3\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(x + 8\\right) \\left(2 x + 3\\right)",
+          "math_latex": "2 \\left(x + 8\\right) \\left(2 x + 3\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(x + 8\\right) \\left(2 x + 3\\right)",
+        "explanation": "Split the middle term and factor by grouping: (x + 8)·(2·x + 3)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "22",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q06-MCQ-03",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.3",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 4 x^{2} + 22 x + 10",
+      "math_latex": "4 x^{2} + 22 x + 10",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(2 x + 2\\right) \\left(2 x + 5\\right)",
+          "math_latex": "\\left(2 x + 2\\right) \\left(2 x + 5\\right)"
+        },
+        {
+          "id": "B",
+          "text": "- 2 \\left(x + 5\\right) \\left(2 x + 1\\right)",
+          "math_latex": "- 2 \\left(x + 5\\right) \\left(2 x + 1\\right)"
+        },
+        {
+          "id": "C",
+          "text": "4 \\left(x + 5\\right) \\left(2 x + 1\\right)",
+          "math_latex": "4 \\left(x + 5\\right) \\left(2 x + 1\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(x + 5\\right) \\left(2 x + 1\\right)",
+          "math_latex": "2 \\left(x + 5\\right) \\left(2 x + 1\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "2 \\left(x + 5\\right) \\left(2 x + 1\\right)",
+        "explanation": "Split the middle term and factor by grouping: 2·(x + 5)·(2·x + 1)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "23",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q06-MCQ-04",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.4",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 4 x^{2} + 38 x + 70",
+      "math_latex": "4 x^{2} + 38 x + 70",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- 2 \\left(x + 7\\right) \\left(2 x + 5\\right)",
+          "math_latex": "- 2 \\left(x + 7\\right) \\left(2 x + 5\\right)"
+        },
+        {
+          "id": "B",
+          "text": "4 \\left(x + 7\\right) \\left(2 x + 5\\right)",
+          "math_latex": "4 \\left(x + 7\\right) \\left(2 x + 5\\right)"
+        },
+        {
+          "id": "C",
+          "text": "2 \\left(x + 7\\right) \\left(2 x + 5\\right)",
+          "math_latex": "2 \\left(x + 7\\right) \\left(2 x + 5\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(2 x + 7\\right) \\left(2 x + 10\\right)",
+          "math_latex": "\\left(2 x + 7\\right) \\left(2 x + 10\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "2 \\left(x + 7\\right) \\left(2 x + 5\\right)",
+        "explanation": "Split the middle term and factor by grouping: 2·(x + 7)·(2·x + 5)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "24",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q06-MCQ-05",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.5",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 2 x^{2} - 3 x - 9",
+      "math_latex": "2 x^{2} - 3 x - 9",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(x - 3\\right) \\left(2 x + 3\\right)",
+          "math_latex": "2 \\left(x - 3\\right) \\left(2 x + 3\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(x - 3\\right) \\left(2 x + 3\\right)",
+          "math_latex": "\\left(x - 3\\right) \\left(2 x + 3\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(x + 3\\right) \\left(2 x - 3\\right)",
+          "math_latex": "\\left(x + 3\\right) \\left(2 x - 3\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(x - 3\\right) \\left(2 x + 3\\right)",
+          "math_latex": "- \\left(x - 3\\right) \\left(2 x + 3\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\left(x - 3\\right) \\left(2 x + 3\\right)",
+        "explanation": "Split the middle term and factor by grouping: (x - 3)·(2·x + 3)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "25",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q06-MCQ-06",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.6",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 4 x^{2} - 13 x + 10",
+      "math_latex": "4 x^{2} - 13 x + 10",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(x - 2\\right) \\left(4 x - 5\\right)",
+          "math_latex": "\\left(x - 2\\right) \\left(4 x - 5\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(x - 5\\right) \\left(4 x - 2\\right)",
+          "math_latex": "\\left(x - 5\\right) \\left(4 x - 2\\right)"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(x - 2\\right) \\left(4 x - 5\\right)",
+          "math_latex": "- \\left(x - 2\\right) \\left(4 x - 5\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(x - 2\\right) \\left(4 x - 5\\right)",
+          "math_latex": "2 \\left(x - 2\\right) \\left(4 x - 5\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(x - 2\\right) \\left(4 x - 5\\right)",
+        "explanation": "Split the middle term and factor by grouping: (x - 2)·(4·x - 5)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 672,
+        "pdf_page": 104,
+        "exercise": "26",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

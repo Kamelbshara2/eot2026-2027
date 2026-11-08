@@ -1,0 +1,316 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO19",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO19",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO19",
+      "exam_slot": "Q19",
+      "title": "Solve quadratics by graphing",
+      "title_ar": "حل المعادلات التربيعية بيانيًا",
+      "statement": "Solve quadratic equations by graphing.",
+      "rule_summary": "Real solutions are the x-intercepts of the related graph; a tangent gives a repeated root; no intersection means no real solution.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 711,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 713,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q19-MCQ-01",
+        "G10G-Q19-MCQ-02",
+        "G10G-Q19-MCQ-03",
+        "G10G-Q19-MCQ-04",
+        "G10G-Q19-MCQ-05",
+        "G10G-Q19-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO19.json",
+      "booklet_question_ids": [
+        "G10G-Q19-MCQ-01",
+        "G10G-Q19-MCQ-02",
+        "G10G-Q19-MCQ-03",
+        "G10G-Q19-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q19-MCQ-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.1",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2+7x+14=0",
+      "math_latex": "x^2+7x+14=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "No real solution"
+        },
+        {
+          "id": "B",
+          "text": "x = −7, −2"
+        },
+        {
+          "id": "C",
+          "text": "x = −2, 7"
+        },
+        {
+          "id": "D",
+          "text": "x = −3.5"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "No real solution",
+        "explanation": "The upward parabola has minimum 7/4>0, so it has no x-intercept."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "1",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q19-MCQ-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.2",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2+2x-24=0",
+      "math_latex": "x^2+2x-24=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=6,-4",
+          "math_latex": "x=6,-4"
+        },
+        {
+          "id": "B",
+          "text": "x=-4,6",
+          "math_latex": "x=-4,6"
+        },
+        {
+          "id": "C",
+          "text": "x=-12,2",
+          "math_latex": "x=-12,2"
+        },
+        {
+          "id": "D",
+          "text": "x=-6,4",
+          "math_latex": "x=-6,4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x=-6,4",
+        "explanation": "The graph crosses the x-axis at −6 and 4."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "2",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q19-MCQ-03",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.3",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2+16x+64=0",
+      "math_latex": "x^2+16x+64=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-8,8",
+          "math_latex": "x=-8,8"
+        },
+        {
+          "id": "B",
+          "text": "x=-16,4",
+          "math_latex": "x=-16,4"
+        },
+        {
+          "id": "C",
+          "text": "x=-8",
+          "math_latex": "x=-8"
+        },
+        {
+          "id": "D",
+          "text": "x=8",
+          "math_latex": "x=8"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "x=-8",
+        "explanation": "The graph of (x+8)² touches the x-axis at −8."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q19-MCQ-04",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.4",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2-5x+12=0",
+      "math_latex": "x^2-5x+12=0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x = 2.5"
+        },
+        {
+          "id": "B",
+          "text": "No real solution"
+        },
+        {
+          "id": "C",
+          "text": "x = −3, −4"
+        },
+        {
+          "id": "D",
+          "text": "x = 3, 4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "No real solution",
+        "explanation": "The vertex is (2.5,5.75), above the x-axis."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q19-MCQ-05",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.5",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2+14x=-49",
+      "math_latex": "x^2+14x=-49",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-7",
+          "math_latex": "x=-7"
+        },
+        {
+          "id": "B",
+          "text": "x=7",
+          "math_latex": "x=7"
+        },
+        {
+          "id": "C",
+          "text": "x=-7,7",
+          "math_latex": "x=-7,7"
+        },
+        {
+          "id": "D",
+          "text": "x=-14",
+          "math_latex": "x=-14"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "x=-7",
+        "explanation": "The related graph is (x+7)², tangent to the x-axis at −7."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q19-MCQ-06",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.6",
+      "instruction": "Solve the equation by graphing the related quadratic function.",
+      "stem": "Solve the equation by graphing the related quadratic function. x^2=2x-1",
+      "math_latex": "x^2=2x-1",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x=-1",
+          "math_latex": "x=-1"
+        },
+        {
+          "id": "B",
+          "text": "x=-1,1",
+          "math_latex": "x=-1,1"
+        },
+        {
+          "id": "C",
+          "text": "x=2",
+          "math_latex": "x=2"
+        },
+        {
+          "id": "D",
+          "text": "x=1",
+          "math_latex": "x=1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x=1",
+        "explanation": "Bring all terms left: (x−1)²=0. The graph touches the x-axis at 1."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

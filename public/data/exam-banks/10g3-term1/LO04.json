@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO04",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO04",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO04",
+      "exam_slot": "Q4",
+      "title": "Factor using distribution",
+      "title_ar": "التحليل بخاصية التوزيع",
+      "statement": "Factor polynomials by using the Distributive Property.",
+      "rule_summary": "Take the greatest common factor from every term; check by multiplication.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 665,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q04-MCQ-01",
+        "G10G-Q04-MCQ-02",
+        "G10G-Q04-MCQ-03",
+        "G10G-Q04-MCQ-04",
+        "G10G-Q04-MCQ-05",
+        "G10G-Q04-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO04.json",
+      "booklet_question_ids": [
+        "G10G-Q04-MCQ-01",
+        "G10G-Q04-MCQ-02",
+        "G10G-Q04-MCQ-03",
+        "G10G-Q04-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q04-MCQ-01",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.1",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 16 t - 40 y",
+      "math_latex": "16 t - 40 y",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{\\left(-1\\right) 8 \\left(- 2 t + 5 y\\right)}{2}",
+          "math_latex": "\\frac{\\left(-1\\right) 8 \\left(- 2 t + 5 y\\right)}{2}"
+        },
+        {
+          "id": "B",
+          "text": "2 \\left(- 8 \\left(- 2 t + 5 y\\right)\\right)",
+          "math_latex": "2 \\left(- 8 \\left(- 2 t + 5 y\\right)\\right)"
+        },
+        {
+          "id": "C",
+          "text": "8 \\left(- 2 t + 5 y\\right)",
+          "math_latex": "8 \\left(- 2 t + 5 y\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- 8 \\left(- 2 t + 5 y\\right)",
+          "math_latex": "- 8 \\left(- 2 t + 5 y\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "- 8 \\left(- 2 t + 5 y\\right)",
+        "explanation": "Take out the GCF: -8·(-2·t + 5·y). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "1",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q04-MCQ-02",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.2",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 30 v + 50 x",
+      "math_latex": "30 v + 50 x",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\cdot 10 \\left(3 v + 5 x\\right)",
+          "math_latex": "2 \\cdot 10 \\left(3 v + 5 x\\right)"
+        },
+        {
+          "id": "B",
+          "text": "- 10 \\left(3 v + 5 x\\right)",
+          "math_latex": "- 10 \\left(3 v + 5 x\\right)"
+        },
+        {
+          "id": "C",
+          "text": "10 \\left(3 v + 5 x\\right)",
+          "math_latex": "10 \\left(3 v + 5 x\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{10 \\left(3 v + 5 x\\right)}{2}",
+          "math_latex": "\\frac{10 \\left(3 v + 5 x\\right)}{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "10 \\left(3 v + 5 x\\right)",
+        "explanation": "Take out the GCF: 10·(3·v + 5·x). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "2",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q04-MCQ-03",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.3",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 2 k^{2} + 4 k",
+      "math_latex": "2 k^{2} + 4 k",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- 2 k \\left(k + 2\\right)",
+          "math_latex": "- 2 k \\left(k + 2\\right)"
+        },
+        {
+          "id": "B",
+          "text": "2 k \\left(k + 2\\right)",
+          "math_latex": "2 k \\left(k + 2\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2 k \\left(k + 2\\right)}{2}",
+          "math_latex": "\\frac{2 k \\left(k + 2\\right)}{2}"
+        },
+        {
+          "id": "D",
+          "text": "2 \\cdot 2 k \\left(k + 2\\right)",
+          "math_latex": "2 \\cdot 2 k \\left(k + 2\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "2 k \\left(k + 2\\right)",
+        "explanation": "Take out the GCF: 2·k·(k + 2). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q04-MCQ-04",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.4",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 5 z^{2} + 10 z",
+      "math_latex": "5 z^{2} + 10 z",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5 z \\left(z + 2\\right)",
+          "math_latex": "5 z \\left(z + 2\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{5 z \\left(z + 2\\right)}{2}",
+          "math_latex": "\\frac{5 z \\left(z + 2\\right)}{2}"
+        },
+        {
+          "id": "C",
+          "text": "2 \\cdot 5 z \\left(z + 2\\right)",
+          "math_latex": "2 \\cdot 5 z \\left(z + 2\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- 5 z \\left(z + 2\\right)",
+          "math_latex": "- 5 z \\left(z + 2\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5 z \\left(z + 2\\right)",
+        "explanation": "Take out the GCF: 5·z·(z + 2). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q04-MCQ-05",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.5",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 4 a^{2} b^{2} + 2 a^{2} b - 10 a b^{2}",
+      "math_latex": "4 a^{2} b^{2} + 2 a^{2} b - 10 a b^{2}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2 a b \\left(2 a b + a - 5 b\\right)}{2}",
+          "math_latex": "\\frac{2 a b \\left(2 a b + a - 5 b\\right)}{2}"
+        },
+        {
+          "id": "B",
+          "text": "2 \\cdot 2 a b \\left(2 a b + a - 5 b\\right)",
+          "math_latex": "2 \\cdot 2 a b \\left(2 a b + a - 5 b\\right)"
+        },
+        {
+          "id": "C",
+          "text": "- 2 a b \\left(2 a b + a - 5 b\\right)",
+          "math_latex": "- 2 a b \\left(2 a b + a - 5 b\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 a b \\left(2 a b + a - 5 b\\right)",
+          "math_latex": "2 a b \\left(2 a b + a - 5 b\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "2 a b \\left(2 a b + a - 5 b\\right)",
+        "explanation": "Take out the GCF: 2·a·b·(2·a·b + a - 5·b). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q04-MCQ-06",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.6",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 5 c^{2} v^{3} - 15 c^{2} v^{2} + 5 c^{2} v",
+      "math_latex": "5 c^{2} v^{3} - 15 c^{2} v^{2} + 5 c^{2} v",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\cdot 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
+          "math_latex": "2 \\cdot 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+        },
+        {
+          "id": "B",
+          "text": "- 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
+          "math_latex": "- 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+        },
+        {
+          "id": "C",
+          "text": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
+          "math_latex": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{5 c^{2} v \\left(v^{2} - 3 v + 1\\right)}{2}",
+          "math_latex": "\\frac{5 c^{2} v \\left(v^{2} - 3 v + 1\\right)}{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
+        "explanation": "Take out the GCF: 5·c²·v·(v² - 3·v + 1). Expanding restores the original polynomial."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 665,
+        "pdf_page": 97,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

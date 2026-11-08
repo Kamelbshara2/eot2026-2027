@@ -1,0 +1,324 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO09",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO09",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO09",
+      "exam_slot": "Q9",
+      "title": "Negative and zero exponents",
+      "title_ar": "الأسس السالبة والصفرية",
+      "statement": "Simplify expressions containing negative and zero exponents.",
+      "rule_summary": "For a≠0, a⁰=1 and a⁻ⁿ=1/aⁿ. Move only factors with negative exponents.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 587,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 591,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q09-MCQ-01",
+        "G10G-Q09-MCQ-02",
+        "G10G-Q09-MCQ-03",
+        "G10G-Q09-MCQ-04",
+        "G10G-Q09-MCQ-05",
+        "G10G-Q09-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO09.json",
+      "booklet_question_ids": [
+        "G10G-Q09-MCQ-01",
+        "G10G-Q09-MCQ-02",
+        "G10G-Q09-MCQ-03",
+        "G10G-Q09-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q09-MCQ-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.1",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{3m^{-3}t^4p^2}{12t^4}",
+      "math_latex": "\\frac{3m^{-3}t^4p^2}{12t^4}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{p^{2}}{4 m^{3}}",
+          "math_latex": "- \\frac{p^{2}}{4 m^{3}}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{p^{2}}{2 m^{3}}",
+          "math_latex": "\\frac{p^{2}}{2 m^{3}}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{p^{2}}{4 m^{3}}",
+          "math_latex": "\\frac{p^{2}}{4 m^{3}}"
+        },
+        {
+          "id": "D",
+          "text": "0",
+          "math_latex": "0"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{p^{2}}{4 m^{3}}",
+        "explanation": "Use zero and negative exponent rules: p²/(4·m³)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "11",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q09-MCQ-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.2",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. (\\frac{3t^6u^2v^5}{9tuv^{21}})^0",
+      "math_latex": "(\\frac{3t^6u^2v^5}{9tuv^{21}})^0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "D",
+          "text": "-1",
+          "math_latex": "-1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "1",
+        "explanation": "Use zero and negative exponent rules: 1."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "12",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q09-MCQ-03",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.3",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{x^{-4}y^9}{z^{-2}}",
+      "math_latex": "\\frac{x^{-4}y^9}{z^{-2}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{y^{9} z^{2}}{x^{4}}",
+          "math_latex": "\\frac{y^{9} z^{2}}{x^{4}}"
+        },
+        {
+          "id": "B",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{y^{9} z^{2}}{x^{4}}",
+          "math_latex": "- \\frac{y^{9} z^{2}}{x^{4}}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{2 y^{9} z^{2}}{x^{4}}",
+          "math_latex": "\\frac{2 y^{9} z^{2}}{x^{4}}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{y^{9} z^{2}}{x^{4}}",
+        "explanation": "Use zero and negative exponent rules: y⁹·z²/x⁴."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "13",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q09-MCQ-04",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.4",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. (-\\frac{5f^9g^4h^2}{fg^2h^3})^0",
+      "math_latex": "(-\\frac{5f^9g^4h^2}{fg^2h^3})^0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "B",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "C",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1",
+        "explanation": "Use zero and negative exponent rules: 1."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "14",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q09-MCQ-05",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.5",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{p^4r^{-3}}{r^{-2}}",
+      "math_latex": "\\frac{p^4r^{-3}}{r^{-2}}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{p^{4}}{r}",
+          "math_latex": "- \\frac{p^{4}}{r}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{2 p^{4}}{r}",
+          "math_latex": "\\frac{2 p^{4}}{r}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{p^{4}}{r}",
+          "math_latex": "\\frac{p^{4}}{r}"
+        },
+        {
+          "id": "D",
+          "text": "0",
+          "math_latex": "0"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{p^{4}}{r}",
+        "explanation": "Use zero and negative exponent rules: p⁴/r."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "15",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q09-MCQ-06",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.6",
+      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
+      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. -\\frac{5c^2d^6}{8cd^5r^0}",
+      "math_latex": "-\\frac{5c^2d^6}{8cd^5r^0}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{5 c d}{4}",
+          "math_latex": "- \\frac{5 c d}{4}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{5 c d}{8}",
+          "math_latex": "- \\frac{5 c d}{8}"
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{5 c d}{8}",
+          "math_latex": "\\frac{5 c d}{8}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "- \\frac{5 c d}{8}",
+        "explanation": "Use zero and negative exponent rules: -5·c·d/8."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "16",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

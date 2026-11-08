@@ -1,0 +1,178 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO21",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO21",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Add and subtract polynomials",
+      "title_ar": "جمع كثيرات الحدود وطرحها",
+      "statement": "Add and subtract polynomials.",
+      "rule_summary": "Distribute a subtraction sign to every term; then collect like terms.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 636,
+          "exercises_or_section": "27–34"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q21-FRQ-01",
+        "G10G-Q21-FRQ-02",
+        "G10G-Q21-FRQ-03",
+        "G10G-Q21-FRQ-04"
+      ],
+      "question_count": 4,
+      "download": "LO21.json",
+      "booklet_question_ids": [
+        "G10G-Q21-FRQ-01",
+        "G10G-Q21-FRQ-02",
+        "G10G-Q21-FRQ-03",
+        "G10G-Q21-FRQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q21-FRQ-01",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.1",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (3c^3-c+11)-(c^2+2c+8)",
+      "math_latex": "(3c^3-c+11)-(c^2+2c+8)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your simplification.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 45
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct sign distribution and like-term collection (6 marks); simplified polynomial 3·c³ - c² - 3·c + 3 (4 marks).",
+            "math_latex": "3 c^{3} - c^{2} - 3 c + 3"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 636,
+        "pdf_page": 68,
+        "exercise": "27",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q21-FRQ-02",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.2",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (z^2+z)+(z^2-11)",
+      "math_latex": "(z^2+z)+(z^2-11)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your simplification.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 45
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct sign distribution and like-term collection (6 marks); simplified polynomial 2·z² + z - 11 (4 marks).",
+            "math_latex": "2 z^{2} + z - 11"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 636,
+        "pdf_page": 68,
+        "exercise": "28",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q21-FRQ-03",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.3",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (2x-2y+1)-(3y+4x)",
+      "math_latex": "(2x-2y+1)-(3y+4x)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your simplification.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 45
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct sign distribution and like-term collection (6 marks); simplified polynomial -2·x - 5·y + 1 (4 marks).",
+            "math_latex": "- 2 x - 5 y + 1"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 636,
+        "pdf_page": 68,
+        "exercise": "29",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q21-FRQ-04",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.4",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (4a-5b^2+3)+(6-2a+3b^2)",
+      "math_latex": "(4a-5b^2+3)+(6-2a+3b^2)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your simplification.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 45
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct sign distribution and like-term collection (6 marks); simplified polynomial 2·a - 2·b² + 9 (4 marks).",
+            "math_latex": "2 a - 2 b^{2} + 9"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 636,
+        "pdf_page": 68,
+        "exercise": "30",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    }
+  ],
+  "assets": {}
+}

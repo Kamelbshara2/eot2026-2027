@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO10",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO10",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO10",
+      "exam_slot": "Q10",
+      "title": "Rational exponents",
+      "title_ar": "الأسس النسبية والجذور",
+      "statement": "Evaluate and rewrite expressions involving rational exponents.",
+      "rule_summary": "a^(1/n) is the principal nth root of a. Evaluate the root before any other power.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 599,
+          "exercises_or_section": "9–16"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q10-MCQ-01",
+        "G10G-Q10-MCQ-02",
+        "G10G-Q10-MCQ-03",
+        "G10G-Q10-MCQ-04",
+        "G10G-Q10-MCQ-05",
+        "G10G-Q10-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO10.json",
+      "booklet_question_ids": [
+        "G10G-Q10-MCQ-01",
+        "G10G-Q10-MCQ-02",
+        "G10G-Q10-MCQ-05",
+        "G10G-Q10-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q10-MCQ-01",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.1",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. (\\frac1{16})^{1/4}",
+      "math_latex": "(\\frac1{16})^{1/4}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{1}{2}",
+          "math_latex": "- \\frac{1}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{1}{2}",
+          "math_latex": "\\frac{1}{2}"
+        },
+        {
+          "id": "C",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{1}{4}",
+          "math_latex": "\\frac{1}{4}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{1}{2}",
+        "explanation": "Raise 1/2 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "9",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q10-MCQ-02",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.2",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. \\sqrt[5]{3125}",
+      "math_latex": "\\sqrt[5]{3125}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5",
+          "math_latex": "5"
+        },
+        {
+          "id": "B",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{5}{2}",
+          "math_latex": "\\frac{5}{2}"
+        },
+        {
+          "id": "D",
+          "text": "-5",
+          "math_latex": "-5"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5",
+        "explanation": "Raise 5 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "10",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q10-MCQ-03",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.3",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. 729^{1/3}",
+      "math_latex": "729^{1/3}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "18",
+          "math_latex": "18"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{9}{2}",
+          "math_latex": "\\frac{9}{2}"
+        },
+        {
+          "id": "C",
+          "text": "-9",
+          "math_latex": "-9"
+        },
+        {
+          "id": "D",
+          "text": "9",
+          "math_latex": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "9",
+        "explanation": "Raise 9 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "11",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q10-MCQ-04",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.4",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. (\\frac1{32})^{1/5}",
+      "math_latex": "(\\frac1{32})^{1/5}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{1}{4}",
+          "math_latex": "\\frac{1}{4}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{1}{2}",
+          "math_latex": "- \\frac{1}{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{1}{2}",
+          "math_latex": "\\frac{1}{2}"
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{1}{2}",
+        "explanation": "Raise 1/2 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "12",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q10-MCQ-05",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.5",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. \\sqrt[6]{4096}",
+      "math_latex": "\\sqrt[6]{4096}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-4",
+          "math_latex": "-4"
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "math_latex": "2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "4",
+        "explanation": "Raise 4 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "13",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q10-MCQ-06",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.6",
+      "instruction": "Evaluate.",
+      "stem": "Evaluate. (\\frac{16}{625})^{1/4}",
+      "math_latex": "(\\frac{16}{625})^{1/4}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2}{5}",
+          "math_latex": "\\frac{2}{5}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{4}{5}",
+          "math_latex": "\\frac{4}{5}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{1}{5}",
+          "math_latex": "\\frac{1}{5}"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{2}{5}",
+          "math_latex": "- \\frac{2}{5}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{2}{5}",
+        "explanation": "Raise 2/5 to the indicated denominator of the exponent to check the radicand."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 599,
+        "pdf_page": 31,
+        "exercise": "15",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

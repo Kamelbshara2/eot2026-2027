@@ -1,0 +1,178 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO22",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO22",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO22",
+      "exam_slot": "Q22",
+      "title": "Multiply polynomials",
+      "title_ar": "ضرب كثيرات الحدود",
+      "statement": "Multiply polynomials by using the Distributive Property.",
+      "rule_summary": "Multiply each term in the first polynomial by every term in the second; collect equal powers.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 650,
+          "exercises_or_section": "18–23"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q22-FRQ-01",
+        "G10G-Q22-FRQ-02",
+        "G10G-Q22-FRQ-03",
+        "G10G-Q22-FRQ-04"
+      ],
+      "question_count": 4,
+      "download": "LO22.json",
+      "booklet_question_ids": [
+        "G10G-Q22-FRQ-01",
+        "G10G-Q22-FRQ-02",
+        "G10G-Q22-FRQ-03",
+        "G10G-Q22-FRQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q22-FRQ-01",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.1",
+      "instruction": "Find the product.",
+      "stem": "Find the product. (2y-11)(y^2-3y+2)",
+      "math_latex": "(2y-11)(y^2-3y+2)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show all partial products and combine like terms.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 50
+          },
+          "answer": {
+            "model_answer_and_marking": "All partial products (6 marks); correct collection of like terms (4 marks): 2·y³ - 17·y² + 37·y - 22.",
+            "math_latex": "2 y^{3} - 17 y^{2} + 37 y - 22"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 650,
+        "pdf_page": 82,
+        "exercise": "18",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q22-FRQ-02",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.2",
+      "instruction": "Find the product.",
+      "stem": "Find the product. (4a+7)(9a^2+2a-7)",
+      "math_latex": "(4a+7)(9a^2+2a-7)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show all partial products and combine like terms.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 50
+          },
+          "answer": {
+            "model_answer_and_marking": "All partial products (6 marks); correct collection of like terms (4 marks): 36·a³ + 71·a² - 14·a - 49.",
+            "math_latex": "36 a^{3} + 71 a^{2} - 14 a - 49"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 650,
+        "pdf_page": 82,
+        "exercise": "19",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q22-FRQ-03",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.3",
+      "instruction": "Find the product.",
+      "stem": "Find the product. (m^2-5m+4)(m^2+7m-3)",
+      "math_latex": "(m^2-5m+4)(m^2+7m-3)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show all partial products and combine like terms.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 50
+          },
+          "answer": {
+            "model_answer_and_marking": "All partial products (6 marks); correct collection of like terms (4 marks): m⁴ + 2·m³ - 34·m² + 43·m - 12.",
+            "math_latex": "m^{4} + 2 m^{3} - 34 m^{2} + 43 m - 12"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 650,
+        "pdf_page": 82,
+        "exercise": "20",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    },
+    {
+      "id": "G10G-Q22-FRQ-04",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.4",
+      "instruction": "Find the product.",
+      "stem": "Find the product. (x^2+5x-1)(5x^2-6x+1)",
+      "math_latex": "(x^2+5x-1)(5x^2-6x+1)",
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show all partial products and combine like terms.",
+          "math_latex": "",
+          "marks": 10,
+          "workspace": {
+            "height_mm": 50
+          },
+          "answer": {
+            "model_answer_and_marking": "All partial products (6 marks); correct collection of like terms (4 marks): 5·x⁴ + 19·x³ - 34·x² + 11·x - 1.",
+            "math_latex": "5 x^{4} + 19 x^{3} - 34 x^{2} + 11 x - 1"
+          }
+        }
+      ],
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 650,
+        "pdf_page": 82,
+        "exercise": "21",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "graph_workspace": false
+    }
+  ],
+  "assets": {}
+}

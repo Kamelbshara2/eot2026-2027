@@ -1,0 +1,300 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO16",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO16",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO16",
+      "exam_slot": "Q16",
+      "title": "Translations of quadratics",
+      "title_ar": "إزاحة الدوال التربيعية",
+      "statement": "Write a quadratic in vertex form and transform its graph.",
+      "rule_summary": "In y=a(x−h)²+k, the vertex is (h,k). x−h shifts right; x+h shifts left.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 699,
+          "exercises_or_section": "Learn"
+        },
+        {
+          "printed_page": 707,
+          "exercises_or_section": "3–10"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q16-MCQ-01",
+        "G10G-Q16-MCQ-02",
+        "G10G-Q16-MCQ-03",
+        "G10G-Q16-MCQ-04",
+        "G10G-Q16-MCQ-05",
+        "G10G-Q16-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO16.json",
+      "booklet_question_ids": [
+        "G10G-Q16-MCQ-01",
+        "G10G-Q16-MCQ-02",
+        "G10G-Q16-MCQ-05",
+        "G10G-Q16-MCQ-06"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q16-MCQ-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.1",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=(x-1)^2",
+      "math_latex": "g(x)=(x-1)^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Left 1 unit"
+        },
+        {
+          "id": "B",
+          "text": "Up 1 unit"
+        },
+        {
+          "id": "C",
+          "text": "Down 1 unit"
+        },
+        {
+          "id": "D",
+          "text": "Right 1 unit"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Right 1 unit",
+        "explanation": "Replacing x by x−1 shifts the parent graph right by 1."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q16-MCQ-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.2",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=x^2-8",
+      "math_latex": "g(x)=x^2-8",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Right 8 units"
+        },
+        {
+          "id": "B",
+          "text": "Left 8 units"
+        },
+        {
+          "id": "C",
+          "text": "Down 8 units"
+        },
+        {
+          "id": "D",
+          "text": "Up 8 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Down 8 units",
+        "explanation": "Subtracting 8 outside the square shifts down 8."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q16-MCQ-03",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.3",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=(x+3)^2",
+      "math_latex": "g(x)=(x+3)^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Down 3 units"
+        },
+        {
+          "id": "B",
+          "text": "Left 3 units"
+        },
+        {
+          "id": "C",
+          "text": "Right 3 units"
+        },
+        {
+          "id": "D",
+          "text": "Up 3 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Left 3 units",
+        "explanation": "x+3 means h=−3, so the shift is left 3."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q16-MCQ-04",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.4",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=x^2+7",
+      "math_latex": "g(x)=x^2+7",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Up 7 units"
+        },
+        {
+          "id": "B",
+          "text": "Down 7 units"
+        },
+        {
+          "id": "C",
+          "text": "Right 7 units"
+        },
+        {
+          "id": "D",
+          "text": "Left 7 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Up 7 units",
+        "explanation": "Adding 7 outside the square shifts up 7."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q16-MCQ-05",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.5",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=(x+5)^2-2",
+      "math_latex": "g(x)=(x+5)^2-2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Right 5 units and down 2 units"
+        },
+        {
+          "id": "B",
+          "text": "Left 5 units and up 2 units"
+        },
+        {
+          "id": "C",
+          "text": "Right 5 units and up 2 units"
+        },
+        {
+          "id": "D",
+          "text": "Left 5 units and down 2 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Left 5 units and down 2 units",
+        "explanation": "The vertex is (−5,−2)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "8",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q16-MCQ-06",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.6",
+      "instruction": "Describe the translation from the parent function y=x².",
+      "stem": "Describe the translation from the parent function y=x². g(x)=-4+(x-3)^2",
+      "math_latex": "g(x)=-4+(x-3)^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Right 3 units and up 4 units"
+        },
+        {
+          "id": "B",
+          "text": "Left 3 units and up 4 units"
+        },
+        {
+          "id": "C",
+          "text": "Right 3 units and down 4 units"
+        },
+        {
+          "id": "D",
+          "text": "Left 3 units and down 4 units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Right 3 units and down 4 units",
+        "explanation": "The vertex is (3,−4)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "10",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}

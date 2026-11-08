@@ -1,0 +1,320 @@
+{
+  "bank_metadata": {
+    "id": "10g3-term1-LO07",
+    "classroom": "10G3",
+    "learning_outcome_id": "LO07",
+    "question_count": 6
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO07",
+      "exam_slot": "Q7",
+      "title": "Difference of squares",
+      "title_ar": "تحليل الفرق بين مربعين",
+      "statement": "Factor binomials that are the difference of squares.",
+      "rule_summary": "A²−B²=(A−B)(A+B). Factor repeatedly when possible.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 679,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "question_ids": [
+        "G10G-Q07-MCQ-01",
+        "G10G-Q07-MCQ-02",
+        "G10G-Q07-MCQ-03",
+        "G10G-Q07-MCQ-04",
+        "G10G-Q07-MCQ-05",
+        "G10G-Q07-MCQ-06"
+      ],
+      "question_count": 6,
+      "download": "LO07.json",
+      "booklet_question_ids": [
+        "G10G-Q07-MCQ-01",
+        "G10G-Q07-MCQ-02",
+        "G10G-Q07-MCQ-03",
+        "G10G-Q07-MCQ-04"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10G-Q07-MCQ-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.1",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. q^{2} - 121",
+      "math_latex": "q^{2} - 121",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(q - 11\\right) \\left(q + 11\\right)",
+          "math_latex": "\\left(q - 11\\right) \\left(q + 11\\right)"
+        },
+        {
+          "id": "B",
+          "text": "2 \\left(q - 11\\right) \\left(q + 11\\right)",
+          "math_latex": "2 \\left(q - 11\\right) \\left(q + 11\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{\\left(q - 11\\right) \\left(q + 11\\right)}{2}",
+          "math_latex": "\\frac{\\left(q - 11\\right) \\left(q + 11\\right)}{2}"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(q - 11\\right) \\left(q + 11\\right)",
+          "math_latex": "- \\left(q - 11\\right) \\left(q + 11\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(q - 11\\right) \\left(q + 11\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (q - 11)·(q + 11)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "1",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q07-MCQ-02",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.2",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. - k^{4} + r^{4}",
+      "math_latex": "- k^{4} + r^{4}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+          "math_latex": "2 \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)}{2}",
+          "math_latex": "\\frac{\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)}{2}"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+          "math_latex": "- \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+          "math_latex": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (-k + r)·(k + r)·(k² + r²)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "2",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q07-MCQ-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.3",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. w^{4} - 625",
+      "math_latex": "w^{4} - 625",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)}{2}",
+          "math_latex": "\\frac{\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)}{2}"
+        },
+        {
+          "id": "B",
+          "text": "- \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "math_latex": "- \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "math_latex": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "math_latex": "2 \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (w - 5)·(w + 5)·(w² + 25)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "3",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q07-MCQ-04",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.4",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. r^{2} - 9 t^{2}",
+      "math_latex": "r^{2} - 9 t^{2}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\left(r - 3 t\\right) \\left(r + 3 t\\right)",
+          "math_latex": "- \\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)",
+          "math_latex": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+        },
+        {
+          "id": "C",
+          "text": "2 \\left(r - 3 t\\right) \\left(r + 3 t\\right)",
+          "math_latex": "2 \\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{\\left(r - 3 t\\right) \\left(r + 3 t\\right)}{2}",
+          "math_latex": "\\frac{\\left(r - 3 t\\right) \\left(r + 3 t\\right)}{2}"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (r - 3·t)·(r + 3·t)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "4",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q07-MCQ-05",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.5",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. h^{4} - 256",
+      "math_latex": "h^{4} - 256",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "math_latex": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+        },
+        {
+          "id": "B",
+          "text": "2 \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "math_latex": "2 \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)}{2}",
+          "math_latex": "\\frac{\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)}{2}"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "math_latex": "- \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (h - 4)·(h + 4)·(h² + 16)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "5",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    },
+    {
+      "id": "G10G-Q07-MCQ-06",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.6",
+      "instruction": "Factor completely over the integers.",
+      "stem": "Factor completely over the integers. 2 x^{3} - x^{2} - 162 x + 81",
+      "math_latex": "2 x^{3} - x^{2} - 162 x + 81",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "math_latex": "2 \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)}{2}",
+          "math_latex": "\\frac{\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)}{2}"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "math_latex": "- \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "math_latex": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+        "explanation": "Use difference of squares, with grouping when needed: (x - 9)·(x + 9)·(2·x - 1)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "printed_page": 679,
+        "pdf_page": 111,
+        "exercise": "6",
+        "adaptation": "mcq",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "wide": false
+    }
+  ],
+  "assets": {}
+}
