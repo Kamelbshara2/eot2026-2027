@@ -7,6 +7,8 @@
   "academic_year": "2026–2027",
   "source_sha256": "b6bc1fae6e18be6dd468a27dcb22055805d4ecd2f7222653e2fa8c400b3fb8da",
   "source_file": "source.json",
+  "authored_notice": "Parallel practice from the uploaded JSON: numbers and contexts differ from the textbook. The three SVG diagrams are supplied schematics, not original textbook images. This bank has not been verified as a verbatim textbook selection.",
+  "authored_notice_ar": "تدريبات موازية من ملف JSON المرفق؛ الأعداد والسياقات تختلف عن الكتاب. الرسومات الثلاثة تخطيطية من الملف وليست صور الكتاب الأصلية. لم تتم مطابقة هذا البنك حرفيًا مع الكتاب.",
   "question_count": 135,
   "mcq_count": 120,
   "frq_count": 15,

@@ -1,6 +1,6 @@
 # Grade 10 Advanced Term 1 bank
 
-`Grade10_Advanced_Question_Bank.json` is the supplied source file, retained byte-for-byte. It contains 25 learning outcomes, 120 MCQs and 15 multipart FRQs. Its textbook references identify alignment; the questions are newly authored parallel practice, as stated in the file.
+`Grade10_Advanced_Question_Bank.json` is the supplied source file, retained byte-for-byte. It contains 25 learning outcomes, 120 MCQs and 15 multipart FRQs. Its textbook references identify alignment; the questions are newly authored parallel practice, as stated in the file. The site now explicitly labels this as parallel practice with changed numbers/contexts and supplied schematic SVGs, not a verified verbatim textbook selection.
 
 Run `node scripts/import-grade10-advanced-term1-bank.mjs` to publish the standalone 10A1 bank in `public/data/exam-banks/10a1-term1/`. The output contains the original source, the complete organized `bank.json`, a site index, one downloadable JSON bank per LO and the three referenced SVG illustrations. The importer rejects unknown outcomes, duplicate IDs, invalid answer mappings, incorrect FRQ mark totals and executable/external SVG content.
 
@@ -33,3 +33,5 @@ The site route is `#/classrooms/10G3/banks/term1`. Its **60-minute / 20-MCQ** mo
 The linked **30-page A4 study booklet** selects **80 MCQs + all 21 FRQs** (4–5 questions per LO), includes brief rule reminders, original graph/image crops and source references, uses two columns for compact MCQs and full width for long choices, and keeps complete written tasks together with solution space. Four final pages give MCQ keys and worked FRQ answers. Selection prioritises the supplied coverage and complementary skills; it makes no unsupported prediction about government exam questions. The official coverage says 150 minutes and 100 marks, distinct from this local practice mock.
 
 Grade 9 General remains pending a readable textbook upload; its coverage PDF alone is not used to invent questions.
+
+The PDF exporter also runs `python scripts/verify-term1-booklet.py 10G3`: this reads the actual PDF, checks all 80 printed MCQ keys against the published bank and per-LO downloads, and compares the decoded pixels of all 11 included diagrams with their PNG assets. Pass the original textbook path as a final argument to additionally verify each asset against its exact original PDF crop. This checks artifact consistency and source-image fidelity; it does not by itself prove mathematical correctness or validate an inaccessible Grade 9 book.
