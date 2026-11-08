@@ -33,7 +33,11 @@
         "G10G-Q24-FRQ-02",
         "G10G-Q24-FRQ-03",
         "G10G-Q24-FRQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Quadratic extrema and graph features"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -84,7 +88,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quadratic extrema and graph features"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q24-FRQ-02",
@@ -133,7 +149,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quadratic extrema and graph features"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q24-FRQ-03",
@@ -182,7 +210,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quadratic extrema and graph features"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q24-FRQ-04",
@@ -231,10 +271,41 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quadratic extrema and graph features"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {
+    "extrema_2": {
+      "src": "assets/extrema_2.png",
+      "width": 310,
+      "height": 312,
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 2; one unit per grid square.",
+      "source": {
+        "printed_page": 695,
+        "pdf_page": 127,
+        "exercise": "extrema_2",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.542,
+        0.14,
+        0.715,
+        0.263
+      ]
+    },
     "extrema_1": {
       "src": "assets/extrema_1.png",
       "width": 314,
@@ -252,25 +323,6 @@
         0.14,
         0.355,
         0.263
-      ]
-    },
-    "extrema_3": {
-      "src": "assets/extrema_3.png",
-      "width": 314,
-      "height": 312,
-      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 3; one unit per grid square.",
-      "source": {
-        "printed_page": 695,
-        "pdf_page": 127,
-        "exercise": "extrema_3",
-        "adaptation": "transcription",
-        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
-      },
-      "crop_box": [
-        0.18,
-        0.302,
-        0.355,
-        0.425
       ]
     },
     "extrema_4": {
@@ -292,23 +344,23 @@
         0.425
       ]
     },
-    "extrema_2": {
-      "src": "assets/extrema_2.png",
-      "width": 310,
+    "extrema_3": {
+      "src": "assets/extrema_3.png",
+      "width": 314,
       "height": 312,
-      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 2; one unit per grid square.",
+      "alt_text": "Original quadratic graph, Reveal p. 695 exercise 3; one unit per grid square.",
       "source": {
         "printed_page": 695,
         "pdf_page": 127,
-        "exercise": "extrema_2",
+        "exercise": "extrema_3",
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
       "crop_box": [
-        0.542,
-        0.14,
-        0.715,
-        0.263
+        0.18,
+        0.302,
+        0.355,
+        0.425
       ]
     }
   }

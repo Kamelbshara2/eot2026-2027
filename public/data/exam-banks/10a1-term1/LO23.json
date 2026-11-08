@@ -33,7 +33,11 @@
         "G10A-BOOK-Q23-FRQ-03",
         "G10A-BOOK-Q23-FRQ-04"
       ],
-      "download": "LO23.json"
+      "download": "LO23.json",
+      "assessment_facets": [
+        "Solving with similar triangles"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -71,6 +75,18 @@
         "pdf_page": 83,
         "exercise": "5",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solving with similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -107,6 +123,18 @@
         "pdf_page": 83,
         "exercise": "6",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solving with similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -143,6 +171,18 @@
         "pdf_page": 83,
         "exercise": "7",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solving with similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -179,30 +219,22 @@
         "pdf_page": 83,
         "exercise": "8",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solving with similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],
   "assets": {
-    "frq23_6": {
-      "src": "assets/frq23_6.png",
-      "width": 715,
-      "height": 304,
-      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 6.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 139,
-        "pdf_page": 83,
-        "exercise": "6",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.54,
-        0.418,
-        0.94,
-        0.538
-      ]
-    },
     "frq23_7": {
       "src": "assets/frq23_7.png",
       "width": 680,
@@ -226,7 +258,7 @@
     "frq23_5": {
       "src": "assets/frq23_5.png",
       "width": 484,
-      "height": 355,
+      "height": 287,
       "alt_text": "Original textbook diagram, Reveal p. 139, exercise 5.",
       "source": {
         "book_part": 2,
@@ -240,7 +272,7 @@
         0.15,
         0.418,
         0.42,
-        0.558
+        0.531
       ]
     },
     "frq23_8": {
@@ -261,6 +293,26 @@
         0.537,
         0.78,
         0.66
+      ]
+    },
+    "frq23_6": {
+      "src": "assets/frq23_6.png",
+      "width": 715,
+      "height": 304,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 6.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "6",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.54,
+        0.418,
+        0.94,
+        0.538
       ]
     }
   }

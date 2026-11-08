@@ -33,7 +33,11 @@
         "G9G-BOOK-Q21-FRQ-03",
         "G9G-BOOK-Q21-FRQ-04"
       ],
-      "download": "LO21.json"
+      "download": "LO21.json",
+      "assessment_facets": [
+        "Evaluate algebraic expressions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -70,6 +74,46 @@
         "pdf_page": 19,
         "exercise": "42",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate algebraic expressions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2+6*11",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2+6*11"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q21-FRQ-01.png"
       }
     },
     {
@@ -105,6 +149,46 @@
         "pdf_page": 19,
         "exercise": "43",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate algebraic expressions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7-2*3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "7-2*3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q21-FRQ-02.png"
       }
     },
     {
@@ -140,6 +224,46 @@
         "pdf_page": 19,
         "exercise": "44",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate algebraic expressions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "3^2+(2^3-8)^5",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "3^2+(2^3-8)^5"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q21-FRQ-03.png"
       }
     },
     {
@@ -175,6 +299,46 @@
         "pdf_page": 19,
         "exercise": "45",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate algebraic expressions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*11+3*2)/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2*11+3*2)/4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q21-FRQ-04.png"
       }
     }
   ],

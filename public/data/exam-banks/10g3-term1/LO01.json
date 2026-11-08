@@ -35,7 +35,11 @@
         "G10G-Q01-MCQ-02",
         "G10G-Q01-MCQ-03",
         "G10G-Q01-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "FOIL binomial products"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -44,35 +48,39 @@
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.1",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(c + 3\\right) \\left(3 c - 5\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(c + 3\\right) \\left(3 c - 5\\right)",
       "math_latex": "\\left(c + 3\\right) \\left(3 c - 5\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "3 c^{2} + 3 c - 15",
-          "math_latex": "3 c^{2} + 3 c - 15"
+          "text": "3 c^{2} + 4 c",
+          "math_latex": "3 c^{2} + 4 c",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "3 c^{2} + 4 c - 14",
-          "math_latex": "3 c^{2} + 4 c - 14"
+          "text": "3 c^{2} + 4 c + 15",
+          "math_latex": "3 c^{2} + 4 c + 15",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "3 c^{2} + 4 c - 15",
-          "math_latex": "3 c^{2} + 4 c - 15"
+          "text": "\\left(3 c^{2} + 4 c\\right) - 15",
+          "math_latex": "\\left(3 c^{2} + 4 c\\right) - 15",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "3 c^{2} + 5 c - 15",
-          "math_latex": "3 c^{2} + 5 c - 15"
+          "text": "4 c - 15",
+          "math_latex": "4 c - 15",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "3 c^{2} + 4 c - 15",
+        "correct_option_text": "\\left(3 c^{2} + 4 c\\right) - 15",
         "explanation": "Use FOIL and combine like terms: 3·c² + 4·c - 15."
       },
       "diagram_asset_ids": [],
@@ -83,42 +91,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "c": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'c': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 3)*(3*2 - 5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 3)*(3*2 - 5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q01-MCQ-02",
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.2",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(g + 10\\right) \\left(2 g - 5\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(g + 10\\right) \\left(2 g - 5\\right)",
       "math_latex": "\\left(g + 10\\right) \\left(2 g - 5\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2 g^{2} + 15 g - 49",
-          "math_latex": "2 g^{2} + 15 g - 49"
+          "text": "2 g^{2} + 15 g",
+          "math_latex": "2 g^{2} + 15 g",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "2 g^{2} + 15 g - 50",
-          "math_latex": "2 g^{2} + 15 g - 50"
+          "text": "\\left(2 g^{2} + 15 g\\right) - 50",
+          "math_latex": "\\left(2 g^{2} + 15 g\\right) - 50",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "2 g^{2} + 16 g - 50",
-          "math_latex": "2 g^{2} + 16 g - 50"
+          "text": "2 g^{2} + 15 g + 50",
+          "math_latex": "2 g^{2} + 15 g + 50",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "2 g^{2} + 14 g - 50",
-          "math_latex": "2 g^{2} + 14 g - 50"
+          "text": "15 g - 50",
+          "math_latex": "15 g - 50",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "2 g^{2} + 15 g - 50",
+        "correct_option_text": "\\left(2 g^{2} + 15 g\\right) - 50",
         "explanation": "Use FOIL and combine like terms: 2·g² + 15·g - 50."
       },
       "diagram_asset_ids": [],
@@ -129,42 +191,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "g": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'g': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 10)*(2*2 - 5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 10)*(2*2 - 5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q01-MCQ-03",
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.3",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(5 a + 3\\right) \\left(6 a + 5\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(5 a + 3\\right) \\left(6 a + 5\\right)",
       "math_latex": "\\left(5 a + 3\\right) \\left(6 a + 5\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "30 a^{2} + 43 a + 15",
-          "math_latex": "30 a^{2} + 43 a + 15"
+          "text": "\\left(30 a^{2} + 43 a\\right) + 15",
+          "math_latex": "\\left(30 a^{2} + 43 a\\right) + 15",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "30 a^{2} + 44 a + 15",
-          "math_latex": "30 a^{2} + 44 a + 15"
+          "text": "30 a^{2} + 43 a",
+          "math_latex": "30 a^{2} + 43 a",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "30 a^{2} + 42 a + 15",
-          "math_latex": "30 a^{2} + 42 a + 15"
+          "text": "30 a^{2} + 43 a - 15",
+          "math_latex": "30 a^{2} + 43 a - 15",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "30 a^{2} + 43 a + 16",
-          "math_latex": "30 a^{2} + 43 a + 16"
+          "text": "43 a + 15",
+          "math_latex": "43 a + 15",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "30 a^{2} + 43 a + 15",
+        "correct_option_text": "\\left(30 a^{2} + 43 a\\right) + 15",
         "explanation": "Use FOIL and combine like terms: 30·a² + 43·a + 15."
       },
       "diagram_asset_ids": [],
@@ -175,42 +291,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(5*2 + 3)*(6*2 + 5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(5*2 + 3)*(6*2 + 5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q01-MCQ-04",
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.4",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(4 x + 1\\right) \\left(6 x + 3\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(4 x + 1\\right) \\left(6 x + 3\\right)",
       "math_latex": "\\left(4 x + 1\\right) \\left(6 x + 3\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "24 x^{2} + 19 x + 3",
-          "math_latex": "24 x^{2} + 19 x + 3"
+          "text": "24 x^{2} + 18 x",
+          "math_latex": "24 x^{2} + 18 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "24 x^{2} + 17 x + 3",
-          "math_latex": "24 x^{2} + 17 x + 3"
+          "text": "24 x^{2} + 18 x - 3",
+          "math_latex": "24 x^{2} + 18 x - 3",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "24 x^{2} + 18 x + 4",
-          "math_latex": "24 x^{2} + 18 x + 4"
+          "text": "24 x^{2} + 3",
+          "math_latex": "24 x^{2} + 3",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
-          "text": "24 x^{2} + 18 x + 3",
-          "math_latex": "24 x^{2} + 18 x + 3"
+          "text": "\\left(24 x^{2} + 18 x\\right) + 3",
+          "math_latex": "\\left(24 x^{2} + 18 x\\right) + 3",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "24 x^{2} + 18 x + 3",
+        "correct_option_text": "\\left(24 x^{2} + 18 x\\right) + 3",
         "explanation": "Use FOIL and combine like terms: 24·x² + 18·x + 3."
       },
       "diagram_asset_ids": [],
@@ -221,42 +391,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(4*2 + 1)*(6*2 + 3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(4*2 + 1)*(6*2 + 3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q01-MCQ-05",
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.5",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(3 y - 1\\right) \\left(5 y - 4\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(3 y - 1\\right) \\left(5 y - 4\\right)",
       "math_latex": "\\left(3 y - 1\\right) \\left(5 y - 4\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "15 y^{2} - 18 y + 4",
-          "math_latex": "15 y^{2} - 18 y + 4"
+          "text": "15 y^{2} - 17 y",
+          "math_latex": "15 y^{2} - 17 y",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "15 y^{2} - 17 y + 5",
-          "math_latex": "15 y^{2} - 17 y + 5"
+          "text": "15 y^{2} - 17 y - 4",
+          "math_latex": "15 y^{2} - 17 y - 4",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "15 y^{2} - 17 y + 4",
-          "math_latex": "15 y^{2} - 17 y + 4"
+          "text": "\\left(15 y^{2} - 17 y\\right) + 4",
+          "math_latex": "\\left(15 y^{2} - 17 y\\right) + 4",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "15 y^{2} - 16 y + 4",
-          "math_latex": "15 y^{2} - 16 y + 4"
+          "text": "15 y^{2} + 4",
+          "math_latex": "15 y^{2} + 4",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "15 y^{2} - 17 y + 4",
+        "correct_option_text": "\\left(15 y^{2} - 17 y\\right) + 4",
         "explanation": "Use FOIL and combine like terms: 15·y² - 17·y + 4."
       },
       "diagram_asset_ids": [],
@@ -267,42 +491,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "y": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'y': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(3*2 - 1)*(5*2 - 4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(3*2 - 1)*(5*2 - 4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q01-MCQ-06",
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.6",
-      "instruction": "Find the product.",
-      "stem": "Find the product. \\left(4 d - 7\\right) \\left(6 d - 5\\right)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? \\left(4 d - 7\\right) \\left(6 d - 5\\right)",
       "math_latex": "\\left(4 d - 7\\right) \\left(6 d - 5\\right)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "24 d^{2} - 62 d + 36",
-          "math_latex": "24 d^{2} - 62 d + 36"
+          "text": "24 d^{2} - 62 d",
+          "math_latex": "24 d^{2} - 62 d",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "24 d^{2} - 62 d + 35",
-          "math_latex": "24 d^{2} - 62 d + 35"
+          "text": "\\left(24 d^{2} - 62 d\\right) + 35",
+          "math_latex": "\\left(24 d^{2} - 62 d\\right) + 35",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "24 d^{2} - 61 d + 35",
-          "math_latex": "24 d^{2} - 61 d + 35"
+          "text": "24 d^{2} - 62 d - 35",
+          "math_latex": "24 d^{2} - 62 d - 35",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "24 d^{2} - 63 d + 35",
-          "math_latex": "24 d^{2} - 63 d + 35"
+          "text": "24 d^{2} + 35",
+          "math_latex": "24 d^{2} + 35",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "24 d^{2} - 62 d + 35",
+        "correct_option_text": "\\left(24 d^{2} - 62 d\\right) + 35",
         "explanation": "Use FOIL and combine like terms: 24·d² - 62·d + 35."
       },
       "diagram_asset_ids": [],
@@ -313,7 +591,57 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "FOIL binomial products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "d": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'d': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(4*2 - 7)*(6*2 - 5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(4*2 - 7)*(6*2 - 5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q01-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

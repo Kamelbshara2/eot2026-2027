@@ -1,3 +1,34 @@
+# Current exam-review-v2 workflow
+
+Follow [STUDY_AUTHORING.md](../STUDY_AUTHORING.md). The user's latest policy permits clearly labelled applications of principles and small worked-example variants. The original extraction notes below describe the historical v1 baseline, not the active v2 selection.
+
+Active counts: **9G3 126 (102 MCQ + 24 FRQ); 10G3 155 (134 + 21); 10A1 108 (88 + 20)**. Each bank keeps independent LO downloads and its current `provenance.json`. Frozen baseline data lives in `textbook-v1-inputs/`. Reviewed crop bounds are in `reviewed-source-crops.json`; source pixels are not synthesized or retouched.
+
+```sh
+python -m pip install -r scripts/requirements-study.txt
+python scripts/revise-study-banks.py
+python scripts/audit-reviewed-math.py
+# Provide a local Playwright module and Chromium executable:
+export PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs
+export CHROMIUM_PATH=/usr/bin/chromium
+node scripts/render-calculator-guides.mjs
+for c in 9G3 10G3 10A1; do
+  STUDY_CLASSROOM=$c node scripts/build-term1-study-booklet.mjs
+  STUDY_CLASSROOM=$c node scripts/export-term1-study-booklet.mjs
+done
+python scripts/package-assessment-db.py
+npm test
+npm run build
+```
+
+Do not run an old extractor alone over reviewed banks. If original PDFs change, re-map coverage and source hashes before replacing baseline inputs. For stronger crop verification, pass the original book(s) to `scripts/verify-term1-booklet.py`. Symbolic audit coverage and limitations are recorded in `reviewed-math-audit.json`. Review prose/geometry and full page renders separately.
+
+The package under `artifacts/assessment-transfer.zip` contains SQLite/SQL/JSON, media and checksum manifest. It is an offline teacher transfer artifact; no live database migration or student deletion is performed. Question tables are grouped by scoped LO, grade, track and type; private keys and solution illustrations are separate from given diagrams.
+
+---
+
+# Historical baseline extraction notes (v1)
+
 # Textbook-only review banks and retained imports
 
 The active Advanced bank now comes from the uploaded `10adv 1.pdf` (printed pp. 627–686) and `10متقدم 2.pdf` (pp. 57–220). **100 original questions / 25 outcomes / 80 MCQs / 20 FRQs / 60 original image crops**. All source hashes, page mappings, exercises, choices and worked answers are recorded in `grade10-advanced-textbook-selection.json`. The [30-page booklet](../public/worksheets/grade-10-advanced-term1-study-booklet.pdf) contains all 100 selected questions. MCQ choices and worked solutions are added; original numerical data and diagrams are retained.
@@ -51,3 +82,5 @@ The linked **30-page A4 study booklet** selects **80 MCQs + all 21 FRQs** (4–5
 All selections prioritise the supplied learning outcomes and complementary skills. They do not predict particular government final-exam questions.
 
 The PDF exporter also runs `python scripts/verify-term1-booklet.py 10G3`: this reads the actual PDF, checks all 80 printed MCQ keys against the published bank and per-LO downloads, and compares the decoded pixels of all 11 included diagrams with their PNG assets. Pass the original textbook path as a final argument to additionally verify each asset against its exact original PDF crop. This checks artifact consistency and source-image fidelity; it does not by itself prove mathematical correctness; the source questions and worked answers are reviewed separately.
+
+For the v2 transfer artifact, run `python scripts/verify-assessment-package.py` after packaging. It reimports the SQL dump with foreign-key enforcement, compares keys and FRQ mathematics, validates every ZIP image path/checksum and samples 50 balanced forms per class. If regenerating original image assets from old extraction scripts, restore the reviewed crop bounds with `python scripts/extract-reviewed-crops.py /path/to/9-2.pdf /path/to/10-advanced-part2.pdf` before exporting.

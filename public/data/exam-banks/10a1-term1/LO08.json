@@ -33,7 +33,11 @@
         "G10A-BOOK-Q08-MCQ-03",
         "G10A-BOOK-Q08-MCQ-04"
       ],
-      "download": "LO08.json"
+      "download": "LO08.json",
+      "assessment_facets": [
+        "Kites"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO08",
       "type": "mcq",
       "display_number": "8.1",
-      "instruction": "Find the requested angle measure in the kite.",
-      "stem": "Find the requested angle measure in the kite.",
+      "instruction": "Which option gives the requested angle measure in the kite?",
+      "stem": "Which option gives the requested angle measure in the kite? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "103",
-          "math_latex": "103"
+          "text": "202",
+          "math_latex": "202",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
           "text": "79",
-          "math_latex": "79"
+          "math_latex": "79",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "99",
-          "math_latex": "99"
+          "text": "158",
+          "math_latex": "158",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "101",
-          "math_latex": "101"
+          "math_latex": "101",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -83,6 +91,46 @@
         "pdf_page": 50,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Kites"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(360-110-48)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(360-110-48)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q08-MCQ-01.png"
       }
     },
     {
@@ -90,29 +138,33 @@
       "learning_outcome_id": "LO08",
       "type": "mcq",
       "display_number": "8.2",
-      "instruction": "Find the requested angle measure in the kite.",
-      "stem": "Find the requested angle measure in the kite.",
+      "instruction": "Which option gives the requested angle measure in the kite?",
+      "stem": "Which option gives the requested angle measure in the kite? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "53",
-          "math_latex": "53"
+          "text": "254",
+          "math_latex": "254",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "125",
-          "math_latex": "125"
+          "text": "53",
+          "math_latex": "53",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
           "text": "127",
-          "math_latex": "127"
+          "math_latex": "127",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "129",
-          "math_latex": "129"
+          "text": "106",
+          "math_latex": "106",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -131,6 +183,46 @@
         "pdf_page": 50,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Kites"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(360-36-70)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(360-36-70)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q08-MCQ-02.png"
       }
     },
     {
@@ -138,14 +230,15 @@
       "learning_outcome_id": "LO08",
       "type": "mcq",
       "display_number": "8.3",
-      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
-      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "instruction": "Which option gives the requested side in simplest radical form, then the perimeter to the nearest tenth?",
+      "stem": "Which option gives the requested side in simplest radical form, then the perimeter to the nearest tenth? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "BC=\\sqrt{65},\\quad P\\approx58.5",
-          "math_latex": "BC=\\sqrt{65},\\quad P\\approx58.5"
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx58.5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -155,12 +248,14 @@
         {
           "id": "C",
           "text": "BC=\\sqrt{170},\\quad P\\approx42.2",
-          "math_latex": "BC=\\sqrt{170},\\quad P\\approx42.2"
+          "math_latex": "BC=\\sqrt{170},\\quad P\\approx42.2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "BC=\\sqrt{65},\\quad P\\approx21.1",
-          "math_latex": "BC=\\sqrt{65},\\quad P\\approx21.1"
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx21.1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -179,6 +274,56 @@
         "pdf_page": 50,
         "exercise": "15",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Kites"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(7^2+4^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*(sqrt(7^2+4^2)+sqrt(11^2+7^2))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(7^2+4^2)",
+          "2*(sqrt(7^2+4^2)+sqrt(11^2+7^2))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q08-MCQ-03.png"
       }
     },
     {
@@ -186,8 +331,8 @@
       "learning_outcome_id": "LO08",
       "type": "mcq",
       "display_number": "8.4",
-      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
-      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "instruction": "Which option gives the requested side in simplest radical form, then the perimeter to the nearest tenth?",
+      "stem": "Which option gives the requested side in simplest radical form, then the perimeter to the nearest tenth? ",
       "math_latex": "",
       "options": [
         {
@@ -198,17 +343,20 @@
         {
           "id": "B",
           "text": "RH=4\\sqrt{58},\\quad P\\approx107.6",
-          "math_latex": "RH=4\\sqrt{58},\\quad P\\approx107.6"
+          "math_latex": "RH=4\\sqrt{58},\\quad P\\approx107.6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "RH=4\\sqrt{34},\\quad P\\approx53.8",
-          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx53.8"
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx53.8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "RH=4\\sqrt{34},\\quad P\\approx96.0",
-          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx96.0"
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx96.0",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -227,27 +375,77 @@
         "pdf_page": 50,
         "exercise": "16",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Kites"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(20^2+12^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*(sqrt(20^2+12^2)+sqrt(28^2+12^2))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(20^2+12^2)",
+          "2*(sqrt(20^2+12^2)+sqrt(28^2+12^2))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q08-MCQ-04.png"
       }
     }
   ],
   "assets": {
-    "q8_14": {
-      "src": "assets/q8_14.png",
-      "width": 698,
+    "q8_13": {
+      "src": "assets/q8_13.png",
+      "width": 626,
       "height": 417,
-      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 14.",
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 13.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 106,
         "pdf_page": 50,
-        "exercise": "14",
+        "exercise": "13",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.45,
+        0.05,
         0.375,
-        0.84,
+        0.4,
         0.54
       ]
     },
@@ -271,23 +469,23 @@
         0.685
       ]
     },
-    "q8_13": {
-      "src": "assets/q8_13.png",
-      "width": 626,
+    "q8_14": {
+      "src": "assets/q8_14.png",
+      "width": 698,
       "height": 417,
-      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 13.",
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 14.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 106,
         "pdf_page": 50,
-        "exercise": "13",
+        "exercise": "14",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.05,
+        0.45,
         0.375,
-        0.4,
+        0.84,
         0.54
       ]
     },

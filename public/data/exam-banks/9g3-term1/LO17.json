@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO17",
     "classroom": "9G3",
     "learning_outcome_id": "LO17",
-    "question_count": 4
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,32 @@
           "exercises_or_section": "28–31"
         }
       ],
-      "question_count": 4,
+      "question_count": 8,
       "question_ids": [
         "G9G-BOOK-Q17-MCQ-01",
         "G9G-BOOK-Q17-MCQ-02",
         "G9G-BOOK-Q17-MCQ-03",
-        "G9G-BOOK-Q17-MCQ-04"
+        "G9G-BOOK-Q17-MCQ-04",
+        "9G3-REV-LO17-01",
+        "9G3-REV-LO17-02",
+        "9G3-REV-LO17-03",
+        "9G3-REV-LO17-04"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q17-MCQ-01",
         "G9G-BOOK-Q17-MCQ-02",
-        "G9G-BOOK-Q17-MCQ-03",
-        "G9G-BOOK-Q17-MCQ-04"
+        "9G3-REV-LO17-01",
+        "9G3-REV-LO17-02"
       ],
-      "download": "LO17.json"
+      "download": "LO17.json",
+      "assessment_facets": [
+        "Arithmetic sequence arguments",
+        "next-terms",
+        "nth-term-formula",
+        "term-order",
+        "term-value"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,11 +60,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+          "text": "Not arithmetic: increasing terms cannot be arithmetic.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Arithmetic: the common difference is 1."
+          "text": "Arithmetic: the common difference is 1.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -60,7 +74,8 @@
         },
         {
           "id": "D",
-          "text": "Arithmetic: a constant ratio is sufficient."
+          "text": "Arithmetic: a constant ratio is sufficient.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -77,6 +92,56 @@
         "pdf_page": 123,
         "exercise": "28",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Arithmetic sequence arguments"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-12)-(-9)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-15)-(-12)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-12)-(-9)",
+          "(-15)-(-12)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q17-MCQ-01.png"
       }
     },
     {
@@ -90,7 +155,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Arithmetic: the common difference is 1."
+          "text": "Arithmetic: the common difference is 1.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -98,11 +164,13 @@
         },
         {
           "id": "C",
-          "text": "Arithmetic: a constant ratio is sufficient."
+          "text": "Arithmetic: a constant ratio is sufficient.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+          "text": "Not arithmetic: increasing terms cannot be arithmetic.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -119,6 +187,66 @@
         "pdf_page": 123,
         "exercise": "29",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Arithmetic sequence arguments"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15-10",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "25-15",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "40-25",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "15-10",
+          "25-15",
+          "40-25"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q17-MCQ-02.png"
       }
     },
     {
@@ -136,15 +264,18 @@
         },
         {
           "id": "B",
-          "text": "Arithmetic: a constant ratio is sufficient."
+          "text": "Arithmetic: a constant ratio is sufficient.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+          "text": "Not arithmetic: increasing terms cannot be arithmetic.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Arithmetic: the common difference is 1."
+          "text": "Arithmetic: the common difference is 1.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -161,6 +292,56 @@
         "pdf_page": 123,
         "exercise": "30",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Arithmetic sequence arguments"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5)-(-10)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "0-(-5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-5)-(-10)",
+          "0-(-5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q17-MCQ-03.png"
       }
     },
     {
@@ -174,15 +355,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Arithmetic: a constant ratio is sufficient."
+          "text": "Arithmetic: a constant ratio is sufficient.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+          "text": "Not arithmetic: increasing terms cannot be arithmetic.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Arithmetic: the common difference is 1."
+          "text": "Arithmetic: the common difference is 1.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -203,6 +387,364 @@
         "pdf_page": 123,
         "exercise": "31",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Arithmetic sequence arguments"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-3)-(-5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-1)-(-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-3)-(-5)",
+          "(-1)-(-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q17-MCQ-04.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO17-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.5",
+      "instruction": "What are the next three terms?",
+      "stem": "What are the next three terms? -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-20,-22,-24",
+          "math_latex": "-20,-22,-24",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "-15,-12,-9",
+          "math_latex": "-15,-12,-9",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "-19,-20,-21",
+          "math_latex": "-19,-20,-21",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "-21,-24,-27",
+          "math_latex": "-21,-24,-27",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "-21,-24,-27",
+        "explanation": "Subtract 3 repeatedly."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "Application of 28",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "next-terms"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO17-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.6",
+      "instruction": "Which formula gives the nth term?",
+      "stem": "Which formula gives the nth term? -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "a_n=-3n-6",
+          "math_latex": "a_n=-3n-6",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "a_n=-3n-9",
+          "math_latex": "a_n=-3n-9",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "a_n=3n-12",
+          "math_latex": "a_n=3n-12",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "a_n=-6n-3",
+          "math_latex": "a_n=-6n-3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "a_n=-3n-6",
+        "explanation": "Use a₁+(n−1)d=−9−3(n−1)."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "Application of 28",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "nth-term-formula"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO17-03",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.7",
+      "instruction": "What is the 11th term?",
+      "stem": "What is the 11th term? -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-39",
+          "math_latex": "-39",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "-42",
+          "math_latex": "-42",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "-36",
+          "math_latex": "-36",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "39",
+          "math_latex": "39",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "-39",
+        "explanation": "a₁₁=−9+10(−3)=−39."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "Application of 28",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "term-value"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-9+(11-1)*(-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-9+(11-1)*(-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO17-03.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO17-04",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.8",
+      "instruction": "Which term has value −60?",
+      "stem": "Which term has value −60? -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "18",
+          "math_latex": "18",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "17",
+          "math_latex": "17",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "math_latex": "20",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "21",
+          "math_latex": "21",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "18",
+        "explanation": "Solve −3n−6=−60: n=18."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "Application of 28",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "term-order"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-60+6)/(-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-60+6)/(-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO17-04.png"
       }
     }
   ],

@@ -39,7 +39,11 @@
         "G10G-Q14-MCQ-02",
         "G10G-Q14-MCQ-03",
         "G10G-Q14-MCQ-06"
-      ]
+      ],
+      "assessment_facets": [
+        "Factoring in context"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -49,14 +53,15 @@
       "type": "mcq",
       "display_number": "14.1",
       "instruction": "A ballast bag is dropped from 576 ft. Its height is f(t)=−16t²+576. After how many seconds does it hit the ground?",
-      "stem": "A ballast bag is dropped from 576 ft. Its height is f(t)=−16t²+576. After how many seconds does it hit the ground?",
+      "stem": "A ballast bag is dropped from 576 ft. Its height is f(t)=−16t²+576. After how many seconds does it hit the ground? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "36",
-          "math_latex": "36"
+          "math_latex": "36",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -66,12 +71,14 @@
         {
           "id": "C",
           "text": "-6",
-          "math_latex": "-6"
+          "math_latex": "-6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "18",
-          "math_latex": "18"
+          "math_latex": "18",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -87,15 +94,55 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(576/16)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(576/16)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q14-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q14-MCQ-02",
       "learning_outcome_id": "LO14",
       "type": "mcq",
       "display_number": "14.2",
-      "instruction": "Factor the volume expression for Catalina’s open-topped box.",
-      "stem": "Factor the volume expression for Catalina’s open-topped box. V=3x^2-36x+108",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? V=3x^2-36x+108",
       "math_latex": "V=3x^2-36x+108",
       "marks": null,
       "options": [
@@ -107,17 +154,20 @@
         {
           "id": "B",
           "text": "3(x+6)^2",
-          "math_latex": "3(x+6)^2"
+          "math_latex": "3(x+6)^2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "(3x-6)^2",
-          "math_latex": "(3x-6)^2"
+          "math_latex": "(3x-6)^2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "3(x-12)^2",
-          "math_latex": "3(x-12)^2"
+          "math_latex": "3(x-12)^2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -133,7 +183,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q14-MCQ-03",
@@ -148,17 +210,20 @@
         {
           "id": "A",
           "text": "x=6,3",
-          "math_latex": "x=6,3"
+          "math_latex": "x=6,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-9,-2",
-          "math_latex": "x=-9,-2"
+          "math_latex": "x=-9,-2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=0,-9",
-          "math_latex": "x=0,-9"
+          "math_latex": "x=0,-9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -179,7 +244,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(9)^2-4*(1)*(18)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(9)+sqrt(9))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(9)-sqrt(9))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(9)^2-4*(1)*(18)",
+          "(-(9)+sqrt(9))/(2*(1))",
+          "(-(9)-sqrt(9))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q14-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q14-MCQ-04",
@@ -194,12 +324,14 @@
         {
           "id": "A",
           "text": "x=-7",
-          "math_latex": "x=-7"
+          "math_latex": "x=-7",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-\\frac74",
-          "math_latex": "x=-\\frac74"
+          "math_latex": "x=-\\frac74",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -209,7 +341,8 @@
         {
           "id": "D",
           "text": "x=\\frac72",
-          "math_latex": "x=\\frac72"
+          "math_latex": "x=\\frac72",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -225,7 +358,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(28)^2-4*(4)*(49)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(28)+sqrt(0))/(2*(4))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(28)-sqrt(0))/(2*(4))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(28)^2-4*(4)*(49)",
+          "(-(28)+sqrt(0))/(2*(4))",
+          "(-(28)-sqrt(0))/(2*(4))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q14-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q14-MCQ-05",
@@ -240,7 +438,8 @@
         {
           "id": "A",
           "text": "x=-5",
-          "math_latex": "x=-5"
+          "math_latex": "x=-5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -250,12 +449,14 @@
         {
           "id": "C",
           "text": "x=\\frac53",
-          "math_latex": "x=\\frac53"
+          "math_latex": "x=\\frac53",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=-\\frac35",
-          "math_latex": "x=-\\frac35"
+          "math_latex": "x=-\\frac35",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -271,7 +472,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-30)^2-4*(-9)*(-25)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-30)+sqrt(0))/(2*(-9))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-30)-sqrt(0))/(2*(-9))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-30)^2-4*(-9)*(-25)",
+          "(-(-30)+sqrt(0))/(2*(-9))",
+          "(-(-30)-sqrt(0))/(2*(-9))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q14-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q14-MCQ-06",
@@ -291,17 +557,20 @@
         {
           "id": "B",
           "text": "x=-2,-6",
-          "math_latex": "x=-2,-6"
+          "math_latex": "x=-2,-6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=3,4",
-          "math_latex": "x=3,4"
+          "math_latex": "x=3,4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=-3,-4",
-          "math_latex": "x=-3,-4"
+          "math_latex": "x=-3,-4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -317,7 +586,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring in context"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(8)^2-4*(-1)*(-12)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(8)+sqrt(16))/(2*(-1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(8)-sqrt(16))/(2*(-1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(8)^2-4*(-1)*(-12)",
+          "(-(8)+sqrt(16))/(2*(-1))",
+          "(-(8)-sqrt(16))/(2*(-1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q14-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

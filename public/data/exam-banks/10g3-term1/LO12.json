@@ -39,7 +39,11 @@
         "G10G-Q12-MCQ-02",
         "G10G-Q12-MCQ-03",
         "G10G-Q12-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Quotients of radicals"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -55,28 +59,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{4 \\sqrt{2}}{3}",
-          "math_latex": "\\frac{4 \\sqrt{2}}{3}"
+          "text": "\\frac89",
+          "math_latex": "\\frac89",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{\\sqrt{2}}{3}",
-          "math_latex": "\\frac{\\sqrt{2}}{3}"
+          "text": "\\frac{2\\sqrt2}9",
+          "math_latex": "\\frac{2\\sqrt2}9",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{2 \\sqrt{2}}{3} + 1",
-          "math_latex": "\\frac{2 \\sqrt{2}}{3} + 1"
+          "text": "\\frac{\\sqrt2}3",
+          "math_latex": "\\frac{\\sqrt2}3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{2 \\sqrt{2}}{3}",
-          "math_latex": "\\frac{2 \\sqrt{2}}{3}"
+          "text": "\\frac{2\\sqrt2}3",
+          "math_latex": "\\frac{2\\sqrt2}3",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\frac{2 \\sqrt{2}}{3}",
+        "correct_option_text": "\\frac{2\\sqrt2}3",
         "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(2)/3."
       },
       "diagram_asset_ids": [],
@@ -87,7 +95,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(192/216)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(192/216)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q12-MCQ-02",
@@ -101,28 +149,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{\\sqrt{11}}{3}",
-          "math_latex": "\\frac{\\sqrt{11}}{3}"
+          "text": "\\frac{44}9",
+          "math_latex": "\\frac{44}9",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "1 + \\frac{2 \\sqrt{11}}{3}",
-          "math_latex": "1 + \\frac{2 \\sqrt{11}}{3}"
+          "text": "\\frac{2\\sqrt{11}}9",
+          "math_latex": "\\frac{2\\sqrt{11}}9",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{2 \\sqrt{11}}{3}",
-          "math_latex": "\\frac{2 \\sqrt{11}}{3}"
+          "text": "\\frac{2\\sqrt{11}}3",
+          "math_latex": "\\frac{2\\sqrt{11}}3",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{4 \\sqrt{11}}{3}",
-          "math_latex": "\\frac{4 \\sqrt{11}}{3}"
+          "text": "\\frac{\\sqrt{11}}3",
+          "math_latex": "\\frac{\\sqrt{11}}3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{2 \\sqrt{11}}{3}",
+        "correct_option_text": "\\frac{2\\sqrt{11}}3",
         "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(11)/3."
       },
       "diagram_asset_ids": [],
@@ -133,7 +185,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(88/18)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(88/18)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q12-MCQ-03",
@@ -147,28 +239,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{2 \\sqrt{21}}{11} + 1",
-          "math_latex": "\\frac{2 \\sqrt{21}}{11} + 1"
+          "text": "\\frac{84}{121}",
+          "math_latex": "\\frac{84}{121}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{2 \\sqrt{21}}{11}",
-          "math_latex": "\\frac{2 \\sqrt{21}}{11}"
+          "text": "\\frac{2\\sqrt{21}}{11}",
+          "math_latex": "\\frac{2\\sqrt{21}}{11}",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "\\frac{4 \\sqrt{21}}{11}",
-          "math_latex": "\\frac{4 \\sqrt{21}}{11}"
+          "text": "\\frac{2\\sqrt{21}}{121}",
+          "math_latex": "\\frac{2\\sqrt{21}}{121}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "\\frac{\\sqrt{21}}{11}",
-          "math_latex": "\\frac{\\sqrt{21}}{11}"
+          "math_latex": "\\frac{\\sqrt{21}}{11}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{2 \\sqrt{21}}{11}",
+        "correct_option_text": "\\frac{2\\sqrt{21}}{11}",
         "explanation": "Reduce the fraction, simplify the radical and rationalise: 2·sqrt(21)/11."
       },
       "diagram_asset_ids": [],
@@ -179,7 +275,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(84/121)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(84/121)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q12-MCQ-04",
@@ -193,28 +329,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{\\sqrt{15}}{2}",
-          "math_latex": "\\frac{\\sqrt{15}}{2}"
+          "text": "\\frac{\\sqrt{15}}2",
+          "math_latex": "\\frac{\\sqrt{15}}2",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\sqrt{15}",
-          "math_latex": "\\sqrt{15}"
+          "text": "\\frac{15}4",
+          "math_latex": "\\frac{15}4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{\\sqrt{15}}{4}",
-          "math_latex": "\\frac{\\sqrt{15}}{4}"
+          "text": "\\frac{\\sqrt{15}}4",
+          "math_latex": "\\frac{\\sqrt{15}}4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "1 + \\frac{\\sqrt{15}}{2}",
-          "math_latex": "1 + \\frac{\\sqrt{15}}{2}"
+          "text": "\\frac{\\sqrt{55}}2",
+          "math_latex": "\\frac{\\sqrt{55}}2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "\\frac{\\sqrt{15}}{2}",
+        "correct_option_text": "\\frac{\\sqrt{15}}2",
         "explanation": "Reduce the fraction, simplify the radical and rationalise: sqrt(15)/2."
       },
       "diagram_asset_ids": [],
@@ -225,7 +365,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(75/20)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(75/20)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q12-MCQ-05",
@@ -240,17 +420,20 @@
         {
           "id": "A",
           "text": "\\frac{4x}{7}",
-          "math_latex": "\\frac{4x}{7}"
+          "math_latex": "\\frac{4x}{7}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\frac{4}{7x^3}",
-          "math_latex": "\\frac{4}{7x^3}"
+          "math_latex": "\\frac{4}{7x^3}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\frac{8}{7x}",
-          "math_latex": "\\frac{8}{7x}"
+          "math_latex": "\\frac{8}{7x}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -271,7 +454,57 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((192*2**7)/((1029*2**10)))**(1/3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((192*2^7)/((1029*2^10)))^(1/3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q12-MCQ-06",
@@ -286,12 +519,14 @@
         {
           "id": "A",
           "text": "8b\\sqrt[3]{a^2b}",
-          "math_latex": "8b\\sqrt[3]{a^2b}"
+          "math_latex": "8b\\sqrt[3]{a^2b}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "4b^2\\sqrt[3]{2a}",
-          "math_latex": "4b^2\\sqrt[3]{2a}"
+          "math_latex": "4b^2\\sqrt[3]{2a}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -301,7 +536,8 @@
         {
           "id": "D",
           "text": "4ab\\sqrt[3]{2b}",
-          "math_latex": "4ab\\sqrt[3]{2b}"
+          "math_latex": "4ab\\sqrt[3]{2b}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -317,7 +553,58 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Quotients of radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((640*(2**3*3**8))/((5*(2*3**4))))**(1/3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((640*(2^3*3^8))/((5*(2*3^4))))^(1/3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q12-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

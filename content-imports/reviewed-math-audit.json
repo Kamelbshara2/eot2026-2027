@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "option_pairs_checked": 1056,
+    "original_keys_compared": 157,
+    "expression_keys_proved": 56,
+    "table_cells_checked": 61
+  },
+  "issues": [],
+  "limitations": "Symbolic checks cover parseable scalar expressions. Geometry, prose, graph readings and rubrics also require source review; this audit does not certify those automatically."
+}

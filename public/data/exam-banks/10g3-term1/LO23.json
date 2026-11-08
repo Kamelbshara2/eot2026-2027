@@ -39,7 +39,11 @@
         "G10G-Q23-FRQ-03",
         "G10G-Q23-FRQ-04",
         "G10G-Q23-FRQ-05"
-      ]
+      ],
+      "assessment_facets": [
+        "Multiplication properties of exponents"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -75,7 +79,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multiplication properties of exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q23-FRQ-02",
@@ -111,7 +127,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multiplication properties of exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q23-FRQ-03",
@@ -158,7 +186,19 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multiplication properties of exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q23-FRQ-04",
@@ -192,7 +232,60 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multiplication properties of exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3,
+        "m": 4,
+        "t": 5
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3, 'm': 4, 't': 5} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-2**4/(3**5))**(2*5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-2^4/(3^5))^(2*5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q23-FRQ-04.png"
+      }
     },
     {
       "id": "G10G-Q23-FRQ-05",
@@ -265,7 +358,77 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": true
+      "graph_workspace": true,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multiplication properties of exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter X^2. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start -2 =; End 2 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "X^2",
+          "start": -2,
+          "end": 2,
+          "step": 1,
+          "x": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "y": [
+            4,
+            1,
+            0,
+            1,
+            4
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q23-FRQ-05.png"
+      }
     }
   ],
   "assets": {

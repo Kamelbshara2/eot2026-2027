@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO15",
     "classroom": "10G3",
     "learning_outcome_id": "LO15",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -34,16 +34,23 @@
         "G10G-Q15-MCQ-03",
         "G10G-Q15-MCQ-04",
         "G10G-Q15-MCQ-05",
-        "G10G-Q15-MCQ-06"
+        "G10G-Q15-MCQ-06",
+        "10G3-REV-LO15-01",
+        "10G3-REV-LO15-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO15.json",
       "booklet_question_ids": [
         "G10G-Q15-MCQ-01",
         "G10G-Q15-MCQ-02",
-        "G10G-Q15-MCQ-03",
-        "G10G-Q15-MCQ-05"
-      ]
+        "10G3-REV-LO15-01",
+        "10G3-REV-LO15-02"
+      ],
+      "assessment_facets": [
+        "Square root and completing-square methods",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -53,34 +60,38 @@
       "type": "mcq",
       "display_number": "15.1",
       "instruction": "Which expression does not belong because it is not a perfect square trinomial?",
-      "stem": "Which expression does not belong because it is not a perfect square trinomial?",
+      "stem": "Which expression does not belong because it is not a perfect square trinomial? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "n^2+n+\\frac34",
-          "math_latex": "n^2+n+\\frac34"
+          "text": "\\left(n^{2} + n\\right) + \\frac{3}{4}",
+          "math_latex": "\\left(n^{2} + n\\right) + \\frac{3}{4}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "n^2-n+\\frac14",
-          "math_latex": "n^2-n+\\frac14"
+          "text": "n^{2} + n - \\frac{3}{4} + \\frac{3}{4}",
+          "math_latex": "n^{2} + n - \\frac{3}{4} + \\frac{3}{4}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "n^2-\\frac23n+\\frac19",
-          "math_latex": "n^2-\\frac23n+\\frac19"
+          "text": "n^{2} + n - \\frac{3}{2} + \\frac{3}{4}",
+          "math_latex": "n^{2} + n - \\frac{3}{2} + \\frac{3}{4}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "n^2+\\frac13n+\\frac1{36}",
-          "math_latex": "n^2+\\frac13n+\\frac1{36}"
+          "text": "n^{2} + \\frac{3}{4}",
+          "math_latex": "n^{2} + \\frac{3}{4}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "n^2+n+\\frac34",
+        "correct_option_text": "\\left(n^{2} + n\\right) + \\frac{3}{4}",
         "explanation": "The first, third and fourth forms equal (n−½)², (n−⅓)² and (n+⅙)². For n²+n+c, c must be ¼, not ¾."
       },
       "diagram_asset_ids": [],
@@ -91,7 +102,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q15-MCQ-02",
@@ -99,24 +122,27 @@
       "type": "mcq",
       "display_number": "15.2",
       "instruction": "Create a quadratic equation for which the only solution is 4. Choose a valid equation.",
-      "stem": "Create a quadratic equation for which the only solution is 4. Choose a valid equation.",
+      "stem": "Create a quadratic equation for which the only solution is 4. Choose a valid equation. ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "x^2-16=0",
-          "math_latex": "x^2-16=0"
+          "math_latex": "x^2-16=0",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(x+4)^2=0",
-          "math_latex": "(x+4)^2=0"
+          "math_latex": "(x+4)^2=0",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x^2-4=0",
-          "math_latex": "x^2-4=0"
+          "math_latex": "x^2-4=0",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -137,7 +163,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q15-MCQ-03",
@@ -145,17 +183,19 @@
       "type": "mcq",
       "display_number": "15.3",
       "instruction": "For x²−5x−7=0, which comparison of completing the square, graphing and factoring is correct?",
-      "stem": "For x²−5x−7=0, which comparison of completing the square, graphing and factoring is correct?",
+      "stem": "For x²−5x−7=0, which comparison of completing the square, graphing and factoring is correct? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "Graphing always gives exact irrational roots."
+          "text": "Graphing always gives exact irrational roots.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Completing the square gives only one root."
+          "text": "Completing the square gives only one root.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -163,7 +203,8 @@
         },
         {
           "id": "D",
-          "text": "Integer factoring gives roots 7 and −1."
+          "text": "Integer factoring gives roots 7 and −1.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -179,7 +220,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": true
+      "wide": true,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q15-MCQ-04",
@@ -194,7 +247,8 @@
         {
           "id": "A",
           "text": "x=-3\\pm4",
-          "math_latex": "x=-3\\pm4"
+          "math_latex": "x=-3\\pm4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -204,12 +258,14 @@
         {
           "id": "C",
           "text": "x=-2,8",
-          "math_latex": "x=-2,8"
+          "math_latex": "x=-2,8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=4,-4",
-          "math_latex": "x=4,-4"
+          "math_latex": "x=4,-4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -225,7 +281,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(6)^2-4*(1)*(-16)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(6)+sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(6)-sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(6)^2-4*(1)*(-16)",
+          "(-(6)+sqrt(100))/(2*(1))",
+          "(-(6)-sqrt(100))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q15-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q15-MCQ-05",
@@ -245,17 +366,20 @@
         {
           "id": "B",
           "text": "x=-1\\pm\\sqrt{15}",
-          "math_latex": "x=-1\\pm\\sqrt{15}"
+          "math_latex": "x=-1\\pm\\sqrt{15}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=1\\pm\\sqrt{14}",
-          "math_latex": "x=1\\pm\\sqrt{14}"
+          "math_latex": "x=1\\pm\\sqrt{14}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=2\\pm\\sqrt{15}",
-          "math_latex": "x=2\\pm\\sqrt{15}"
+          "math_latex": "x=2\\pm\\sqrt{15}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -271,7 +395,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-2)^2-4*(1)*(-14)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-2)+sqrt(60))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-2)-sqrt(60))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-2)^2-4*(1)*(-14)",
+          "(-(-2)+sqrt(60))/(2*(1))",
+          "(-(-2)-sqrt(60))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q15-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q15-MCQ-06",
@@ -286,17 +475,20 @@
         {
           "id": "A",
           "text": "x=-9,1",
-          "math_latex": "x=-9,1"
+          "math_latex": "x=-9,1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=4\\pm\\sqrt{17}",
-          "math_latex": "x=4\\pm\\sqrt{17}"
+          "math_latex": "x=4\\pm\\sqrt{17}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=8,-1",
-          "math_latex": "x=8,-1"
+          "math_latex": "x=8,-1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -317,7 +509,192 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Square root and completing-square methods"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-8)^2-4*(1)*(-9)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-8)+sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-8)-sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-8)^2-4*(1)*(-9)",
+          "(-(-8)+sqrt(100))/(2*(1))",
+          "(-(-8)-sqrt(100))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q15-MCQ-06.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO15-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.7",
+      "instruction": "Which operation isolates the square before taking square roots?",
+      "stem": "Which operation isolates the square before taking square roots? 3(x-2)^2=27",
+      "math_latex": "3(x-2)^2=27",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Subtract 2 from 27.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Divide both sides by 3.",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Subtract 3 from both sides.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Take only the positive root.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Divide both sides by 3.",
+        "explanation": "First obtain (x−2)²=9."
+      },
+      "source": {
+        "printed_page": 730,
+        "pdf_page": 162,
+        "exercise": "Application of 37",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10G3-REV-LO15-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.8",
+      "instruction": "Which pair is the complete solution set?",
+      "stem": "Which pair is the complete solution set? (x-2)^2=9",
+      "math_latex": "(x-2)^2=9",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\{-3,3\\}",
+          "math_latex": "\\{-3,3\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "\\{-1,5\\}",
+          "math_latex": "\\{-1,5\\}",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "\\{5\\}",
+          "math_latex": "\\{5\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "\\{-5,1\\}",
+          "math_latex": "\\{-5,1\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\{-1,5\\}",
+        "explanation": "x−2=±3, so x=−1 or 5."
+      },
+      "source": {
+        "printed_page": 730,
+        "pdf_page": 162,
+        "exercise": "Application of 37",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

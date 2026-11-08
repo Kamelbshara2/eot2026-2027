@@ -1,0 +1,86 @@
+{
+  "10a1-term1": {
+    "q14_3": {
+      "src": "assets/q14_3.png",
+      "width": 349,
+      "height": 228,
+      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.554,
+        0.175,
+        0.749,
+        0.265
+      ]
+    },
+    "q14_4": {
+      "src": "assets/q14_4.png",
+      "width": 383,
+      "height": 182,
+      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 4.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "4",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.746,
+        0.175,
+        0.96,
+        0.247
+      ]
+    },
+    "frq23_5": {
+      "src": "assets/frq23_5.png",
+      "width": 484,
+      "height": 287,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 5.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "5",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.418,
+        0.42,
+        0.531
+      ]
+    }
+  },
+  "9g3-term1": {
+    "slope_6": {
+      "src": "assets/slope_6.png",
+      "width": 327,
+      "height": 312,
+      "alt_text": "Original textbook visual, Reveal p. 223, Example 6.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Example 6",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.14,
+        0.151,
+        0.323,
+        0.274
+      ]
+    }
+  }
+}

@@ -5,3 +5,6 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Expanded copy is reproducible; publish the self-contained teacher ZIP.
+artifacts/assessment-transfer/

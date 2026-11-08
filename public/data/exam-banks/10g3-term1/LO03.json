@@ -35,7 +35,11 @@
         "G10G-Q03-MCQ-02",
         "G10G-Q03-MCQ-03",
         "G10G-Q03-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Sum and difference products"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -44,30 +48,34 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.1",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (u+3)(u-3)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (u+3)(u-3)",
       "math_latex": "(u+3)(u-3)",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "u^{2} - 9",
-          "math_latex": "u^{2} - 9"
+          "math_latex": "u^{2} - 9",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "u^{2} + 9",
-          "math_latex": "u^{2} + 9"
+          "text": "u^{2}",
+          "math_latex": "u^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "u^{2} + 3 u - 9",
-          "math_latex": "u^{2} + 3 u - 9"
+          "text": "u^{2} + 9",
+          "math_latex": "u^{2} + 9",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "9 - u^{2}",
-          "math_latex": "9 - u^{2}"
+          "text": "-9",
+          "math_latex": "-9",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
@@ -83,37 +91,91 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "u": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'u': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 - 3)*(2 + 3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 - 3)*(2 + 3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q03-MCQ-02",
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.2",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (b+7)(b-7)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (b+7)(b-7)",
       "math_latex": "(b+7)(b-7)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "b^{2} + 49",
-          "math_latex": "b^{2} + 49"
+          "text": "b^{2}",
+          "math_latex": "b^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "b^{2} + 7 b - 49",
-          "math_latex": "b^{2} + 7 b - 49"
+          "text": "b^{2} + 49",
+          "math_latex": "b^{2} + 49",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "49 - b^{2}",
-          "math_latex": "49 - b^{2}"
+          "text": "-49",
+          "math_latex": "-49",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
           "text": "b^{2} - 49",
-          "math_latex": "b^{2} - 49"
+          "math_latex": "b^{2} - 49",
+          "misconception": null
         }
       ],
       "answer": {
@@ -129,37 +191,91 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "b": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'b': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 - 7)*(2 + 7)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 - 7)*(2 + 7)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q03-MCQ-03",
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.3",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (2+x)(2-x)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (2+x)(2-x)",
       "math_latex": "(2+x)(2-x)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- x^{2} + 2 x + 4",
-          "math_latex": "- x^{2} + 2 x + 4"
+          "text": "- x^{2}",
+          "math_latex": "- x^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "x^{2} - 4",
-          "math_latex": "x^{2} - 4"
+          "text": "- x^{2} - 4",
+          "math_latex": "- x^{2} - 4",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
           "text": "4 - x^{2}",
-          "math_latex": "4 - x^{2}"
+          "math_latex": "4 - x^{2}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "x^{2} + 4",
-          "math_latex": "x^{2} + 4"
+          "text": "4",
+          "math_latex": "4",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
@@ -175,37 +291,91 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 - 2)*(2 + 2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 - 2)*(2 + 2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q03-MCQ-04",
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.4",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (4+x)(4-x)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (4+x)(4-x)",
       "math_latex": "(4+x)(4-x)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "x^{2} - 16",
-          "math_latex": "x^{2} - 16"
+          "text": "- x^{2}",
+          "math_latex": "- x^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
           "text": "16 - x^{2}",
-          "math_latex": "16 - x^{2}"
+          "math_latex": "16 - x^{2}",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "x^{2} + 16",
-          "math_latex": "x^{2} + 16"
+          "text": "- x^{2} - 16",
+          "math_latex": "- x^{2} - 16",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- x^{2} + 4 x + 16",
-          "math_latex": "- x^{2} + 4 x + 16"
+          "text": "16",
+          "math_latex": "16",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
@@ -221,37 +391,91 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(4 - 2)*(2 + 4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(4 - 2)*(2 + 4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q03-MCQ-05",
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.5",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (2 q+5 r)(2 q-5 r)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (2 q+5 r)(2 q-5 r)",
       "math_latex": "(2 q+5 r)(2 q-5 r)",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "4 q^{2} - 25 r^{2}",
-          "math_latex": "4 q^{2} - 25 r^{2}"
+          "math_latex": "4 q^{2} - 25 r^{2}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "4 q^{2} + 25 r^{2}",
-          "math_latex": "4 q^{2} + 25 r^{2}"
+          "text": "4 q^{2}",
+          "math_latex": "4 q^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "4 q^{2} + 10 q r - 25 r^{2}",
-          "math_latex": "4 q^{2} + 10 q r - 25 r^{2}"
+          "text": "4 q^{2} + 25 r^{2}",
+          "math_latex": "4 q^{2} + 25 r^{2}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- 4 q^{2} + 25 r^{2}",
-          "math_latex": "- 4 q^{2} + 25 r^{2}"
+          "text": "- 25 r^{2}",
+          "math_latex": "- 25 r^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
@@ -267,37 +491,92 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "q": 2,
+        "r": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'q': 2, 'r': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*2 + 5*3)*(2*2 - 5*3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2*2 + 5*3)*(2*2 - 5*3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q03-MCQ-06",
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.6",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (3 a^{2}+7 b)(3 a^{2}-7 b)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (3 a^{2}+7 b)(3 a^{2}-7 b)",
       "math_latex": "(3 a^{2}+7 b)(3 a^{2}-7 b)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "9 a^{4} + 49 b^{2}",
-          "math_latex": "9 a^{4} + 49 b^{2}"
+          "text": "9 a^{4}",
+          "math_latex": "9 a^{4}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "9 a^{4} + 21 a^{2} b - 49 b^{2}",
-          "math_latex": "9 a^{4} + 21 a^{2} b - 49 b^{2}"
+          "text": "9 a^{4} + 49 b^{2}",
+          "math_latex": "9 a^{4} + 49 b^{2}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "- 9 a^{4} + 49 b^{2}",
-          "math_latex": "- 9 a^{4} + 49 b^{2}"
+          "text": "- 49 b^{2}",
+          "math_latex": "- 49 b^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
           "text": "9 a^{4} - 49 b^{2}",
-          "math_latex": "9 a^{4} - 49 b^{2}"
+          "math_latex": "9 a^{4} - 49 b^{2}",
+          "misconception": null
         }
       ],
       "answer": {
@@ -313,7 +592,58 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Sum and difference products"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(3*2**2 + 7*3)*(3*2**2 - 7*3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(3*2^2 + 7*3)*(3*2^2 - 7*3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q03-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

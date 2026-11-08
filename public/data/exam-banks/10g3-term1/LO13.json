@@ -35,7 +35,11 @@
         "G10G-Q13-MCQ-02",
         "G10G-Q13-MCQ-05",
         "G10G-Q13-MCQ-06"
-      ]
+      ],
+      "assessment_facets": [
+        "Add and subtract radicals"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -51,28 +55,32 @@
       "options": [
         {
           "id": "A",
-          "text": "- 5 \\sqrt{7}",
-          "math_latex": "- 5 \\sqrt{7}"
+          "text": "9\\sqrt7",
+          "math_latex": "9\\sqrt7",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "1 + 5 \\sqrt{7}",
-          "math_latex": "1 + 5 \\sqrt{7}"
+          "text": "5\\sqrt{14}",
+          "math_latex": "5\\sqrt{14}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "5 \\sqrt{7}",
-          "math_latex": "5 \\sqrt{7}"
+          "text": "5\\sqrt7",
+          "math_latex": "5\\sqrt7",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "10 \\sqrt{7}",
-          "math_latex": "10 \\sqrt{7}"
+          "text": "14\\sqrt7",
+          "math_latex": "14\\sqrt7",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "5 \\sqrt{7}",
+        "correct_option_text": "5\\sqrt7",
         "explanation": "Combine like radicals after simplifying: 5·sqrt(7)."
       },
       "diagram_asset_ids": [],
@@ -83,7 +91,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q13-MCQ-02",
@@ -97,28 +117,32 @@
       "options": [
         {
           "id": "A",
-          "text": "1 + 20 \\sqrt{2}",
-          "math_latex": "1 + 20 \\sqrt{2}"
+          "text": "10\\sqrt2",
+          "math_latex": "10\\sqrt2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "20 \\sqrt{2}",
-          "math_latex": "20 \\sqrt{2}"
+          "text": "20\\sqrt2",
+          "math_latex": "20\\sqrt2",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "40 \\sqrt{2}",
-          "math_latex": "40 \\sqrt{2}"
+          "text": "20",
+          "math_latex": "20",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "- 20 \\sqrt{2}",
-          "math_latex": "- 20 \\sqrt{2}"
+          "text": "42\\sqrt2",
+          "math_latex": "42\\sqrt2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "20 \\sqrt{2}",
+        "correct_option_text": "20\\sqrt2",
         "explanation": "Combine like radicals after simplifying: 20·sqrt(2)."
       },
       "diagram_asset_ids": [],
@@ -129,7 +153,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q13-MCQ-03",
@@ -143,28 +179,32 @@
       "options": [
         {
           "id": "A",
-          "text": "11 \\sqrt{5}",
-          "math_latex": "11 \\sqrt{5}"
+          "text": "11\\sqrt5",
+          "math_latex": "11\\sqrt5",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "22 \\sqrt{5}",
-          "math_latex": "22 \\sqrt{5}"
+          "text": "3\\sqrt5",
+          "math_latex": "3\\sqrt5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "- 11 \\sqrt{5}",
-          "math_latex": "- 11 \\sqrt{5}"
+          "text": "11\\sqrt{10}",
+          "math_latex": "11\\sqrt{10}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "1 + 11 \\sqrt{5}",
-          "math_latex": "1 + 11 \\sqrt{5}"
+          "text": "28\\sqrt5",
+          "math_latex": "28\\sqrt5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "11 \\sqrt{5}",
+        "correct_option_text": "11\\sqrt5",
         "explanation": "Combine like radicals after simplifying: 11·sqrt(5)."
       },
       "diagram_asset_ids": [],
@@ -175,7 +215,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q13-MCQ-04",
@@ -189,28 +241,32 @@
       "options": [
         {
           "id": "A",
-          "text": "22 \\sqrt{6}",
-          "math_latex": "22 \\sqrt{6}"
+          "text": "7\\sqrt6",
+          "math_latex": "7\\sqrt6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "- 11 \\sqrt{6}",
-          "math_latex": "- 11 \\sqrt{6}"
+          "text": "11\\sqrt{12}",
+          "math_latex": "11\\sqrt{12}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "1 + 11 \\sqrt{6}",
-          "math_latex": "1 + 11 \\sqrt{6}"
+          "text": "18\\sqrt6",
+          "math_latex": "18\\sqrt6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "11 \\sqrt{6}",
-          "math_latex": "11 \\sqrt{6}"
+          "text": "11\\sqrt6",
+          "math_latex": "11\\sqrt6",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "11 \\sqrt{6}",
+        "correct_option_text": "11\\sqrt6",
         "explanation": "Combine like radicals after simplifying: 11·sqrt(6)."
       },
       "diagram_asset_ids": [],
@@ -221,7 +277,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q13-MCQ-05",
@@ -235,28 +303,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\sqrt{5}",
-          "math_latex": "\\sqrt{5}"
+          "text": "\\sqrt5",
+          "math_latex": "\\sqrt5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "1 - \\sqrt{5}",
-          "math_latex": "1 - \\sqrt{5}"
+          "text": "7\\sqrt5",
+          "math_latex": "7\\sqrt5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "- \\sqrt{5}",
-          "math_latex": "- \\sqrt{5}"
+          "text": "-\\sqrt5",
+          "math_latex": "-\\sqrt5",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "- 2 \\sqrt{5}",
-          "math_latex": "- 2 \\sqrt{5}"
+          "text": "\\sqrt{15}",
+          "math_latex": "\\sqrt{15}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "- \\sqrt{5}",
+        "correct_option_text": "-\\sqrt5",
         "explanation": "Combine like radicals after simplifying: -sqrt(5)."
       },
       "diagram_asset_ids": [],
@@ -267,7 +339,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q13-MCQ-06",
@@ -281,28 +365,32 @@
       "options": [
         {
           "id": "A",
-          "text": "1 + 3 \\sqrt{2}",
-          "math_latex": "1 + 3 \\sqrt{2}"
+          "text": "27\\sqrt2",
+          "math_latex": "27\\sqrt2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "3 \\sqrt{2}",
-          "math_latex": "3 \\sqrt{2}"
+          "text": "3\\sqrt2",
+          "math_latex": "3\\sqrt2",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "6 \\sqrt{2}",
-          "math_latex": "6 \\sqrt{2}"
+          "text": "9\\sqrt2",
+          "math_latex": "9\\sqrt2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "- 3 \\sqrt{2}",
-          "math_latex": "- 3 \\sqrt{2}"
+          "text": "3\\sqrt{82}",
+          "math_latex": "3\\sqrt{82}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "3 \\sqrt{2}",
+        "correct_option_text": "3\\sqrt2",
         "explanation": "Combine like radicals after simplifying: 3·sqrt(2)."
       },
       "diagram_asset_ids": [],
@@ -313,7 +401,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Add and subtract radicals"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-3*sqrt(32) + 3*sqrt(50)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-3*sqrt(32) + 3*sqrt(50)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q13-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

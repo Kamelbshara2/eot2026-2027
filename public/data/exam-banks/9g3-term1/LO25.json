@@ -33,7 +33,11 @@
         "G9G-BOOK-Q25-FRQ-03",
         "G9G-BOOK-Q25-FRQ-04"
       ],
-      "download": "LO25.json"
+      "download": "LO25.json",
+      "assessment_facets": [
+        "Piecewise functions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -70,6 +74,116 @@
         "pdf_page": 129,
         "exercise": "1",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Piecewise functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": [
+          {
+            "expression": "X/2-1",
+            "start": 3,
+            "end": 5,
+            "step": 1,
+            "x": [
+              3,
+              4,
+              5
+            ],
+            "y": [
+              0.5,
+              1.0,
+              1.5
+            ],
+            "condition": "x>3; boundary open"
+          },
+          {
+            "expression": "-2X+3",
+            "start": 1,
+            "end": 3,
+            "step": 1,
+            "x": [
+              1,
+              2,
+              3
+            ],
+            "y": [
+              1.0,
+              -1.0,
+              -3.0
+            ],
+            "condition": "x≤3; boundary closed"
+          }
+        ],
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter X/2-1. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 3 =; End 5 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. x>3; boundary open"
+          },
+          {
+            "title": "Repeat for the second branch",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Enter -2X+3; Start 1; End 3; Step 1. x≤3; boundary closed. TABLE ignores domain restrictions: mark open or closed boundary points yourself."
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "X/2-1",
+          "start": 3,
+          "end": 5,
+          "step": 1,
+          "x": [
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.5,
+            1.0,
+            1.5
+          ],
+          "condition": "x>3; boundary open"
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q25-FRQ-01.png"
       }
     },
     {
@@ -105,6 +219,116 @@
         "pdf_page": 129,
         "exercise": "2",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Piecewise functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": [
+          {
+            "expression": "2X-5",
+            "start": 1,
+            "end": 3,
+            "step": 1,
+            "x": [
+              1,
+              2,
+              3
+            ],
+            "y": [
+              -3.0,
+              -1.0,
+              1.0
+            ],
+            "condition": "x>1; boundary open"
+          },
+          {
+            "expression": "4X-3",
+            "start": -1,
+            "end": 1,
+            "step": 1,
+            "x": [
+              -1,
+              0,
+              1
+            ],
+            "y": [
+              -7.0,
+              -3.0,
+              1.0
+            ],
+            "condition": "x≤1; boundary closed"
+          }
+        ],
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 2X-5. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 1 =; End 3 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. x>1; boundary open"
+          },
+          {
+            "title": "Repeat for the second branch",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Enter 4X-3; Start -1; End 1; Step 1. x≤1; boundary closed. TABLE ignores domain restrictions: mark open or closed boundary points yourself."
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "2X-5",
+          "start": 1,
+          "end": 3,
+          "step": 1,
+          "x": [
+            1,
+            2,
+            3
+          ],
+          "y": [
+            -3.0,
+            -1.0,
+            1.0
+          ],
+          "condition": "x>1; boundary open"
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q25-FRQ-02.png"
       }
     },
     {
@@ -140,6 +364,116 @@
         "pdf_page": 129,
         "exercise": "3",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Piecewise functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": [
+          {
+            "expression": "2X+3",
+            "start": -3,
+            "end": -1,
+            "step": 1,
+            "x": [
+              -3,
+              -2,
+              -1
+            ],
+            "y": [
+              -3.0,
+              -1.0,
+              1.0
+            ],
+            "condition": "x≥−3; boundary closed"
+          },
+          {
+            "expression": "X/3+1",
+            "start": -9,
+            "end": -3,
+            "step": 3,
+            "x": [
+              -9,
+              -6,
+              -3
+            ],
+            "y": [
+              -2.0,
+              -1.0,
+              0.0
+            ],
+            "condition": "x<−3; boundary open"
+          }
+        ],
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 2X+3. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start -3 =; End -1 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. x≥−3; boundary closed"
+          },
+          {
+            "title": "Repeat for the second branch",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Enter X/3+1; Start -9; End -3; Step 3. x<−3; boundary open. TABLE ignores domain restrictions: mark open or closed boundary points yourself."
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "2X+3",
+          "start": -3,
+          "end": -1,
+          "step": 1,
+          "x": [
+            -3,
+            -2,
+            -1
+          ],
+          "y": [
+            -3.0,
+            -1.0,
+            1.0
+          ],
+          "condition": "x≥−3; boundary closed"
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q25-FRQ-03.png"
       }
     },
     {
@@ -175,6 +509,116 @@
         "pdf_page": 129,
         "exercise": "4",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Piecewise functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": [
+          {
+            "expression": "3X+4",
+            "start": 1,
+            "end": 3,
+            "step": 1,
+            "x": [
+              1,
+              2,
+              3
+            ],
+            "y": [
+              7.0,
+              10.0,
+              13.0
+            ],
+            "condition": "x≥1; boundary closed"
+          },
+          {
+            "expression": "X+3",
+            "start": -1,
+            "end": 1,
+            "step": 1,
+            "x": [
+              -1,
+              0,
+              1
+            ],
+            "y": [
+              2.0,
+              3.0,
+              4.0
+            ],
+            "condition": "x<1; boundary open"
+          }
+        ],
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 3X+4. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 1 =; End 3 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. x≥1; boundary closed"
+          },
+          {
+            "title": "Repeat for the second branch",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Enter X+3; Start -1; End 1; Step 1. x<1; boundary open. TABLE ignores domain restrictions: mark open or closed boundary points yourself."
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "3X+4",
+          "start": 1,
+          "end": 3,
+          "step": 1,
+          "x": [
+            1,
+            2,
+            3
+          ],
+          "y": [
+            7.0,
+            10.0,
+            13.0
+          ],
+          "condition": "x≥1; boundary closed"
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q25-FRQ-04.png"
       }
     }
   ],

@@ -33,7 +33,11 @@
         "G9G-BOOK-Q02-MCQ-03",
         "G9G-BOOK-Q02-MCQ-04"
       ],
-      "download": "LO02.json"
+      "download": "LO02.json",
+      "assessment_facets": [
+        "Distributive Property"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,23 +52,27 @@
       "options": [
         {
           "id": "A",
-          "text": "2 x + 10",
-          "math_latex": "2 x + 10"
+          "text": "2 x",
+          "math_latex": "2 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
           "text": "2 x + 8",
-          "math_latex": "2 x + 8"
+          "math_latex": "2 x + 8",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "2 x + 9",
-          "math_latex": "2 x + 9"
+          "text": "2 x - 8",
+          "math_latex": "2 x - 8",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- 2 x - 8",
-          "math_latex": "- 2 x - 8"
+          "text": "8",
+          "math_latex": "8",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -81,6 +89,56 @@
         "pdf_page": 42,
         "exercise": "23",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distributive Property"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*(2 + 4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*(2 + 4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q02-MCQ-01.png"
       }
     },
     {
@@ -95,22 +153,26 @@
         {
           "id": "A",
           "text": "3 n + 15",
-          "math_latex": "3 n + 15"
+          "math_latex": "3 n + 15",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "3 n + 16",
-          "math_latex": "3 n + 16"
+          "text": "3 n",
+          "math_latex": "3 n",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "- 3 n - 15",
-          "math_latex": "- 3 n - 15"
+          "text": "3 n - 15",
+          "math_latex": "3 n - 15",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "3 n + 17",
-          "math_latex": "3 n + 17"
+          "text": "15",
+          "math_latex": "15",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -127,6 +189,56 @@
         "pdf_page": 42,
         "exercise": "24",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distributive Property"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "n": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'n': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 5)*3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 5)*3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q02-MCQ-02.png"
       }
     },
     {
@@ -140,23 +252,27 @@
       "options": [
         {
           "id": "A",
-          "text": "33 - 24 m",
-          "math_latex": "33 - 24 m"
+          "text": "- 24 m",
+          "math_latex": "- 24 m",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "24 m - 32",
-          "math_latex": "24 m - 32"
+          "text": "- 24 m - 32",
+          "math_latex": "- 24 m - 32",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "34 - 24 m",
-          "math_latex": "34 - 24 m"
+          "text": "32",
+          "math_latex": "32",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
           "text": "32 - 24 m",
-          "math_latex": "32 - 24 m"
+          "math_latex": "32 - 24 m",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -173,6 +289,56 @@
         "pdf_page": 42,
         "exercise": "25",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distributive Property"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "m": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'m': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(4 - 3*2)*8",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(4 - 3*2)*8"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q02-MCQ-03.png"
       }
     },
     {
@@ -186,23 +352,27 @@
       "options": [
         {
           "id": "A",
-          "text": "6 x - 18",
-          "math_latex": "6 x - 18"
+          "text": "- 6 x",
+          "math_latex": "- 6 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "20 - 6 x",
-          "math_latex": "20 - 6 x"
+          "text": "- 6 x - 18",
+          "math_latex": "- 6 x - 18",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
           "text": "18 - 6 x",
-          "math_latex": "18 - 6 x"
+          "math_latex": "18 - 6 x",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "19 - 6 x",
-          "math_latex": "19 - 6 x"
+          "text": "18",
+          "math_latex": "18",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -219,6 +389,56 @@
         "pdf_page": 42,
         "exercise": "26",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distributive Property"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-3*(2*2 - 6)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-3*(2*2 - 6)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q02-MCQ-04.png"
       }
     }
   ],

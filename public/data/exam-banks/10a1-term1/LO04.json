@@ -33,7 +33,11 @@
         "G10A-BOOK-Q04-MCQ-03",
         "G10A-BOOK-Q04-MCQ-04"
       ],
-      "download": "LO04.json"
+      "download": "LO04.json",
+      "assessment_facets": [
+        "Factoring monic trinomials"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.1",
-      "instruction": "Factor using integers.",
-      "stem": "Factor using integers. x^{2} + 17 x + 42",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? x^{2} + 17 x + 42",
       "math_latex": "x^{2} + 17 x + 42",
       "options": [
         {
           "id": "A",
-          "text": "- \\left(x + 3\\right) \\left(x + 14\\right)",
-          "math_latex": "- \\left(x + 3\\right) \\left(x + 14\\right)"
+          "text": "\\left(3 - x\\right) \\left(x + 14\\right)",
+          "math_latex": "\\left(3 - x\\right) \\left(x + 14\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "2 \\left(x + 3\\right) \\left(x + 14\\right)",
-          "math_latex": "2 \\left(x + 3\\right) \\left(x + 14\\right)"
+          "text": "\\left(x - 3\\right) \\left(x + 14\\right)",
+          "math_latex": "\\left(x - 3\\right) \\left(x + 14\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "\\left(x + 4\\right) \\left(x + 15\\right)",
-          "math_latex": "\\left(x + 4\\right) \\left(x + 15\\right)"
+          "text": "\\left(14 - x\\right) \\left(x + 3\\right)",
+          "math_latex": "\\left(14 - x\\right) \\left(x + 3\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
           "text": "\\left(x + 3\\right) \\left(x + 14\\right)",
-          "math_latex": "\\left(x + 3\\right) \\left(x + 14\\right)"
+          "math_latex": "\\left(x + 3\\right) \\left(x + 14\\right)",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -81,6 +89,56 @@
         "pdf_page": 45,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring monic trinomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**2 + 17*2) + 42",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^2 + 17*2) + 42"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q04-MCQ-01.png"
       }
     },
     {
@@ -88,29 +146,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.2",
-      "instruction": "Factor using integers.",
-      "stem": "Factor using integers. y^{2} - 17 y + 72",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? y^{2} - 17 y + 72",
       "math_latex": "y^{2} - 17 y + 72",
       "options": [
         {
           "id": "A",
-          "text": "2 \\left(y - 9\\right) \\left(y - 8\\right)",
-          "math_latex": "2 \\left(y - 9\\right) \\left(y - 8\\right)"
+          "text": "\\left(- y - 9\\right) \\left(y - 8\\right)",
+          "math_latex": "\\left(- y - 9\\right) \\left(y - 8\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "\\left(y - 8\\right) \\left(y - 7\\right)",
-          "math_latex": "\\left(y - 8\\right) \\left(y - 7\\right)"
+          "text": "\\left(y - 8\\right) \\left(y + 9\\right)",
+          "math_latex": "\\left(y - 8\\right) \\left(y + 9\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
           "text": "\\left(y - 9\\right) \\left(y - 8\\right)",
-          "math_latex": "\\left(y - 9\\right) \\left(y - 8\\right)"
+          "math_latex": "\\left(y - 9\\right) \\left(y - 8\\right)",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "- \\left(y - 9\\right) \\left(y - 8\\right)",
-          "math_latex": "- \\left(y - 9\\right) \\left(y - 8\\right)"
+          "text": "\\left(- y - 8\\right) \\left(y - 9\\right)",
+          "math_latex": "\\left(- y - 8\\right) \\left(y - 9\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -127,6 +189,56 @@
         "pdf_page": 45,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring monic trinomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "y": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'y': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**2 - 17*2) + 72",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^2 - 17*2) + 72"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q04-MCQ-02.png"
       }
     },
     {
@@ -134,29 +246,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.3",
-      "instruction": "Factor using integers.",
-      "stem": "Factor using integers. a^{2} + 8 a - 48",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? a^{2} + 8 a - 48",
       "math_latex": "a^{2} + 8 a - 48",
       "options": [
         {
           "id": "A",
-          "text": "\\left(a - 3\\right) \\left(a + 13\\right)",
-          "math_latex": "\\left(a - 3\\right) \\left(a + 13\\right)"
+          "text": "\\left(- a - 4\\right) \\left(a + 12\\right)",
+          "math_latex": "\\left(- a - 4\\right) \\left(a + 12\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
           "text": "\\left(a - 4\\right) \\left(a + 12\\right)",
-          "math_latex": "\\left(a - 4\\right) \\left(a + 12\\right)"
+          "math_latex": "\\left(a - 4\\right) \\left(a + 12\\right)",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "- \\left(a - 4\\right) \\left(a + 12\\right)",
-          "math_latex": "- \\left(a - 4\\right) \\left(a + 12\\right)"
+          "text": "\\left(a + 4\\right) \\left(a + 12\\right)",
+          "math_latex": "\\left(a + 4\\right) \\left(a + 12\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "2 \\left(a - 4\\right) \\left(a + 12\\right)",
-          "math_latex": "2 \\left(a - 4\\right) \\left(a + 12\\right)"
+          "text": "\\left(12 - a\\right) \\left(a - 4\\right)",
+          "math_latex": "\\left(12 - a\\right) \\left(a - 4\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -173,6 +289,56 @@
         "pdf_page": 45,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring monic trinomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**2 + 8*2) - 48",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^2 + 8*2) - 48"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q04-MCQ-03.png"
       }
     },
     {
@@ -180,29 +346,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.4",
-      "instruction": "Factor using integers.",
-      "stem": "Factor using integers. n^{2} - 2 n - 35",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? n^{2} - 2 n - 35",
       "math_latex": "n^{2} - 2 n - 35",
       "options": [
         {
           "id": "A",
           "text": "\\left(n - 7\\right) \\left(n + 5\\right)",
-          "math_latex": "\\left(n - 7\\right) \\left(n + 5\\right)"
+          "math_latex": "\\left(n - 7\\right) \\left(n + 5\\right)",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- \\left(n - 7\\right) \\left(n + 5\\right)",
-          "math_latex": "- \\left(n - 7\\right) \\left(n + 5\\right)"
+          "text": "\\left(- n - 7\\right) \\left(n + 5\\right)",
+          "math_latex": "\\left(- n - 7\\right) \\left(n + 5\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "2 \\left(n - 7\\right) \\left(n + 5\\right)",
-          "math_latex": "2 \\left(n - 7\\right) \\left(n + 5\\right)"
+          "text": "\\left(n + 5\\right) \\left(n + 7\\right)",
+          "math_latex": "\\left(n + 5\\right) \\left(n + 7\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "\\left(n - 6\\right) \\left(n + 6\\right)",
-          "math_latex": "\\left(n - 6\\right) \\left(n + 6\\right)"
+          "text": "\\left(5 - n\\right) \\left(n - 7\\right)",
+          "math_latex": "\\left(5 - n\\right) \\left(n - 7\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -219,6 +389,56 @@
         "pdf_page": 45,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring monic trinomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "n": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'n': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**2 - 2*2) - 35",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^2 - 2*2) - 35"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q04-MCQ-04.png"
       }
     }
   ],

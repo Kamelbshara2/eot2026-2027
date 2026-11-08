@@ -33,7 +33,11 @@
         "G9G-BOOK-Q24-FRQ-03",
         "G9G-BOOK-Q24-FRQ-04"
       ],
-      "download": "LO24.json"
+      "download": "LO24.json",
+      "assessment_facets": [
+        "Graph with a table"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -70,6 +74,72 @@
         "pdf_page": 81,
         "exercise": "5",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph with a table"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 8-X. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 0 =; End 8 =; Step 4 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "8-X",
+          "start": 0,
+          "end": 8,
+          "step": 4,
+          "x": [
+            0,
+            4,
+            8
+          ],
+          "y": [
+            8,
+            4,
+            0
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q24-FRQ-01.png"
       }
     },
     {
@@ -105,6 +175,72 @@
         "pdf_page": 81,
         "exercise": "6",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph with a table"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 10-X. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 0 =; End 10 =; Step 5 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "10-X",
+          "start": 0,
+          "end": 10,
+          "step": 5,
+          "x": [
+            0,
+            5,
+            10
+          ],
+          "y": [
+            10,
+            5,
+            0
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q24-FRQ-02.png"
       }
     },
     {
@@ -140,6 +276,72 @@
         "pdf_page": 81,
         "exercise": "7",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph with a table"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter X/2+1. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start -2 =; End 2 =; Step 2 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "X/2+1",
+          "start": -2,
+          "end": 2,
+          "step": 2,
+          "x": [
+            -2,
+            0,
+            2
+          ],
+          "y": [
+            0,
+            1,
+            2
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q24-FRQ-03.png"
       }
     },
     {
@@ -175,6 +377,72 @@
         "pdf_page": 81,
         "exercise": "8",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph with a table"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter X/4-2. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start -4 =; End 4 =; Step 4 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "X/4-2",
+          "start": -4,
+          "end": 4,
+          "step": 4,
+          "x": [
+            -4,
+            0,
+            4
+          ],
+          "y": [
+            -3,
+            -2,
+            -1
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q24-FRQ-04.png"
       }
     }
   ],

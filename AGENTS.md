@@ -1,0 +1,1 @@
+For question-bank, assessment, image, calculator-guide or booklet work, follow [STUDY_AUTHORING.md](STUDY_AUTHORING.md). It records the user's requested standard for current and future uploaded grades. Apply newer explicit user instructions first. Preserve original textbook evidence and classify authored variants honestly.

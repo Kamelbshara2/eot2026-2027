@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO09",
     "classroom": "10G3",
     "learning_outcome_id": "LO09",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -30,16 +30,23 @@
         "G10G-Q09-MCQ-03",
         "G10G-Q09-MCQ-04",
         "G10G-Q09-MCQ-05",
-        "G10G-Q09-MCQ-06"
+        "G10G-Q09-MCQ-06",
+        "10G3-REV-LO09-01",
+        "10G3-REV-LO09-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO09.json",
       "booklet_question_ids": [
         "G10G-Q09-MCQ-01",
         "G10G-Q09-MCQ-02",
-        "G10G-Q09-MCQ-03",
-        "G10G-Q09-MCQ-04"
-      ]
+        "10G3-REV-LO09-01",
+        "10G3-REV-LO09-02"
+      ],
+      "assessment_facets": [
+        "Negative and zero exponents",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,35 +55,39 @@
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.1",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{3m^{-3}t^4p^2}{12t^4}",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? \\frac{3m^{-3}t^4p^2}{12t^4}",
       "math_latex": "\\frac{3m^{-3}t^4p^2}{12t^4}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{p^{2}}{4 m^{3}}",
-          "math_latex": "- \\frac{p^{2}}{4 m^{3}}"
+          "text": "-\\frac{m^3p^2}{4}",
+          "math_latex": "-\\frac{m^3p^2}{4}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{p^{2}}{2 m^{3}}",
-          "math_latex": "\\frac{p^{2}}{2 m^{3}}"
+          "text": "\\frac{m^3p^2}{4}",
+          "math_latex": "\\frac{m^3p^2}{4}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{p^{2}}{4 m^{3}}",
-          "math_latex": "\\frac{p^{2}}{4 m^{3}}"
+          "text": "\\frac{p^2}{4m^3}",
+          "math_latex": "\\frac{p^2}{4m^3}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "0",
-          "math_latex": "0"
+          "text": "\\frac{p^2}{4m^3t^8}",
+          "math_latex": "\\frac{p^2}{4m^3t^8}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{p^{2}}{4 m^{3}}",
+        "correct_option_text": "\\frac{p^2}{4m^3}",
         "explanation": "Use zero and negative exponent rules: p²/(4·m³)."
       },
       "diagram_asset_ids": [],
@@ -87,37 +98,93 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "m": 2,
+        "p": 3,
+        "t": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'m': 2, 'p': 3, 't': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(3*((3**2*4**4)/2**3))/((12*4**4))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(3*((3^2*4^4)/2^3))/((12*4^4))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q09-MCQ-02",
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.2",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. (\\frac{3t^6u^2v^5}{9tuv^{21}})^0",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? (\\frac{3t^6u^2v^5}{9tuv^{21}})^0",
       "math_latex": "(\\frac{3t^6u^2v^5}{9tuv^{21}})^0",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2",
-          "math_latex": "2"
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
           "text": "1",
-          "math_latex": "1"
+          "math_latex": "1",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "0",
-          "math_latex": "0"
+          "text": "-1",
+          "math_latex": "-1",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "-1",
-          "math_latex": "-1"
+          "text": "\\frac{t^5u}{3v^{16}}",
+          "math_latex": "\\frac{t^5u}{3v^{16}}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
@@ -133,42 +200,98 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "t": 2,
+        "u": 3,
+        "v": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'t': 2, 'u': 3, 'v': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((3*(2**6*(3**2*4**5)))/((9*(2*(3*4**21)))))**0",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((3*(2^6*(3^2*4^5)))/((9*(2*(3*4^21)))))^0"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q09-MCQ-03",
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.3",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{x^{-4}y^9}{z^{-2}}",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? \\frac{x^{-4}y^9}{z^{-2}}",
       "math_latex": "\\frac{x^{-4}y^9}{z^{-2}}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "\\frac{y^{9} z^{2}}{x^{4}}",
-          "math_latex": "\\frac{y^{9} z^{2}}{x^{4}}"
+          "text": "\\frac{y^9z^2}{x^4}",
+          "math_latex": "\\frac{y^9z^2}{x^4}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "0",
-          "math_latex": "0"
+          "text": "\\frac{y^9}{x^4z^2}",
+          "math_latex": "\\frac{y^9}{x^4z^2}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "- \\frac{y^{9} z^{2}}{x^{4}}",
-          "math_latex": "- \\frac{y^{9} z^{2}}{x^{4}}"
+          "text": "\\frac{x^4y^9}{z^2}",
+          "math_latex": "\\frac{x^4y^9}{z^2}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "\\frac{2 y^{9} z^{2}}{x^{4}}",
-          "math_latex": "\\frac{2 y^{9} z^{2}}{x^{4}}"
+          "text": "-\\frac{y^9z^2}{x^4}",
+          "math_latex": "-\\frac{y^9z^2}{x^4}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "\\frac{y^{9} z^{2}}{x^{4}}",
+        "correct_option_text": "\\frac{y^9z^2}{x^4}",
         "explanation": "Use zero and negative exponent rules: y⁹·z²/x⁴."
       },
       "diagram_asset_ids": [],
@@ -179,37 +302,93 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2,
+        "y": 3,
+        "z": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2, 'y': 3, 'z': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(3**9/2**4)/(4**(-2))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(3^9/2^4)/(4^(-2))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q09-MCQ-04",
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.4",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. (-\\frac{5f^9g^4h^2}{fg^2h^3})^0",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? (-\\frac{5f^9g^4h^2}{fg^2h^3})^0",
       "math_latex": "(-\\frac{5f^9g^4h^2}{fg^2h^3})^0",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "0",
-          "math_latex": "0"
+          "math_latex": "0",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
           "text": "-1",
-          "math_latex": "-1"
+          "math_latex": "-1",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "2",
-          "math_latex": "2"
+          "text": "-\\frac{5f^8g^2}{h}",
+          "math_latex": "-\\frac{5f^8g^2}{h}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
           "text": "1",
-          "math_latex": "1"
+          "math_latex": "1",
+          "misconception": null
         }
       ],
       "answer": {
@@ -225,42 +404,98 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "f": 2,
+        "g": 3,
+        "h": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'f': 2, 'g': 3, 'h': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5*(2**9*(3**4*4**2))/(2*(3**2*4**3)))**0",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-5*(2^9*(3^4*4^2))/(2*(3^2*4^3)))^0"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q09-MCQ-05",
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.5",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. \\frac{p^4r^{-3}}{r^{-2}}",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? \\frac{p^4r^{-3}}{r^{-2}}",
       "math_latex": "\\frac{p^4r^{-3}}{r^{-2}}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{p^{4}}{r}",
-          "math_latex": "- \\frac{p^{4}}{r}"
+          "text": "\\frac{p^4}{r^5}",
+          "math_latex": "\\frac{p^4}{r^5}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{2 p^{4}}{r}",
-          "math_latex": "\\frac{2 p^{4}}{r}"
+          "text": "p^4r",
+          "math_latex": "p^4r",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{p^{4}}{r}",
-          "math_latex": "\\frac{p^{4}}{r}"
+          "text": "\\frac{p^4}{r}",
+          "math_latex": "\\frac{p^4}{r}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "0",
-          "math_latex": "0"
+          "text": "-\\frac{p^4}{r}",
+          "math_latex": "-\\frac{p^4}{r}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{p^{4}}{r}",
+        "correct_option_text": "\\frac{p^4}{r}",
         "explanation": "Use zero and negative exponent rules: p⁴/r."
       },
       "diagram_asset_ids": [],
@@ -271,42 +506,97 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "p": 2,
+        "r": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'p': 2, 'r': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**4/3**3)/(3**(-2))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^4/3^3)/(3^(-2))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q09-MCQ-06",
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.6",
-      "instruction": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero.",
-      "stem": "Simplify using positive exponents. Assume no denominator equals zero and each zero-power base is nonzero. -\\frac{5c^2d^6}{8cd^5r^0}",
+      "instruction": "Which option is equivalent to the expression in simplified form?",
+      "stem": "Which option is equivalent to the expression in simplified form? -\\frac{5c^2d^6}{8cd^5r^0}",
       "math_latex": "-\\frac{5c^2d^6}{8cd^5r^0}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{5 c d}{4}",
-          "math_latex": "- \\frac{5 c d}{4}"
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "- \\frac{5 c d}{8}",
-          "math_latex": "- \\frac{5 c d}{8}"
+          "text": "-\\frac{5cd}{8}",
+          "math_latex": "-\\frac{5cd}{8}",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "0",
-          "math_latex": "0"
+          "text": "\\frac{5cd}{8}",
+          "math_latex": "\\frac{5cd}{8}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "\\frac{5 c d}{8}",
-          "math_latex": "\\frac{5 c d}{8}"
+          "text": "-\\frac{5c^3d^{11}}8",
+          "math_latex": "-\\frac{5c^3d^{11}}8",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "- \\frac{5 c d}{8}",
+        "correct_option_text": "-\\frac{5cd}{8}",
         "explanation": "Use zero and negative exponent rules: -5·c·d/8."
       },
       "diagram_asset_ids": [],
@@ -317,7 +607,259 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Negative and zero exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "c": 2,
+        "d": 3,
+        "r": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'c': 2, 'd': 3, 'r': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-5*(2**2*3**6)/(8*(2*(3**5*4**0)))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-5*(2^2*3^6)/(8*(2*(3^5*4^0)))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q09-MCQ-06.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO09-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.7",
+      "instruction": "Which statement holds for every nonzero real number a?",
+      "stem": "Which statement holds for every nonzero real number a? a^0",
+      "math_latex": "a^0",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "a",
+          "math_latex": "a",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "-1",
+          "math_latex": "-1",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "1",
+        "explanation": "The zero-exponent rule requires a≠0."
+      },
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "Application of 11",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q09-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator_substitution": {
+        "a": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**0",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^0"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/10G3-REV-LO09-01.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO09-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.8",
+      "instruction": "Which expression uses positive exponents only? Assume x≠0.",
+      "stem": "Which expression uses positive exponents only? Assume x≠0. x^{-4}",
+      "math_latex": "x^{-4}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x^4",
+          "math_latex": "x^4",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "-\\frac1{x^4}",
+          "math_latex": "-\\frac1{x^4}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "\\frac1{x^4}",
+          "math_latex": "\\frac1{x^4}",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "-x^4",
+          "math_latex": "-x^4",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac1{x^4}",
+        "explanation": "A negative exponent means a reciprocal, not a negative value."
+      },
+      "source": {
+        "printed_page": 591,
+        "pdf_page": 23,
+        "exercise": "Application of 11",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q09-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**(-4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^(-4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/10G3-REV-LO09-02.png"
+      }
     }
   ],
   "assets": {}

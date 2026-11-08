@@ -35,7 +35,11 @@
         "G10G-Q11-MCQ-02",
         "G10G-Q11-MCQ-03",
         "G10G-Q11-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Products of square roots"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -45,7 +49,7 @@
       "type": "mcq",
       "display_number": "11.1",
       "instruction": "The base of a triangle is 6√2 m and its height is 3√6 m. What is its area?",
-      "stem": "The base of a triangle is 6√2 m and its height is 3√6 m. What is its area?",
+      "stem": "The base of a triangle is 6√2 m and its height is 3√6 m. What is its area? ",
       "math_latex": "",
       "marks": null,
       "options": [
@@ -57,17 +61,20 @@
         {
           "id": "B",
           "text": "36 \\sqrt{3}",
-          "math_latex": "36 \\sqrt{3}"
+          "math_latex": "36 \\sqrt{3}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "18 \\sqrt{2}",
-          "math_latex": "18 \\sqrt{2}"
+          "math_latex": "18 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "9 \\sqrt{3}",
-          "math_latex": "9 \\sqrt{3}"
+          "math_latex": "9 \\sqrt{3}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -85,7 +92,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "6*sqrt(2)*3*sqrt(6)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "6*sqrt(2)*3*sqrt(6)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q11-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q11-MCQ-02",
@@ -93,24 +140,27 @@
       "type": "mcq",
       "display_number": "11.2",
       "instruction": "A rectangle is 8√12 cm long and 4√8 cm wide. What is its area?",
-      "stem": "A rectangle is 8√12 cm long and 4√8 cm wide. What is its area?",
+      "stem": "A rectangle is 8√12 cm long and 4√8 cm wide. What is its area? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "64 \\sqrt{6}",
-          "math_latex": "64 \\sqrt{6}"
+          "math_latex": "64 \\sqrt{6}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "32 \\sqrt{6}",
-          "math_latex": "32 \\sqrt{6}"
+          "math_latex": "32 \\sqrt{6}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "128 \\sqrt{3}",
-          "math_latex": "128 \\sqrt{3}"
+          "math_latex": "128 \\sqrt{3}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -133,7 +183,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "8*sqrt(12)*4*sqrt(8)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "8*sqrt(12)*4*sqrt(8)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q11-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q11-MCQ-03",
@@ -141,19 +231,21 @@
       "type": "mcq",
       "display_number": "11.3",
       "instruction": "Use √(h·k) to find the geometric mean of 32 and 14 in simplified radical form.",
-      "stem": "Use √(h·k) to find the geometric mean of 32 and 14 in simplified radical form.",
+      "stem": "Use √(h·k) to find the geometric mean of 32 and 14 in simplified radical form. ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "16 \\sqrt{7}",
-          "math_latex": "16 \\sqrt{7}"
+          "math_latex": "16 \\sqrt{7}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "8 \\sqrt{14}",
-          "math_latex": "8 \\sqrt{14}"
+          "math_latex": "8 \\sqrt{14}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -163,7 +255,8 @@
         {
           "id": "D",
           "text": "4 \\sqrt{7}",
-          "math_latex": "4 \\sqrt{7}"
+          "math_latex": "4 \\sqrt{7}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -179,7 +272,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(32*14)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(32*14)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q11-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q11-MCQ-04",
@@ -187,14 +320,15 @@
       "type": "mcq",
       "display_number": "11.4",
       "instruction": "Fernanda has paint to cover 5 square yards of a cubic prop. Use s=√(A/6). What is the longest side length, to the nearest tenth of a yard?",
-      "stem": "Fernanda has paint to cover 5 square yards of a cubic prop. Use s=√(A/6). What is the longest side length, to the nearest tenth of a yard?",
+      "stem": "Fernanda has paint to cover 5 square yards of a cubic prop. Use s=√(A/6). What is the longest side length, to the nearest tenth of a yard? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "\\frac{1}{2}",
-          "math_latex": "\\frac{1}{2}"
+          "math_latex": "\\frac{1}{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -204,12 +338,14 @@
         {
           "id": "C",
           "text": "\\frac{4}{5}",
-          "math_latex": "\\frac{4}{5}"
+          "math_latex": "\\frac{4}{5}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\frac{6}{5}",
-          "math_latex": "\\frac{6}{5}"
+          "math_latex": "\\frac{6}{5}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -225,7 +361,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(5/6)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(5/6)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q11-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q11-MCQ-05",
@@ -245,17 +421,20 @@
         {
           "id": "B",
           "text": "10 \\sqrt{2}",
-          "math_latex": "10 \\sqrt{2}"
+          "math_latex": "10 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\frac{5 \\sqrt{2}}{2}",
-          "math_latex": "\\frac{5 \\sqrt{2}}{2}"
+          "math_latex": "\\frac{5 \\sqrt{2}}{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "1 + 5 \\sqrt{2}",
-          "math_latex": "1 + 5 \\sqrt{2}"
+          "math_latex": "1 + 5 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -271,7 +450,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q11-MCQ-06",
@@ -286,17 +477,20 @@
         {
           "id": "A",
           "text": "20 \\sqrt{2}",
-          "math_latex": "20 \\sqrt{2}"
+          "math_latex": "20 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "5 \\sqrt{2}",
-          "math_latex": "5 \\sqrt{2}"
+          "math_latex": "5 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "1 + 10 \\sqrt{2}",
-          "math_latex": "1 + 10 \\sqrt{2}"
+          "math_latex": "1 + 10 \\sqrt{2}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -317,29 +511,50 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Products of square roots"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(10)*sqrt(20)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(10)*sqrt(20)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q11-MCQ-06.png"
+      }
     }
   ],
   "assets": {
-    "radical_triangle": {
-      "src": "assets/radical_triangle.png",
-      "width": 461,
-      "height": 231,
-      "alt_text": "Original triangle from Reveal p. 609 exercise 67; base 6√2 m and height 3√6 m.",
-      "source": {
-        "printed_page": 609,
-        "pdf_page": 41,
-        "exercise": "radical_triangle",
-        "adaptation": "transcription",
-        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
-      },
-      "crop_box": [
-        0.705,
-        0.27,
-        0.963,
-        0.361
-      ]
-    },
     "radical_rectangle": {
       "src": "assets/radical_rectangle.png",
       "width": 412,
@@ -357,6 +572,25 @@
         0.36,
         0.97,
         0.445
+      ]
+    },
+    "radical_triangle": {
+      "src": "assets/radical_triangle.png",
+      "width": 461,
+      "height": 231,
+      "alt_text": "Original triangle from Reveal p. 609 exercise 67; base 6√2 m and height 3√6 m.",
+      "source": {
+        "printed_page": 609,
+        "pdf_page": 41,
+        "exercise": "radical_triangle",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.705,
+        0.27,
+        0.963,
+        0.361
       ]
     }
   }

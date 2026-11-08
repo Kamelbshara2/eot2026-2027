@@ -33,7 +33,11 @@
         "G10A-BOOK-Q14-MCQ-03",
         "G10A-BOOK-Q14-MCQ-04"
       ],
-      "download": "LO14.json"
+      "download": "LO14.json",
+      "assessment_facets": [
+        "Parts of similar triangles"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -43,34 +47,38 @@
       "type": "mcq",
       "display_number": "14.1",
       "instruction": "The triangles are similar. Find x.",
-      "stem": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{35}{2}",
-          "math_latex": "\\frac{35}{2}"
+          "text": "\\frac{88}3",
+          "math_latex": "\\frac{88}3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{33}{2}",
-          "math_latex": "\\frac{33}{2}"
+          "text": "\\frac{33}2",
+          "math_latex": "\\frac{33}2",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "33",
-          "math_latex": "33"
+          "text": "\\frac{33}4",
+          "math_latex": "\\frac{33}4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{33}{4}",
-          "math_latex": "\\frac{33}{4}"
+          "text": "33",
+          "math_latex": "33",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{33}{2}",
+        "correct_option_text": "\\frac{33}2",
         "explanation": "Corresponding altitudes have the side ratio 5.25/7: x=22(5.25/7)=16.5."
       },
       "diagram_asset_ids": [
@@ -83,6 +91,46 @@
         "pdf_page": 97,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Parts of similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "22*5.25/7",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "22*5.25/7"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q14-MCQ-01.png"
       }
     },
     {
@@ -91,28 +139,32 @@
       "type": "mcq",
       "display_number": "14.2",
       "instruction": "The triangles are similar. Find x.",
-      "stem": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "22",
-          "math_latex": "22"
+          "math_latex": "22",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "44",
-          "math_latex": "44"
+          "text": "\\frac{99}2",
+          "math_latex": "\\frac{99}2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "11",
-          "math_latex": "11"
+          "text": "33",
+          "math_latex": "33",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "23",
-          "math_latex": "23"
+          "text": "11",
+          "math_latex": "11",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -131,6 +183,46 @@
         "pdf_page": 97,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Parts of similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "33*10/15",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "33*10/15"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q14-MCQ-02.png"
       }
     },
     {
@@ -139,28 +231,32 @@
       "type": "mcq",
       "display_number": "14.3",
       "instruction": "The triangles are similar. Find x.",
-      "stem": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "22",
-          "math_latex": "22"
+          "text": "44",
+          "math_latex": "44",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{11}{2}",
-          "math_latex": "\\frac{11}{2}"
+          "text": "22",
+          "math_latex": "22",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "12",
-          "math_latex": "12"
+          "text": "\\frac{11}2",
+          "math_latex": "\\frac{11}2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "11",
-          "math_latex": "11"
+          "math_latex": "11",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -179,6 +275,46 @@
         "pdf_page": 97,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Parts of similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "22*10/20",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "22*10/20"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q14-MCQ-03.png"
       }
     },
     {
@@ -187,34 +323,38 @@
       "type": "mcq",
       "display_number": "14.4",
       "instruction": "The triangles are similar. Find x.",
-      "stem": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{60}{7}",
-          "math_latex": "\\frac{60}{7}"
+          "text": "\\frac{42}5",
+          "math_latex": "\\frac{42}5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{127}{7}",
-          "math_latex": "\\frac{127}{7}"
+          "text": "\\frac{60}7",
+          "math_latex": "\\frac{60}7",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{120}{7}",
-          "math_latex": "\\frac{120}{7}"
+          "text": "\\frac{120}7",
+          "math_latex": "\\frac{120}7",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{240}{7}",
-          "math_latex": "\\frac{240}{7}"
+          "text": "\\frac{240}7",
+          "math_latex": "\\frac{240}7",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{120}{7}",
+        "correct_option_text": "\\frac{120}7",
         "explanation": "Corresponding angle bisectors have side ratio 18/12.6: x/12=18/12.6, so x=120/7."
       },
       "diagram_asset_ids": [
@@ -227,14 +367,54 @@
         "pdf_page": 97,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Parts of similar triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "12*18/12.6",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "12*18/12.6"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q14-MCQ-04.png"
       }
     }
   ],
   "assets": {
     "q14_4": {
       "src": "assets/q14_4.png",
-      "width": 394,
-      "height": 253,
+      "width": 383,
+      "height": 182,
       "alt_text": "Original textbook diagram, Reveal p. 153, exercise 4.",
       "source": {
         "book_part": 2,
@@ -245,50 +425,10 @@
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.74,
+        0.746,
         0.175,
         0.96,
-        0.275
-      ]
-    },
-    "q14_2": {
-      "src": "assets/q14_2.png",
-      "width": 323,
-      "height": 291,
-      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 2.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 153,
-        "pdf_page": 97,
-        "exercise": "2",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.36,
-        0.16,
-        0.54,
-        0.275
-      ]
-    },
-    "q14_3": {
-      "src": "assets/q14_3.png",
-      "width": 394,
-      "height": 266,
-      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 3.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 153,
-        "pdf_page": 97,
-        "exercise": "3",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.55,
-        0.175,
-        0.77,
-        0.28
+        0.247
       ]
     },
     "q14_1": {
@@ -309,6 +449,46 @@
         0.175,
         0.38,
         0.278
+      ]
+    },
+    "q14_3": {
+      "src": "assets/q14_3.png",
+      "width": 349,
+      "height": 228,
+      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.554,
+        0.175,
+        0.749,
+        0.265
+      ]
+    },
+    "q14_2": {
+      "src": "assets/q14_2.png",
+      "width": 323,
+      "height": 291,
+      "alt_text": "Original textbook diagram, Reveal p. 153, exercise 2.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "2",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.36,
+        0.16,
+        0.54,
+        0.275
       ]
     }
   }

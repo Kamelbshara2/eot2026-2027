@@ -33,7 +33,11 @@
         "G10A-BOOK-Q06-MCQ-03",
         "G10A-BOOK-Q06-MCQ-04"
       ],
-      "download": "LO06.json"
+      "download": "LO06.json",
+      "assessment_facets": [
+        "Properties of parallelograms"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,14 +46,15 @@
       "learning_outcome_id": "LO06",
       "type": "mcq",
       "display_number": "6.1",
-      "instruction": "Find each variable in the parallelogram.",
-      "stem": "Find each variable in the parallelogram.",
+      "instruction": "Which values of the variables satisfy the parallelogram shown?",
+      "stem": "Which values of the variables satisfy the parallelogram shown? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y)=(16,3)",
-          "math_latex": "(x,y)=(16,3)"
+          "math_latex": "(x,y)=(16,3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -59,12 +64,14 @@
         {
           "id": "C",
           "text": "(x,y)=(11,10)",
-          "math_latex": "(x,y)=(11,10)"
+          "math_latex": "(x,y)=(11,10)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "(x,y)=(17,5)",
-          "math_latex": "(x,y)=(17,5)"
+          "math_latex": "(x,y)=(17,5)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -83,6 +90,56 @@
         "pdf_page": 16,
         "exercise": "9",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of parallelograms"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "11-6",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "10+7",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "11-6",
+          "10+7"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q06-MCQ-01.png"
       }
     },
     {
@@ -90,8 +147,8 @@
       "learning_outcome_id": "LO06",
       "type": "mcq",
       "display_number": "6.2",
-      "instruction": "Find each variable in the parallelogram.",
-      "stem": "Find each variable in the parallelogram.",
+      "instruction": "Which values of the variables satisfy the parallelogram shown?",
+      "stem": "Which values of the variables satisfy the parallelogram shown? ",
       "math_latex": "",
       "options": [
         {
@@ -102,17 +159,20 @@
         {
           "id": "B",
           "text": "(a,b)=(3,2)",
-          "math_latex": "(a,b)=(3,2)"
+          "math_latex": "(a,b)=(3,2)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "(a,b)=(13,6)",
-          "math_latex": "(a,b)=(13,6)"
+          "math_latex": "(a,b)=(13,6)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "(a,b)=(4,3)",
-          "math_latex": "(a,b)=(4,3)"
+          "math_latex": "(a,b)=(4,3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -131,6 +191,56 @@
         "pdf_page": 16,
         "exercise": "10",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of parallelograms"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(15-11)/(3-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(11-5)/(3-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(15-11)/(3-1)",
+          "(11-5)/(3-1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q06-MCQ-02.png"
       }
     },
     {
@@ -138,24 +248,27 @@
       "learning_outcome_id": "LO06",
       "type": "mcq",
       "display_number": "6.3",
-      "instruction": "Find each variable in the parallelogram.",
-      "stem": "Find each variable in the parallelogram.",
+      "instruction": "Which values of the variables satisfy the parallelogram shown?",
+      "stem": "Which values of the variables satisfy the parallelogram shown? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y)=(58,29)",
-          "math_latex": "(x,y)=(58,29)"
+          "math_latex": "(x,y)=(58,29)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(x,y)=(60,60)",
-          "math_latex": "(x,y)=(60,60)"
+          "math_latex": "(x,y)=(60,60)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "(x,y)=(53,58)",
-          "math_latex": "(x,y)=(53,58)"
+          "math_latex": "(x,y)=(53,58)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -179,6 +292,56 @@
         "pdf_page": 16,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of parallelograms"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(180+5-11)/3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*58+11)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(180+5-11)/3",
+          "(2*58+11)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q06-MCQ-03.png"
       }
     },
     {
@@ -186,19 +349,21 @@
       "learning_outcome_id": "LO06",
       "type": "mcq",
       "display_number": "6.4",
-      "instruction": "Find each variable in the parallelogram.",
-      "stem": "Find each variable in the parallelogram.",
+      "instruction": "Which values of the variables satisfy the parallelogram shown?",
+      "stem": "Which values of the variables satisfy the parallelogram shown? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(y,z)=(3,2)",
-          "math_latex": "(y,z)=(3,2)"
+          "math_latex": "(y,z)=(3,2)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(y,z)=(5,9)",
-          "math_latex": "(y,z)=(5,9)"
+          "math_latex": "(y,z)=(5,9)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -208,7 +373,8 @@
         {
           "id": "D",
           "text": "(y,z)=(2,5)",
-          "math_latex": "(y,z)=(2,5)"
+          "math_latex": "(y,z)=(2,5)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -227,30 +393,60 @@
         "pdf_page": 16,
         "exercise": "12",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of parallelograms"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(5+5)/(3-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(9-7)/(2-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(5+5)/(3-1)",
+          "(9-7)/(2-1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q06-MCQ-04.png"
       }
     }
   ],
   "assets": {
-    "q6_12": {
-      "src": "assets/q6_12.png",
-      "width": 609,
-      "height": 296,
-      "alt_text": "Original textbook diagram, Reveal p. 72, exercise 12.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 72,
-        "pdf_page": 16,
-        "exercise": "12",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.5,
-        0.318,
-        0.84,
-        0.435
-      ]
-    },
     "q6_11": {
       "src": "assets/q6_11.png",
       "width": 447,
@@ -269,6 +465,26 @@
         0.318,
         0.3,
         0.425
+      ]
+    },
+    "q6_12": {
+      "src": "assets/q6_12.png",
+      "width": 609,
+      "height": 296,
+      "alt_text": "Original textbook diagram, Reveal p. 72, exercise 12.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 72,
+        "pdf_page": 16,
+        "exercise": "12",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.5,
+        0.318,
+        0.84,
+        0.435
       ]
     },
     "q6_10": {

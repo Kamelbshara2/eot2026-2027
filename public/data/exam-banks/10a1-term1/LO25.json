@@ -33,7 +33,11 @@
         "G10A-BOOK-Q25-FRQ-03",
         "G10A-BOOK-Q25-FRQ-04"
       ],
-      "download": "LO25.json"
+      "download": "LO25.json",
+      "assessment_facets": [
+        "Law of Sines and the ambiguous case"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -82,6 +86,109 @@
         "pdf_page": 152,
         "exercise": "15",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Law of Sines and the ambiguous case"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "ssa",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "40*sin(50)/34",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "asin(40*sin(50)/34)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-50-64.32005481895229",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "34*sin(65.67994518104771)/sin(50)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-50-115.67994518104771",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "34*sin(14.320054818952286)/sin(50)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Check both angles",
+            "keys": [],
+            "text": "If sin B>1 there is no triangle. Otherwise test B and 180°−B; keep only A+B<180°. Do not round before finding the remaining side."
+          }
+        ],
+        "expressions": [
+          "40*sin(50)/34",
+          "asin(40*sin(50)/34)",
+          "180-50-64.32005481895229",
+          "34*sin(65.67994518104771)/sin(50)",
+          "180-50-115.67994518104771",
+          "34*sin(14.320054818952286)/sin(50)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q25-FRQ-01.png"
       }
     },
     {
@@ -129,6 +236,59 @@
         "pdf_page": 152,
         "exercise": "16",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Law of Sines and the ambiguous case"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "ssa",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "8*sin(24)/3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Check both angles",
+            "keys": [],
+            "text": "If sin B>1 there is no triangle. Otherwise test B and 180°−B; keep only A+B<180°. Do not round before finding the remaining side."
+          }
+        ],
+        "expressions": [
+          "8*sin(24)/3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q25-FRQ-02.png"
       }
     },
     {
@@ -176,6 +336,89 @@
         "pdf_page": 152,
         "exercise": "17",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Law of Sines and the ambiguous case"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "ssa",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15*sin(125)/22",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "asin(15*sin(125)/22)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-125-33.95300728862219",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "22*sin(21.04699271137781)/sin(125)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Check both angles",
+            "keys": [],
+            "text": "If sin B>1 there is no triangle. Otherwise test B and 180°−B; keep only A+B<180°. Do not round before finding the remaining side."
+          }
+        ],
+        "expressions": [
+          "15*sin(125)/22",
+          "asin(15*sin(125)/22)",
+          "180-125-33.95300728862219",
+          "22*sin(21.04699271137781)/sin(125)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q25-FRQ-03.png"
       }
     },
     {
@@ -223,6 +466,109 @@
         "pdf_page": 152,
         "exercise": "19",
         "adaptation": "transcription"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Law of Sines and the ambiguous case"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "ssa",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4*sin(30)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "asin(4*sin(30)/2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-30-89.99999914622636",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*sin(60.00000085377364)/sin(30)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-30-90.00000085377364",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*sin(59.99999914622636)/sin(30)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Check both angles",
+            "keys": [],
+            "text": "If sin B>1 there is no triangle. Otherwise test B and 180°−B; keep only A+B<180°. Do not round before finding the remaining side."
+          }
+        ],
+        "expressions": [
+          "4*sin(30)/2",
+          "asin(4*sin(30)/2)",
+          "180-30-89.99999914622636",
+          "2*sin(60.00000085377364)/sin(30)",
+          "180-30-90.00000085377364",
+          "2*sin(59.99999914622636)/sin(30)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q25-FRQ-04.png"
       }
     }
   ],

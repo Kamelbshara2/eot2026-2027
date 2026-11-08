@@ -33,7 +33,11 @@
         "G9G-BOOK-Q04-MCQ-03",
         "G9G-BOOK-Q04-MCQ-04"
       ],
-      "download": "LO04.json"
+      "download": "LO04.json",
+      "assessment_facets": [
+        "Rearrange formulas"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.1",
-      "instruction": "Solve for v. Assume any divisor is nonzero.",
-      "stem": "Solve for v. Assume any divisor is nonzero. u=vw+z",
+      "instruction": "Solve for v. Assume any divisor is nonzero. Which expression is correct?",
+      "stem": "Solve for v. Assume any divisor is nonzero. Which expression is correct? u=vw+z",
       "math_latex": "u=vw+z",
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{u - z}{w}",
-          "math_latex": "- \\frac{u - z}{w}"
+          "text": "- \\frac{z}{w}",
+          "math_latex": "- \\frac{z}{w}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "1 + \\frac{u - z}{w}",
-          "math_latex": "1 + \\frac{u - z}{w}"
+          "text": "- \\frac{u}{w} - \\frac{z}{w}",
+          "math_latex": "- \\frac{u}{w} - \\frac{z}{w}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "\\frac{2 \\left(u - z\\right)}{w}",
-          "math_latex": "\\frac{2 \\left(u - z\\right)}{w}"
+          "text": "\\frac{u}{w}",
+          "math_latex": "\\frac{u}{w}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
           "text": "\\frac{u - z}{w}",
-          "math_latex": "\\frac{u - z}{w}"
+          "math_latex": "\\frac{u - z}{w}",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -81,6 +89,18 @@
         "pdf_page": 125,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rearrange formulas"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -88,29 +108,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.2",
-      "instruction": "Solve for c. Assume any divisor is nonzero.",
-      "stem": "Solve for c. Assume any divisor is nonzero. x=b-cd",
+      "instruction": "Solve for c. Assume any divisor is nonzero. Which expression is correct?",
+      "stem": "Solve for c. Assume any divisor is nonzero. Which expression is correct? x=b-cd",
       "math_latex": "x=b-cd",
       "options": [
         {
           "id": "A",
-          "text": "1 + \\frac{b - x}{d}",
-          "math_latex": "1 + \\frac{b - x}{d}"
+          "text": "- \\frac{x}{d}",
+          "math_latex": "- \\frac{x}{d}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "\\frac{2 \\left(b - x\\right)}{d}",
-          "math_latex": "\\frac{2 \\left(b - x\\right)}{d}"
+          "text": "- \\frac{b}{d} - \\frac{x}{d}",
+          "math_latex": "- \\frac{b}{d} - \\frac{x}{d}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
           "text": "\\frac{b - x}{d}",
-          "math_latex": "\\frac{b - x}{d}"
+          "math_latex": "\\frac{b - x}{d}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "- \\frac{b - x}{d}",
-          "math_latex": "- \\frac{b - x}{d}"
+          "text": "\\frac{b}{d}",
+          "math_latex": "\\frac{b}{d}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -127,6 +151,18 @@
         "pdf_page": 125,
         "exercise": "12",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rearrange formulas"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -134,29 +170,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.3",
-      "instruction": "Solve for g. Assume any divisor is nonzero.",
-      "stem": "Solve for g. Assume any divisor is nonzero. fg-9h=10j",
+      "instruction": "Solve for g. Assume any divisor is nonzero. Which expression is correct?",
+      "stem": "Solve for g. Assume any divisor is nonzero. Which expression is correct? fg-9h=10j",
       "math_latex": "fg-9h=10j",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{2 \\left(9 h + 10 j\\right)}{f}",
-          "math_latex": "\\frac{2 \\left(9 h + 10 j\\right)}{f}"
+          "text": "\\frac{10 j}{f}",
+          "math_latex": "\\frac{10 j}{f}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
           "text": "\\frac{9 h + 10 j}{f}",
-          "math_latex": "\\frac{9 h + 10 j}{f}"
+          "math_latex": "\\frac{9 h + 10 j}{f}",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "- \\frac{9 h + 10 j}{f}",
-          "math_latex": "- \\frac{9 h + 10 j}{f}"
+          "text": "- \\frac{9 h}{f} + \\frac{10 j}{f}",
+          "math_latex": "- \\frac{9 h}{f} + \\frac{10 j}{f}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "1 + \\frac{9 h + 10 j}{f}",
-          "math_latex": "1 + \\frac{9 h + 10 j}{f}"
+          "text": "\\frac{9 h}{f}",
+          "math_latex": "\\frac{9 h}{f}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -173,6 +213,18 @@
         "pdf_page": 125,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rearrange formulas"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -180,29 +232,33 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.4",
-      "instruction": "Solve for m. Assume any divisor is nonzero.",
-      "stem": "Solve for m. Assume any divisor is nonzero. 10m-p=-n",
+      "instruction": "Solve for m. Assume any divisor is nonzero. Which expression is correct?",
+      "stem": "Solve for m. Assume any divisor is nonzero. Which expression is correct? 10m-p=-n",
       "math_latex": "10m-p=-n",
       "options": [
         {
           "id": "A",
           "text": "- \\frac{n}{10} + \\frac{p}{10}",
-          "math_latex": "- \\frac{n}{10} + \\frac{p}{10}"
+          "math_latex": "- \\frac{n}{10} + \\frac{p}{10}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\frac{n}{10} - \\frac{p}{10}",
-          "math_latex": "\\frac{n}{10} - \\frac{p}{10}"
+          "text": "\\frac{p}{10}",
+          "math_latex": "\\frac{p}{10}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "- \\frac{n}{10} + \\frac{p}{10} + 1",
-          "math_latex": "- \\frac{n}{10} + \\frac{p}{10} + 1"
+          "text": "\\frac{n}{10} + \\frac{p}{10}",
+          "math_latex": "\\frac{n}{10} + \\frac{p}{10}",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- \\frac{n}{5} + \\frac{p}{5}",
-          "math_latex": "- \\frac{n}{5} + \\frac{p}{5}"
+          "text": "- \\frac{n}{10}",
+          "math_latex": "- \\frac{n}{10}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -219,6 +275,18 @@
         "pdf_page": 125,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rearrange formulas"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

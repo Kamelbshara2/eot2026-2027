@@ -33,7 +33,11 @@
         "G10A-BOOK-Q10-MCQ-03",
         "G10A-BOOK-Q10-MCQ-04"
       ],
-      "download": "LO10.json"
+      "download": "LO10.json",
+      "assessment_facets": [
+        "Similar polygons"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -43,13 +47,14 @@
       "type": "mcq",
       "display_number": "10.1",
       "instruction": "Each pair of polygons is similar. Find x.",
-      "stem": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "6",
-          "math_latex": "6"
+          "math_latex": "6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -59,12 +64,14 @@
         {
           "id": "C",
           "text": "4",
-          "math_latex": "4"
+          "math_latex": "4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "2",
-          "math_latex": "2"
+          "math_latex": "2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -83,6 +90,46 @@
         "pdf_page": 72,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Similar polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(20-8)/(24-20)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(20-8)/(24-20)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q10-MCQ-01.png"
       }
     },
     {
@@ -91,7 +138,7 @@
       "type": "mcq",
       "display_number": "10.2",
       "instruction": "Each pair of polygons is similar. Find x.",
-      "stem": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x. ",
       "math_latex": "",
       "options": [
         {
@@ -102,17 +149,20 @@
         {
           "id": "B",
           "text": "3",
-          "math_latex": "3"
+          "math_latex": "3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "1",
-          "math_latex": "1"
+          "math_latex": "1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "5",
-          "math_latex": "5"
+          "math_latex": "5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -131,6 +181,46 @@
         "pdf_page": 72,
         "exercise": "12",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Similar polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(12-4)/(36-32)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(12-4)/(36-32)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q10-MCQ-02.png"
       }
     },
     {
@@ -139,23 +229,26 @@
       "type": "mcq",
       "display_number": "10.3",
       "instruction": "Each pair of polygons is similar. Find x.",
-      "stem": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "6",
-          "math_latex": "6"
+          "math_latex": "6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "4",
-          "math_latex": "4"
+          "math_latex": "4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "8",
-          "math_latex": "8"
+          "math_latex": "8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -179,6 +272,46 @@
         "pdf_page": 72,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Similar polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(9-4)/(4-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(9-4)/(4-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q10-MCQ-03.png"
       }
     },
     {
@@ -187,18 +320,20 @@
       "type": "mcq",
       "display_number": "10.4",
       "instruction": "Each pair of polygons is similar. Find x.",
-      "stem": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "6",
-          "math_latex": "6"
+          "math_latex": "6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "10",
-          "math_latex": "10"
+          "math_latex": "10",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -208,7 +343,8 @@
         {
           "id": "D",
           "text": "8",
-          "math_latex": "8"
+          "math_latex": "8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -227,30 +363,50 @@
         "pdf_page": 72,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Similar polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15*4/5-5",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "15*4/5-5"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q10-MCQ-04.png"
       }
     }
   ],
   "assets": {
-    "q10_12": {
-      "src": "assets/q10_12.png",
-      "width": 733,
-      "height": 216,
-      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 12.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 128,
-        "pdf_page": 72,
-        "exercise": "12",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.47,
-        0.505,
-        0.88,
-        0.59
-      ]
-    },
     "q10_14": {
       "src": "assets/q10_14.png",
       "width": 751,
@@ -269,6 +425,26 @@
         0.585,
         0.89,
         0.71
+      ]
+    },
+    "q10_11": {
+      "src": "assets/q10_11.png",
+      "width": 733,
+      "height": 216,
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 11.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "11",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.505,
+        0.46,
+        0.59
       ]
     },
     "q10_13": {
@@ -291,23 +467,23 @@
         0.71
       ]
     },
-    "q10_11": {
-      "src": "assets/q10_11.png",
+    "q10_12": {
+      "src": "assets/q10_12.png",
       "width": 733,
       "height": 216,
-      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 11.",
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 12.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 128,
         "pdf_page": 72,
-        "exercise": "11",
+        "exercise": "12",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.05,
+        0.47,
         0.505,
-        0.46,
+        0.88,
         0.59
       ]
     }

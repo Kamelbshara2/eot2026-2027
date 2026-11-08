@@ -3,7 +3,7 @@
     "id": "10a1-term1-LO16",
     "classroom": "10A1",
     "learning_outcome_id": "LO16",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -24,20 +24,27 @@
         }
       ],
       "title_ar": "نظرية فيثاغورس وعكسها",
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G10A-BOOK-Q16-MCQ-01",
         "G10A-BOOK-Q16-MCQ-02",
         "G10A-BOOK-Q16-MCQ-03",
-        "G10A-BOOK-Q16-MCQ-04"
+        "G10A-BOOK-Q16-MCQ-04",
+        "10A1-REV-LO16-01",
+        "10A1-REV-LO16-02"
       ],
       "booklet_question_ids": [
         "G10A-BOOK-Q16-MCQ-01",
         "G10A-BOOK-Q16-MCQ-02",
-        "G10A-BOOK-Q16-MCQ-03",
-        "G10A-BOOK-Q16-MCQ-04"
+        "10A1-REV-LO16-01",
+        "10A1-REV-LO16-02"
       ],
-      "download": "LO16.json"
+      "download": "LO16.json",
+      "assessment_facets": [
+        "Pythagorean theorem and converse",
+        "pythagorean-converse"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -47,28 +54,32 @@
       "type": "mcq",
       "display_number": "16.1",
       "instruction": "Use a Pythagorean triple to find x.",
-      "stem": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "17",
-          "math_latex": "17"
+          "text": "\\sqrt{353}",
+          "math_latex": "\\sqrt{353}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "13",
-          "math_latex": "13"
+          "text": "9",
+          "math_latex": "9",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "20",
-          "math_latex": "20"
+          "text": "225",
+          "math_latex": "225",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "15",
-          "math_latex": "15"
+          "math_latex": "15",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -87,6 +98,46 @@
         "pdf_page": 115,
         "exercise": "7",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Pythagorean theorem and converse"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(17^2-8^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(17^2-8^2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q16-MCQ-01.png"
       }
     },
     {
@@ -95,28 +146,32 @@
       "type": "mcq",
       "display_number": "16.2",
       "instruction": "Use a Pythagorean triple to find x.",
-      "stem": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "49",
-          "math_latex": "49"
+          "text": "69",
+          "math_latex": "69",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "56",
-          "math_latex": "56"
+          "text": "21",
+          "math_latex": "21",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
           "text": "51",
-          "math_latex": "51"
+          "math_latex": "51",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "53",
-          "math_latex": "53"
+          "text": "\\sqrt{1449}",
+          "math_latex": "\\sqrt{1449}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -135,6 +190,46 @@
         "pdf_page": 115,
         "exercise": "8",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Pythagorean theorem and converse"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(45^2+24^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(45^2+24^2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q16-MCQ-02.png"
       }
     },
     {
@@ -143,28 +238,32 @@
       "type": "mcq",
       "display_number": "16.3",
       "instruction": "Use a Pythagorean triple to find x.",
-      "stem": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "105",
-          "math_latex": "105"
+          "text": "124",
+          "math_latex": "124",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
           "text": "100",
-          "math_latex": "100"
+          "math_latex": "100",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "102",
-          "math_latex": "102"
+          "text": "68",
+          "math_latex": "68",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "98",
-          "math_latex": "98"
+          "text": "\\sqrt{8432}",
+          "math_latex": "\\sqrt{8432}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -183,6 +282,46 @@
         "pdf_page": 115,
         "exercise": "9",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Pythagorean theorem and converse"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(28^2+96^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(28^2+96^2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q16-MCQ-03.png"
       }
     },
     {
@@ -191,28 +330,32 @@
       "type": "mcq",
       "display_number": "16.4",
       "instruction": "Use a Pythagorean triple to find x.",
-      "stem": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "13",
-          "math_latex": "13"
+          "math_latex": "13",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "15",
-          "math_latex": "15"
+          "text": "17",
+          "math_latex": "17",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "11",
-          "math_latex": "11"
+          "text": "7",
+          "math_latex": "7",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "18",
-          "math_latex": "18"
+          "text": "\\sqrt{119}",
+          "math_latex": "\\sqrt{119}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -231,50 +374,168 @@
         "pdf_page": 115,
         "exercise": "10",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Pythagorean theorem and converse"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(5^2+12^2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(5^2+12^2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q16-MCQ-04.png"
+      }
+    },
+    {
+      "id": "10A1-REV-LO16-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.5",
+      "instruction": "How is the triangle with these side lengths classified?",
+      "stem": "How is the triangle with these side lengths classified? \\sqrt5,\\sqrt{12},\\sqrt{13}",
+      "math_latex": "\\sqrt5,\\sqrt{12},\\sqrt{13}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtuse",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Not a triangle",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "Acute",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Right",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Acute",
+        "explanation": "13<5+12, and the triangle inequality holds."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "Application of 7",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q16-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "pythagorean-converse"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10A1-REV-LO16-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.6",
+      "instruction": "How is the triangle with these side lengths classified?",
+      "stem": "How is the triangle with these side lengths classified? 2,\\sqrt8,\\sqrt{12}",
+      "math_latex": "2,\\sqrt8,\\sqrt{12}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtuse",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Not a triangle",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "Right",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Acute",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Right",
+        "explanation": "12=4+8; the converse of Pythagoras applies."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "Application of 7",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q16-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "pythagorean-converse"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],
   "assets": {
-    "q16_8": {
-      "src": "assets/q16_8.png",
-      "width": 465,
-      "height": 266,
-      "alt_text": "Original textbook diagram, Reveal p. 171, exercise 8.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 171,
-        "pdf_page": 115,
-        "exercise": "8",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.42,
-        0.475,
-        0.68,
-        0.58
-      ]
-    },
-    "q16_7": {
-      "src": "assets/q16_7.png",
-      "width": 376,
-      "height": 266,
-      "alt_text": "Original textbook diagram, Reveal p. 171, exercise 7.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 171,
-        "pdf_page": 115,
-        "exercise": "7",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.15,
-        0.475,
-        0.36,
-        0.58
-      ]
-    },
     "q16_9": {
       "src": "assets/q16_9.png",
       "width": 483,
@@ -313,6 +574,46 @@
         0.58,
         0.36,
         0.708
+      ]
+    },
+    "q16_8": {
+      "src": "assets/q16_8.png",
+      "width": 465,
+      "height": 266,
+      "alt_text": "Original textbook diagram, Reveal p. 171, exercise 8.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "8",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.42,
+        0.475,
+        0.68,
+        0.58
+      ]
+    },
+    "q16_7": {
+      "src": "assets/q16_7.png",
+      "width": 376,
+      "height": 266,
+      "alt_text": "Original textbook diagram, Reveal p. 171, exercise 7.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "7",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.475,
+        0.36,
+        0.58
       ]
     }
   }

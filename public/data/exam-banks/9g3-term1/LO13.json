@@ -33,7 +33,11 @@
         "G9G-BOOK-Q13-MCQ-03",
         "G9G-BOOK-Q13-MCQ-04"
       ],
-      "download": "LO13.json"
+      "download": "LO13.json",
+      "assessment_facets": [
+        "Read linear graphs"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,35 +46,39 @@
       "learning_outcome_id": "LO13",
       "type": "mcq",
       "display_number": "13.1",
-      "instruction": "Write an equation for the original graph. Options give y.",
-      "stem": "Write an equation for the original graph. Options give y. ",
+      "instruction": "Which equation matches the graph?",
+      "stem": "Which equation matches the graph? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "2 x - 2",
-          "math_latex": "2 x - 2"
+          "text": "y=2 x",
+          "math_latex": "y=2 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "x - 3",
-          "math_latex": "x - 3"
+          "text": "y=2 x + 3",
+          "math_latex": "y=2 x + 3",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "2 x - 3",
-          "math_latex": "2 x - 3"
+          "text": "y=2 x - 3",
+          "math_latex": "y=2 x - 3",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "3 - 2 x",
-          "math_latex": "3 - 2 x"
+          "text": "y=-3",
+          "math_latex": "y=-3",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "2 x - 3",
+        "correct_option_text": "y=2 x - 3",
         "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
       },
       "diagram_asset_ids": [
@@ -83,6 +91,18 @@
         "pdf_page": 102,
         "exercise": "37",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Read linear graphs"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -90,35 +110,39 @@
       "learning_outcome_id": "LO13",
       "type": "mcq",
       "display_number": "13.2",
-      "instruction": "Write an equation for the original graph. Options give y.",
-      "stem": "Write an equation for the original graph. Options give y. ",
+      "instruction": "Which equation matches the graph?",
+      "stem": "Which equation matches the graph? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "2 - 4 x",
-          "math_latex": "2 - 4 x"
+          "text": "y=- 3 x",
+          "math_latex": "y=- 3 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "2 - 3 x",
-          "math_latex": "2 - 3 x"
+          "text": "y=2 - 3 x",
+          "math_latex": "y=2 - 3 x",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "3 x - 2",
-          "math_latex": "3 x - 2"
+          "text": "y=- 3 x - 2",
+          "math_latex": "y=- 3 x - 2",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "3 - 3 x",
-          "math_latex": "3 - 3 x"
+          "text": "y=2",
+          "math_latex": "y=2",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "2 - 3 x",
+        "correct_option_text": "y=2 - 3 x",
         "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
       },
       "diagram_asset_ids": [
@@ -131,6 +155,18 @@
         "pdf_page": 102,
         "exercise": "38",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Read linear graphs"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -138,35 +174,39 @@
       "learning_outcome_id": "LO13",
       "type": "mcq",
       "display_number": "13.3",
-      "instruction": "Write an equation for the original graph. Options give y.",
-      "stem": "Write an equation for the original graph. Options give y. ",
+      "instruction": "Which equation matches the graph?",
+      "stem": "Which equation matches the graph? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "- x - 1",
-          "math_latex": "- x - 1"
+          "text": "y=- x - 1",
+          "math_latex": "y=- x - 1",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "x + 1",
-          "math_latex": "x + 1"
+          "text": "y=- x",
+          "math_latex": "y=- x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "- x",
-          "math_latex": "- x"
+          "text": "y=1 - x",
+          "math_latex": "y=1 - x",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- 2 x - 1",
-          "math_latex": "- 2 x - 1"
+          "text": "y=-1",
+          "math_latex": "y=-1",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "- x - 1",
+        "correct_option_text": "y=- x - 1",
         "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
       },
       "diagram_asset_ids": [
@@ -179,6 +219,18 @@
         "pdf_page": 102,
         "exercise": "39",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Read linear graphs"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -186,35 +238,39 @@
       "learning_outcome_id": "LO13",
       "type": "mcq",
       "display_number": "13.4",
-      "instruction": "Match graph A with its equation. Options give y.",
-      "stem": "Match graph A with its equation. Options give y. ",
+      "instruction": "Match graph A with its equation.",
+      "stem": "Match graph A with its equation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "8 - 3 x",
-          "math_latex": "8 - 3 x"
+          "text": "y=3 x",
+          "math_latex": "y=3 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "\\frac{3 x}{7} - 4",
-          "math_latex": "\\frac{3 x}{7} - 4"
+          "text": "y=3 x + 8",
+          "math_latex": "y=3 x + 8",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "- \\frac{3 x}{7} - 4",
-          "math_latex": "- \\frac{3 x}{7} - 4"
+          "text": "y=-8",
+          "math_latex": "y=-8",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
-          "text": "3 x - 8",
-          "math_latex": "3 x - 8"
+          "text": "y=3 x - 8",
+          "math_latex": "y=3 x - 8",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "3 x - 8",
+        "correct_option_text": "y=3 x - 8",
         "explanation": "The line rises steeply and crosses the y-axis at −8: y=3x−8."
       },
       "diagram_asset_ids": [
@@ -227,28 +283,40 @@
         "pdf_page": 99,
         "exercise": "Match graph A",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Read linear graphs"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],
   "assets": {
-    "line_39": {
-      "src": "assets/line_39.png",
-      "width": 258,
-      "height": 316,
-      "alt_text": "Original textbook visual, Reveal p. 236, 39.",
+    "match_a": {
+      "src": "assets/match_a.png",
+      "width": 323,
+      "height": 357,
+      "alt_text": "Original textbook visual, Reveal p. 233, Graph A.",
       "source": {
         "book_part": 2,
         "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
-        "printed_page": 236,
-        "pdf_page": 102,
-        "exercise": "39",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Graph A",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.568,
-        0.765,
-        0.712,
-        0.89
+        0.145,
+        0.49,
+        0.325,
+        0.631
       ]
     },
     "line_37": {
@@ -271,26 +339,6 @@
         0.89
       ]
     },
-    "match_a": {
-      "src": "assets/match_a.png",
-      "width": 323,
-      "height": 357,
-      "alt_text": "Original textbook visual, Reveal p. 233, Graph A.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
-        "printed_page": 233,
-        "pdf_page": 99,
-        "exercise": "Graph A",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.145,
-        0.49,
-        0.325,
-        0.631
-      ]
-    },
     "line_38": {
       "src": "assets/line_38.png",
       "width": 253,
@@ -308,6 +356,26 @@
         0.326,
         0.765,
         0.467,
+        0.89
+      ]
+    },
+    "line_39": {
+      "src": "assets/line_39.png",
+      "width": 258,
+      "height": 316,
+      "alt_text": "Original textbook visual, Reveal p. 236, 39.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "39",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.568,
+        0.765,
+        0.712,
         0.89
       ]
     }

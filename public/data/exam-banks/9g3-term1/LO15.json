@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO15",
     "classroom": "9G3",
     "learning_outcome_id": "LO15",
-    "question_count": 4
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,29 @@
           "exercises_or_section": "Examples 6–8; Check a"
         }
       ],
-      "question_count": 4,
+      "question_count": 8,
       "question_ids": [
         "G9G-BOOK-Q15-MCQ-01",
         "G9G-BOOK-Q15-MCQ-02",
         "G9G-BOOK-Q15-MCQ-03",
-        "G9G-BOOK-Q15-MCQ-04"
+        "G9G-BOOK-Q15-MCQ-04",
+        "9G3-REV-LO15-01",
+        "9G3-REV-LO15-02",
+        "9G3-REV-LO15-03",
+        "9G3-REV-LO15-04"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q15-MCQ-01",
         "G9G-BOOK-Q15-MCQ-02",
-        "G9G-BOOK-Q15-MCQ-03",
-        "G9G-BOOK-Q15-MCQ-04"
+        "9G3-REV-LO15-01",
+        "9G3-REV-LO15-02"
       ],
-      "download": "LO15.json"
+      "download": "LO15.json",
+      "assessment_facets": [
+        "Slope from two points",
+        "slope-formula"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,34 +51,39 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.1",
-      "instruction": "Find the slope through the points.",
-      "stem": "Find the slope through the points. (-1,3),\\ (4,1)",
+      "instruction": "What is the slope of the line through the given points?",
+      "stem": "What is the slope of the line through the given points? (-1,3),\\ (4,1)",
       "math_latex": "(-1,3),\\ (4,1)",
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{2}{5}",
-          "math_latex": "- \\frac{2}{5}"
+          "text": "-\\frac25",
+          "math_latex": "-\\frac25",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\frac{3}{5}",
-          "math_latex": "\\frac{3}{5}"
+          "text": "\\frac25",
+          "math_latex": "\\frac25",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "- \\frac{7}{5}",
-          "math_latex": "- \\frac{7}{5}"
+          "text": "-\\frac52",
+          "math_latex": "-\\frac52",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "Undefined"
+          "text": "-\\frac23",
+          "math_latex": "-\\frac23",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "- \\frac{2}{5}",
+        "correct_option_text": "-\\frac25",
         "explanation": "m=(y₂−y₁)/(x₂−x₁). A horizontal line has slope 0."
       },
       "diagram_asset_ids": [
@@ -82,6 +96,46 @@
         "pdf_page": 89,
         "exercise": "Example 6",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope from two points"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(1-3)/(4+1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(1-3)/(4+1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q15-MCQ-01.png"
       }
     },
     {
@@ -89,28 +143,32 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.2",
-      "instruction": "Find the slope through the points.",
-      "stem": "Find the slope through the points. (-2,-5),\\ (4,-5)",
+      "instruction": "What is the slope of the line through the given points?",
+      "stem": "What is the slope of the line through the given points? (-2,-5),\\ (4,-5)",
       "math_latex": "(-2,-5),\\ (4,-5)",
       "options": [
         {
           "id": "A",
-          "text": "1",
-          "math_latex": "1"
+          "text": "5",
+          "math_latex": "5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "-1",
-          "math_latex": "-1"
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "Undefined"
+          "text": "Undefined",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "0",
-          "math_latex": "0"
+          "math_latex": "0",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -129,6 +187,46 @@
         "pdf_page": 89,
         "exercise": "Example 7",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope from two points"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5+5)/(4+2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-5+5)/(4+2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q15-MCQ-02.png"
       }
     },
     {
@@ -136,25 +234,32 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.3",
-      "instruction": "Find the slope through the points.",
-      "stem": "Find the slope through the points. (-3,4),\\ (-3,-2)",
+      "instruction": "What is the slope of the line through the given points?",
+      "stem": "What is the slope of the line through the given points? (-3,4),\\ (-3,-2)",
       "math_latex": "(-3,4),\\ (-3,-2)",
       "options": [
         {
           "id": "A",
-          "text": "−6"
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "1"
+          "text": "-6",
+          "math_latex": "-6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "Undefined"
+          "text": "Undefined",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "0"
+          "text": "-\\frac16",
+          "math_latex": "-\\frac16",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -173,6 +278,51 @@
         "pdf_page": 89,
         "exercise": "Example 8",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope from two points"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "vertical",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the denominator",
+            "keys": [],
+            "text": "Calculate the change in x. It is zero, so the slope is undefined; do not enter a division by zero."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-3)-(-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-3)-(-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q15-MCQ-03.png"
       }
     },
     {
@@ -180,28 +330,33 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.4",
-      "instruction": "Find the slope through the points.",
-      "stem": "Find the slope through the points. (5,-4),\\ (0,1)",
+      "instruction": "What is the slope of the line through the given points?",
+      "stem": "What is the slope of the line through the given points? (5,-4),\\ (0,1)",
       "math_latex": "(5,-4),\\ (0,1)",
       "options": [
         {
           "id": "A",
-          "text": "Undefined"
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
           "text": "-1",
-          "math_latex": "-1"
+          "math_latex": "-1",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "0",
-          "math_latex": "0"
+          "text": "-\\frac35",
+          "math_latex": "-\\frac35",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "-2",
-          "math_latex": "-2"
+          "text": "\\frac35",
+          "math_latex": "\\frac35",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -218,6 +373,380 @@
         "pdf_page": 89,
         "exercise": "Check a",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope from two points"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(1+4)/(0-5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(1+4)/(0-5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q15-MCQ-04.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO15-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.5",
+      "instruction": "What is the slope of the line through the two points?",
+      "stem": "What is the slope of the line through the two points? (1,2),\\ (3,6)",
+      "math_latex": "(1,2),\\ (3,6)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "-2",
+          "math_latex": "-2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "\\frac12",
+          "math_latex": "\\frac12",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "math_latex": "4",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2",
+        "explanation": "m=(6−2)/(3−1)=2."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Application of Example 6",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "slope-formula"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(6-2)/(3-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(6-2)/(3-1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO15-01.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO15-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.6",
+      "instruction": "What is the slope of the line through the two points?",
+      "stem": "What is the slope of the line through the two points? (1,5),\\ (3,-1)",
+      "math_latex": "(1,5),\\ (3,-1)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3",
+          "math_latex": "3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "-\\frac13",
+          "math_latex": "-\\frac13",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "-6",
+          "math_latex": "-6",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "-3",
+          "math_latex": "-3",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "-3",
+        "explanation": "m=(−1−5)/(3−1)=−3."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Application of Example 6",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "slope-formula"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-1-5)/(3-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-1-5)/(3-1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO15-02.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO15-03",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.7",
+      "instruction": "What is the slope of the line through the two points?",
+      "stem": "What is the slope of the line through the two points? (-2,4),\\ (3,4)",
+      "math_latex": "(-2,4),\\ (3,4)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0",
+          "math_latex": "0",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "math_latex": "4",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Undefined",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "0",
+        "explanation": "A horizontal line has slope zero."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Application of Example 6",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "slope-formula"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(4-4)/(3+2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(4-4)/(3+2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO15-03.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO15-04",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.8",
+      "instruction": "What is the slope of the line through the two points?",
+      "stem": "What is the slope of the line through the two points? (2,-1),\\ (2,5)",
+      "math_latex": "(2,-1),\\ (2,5)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac16",
+          "math_latex": "\\frac16",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Undefined",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "math_latex": "6",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Undefined",
+        "explanation": "A vertical line gives a zero denominator; its slope is undefined."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Application of Example 6",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q15-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "slope-formula"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],
@@ -244,8 +773,8 @@
     },
     "slope_6": {
       "src": "assets/slope_6.png",
-      "width": 310,
-      "height": 302,
+      "width": 327,
+      "height": 312,
       "alt_text": "Original textbook visual, Reveal p. 223, Example 6.",
       "source": {
         "book_part": 2,
@@ -256,10 +785,10 @@
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.143,
-        0.153,
-        0.316,
-        0.272
+        0.14,
+        0.151,
+        0.323,
+        0.274
       ]
     },
     "slope_7": {

@@ -33,7 +33,11 @@
         "G9G-BOOK-Q10-MCQ-03",
         "G9G-BOOK-Q10-MCQ-04"
       ],
-      "download": "LO10.json"
+      "download": "LO10.json",
+      "assessment_facets": [
+        "Multi-step equations with parameters"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO10",
       "type": "mcq",
       "display_number": "10.1",
-      "instruction": "Solve for x. Assume a≠0.",
-      "stem": "Solve for x. Assume a≠0. ax+3=23",
+      "instruction": "Solve for x. Assume a≠0. Which expression is correct?",
+      "stem": "Solve for x. Assume a≠0. Which expression is correct? ax+3=23",
       "math_latex": "ax+3=23",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{40}{a}",
-          "math_latex": "\\frac{40}{a}"
+          "text": "\\frac{26}{a}",
+          "math_latex": "\\frac{26}{a}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
           "text": "\\frac{20}{a}",
-          "math_latex": "\\frac{20}{a}"
+          "math_latex": "\\frac{20}{a}",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "- \\frac{20}{a}",
-          "math_latex": "- \\frac{20}{a}"
+          "text": "20a",
+          "math_latex": "20a",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "1 + \\frac{20}{a}",
-          "math_latex": "1 + \\frac{20}{a}"
+          "text": "20",
+          "math_latex": "20",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -81,6 +89,18 @@
         "pdf_page": 89,
         "exercise": "18",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multi-step equations with parameters"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -88,29 +108,33 @@
       "learning_outcome_id": "LO10",
       "type": "mcq",
       "display_number": "10.2",
-      "instruction": "Solve for x. Assume a≠0.",
-      "stem": "Solve for x. Assume a≠0. 4=ax-14",
+      "instruction": "Solve for x. Assume a≠0. Which expression is correct?",
+      "stem": "Solve for x. Assume a≠0. Which expression is correct? 4=ax-14",
       "math_latex": "4=ax-14",
       "options": [
         {
           "id": "A",
           "text": "\\frac{18}{a}",
-          "math_latex": "\\frac{18}{a}"
+          "math_latex": "\\frac{18}{a}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- \\frac{18}{a}",
-          "math_latex": "- \\frac{18}{a}"
+          "text": "-\\frac{10}{a}",
+          "math_latex": "-\\frac{10}{a}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "1 + \\frac{18}{a}",
-          "math_latex": "1 + \\frac{18}{a}"
+          "text": "18a",
+          "math_latex": "18a",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "\\frac{36}{a}",
-          "math_latex": "\\frac{36}{a}"
+          "text": "18",
+          "math_latex": "18",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -127,6 +151,18 @@
         "pdf_page": 89,
         "exercise": "19",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multi-step equations with parameters"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -134,29 +170,33 @@
       "learning_outcome_id": "LO10",
       "type": "mcq",
       "display_number": "10.3",
-      "instruction": "Solve for x. Assume a≠0.",
-      "stem": "Solve for x. Assume a≠0. ax-5=19",
+      "instruction": "Solve for x. Assume a≠0. Which expression is correct?",
+      "stem": "Solve for x. Assume a≠0. Which expression is correct? ax-5=19",
       "math_latex": "ax-5=19",
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{24}{a}",
-          "math_latex": "- \\frac{24}{a}"
+          "text": "\\frac{14}{a}",
+          "math_latex": "\\frac{14}{a}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "1 + \\frac{24}{a}",
-          "math_latex": "1 + \\frac{24}{a}"
+          "text": "24a",
+          "math_latex": "24a",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "\\frac{48}{a}",
-          "math_latex": "\\frac{48}{a}"
+          "text": "24",
+          "math_latex": "24",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
           "text": "\\frac{24}{a}",
-          "math_latex": "\\frac{24}{a}"
+          "math_latex": "\\frac{24}{a}",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -173,6 +213,18 @@
         "pdf_page": 89,
         "exercise": "20",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multi-step equations with parameters"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -180,35 +232,39 @@
       "learning_outcome_id": "LO10",
       "type": "mcq",
       "display_number": "10.4",
-      "instruction": "Solve for x. Assume a≠0.",
-      "stem": "Solve for x. Assume a≠0. 6+ax=-29",
+      "instruction": "Solve for x. Assume a≠0. Which expression is correct?",
+      "stem": "Solve for x. Assume a≠0. Which expression is correct? 6+ax=-29",
       "math_latex": "6+ax=-29",
       "options": [
         {
           "id": "A",
-          "text": "1 - \\frac{35}{a}",
-          "math_latex": "1 - \\frac{35}{a}"
+          "text": "-\\frac{23}{a}",
+          "math_latex": "-\\frac{23}{a}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "- \\frac{70}{a}",
-          "math_latex": "- \\frac{70}{a}"
+          "text": "-35a",
+          "math_latex": "-35a",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "- \\frac{35}{a}",
-          "math_latex": "- \\frac{35}{a}"
+          "text": "-\\frac{35}{a}",
+          "math_latex": "-\\frac{35}{a}",
+          "misconception": null
         },
         {
           "id": "D",
           "text": "\\frac{35}{a}",
-          "math_latex": "\\frac{35}{a}"
+          "math_latex": "\\frac{35}{a}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "- \\frac{35}{a}",
+        "correct_option_text": "-\\frac{35}{a}",
         "explanation": "First undo the constant term, then divide by a."
       },
       "diagram_asset_ids": [],
@@ -219,6 +275,18 @@
         "pdf_page": 89,
         "exercise": "21",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Multi-step equations with parameters"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

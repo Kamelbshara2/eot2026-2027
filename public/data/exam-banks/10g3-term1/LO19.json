@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO19",
     "classroom": "10G3",
     "learning_outcome_id": "LO19",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -30,16 +30,23 @@
         "G10G-Q19-MCQ-03",
         "G10G-Q19-MCQ-04",
         "G10G-Q19-MCQ-05",
-        "G10G-Q19-MCQ-06"
+        "G10G-Q19-MCQ-06",
+        "10G3-REV-LO19-01",
+        "10G3-REV-LO19-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO19.json",
       "booklet_question_ids": [
         "G10G-Q19-MCQ-01",
         "G10G-Q19-MCQ-02",
-        "G10G-Q19-MCQ-03",
-        "G10G-Q19-MCQ-06"
-      ]
+        "10G3-REV-LO19-01",
+        "10G3-REV-LO19-02"
+      ],
+      "assessment_facets": [
+        "Solve quadratics by graphing",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,8 +55,8 @@
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.1",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2+7x+14=0",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2+7x+14=0",
       "math_latex": "x^2+7x+14=0",
       "marks": null,
       "options": [
@@ -59,15 +66,18 @@
         },
         {
           "id": "B",
-          "text": "x = −7, −2"
+          "text": "x = −7, −2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "x = −2, 7"
+          "text": "x = −2, 7",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "x = −3.5"
+          "text": "x = −3.5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -83,32 +93,80 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(7)^2-4*(1)*(14)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(7)^2-4*(1)*(14)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q19-MCQ-02",
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.2",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2+2x-24=0",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2+2x-24=0",
       "math_latex": "x^2+2x-24=0",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "x=6,-4",
-          "math_latex": "x=6,-4"
+          "math_latex": "x=6,-4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-4,6",
-          "math_latex": "x=-4,6"
+          "math_latex": "x=-4,6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=-12,2",
-          "math_latex": "x=-12,2"
+          "math_latex": "x=-12,2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -129,27 +187,94 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2)^2-4*(1)*(-24)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(2)+sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(2)-sqrt(100))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2)^2-4*(1)*(-24)",
+          "(-(2)+sqrt(100))/(2*(1))",
+          "(-(2)-sqrt(100))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q19-MCQ-03",
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.3",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2+16x+64=0",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2+16x+64=0",
       "math_latex": "x^2+16x+64=0",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "x=-8,8",
-          "math_latex": "x=-8,8"
+          "math_latex": "x=-8,8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-16,4",
-          "math_latex": "x=-16,4"
+          "math_latex": "x=-16,4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -159,7 +284,8 @@
         {
           "id": "D",
           "text": "x=8",
-          "math_latex": "x=8"
+          "math_latex": "x=8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -175,21 +301,87 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(16)^2-4*(1)*(64)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(16)+sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(16)-sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(16)^2-4*(1)*(64)",
+          "(-(16)+sqrt(0))/(2*(1))",
+          "(-(16)-sqrt(0))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q19-MCQ-04",
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.4",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2-5x+12=0",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2-5x+12=0",
       "math_latex": "x^2-5x+12=0",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "x = 2.5"
+          "text": "x = 2.5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -197,11 +389,13 @@
         },
         {
           "id": "C",
-          "text": "x = −3, −4"
+          "text": "x = −3, −4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "x = 3, 4"
+          "text": "x = 3, 4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -217,15 +411,60 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5)^2-4*(1)*(12)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-5)^2-4*(1)*(12)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q19-MCQ-05",
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.5",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2+14x=-49",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2+14x=-49",
       "math_latex": "x^2+14x=-49",
       "marks": null,
       "options": [
@@ -237,17 +476,20 @@
         {
           "id": "B",
           "text": "x=7",
-          "math_latex": "x=7"
+          "math_latex": "x=7",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=-7,7",
-          "math_latex": "x=-7,7"
+          "math_latex": "x=-7,7",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=-14",
-          "math_latex": "x=-14"
+          "math_latex": "x=-14",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -263,32 +505,100 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(14)^2-4*(1)*(49)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(14)+sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(14)-sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(14)^2-4*(1)*(49)",
+          "(-(14)+sqrt(0))/(2*(1))",
+          "(-(14)-sqrt(0))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q19-MCQ-06",
       "learning_outcome_id": "LO19",
       "type": "mcq",
       "display_number": "19.6",
-      "instruction": "Solve the equation by graphing the related quadratic function.",
-      "stem": "Solve the equation by graphing the related quadratic function. x^2=2x-1",
+      "instruction": "Which option gives the complete real solution set?",
+      "stem": "Which option gives the complete real solution set? x^2=2x-1",
       "math_latex": "x^2=2x-1",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "x=-1",
-          "math_latex": "x=-1"
+          "math_latex": "x=-1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-1,1",
-          "math_latex": "x=-1,1"
+          "math_latex": "x=-1,1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "x=2",
-          "math_latex": "x=2"
+          "math_latex": "x=2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -309,7 +619,196 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve quadratics by graphing"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-2)^2-4*(1)*(1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-2)+sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-2)-sqrt(0))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-2)^2-4*(1)*(1)",
+          "(-(-2)+sqrt(0))/(2*(1))",
+          "(-(-2)-sqrt(0))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q19-MCQ-06.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO19-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.7",
+      "instruction": "A quadratic graph touches the x-axis at exactly one point. How many distinct real zeros does it have?",
+      "stem": "A quadratic graph touches the x-axis at exactly one point. How many distinct real zeros does it have? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "math_latex": "3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1",
+        "explanation": "A tangent x-intercept is a repeated root, one distinct real zero."
+      },
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q19-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10G3-REV-LO19-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.8",
+      "instruction": "Which values solve the equation from its x-intercepts?",
+      "stem": "Which values solve the equation from its x-intercepts? y=(x-2)(x+3)",
+      "math_latex": "y=(x-2)(x+3)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\{-3,2\\}",
+          "math_latex": "\\{-3,2\\}",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "\\{-2,3\\}",
+          "math_latex": "\\{-2,3\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "\\{2,3\\}",
+          "math_latex": "\\{2,3\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "\\{-3,-2\\}",
+          "math_latex": "\\{-3,-2\\}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\{-3,2\\}",
+        "explanation": "Set y=0; either factor is zero."
+      },
+      "source": {
+        "printed_page": 713,
+        "pdf_page": 145,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q19-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

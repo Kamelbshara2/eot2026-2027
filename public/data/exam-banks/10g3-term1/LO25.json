@@ -33,7 +33,11 @@
         "G10G-Q25-FRQ-02",
         "G10G-Q25-FRQ-03",
         "G10G-Q25-FRQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Write a quadratic from its graph"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -71,7 +75,78 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Write a quadratic from its graph"
+      ],
+      "reference_kind": "exercise",
+      "table_after_solving": true,
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter X^2-X-6. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start -1.5 =; End 2.5 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "X^2-X-6",
+          "start": -1.5,
+          "end": 2.5,
+          "step": 1,
+          "x": [
+            -1.5,
+            -0.5,
+            0.5,
+            1.5,
+            2.5
+          ],
+          "y": [
+            -2.25,
+            -5.25,
+            -6.25,
+            -5.25,
+            -2.25
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q25-FRQ-01.png"
+      }
     },
     {
       "id": "G10G-Q25-FRQ-02",
@@ -107,7 +182,78 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Write a quadratic from its graph"
+      ],
+      "reference_kind": "exercise",
+      "table_after_solving": true,
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 2X^2-12X+16. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 1 =; End 5 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "2X^2-12X+16",
+          "start": 1,
+          "end": 5,
+          "step": 1,
+          "x": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            6,
+            0,
+            -2,
+            0,
+            6
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q25-FRQ-02.png"
+      }
     },
     {
       "id": "G10G-Q25-FRQ-03",
@@ -143,7 +289,78 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Write a quadratic from its graph"
+      ],
+      "reference_kind": "exercise",
+      "table_after_solving": true,
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter 4X^2-32X+60. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 2 =; End 6 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "4X^2-32X+60",
+          "start": 2,
+          "end": 6,
+          "step": 1,
+          "x": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "y": [
+            12,
+            0,
+            -4,
+            0,
+            12
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q25-FRQ-03.png"
+      }
     },
     {
       "id": "G10G-Q25-FRQ-04",
@@ -179,29 +396,81 @@
         "adaptation": "transcription",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "graph_workspace": false
+      "graph_workspace": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Write a quadratic from its graph"
+      ],
+      "reference_kind": "exercise",
+      "table_after_solving": true,
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "table",
+        "steps": [
+          {
+            "title": "TABLE mode",
+            "keys": [
+              "MENU",
+              "9"
+            ],
+            "text": "Select Table. In SETUP → Table, select f(x) only (or leave g(x) blank when prompted). fx‑991EX generates values, not a graph."
+          },
+          {
+            "title": "Enter f(X)",
+            "keys": [
+              "ALPHA",
+              "X"
+            ],
+            "text": "Enter -X^2/2+2X+6. Use ALPHA and the key labelled X, then =."
+          },
+          {
+            "title": "Set range",
+            "keys": [
+              "="
+            ],
+            "text": "Start 0 =; End 4 =; Step 1 =."
+          },
+          {
+            "title": "Read and plot",
+            "keys": [
+              "▼"
+            ],
+            "text": "Read X and f(X), copy the pairs into the table, then plot them by hand. For a quadratic, include the vertex and two points on each side. "
+          }
+        ],
+        "expressions": [],
+        "table": {
+          "expression": "-X^2/2+2X+6",
+          "start": 0,
+          "end": 4,
+          "step": 1,
+          "x": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "y": [
+            6,
+            7.5,
+            8,
+            7.5,
+            6
+          ]
+        },
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q25-FRQ-04.png"
+      }
     }
   ],
   "assets": {
-    "quadratic_graph_32": {
-      "src": "assets/quadratic_graph_32.png",
-      "width": 310,
-      "height": 309,
-      "alt_text": "Original quadratic graph, Reveal p. 722 exercise 32.",
-      "source": {
-        "printed_page": 722,
-        "pdf_page": 154,
-        "exercise": "quadratic_graph_32",
-        "adaptation": "transcription",
-        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
-      },
-      "crop_box": [
-        0.455,
-        0.545,
-        0.628,
-        0.667
-      ]
-    },
     "quadratic_graph_31": {
       "src": "assets/quadratic_graph_31.png",
       "width": 310,
@@ -218,6 +487,25 @@
         0.092,
         0.545,
         0.265,
+        0.667
+      ]
+    },
+    "quadratic_graph_32": {
+      "src": "assets/quadratic_graph_32.png",
+      "width": 310,
+      "height": 309,
+      "alt_text": "Original quadratic graph, Reveal p. 722 exercise 32.",
+      "source": {
+        "printed_page": 722,
+        "pdf_page": 154,
+        "exercise": "quadratic_graph_32",
+        "adaptation": "transcription",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "crop_box": [
+        0.455,
+        0.545,
+        0.628,
         0.667
       ]
     },

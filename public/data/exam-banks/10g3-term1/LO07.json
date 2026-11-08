@@ -35,7 +35,11 @@
         "G10G-Q07-MCQ-02",
         "G10G-Q07-MCQ-03",
         "G10G-Q07-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Difference of squares"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -44,30 +48,34 @@
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.1",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. q^{2} - 121",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? q^{2} - 121",
       "math_latex": "q^{2} - 121",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "\\left(q - 11\\right) \\left(q + 11\\right)",
-          "math_latex": "\\left(q - 11\\right) \\left(q + 11\\right)"
+          "math_latex": "\\left(q - 11\\right) \\left(q + 11\\right)",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "2 \\left(q - 11\\right) \\left(q + 11\\right)",
-          "math_latex": "2 \\left(q - 11\\right) \\left(q + 11\\right)"
+          "text": "\\left(- q - 11\\right) \\left(q + 11\\right)",
+          "math_latex": "\\left(- q - 11\\right) \\left(q + 11\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "\\frac{\\left(q - 11\\right) \\left(q + 11\\right)}{2}",
-          "math_latex": "\\frac{\\left(q - 11\\right) \\left(q + 11\\right)}{2}"
+          "text": "\\left(q + 11\\right) \\left(q + 11\\right)",
+          "math_latex": "\\left(q + 11\\right) \\left(q + 11\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "- \\left(q - 11\\right) \\left(q + 11\\right)",
-          "math_latex": "- \\left(q - 11\\right) \\left(q + 11\\right)"
+          "text": "\\left(11 - q\\right) \\left(q - 11\\right)",
+          "math_latex": "\\left(11 - q\\right) \\left(q - 11\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "answer": {
@@ -83,42 +91,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "q": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'q': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**2 - 121",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^2 - 121"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q07-MCQ-02",
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.2",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. - k^{4} + r^{4}",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? - k^{4} + r^{4}",
       "math_latex": "- k^{4} + r^{4}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2 \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
-          "math_latex": "2 \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+          "text": "\\left(k + r\\right)^{2} \\left(k^{2} + r^{2}\\right)",
+          "math_latex": "\\left(k + r\\right)^{2} \\left(k^{2} + r^{2}\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "\\frac{\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)}{2}",
-          "math_latex": "\\frac{\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)}{2}"
+          "text": "\\left(- k - r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+          "math_latex": "\\left(- k - r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "- \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
-          "math_latex": "- \\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+          "text": "- \\left(k + r\\right) \\left(k^{2} + r^{2}\\right) \\left(- k + r\\right)",
+          "math_latex": "- \\left(k + r\\right) \\left(k^{2} + r^{2}\\right) \\left(- k + r\\right)",
+          "misconception": "Reverse every sign instead of applying the operation to the required term."
         },
         {
           "id": "D",
-          "text": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
-          "math_latex": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)"
+          "text": "\\left(k + r\\right) \\left(k^{2} + r^{2}\\right) \\left(- k + r\\right)",
+          "math_latex": "\\left(k + r\\right) \\left(k^{2} + r^{2}\\right) \\left(- k + r\\right)",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\left(- k + r\\right) \\left(k + r\\right) \\left(k^{2} + r^{2}\\right)",
+        "correct_option_text": "\\left(k + r\\right) \\left(k^{2} + r^{2}\\right) \\left(- k + r\\right)",
         "explanation": "Use difference of squares, with grouping when needed: (-k + r)·(k + r)·(k² + r²)."
       },
       "diagram_asset_ids": [],
@@ -129,42 +191,97 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "k": 2,
+        "r": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'k': 2, 'r': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-2**4 + 3**4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-2^4 + 3^4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q07-MCQ-03",
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.3",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. w^{4} - 625",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? w^{4} - 625",
       "math_latex": "w^{4} - 625",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "\\frac{\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)}{2}",
-          "math_latex": "\\frac{\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)}{2}"
+          "text": "\\left(- w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "math_latex": "\\left(- w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "- \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
-          "math_latex": "- \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+          "text": "\\left(w + 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "math_latex": "\\left(w + 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
-          "math_latex": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+          "text": "\\left(w + 5\\right) \\left(w^{2} + 25\\right) \\left(w - 5\\right)",
+          "math_latex": "\\left(w + 5\\right) \\left(w^{2} + 25\\right) \\left(w - 5\\right)",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "2 \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
-          "math_latex": "2 \\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)"
+          "text": "- \\left(w + 5\\right) \\left(w^{2} + 25\\right) \\left(w - 5\\right)",
+          "math_latex": "- \\left(w + 5\\right) \\left(w^{2} + 25\\right) \\left(w - 5\\right)",
+          "misconception": "Reverse every sign instead of applying the operation to the required term."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\left(w - 5\\right) \\left(w + 5\\right) \\left(w^{2} + 25\\right)",
+        "correct_option_text": "\\left(w + 5\\right) \\left(w^{2} + 25\\right) \\left(w - 5\\right)",
         "explanation": "Use difference of squares, with grouping when needed: (w - 5)·(w + 5)·(w² + 25)."
       },
       "diagram_asset_ids": [],
@@ -175,42 +292,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "w": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'w': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**4 - 625",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^4 - 625"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q07-MCQ-04",
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.4",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. r^{2} - 9 t^{2}",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? r^{2} - 9 t^{2}",
       "math_latex": "r^{2} - 9 t^{2}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- \\left(r - 3 t\\right) \\left(r + 3 t\\right)",
-          "math_latex": "- \\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+          "text": "\\left(- r - 3 t\\right) \\left(r + 3 t\\right)",
+          "math_latex": "\\left(- r - 3 t\\right) \\left(r + 3 t\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)",
-          "math_latex": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+          "text": "\\left(r + 3 t\\right) \\left(r - 3 t\\right)",
+          "math_latex": "\\left(r + 3 t\\right) \\left(r - 3 t\\right)",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "2 \\left(r - 3 t\\right) \\left(r + 3 t\\right)",
-          "math_latex": "2 \\left(r - 3 t\\right) \\left(r + 3 t\\right)"
+          "text": "\\left(r + 3 t\\right) \\left(r - 3 t + 6 t\\right)",
+          "math_latex": "\\left(r + 3 t\\right) \\left(r - 3 t + 6 t\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "\\frac{\\left(r - 3 t\\right) \\left(r + 3 t\\right)}{2}",
-          "math_latex": "\\frac{\\left(r - 3 t\\right) \\left(r + 3 t\\right)}{2}"
+          "text": "\\left(- r + 3 t\\right) \\left(r - 3 t\\right)",
+          "math_latex": "\\left(- r + 3 t\\right) \\left(r - 3 t\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\left(r - 3 t\\right) \\left(r + 3 t\\right)",
+        "correct_option_text": "\\left(r + 3 t\\right) \\left(r - 3 t\\right)",
         "explanation": "Use difference of squares, with grouping when needed: (r - 3·t)·(r + 3·t)."
       },
       "diagram_asset_ids": [],
@@ -221,42 +392,97 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "r": 2,
+        "t": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'r': 2, 't': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**2 - 9*3**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^2 - 9*3^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q07-MCQ-05",
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.5",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. h^{4} - 256",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? h^{4} - 256",
       "math_latex": "h^{4} - 256",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
-          "math_latex": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+          "text": "\\left(h + 4\\right) \\left(h^{2} + 16\\right) \\left(h - 4\\right)",
+          "math_latex": "\\left(h + 4\\right) \\left(h^{2} + 16\\right) \\left(h - 4\\right)",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "2 \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
-          "math_latex": "2 \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+          "text": "\\left(- h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "math_latex": "\\left(- h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "\\frac{\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)}{2}",
-          "math_latex": "\\frac{\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)}{2}"
+          "text": "\\left(h + 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "math_latex": "\\left(h + 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "- \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
-          "math_latex": "- \\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)"
+          "text": "- \\left(h + 4\\right) \\left(h^{2} + 16\\right) \\left(h - 4\\right)",
+          "math_latex": "- \\left(h + 4\\right) \\left(h^{2} + 16\\right) \\left(h - 4\\right)",
+          "misconception": "Reverse every sign instead of applying the operation to the required term."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "\\left(h - 4\\right) \\left(h + 4\\right) \\left(h^{2} + 16\\right)",
+        "correct_option_text": "\\left(h + 4\\right) \\left(h^{2} + 16\\right) \\left(h - 4\\right)",
         "explanation": "Use difference of squares, with grouping when needed: (h - 4)·(h + 4)·(h² + 16)."
       },
       "diagram_asset_ids": [],
@@ -267,42 +493,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "h": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'h': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**4 - 256",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^4 - 256"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q07-MCQ-06",
       "learning_outcome_id": "LO07",
       "type": "mcq",
       "display_number": "7.6",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 2 x^{3} - x^{2} - 162 x + 81",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 2 x^{3} - x^{2} - 162 x + 81",
       "math_latex": "2 x^{3} - x^{2} - 162 x + 81",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2 \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
-          "math_latex": "2 \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+          "text": "\\left(- x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "math_latex": "\\left(- x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "\\frac{\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)}{2}",
-          "math_latex": "\\frac{\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)}{2}"
+          "text": "\\left(x + 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "math_latex": "\\left(x + 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "- \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
-          "math_latex": "- \\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+          "text": "- \\left(x + 9\\right) \\left(2 x - 1\\right) \\left(x - 9\\right)",
+          "math_latex": "- \\left(x + 9\\right) \\left(2 x - 1\\right) \\left(x - 9\\right)",
+          "misconception": "Reverse every sign instead of applying the operation to the required term."
         },
         {
           "id": "D",
-          "text": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
-          "math_latex": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)"
+          "text": "\\left(x + 9\\right) \\left(2 x - 1\\right) \\left(x - 9\\right)",
+          "math_latex": "\\left(x + 9\\right) \\left(2 x - 1\\right) \\left(x - 9\\right)",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\left(x - 9\\right) \\left(x + 9\\right) \\left(2 x - 1\\right)",
+        "correct_option_text": "\\left(x + 9\\right) \\left(2 x - 1\\right) \\left(x - 9\\right)",
         "explanation": "Use difference of squares, with grouping when needed: (x - 9)·(x + 9)·(2·x - 1)."
       },
       "diagram_asset_ids": [],
@@ -313,7 +593,57 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Difference of squares"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-162*2 + (2*2**3 - 2**2)) + 81",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-162*2 + (2*2^3 - 2^2)) + 81"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q07-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

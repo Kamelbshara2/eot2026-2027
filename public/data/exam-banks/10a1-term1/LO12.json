@@ -3,7 +3,7 @@
     "id": "10a1-term1-LO12",
     "classroom": "10A1",
     "learning_outcome_id": "LO12",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,27 @@
         }
       ],
       "title_ar": "تشابه المثلثات بزاويتين",
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G10A-BOOK-Q12-MCQ-01",
         "G10A-BOOK-Q12-MCQ-02",
         "G10A-BOOK-Q12-MCQ-03",
-        "G10A-BOOK-Q12-MCQ-04"
+        "G10A-BOOK-Q12-MCQ-04",
+        "10A1-REV-LO12-01",
+        "10A1-REV-LO12-02"
       ],
       "booklet_question_ids": [
         "G10A-BOOK-Q12-MCQ-01",
         "G10A-BOOK-Q12-MCQ-02",
-        "G10A-BOOK-Q12-MCQ-03",
-        "G10A-BOOK-Q12-MCQ-04"
+        "10A1-REV-LO12-01",
+        "10A1-REV-LO12-02"
       ],
-      "download": "LO12.json"
+      "download": "LO12.json",
+      "assessment_facets": [
+        "AA triangle similarity",
+        "theorem-conditions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -43,20 +50,23 @@
       "type": "mcq",
       "display_number": "12.1",
       "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
-      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "Not similar: equal vertical angles prevent similarity."
+          "text": "Not similar: equal vertical angles prevent similarity.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Not enough information: no angle pair is known."
+          "text": "Not enough information: no angle pair is known.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Similar by SSS: three side lengths are given."
+          "text": "Similar by SSS: three side lengths are given.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -79,6 +89,18 @@
         "pdf_page": 77,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "AA triangle similarity"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -87,16 +109,18 @@
       "type": "mcq",
       "display_number": "12.2",
       "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
-      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "Not enough information: the third angles cannot be found."
+          "text": "Not enough information: the third angles cannot be found.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Similar by SSS only."
+          "text": "Similar by SSS only.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -104,7 +128,8 @@
         },
         {
           "id": "D",
-          "text": "Not similar: one triangle has 42° and the other has 40°."
+          "text": "Not similar: one triangle has 42° and the other has 40°.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -123,6 +148,18 @@
         "pdf_page": 77,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "AA triangle similarity"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -131,12 +168,13 @@
       "type": "mcq",
       "display_number": "12.3",
       "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
-      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "Definitely not similar: vertical angles have different measures."
+          "text": "Definitely not similar: vertical angles have different measures.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -144,11 +182,13 @@
         },
         {
           "id": "C",
-          "text": "Similar by AA: a second pair is marked congruent."
+          "text": "Similar by AA: a second pair is marked congruent.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Similar by SSS: all side ratios are given."
+          "text": "Similar by SSS: all side ratios are given.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -167,6 +207,18 @@
         "pdf_page": 77,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "AA triangle similarity"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -175,7 +227,7 @@
       "type": "mcq",
       "display_number": "12.4",
       "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
-      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation. ",
       "math_latex": "",
       "options": [
         {
@@ -184,15 +236,18 @@
         },
         {
           "id": "B",
-          "text": "Not similar: the displayed angle values differ."
+          "text": "Not similar: the displayed angle values differ.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Not enough information: a third angle cannot be calculated."
+          "text": "Not enough information: a third angle cannot be calculated.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Similar by a scale factor of 2 shown on the sides."
+          "text": "Similar by a scale factor of 2 shown on the sides.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -211,10 +266,180 @@
         "pdf_page": 77,
         "exercise": "5",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "AA triangle similarity"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10A1-REV-LO12-01",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.5",
+      "instruction": "Two angles of one triangle equal two angles of a second triangle. Which conclusion follows?",
+      "stem": "Two angles of one triangle equal two angles of a second triangle. Which conclusion follows? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The triangles must be congruent.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "All corresponding sides are equal.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "The triangles cannot be similar.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "The triangles are similar by AA.",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "The triangles are similar by AA.",
+        "explanation": "Two corresponding equal angles establish similarity, not necessarily equal size."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q12-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "theorem-conditions"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10A1-REV-LO12-02",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.6",
+      "instruction": "Which information alone is insufficient to prove two triangles similar?",
+      "stem": "Which information alone is insufficient to prove two triangles similar? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair of equal angles.",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Two pairs of equal angles.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "All three corresponding side ratios equal.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Two corresponding side ratios equal and the included angles equal.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Only one pair of equal angles.",
+        "explanation": "One equal angle leaves the other angles undetermined."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q12-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "theorem-conditions"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],
   "assets": {
+    "q12_3": {
+      "src": "assets/q12_3.png",
+      "width": 448,
+      "height": 304,
+      "alt_text": "Original textbook diagram, Reveal p. 133, exercise 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.33,
+        0.4,
+        0.45
+      ]
+    },
+    "q12_1": {
+      "src": "assets/q12_1.png",
+      "width": 359,
+      "height": 203,
+      "alt_text": "Original textbook diagram, Reveal p. 133, exercise 1.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "1",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.17,
+        0.35,
+        0.25
+      ]
+    },
     "q12_2": {
       "src": "assets/q12_2.png",
       "width": 804,
@@ -253,46 +478,6 @@
         0.51,
         0.46,
         0.6
-      ]
-    },
-    "q12_1": {
-      "src": "assets/q12_1.png",
-      "width": 359,
-      "height": 203,
-      "alt_text": "Original textbook diagram, Reveal p. 133, exercise 1.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 133,
-        "pdf_page": 77,
-        "exercise": "1",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.15,
-        0.17,
-        0.35,
-        0.25
-      ]
-    },
-    "q12_3": {
-      "src": "assets/q12_3.png",
-      "width": 448,
-      "height": 304,
-      "alt_text": "Original textbook diagram, Reveal p. 133, exercise 3.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 133,
-        "pdf_page": 77,
-        "exercise": "3",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.15,
-        0.33,
-        0.4,
-        0.45
       ]
     }
   }

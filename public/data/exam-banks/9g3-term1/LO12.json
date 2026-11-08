@@ -33,7 +33,11 @@
         "G9G-BOOK-Q12-MCQ-03",
         "G9G-BOOK-Q12-MCQ-04"
       ],
-      "download": "LO12.json"
+      "download": "LO12.json",
+      "assessment_facets": [
+        "Slope-intercept form"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,35 +46,39 @@
       "learning_outcome_id": "LO12",
       "type": "mcq",
       "display_number": "12.1",
-      "instruction": "Write in slope-intercept form. Options give y.",
-      "stem": "Write in slope-intercept form. Options give y. -10x+2y=12",
+      "instruction": "Which equation is equivalent to the given equation in slope-intercept form?",
+      "stem": "Which equation is equivalent to the given equation in slope-intercept form? -10x+2y=12",
       "math_latex": "-10x+2y=12",
       "options": [
         {
           "id": "A",
-          "text": "- 5 x - 6",
-          "math_latex": "- 5 x - 6"
+          "text": "y=5 x",
+          "math_latex": "y=5 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "5 x + 7",
-          "math_latex": "5 x + 7"
+          "text": "y=5 x - 6",
+          "math_latex": "y=5 x - 6",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "4 x + 6",
-          "math_latex": "4 x + 6"
+          "text": "y=6",
+          "math_latex": "y=6",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
-          "text": "5 x + 6",
-          "math_latex": "5 x + 6"
+          "text": "y=5 x + 6",
+          "math_latex": "y=5 x + 6",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "5 x + 6",
+        "correct_option_text": "y=5 x + 6",
         "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
       },
       "diagram_asset_ids": [],
@@ -81,6 +89,18 @@
         "pdf_page": 101,
         "exercise": "9",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope-intercept form"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -88,35 +108,39 @@
       "learning_outcome_id": "LO12",
       "type": "mcq",
       "display_number": "12.2",
-      "instruction": "Write in slope-intercept form. Options give y.",
-      "stem": "Write in slope-intercept form. Options give y. 4y+12x=16",
+      "instruction": "Which equation is equivalent to the given equation in slope-intercept form?",
+      "stem": "Which equation is equivalent to the given equation in slope-intercept form? 4y+12x=16",
       "math_latex": "4y+12x=16",
       "options": [
         {
           "id": "A",
-          "text": "5 - 3 x",
-          "math_latex": "5 - 3 x"
+          "text": "y=- 3 x",
+          "math_latex": "y=- 3 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "4 - 4 x",
-          "math_latex": "4 - 4 x"
+          "text": "y=- 3 x - 4",
+          "math_latex": "y=- 3 x - 4",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "4 - 3 x",
-          "math_latex": "4 - 3 x"
+          "text": "y=4 - 3 x",
+          "math_latex": "y=4 - 3 x",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "3 x - 4",
-          "math_latex": "3 x - 4"
+          "text": "y=4",
+          "math_latex": "y=4",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "4 - 3 x",
+        "correct_option_text": "y=4 - 3 x",
         "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
       },
       "diagram_asset_ids": [],
@@ -127,6 +151,18 @@
         "pdf_page": 101,
         "exercise": "10",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope-intercept form"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -134,35 +170,39 @@
       "learning_outcome_id": "LO12",
       "type": "mcq",
       "display_number": "12.3",
-      "instruction": "Write in slope-intercept form. Options give y.",
-      "stem": "Write in slope-intercept form. Options give y. -5x+15y=-30",
+      "instruction": "Which equation is equivalent to the given equation in slope-intercept form?",
+      "stem": "Which equation is equivalent to the given equation in slope-intercept form? -5x+15y=-30",
       "math_latex": "-5x+15y=-30",
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{2 x}{3} - 2",
-          "math_latex": "- \\frac{2 x}{3} - 2"
+          "text": "y=\\frac{x}{3}",
+          "math_latex": "y=\\frac{x}{3}",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "\\frac{x}{3} - 2",
-          "math_latex": "\\frac{x}{3} - 2"
+          "text": "y=\\frac{x}{3} - 2",
+          "math_latex": "y=\\frac{x}{3} - 2",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "2 - \\frac{x}{3}",
-          "math_latex": "2 - \\frac{x}{3}"
+          "text": "y=\\frac{x}{3} + 2",
+          "math_latex": "y=\\frac{x}{3} + 2",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "\\frac{x}{3} - 1",
-          "math_latex": "\\frac{x}{3} - 1"
+          "text": "y=-2",
+          "math_latex": "y=-2",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{x}{3} - 2",
+        "correct_option_text": "y=\\frac{x}{3} - 2",
         "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
       },
       "diagram_asset_ids": [],
@@ -173,6 +213,18 @@
         "pdf_page": 101,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope-intercept form"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -180,35 +232,39 @@
       "learning_outcome_id": "LO12",
       "type": "mcq",
       "display_number": "12.4",
-      "instruction": "Write in slope-intercept form. Options give y.",
-      "stem": "Write in slope-intercept form. Options give y. 6x-3y=-18",
+      "instruction": "Which equation is equivalent to the given equation in slope-intercept form?",
+      "stem": "Which equation is equivalent to the given equation in slope-intercept form? 6x-3y=-18",
       "math_latex": "6x-3y=-18",
       "options": [
         {
           "id": "A",
-          "text": "2 x + 6",
-          "math_latex": "2 x + 6"
+          "text": "y=2 x + 6",
+          "math_latex": "y=2 x + 6",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- 2 x - 6",
-          "math_latex": "- 2 x - 6"
+          "text": "y=2 x",
+          "math_latex": "y=2 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "2 x + 7",
-          "math_latex": "2 x + 7"
+          "text": "y=2 x - 6",
+          "math_latex": "y=2 x - 6",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "x + 6",
-          "math_latex": "x + 6"
+          "text": "y=6",
+          "math_latex": "y=6",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "2 x + 6",
+        "correct_option_text": "y=2 x + 6",
         "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
       },
       "diagram_asset_ids": [],
@@ -219,6 +275,18 @@
         "pdf_page": 101,
         "exercise": "12",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Slope-intercept form"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

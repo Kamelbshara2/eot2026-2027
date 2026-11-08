@@ -35,7 +35,11 @@
         "G10G-Q20-MCQ-02",
         "G10G-Q20-MCQ-03",
         "G10G-Q20-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Complete the square"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -44,25 +48,28 @@
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.1",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2+26x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2+26x+c",
       "math_latex": "x^2+26x+c",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "26",
-          "math_latex": "26"
+          "math_latex": "26",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "676",
-          "math_latex": "676"
+          "math_latex": "676",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\frac{169}{4}",
-          "math_latex": "\\frac{169}{4}"
+          "math_latex": "\\frac{169}{4}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -83,27 +90,69 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(26/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(26/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q20-MCQ-02",
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.2",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2-24x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2-24x+c",
       "math_latex": "x^2-24x+c",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "576",
-          "math_latex": "576"
+          "math_latex": "576",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "36",
-          "math_latex": "36"
+          "math_latex": "36",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -113,7 +162,8 @@
         {
           "id": "D",
           "text": "24",
-          "math_latex": "24"
+          "math_latex": "24",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -129,22 +179,63 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-24/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-24/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q20-MCQ-03",
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.3",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2-19x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2-19x+c",
       "math_latex": "x^2-19x+c",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "\\frac{361}{16}",
-          "math_latex": "\\frac{361}{16}"
+          "math_latex": "\\frac{361}{16}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -154,12 +245,14 @@
         {
           "id": "C",
           "text": "19",
-          "math_latex": "19"
+          "math_latex": "19",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "361",
-          "math_latex": "361"
+          "math_latex": "361",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -175,15 +268,55 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-19/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-19/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q20-MCQ-04",
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.4",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2+11x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2+11x+c",
       "math_latex": "x^2+11x+c",
       "marks": null,
       "options": [
@@ -195,17 +328,20 @@
         {
           "id": "B",
           "text": "11",
-          "math_latex": "11"
+          "math_latex": "11",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "121",
-          "math_latex": "121"
+          "math_latex": "121",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\frac{121}{16}",
-          "math_latex": "\\frac{121}{16}"
+          "math_latex": "\\frac{121}{16}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -221,32 +357,75 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(11/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(11/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q20-MCQ-05",
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.5",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2+5x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2+5x+c",
       "math_latex": "x^2+5x+c",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "5",
-          "math_latex": "5"
+          "math_latex": "5",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "25",
-          "math_latex": "25"
+          "math_latex": "25",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\frac{25}{16}",
-          "math_latex": "\\frac{25}{16}"
+          "math_latex": "\\frac{25}{16}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -267,27 +446,69 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(5/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(5/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q20-MCQ-06",
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.6",
-      "instruction": "Find c so that the trinomial is a perfect square.",
-      "stem": "Find c so that the trinomial is a perfect square. x^2-8x+c",
+      "instruction": "Which option gives c so that the trinomial is a perfect square?",
+      "stem": "Which option gives c so that the trinomial is a perfect square? x^2-8x+c",
       "math_latex": "x^2-8x+c",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "64",
-          "math_latex": "64"
+          "math_latex": "64",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "4",
-          "math_latex": "4"
+          "math_latex": "4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -297,7 +518,8 @@
         {
           "id": "D",
           "text": "8",
-          "math_latex": "8"
+          "math_latex": "8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -313,7 +535,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Complete the square"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-8/2)^2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-8/2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q20-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

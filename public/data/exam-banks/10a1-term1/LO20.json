@@ -37,7 +37,11 @@
         "G10A-BOOK-Q20-MCQ-03",
         "G10A-BOOK-Q20-MCQ-04"
       ],
-      "download": "LO20.json"
+      "download": "LO20.json",
+      "assessment_facets": [
+        "Area with two sides and an angle"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -47,34 +51,38 @@
       "type": "mcq",
       "display_number": "20.1",
       "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
-      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{633}{10}",
-          "math_latex": "\\frac{633}{10}"
+          "text": "124.6",
+          "math_latex": "124.6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{643}{10}",
-          "math_latex": "\\frac{643}{10}"
+          "text": "45.3",
+          "math_latex": "45.3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{623}{5}",
-          "math_latex": "\\frac{623}{5}"
+          "text": "77.0",
+          "math_latex": "77.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{623}{10}",
-          "math_latex": "\\frac{623}{10}"
+          "text": "62.3",
+          "math_latex": "62.3",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\frac{623}{10}",
+        "correct_option_text": "62.3",
         "explanation": "A=½ab sin C=½(11)(14)sin(54°)≈62.3."
       },
       "diagram_asset_ids": [
@@ -87,6 +95,54 @@
         "pdf_page": 144,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Area with two sides and an angle"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "11*14*sin(54)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "11*14*sin(54)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q20-MCQ-01.png"
       }
     },
     {
@@ -95,34 +151,38 @@
       "type": "mcq",
       "display_number": "20.2",
       "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
-      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{219}{5}",
-          "math_latex": "\\frac{219}{5}"
+          "text": "83.6",
+          "math_latex": "83.6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{418}{5}",
-          "math_latex": "\\frac{418}{5}"
+          "text": "51.0",
+          "math_latex": "51.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{209}{5}",
-          "math_latex": "\\frac{209}{5}"
+          "text": "41.8",
+          "math_latex": "41.8",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{214}{5}",
-          "math_latex": "\\frac{214}{5}"
+          "text": "29.3",
+          "math_latex": "29.3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{209}{5}",
+        "correct_option_text": "41.8",
         "explanation": "A=½ab sin C=½(8.5)(12)sin(125°)≈41.8."
       },
       "diagram_asset_ids": [
@@ -135,6 +195,54 @@
         "pdf_page": 144,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Area with two sides and an angle"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "8.5*12*sin(125)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "8.5*12*sin(125)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q20-MCQ-02.png"
       }
     },
     {
@@ -143,34 +251,38 @@
       "type": "mcq",
       "display_number": "20.3",
       "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
-      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "143",
-          "math_latex": "143"
+          "text": "143.1",
+          "math_latex": "143.1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{143}{2}",
-          "math_latex": "\\frac{143}{2}"
+          "text": "71.5",
+          "math_latex": "71.5",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "\\frac{145}{2}",
-          "math_latex": "\\frac{145}{2}"
+          "text": "114.5",
+          "math_latex": "114.5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{147}{2}",
-          "math_latex": "\\frac{147}{2}"
+          "text": "135.0",
+          "math_latex": "135.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{143}{2}",
+        "correct_option_text": "71.5",
         "explanation": "A=½ab sin C=½(15)(18)sin(32°)≈71.5."
       },
       "diagram_asset_ids": [
@@ -183,6 +295,54 @@
         "pdf_page": 144,
         "exercise": "15",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Area with two sides and an angle"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15*18*sin(32)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "15*18*sin(32)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q20-MCQ-03.png"
       }
     },
     {
@@ -191,34 +351,38 @@
       "type": "mcq",
       "display_number": "20.4",
       "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
-      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "19",
-          "math_latex": "19"
+          "text": "19.0",
+          "math_latex": "19.0",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "20",
-          "math_latex": "20"
+          "text": "38.0",
+          "math_latex": "38.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "21",
-          "math_latex": "21"
+          "text": "40.8",
+          "math_latex": "40.8",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "38",
-          "math_latex": "38"
+          "text": "45.0",
+          "math_latex": "45.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "19",
+        "correct_option_text": "19.0",
         "explanation": "A=½ab sin C=½(9)(10)sin(155°)≈19.0."
       },
       "diagram_asset_ids": [
@@ -231,6 +395,54 @@
         "pdf_page": 144,
         "exercise": "16",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Area with two sides and an angle"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "9*10*sin(155)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "9*10*sin(155)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q20-MCQ-04.png"
       }
     }
   ],
@@ -255,23 +467,23 @@
         0.84
       ]
     },
-    "q20_15": {
-      "src": "assets/q20_15.png",
-      "width": 465,
+    "q20_14": {
+      "src": "assets/q20_14.png",
+      "width": 429,
       "height": 279,
-      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 15.",
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 14.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 200,
         "pdf_page": 144,
-        "exercise": "15",
+        "exercise": "14",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.6,
+        0.35,
         0.64,
-        0.86,
+        0.59,
         0.75
       ]
     },
@@ -295,23 +507,23 @@
         0.75
       ]
     },
-    "q20_14": {
-      "src": "assets/q20_14.png",
-      "width": 429,
+    "q20_15": {
+      "src": "assets/q20_15.png",
+      "width": 465,
       "height": 279,
-      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 14.",
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 15.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 200,
         "pdf_page": 144,
-        "exercise": "14",
+        "exercise": "15",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.35,
+        0.6,
         0.64,
-        0.59,
+        0.86,
         0.75
       ]
     }

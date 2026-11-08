@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO07",
     "classroom": "9G3",
     "learning_outcome_id": "LO07",
-    "question_count": 4
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,29 @@
           "exercises_or_section": "Example 2; Check"
         }
       ],
-      "question_count": 4,
+      "question_count": 8,
       "question_ids": [
         "G9G-BOOK-Q07-MCQ-01",
         "G9G-BOOK-Q07-MCQ-02",
         "G9G-BOOK-Q07-MCQ-03",
-        "G9G-BOOK-Q07-MCQ-04"
+        "G9G-BOOK-Q07-MCQ-04",
+        "9G3-REV-LO07-01",
+        "9G3-REV-LO07-02",
+        "9G3-REV-LO07-03",
+        "9G3-REV-LO07-04"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q07-MCQ-01",
         "G9G-BOOK-Q07-MCQ-02",
-        "G9G-BOOK-Q07-MCQ-03",
-        "G9G-BOOK-Q07-MCQ-04"
+        "9G3-REV-LO07-01",
+        "9G3-REV-LO07-02"
       ],
-      "download": "LO07.json"
+      "download": "LO07.json",
+      "assessment_facets": [
+        "Distribute to evaluate",
+        "mental-distribution"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -54,17 +63,20 @@
         {
           "id": "B",
           "text": "5(100)+5(1)=505",
-          "math_latex": "5(100)+5(1)=505"
+          "math_latex": "5(100)+5(1)=505",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "5(100)-1=499",
-          "math_latex": "5(100)-1=499"
+          "math_latex": "5(100)-1=499",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "5(90)+5(1)=455",
-          "math_latex": "5(90)+5(1)=455"
+          "math_latex": "5(90)+5(1)=455",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -81,6 +93,46 @@
         "pdf_page": 37,
         "exercise": "Example 2a",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distribute to evaluate"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "5*99",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "5*99"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q07-MCQ-01.png"
       }
     },
     {
@@ -95,17 +147,20 @@
         {
           "id": "A",
           "text": "4(1000)+2=4002",
-          "math_latex": "4(1000)+2=4002"
+          "math_latex": "4(1000)+2=4002",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "4(1000)-4(2)=3992",
-          "math_latex": "4(1000)-4(2)=3992"
+          "math_latex": "4(1000)-4(2)=3992",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "4(100)+4(2)=408",
-          "math_latex": "4(100)+4(2)=408"
+          "math_latex": "4(100)+4(2)=408",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -127,6 +182,46 @@
         "pdf_page": 37,
         "exercise": "Example 2b",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distribute to evaluate"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4*1002",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "4*1002"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q07-MCQ-02.png"
       }
     },
     {
@@ -141,12 +236,14 @@
         {
           "id": "A",
           "text": "7(60)=420,\\quad\\text{more than }420",
-          "math_latex": "7(60)=420,\\quad\\text{more than }420"
+          "math_latex": "7(60)=420,\\quad\\text{more than }420",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "7(5)=35,\\quad\\text{less than }35",
-          "math_latex": "7(5)=35,\\quad\\text{less than }35"
+          "math_latex": "7(5)=35,\\quad\\text{less than }35",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -156,7 +253,8 @@
         {
           "id": "D",
           "text": "7(50)=350,\\quad\\text{a little less than }350",
-          "math_latex": "7(50)=350,\\quad\\text{a little less than }350"
+          "math_latex": "7(50)=350,\\quad\\text{a little less than }350",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -173,6 +271,46 @@
         "pdf_page": 37,
         "exercise": "Check Part A",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distribute to evaluate"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7*51",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "7*51"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q07-MCQ-03.png"
       }
     },
     {
@@ -187,7 +325,8 @@
         {
           "id": "A",
           "text": "7(50)+51=401",
-          "math_latex": "7(50)+51=401"
+          "math_latex": "7(50)+51=401",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -197,12 +336,14 @@
         {
           "id": "C",
           "text": "7(50)+1=351",
-          "math_latex": "7(50)+1=351"
+          "math_latex": "7(50)+1=351",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "7(50)-7(1)=343",
-          "math_latex": "7(50)-7(1)=343"
+          "math_latex": "7(50)-7(1)=343",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -219,6 +360,410 @@
         "pdf_page": 37,
         "exercise": "Check Part B",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Distribute to evaluate"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7*51",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "7*51"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q07-MCQ-04.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO07-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.5",
+      "instruction": "Which value is obtained by using the Distributive Property?",
+      "stem": "Which value is obtained by using the Distributive Property? 6(99)",
+      "math_latex": "6(99)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "594",
+          "math_latex": "594",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "600",
+          "math_latex": "600",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "599",
+          "math_latex": "599",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "606",
+          "math_latex": "606",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "594",
+        "explanation": "Rewrite the second factor around 100 or 200, then multiply both terms."
+      },
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Application of Example 2a",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q07-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "mental-distribution"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "6(99)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "6(99)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO07-01.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO07-02",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.6",
+      "instruction": "Which value is obtained by using the Distributive Property?",
+      "stem": "Which value is obtained by using the Distributive Property? 8(102)",
+      "math_latex": "8(102)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "808",
+          "math_latex": "808",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "800",
+          "math_latex": "800",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "816",
+          "math_latex": "816",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "802",
+          "math_latex": "802",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "816",
+        "explanation": "Rewrite the second factor around 100 or 200, then multiply both terms."
+      },
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Application of Example 2a",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q07-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "mental-distribution"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "8(102)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "8(102)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO07-02.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO07-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.7",
+      "instruction": "Which value is obtained by using the Distributive Property?",
+      "stem": "Which value is obtained by using the Distributive Property? 7(49)",
+      "math_latex": "7(49)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "343",
+          "math_latex": "343",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "350",
+          "math_latex": "350",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "349",
+          "math_latex": "349",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "357",
+          "math_latex": "357",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "343",
+        "explanation": "Rewrite the second factor around 100 or 200, then multiply both terms."
+      },
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Application of Example 2a",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q07-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "mental-distribution"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7(49)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "7(49)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO07-03.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO07-04",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.8",
+      "instruction": "Which value is obtained by using the Distributive Property?",
+      "stem": "Which value is obtained by using the Distributive Property? 4(198)",
+      "math_latex": "4(198)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "792",
+          "math_latex": "792",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "798",
+          "math_latex": "798",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "800",
+          "math_latex": "800",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "808",
+          "math_latex": "808",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "792",
+        "explanation": "Rewrite the second factor around 100 or 200, then multiply both terms."
+      },
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Application of Example 2a",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q07-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "mental-distribution"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4(198)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "4(198)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO07-04.png"
       }
     }
   ],

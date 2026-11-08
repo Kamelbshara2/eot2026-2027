@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO08",
     "classroom": "10G3",
     "learning_outcome_id": "LO08",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -30,16 +30,23 @@
         "G10G-Q08-MCQ-03",
         "G10G-Q08-MCQ-04",
         "G10G-Q08-MCQ-05",
-        "G10G-Q08-MCQ-06"
+        "G10G-Q08-MCQ-06",
+        "10G3-REV-LO08-01",
+        "10G3-REV-LO08-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO08.json",
       "booklet_question_ids": [
         "G10G-Q08-MCQ-02",
         "G10G-Q08-MCQ-03",
-        "G10G-Q08-MCQ-04",
-        "G10G-Q08-MCQ-06"
-      ]
+        "10G3-REV-LO08-01",
+        "10G3-REV-LO08-02"
+      ],
+      "assessment_facets": [
+        "Divide monomials",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -55,28 +62,32 @@
       "options": [
         {
           "id": "A",
-          "text": "2 c^{2}",
-          "math_latex": "2 c^{2}"
+          "text": "c^6",
+          "math_latex": "c^6",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{c^{2}}{2}",
-          "math_latex": "\\frac{c^{2}}{2}"
+          "text": "c^2d^8f^6",
+          "math_latex": "c^2d^8f^6",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "c^{2} + 1",
-          "math_latex": "c^{2} + 1"
+          "text": "c^8",
+          "math_latex": "c^8",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "c^{2}",
-          "math_latex": "c^{2}"
+          "text": "c^2",
+          "math_latex": "c^2",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "c^{2}",
+        "correct_option_text": "c^2",
         "explanation": "Apply quotient and power rules. Simplified result: c²."
       },
       "diagram_asset_ids": [],
@@ -87,7 +98,59 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "c": 2,
+        "d": 3,
+        "f": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'c': 2, 'd': 3, 'f': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**4*(3**4*4**3))/((2**2*(3**4*4**3)))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^4*(3^4*4^3))/((2^2*(3^4*4^3)))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q08-MCQ-02",
@@ -101,28 +164,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{p^{6} t^{21}}{2000}",
-          "math_latex": "\\frac{p^{6} t^{21}}{2000}"
+          "text": "\\frac{p^5t^{10}}{1000}",
+          "math_latex": "\\frac{p^5t^{10}}{1000}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{p^{6} t^{21}}{1000} + 1",
-          "math_latex": "\\frac{p^{6} t^{21}}{1000} + 1"
+          "text": "\\frac{p^6t^{21}}{10}",
+          "math_latex": "\\frac{p^6t^{21}}{10}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{p^{6} t^{21}}{1000}",
-          "math_latex": "\\frac{p^{6} t^{21}}{1000}"
+          "text": "\\frac{p^6t^{21}}{1000}",
+          "math_latex": "\\frac{p^6t^{21}}{1000}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{p^{6} t^{21}}{500}",
-          "math_latex": "\\frac{p^{6} t^{21}}{500}"
+          "text": "\\frac{p^6t^{21}}{30}",
+          "math_latex": "\\frac{p^6t^{21}}{30}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{p^{6} t^{21}}{1000}",
+        "correct_option_text": "\\frac{p^6t^{21}}{1000}",
         "explanation": "Apply quotient and power rules. Simplified result: p⁶·t²¹/1000."
       },
       "diagram_asset_ids": [],
@@ -133,7 +200,58 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "p": 2,
+        "t": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'p': 2, 't': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((2**2*3**7)/10)**3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((2^2*3^7)/10)^3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q08-MCQ-03",
@@ -147,28 +265,32 @@
       "options": [
         {
           "id": "A",
-          "text": "a^{2} b^{7} c + 1",
-          "math_latex": "a^{2} b^{7} c + 1"
+          "text": "a^{12}b^9c^{15}",
+          "math_latex": "a^{12}b^9c^{15}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "a^{2} b^{7} c",
-          "math_latex": "a^{2} b^{7} c"
+          "text": "a^2b^7c",
+          "math_latex": "a^2b^7c",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "2 a^{2} b^{7} c",
-          "math_latex": "2 a^{2} b^{7} c"
+          "text": "a^2b^8c",
+          "math_latex": "a^2b^8c",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "\\frac{a^{2} b^{7} c}{2}",
-          "math_latex": "\\frac{a^{2} b^{7} c}{2}"
+          "text": "a^2b^7c^{15}",
+          "math_latex": "a^2b^7c^{15}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "a^{2} b^{7} c",
+        "correct_option_text": "a^2b^7c",
         "explanation": "Apply quotient and power rules. Simplified result: a²·b⁷·c."
       },
       "diagram_asset_ids": [],
@@ -179,7 +301,59 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3,
+        "c": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3, 'c': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2**7*(3**8*4**8))/((2**5*(3*4**7)))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2^7*(3^8*4^8))/((2^5*(3*4^7)))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q08-MCQ-04",
@@ -193,28 +367,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{9 n^{2} p^{6}}{49 q^{4}}",
-          "math_latex": "\\frac{9 n^{2} p^{6}}{49 q^{4}}"
+          "text": "\\frac{9n^2p^6}{49q^4}",
+          "math_latex": "\\frac{9n^2p^6}{49q^4}",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\frac{18 n^{2} p^{6}}{49 q^{4}}",
-          "math_latex": "\\frac{18 n^{2} p^{6}}{49 q^{4}}"
+          "text": "\\frac{6n^2p^6}{14q^4}",
+          "math_latex": "\\frac{6n^2p^6}{14q^4}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{9 n^{2} p^{6}}{98 q^{4}}",
-          "math_latex": "\\frac{9 n^{2} p^{6}}{98 q^{4}}"
+          "text": "\\frac{9n^2p^6}{7q^2}",
+          "math_latex": "\\frac{9n^2p^6}{7q^2}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "\\frac{9 n^{2} p^{6}}{49 q^{4}} + 1",
-          "math_latex": "\\frac{9 n^{2} p^{6}}{49 q^{4}} + 1"
+          "text": "\\frac{9n^2p^5}{49q^4}",
+          "math_latex": "\\frac{9n^2p^5}{49q^4}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "\\frac{9 n^{2} p^{6}}{49 q^{4}}",
+        "correct_option_text": "\\frac{9n^2p^6}{49q^4}",
         "explanation": "Apply quotient and power rules. Simplified result: 9·n²·p⁶/(49·q⁴)."
       },
       "diagram_asset_ids": [],
@@ -225,7 +403,59 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "n": 2,
+        "p": 3,
+        "q": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'n': 2, 'p': 3, 'q': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((3*(2*3**3))/((7*4**2)))**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((3*(2*3^3))/((7*4^2)))^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q08-MCQ-05",
@@ -239,28 +469,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{32 r^{12} t^{24}}{625 u^{36}}",
-          "math_latex": "\\frac{32 r^{12} t^{24}}{625 u^{36}}"
+          "text": "\\frac{8r^{12}t^{24}}{20u^{36}}",
+          "math_latex": "\\frac{8r^{12}t^{24}}{20u^{36}}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{8 r^{12} t^{24}}{625 u^{36}}",
-          "math_latex": "\\frac{8 r^{12} t^{24}}{625 u^{36}}"
+          "text": "\\frac{16r^7t^{10}}{625u^{13}}",
+          "math_latex": "\\frac{16r^7t^{10}}{625u^{13}}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{16 r^{12} t^{24}}{625 u^{36}} + 1",
-          "math_latex": "\\frac{16 r^{12} t^{24}}{625 u^{36}} + 1"
+          "text": "\\frac{16r^{12}t^{24}}{5u^9}",
+          "math_latex": "\\frac{16r^{12}t^{24}}{5u^9}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "D",
-          "text": "\\frac{16 r^{12} t^{24}}{625 u^{36}}",
-          "math_latex": "\\frac{16 r^{12} t^{24}}{625 u^{36}}"
+          "text": "\\frac{16r^{12}t^{24}}{625u^{36}}",
+          "math_latex": "\\frac{16r^{12}t^{24}}{625u^{36}}",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\frac{16 r^{12} t^{24}}{625 u^{36}}",
+        "correct_option_text": "\\frac{16r^{12}t^{24}}{625u^{36}}",
         "explanation": "Apply quotient and power rules. Simplified result: 16·r¹²·t²⁴/(625·u³⁶)."
       },
       "diagram_asset_ids": [],
@@ -271,7 +505,59 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "r": 2,
+        "t": 3,
+        "u": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'r': 2, 't': 3, 'u': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((2*(2**3*3**6))/((5*4**9)))**4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((2*(2^3*3^6))/((5*4^9)))^4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q08-MCQ-06",
@@ -285,28 +571,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{81 m^{20} r^{12}}{512 p^{32}}",
-          "math_latex": "\\frac{81 m^{20} r^{12}}{512 p^{32}}"
+          "text": "\\frac{12m^{20}r^{12}}{16p^{32}}",
+          "math_latex": "\\frac{12m^{20}r^{12}}{16p^{32}}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "B",
-          "text": "\\frac{81 m^{20} r^{12}}{256 p^{32}} + 1",
-          "math_latex": "\\frac{81 m^{20} r^{12}}{256 p^{32}} + 1"
+          "text": "\\frac{81m^9r^7}{256p^{12}}",
+          "math_latex": "\\frac{81m^9r^7}{256p^{12}}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         },
         {
           "id": "C",
-          "text": "\\frac{81 m^{20} r^{12}}{256 p^{32}}",
-          "math_latex": "\\frac{81 m^{20} r^{12}}{256 p^{32}}"
+          "text": "\\frac{81m^{20}r^{12}}{256p^{32}}",
+          "math_latex": "\\frac{81m^{20}r^{12}}{256p^{32}}",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{81 m^{20} r^{12}}{128 p^{32}}",
-          "math_latex": "\\frac{81 m^{20} r^{12}}{128 p^{32}}"
+          "text": "\\frac{81m^{20}r^{12}}{4p^8}",
+          "math_latex": "\\frac{81m^{20}r^{12}}{4p^8}",
+          "misconception": "Use the correct exponent rule: distinguish adding, subtracting and multiplying powers; apply powers to every factor."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{81 m^{20} r^{12}}{256 p^{32}}",
+        "correct_option_text": "\\frac{81m^{20}r^{12}}{256p^{32}}",
         "explanation": "Apply quotient and power rules. Simplified result: 81·m²⁰·r¹²/(256·p³²)."
       },
       "diagram_asset_ids": [],
@@ -317,7 +607,221 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Divide monomials"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "m": 2,
+        "p": 3,
+        "r": 4
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'m': 2, 'p': 3, 'r': 4} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "((3*(2**5*4**3))/((4*3**8)))**4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "((3*(2^5*4^3))/((4*3^8)))^4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q08-MCQ-06.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO08-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.7",
+      "instruction": "Which expression is equivalent when b≠0?",
+      "stem": "Which expression is equivalent when b≠0? \\left(\\frac ab\\right)^3",
+      "math_latex": "\\left(\\frac ab\\right)^3",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{3a}{3b}",
+          "math_latex": "\\frac{3a}{3b}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "\\frac{a^3}{b^3}",
+          "math_latex": "\\frac{a^3}{b^3}",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "\\frac{a^3}{b}",
+          "math_latex": "\\frac{a^3}{b}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "\\frac a{b^3}",
+          "math_latex": "\\frac a{b^3}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{a^3}{b^3}",
+        "explanation": "Apply the power to numerator and denominator."
+      },
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "Application of 3",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10G3-REV-LO08-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.8",
+      "instruction": "Which simplified expression is correct for x≠0?",
+      "stem": "Which simplified expression is correct for x≠0? \\frac{x^7}{x^3}",
+      "math_latex": "\\frac{x^7}{x^3}",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "x^{10}",
+          "math_latex": "x^{10}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "x^{21}",
+          "math_latex": "x^{21}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "x^{7/3}",
+          "math_latex": "x^{7/3}",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "x^4",
+          "math_latex": "x^4",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x^4",
+        "explanation": "Subtract exponents for equal nonzero bases."
+      },
+      "source": {
+        "printed_page": 583,
+        "pdf_page": 15,
+        "exercise": "Application of 3",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2**7/(2**3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2^7/(2^3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/10G3-REV-LO08-02.png"
+      }
     }
   ],
   "assets": {}

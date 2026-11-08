@@ -33,7 +33,11 @@
         "G10A-BOOK-Q15-MCQ-03",
         "G10A-BOOK-Q15-MCQ-04"
       ],
-      "download": "LO15.json"
+      "download": "LO15.json",
+      "assessment_facets": [
+        "Geometric mean"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,35 +46,39 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.1",
-      "instruction": "Find the geometric mean between the two numbers.",
-      "stem": "Find the geometric mean between the two numbers. 4\\quad\\text{and}\\quad 6",
+      "instruction": "What is the positive geometric mean of the two numbers?",
+      "stem": "What is the positive geometric mean of the two numbers? 4\\quad\\text{and}\\quad 6",
       "math_latex": "4\\quad\\text{and}\\quad 6",
       "options": [
         {
           "id": "A",
-          "text": "2 \\sqrt{6}",
-          "math_latex": "2 \\sqrt{6}"
+          "text": "2\\sqrt6",
+          "math_latex": "2\\sqrt6",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- 2 \\sqrt{6}",
-          "math_latex": "- 2 \\sqrt{6}"
+          "text": "5",
+          "math_latex": "5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "4 \\sqrt{6}",
-          "math_latex": "4 \\sqrt{6}"
+          "text": "24",
+          "math_latex": "24",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "3 + 2 \\sqrt{6}",
-          "math_latex": "3 + 2 \\sqrt{6}"
+          "text": "-2\\sqrt6",
+          "math_latex": "-2\\sqrt6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "2 \\sqrt{6}",
+        "correct_option_text": "2\\sqrt6",
         "explanation": "The positive geometric mean of positive a,b is √(ab)."
       },
       "diagram_asset_ids": [],
@@ -81,6 +89,46 @@
         "pdf_page": 109,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Geometric mean"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(4*6)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(4*6)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q15-MCQ-01.png"
       }
     },
     {
@@ -88,29 +136,33 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.2",
-      "instruction": "Find the geometric mean between the two numbers.",
-      "stem": "Find the geometric mean between the two numbers. \\frac{1}{2}\\quad\\text{and}\\quad 2",
+      "instruction": "What is the positive geometric mean of the two numbers?",
+      "stem": "What is the positive geometric mean of the two numbers? \\frac{1}{2}\\quad\\text{and}\\quad 2",
       "math_latex": "\\frac{1}{2}\\quad\\text{and}\\quad 2",
       "options": [
         {
           "id": "A",
-          "text": "-1",
-          "math_latex": "-1"
+          "text": "\\frac54",
+          "math_latex": "\\frac54",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "2",
-          "math_latex": "2"
+          "text": "\\frac52",
+          "math_latex": "\\frac52",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "4",
-          "math_latex": "4"
+          "text": "-1",
+          "math_latex": "-1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "1",
-          "math_latex": "1"
+          "math_latex": "1",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -127,6 +179,46 @@
         "pdf_page": 109,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Geometric mean"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt((1/2)*2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt((1/2)*2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q15-MCQ-02.png"
       }
     },
     {
@@ -134,19 +226,21 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.3",
-      "instruction": "Find all of x, y and z in simplest exact form.",
-      "stem": "Find all of x, y and z in simplest exact form.",
+      "instruction": "Which values of x, y and z are correct, in simplest exact form?",
+      "stem": "Which values of x, y and z are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})",
-          "math_latex": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})"
+          "math_latex": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})",
-          "math_latex": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})"
+          "math_latex": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -156,7 +250,8 @@
         {
           "id": "D",
           "text": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})",
-          "math_latex": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})"
+          "math_latex": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -175,6 +270,66 @@
         "pdf_page": 109,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Geometric mean"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(8*23)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(31*8)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(31*23)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "sqrt(8*23)",
+          "sqrt(31*8)",
+          "sqrt(31*23)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q15-MCQ-03.png"
       }
     },
     {
@@ -182,14 +337,15 @@
       "learning_outcome_id": "LO15",
       "type": "mcq",
       "display_number": "15.4",
-      "instruction": "Find all of x, y and z in simplest exact form.",
-      "stem": "Find all of x, y and z in simplest exact form.",
+      "instruction": "Which values of x, y and z are correct, in simplest exact form?",
+      "stem": "Which values of x, y and z are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y,z)=(10,10,10\\sqrt2)",
-          "math_latex": "(x,y,z)=(10,10,10\\sqrt2)"
+          "math_latex": "(x,y,z)=(10,10,10\\sqrt2)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -199,12 +355,14 @@
         {
           "id": "C",
           "text": "(x,y,z)=(5,15,10\\sqrt3)",
-          "math_latex": "(x,y,z)=(5,15,10\\sqrt3)"
+          "math_latex": "(x,y,z)=(5,15,10\\sqrt3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "(x,y,z)=(15,5,5\\sqrt3)",
-          "math_latex": "(x,y,z)=(15,5,5\\sqrt3)"
+          "math_latex": "(x,y,z)=(15,5,5\\sqrt3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -223,6 +381,66 @@
         "pdf_page": 109,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Geometric mean"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "10^2/20",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "20-5",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "sqrt(20*15)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "10^2/20",
+          "20-5",
+          "sqrt(20*15)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q15-MCQ-04.png"
       }
     }
   ],

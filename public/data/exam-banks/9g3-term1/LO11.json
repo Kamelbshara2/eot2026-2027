@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO11",
     "classroom": "9G3",
     "learning_outcome_id": "LO11",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,27 @@
           "exercises_or_section": "10–12,14"
         }
       ],
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G9G-BOOK-Q11-MCQ-01",
         "G9G-BOOK-Q11-MCQ-02",
         "G9G-BOOK-Q11-MCQ-03",
-        "G9G-BOOK-Q11-MCQ-04"
+        "G9G-BOOK-Q11-MCQ-04",
+        "9G3-REV-LO11-01",
+        "9G3-REV-LO11-02"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q11-MCQ-01",
         "G9G-BOOK-Q11-MCQ-02",
-        "G9G-BOOK-Q11-MCQ-03",
-        "G9G-BOOK-Q11-MCQ-04"
+        "9G3-REV-LO11-01",
+        "9G3-REV-LO11-02"
       ],
-      "download": "LO11.json"
+      "download": "LO11.json",
+      "assessment_facets": [
+        "Dilations of linear functions",
+        "concept-interpretation"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -52,15 +59,18 @@
         },
         {
           "id": "B",
-          "text": "Horizontal shift right by 5."
+          "text": "Horizontal shift right by 5.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Vertical shift up by 5."
+          "text": "Vertical shift up by 5.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Vertical compression by factor 5."
+          "text": "Vertical compression by factor 5.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -79,6 +89,18 @@
         "pdf_page": 114,
         "exercise": "10",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilations of linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -92,15 +114,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Horizontal shift right by 1/3."
+          "text": "Horizontal shift right by 1/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Vertical shift up by 1/3."
+          "text": "Vertical shift up by 1/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Vertical stretch by factor 1/3."
+          "text": "Vertical stretch by factor 1/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -123,6 +148,18 @@
         "pdf_page": 114,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilations of linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -136,11 +173,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Vertical shift up by 3/2."
+          "text": "Vertical shift up by 3/2.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Vertical compression by factor 3/2."
+          "text": "Vertical compression by factor 3/2.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -148,7 +187,8 @@
         },
         {
           "id": "D",
-          "text": "Horizontal shift right by 3/2."
+          "text": "Horizontal shift right by 3/2.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -167,6 +207,18 @@
         "pdf_page": 114,
         "exercise": "12",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilations of linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -180,7 +232,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Vertical stretch by factor 3/4."
+          "text": "Vertical stretch by factor 3/4.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -188,11 +241,13 @@
         },
         {
           "id": "C",
-          "text": "Horizontal shift right by 3/4."
+          "text": "Horizontal shift right by 3/4.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Vertical shift up by 3/4."
+          "text": "Vertical shift up by 3/4.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -211,30 +266,140 @@
         "pdf_page": 114,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilations of linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
-    }
-  ],
-  "assets": {
-    "dilation_12": {
-      "src": "assets/dilation_12.png",
-      "width": 303,
-      "height": 302,
-      "alt_text": "Original textbook visual, Reveal p. 248, 12.",
+    },
+    {
+      "id": "9G3-REV-LO11-01",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.5",
+      "instruction": "For g(x)=3x relative to f(x)=x, which statement is correct?",
+      "stem": "For g(x)=3x relative to f(x)=x, which statement is correct? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical stretch by 3.",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by 3.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "Translation up 3.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Translation right 3.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Vertical stretch by 3.",
+        "explanation": "Relative to y=x, kx stretches vertically if |k|>1 and compresses if 0<|k|<1."
+      },
       "source": {
         "book_part": 2,
         "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
         "printed_page": 248,
         "pdf_page": 114,
-        "exercise": "12",
-        "adaptation": "transcription"
+        "exercise": "Application of 10",
+        "adaptation": "concept_application"
       },
-      "crop_box": [
-        0.613,
-        0.154,
-        0.782,
-        0.273
-      ]
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q11-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
+    {
+      "id": "9G3-REV-LO11-02",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.6",
+      "instruction": "For g(x)=0.4x relative to f(x)=x, which statement is correct?",
+      "stem": "For g(x)=0.4x relative to f(x)=x, which statement is correct? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Translation down 0.4.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by 0.4.",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by 0.4.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Reflection only.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Vertical compression by 0.4.",
+        "explanation": "Relative to y=x, kx stretches vertically if |k|>1 and compresses if 0<|k|<1."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "Application of 10",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q11-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    }
+  ],
+  "assets": {
     "dilation_14": {
       "src": "assets/dilation_14.png",
       "width": 305,
@@ -255,23 +420,23 @@
         0.527
       ]
     },
-    "dilation_11": {
-      "src": "assets/dilation_11.png",
-      "width": 305,
+    "dilation_12": {
+      "src": "assets/dilation_12.png",
+      "width": 303,
       "height": 302,
-      "alt_text": "Original textbook visual, Reveal p. 248, 11.",
+      "alt_text": "Original textbook visual, Reveal p. 248, 12.",
       "source": {
         "book_part": 2,
         "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
         "printed_page": 248,
         "pdf_page": 114,
-        "exercise": "11",
+        "exercise": "12",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.348,
+        0.613,
         0.154,
-        0.518,
+        0.782,
         0.273
       ]
     },
@@ -292,6 +457,26 @@
         0.09,
         0.154,
         0.258,
+        0.273
+      ]
+    },
+    "dilation_11": {
+      "src": "assets/dilation_11.png",
+      "width": 305,
+      "height": 302,
+      "alt_text": "Original textbook visual, Reveal p. 248, 11.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "11",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.348,
+        0.154,
+        0.518,
         0.273
       ]
     }

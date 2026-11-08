@@ -33,7 +33,11 @@
         "G9G-BOOK-Q03-MCQ-03",
         "G9G-BOOK-Q03-MCQ-04"
       ],
-      "download": "LO03.json"
+      "download": "LO03.json",
+      "assessment_facets": [
+        "Addition and subtraction equations"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.1",
-      "instruction": "Solve the equation.",
-      "stem": "Solve the equation. v-9=14",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? v-9=14",
       "math_latex": "v-9=14",
       "options": [
         {
           "id": "A",
           "text": "23",
-          "math_latex": "23"
+          "math_latex": "23",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "24",
-          "math_latex": "24"
+          "text": "5",
+          "math_latex": "5",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "22",
-          "math_latex": "22"
+          "text": "-23",
+          "math_latex": "-23",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "-23",
-          "math_latex": "-23"
+          "text": "14",
+          "math_latex": "14",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -81,6 +89,57 @@
         "pdf_page": 81,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Addition and subtraction equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "X - 9=14",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "X - 9=14"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q03-MCQ-01.png"
       }
     },
     {
@@ -88,29 +147,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.2",
-      "instruction": "Solve the equation.",
-      "stem": "Solve the equation. 44=t-72",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? 44=t-72",
       "math_latex": "44=t-72",
       "options": [
         {
           "id": "A",
-          "text": "117",
-          "math_latex": "117"
+          "text": "-28",
+          "math_latex": "-28",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "115",
-          "math_latex": "115"
+          "text": "28",
+          "math_latex": "28",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
           "text": "-116",
-          "math_latex": "-116"
+          "math_latex": "-116",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
           "text": "116",
-          "math_latex": "116"
+          "math_latex": "116",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -127,6 +190,57 @@
         "pdf_page": 81,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Addition and subtraction equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "44=X - 72",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "44=X - 72"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q03-MCQ-02.png"
       }
     },
     {
@@ -134,29 +248,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.3",
-      "instruction": "Solve the equation.",
-      "stem": "Solve the equation. -61=d+(-18)",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? -61=d+(-18)",
       "math_latex": "-61=d+(-18)",
       "options": [
         {
           "id": "A",
-          "text": "-44",
-          "math_latex": "-44"
+          "text": "-79",
+          "math_latex": "-79",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
           "text": "43",
-          "math_latex": "43"
+          "math_latex": "43",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
           "text": "-43",
-          "math_latex": "-43"
+          "math_latex": "-43",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "-42",
-          "math_latex": "-42"
+          "text": "79",
+          "math_latex": "79",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -173,6 +291,57 @@
         "pdf_page": 81,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Addition and subtraction equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "-61=X - 18",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "-61=X - 18"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q03-MCQ-03.png"
       }
     },
     {
@@ -180,29 +349,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.4",
-      "instruction": "Solve the equation.",
-      "stem": "Solve the equation. 18+z=40",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? 18+z=40",
       "math_latex": "18+z=40",
       "options": [
         {
           "id": "A",
-          "text": "-22",
-          "math_latex": "-22"
+          "text": "58",
+          "math_latex": "58",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
           "text": "22",
-          "math_latex": "22"
+          "math_latex": "22",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "23",
-          "math_latex": "23"
+          "text": "-22",
+          "math_latex": "-22",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "21",
-          "math_latex": "21"
+          "text": "40",
+          "math_latex": "40",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -219,6 +392,57 @@
         "pdf_page": 81,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Addition and subtraction equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "X + 18=40",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "X + 18=40"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q03-MCQ-04.png"
       }
     }
   ],

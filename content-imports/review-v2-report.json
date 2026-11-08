@@ -1,0 +1,26 @@
+[
+  {
+    "classroom": "9G3",
+    "questions": 126,
+    "mcq": 102,
+    "frq": 24,
+    "algebra_distractor_sets_rebuilt": 16,
+    "calculator_guides": 73
+  },
+  {
+    "classroom": "10G3",
+    "questions": 155,
+    "mcq": 134,
+    "frq": 21,
+    "algebra_distractor_sets_rebuilt": 36,
+    "calculator_guides": 108
+  },
+  {
+    "classroom": "10A1",
+    "questions": 108,
+    "mcq": 88,
+    "frq": 20,
+    "algebra_distractor_sets_rebuilt": 14,
+    "calculator_guides": 88
+  }
+]

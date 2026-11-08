@@ -33,7 +33,11 @@
         "G10A-BOOK-Q05-MCQ-03",
         "G10A-BOOK-Q05-MCQ-04"
       ],
-      "download": "LO05.json"
+      "download": "LO05.json",
+      "assessment_facets": [
+        "Interior angles of polygons"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,19 +46,21 @@
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.1",
-      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
-      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "instruction": "Which option gives the interior angles in the stated vertex order?",
+      "stem": "Which option gives the interior angles in the stated vertex order? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -64,7 +70,8 @@
         {
           "id": "D",
           "text": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -83,6 +90,46 @@
         "pdf_page": 7,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Interior angles of polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(360-12)/6",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(360-12)/6"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q05-MCQ-01.png"
       }
     },
     {
@@ -90,14 +137,15 @@
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.2",
-      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
-      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "instruction": "Which option gives the interior angles in the stated vertex order?",
+      "stem": "Which option gives the interior angles in the stated vertex order? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -107,12 +155,14 @@
         {
           "id": "C",
           "text": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -131,6 +181,46 @@
         "pdf_page": 7,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Interior angles of polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(360+4)/7",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(360+4)/7"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q05-MCQ-02.png"
       }
     },
     {
@@ -138,8 +228,8 @@
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.3",
-      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
-      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "instruction": "Which option gives the interior angles in the stated vertex order?",
+      "stem": "Which option gives the interior angles in the stated vertex order? ",
       "math_latex": "",
       "options": [
         {
@@ -150,17 +240,20 @@
         {
           "id": "B",
           "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -179,6 +272,46 @@
         "pdf_page": 7,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Interior angles of polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(540-170)/5",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(540-170)/5"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q05-MCQ-03.png"
       }
     },
     {
@@ -186,24 +319,27 @@
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.4",
-      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
-      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "instruction": "Which option gives the interior angles in the stated vertex order?",
+      "stem": "Which option gives the interior angles in the stated vertex order? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}",
-          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}"
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -227,28 +363,68 @@
         "pdf_page": 7,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Interior angles of polygons"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(540+4)/8",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(540+4)/8"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q05-MCQ-04.png"
       }
     }
   ],
   "assets": {
-    "q5_4": {
-      "src": "assets/q5_4.png",
-      "width": 608,
-      "height": 468,
-      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 4.",
+    "q5_3": {
+      "src": "assets/q5_3.png",
+      "width": 572,
+      "height": 342,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 3.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 63,
         "pdf_page": 7,
-        "exercise": "4",
+        "exercise": "3",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.48,
+        0.14,
         0.355,
-        0.82,
-        0.54
+        0.46,
+        0.49
       ]
     },
     "q5_2": {
@@ -271,6 +447,26 @@
         0.3
       ]
     },
+    "q5_4": {
+      "src": "assets/q5_4.png",
+      "width": 608,
+      "height": 468,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 4.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "4",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.48,
+        0.355,
+        0.82,
+        0.54
+      ]
+    },
     "q5_1": {
       "src": "assets/q5_1.png",
       "width": 554,
@@ -289,26 +485,6 @@
         0.17,
         0.45,
         0.3
-      ]
-    },
-    "q5_3": {
-      "src": "assets/q5_3.png",
-      "width": 572,
-      "height": 342,
-      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 3.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 63,
-        "pdf_page": 7,
-        "exercise": "3",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.14,
-        0.355,
-        0.46,
-        0.49
       ]
     }
   }

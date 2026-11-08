@@ -33,7 +33,11 @@
         "G9G-BOOK-Q05-MCQ-03",
         "G9G-BOOK-Q05-MCQ-04"
       ],
-      "download": "LO05.json"
+      "download": "LO05.json",
+      "assessment_facets": [
+        "Properties of equality"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,11 +52,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Transitive Property of Equality"
+          "text": "Transitive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Additive Identity Property"
+          "text": "Additive Identity Property",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -60,7 +66,8 @@
         },
         {
           "id": "D",
-          "text": "Reflexive Property of Equality"
+          "text": "Reflexive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -77,6 +84,18 @@
         "pdf_page": 31,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of equality"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -90,7 +109,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Additive Identity Property"
+          "text": "Additive Identity Property",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -98,11 +118,13 @@
         },
         {
           "id": "C",
-          "text": "Symmetric Property of Equality"
+          "text": "Symmetric Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Transitive Property of Equality"
+          "text": "Transitive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -119,6 +141,18 @@
         "pdf_page": 31,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of equality"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -136,15 +170,18 @@
         },
         {
           "id": "B",
-          "text": "Reflexive Property of Equality"
+          "text": "Reflexive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Transitive Property of Equality"
+          "text": "Transitive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Additive Identity Property"
+          "text": "Additive Identity Property",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -161,6 +198,18 @@
         "pdf_page": 31,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of equality"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -174,15 +223,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Reflexive Property of Equality"
+          "text": "Reflexive Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Symmetric Property of Equality"
+          "text": "Symmetric Property of Equality",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Additive Identity Property"
+          "text": "Additive Identity Property",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -203,6 +255,18 @@
         "pdf_page": 31,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Properties of equality"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

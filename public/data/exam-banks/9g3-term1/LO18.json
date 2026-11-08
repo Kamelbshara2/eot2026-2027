@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO18",
     "classroom": "9G3",
     "learning_outcome_id": "LO18",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,27 @@
           "exercises_or_section": "Graphs C,D; p236 25–26"
         }
       ],
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G9G-BOOK-Q18-MCQ-01",
         "G9G-BOOK-Q18-MCQ-02",
         "G9G-BOOK-Q18-MCQ-03",
-        "G9G-BOOK-Q18-MCQ-04"
+        "G9G-BOOK-Q18-MCQ-04",
+        "9G3-REV-LO18-01",
+        "9G3-REV-LO18-02"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q18-MCQ-01",
         "G9G-BOOK-Q18-MCQ-02",
-        "G9G-BOOK-Q18-MCQ-03",
-        "G9G-BOOK-Q18-MCQ-04"
+        "9G3-REV-LO18-01",
+        "9G3-REV-LO18-02"
       ],
-      "download": "LO18.json"
+      "download": "LO18.json",
+      "assessment_facets": [
+        "Constant linear functions",
+        "concept-interpretation"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,35 +49,38 @@
       "learning_outcome_id": "LO18",
       "type": "mcq",
       "display_number": "18.1",
-      "instruction": "Match the original constant-function graph with its equation. Options give y.",
-      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "instruction": "Match the original constant-function graph with its equation.",
+      "stem": "Match the original constant-function graph with its equation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "- 4 x",
-          "math_latex": "- 4 x"
+          "text": "y=- 4 x",
+          "math_latex": "y=- 4 x",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "-4",
-          "math_latex": "-4"
+          "text": "y=-4",
+          "math_latex": "y=-4"
         },
         {
           "id": "C",
-          "text": "-3",
-          "math_latex": "-3"
+          "text": "y=-3",
+          "math_latex": "y=-3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "4",
-          "math_latex": "4"
+          "text": "y=4",
+          "math_latex": "y=4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "-4",
+        "correct_option_text": "y=-4",
         "explanation": "A horizontal line has a constant y-value, slope 0."
       },
       "diagram_asset_ids": [
@@ -83,6 +93,18 @@
         "pdf_page": 99,
         "exercise": "Match graph C",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Constant linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -90,35 +112,38 @@
       "learning_outcome_id": "LO18",
       "type": "mcq",
       "display_number": "18.2",
-      "instruction": "Match the original constant-function graph with its equation. Options give y.",
-      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "instruction": "Match the original constant-function graph with its equation.",
+      "stem": "Match the original constant-function graph with its equation. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "8",
-          "math_latex": "8"
+          "text": "y=8",
+          "math_latex": "y=8"
         },
         {
           "id": "B",
-          "text": "9",
-          "math_latex": "9"
+          "text": "y=9",
+          "math_latex": "y=9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "-8",
-          "math_latex": "-8"
+          "text": "y=-8",
+          "math_latex": "y=-8",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "8 x",
-          "math_latex": "8 x"
+          "text": "y=8 x",
+          "math_latex": "y=8 x",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "8",
+        "correct_option_text": "y=8",
         "explanation": "A horizontal line has a constant y-value, slope 0."
       },
       "diagram_asset_ids": [
@@ -131,6 +156,18 @@
         "pdf_page": 99,
         "exercise": "Match graph D",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Constant linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -144,15 +181,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Vertical line through (7,0)."
+          "text": "Vertical line through (7,0).",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Line through the origin with slope 7."
+          "text": "Line through the origin with slope 7.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Horizontal line through (0,0)."
+          "text": "Horizontal line through (0,0).",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -173,6 +213,18 @@
         "pdf_page": 102,
         "exercise": "25",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Constant linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -186,11 +238,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Line through the origin with slope 7."
+          "text": "Line through the origin with slope −2/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Horizontal line through (0,0)."
+          "text": "Horizontal line through (0,0).",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -198,7 +252,8 @@
         },
         {
           "id": "D",
-          "text": "Vertical line through (7,0)."
+          "text": "Vertical line through (−2/3,0).",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -215,6 +270,136 @@
         "pdf_page": 102,
         "exercise": "26",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Constant linear functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO18-01",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.5",
+      "instruction": "Which equation has a horizontal graph through (0,−3)?",
+      "stem": "Which equation has a horizontal graph through (0,−3)? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "y=−3x",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "y=x−3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "y=−3",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "x=−3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "y=−3",
+        "explanation": "y=b is horizontal, with slope 0 and y-intercept b."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Application of Match graph C",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q18-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO18-02",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.6",
+      "instruction": "What is the slope of y=8?",
+      "stem": "What is the slope of y=8? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "Undefined",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "0",
+        "explanation": "y=b is horizontal, with slope 0 and y-intercept b."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Application of Match graph C",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q18-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

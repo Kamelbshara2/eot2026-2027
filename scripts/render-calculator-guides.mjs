@@ -1,0 +1,17 @@
+// Uses Playwright to render instructional key diagrams, not calculator firmware.
+import {readFile,mkdir,readdir,unlink} from 'node:fs/promises';
+import {resolve} from 'node:path';
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH,args:['--no-sandbox']});
+try{const page=await browser.newPage({viewport:{width:940,height:700},deviceScaleFactor:2});for(const folder of ['9g3-term1','10g3-term1','10a1-term1']){
+ const base=resolve('public/data/exam-banks',folder),bank=JSON.parse(await readFile(resolve(base,'index.json')));let count=0;
+ await mkdir(resolve(base,'calculator'),{recursive:true});
+ const expected=new Set(bank.questions.filter(q=>q.calculator?.image).map(q=>q.calculator.image.split('/').pop()));
+ for(const name of await readdir(resolve(base,'calculator')))if(name.endsWith('.png')&&!expected.has(name))await unlink(resolve(base,'calculator',name));
+ for(const q of bank.questions){const g=q.calculator;if(!g?.applicable)continue;
+ const cards=g.steps.map((s,i)=>`<section><b class="n">${i+1}</b><div><h3>${esc(s.title)}</h3><div class="keys">${s.keys.map(k=>`<kbd>${esc(k)}</kbd>`).join('')}</div><p>${esc(s.text)}</p>${s.expression?`<pre>${esc(s.expression.replaceAll('**','^'))}</pre>`:''}</div></section>`).join('');
+ await page.setContent(`<html><head><style>*{box-sizing:border-box}body{margin:0;padding:28px;background:#eaf0f5;color:#14293b;font:15px/1.5 Arial}.sheet{background:white;border-radius:20px;overflow:hidden}header{padding:25px 30px;background:#102b3d;color:#fff}small{color:#a8d4dd;letter-spacing:2px}h1{margin:8px 0;font-size:28px}header p{margin:0;color:#dce9ef}.body{padding:22px 30px;display:grid;grid-template-columns:1fr 1fr;gap:18px}section{display:flex;gap:10px;border:1px solid #d6e1e7;padding:14px;border-radius:12px;min-width:0}.n{border-radius:50%;background:#c66c40;color:white;flex:none;width:26px;height:26px;text-align:center}section>div{min-width:0}h3{margin:0 0 8px;font-size:17px}.keys{display:flex;gap:6px;flex-wrap:wrap}kbd{font:700 14px Arial;background:#253c4c;color:#fff;border-bottom:3px solid #0e2430;padding:7px 10px;border-radius:6px}p{margin:8px 0 0;font-size:13px}pre{background:#e9f1e9;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;font:15px/1.5 monospace;border:1px solid #c8d7c6;border-radius:6px}footer{padding:14px 30px;font-size:11px;color:#647885;background:#f5f8fa}</style></head><body><article class="sheet"><header><small>MATH 100 · QUESTION ${esc(q.display_number)}</small><h1>${esc(g.model)}</h1><p>${esc(bank.learning_outcomes.find(o=>o.id===q.learning_outcome_id).title)} · ${g.kind==='check'?'Numerical verification':'Worked key sequence'}</p></header><div class="body">${cards}</div><footer>Instructional key guide · not a Casio firmware screenshot. Preserve exact values until final rounding.</footer></article></body></html>`);
+ await page.locator('.sheet').screenshot({path:resolve(base,g.image)});count++;
+ }console.log(folder,count+' key-guide images');
+}}finally{await browser.close()}

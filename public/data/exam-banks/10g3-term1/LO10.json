@@ -35,7 +35,11 @@
         "G10G-Q10-MCQ-02",
         "G10G-Q10-MCQ-05",
         "G10G-Q10-MCQ-06"
-      ]
+      ],
+      "assessment_facets": [
+        "Rational exponents"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -51,28 +55,32 @@
       "options": [
         {
           "id": "A",
-          "text": "- \\frac{1}{2}",
-          "math_latex": "- \\frac{1}{2}"
+          "text": "-\\frac12",
+          "math_latex": "-\\frac12",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{1}{2}",
-          "math_latex": "\\frac{1}{2}"
+          "text": "\\frac12",
+          "math_latex": "\\frac12",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "1",
-          "math_latex": "1"
+          "text": "\\frac14",
+          "math_latex": "\\frac14",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{1}{4}",
-          "math_latex": "\\frac{1}{4}"
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{1}{2}",
+        "correct_option_text": "\\frac12",
         "explanation": "Raise 1/2 to the indicated denominator of the exponent to check the radicand."
       },
       "diagram_asset_ids": [],
@@ -83,7 +91,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(1/16)**(1/4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(1/16)^(1/4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q10-MCQ-02",
@@ -98,22 +146,26 @@
         {
           "id": "A",
           "text": "5",
-          "math_latex": "5"
+          "math_latex": "5",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "10",
-          "math_latex": "10"
+          "text": "625",
+          "math_latex": "625",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{5}{2}",
-          "math_latex": "\\frac{5}{2}"
+          "text": "25",
+          "math_latex": "25",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "-5",
-          "math_latex": "-5"
+          "math_latex": "-5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
@@ -129,7 +181,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "3125**(1/5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "3125^(1/5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q10-MCQ-03",
@@ -143,23 +235,27 @@
       "options": [
         {
           "id": "A",
-          "text": "18",
-          "math_latex": "18"
+          "text": "243",
+          "math_latex": "243",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{9}{2}",
-          "math_latex": "\\frac{9}{2}"
+          "text": "27",
+          "math_latex": "27",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
           "text": "-9",
-          "math_latex": "-9"
+          "math_latex": "-9",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "9",
-          "math_latex": "9"
+          "math_latex": "9",
+          "misconception": null
         }
       ],
       "answer": {
@@ -175,7 +271,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "729**(1/3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "729^(1/3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q10-MCQ-04",
@@ -189,28 +325,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{1}{4}",
-          "math_latex": "\\frac{1}{4}"
+          "text": "\\frac1{160}",
+          "math_latex": "\\frac1{160}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "- \\frac{1}{2}",
-          "math_latex": "- \\frac{1}{2}"
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{1}{2}",
-          "math_latex": "\\frac{1}{2}"
+          "text": "\\frac12",
+          "math_latex": "\\frac12",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "1",
-          "math_latex": "1"
+          "text": "-\\frac12",
+          "math_latex": "-\\frac12",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\frac{1}{2}",
+        "correct_option_text": "\\frac12",
         "explanation": "Raise 1/2 to the indicated denominator of the exponent to check the radicand."
       },
       "diagram_asset_ids": [],
@@ -221,7 +361,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(1/32)**(1/5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(1/32)^(1/5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q10-MCQ-05",
@@ -235,23 +415,27 @@
       "options": [
         {
           "id": "A",
-          "text": "-4",
-          "math_latex": "-4"
+          "text": "64",
+          "math_latex": "64",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
           "text": "4",
-          "math_latex": "4"
+          "math_latex": "4",
+          "misconception": null
         },
         {
           "id": "C",
           "text": "8",
-          "math_latex": "8"
+          "math_latex": "8",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "2",
-          "math_latex": "2"
+          "text": "-4",
+          "math_latex": "-4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
@@ -267,7 +451,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4096**(1/6)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "4096^(1/6)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q10-MCQ-06",
@@ -281,28 +505,32 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{2}{5}",
-          "math_latex": "\\frac{2}{5}"
+          "text": "\\frac25",
+          "math_latex": "\\frac25",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\frac{4}{5}",
-          "math_latex": "\\frac{4}{5}"
+          "text": "\\frac45",
+          "math_latex": "\\frac45",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{1}{5}",
-          "math_latex": "\\frac{1}{5}"
+          "text": "\\frac4{25}",
+          "math_latex": "\\frac4{25}",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "- \\frac{2}{5}",
-          "math_latex": "- \\frac{2}{5}"
+          "text": "-\\frac25",
+          "math_latex": "-\\frac25",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "\\frac{2}{5}",
+        "correct_option_text": "\\frac25",
         "explanation": "Raise 2/5 to the indicated denominator of the exponent to check the radicand."
       },
       "diagram_asset_ids": [],
@@ -313,7 +541,47 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rational exponents"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(16/625)**(1/4)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(16/625)^(1/4)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q10-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

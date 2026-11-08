@@ -33,7 +33,11 @@
         "G9G-BOOK-Q16-MCQ-03",
         "G9G-BOOK-Q16-MCQ-04"
       ],
-      "download": "LO16.json"
+      "download": "LO16.json",
+      "assessment_facets": [
+        "Evaluate step functions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO16",
       "type": "mcq",
       "display_number": "16.1",
-      "instruction": "Evaluate the step function at the given value.",
-      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
+      "instruction": "What is the value of the given expression? Evaluate the step function at the given value.",
+      "stem": "What is the value of the given expression? Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
       "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
       "options": [
         {
           "id": "A",
           "text": "1",
-          "math_latex": "1"
+          "math_latex": "1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "-1",
-          "math_latex": "-1"
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "3",
-          "math_latex": "3"
+          "text": "-2",
+          "math_latex": "-2",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "0",
-          "math_latex": "0"
+          "math_latex": "0",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -81,6 +89,51 @@
         "pdf_page": 131,
         "exercise": "18a",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "floor",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Apply floor first",
+            "keys": [],
+            "text": "Find the greatest integer ≤X−1 by reasoning, including for negative values; then enter the multiplication below. Do not round to the nearest integer."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*0",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*0"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q16-MCQ-01.png"
       }
     },
     {
@@ -88,29 +141,33 @@
       "learning_outcome_id": "LO16",
       "type": "mcq",
       "display_number": "16.2",
-      "instruction": "Evaluate the step function at the given value.",
-      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
+      "instruction": "What is the value of the given expression? Evaluate the step function at the given value.",
+      "stem": "What is the value of the given expression? Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
       "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
       "options": [
         {
           "id": "A",
-          "text": "1",
-          "math_latex": "1"
+          "text": "2.4",
+          "math_latex": "2.4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "-2",
-          "math_latex": "-2"
+          "text": "4",
+          "math_latex": "4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
           "text": "2",
-          "math_latex": "2"
+          "math_latex": "2",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "3",
-          "math_latex": "3"
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -127,6 +184,51 @@
         "pdf_page": 131,
         "exercise": "18b",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "floor",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Apply floor first",
+            "keys": [],
+            "text": "Find the greatest integer ≤X−1 by reasoning, including for negative values; then enter the multiplication below. Do not round to the nearest integer."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*1",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*1"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q16-MCQ-02.png"
       }
     },
     {
@@ -134,29 +236,33 @@
       "learning_outcome_id": "LO16",
       "type": "mcq",
       "display_number": "16.3",
-      "instruction": "Evaluate the step function at the given value.",
-      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
+      "instruction": "What is the value of the given expression? Evaluate the step function at the given value.",
+      "stem": "What is the value of the given expression? Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
       "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
       "options": [
         {
           "id": "A",
-          "text": "-16",
-          "math_latex": "-16"
+          "text": "17.4",
+          "math_latex": "17.4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
           "text": "16",
-          "math_latex": "16"
+          "math_latex": "16",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "17",
-          "math_latex": "17"
+          "text": "18",
+          "math_latex": "18",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "15",
-          "math_latex": "15"
+          "text": "8",
+          "math_latex": "8",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -173,6 +279,51 @@
         "pdf_page": 131,
         "exercise": "18c",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "floor",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Apply floor first",
+            "keys": [],
+            "text": "Find the greatest integer ≤X−1 by reasoning, including for negative values; then enter the multiplication below. Do not round to the nearest integer."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*8",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*8"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q16-MCQ-03.png"
       }
     },
     {
@@ -180,29 +331,33 @@
       "learning_outcome_id": "LO16",
       "type": "mcq",
       "display_number": "16.4",
-      "instruction": "Evaluate the step function at the given value.",
-      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
+      "instruction": "What is the value of the given expression? Evaluate the step function at the given value.",
+      "stem": "What is the value of the given expression? Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
       "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
       "options": [
         {
           "id": "A",
           "text": "-6",
-          "math_latex": "-6"
+          "math_latex": "-6",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "-5",
-          "math_latex": "-5"
+          "text": "-4",
+          "math_latex": "-4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "-7",
-          "math_latex": "-7"
+          "text": "-4.5",
+          "math_latex": "-4.5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
           "text": "6",
-          "math_latex": "6"
+          "math_latex": "6",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -219,6 +374,51 @@
         "pdf_page": 131,
         "exercise": "18d",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Evaluate step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "floor",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Apply floor first",
+            "keys": [],
+            "text": "Find the greatest integer ≤X−1 by reasoning, including for negative values; then enter the multiplication below. Do not round to the nearest integer."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*(-3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*(-3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q16-MCQ-04.png"
       }
     }
   ],

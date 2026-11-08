@@ -35,7 +35,11 @@
         "G10G-Q04-MCQ-02",
         "G10G-Q04-MCQ-03",
         "G10G-Q04-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Factor using distribution"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -44,30 +48,34 @@
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.1",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 16 t - 40 y",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 16 t - 40 y",
       "math_latex": "16 t - 40 y",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "\\frac{\\left(-1\\right) 8 \\left(- 2 t + 5 y\\right)}{2}",
-          "math_latex": "\\frac{\\left(-1\\right) 8 \\left(- 2 t + 5 y\\right)}{2}"
+          "text": "- 16 t - 40 y",
+          "math_latex": "- 16 t - 40 y",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "2 \\left(- 8 \\left(- 2 t + 5 y\\right)\\right)",
-          "math_latex": "2 \\left(- 8 \\left(- 2 t + 5 y\\right)\\right)"
+          "text": "16 t + 40 y",
+          "math_latex": "16 t + 40 y",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "8 \\left(- 2 t + 5 y\\right)",
-          "math_latex": "8 \\left(- 2 t + 5 y\\right)"
+          "text": "- 2 t + 5 y",
+          "math_latex": "- 2 t + 5 y",
+          "misconception": "Omit the greatest common numerical factor."
         },
         {
           "id": "D",
           "text": "- 8 \\left(- 2 t + 5 y\\right)",
-          "math_latex": "- 8 \\left(- 2 t + 5 y\\right)"
+          "math_latex": "- 8 \\left(- 2 t + 5 y\\right)",
+          "misconception": null
         }
       ],
       "answer": {
@@ -83,37 +91,92 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "t": 2,
+        "y": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'t': 2, 'y': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "16*2 - 40*3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "16*2 - 40*3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q04-MCQ-02",
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.2",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 30 v + 50 x",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 30 v + 50 x",
       "math_latex": "30 v + 50 x",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2 \\cdot 10 \\left(3 v + 5 x\\right)",
-          "math_latex": "2 \\cdot 10 \\left(3 v + 5 x\\right)"
+          "text": "- 30 v + 50 x",
+          "math_latex": "- 30 v + 50 x",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "- 10 \\left(3 v + 5 x\\right)",
-          "math_latex": "- 10 \\left(3 v + 5 x\\right)"
+          "text": "30 v - 50 x",
+          "math_latex": "30 v - 50 x",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
           "text": "10 \\left(3 v + 5 x\\right)",
-          "math_latex": "10 \\left(3 v + 5 x\\right)"
+          "math_latex": "10 \\left(3 v + 5 x\\right)",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{10 \\left(3 v + 5 x\\right)}{2}",
-          "math_latex": "\\frac{10 \\left(3 v + 5 x\\right)}{2}"
+          "text": "3 v + 5 x",
+          "math_latex": "3 v + 5 x",
+          "misconception": "Omit the greatest common numerical factor."
         }
       ],
       "answer": {
@@ -129,37 +192,92 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "v": 2,
+        "x": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'v': 2, 'x': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "30*2 + 50*3",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "30*2 + 50*3"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q04-MCQ-03",
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.3",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 2 k^{2} + 4 k",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 2 k^{2} + 4 k",
       "math_latex": "2 k^{2} + 4 k",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "- 2 k \\left(k + 2\\right)",
-          "math_latex": "- 2 k \\left(k + 2\\right)"
+          "text": "2 k \\left(2 - k\\right)",
+          "math_latex": "2 k \\left(2 - k\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
           "text": "2 k \\left(k + 2\\right)",
-          "math_latex": "2 k \\left(k + 2\\right)"
+          "math_latex": "2 k \\left(k + 2\\right)",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "\\frac{2 k \\left(k + 2\\right)}{2}",
-          "math_latex": "\\frac{2 k \\left(k + 2\\right)}{2}"
+          "text": "2 k \\left(k - 2\\right)",
+          "math_latex": "2 k \\left(k - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "2 \\cdot 2 k \\left(k + 2\\right)",
-          "math_latex": "2 \\cdot 2 k \\left(k + 2\\right)"
+          "text": "k \\left(k + 2\\right)",
+          "math_latex": "k \\left(k + 2\\right)",
+          "misconception": "Omit the greatest common numerical factor."
         }
       ],
       "answer": {
@@ -175,37 +293,91 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "k": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'k': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*2**2 + 4*2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*2^2 + 4*2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q04-MCQ-04",
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.4",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 5 z^{2} + 10 z",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 5 z^{2} + 10 z",
       "math_latex": "5 z^{2} + 10 z",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "5 z \\left(z + 2\\right)",
-          "math_latex": "5 z \\left(z + 2\\right)"
+          "math_latex": "5 z \\left(z + 2\\right)",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "\\frac{5 z \\left(z + 2\\right)}{2}",
-          "math_latex": "\\frac{5 z \\left(z + 2\\right)}{2}"
+          "text": "5 z \\left(2 - z\\right)",
+          "math_latex": "5 z \\left(2 - z\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "2 \\cdot 5 z \\left(z + 2\\right)",
-          "math_latex": "2 \\cdot 5 z \\left(z + 2\\right)"
+          "text": "5 z \\left(z - 2\\right)",
+          "math_latex": "5 z \\left(z - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "- 5 z \\left(z + 2\\right)",
-          "math_latex": "- 5 z \\left(z + 2\\right)"
+          "text": "z \\left(z + 2\\right)",
+          "math_latex": "z \\left(z + 2\\right)",
+          "misconception": "Omit the greatest common numerical factor."
         }
       ],
       "answer": {
@@ -221,42 +393,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "z": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'z': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "5*2**2 + 10*2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "5*2^2 + 10*2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q04-MCQ-05",
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.5",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 4 a^{2} b^{2} + 2 a^{2} b - 10 a b^{2}",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 4 a^{2} b^{2} + 2 a^{2} b - 10 a b^{2}",
       "math_latex": "4 a^{2} b^{2} + 2 a^{2} b - 10 a b^{2}",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "\\frac{2 a b \\left(2 a b + a - 5 b\\right)}{2}",
-          "math_latex": "\\frac{2 a b \\left(2 a b + a - 5 b\\right)}{2}"
+          "text": "2 a b \\left(- 2 a b - a - 5 b\\right)",
+          "math_latex": "2 a b \\left(- 2 a b - a - 5 b\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "2 \\cdot 2 a b \\left(2 a b + a - 5 b\\right)",
-          "math_latex": "2 \\cdot 2 a b \\left(2 a b + a - 5 b\\right)"
+          "text": "2 a b \\left(2 a b + a - 5 b + 10 b\\right)",
+          "math_latex": "2 a b \\left(2 a b + a - 5 b + 10 b\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "- 2 a b \\left(2 a b + a - 5 b\\right)",
-          "math_latex": "- 2 a b \\left(2 a b + a - 5 b\\right)"
+          "text": "a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
+          "math_latex": "a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
+          "misconception": "Omit the greatest common numerical factor."
         },
         {
           "id": "D",
-          "text": "2 a b \\left(2 a b + a - 5 b\\right)",
-          "math_latex": "2 a b \\left(2 a b + a - 5 b\\right)"
+          "text": "2 a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
+          "math_latex": "2 a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "2 a b \\left(2 a b + a - 5 b\\right)",
+        "correct_option_text": "2 a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
         "explanation": "Take out the GCF: 2·a·b·(2·a·b + a - 5·b). Expanding restores the original polynomial."
       },
       "diagram_asset_ids": [],
@@ -267,42 +493,97 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-10*2*3**2 + (4*(2**2*3**2) + 2*(2**2*3))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-10*2*3^2 + (4*(2^2*3^2) + 2*(2^2*3))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q04-MCQ-06",
       "learning_outcome_id": "LO04",
       "type": "mcq",
       "display_number": "4.6",
-      "instruction": "Factor completely over the integers.",
-      "stem": "Factor completely over the integers. 5 c^{2} v^{3} - 15 c^{2} v^{2} + 5 c^{2} v",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? 5 c^{2} v^{3} - 15 c^{2} v^{2} + 5 c^{2} v",
       "math_latex": "5 c^{2} v^{3} - 15 c^{2} v^{2} + 5 c^{2} v",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "2 \\cdot 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
-          "math_latex": "2 \\cdot 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+          "text": "5 c^{2} v \\left(- v^{2} - 3 v + 6 v + 1\\right)",
+          "math_latex": "5 c^{2} v \\left(- v^{2} - 3 v + 6 v + 1\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "- 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
-          "math_latex": "- 5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+          "text": "5 c^{2} v \\left(v^{2} - 3 v - 1\\right)",
+          "math_latex": "5 c^{2} v \\left(v^{2} - 3 v - 1\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
-          "math_latex": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)"
+          "text": "5 c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
+          "math_latex": "5 c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "\\frac{5 c^{2} v \\left(v^{2} - 3 v + 1\\right)}{2}",
-          "math_latex": "\\frac{5 c^{2} v \\left(v^{2} - 3 v + 1\\right)}{2}"
+          "text": "c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
+          "math_latex": "c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
+          "misconception": "Omit the greatest common numerical factor."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
+        "correct_option_text": "5 c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
         "explanation": "Take out the GCF: 5·c²·v·(v² - 3·v + 1). Expanding restores the original polynomial."
       },
       "diagram_asset_ids": [],
@@ -313,7 +594,58 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factor using distribution"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "c": 2,
+        "v": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'c': 2, 'v': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "5*(2**2*3) + (5*(2**2*3**3) - 15*2**2*3**2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "5*(2^2*3) + (5*(2^2*3^3) - 15*2^2*3^2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q04-MCQ-06.png"
+      }
     }
   ],
   "assets": {}

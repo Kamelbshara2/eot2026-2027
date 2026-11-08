@@ -52,10 +52,11 @@ if len(sys.argv) > 2:
     else:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == bank['source_sha256'], 'Wrong source book'
         book = fitz.open(path)
-for asset_id in used:
+for asset_id in bank['assets']:
     asset = bank['assets'][asset_id]
     original = fitz.Pixmap(folder / asset['src'])
-    assert pixels(original) in pdf_images, f'PDF image changed or missing: {asset_id}'
+    if asset_id in used:
+        assert pixels(original) in pdf_images, f'PDF image changed or missing: {asset_id}'
     if book or books:
         document=books[asset['source']['book_part']] if books else book
         page = document[asset['source']['pdf_page'] - 1]
@@ -63,4 +64,4 @@ for asset_id in used:
         clip = fitz.Rect(box[0]*page.rect.width, box[1]*page.rect.height, box[2]*page.rect.width, box[3]*page.rect.height)
         extracted = page.get_pixmap(matrix=fitz.Matrix(3, 3), clip=clip)
         assert pixels(extracted) == pixels(original), f'Image differs from original book crop: {asset_id}'
-print(f'{classroom}: {len(pdf)} PDF pages; all {len(mcqs)} printed MCQ keys match the bank and LO downloads; all {len(used)} diagrams preserve exact image pixels.' + (' Original textbook crops also verified.' if book or books else ''))
+print(f'{classroom}: {len(pdf)} PDF pages; all {len(mcqs)} printed MCQ keys match the bank and LO downloads; all {len(used)} diagrams preserve exact image pixels.' + (f' All {len(bank["assets"])} bank images also match their original textbook crops.' if book or books else ''))

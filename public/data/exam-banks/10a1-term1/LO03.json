@@ -33,7 +33,11 @@
         "G10A-BOOK-Q03-MCQ-03",
         "G10A-BOOK-Q03-MCQ-04"
       ],
-      "download": "LO03.json"
+      "download": "LO03.json",
+      "assessment_facets": [
+        "Factoring by GCF and grouping"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.1",
-      "instruction": "Factor completely using the Distributive Property.",
-      "stem": "Factor completely using the Distributive Property. f g + 4 f - 5 g - 20",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? f g + 4 f - 5 g - 20",
       "math_latex": "f g + 4 f - 5 g - 20",
       "options": [
         {
           "id": "A",
           "text": "\\left(f - 5\\right) \\left(g + 4\\right)",
-          "math_latex": "\\left(f - 5\\right) \\left(g + 4\\right)"
+          "math_latex": "\\left(f - 5\\right) \\left(g + 4\\right)",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- \\left(f - 5\\right) \\left(g + 4\\right)",
-          "math_latex": "- \\left(f - 5\\right) \\left(g + 4\\right)"
+          "text": "\\left(- f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(- f - 5\\right) \\left(g + 4\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "2 \\left(f - 5\\right) \\left(g + 4\\right)",
-          "math_latex": "2 \\left(f - 5\\right) \\left(g + 4\\right)"
+          "text": "\\left(f + 5\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(f + 5\\right) \\left(g + 4\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "\\left(f - 4\\right) \\left(g + 4\\right)",
-          "math_latex": "\\left(f - 4\\right) \\left(g + 4\\right)"
+          "text": "\\left(4 - g\\right) \\left(f - 5\\right)",
+          "math_latex": "\\left(4 - g\\right) \\left(f - 5\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -81,6 +89,57 @@
         "pdf_page": 39,
         "exercise": "11",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring by GCF and grouping"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "f": 2,
+        "g": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'f': 2, 'g': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5*3 + (2*3 + 4*2)) - 20",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-5*3 + (2*3 + 4*2)) - 20"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q03-MCQ-01.png"
       }
     },
     {
@@ -88,29 +147,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.2",
-      "instruction": "Factor completely using the Distributive Property.",
-      "stem": "Factor completely using the Distributive Property. h j - 2 h + 5 j - 10",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? h j - 2 h + 5 j - 10",
       "math_latex": "h j - 2 h + 5 j - 10",
       "options": [
         {
           "id": "A",
-          "text": "- \\left(h + 5\\right) \\left(j - 2\\right)",
-          "math_latex": "- \\left(h + 5\\right) \\left(j - 2\\right)"
+          "text": "\\left(5 - h\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(5 - h\\right) \\left(j - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "2 \\left(h + 5\\right) \\left(j - 2\\right)",
-          "math_latex": "2 \\left(h + 5\\right) \\left(j - 2\\right)"
+          "text": "\\left(h - 5\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(h - 5\\right) \\left(j - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "\\left(h + 6\\right) \\left(j - 2\\right)",
-          "math_latex": "\\left(h + 6\\right) \\left(j - 2\\right)"
+          "text": "\\left(h + 5\\right) \\left(- j - 2\\right)",
+          "math_latex": "\\left(h + 5\\right) \\left(- j - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
           "text": "\\left(h + 5\\right) \\left(j - 2\\right)",
-          "math_latex": "\\left(h + 5\\right) \\left(j - 2\\right)"
+          "math_latex": "\\left(h + 5\\right) \\left(j - 2\\right)",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -127,6 +190,57 @@
         "pdf_page": 39,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring by GCF and grouping"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "h": 2,
+        "j": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'h': 2, 'j': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(5*3 + (2*3 - 2*2)) - 10",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(5*3 + (2*3 - 2*2)) - 10"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q03-MCQ-02.png"
       }
     },
     {
@@ -134,29 +248,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.3",
-      "instruction": "Factor completely using the Distributive Property.",
-      "stem": "Factor completely using the Distributive Property. x y - 2 x + y - 2",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? x y - 2 x + y - 2",
       "math_latex": "x y - 2 x + y - 2",
       "options": [
         {
           "id": "A",
-          "text": "2 \\left(x + 1\\right) \\left(y - 2\\right)",
-          "math_latex": "2 \\left(x + 1\\right) \\left(y - 2\\right)"
+          "text": "\\left(1 - x\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(1 - x\\right) \\left(y - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "\\left(x + 2\\right) \\left(y - 2\\right)",
-          "math_latex": "\\left(x + 2\\right) \\left(y - 2\\right)"
+          "text": "\\left(x - 1\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(x - 1\\right) \\left(y - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
           "text": "\\left(x + 1\\right) \\left(y - 2\\right)",
-          "math_latex": "\\left(x + 1\\right) \\left(y - 2\\right)"
+          "math_latex": "\\left(x + 1\\right) \\left(y - 2\\right)",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "- \\left(x + 1\\right) \\left(y - 2\\right)",
-          "math_latex": "- \\left(x + 1\\right) \\left(y - 2\\right)"
+          "text": "\\left(x + 1\\right) \\left(- y - 2\\right)",
+          "math_latex": "\\left(x + 1\\right) \\left(- y - 2\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -173,6 +291,57 @@
         "pdf_page": 39,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring by GCF and grouping"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2,
+        "y": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2, 'y': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(3 + (2*3 - 2*2)) - 2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(3 + (2*3 - 2*2)) - 2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q03-MCQ-03.png"
       }
     },
     {
@@ -180,29 +349,33 @@
       "learning_outcome_id": "LO03",
       "type": "mcq",
       "display_number": "3.4",
-      "instruction": "Factor completely using the Distributive Property.",
-      "stem": "Factor completely using the Distributive Property. p v + 8 p + 12 v + 96",
+      "instruction": "Which option is the complete factorisation of the expression?",
+      "stem": "Which option is the complete factorisation of the expression? p v + 8 p + 12 v + 96",
       "math_latex": "p v + 8 p + 12 v + 96",
       "options": [
         {
           "id": "A",
-          "text": "\\left(p + 13\\right) \\left(v + 8\\right)",
-          "math_latex": "\\left(p + 13\\right) \\left(v + 8\\right)"
+          "text": "\\left(12 - p\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(12 - p\\right) \\left(v + 8\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
           "text": "\\left(p + 12\\right) \\left(v + 8\\right)",
-          "math_latex": "\\left(p + 12\\right) \\left(v + 8\\right)"
+          "math_latex": "\\left(p + 12\\right) \\left(v + 8\\right)",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "- \\left(p + 12\\right) \\left(v + 8\\right)",
-          "math_latex": "- \\left(p + 12\\right) \\left(v + 8\\right)"
+          "text": "\\left(p - 12\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(p - 12\\right) \\left(v + 8\\right)",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "D",
-          "text": "2 \\left(p + 12\\right) \\left(v + 8\\right)",
-          "math_latex": "2 \\left(p + 12\\right) \\left(v + 8\\right)"
+          "text": "\\left(8 - v\\right) \\left(p + 12\\right)",
+          "math_latex": "\\left(8 - v\\right) \\left(p + 12\\right)",
+          "misconception": "Reverse a sign inside a factor."
         }
       ],
       "marks": null,
@@ -219,6 +392,57 @@
         "pdf_page": 39,
         "exercise": "20",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring by GCF and grouping"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "p": 2,
+        "v": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'p': 2, 'v': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(12*3 + (2*3 + 8*2)) + 96",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(12*3 + (2*3 + 8*2)) + 96"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q03-MCQ-04.png"
       }
     }
   ],

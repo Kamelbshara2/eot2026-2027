@@ -35,7 +35,11 @@
         "G10G-Q17-MCQ-02",
         "G10G-Q17-MCQ-03",
         "G10G-Q17-MCQ-04"
-      ]
+      ],
+      "assessment_facets": [
+        "Factoring quadratic equations"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -52,12 +56,14 @@
         {
           "id": "A",
           "text": "b=0,-3",
-          "math_latex": "b=0,-3"
+          "math_latex": "b=0,-3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "b=-3,3",
-          "math_latex": "b=-3,3"
+          "math_latex": "b=-3,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -67,7 +73,8 @@
         {
           "id": "D",
           "text": "b=3",
-          "math_latex": "b=3"
+          "math_latex": "b=3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -83,7 +90,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q17-MCQ-02",
@@ -98,7 +117,8 @@
         {
           "id": "A",
           "text": "x=-\\frac73,3",
-          "math_latex": "x=-\\frac73,3"
+          "math_latex": "x=-\\frac73,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -108,12 +128,14 @@
         {
           "id": "C",
           "text": "x=\\frac37,-3",
-          "math_latex": "x=\\frac37,-3"
+          "math_latex": "x=\\frac37,-3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "x=-3,3",
-          "math_latex": "x=-3,3"
+          "math_latex": "x=-3,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -129,7 +151,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-36)^2-4*(14)*(-18)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-36)+sqrt(2304))/(2*(14))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-36)-sqrt(2304))/(2*(14))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-36)^2-4*(14)*(-18)",
+          "(-(-36)+sqrt(2304))/(2*(14))",
+          "(-(-36)-sqrt(2304))/(2*(14))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q17-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q17-MCQ-03",
@@ -149,17 +236,20 @@
         {
           "id": "B",
           "text": "b=-3",
-          "math_latex": "b=-3"
+          "math_latex": "b=-3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "b=0,3",
-          "math_latex": "b=0,3"
+          "math_latex": "b=0,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "b=-3,3",
-          "math_latex": "b=-3,3"
+          "math_latex": "b=-3,3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -175,7 +265,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q17-MCQ-04",
@@ -190,17 +292,20 @@
         {
           "id": "A",
           "text": "a=4",
-          "math_latex": "a=4"
+          "math_latex": "a=4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "a=0,-4",
-          "math_latex": "a=0,-4"
+          "math_latex": "a=0,-4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "a=-4,4",
-          "math_latex": "a=-4,4"
+          "math_latex": "a=-4,4",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -221,7 +326,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q17-MCQ-05",
@@ -236,12 +353,14 @@
         {
           "id": "A",
           "text": "x=3,9",
-          "math_latex": "x=3,9"
+          "math_latex": "x=3,9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "x=-3,-9",
-          "math_latex": "x=-3,-9"
+          "math_latex": "x=-3,-9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -251,7 +370,8 @@
         {
           "id": "D",
           "text": "x=3,-9",
-          "math_latex": "x=3,-9"
+          "math_latex": "x=3,-9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -267,7 +387,72 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "quadratic",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Check the discriminant, then both signs",
+            "keys": [],
+            "text": "Rearrange to ax²+bx+c=0. Calculate b²−4ac first. A negative result means no real roots; otherwise evaluate both quadratic-formula expressions. Use the method requested by the question in your written work."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-6)^2-4*(1)*(-27)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-6)+sqrt(144))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-(-6)-sqrt(144))/(2*(1))",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-6)^2-4*(1)*(-27)",
+          "(-(-6)+sqrt(144))/(2*(1))",
+          "(-(-6)-sqrt(144))/(2*(1))"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q17-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q17-MCQ-06",
@@ -282,7 +467,8 @@
         {
           "id": "A",
           "text": "a=2,-9",
-          "math_latex": "a=2,-9"
+          "math_latex": "a=2,-9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -292,12 +478,14 @@
         {
           "id": "C",
           "text": "a=2,9",
-          "math_latex": "a=2,9"
+          "math_latex": "a=2,9",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "a=-3,-6",
-          "math_latex": "a=-3,-6"
+          "math_latex": "a=-3,-6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -313,7 +501,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Factoring quadratic equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

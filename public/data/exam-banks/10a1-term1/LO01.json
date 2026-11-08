@@ -33,7 +33,11 @@
         "G10A-BOOK-Q01-MCQ-03",
         "G10A-BOOK-Q01-MCQ-04"
       ],
-      "download": "LO01.json"
+      "download": "LO01.json",
+      "assessment_facets": [
+        "Polynomial operations"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,19 +46,21 @@
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.1",
-      "instruction": "Write in standard form and identify the leading coefficient.",
-      "stem": "Write in standard form and identify the leading coefficient. -y^3+3y-3y^2+2",
+      "instruction": "Which option shows the polynomial in standard form and its leading coefficient?",
+      "stem": "Which option shows the polynomial in standard form and its leading coefficient? -y^3+3y-3y^2+2",
       "math_latex": "-y^3+3y-3y^2+2",
       "options": [
         {
           "id": "A",
           "text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 1",
-          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 1"
+          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 2",
-          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 2"
+          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -64,7 +70,8 @@
         {
           "id": "D",
           "text": "y^{3} + 3 y^{2} - 3 y - 2,\\quad 1",
-          "math_latex": "y^{3} + 3 y^{2} - 3 y - 2,\\quad 1"
+          "math_latex": "y^{3} + 3 y^{2} - 3 y - 2,\\quad 1",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -81,6 +88,56 @@
         "pdf_page": 9,
         "exercise": "10",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Polynomial operations"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "y": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'y': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-3*2**2 + (-2**3 + 3*2)) + 2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-3*2^2 + (-2^3 + 3*2)) + 2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q01-MCQ-01.png"
       }
     },
     {
@@ -88,14 +145,15 @@
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.2",
-      "instruction": "Write in standard form and identify the leading coefficient.",
-      "stem": "Write in standard form and identify the leading coefficient. \\frac12x-3x^4+7",
+      "instruction": "Which option shows the polynomial in standard form and its leading coefficient?",
+      "stem": "Which option shows the polynomial in standard form and its leading coefficient? \\frac12x-3x^4+7",
       "math_latex": "\\frac12x-3x^4+7",
       "options": [
         {
           "id": "A",
           "text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 2",
-          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 2"
+          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 2",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -105,12 +163,14 @@
         {
           "id": "C",
           "text": "3 x^{4} - \\frac{x}{2} - 7,\\quad 3",
-          "math_latex": "3 x^{4} - \\frac{x}{2} - 7,\\quad 3"
+          "math_latex": "3 x^{4} - \\frac{x}{2} - 7,\\quad 3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 3",
-          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 3"
+          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 3",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -127,6 +187,56 @@
         "pdf_page": 9,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Polynomial operations"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-3*2**4 + 2/2) + 7",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-3*2^4 + 2/2) + 7"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q01-MCQ-02.png"
       }
     },
     {
@@ -134,29 +244,33 @@
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.3",
-      "instruction": "Find the sum or difference.",
-      "stem": "Find the sum or difference. (2h^2-5h)+(7h-3h^2)",
+      "instruction": "Which option gives the sum or difference?",
+      "stem": "Which option gives the sum or difference? (2h^2-5h)+(7h-3h^2)",
       "math_latex": "(2h^2-5h)+(7h-3h^2)",
       "options": [
         {
           "id": "A",
           "text": "- h^{2} + 2 h",
-          "math_latex": "- h^{2} + 2 h"
+          "math_latex": "- h^{2} + 2 h",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "- h^{2} + 2 h + 1",
-          "math_latex": "- h^{2} + 2 h + 1"
+          "text": "2 h",
+          "math_latex": "2 h",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "h^{2} - 2 h",
-          "math_latex": "h^{2} - 2 h"
+          "text": "h^{2} + 2 h",
+          "math_latex": "h^{2} + 2 h",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "- h^{2} + 2 h - x",
-          "math_latex": "- h^{2} + 2 h - x"
+          "text": "- h^{2}",
+          "math_latex": "- h^{2}",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "marks": null,
@@ -173,6 +287,56 @@
         "pdf_page": 9,
         "exercise": "22",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Polynomial operations"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "h": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'h': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*2**2 - 5*2) + (-3*2**2 + 7*2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2*2^2 - 5*2) + (-3*2^2 + 7*2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q01-MCQ-03.png"
       }
     },
     {
@@ -180,35 +344,39 @@
       "learning_outcome_id": "LO01",
       "type": "mcq",
       "display_number": "1.4",
-      "instruction": "Find the sum or difference.",
-      "stem": "Find the sum or difference. (2x+3x^2)-(7-8x^2)",
+      "instruction": "Which option gives the sum or difference?",
+      "stem": "Which option gives the sum or difference? (2x+3x^2)-(7-8x^2)",
       "math_latex": "(2x+3x^2)-(7-8x^2)",
       "options": [
         {
           "id": "A",
-          "text": "11 x^{2} + 2 x - 6",
-          "math_latex": "11 x^{2} + 2 x - 6"
+          "text": "11 x^{2} + 2 x",
+          "math_latex": "11 x^{2} + 2 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "- 11 x^{2} - 2 x + 7",
-          "math_latex": "- 11 x^{2} - 2 x + 7"
+          "text": "11 x^{2} + 2 x + 7",
+          "math_latex": "11 x^{2} + 2 x + 7",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "11 x^{2} + x - 7",
-          "math_latex": "11 x^{2} + x - 7"
+          "text": "11 x^{2} - 7",
+          "math_latex": "11 x^{2} - 7",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
-          "text": "11 x^{2} + 2 x - 7",
-          "math_latex": "11 x^{2} + 2 x - 7"
+          "text": "\\left(11 x^{2} + 2 x\\right) - 7",
+          "math_latex": "\\left(11 x^{2} + 2 x\\right) - 7",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "11 x^{2} + 2 x - 7",
+        "correct_option_text": "\\left(11 x^{2} + 2 x\\right) - 7",
         "explanation": "Distribute any subtraction sign, then combine like powers."
       },
       "diagram_asset_ids": [],
@@ -219,6 +387,56 @@
         "pdf_page": 9,
         "exercise": "26",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Polynomial operations"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "-(7 - 8*2**2) + (3*2**2 + 2*2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "-(7 - 8*2^2) + (3*2^2 + 2*2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q01-MCQ-04.png"
       }
     }
   ],

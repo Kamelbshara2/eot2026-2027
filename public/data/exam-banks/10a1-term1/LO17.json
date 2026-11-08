@@ -3,7 +3,7 @@
     "id": "10a1-term1-LO17",
     "classroom": "10A1",
     "learning_outcome_id": "LO17",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -24,20 +24,27 @@
         }
       ],
       "title_ar": "المثلثات القائمة الخاصة",
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G10A-BOOK-Q17-MCQ-01",
         "G10A-BOOK-Q17-MCQ-02",
         "G10A-BOOK-Q17-MCQ-03",
-        "G10A-BOOK-Q17-MCQ-04"
+        "G10A-BOOK-Q17-MCQ-04",
+        "10A1-REV-LO17-01",
+        "10A1-REV-LO17-02"
       ],
       "booklet_question_ids": [
         "G10A-BOOK-Q17-MCQ-01",
         "G10A-BOOK-Q17-MCQ-02",
-        "G10A-BOOK-Q17-MCQ-03",
-        "G10A-BOOK-Q17-MCQ-04"
+        "10A1-REV-LO17-01",
+        "10A1-REV-LO17-02"
       ],
-      "download": "LO17.json"
+      "download": "LO17.json",
+      "assessment_facets": [
+        "45-45-90",
+        "Special right triangles"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -46,19 +53,21 @@
       "learning_outcome_id": "LO17",
       "type": "mcq",
       "display_number": "17.1",
-      "instruction": "Find x and y in simplest exact form.",
-      "stem": "Find x and y in simplest exact form.",
+      "instruction": "Which values of x and y are correct, in simplest exact form?",
+      "stem": "Which values of x and y are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y)=(8\\sqrt3,16)",
-          "math_latex": "(x,y)=(8\\sqrt3,16)"
+          "math_latex": "(x,y)=(8\\sqrt3,16)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(x,y)=(8,8\\sqrt3)",
-          "math_latex": "(x,y)=(8,8\\sqrt3)"
+          "math_latex": "(x,y)=(8,8\\sqrt3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -68,7 +77,8 @@
         {
           "id": "D",
           "text": "(x,y)=(16,8)",
-          "math_latex": "(x,y)=(16,8)"
+          "math_latex": "(x,y)=(16,8)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -87,6 +97,56 @@
         "pdf_page": 128,
         "exercise": "19",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Special right triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(8*sqrt(3))/sqrt(3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*8",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(8*sqrt(3))/sqrt(3)",
+          "2*8"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q17-MCQ-01.png"
       }
     },
     {
@@ -94,14 +154,15 @@
       "learning_outcome_id": "LO17",
       "type": "mcq",
       "display_number": "17.2",
-      "instruction": "Find x and y in simplest exact form.",
-      "stem": "Find x and y in simplest exact form.",
+      "instruction": "Which values of x and y are correct, in simplest exact form?",
+      "stem": "Which values of x and y are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y)=(10,10\\sqrt3)",
-          "math_latex": "(x,y)=(10,10\\sqrt3)"
+          "math_latex": "(x,y)=(10,10\\sqrt3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -111,12 +172,14 @@
         {
           "id": "C",
           "text": "(x,y)=(20,10)",
-          "math_latex": "(x,y)=(20,10)"
+          "math_latex": "(x,y)=(20,10)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "(x,y)=(10\\sqrt3,20)",
-          "math_latex": "(x,y)=(10\\sqrt3,20)"
+          "math_latex": "(x,y)=(10\\sqrt3,20)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -135,6 +198,56 @@
         "pdf_page": 128,
         "exercise": "20",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Special right triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(10*sqrt(3))/sqrt(3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*10",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(10*sqrt(3))/sqrt(3)",
+          "2*10"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q17-MCQ-02.png"
       }
     },
     {
@@ -142,8 +255,8 @@
       "learning_outcome_id": "LO17",
       "type": "mcq",
       "display_number": "17.3",
-      "instruction": "Find x and y in simplest exact form.",
-      "stem": "Find x and y in simplest exact form.",
+      "instruction": "Which values of x and y are correct, in simplest exact form?",
+      "stem": "Which values of x and y are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
@@ -154,17 +267,20 @@
         {
           "id": "B",
           "text": "(x,y)=(\\frac{15}{2},\\frac{15\\sqrt3}{2})",
-          "math_latex": "(x,y)=(\\frac{15}{2},\\frac{15\\sqrt3}{2})"
+          "math_latex": "(x,y)=(\\frac{15}{2},\\frac{15\\sqrt3}{2})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "(x,y)=(15\\sqrt3,15)",
-          "math_latex": "(x,y)=(15\\sqrt3,15)"
+          "math_latex": "(x,y)=(15\\sqrt3,15)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "(x,y)=(\\frac{15\\sqrt2}{2},\\frac{15}{2})",
-          "math_latex": "(x,y)=(\\frac{15\\sqrt2}{2},\\frac{15}{2})"
+          "math_latex": "(x,y)=(\\frac{15\\sqrt2}{2},\\frac{15}{2})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -183,6 +299,56 @@
         "pdf_page": 128,
         "exercise": "21",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Special right triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15*sqrt(3)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "15/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "15*sqrt(3)/2",
+          "15/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q17-MCQ-03.png"
       }
     },
     {
@@ -190,24 +356,27 @@
       "learning_outcome_id": "LO17",
       "type": "mcq",
       "display_number": "17.4",
-      "instruction": "Find x and y in simplest exact form.",
-      "stem": "Find x and y in simplest exact form.",
+      "instruction": "Which values of x and y are correct, in simplest exact form?",
+      "stem": "Which values of x and y are correct, in simplest exact form? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "(x,y)=(14,28)",
-          "math_latex": "(x,y)=(14,28)"
+          "math_latex": "(x,y)=(14,28)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "(x,y)=(14\\sqrt3,28\\sqrt3)",
-          "math_latex": "(x,y)=(14\\sqrt3,28\\sqrt3)"
+          "math_latex": "(x,y)=(14\\sqrt3,28\\sqrt3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "(x,y)=(\\frac{28\\sqrt3}{3},\\frac{14\\sqrt3}{3})",
-          "math_latex": "(x,y)=(\\frac{28\\sqrt3}{3},\\frac{14\\sqrt3}{3})"
+          "math_latex": "(x,y)=(\\frac{28\\sqrt3}{3},\\frac{14\\sqrt3}{3})",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -231,27 +400,223 @@
         "pdf_page": 128,
         "exercise": "24",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Special right triangles"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "14/sqrt(3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*14/sqrt(3)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "14/sqrt(3)",
+          "2*14/sqrt(3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q17-MCQ-04.png"
       }
-    }
-  ],
-  "assets": {
-    "q17_20": {
-      "src": "assets/q17_20.png",
-      "width": 430,
-      "height": 393,
-      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 20.",
+    },
+    {
+      "id": "10A1-REV-LO17-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.5",
+      "instruction": "A 45°–45°–90° triangle has legs of length 6. What is its hypotenuse?",
+      "stem": "A 45°–45°–90° triangle has legs of length 6. What is its hypotenuse? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3\\sqrt2",
+          "math_latex": "3\\sqrt2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "6\\sqrt2",
+          "math_latex": "6\\sqrt2",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "math_latex": "12",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "math_latex": "6",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "6\\sqrt2",
+        "explanation": "Hypotenuse=leg·√2."
+      },
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 184,
         "pdf_page": 128,
-        "exercise": "20",
+        "exercise": "Application of 19",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "45-45-90"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10A1-REV-LO17-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.6",
+      "instruction": "A 45°–45°–90° triangle has hypotenuse 10. What is each leg?",
+      "stem": "A 45°–45°–90° triangle has hypotenuse 10. What is each leg? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5\\sqrt2",
+          "math_latex": "5\\sqrt2",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "10\\sqrt2",
+          "math_latex": "10\\sqrt2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "math_latex": "5",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "20",
+          "math_latex": "20",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5\\sqrt2",
+        "explanation": "Each leg=hypotenuse/√2."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "Application of 19",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10A-BOOK-Q17-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "45-45-90"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "advanced",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    }
+  ],
+  "assets": {
+    "q17_21": {
+      "src": "assets/q17_21.png",
+      "width": 412,
+      "height": 393,
+      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 21.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "21",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.31,
+        0.57,
         0.125,
-        0.55,
+        0.8,
+        0.28
+      ]
+    },
+    "q17_19": {
+      "src": "assets/q17_19.png",
+      "width": 376,
+      "height": 393,
+      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 19.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "19",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.125,
+        0.26,
         0.28
       ]
     },
@@ -275,43 +640,23 @@
         0.39
       ]
     },
-    "q17_19": {
-      "src": "assets/q17_19.png",
-      "width": 376,
+    "q17_20": {
+      "src": "assets/q17_20.png",
+      "width": 430,
       "height": 393,
-      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 19.",
+      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 20.",
       "source": {
         "book_part": 2,
         "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
         "printed_page": 184,
         "pdf_page": 128,
-        "exercise": "19",
+        "exercise": "20",
         "adaptation": "transcription"
       },
       "crop_box": [
-        0.05,
+        0.31,
         0.125,
-        0.26,
-        0.28
-      ]
-    },
-    "q17_21": {
-      "src": "assets/q17_21.png",
-      "width": 412,
-      "height": 393,
-      "alt_text": "Original textbook diagram, Reveal p. 184, exercise 21.",
-      "source": {
-        "book_part": 2,
-        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
-        "printed_page": 184,
-        "pdf_page": 128,
-        "exercise": "21",
-        "adaptation": "transcription"
-      },
-      "crop_box": [
-        0.57,
-        0.125,
-        0.8,
+        0.55,
         0.28
       ]
     }

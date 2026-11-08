@@ -33,7 +33,11 @@
         "G9G-BOOK-Q20-MCQ-03",
         "G9G-BOOK-Q20-MCQ-04"
       ],
-      "download": "LO20.json"
+      "download": "LO20.json",
+      "assessment_facets": [
+        "Solve multi-step equations"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.1",
-      "instruction": "Solve the equation. Check your solution.",
-      "stem": "Solve the equation. Check your solution. 3x+8=29",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? 3x+8=29",
       "math_latex": "3x+8=29",
       "options": [
         {
           "id": "A",
-          "text": "8",
-          "math_latex": "8"
+          "text": "\\frac{37}{3}",
+          "math_latex": "\\frac{37}{3}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "6",
-          "math_latex": "6"
+          "text": "21",
+          "math_latex": "21",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
           "text": "-7",
-          "math_latex": "-7"
+          "math_latex": "-7",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
           "text": "7",
-          "math_latex": "7"
+          "math_latex": "7",
+          "misconception": null
         }
       ],
       "marks": null,
@@ -81,6 +89,57 @@
         "pdf_page": 89,
         "exercise": "27",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve multi-step equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "3*X + 8=29",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "3*X + 8=29"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q20-MCQ-01.png"
       }
     },
     {
@@ -88,29 +147,33 @@
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.2",
-      "instruction": "Solve the equation. Check your solution.",
-      "stem": "Solve the equation. Check your solution. \\frac{5f}{2}-6=19",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? \\frac{5f}{2}-6=19",
       "math_latex": "\\frac{5f}{2}-6=19",
       "options": [
         {
           "id": "A",
-          "text": "9",
-          "math_latex": "9"
+          "text": "\\frac{26}{5}",
+          "math_latex": "\\frac{26}{5}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "-10",
-          "math_latex": "-10"
+          "text": "25",
+          "math_latex": "25",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
           "text": "10",
-          "math_latex": "10"
+          "math_latex": "10",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "11",
-          "math_latex": "11"
+          "text": "-10",
+          "math_latex": "-10",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -127,6 +190,57 @@
         "pdf_page": 89,
         "exercise": "29",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve multi-step equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "(5*X)/2 - 6=19",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "(5*X)/2 - 6=19"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q20-MCQ-02.png"
       }
     },
     {
@@ -134,29 +248,33 @@
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.3",
-      "instruction": "Solve the equation. Check your solution.",
-      "stem": "Solve the equation. Check your solution. 5(1+n)=-5",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? 5(1+n)=-5",
       "math_latex": "5(1+n)=-5",
       "options": [
         {
           "id": "A",
-          "text": "2",
-          "math_latex": "2"
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
           "text": "-2",
-          "math_latex": "-2"
+          "math_latex": "-2",
+          "misconception": null
         },
         {
           "id": "C",
           "text": "-1",
-          "math_latex": "-1"
+          "math_latex": "-1",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "-3",
-          "math_latex": "-3"
+          "text": "-6",
+          "math_latex": "-6",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -173,6 +291,57 @@
         "pdf_page": 89,
         "exercise": "33",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve multi-step equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "5*(X + 1)=-5",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "5*(X + 1)=-5"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q20-MCQ-03.png"
       }
     },
     {
@@ -180,29 +349,33 @@
       "learning_outcome_id": "LO20",
       "type": "mcq",
       "display_number": "20.4",
-      "instruction": "Solve the equation. Check your solution.",
-      "stem": "Solve the equation. Check your solution. -27=-6-3p",
+      "instruction": "Which value satisfies the equation?",
+      "stem": "Which value satisfies the equation? -27=-6-3p",
       "math_latex": "-27=-6-3p",
       "options": [
         {
           "id": "A",
           "text": "7",
-          "math_latex": "7"
+          "math_latex": "7",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "8",
-          "math_latex": "8"
+          "text": "-7",
+          "math_latex": "-7",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "6",
-          "math_latex": "6"
+          "text": "11",
+          "math_latex": "11",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "-7",
-          "math_latex": "-7"
+          "text": "21",
+          "math_latex": "21",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -219,6 +392,57 @@
         "pdf_page": 89,
         "exercise": "34",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve multi-step equations"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "-27=-3*X - 6",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "-27=-3*X - 6"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q20-MCQ-04.png"
       }
     }
   ],

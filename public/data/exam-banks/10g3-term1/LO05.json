@@ -35,7 +35,11 @@
         "G10G-Q05-MCQ-03",
         "G10G-Q05-MCQ-05",
         "G10G-Q05-MCQ-06"
-      ]
+      ],
+      "assessment_facets": [
+        "Analyse monic trinomial factors"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -45,34 +49,38 @@
       "type": "mcq",
       "display_number": "5.1",
       "instruction": "Which expression does not belong because it cannot be factored using integers?",
-      "stem": "Which expression does not belong because it cannot be factored using integers?",
+      "stem": "Which expression does not belong because it cannot be factored using integers? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "x^{2} + 11 x + 24",
-          "math_latex": "x^{2} + 11 x + 24"
+          "text": "- x^{2} - 12 x + 24",
+          "math_latex": "- x^{2} - 12 x + 24",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "B",
-          "text": "x^{2} - 10 x - 24",
-          "math_latex": "x^{2} - 10 x - 24"
+          "text": "x^{2} + 12 x - 24",
+          "math_latex": "x^{2} + 12 x - 24",
+          "misconception": "Reverse a sign inside a factor."
         },
         {
           "id": "C",
-          "text": "x^{2} + 12 x + 24",
-          "math_latex": "x^{2} + 12 x + 24"
+          "text": "\\left(x^{2} + 12 x\\right) + 24",
+          "math_latex": "\\left(x^{2} + 12 x\\right) + 24",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "x^{2} + 2 x - 24",
-          "math_latex": "x^{2} + 2 x - 24"
+          "text": "- x^{2} - 12 x - 24",
+          "math_latex": "- x^{2} - 12 x - 24",
+          "misconception": "Reverse every sign instead of applying the operation to the required term."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "x^{2} + 12 x + 24",
+        "correct_option_text": "\\left(x^{2} + 12 x\\right) + 24",
         "explanation": "For 24, no integer factor pair sums to 12. The other three factor into integer binomials."
       },
       "diagram_asset_ids": [],
@@ -83,7 +91,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q05-MCQ-02",
@@ -91,13 +111,14 @@
       "type": "mcq",
       "display_number": "5.2",
       "instruction": "Jamaall: (x+2)(x−8). Charles: (x−2)(x+8). Who correctly factored x²+6x−16?",
-      "stem": "Jamaall: (x+2)(x−8). Charles: (x−2)(x+8). Who correctly factored x²+6x−16?",
+      "stem": "Jamaall: (x+2)(x−8). Charles: (x−2)(x+8). Who correctly factored x²+6x−16? ",
       "math_latex": "",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "Neither student"
+          "text": "Neither student",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -105,11 +126,13 @@
         },
         {
           "id": "C",
-          "text": "Jamaall only"
+          "text": "Jamaall only",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Both students"
+          "text": "Both students",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -125,15 +148,27 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q05-MCQ-03",
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.3",
-      "instruction": "Find all values of k for which the polynomial factors using integers.",
-      "stem": "Find all values of k for which the polynomial factors using integers. x^2+kx-19",
+      "instruction": "Which option gives all values of k for which the polynomial factors using integers?",
+      "stem": "Which option gives all values of k for which the polynomial factors using integers? x^2+kx-19",
       "math_latex": "x^2+kx-19",
       "marks": null,
       "options": [
@@ -145,17 +180,20 @@
         {
           "id": "B",
           "text": "k\\in\\{-20,20\\}",
-          "math_latex": "k\\in\\{-20,20\\}"
+          "math_latex": "k\\in\\{-20,20\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "k\\in\\{-19,19\\}",
-          "math_latex": "k\\in\\{-19,19\\}"
+          "math_latex": "k\\in\\{-19,19\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "k=18",
-          "math_latex": "k=18"
+          "math_latex": "k=18",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -171,32 +209,86 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "k": 2,
+        "x": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'k': 2, 'x': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*3 + 3**2) - 19",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2*3 + 3^2) - 19"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q05-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q05-MCQ-04",
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.4",
-      "instruction": "Find all values of k for which the polynomial factors using integers.",
-      "stem": "Find all values of k for which the polynomial factors using integers. x^2+kx+14",
+      "instruction": "Which option gives all values of k for which the polynomial factors using integers?",
+      "stem": "Which option gives all values of k for which the polynomial factors using integers? x^2+kx+14",
       "math_latex": "x^2+kx+14",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "k\\in\\{9,15\\}",
-          "math_latex": "k\\in\\{9,15\\}"
+          "math_latex": "k\\in\\{9,15\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "k\\in\\{-14,14\\}",
-          "math_latex": "k\\in\\{-14,14\\}"
+          "math_latex": "k\\in\\{-14,14\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "k\\in\\{-8,8\\}",
-          "math_latex": "k\\in\\{-8,8\\}"
+          "math_latex": "k\\in\\{-8,8\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -217,27 +309,80 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "k": 2,
+        "x": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'k': 2, 'x': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2*3 + 3**2) + 14",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2*3 + 3^2) + 14"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q05-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q05-MCQ-05",
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.5",
-      "instruction": "Find all values of k for which the polynomial factors using integers.",
-      "stem": "Find all values of k for which the polynomial factors using integers. x^2-8x+k,\\quad k>0",
+      "instruction": "Which option gives all values of k for which the polynomial factors using integers?",
+      "stem": "Which option gives all values of k for which the polynomial factors using integers? x^2-8x+k,\\quad k>0",
       "math_latex": "x^2-8x+k,\\quad k>0",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "k\\in\\{8,16\\}",
-          "math_latex": "k\\in\\{8,16\\}"
+          "math_latex": "k\\in\\{8,16\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "k\\in\\{1,2,3,4\\}",
-          "math_latex": "k\\in\\{1,2,3,4\\}"
+          "math_latex": "k\\in\\{1,2,3,4\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -247,7 +392,8 @@
         {
           "id": "D",
           "text": "k\\in\\{7,12,15\\}",
-          "math_latex": "k\\in\\{7,12,15\\}"
+          "math_latex": "k\\in\\{7,12,15\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -263,22 +409,35 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q05-MCQ-06",
       "learning_outcome_id": "LO05",
       "type": "mcq",
       "display_number": "5.6",
-      "instruction": "Find all values of k for which the polynomial factors using integers.",
-      "stem": "Find all values of k for which the polynomial factors using integers. x^2-5x+k,\\quad k>0",
+      "instruction": "Which option gives all values of k for which the polynomial factors using integers?",
+      "stem": "Which option gives all values of k for which the polynomial factors using integers? x^2-5x+k,\\quad k>0",
       "math_latex": "x^2-5x+k,\\quad k>0",
       "marks": null,
       "options": [
         {
           "id": "A",
           "text": "k=6",
-          "math_latex": "k=6"
+          "math_latex": "k=6",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -288,12 +447,14 @@
         {
           "id": "C",
           "text": "k\\in\\{4,5,6\\}",
-          "math_latex": "k\\in\\{4,5,6\\}"
+          "math_latex": "k\\in\\{4,5,6\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "k\\in\\{1,5\\}",
-          "math_latex": "k\\in\\{1,5\\}"
+          "math_latex": "k\\in\\{1,5\\}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -309,7 +470,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Analyse monic trinomial factors"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

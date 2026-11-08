@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO16",
     "classroom": "10G3",
     "learning_outcome_id": "LO16",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -30,16 +30,23 @@
         "G10G-Q16-MCQ-03",
         "G10G-Q16-MCQ-04",
         "G10G-Q16-MCQ-05",
-        "G10G-Q16-MCQ-06"
+        "G10G-Q16-MCQ-06",
+        "10G3-REV-LO16-01",
+        "10G3-REV-LO16-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO16.json",
       "booklet_question_ids": [
         "G10G-Q16-MCQ-01",
         "G10G-Q16-MCQ-02",
-        "G10G-Q16-MCQ-05",
-        "G10G-Q16-MCQ-06"
-      ]
+        "10G3-REV-LO16-01",
+        "10G3-REV-LO16-02"
+      ],
+      "assessment_facets": [
+        "Translations of quadratics",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -55,15 +62,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Left 1 unit"
+          "text": "Left 1 unit",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Up 1 unit"
+          "text": "Up 1 unit",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Down 1 unit"
+          "text": "Down 1 unit",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -83,7 +93,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q16-MCQ-02",
@@ -97,11 +119,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Right 8 units"
+          "text": "Right 8 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Left 8 units"
+          "text": "Left 8 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -109,7 +133,8 @@
         },
         {
           "id": "D",
-          "text": "Up 8 units"
+          "text": "Up 8 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -125,7 +150,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q16-MCQ-03",
@@ -139,7 +176,8 @@
       "options": [
         {
           "id": "A",
-          "text": "Down 3 units"
+          "text": "Down 3 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -147,11 +185,13 @@
         },
         {
           "id": "C",
-          "text": "Right 3 units"
+          "text": "Right 3 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Up 3 units"
+          "text": "Up 3 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -167,7 +207,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q16-MCQ-04",
@@ -185,15 +237,18 @@
         },
         {
           "id": "B",
-          "text": "Down 7 units"
+          "text": "Down 7 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Right 7 units"
+          "text": "Right 7 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
-          "text": "Left 7 units"
+          "text": "Left 7 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -209,7 +264,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q16-MCQ-05",
@@ -223,15 +290,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Right 5 units and down 2 units"
+          "text": "Right 5 units and down 2 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Left 5 units and up 2 units"
+          "text": "Left 5 units and up 2 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Right 5 units and up 2 units"
+          "text": "Right 5 units and up 2 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -251,7 +321,19 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     },
     {
       "id": "G10G-Q16-MCQ-06",
@@ -265,11 +347,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Right 3 units and up 4 units"
+          "text": "Right 3 units and up 4 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Left 3 units and up 4 units"
+          "text": "Left 3 units and up 4 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -277,7 +361,8 @@
         },
         {
           "id": "D",
-          "text": "Left 3 units and down 4 units"
+          "text": "Left 3 units and down 4 units",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "answer": {
@@ -293,7 +378,139 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Translations of quadratics"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10G3-REV-LO16-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.7",
+      "instruction": "What is the vertex of the translated parabola?",
+      "stem": "What is the vertex of the translated parabola? y=(x-3)^2+2",
+      "math_latex": "y=(x-3)^2+2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "(3,2)",
+          "math_latex": "(3,2)",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "(-3,2)",
+          "math_latex": "(-3,2)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "(3,-2)",
+          "math_latex": "(3,-2)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "(-3,-2)",
+          "math_latex": "(-3,-2)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(3,2)",
+        "explanation": "For y=(x−h)²+k, the vertex is (h,k)."
+      },
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "Application of 3",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q16-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "10G3-REV-LO16-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.8",
+      "instruction": "Which translation takes y=x² to the given graph?",
+      "stem": "Which translation takes y=x² to the given graph? y=(x+4)^2-1",
+      "math_latex": "y=(x+4)^2-1",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4 right and 1 down.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "4 left and 1 up.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "1 left and 4 down.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "4 left and 1 down.",
+          "misconception": null
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "4 left and 1 down.",
+        "explanation": "x+4 means h=−4; k=−1."
+      },
+      "source": {
+        "printed_page": 707,
+        "pdf_page": 139,
+        "exercise": "Application of 3",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q16-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

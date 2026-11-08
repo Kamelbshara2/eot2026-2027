@@ -33,7 +33,11 @@
         "G9G-BOOK-Q09-MCQ-03",
         "G9G-BOOK-Q09-MCQ-04"
       ],
-      "download": "LO09.json"
+      "download": "LO09.json",
+      "assessment_facets": [
+        "Solve proportions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -42,29 +46,33 @@
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.1",
-      "instruction": "Solve the proportion.",
-      "stem": "Solve the proportion. \\frac{x-3}{5}=\\frac6{10}",
+      "instruction": "Which value satisfies the proportion?",
+      "stem": "Which value satisfies the proportion? \\frac{x-3}{5}=\\frac6{10}",
       "math_latex": "\\frac{x-3}{5}=\\frac6{10}",
       "options": [
         {
           "id": "A",
-          "text": "5",
-          "math_latex": "5"
+          "text": "0",
+          "math_latex": "0",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "-6",
-          "math_latex": "-6"
+          "text": "3",
+          "math_latex": "3",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
           "text": "6",
-          "math_latex": "6"
+          "math_latex": "6",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "7",
-          "math_latex": "7"
+          "text": "15",
+          "math_latex": "15",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -81,6 +89,57 @@
         "pdf_page": 113,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve proportions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "(X - 3)/5=6/10",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "(X - 3)/5=6/10"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q09-MCQ-01.png"
       }
     },
     {
@@ -88,29 +147,33 @@
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.2",
-      "instruction": "Solve the proportion.",
-      "stem": "Solve the proportion. \\frac7{x+9}=\\frac{21}{36}",
+      "instruction": "Which value satisfies the proportion?",
+      "stem": "Which value satisfies the proportion? \\frac7{x+9}=\\frac{21}{36}",
       "math_latex": "\\frac7{x+9}=\\frac{21}{36}",
       "options": [
         {
           "id": "A",
           "text": "-3",
-          "math_latex": "-3"
+          "math_latex": "-3",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
           "text": "3",
-          "math_latex": "3"
+          "math_latex": "3",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "4",
-          "math_latex": "4"
+          "text": "12",
+          "math_latex": "12",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "2",
-          "math_latex": "2"
+          "text": "21",
+          "math_latex": "21",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -127,6 +190,57 @@
         "pdf_page": 113,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve proportions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "7/(X + 9)=21/36",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "7/(X + 9)=21/36"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q09-MCQ-02.png"
       }
     },
     {
@@ -134,29 +248,33 @@
       "learning_outcome_id": "LO09",
       "type": "mcq",
       "display_number": "9.3",
-      "instruction": "Solve the proportion.",
-      "stem": "Solve the proportion. \\frac{10}{15}=\\frac4{x-5}",
+      "instruction": "Which value satisfies the proportion?",
+      "stem": "Which value satisfies the proportion? \\frac{10}{15}=\\frac4{x-5}",
       "math_latex": "\\frac{10}{15}=\\frac4{x-5}",
       "options": [
         {
           "id": "A",
           "text": "11",
-          "math_latex": "11"
+          "math_latex": "11",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "12",
-          "math_latex": "12"
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "10",
-          "math_latex": "10"
+          "text": "6",
+          "math_latex": "6",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "-11",
-          "math_latex": "-11"
+          "text": "\\frac{23}{3}",
+          "math_latex": "\\frac{23}{3}",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         }
       ],
       "marks": null,
@@ -173,6 +291,57 @@
         "pdf_page": 113,
         "exercise": "15",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve proportions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "10/15=4/(X - 5)",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "10/15=4/(X - 5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q09-MCQ-03.png"
       }
     },
     {
@@ -186,29 +355,33 @@
       "options": [
         {
           "id": "A",
-          "text": "\\frac{2033}{100}",
-          "math_latex": "\\frac{2033}{100}"
+          "text": "13.33",
+          "math_latex": "13.33",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "B",
-          "text": "\\frac{1833}{100}",
-          "math_latex": "\\frac{1833}{100}"
+          "text": "16.33",
+          "math_latex": "16.33",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "C",
-          "text": "- \\frac{1933}{100}",
-          "math_latex": "- \\frac{1933}{100}"
+          "text": "9.00",
+          "math_latex": "9.00",
+          "misconception": "Use the correct inverse operation and preserve signs on both sides."
         },
         {
           "id": "D",
-          "text": "\\frac{1933}{100}",
-          "math_latex": "\\frac{1933}{100}"
+          "text": "19.33",
+          "math_latex": "19.33",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\frac{1933}{100}",
+        "correct_option_text": "19.33",
         "explanation": "Cross multiply: 6(x−3)=98, so x=58/3≈19.33."
       },
       "diagram_asset_ids": [],
@@ -219,6 +392,57 @@
         "pdf_page": 113,
         "exercise": "16",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Solve proportions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "solve",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter the equation",
+            "keys": [
+              "ALPHA",
+              "X",
+              "ALPHA",
+              "CALC"
+            ],
+            "expression": "6/14=7/(X - 3)",
+            "text": "Enter the equation below in Calculate. ALPHA with the X-labelled key enters X; ALPHA CALC enters the equality sign. Do not press the ordinary = key to evaluate the equation."
+          },
+          {
+            "title": "SOLVE and check",
+            "keys": [
+              "SHIFT",
+              "CALC",
+              "="
+            ],
+            "text": "Press SHIFT CALC (SOLVE). When prompted for X, enter an initial value such as 0, then =. Read the solved X and check L−R≈0. Identities and contradictions require algebra."
+          }
+        ],
+        "expressions": [
+          "6/14=7/(X - 3)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q09-MCQ-04.png"
       }
     }
   ],

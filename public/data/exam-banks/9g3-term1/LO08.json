@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO08",
     "classroom": "9G3",
     "learning_outcome_id": "LO08",
-    "question_count": 4
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,29 @@
           "exercises_or_section": "Examples 3–4; Check"
         }
       ],
-      "question_count": 4,
+      "question_count": 8,
       "question_ids": [
         "G9G-BOOK-Q08-MCQ-01",
         "G9G-BOOK-Q08-MCQ-02",
         "G9G-BOOK-Q08-MCQ-03",
-        "G9G-BOOK-Q08-MCQ-04"
+        "G9G-BOOK-Q08-MCQ-04",
+        "9G3-REV-LO08-01",
+        "9G3-REV-LO08-02",
+        "9G3-REV-LO08-03",
+        "9G3-REV-LO08-04"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q08-MCQ-01",
         "G9G-BOOK-Q08-MCQ-02",
-        "G9G-BOOK-Q08-MCQ-03",
-        "G9G-BOOK-Q08-MCQ-04"
+        "9G3-REV-LO08-01",
+        "9G3-REV-LO08-02"
       ],
-      "download": "LO08.json"
+      "download": "LO08.json",
+      "assessment_facets": [
+        "Rate of change",
+        "rate-from-data"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -48,15 +57,18 @@
       "options": [
         {
           "id": "A",
-          "text": "Linear; rate 2/3."
+          "text": "Linear; rate 2/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Linear; rate −3/2."
+          "text": "Linear; rate −3/2.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
-          "text": "Nonlinear; rate is not constant."
+          "text": "Nonlinear; rate is not constant.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -79,6 +91,46 @@
         "pdf_page": 87,
         "exercise": "Example 3",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rate of change"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-3+5)/(8-11)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-3+5)/(8-11)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q08-MCQ-01.png"
       }
     },
     {
@@ -92,11 +144,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Yes; the rate is 2/7."
+          "text": "Yes; the rate is 2/7.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
-          "text": "Yes; the rate is 7/3."
+          "text": "Yes; the rate is 7/3.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -104,7 +158,8 @@
         },
         {
           "id": "D",
-          "text": "Yes; the rate is 3/7."
+          "text": "Yes; the rate is 3/7.",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -123,6 +178,56 @@
         "pdf_page": 87,
         "exercise": "Example 4",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rate of change"
+      ],
+      "reference_kind": "worked_example",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-1+4)/(29-22)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(1+1)/(36-29)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-1+4)/(29-22)",
+          "(1+1)/(36-29)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q08-MCQ-02.png"
       }
     },
     {
@@ -137,7 +242,8 @@
         {
           "id": "A",
           "text": "-12",
-          "math_latex": "-12"
+          "math_latex": "-12",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -147,12 +253,14 @@
         {
           "id": "C",
           "text": "13",
-          "math_latex": "13"
+          "math_latex": "13",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "11",
-          "math_latex": "11"
+          "math_latex": "11",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -171,6 +279,46 @@
         "pdf_page": 87,
         "exercise": "Check: first blank",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rate of change"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "10.5+(-2.25-7.5)/(-6.5)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "10.5+(-2.25-7.5)/(-6.5)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q08-MCQ-03.png"
       }
     },
     {
@@ -190,17 +338,20 @@
         {
           "id": "B",
           "text": "15",
-          "math_latex": "15"
+          "math_latex": "15",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "13",
-          "math_latex": "13"
+          "math_latex": "13",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "-14",
-          "math_latex": "-14"
+          "math_latex": "-14",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -219,28 +370,440 @@
         "pdf_page": 87,
         "exercise": "Check: final blank",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Rate of change"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "10.75+(-6.5)*(9.5-10)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "10.75+(-6.5)*(9.5-10)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G9G-BOOK-Q08-MCQ-04.png"
       }
-    }
-  ],
-  "assets": {
-    "rate_table4": {
-      "src": "assets/rate_table4.png",
-      "width": 305,
-      "height": 337,
-      "alt_text": "Original textbook visual, Reveal p. 221, Example 4.",
+    },
+    {
+      "id": "9G3-REV-LO08-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.5",
+      "instruction": "Which statement describes the rate of change in the listed data?",
+      "stem": "Which statement describes the rate of change in the listed data? (0,1),\\ (2,7),\\ (4,13)",
+      "math_latex": "(0,1),\\ (2,7),\\ (4,13)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3",
+          "math_latex": "3",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "-3",
+          "math_latex": "-3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "\\frac13",
+          "math_latex": "\\frac13",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "math_latex": "6",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3",
+        "explanation": "Each increase of 2 in x gives 6 in y, so rate=3."
+      },
       "source": {
         "book_part": 2,
         "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
         "printed_page": 221,
         "pdf_page": 87,
-        "exercise": "Example 4",
+        "exercise": "Application of Example 3",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rate-from-data"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "6/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "6/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO08-01.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO08-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.6",
+      "instruction": "Which statement describes the rate of change in the listed data?",
+      "stem": "Which statement describes the rate of change in the listed data? (0,9),\\ (2,5),\\ (4,1)",
+      "math_latex": "(0,9),\\ (2,5),\\ (4,1)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-2",
+          "math_latex": "-2",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "-\\frac12",
+          "math_latex": "-\\frac12",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "-4",
+          "math_latex": "-4",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "-2",
+        "explanation": "Each increase of 2 in x gives −4 in y, so rate=−2."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Application of Example 3",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rate-from-data"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-4)/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-4)/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO08-02.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO08-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.7",
+      "instruction": "Which statement describes the rate of change in the listed data?",
+      "stem": "Which statement describes the rate of change in the listed data? (-2,5),\\ (0,5),\\ (2,5)",
+      "math_latex": "(-2,5),\\ (0,5),\\ (2,5)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0",
+          "math_latex": "0",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "math_latex": "5",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Undefined",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "0",
+        "explanation": "The y-values do not change, so the rate is zero."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Application of Example 3",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rate-from-data"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "0/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "0/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO08-03.png"
+      }
+    },
+    {
+      "id": "9G3-REV-LO08-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.8",
+      "instruction": "Which statement describes the rate of change in the listed data?",
+      "stem": "Which statement describes the rate of change in the listed data? (0,1),\\ (1,2),\\ (2,5)",
+      "math_latex": "(0,1),\\ (1,2),\\ (2,5)",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "No constant rate.",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "1",
+          "math_latex": "1",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "math_latex": "3",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "math_latex": "2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "No constant rate.",
+        "explanation": "Successive rates 1 and 3 differ: these points do not describe a linear function."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Application of Example 3",
+        "adaptation": "example_variant"
+      },
+      "source_kind": "example_variant",
+      "parent_question_id": "G9G-BOOK-Q08-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rate-from-data"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "example_variant",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2-1)/(1-0)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(5-2)/(2-1)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2-1)/(1-0)",
+          "(5-2)/(2-1)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/9G3-REV-LO08-04.png"
+      }
+    }
+  ],
+  "assets": {
+    "rate_table3": {
+      "src": "assets/rate_table3.png",
+      "width": 305,
+      "height": 339,
+      "alt_text": "Original textbook visual, Reveal p. 221, Example 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 3",
         "adaptation": "transcription"
       },
       "crop_box": [
         0.54,
-        0.323,
+        0.12,
         0.71,
-        0.456
+        0.254
       ]
     },
     "rate_check": {
@@ -263,24 +826,24 @@
         0.72
       ]
     },
-    "rate_table3": {
-      "src": "assets/rate_table3.png",
+    "rate_table4": {
+      "src": "assets/rate_table4.png",
       "width": 305,
-      "height": 339,
-      "alt_text": "Original textbook visual, Reveal p. 221, Example 3.",
+      "height": 337,
+      "alt_text": "Original textbook visual, Reveal p. 221, Example 4.",
       "source": {
         "book_part": 2,
         "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
         "printed_page": 221,
         "pdf_page": 87,
-        "exercise": "Example 3",
+        "exercise": "Example 4",
         "adaptation": "transcription"
       },
       "crop_box": [
         0.54,
-        0.12,
+        0.323,
         0.71,
-        0.254
+        0.456
       ]
     }
   }

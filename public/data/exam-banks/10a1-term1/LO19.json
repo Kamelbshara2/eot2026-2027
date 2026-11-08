@@ -33,7 +33,11 @@
         "G10A-BOOK-Q19-MCQ-03",
         "G10A-BOOK-Q19-MCQ-04"
       ],
-      "download": "LO19.json"
+      "download": "LO19.json",
+      "assessment_facets": [
+        "Angles of elevation and depression"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -43,28 +47,32 @@
       "type": "mcq",
       "display_number": "19.1",
       "instruction": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
-      "stem": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
+      "stem": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "64",
-          "math_latex": "64"
+          "math_latex": "64",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "65",
-          "math_latex": "65"
+          "text": "14",
+          "math_latex": "14",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "63",
-          "math_latex": "63"
+          "text": "71",
+          "math_latex": "71",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "69",
-          "math_latex": "69"
+          "text": "33",
+          "math_latex": "33",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -81,6 +89,54 @@
         "pdf_page": 143,
         "exercise": "1",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Angles of elevation and depression"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "30/tan(25)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "30/tan(25)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q19-MCQ-01.png"
       }
     },
     {
@@ -89,34 +145,38 @@
       "type": "mcq",
       "display_number": "19.2",
       "instruction": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
-      "stem": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
+      "stem": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{29}{2}",
-          "math_latex": "\\frac{29}{2}"
+          "text": "16.5",
+          "math_latex": "16.5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{25}{2}",
-          "math_latex": "\\frac{25}{2}"
+          "text": "76.5",
+          "math_latex": "76.5",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
-          "text": "\\frac{37}{2}",
-          "math_latex": "\\frac{37}{2}"
+          "text": "14.1",
+          "math_latex": "14.1",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{27}{2}",
-          "math_latex": "\\frac{27}{2}"
+          "text": "13.5",
+          "math_latex": "13.5",
+          "misconception": null
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "\\frac{27}{2}",
+        "correct_option_text": "13.5",
         "explanation": "The vertical difference is 32.5−6=26.5 ft. θ=tan⁻¹(26.5/110)≈13.5°."
       },
       "diagram_asset_ids": [],
@@ -127,6 +187,54 @@
         "pdf_page": 143,
         "exercise": "2",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Angles of elevation and depression"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "atan((32.5-6)/110)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "atan((32.5-6)/110)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q19-MCQ-02.png"
       }
     },
     {
@@ -135,28 +243,32 @@
       "type": "mcq",
       "display_number": "19.3",
       "instruction": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
-      "stem": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
+      "stem": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot? ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "20",
-          "math_latex": "20"
+          "text": "43",
+          "math_latex": "43",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "26",
-          "math_latex": "26"
+          "text": "37",
+          "math_latex": "37",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "C",
           "text": "21",
-          "math_latex": "21"
+          "math_latex": "21",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "22",
-          "math_latex": "22"
+          "text": "25",
+          "math_latex": "25",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
@@ -173,6 +285,54 @@
         "pdf_page": 143,
         "exercise": "3",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Angles of elevation and depression"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "30/tan(55)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "30/tan(55)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q19-MCQ-03.png"
       }
     },
     {
@@ -181,34 +341,38 @@
       "type": "mcq",
       "display_number": "19.4",
       "instruction": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
-      "stem": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
+      "stem": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "\\frac{627}{10}",
-          "math_latex": "\\frac{627}{10}"
+          "text": "59.0",
+          "math_latex": "59.0",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "B",
-          "text": "\\frac{577}{10}",
-          "math_latex": "\\frac{577}{10}"
+          "text": "57.7",
+          "math_latex": "57.7",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "\\frac{587}{10}",
-          "math_latex": "\\frac{587}{10}"
+          "text": "32.3",
+          "math_latex": "32.3",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         },
         {
           "id": "D",
-          "text": "\\frac{567}{10}",
-          "math_latex": "\\frac{567}{10}"
+          "text": "46.4",
+          "math_latex": "46.4",
+          "misconception": "Use the stated radical, ratio or geometric rule; check reciprocal, sign, squared length and units."
         }
       ],
       "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "\\frac{577}{10}",
+        "correct_option_text": "57.7",
         "explanation": "Use the actual eye-to-top difference 100−5=95 m: θ=tan⁻¹(95/60)."
       },
       "diagram_asset_ids": [],
@@ -219,6 +383,54 @@
         "pdf_page": 143,
         "exercise": "4",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Angles of elevation and depression"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "atan((100-5)/60)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "atan((100-5)/60)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q19-MCQ-04.png"
       }
     }
   ],

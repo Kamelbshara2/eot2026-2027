@@ -33,7 +33,11 @@
         "G9G-BOOK-Q23-FRQ-03",
         "G9G-BOOK-Q23-FRQ-04"
       ],
-      "download": "LO23.json"
+      "download": "LO23.json",
+      "assessment_facets": [
+        "Equations, identities and contradictions"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -70,6 +74,18 @@
         "pdf_page": 97,
         "exercise": "7",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Equations, identities and contradictions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -105,6 +121,18 @@
         "pdf_page": 97,
         "exercise": "11",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Equations, identities and contradictions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -140,6 +168,18 @@
         "pdf_page": 99,
         "exercise": "37",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Equations, identities and contradictions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -175,6 +215,18 @@
         "pdf_page": 99,
         "exercise": "39",
         "adaptation": "transcription"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Equations, identities and contradictions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

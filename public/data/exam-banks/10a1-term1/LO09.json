@@ -37,7 +37,11 @@
         "G10A-BOOK-Q09-MCQ-03",
         "G10A-BOOK-Q09-MCQ-04"
       ],
-      "download": "LO09.json"
+      "download": "LO09.json",
+      "assessment_facets": [
+        "Dilation coordinates"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -53,12 +57,14 @@
         {
           "id": "A",
           "text": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}",
-          "math_latex": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}"
+          "math_latex": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}",
-          "math_latex": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}"
+          "math_latex": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -68,7 +74,8 @@
         {
           "id": "D",
           "text": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}",
-          "math_latex": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}"
+          "math_latex": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -85,6 +92,66 @@
         "pdf_page": 64,
         "exercise": "13",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilation coordinates"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-10)/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-4)/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-8)/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-10)/4",
+          "(-4)/4",
+          "(-8)/4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q09-MCQ-01.png"
       }
     },
     {
@@ -99,7 +166,8 @@
         {
           "id": "A",
           "text": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}",
-          "math_latex": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}"
+          "math_latex": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -109,12 +177,14 @@
         {
           "id": "C",
           "text": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}",
-          "math_latex": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}"
+          "math_latex": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}",
-          "math_latex": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}"
+          "math_latex": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -131,6 +201,96 @@
         "pdf_page": 64,
         "exercise": "14",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilation coordinates"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-1)*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-6)*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-2)*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5)*5/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "2*5/4",
+          "(-1)*5/4",
+          "(-6)*5/4",
+          "4*5/4",
+          "(-2)*5/4",
+          "(-5)*5/4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q09-MCQ-02.png"
       }
     },
     {
@@ -150,17 +310,20 @@
         {
           "id": "B",
           "text": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}",
-          "math_latex": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}"
+          "math_latex": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}",
-          "math_latex": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}"
+          "math_latex": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}",
-          "math_latex": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}"
+          "math_latex": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -177,6 +340,86 @@
         "pdf_page": 64,
         "exercise": "15",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilation coordinates"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "4*3/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "6*3/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-6)*3/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "2*3/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-8)*3/4",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "4*3/4",
+          "6*3/4",
+          "(-6)*3/4",
+          "2*3/4",
+          "(-8)*3/4"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q09-MCQ-03.png"
       }
     },
     {
@@ -191,17 +434,20 @@
         {
           "id": "A",
           "text": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}",
-          "math_latex": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}"
+          "math_latex": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}",
-          "math_latex": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}"
+          "math_latex": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}",
-          "math_latex": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}"
+          "math_latex": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -223,6 +469,86 @@
         "pdf_page": 64,
         "exercise": "16",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Dilation coordinates"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-2)*3/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "6*3/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-1)*3/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(-5)*3/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "3*3/2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(-2)*3/2",
+          "6*3/2",
+          "(-1)*3/2",
+          "(-5)*3/2",
+          "3*3/2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q09-MCQ-04.png"
       }
     }
   ],

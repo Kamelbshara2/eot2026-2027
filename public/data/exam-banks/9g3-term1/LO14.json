@@ -3,7 +3,7 @@
     "id": "9g3-term1-LO14",
     "classroom": "9G3",
     "learning_outcome_id": "LO14",
-    "question_count": 4
+    "question_count": 6
   },
   "learning_outcomes": [
     {
@@ -20,20 +20,27 @@
           "exercises_or_section": "7–9; 7 domain/range"
         }
       ],
-      "question_count": 4,
+      "question_count": 6,
       "question_ids": [
         "G9G-BOOK-Q14-MCQ-01",
         "G9G-BOOK-Q14-MCQ-02",
         "G9G-BOOK-Q14-MCQ-03",
-        "G9G-BOOK-Q14-MCQ-04"
+        "G9G-BOOK-Q14-MCQ-04",
+        "9G3-REV-LO14-01",
+        "9G3-REV-LO14-02"
       ],
       "booklet_question_ids": [
         "G9G-BOOK-Q14-MCQ-01",
         "G9G-BOOK-Q14-MCQ-02",
-        "G9G-BOOK-Q14-MCQ-03",
-        "G9G-BOOK-Q14-MCQ-04"
+        "9G3-REV-LO14-01",
+        "9G3-REV-LO14-02"
       ],
-      "download": "LO14.json"
+      "download": "LO14.json",
+      "assessment_facets": [
+        "Graph step functions",
+        "concept-interpretation"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -49,7 +56,8 @@
         {
           "id": "A",
           "text": "y=n\\text{ on }[3n,3n+3)",
-          "math_latex": "y=n\\text{ on }[3n,3n+3)"
+          "math_latex": "y=n\\text{ on }[3n,3n+3)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -59,12 +67,14 @@
         {
           "id": "C",
           "text": "y=3n\\text{ on }(n,n+1]",
-          "math_latex": "y=3n\\text{ on }(n,n+1]"
+          "math_latex": "y=3n\\text{ on }(n,n+1]",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "y=3x",
-          "math_latex": "y=3x"
+          "math_latex": "y=3x",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -81,6 +91,18 @@
         "pdf_page": 129,
         "exercise": "7",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -100,17 +122,20 @@
         {
           "id": "B",
           "text": "y=n\\text{ on }[-n-1,-n)",
-          "math_latex": "y=n\\text{ on }[-n-1,-n)"
+          "math_latex": "y=n\\text{ on }[-n-1,-n)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "y=-x",
-          "math_latex": "y=-x"
+          "math_latex": "y=-x",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "y=n\\text{ on }[n,n+1)",
-          "math_latex": "y=n\\text{ on }[n,n+1)"
+          "math_latex": "y=n\\text{ on }[n,n+1)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -127,6 +152,18 @@
         "pdf_page": 129,
         "exercise": "8",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -141,17 +178,20 @@
         {
           "id": "A",
           "text": "y=-2n\\text{ on }(n,n+1]",
-          "math_latex": "y=-2n\\text{ on }(n,n+1]"
+          "math_latex": "y=-2n\\text{ on }(n,n+1]",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "y=-2x",
-          "math_latex": "y=-2x"
+          "math_latex": "y=-2x",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "y=2n\\text{ on }[n,n+1)",
-          "math_latex": "y=2n\\text{ on }[n,n+1)"
+          "math_latex": "y=2n\\text{ on }[n,n+1)",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -173,6 +213,18 @@
         "pdf_page": 129,
         "exercise": "9",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     },
     {
@@ -187,12 +239,14 @@
         {
           "id": "A",
           "text": "D=\\mathbb R,\\ R=\\mathbb R",
-          "math_latex": "D=\\mathbb R,\\ R=\\mathbb R"
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb R",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "D=\\mathbb R,\\ R=\\mathbb Z",
-          "math_latex": "D=\\mathbb R,\\ R=\\mathbb Z"
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb Z",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -202,7 +256,8 @@
         {
           "id": "D",
           "text": "D=\\mathbb Z,\\ R=\\mathbb R",
-          "math_latex": "D=\\mathbb Z,\\ R=\\mathbb R"
+          "math_latex": "D=\\mathbb Z,\\ R=\\mathbb R",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -219,6 +274,136 @@
         "pdf_page": 129,
         "exercise": "7: domain and range",
         "adaptation": "mcq"
+      },
+      "grade": 9,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Graph step functions"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO14-01",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.5",
+      "instruction": "For f(x)=floor(x), which point belongs to the graph?",
+      "stem": "For f(x)=floor(x), which point belongs to the graph? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "(0, 1)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "(−1.2, −2)",
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "(−1.2, −1)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "(1.2, 2)",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(−1.2, −2)",
+        "explanation": "⌊x⌋ is the greatest integer ≤x; pay attention to open and closed endpoints."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "Application of 7",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q14-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
+    },
+    {
+      "id": "9G3-REV-LO14-02",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.6",
+      "instruction": "For f(x)=floor(x), how are endpoints drawn on the step y=2?",
+      "stem": "For f(x)=floor(x), how are endpoints drawn on the step y=2? ",
+      "math_latex": "",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Closed at x=2; open at x=3.",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Open at x=2; closed at x=3.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "Closed at both endpoints.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "Open at both endpoints.",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Closed at x=2; open at x=3.",
+        "explanation": "⌊x⌋ is the greatest integer ≤x; pay attention to open and closed endpoints."
+      },
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "Application of 7",
+        "adaptation": "concept_application"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G9G-BOOK-Q14-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "concept-interpretation"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 9,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
       }
     }
   ],

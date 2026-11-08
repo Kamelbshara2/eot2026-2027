@@ -3,7 +3,7 @@
     "id": "10g3-term1-LO02",
     "classroom": "10G3",
     "learning_outcome_id": "LO02",
-    "question_count": 6
+    "question_count": 8
   },
   "learning_outcomes": [
     {
@@ -34,16 +34,23 @@
         "G10G-Q02-MCQ-03",
         "G10G-Q02-MCQ-04",
         "G10G-Q02-MCQ-05",
-        "G10G-Q02-MCQ-06"
+        "G10G-Q02-MCQ-06",
+        "10G3-REV-LO02-01",
+        "10G3-REV-LO02-02"
       ],
-      "question_count": 6,
+      "question_count": 8,
       "download": "LO02.json",
       "booklet_question_ids": [
         "G10G-Q02-MCQ-01",
         "G10G-Q02-MCQ-02",
-        "G10G-Q02-MCQ-03",
-        "G10G-Q02-MCQ-04"
-      ]
+        "10G3-REV-LO02-01",
+        "10G3-REV-LO02-02"
+      ],
+      "assessment_facets": [
+        "Squares of sums and differences",
+        "rule-application"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -52,35 +59,39 @@
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.1",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (a+10)(a+10)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (a+10)(a+10)",
       "math_latex": "(a+10)(a+10)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "a^{2} + 20 a + 101",
-          "math_latex": "a^{2} + 20 a + 101"
+          "text": "a^{2} + 20 a",
+          "math_latex": "a^{2} + 20 a",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "a^{2} + 20 a + 100",
-          "math_latex": "a^{2} + 20 a + 100"
+          "text": "\\left(a^{2} + 20 a\\right) + 100",
+          "math_latex": "\\left(a^{2} + 20 a\\right) + 100",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "a^{2} + 21 a + 100",
-          "math_latex": "a^{2} + 21 a + 100"
+          "text": "a^{2} + 20 a - 100",
+          "math_latex": "a^{2} + 20 a - 100",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "a^{2} + 19 a + 100",
-          "math_latex": "a^{2} + 19 a + 100"
+          "text": "20 a + 100",
+          "math_latex": "20 a + 100",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "a^{2} + 20 a + 100",
+        "correct_option_text": "\\left(a^{2} + 20 a\\right) + 100",
         "explanation": "Expand both factors, including 2ab: a² + 20·a + 100."
       },
       "diagram_asset_ids": [],
@@ -91,42 +102,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "a": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 10)*(2 + 10)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 10)*(2 + 10)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-01.png"
+      }
     },
     {
       "id": "G10G-Q02-MCQ-02",
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.2",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (b-6)(b-6)",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (b-6)(b-6)",
       "math_latex": "(b-6)(b-6)",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "b^{2} - 12 b + 36",
-          "math_latex": "b^{2} - 12 b + 36"
+          "text": "\\left(b^{2} - 12 b\\right) + 36",
+          "math_latex": "\\left(b^{2} - 12 b\\right) + 36",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "b^{2} - 11 b + 36",
-          "math_latex": "b^{2} - 11 b + 36"
+          "text": "b^{2} - 12 b",
+          "math_latex": "b^{2} - 12 b",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "b^{2} - 13 b + 36",
-          "math_latex": "b^{2} - 13 b + 36"
+          "text": "b^{2} - 12 b - 36",
+          "math_latex": "b^{2} - 12 b - 36",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "b^{2} - 12 b + 37",
-          "math_latex": "b^{2} - 12 b + 37"
+          "text": "36 - 12 b",
+          "math_latex": "36 - 12 b",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "b^{2} - 12 b + 36",
+        "correct_option_text": "\\left(b^{2} - 12 b\\right) + 36",
         "explanation": "Expand both factors, including 2ab: b² - 12·b + 36."
       },
       "diagram_asset_ids": [],
@@ -137,42 +202,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "b": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'b': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 - 6)*(2 - 6)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 - 6)*(2 - 6)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-02.png"
+      }
     },
     {
       "id": "G10G-Q02-MCQ-03",
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.3",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (n+7)^2",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (n+7)^2",
       "math_latex": "(n+7)^2",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "n^{2} + 15 n + 49",
-          "math_latex": "n^{2} + 15 n + 49"
+          "text": "n^{2} + 14 n",
+          "math_latex": "n^{2} + 14 n",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "n^{2} + 13 n + 49",
-          "math_latex": "n^{2} + 13 n + 49"
+          "text": "n^{2} + 14 n - 49",
+          "math_latex": "n^{2} + 14 n - 49",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "n^{2} + 14 n + 50",
-          "math_latex": "n^{2} + 14 n + 50"
+          "text": "14 n + 49",
+          "math_latex": "14 n + 49",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "D",
-          "text": "n^{2} + 14 n + 49",
-          "math_latex": "n^{2} + 14 n + 49"
+          "text": "\\left(n^{2} + 14 n\\right) + 49",
+          "math_latex": "\\left(n^{2} + 14 n\\right) + 49",
+          "misconception": null
         }
       ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "n^{2} + 14 n + 49",
+        "correct_option_text": "\\left(n^{2} + 14 n\\right) + 49",
         "explanation": "Expand both factors, including 2ab: n² + 14·n + 49."
       },
       "diagram_asset_ids": [],
@@ -183,42 +302,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "n": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'n': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 7)**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 7)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-03.png"
+      }
     },
     {
       "id": "G10G-Q02-MCQ-04",
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.4",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (x+6)^2",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (x+6)^2",
       "math_latex": "(x+6)^2",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "x^{2} + 11 x + 36",
-          "math_latex": "x^{2} + 11 x + 36"
+          "text": "x^{2} + 12 x",
+          "math_latex": "x^{2} + 12 x",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "x^{2} + 12 x + 37",
-          "math_latex": "x^{2} + 12 x + 37"
+          "text": "x^{2} + 12 x - 36",
+          "math_latex": "x^{2} + 12 x - 36",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "C",
-          "text": "x^{2} + 12 x + 36",
-          "math_latex": "x^{2} + 12 x + 36"
+          "text": "\\left(x^{2} + 12 x\\right) + 36",
+          "math_latex": "\\left(x^{2} + 12 x\\right) + 36",
+          "misconception": null
         },
         {
           "id": "D",
-          "text": "x^{2} + 13 x + 36",
-          "math_latex": "x^{2} + 13 x + 36"
+          "text": "12 x + 36",
+          "math_latex": "12 x + 36",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "x^{2} + 12 x + 36",
+        "correct_option_text": "\\left(x^{2} + 12 x\\right) + 36",
         "explanation": "Expand both factors, including 2ab: x² + 12·x + 36."
       },
       "diagram_asset_ids": [],
@@ -229,42 +402,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "x": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'x': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 6)**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 6)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-04.png"
+      }
     },
     {
       "id": "G10G-Q02-MCQ-05",
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.5",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (8-m)^2",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (8-m)^2",
       "math_latex": "(8-m)^2",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "m^{2} - 16 m + 65",
-          "math_latex": "m^{2} - 16 m + 65"
+          "text": "m^{2} - 16 m",
+          "math_latex": "m^{2} - 16 m",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "B",
-          "text": "m^{2} - 16 m + 64",
-          "math_latex": "m^{2} - 16 m + 64"
+          "text": "\\left(m^{2} - 16 m\\right) + 64",
+          "math_latex": "\\left(m^{2} - 16 m\\right) + 64",
+          "misconception": null
         },
         {
           "id": "C",
-          "text": "m^{2} - 15 m + 64",
-          "math_latex": "m^{2} - 15 m + 64"
+          "text": "m^{2} - 16 m - 64",
+          "math_latex": "m^{2} - 16 m - 64",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "m^{2} - 17 m + 64",
-          "math_latex": "m^{2} - 17 m + 64"
+          "text": "64 - 16 m",
+          "math_latex": "64 - 16 m",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "m^{2} - 16 m + 64",
+        "correct_option_text": "\\left(m^{2} - 16 m\\right) + 64",
         "explanation": "Expand both factors, including 2ab: m² - 16·m + 64."
       },
       "diagram_asset_ids": [],
@@ -275,42 +502,96 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "m": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'m': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(8 - 2)**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(8 - 2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-05.png"
+      }
     },
     {
       "id": "G10G-Q02-MCQ-06",
       "learning_outcome_id": "LO02",
       "type": "mcq",
       "display_number": "2.6",
-      "instruction": "Find the product.",
-      "stem": "Find the product. (9-2y)^2",
+      "instruction": "Which option gives the product?",
+      "stem": "Which option gives the product? (9-2y)^2",
       "math_latex": "(9-2y)^2",
       "marks": null,
       "options": [
         {
           "id": "A",
-          "text": "4 y^{2} - 36 y + 81",
-          "math_latex": "4 y^{2} - 36 y + 81"
+          "text": "\\left(4 y^{2} - 36 y\\right) + 81",
+          "math_latex": "\\left(4 y^{2} - 36 y\\right) + 81",
+          "misconception": null
         },
         {
           "id": "B",
-          "text": "4 y^{2} - 35 y + 81",
-          "math_latex": "4 y^{2} - 35 y + 81"
+          "text": "4 y^{2} - 36 y",
+          "math_latex": "4 y^{2} - 36 y",
+          "misconception": "Omit a term when distributing or combining like terms."
         },
         {
           "id": "C",
-          "text": "4 y^{2} - 37 y + 81",
-          "math_latex": "4 y^{2} - 37 y + 81"
+          "text": "4 y^{2} - 36 y - 81",
+          "math_latex": "4 y^{2} - 36 y - 81",
+          "misconception": "Reverse the sign of a term."
         },
         {
           "id": "D",
-          "text": "4 y^{2} - 36 y + 82",
-          "math_latex": "4 y^{2} - 36 y + 82"
+          "text": "4 y^{2} + 81",
+          "math_latex": "4 y^{2} + 81",
+          "misconception": "Omit a term when distributing or combining like terms."
         }
       ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "4 y^{2} - 36 y + 81",
+        "correct_option_text": "\\left(4 y^{2} - 36 y\\right) + 81",
         "explanation": "Expand both factors, including 2ab: 4·y² - 36·y + 81."
       },
       "diagram_asset_ids": [],
@@ -321,7 +602,220 @@
         "adaptation": "mcq",
         "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
       },
-      "wide": false
+      "wide": false,
+      "grade": 10,
+      "track": "general",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Squares of sums and differences"
+      ],
+      "reference_kind": "exercise",
+      "calculator_substitution": {
+        "y": 2
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'y': 2} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(9 - 2*2)**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(9 - 2*2)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10G-Q02-MCQ-06.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO02-01",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.7",
+      "instruction": "Which identity correctly expands the square of a sum?",
+      "stem": "Which identity correctly expands the square of a sum? (a+b)^2",
+      "math_latex": "(a+b)^2",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "a^2+2ab+b^2",
+          "math_latex": "a^2+2ab+b^2",
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "a^2+b^2",
+          "math_latex": "a^2+b^2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "a^2-2ab+b^2",
+          "math_latex": "a^2-2ab+b^2",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "D",
+          "text": "2a+2b",
+          "math_latex": "2a+2b",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "a^2+2ab+b^2",
+        "explanation": "Include both cross-products ab."
+      },
+      "source": {
+        "printed_page": 657,
+        "pdf_page": 89,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q02-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator_substitution": {
+        "a": 2,
+        "b": 3
+      },
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "check",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Numerical check",
+            "keys": [
+              "CALC"
+            ],
+            "text": "Substitute {'a': 2, 'b': 3} into the original expression and each proposed expression. Repeat with different allowed values. Matching values support a check; prove equivalence algebraically."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "(2 + 3)**2",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "(2 + 3)^2"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/10G3-REV-LO02-01.png"
+      }
+    },
+    {
+      "id": "10G3-REV-LO02-02",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.8",
+      "instruction": "Which missing term makes this identity true?",
+      "stem": "Which missing term makes this identity true? (x-5)^2=x^2+\\square+25",
+      "math_latex": "(x-5)^2=x^2+\\square+25",
+      "marks": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-5x",
+          "math_latex": "-5x",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "B",
+          "text": "-25",
+          "math_latex": "-25",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        },
+        {
+          "id": "C",
+          "text": "-10x",
+          "math_latex": "-10x",
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "10x",
+          "math_latex": "10x",
+          "misconception": "Apply the stated rule incorrectly; compare the relevant sign, operation or condition."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "-10x",
+        "explanation": "The middle term is 2·x·(−5)."
+      },
+      "source": {
+        "printed_page": 657,
+        "pdf_page": 89,
+        "exercise": "Application of 1",
+        "adaptation": "concept_application",
+        "book_sha256": "d7e5f97845c8c15fa857e4e34763cd73614463506ef520cc61666452918bf7af"
+      },
+      "source_kind": "concept_application",
+      "parent_question_id": "G10G-Q02-MCQ-01",
+      "diagram_asset_ids": [],
+      "skill_tags": [
+        "rule-application"
+      ],
+      "difficulty": "standard",
+      "reference_kind": "concept_application",
+      "grade": 10,
+      "track": "general",
+      "calculator": {
+        "applicable": false,
+        "reason": "This question assesses a mathematical rule, graph or justification. Use the worked explanation; calculator output alone is insufficient."
+      }
     }
   ],
   "assets": {}

@@ -37,7 +37,11 @@
         "G10A-BOOK-Q18-MCQ-03",
         "G10A-BOOK-Q18-MCQ-04"
       ],
-      "download": "LO18.json"
+      "download": "LO18.json",
+      "assessment_facets": [
+        "Right-triangle trigonometry"
+      ],
+      "calculator_model": "fx-991EX ClassWiz"
     }
   ],
   "questions": [
@@ -47,13 +51,14 @@
       "type": "mcq",
       "display_number": "18.1",
       "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
-      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx6.9\\\\GH\\approx13.0\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx6.9\\\\GH\\approx13.0\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx6.9\\\\GH\\approx13.0\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
@@ -63,12 +68,14 @@
         {
           "id": "C",
           "text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx20.8\\\\GH\\approx17.6\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx20.8\\\\GH\\approx17.6\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx20.8\\\\GH\\approx17.6\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}\\angle G=32^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle G=32^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle G=32^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -87,6 +94,74 @@
         "pdf_page": 136,
         "exercise": "22",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Right-triangle trigonometry"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-90-32",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "11/tan(32)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "11/sin(32)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "180-90-32",
+          "11/tan(32)",
+          "11/sin(32)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q18-MCQ-01.png"
       }
     },
     {
@@ -95,7 +170,7 @@
       "type": "mcq",
       "display_number": "18.2",
       "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
-      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree. ",
       "math_latex": "",
       "options": [
         {
@@ -106,17 +181,20 @@
         {
           "id": "B",
           "text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx9.8\\\\XZ\\approx15.1\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx9.8\\\\XZ\\approx15.1\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx9.8\\\\XZ\\approx15.1\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}\\angle W=57^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle W=57^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle W=57^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
           "text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx21.5\\\\XZ\\approx33.1\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx21.5\\\\XZ\\approx33.1\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx21.5\\\\XZ\\approx33.1\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -135,6 +213,74 @@
         "pdf_page": 136,
         "exercise": "23",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Right-triangle trigonometry"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-90-57",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "18*sin(57)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "18*cos(57)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "180-90-57",
+          "18*sin(57)",
+          "18*cos(57)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q18-MCQ-02.png"
       }
     },
     {
@@ -143,23 +289,26 @@
       "type": "mcq",
       "display_number": "18.3",
       "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
-      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx3.7\\\\RT\\approx5.9\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx3.7\\\\RT\\approx5.9\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx3.7\\\\RT\\approx5.9\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}\\angle R=32^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle R=32^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle R=32^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
           "text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx8.3\\\\RT\\approx13.2\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx8.3\\\\RT\\approx13.2\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx8.3\\\\RT\\approx13.2\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "D",
@@ -183,6 +332,74 @@
         "pdf_page": 136,
         "exercise": "25",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Right-triangle trigonometry"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Degrees",
+            "keys": [
+              "SHIFT",
+              "MENU"
+            ],
+            "text": "Choose Angle Unit → Degree. Keep full precision until the final rounding. Inverse sine/tangent uses SHIFT then sin/tan."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-90-32",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7*cos(32)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "7*sin(32)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "180-90-32",
+          "7*cos(32)",
+          "7*sin(32)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q18-MCQ-03.png"
       }
     },
     {
@@ -191,18 +408,20 @@
       "type": "mcq",
       "display_number": "18.4",
       "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
-      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree. ",
       "math_latex": "",
       "options": [
         {
           "id": "A",
           "text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM\\approx25.5\\\\QN=18\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM\\approx25.5\\\\QN=18\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM\\approx25.5\\\\QN=18\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "B",
           "text": "\\begin{gathered}\\angle N=90^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle N=90^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle N=90^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         },
         {
           "id": "C",
@@ -212,7 +431,8 @@
         {
           "id": "D",
           "text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN=36\\end{gathered}",
-          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN=36\\end{gathered}"
+          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN=36\\end{gathered}",
+          "misconception": "Check the operation, sign, endpoint, correspondence or theorem condition against the given information."
         }
       ],
       "marks": null,
@@ -231,6 +451,66 @@
         "pdf_page": 136,
         "exercise": "27",
         "adaptation": "mcq"
+      },
+      "grade": 10,
+      "track": "advanced",
+      "source_kind": "textbook_exercise",
+      "difficulty": "standard",
+      "skill_tags": [
+        "Right-triangle trigonometry"
+      ],
+      "reference_kind": "exercise",
+      "calculator": {
+        "branch_tables": null,
+        "applicable": true,
+        "model": "fx-991EX ClassWiz",
+        "kind": "evaluate",
+        "steps": [
+          {
+            "title": "Calculate mode",
+            "keys": [
+              "MENU",
+              "1"
+            ],
+            "text": "Select Calculate. Use the (−) key for a negative number, and parentheses around fractions and negative bases."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "180-90-45",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "18",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          },
+          {
+            "title": "Enter and evaluate",
+            "keys": [
+              "=",
+              "S⇔D"
+            ],
+            "expression": "18*sqrt(2)",
+            "text": "Enter the expression below, then =. Use S⇔D when a decimal is required."
+          }
+        ],
+        "expressions": [
+          "180-90-45",
+          "18",
+          "18*sqrt(2)"
+        ],
+        "table": null,
+        "illustration_kind": "instructional_key_guide_not_firmware",
+        "instructional_only": true,
+        "image": "calculator/G10A-BOOK-Q18-MCQ-04.png"
       }
     }
   ],
