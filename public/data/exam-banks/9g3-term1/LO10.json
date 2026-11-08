@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO10",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO10",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO10",
+      "exam_slot": "Q10",
+      "title": "Multi-step equations with parameters",
+      "title_ar": "معادلات متعددة الخطوات بمعاملات",
+      "statement": "Multi-step equations with parameters",
+      "question_type": "mcq",
+      "rule_summary": "Undo constants before dividing by a nonzero coefficient.",
+      "textbook_references": [
+        {
+          "printed_page": 89,
+          "exercises_or_section": "18–21"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q10-MCQ-01",
+        "G9G-BOOK-Q10-MCQ-02",
+        "G9G-BOOK-Q10-MCQ-03",
+        "G9G-BOOK-Q10-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q10-MCQ-01",
+        "G9G-BOOK-Q10-MCQ-02",
+        "G9G-BOOK-Q10-MCQ-03",
+        "G9G-BOOK-Q10-MCQ-04"
+      ],
+      "download": "LO10.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q10-MCQ-01",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.1",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. ax+3=23",
+      "math_latex": "ax+3=23",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{40}{a}",
+          "math_latex": "\\frac{40}{a}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{20}{a}",
+          "math_latex": "\\frac{20}{a}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{20}{a}",
+          "math_latex": "- \\frac{20}{a}"
+        },
+        {
+          "id": "D",
+          "text": "1 + \\frac{20}{a}",
+          "math_latex": "1 + \\frac{20}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{20}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "18",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-02",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.2",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. 4=ax-14",
+      "math_latex": "4=ax-14",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{18}{a}",
+          "math_latex": "\\frac{18}{a}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{18}{a}",
+          "math_latex": "- \\frac{18}{a}"
+        },
+        {
+          "id": "C",
+          "text": "1 + \\frac{18}{a}",
+          "math_latex": "1 + \\frac{18}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{36}{a}",
+          "math_latex": "\\frac{36}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{18}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "19",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-03",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.3",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. ax-5=19",
+      "math_latex": "ax-5=19",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{24}{a}",
+          "math_latex": "- \\frac{24}{a}"
+        },
+        {
+          "id": "B",
+          "text": "1 + \\frac{24}{a}",
+          "math_latex": "1 + \\frac{24}{a}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{48}{a}",
+          "math_latex": "\\frac{48}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{24}{a}",
+          "math_latex": "\\frac{24}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{24}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "20",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-04",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.4",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. 6+ax=-29",
+      "math_latex": "6+ax=-29",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 - \\frac{35}{a}",
+          "math_latex": "1 - \\frac{35}{a}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{70}{a}",
+          "math_latex": "- \\frac{70}{a}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{35}{a}",
+          "math_latex": "- \\frac{35}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{35}{a}",
+          "math_latex": "\\frac{35}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "- \\frac{35}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "21",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

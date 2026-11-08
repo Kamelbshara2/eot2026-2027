@@ -1,0 +1,255 @@
+{
+  "classroom": "9G3",
+  "pages": 30,
+  "selected_question_ids": [
+    "G9G-BOOK-Q01-MCQ-01",
+    "G9G-BOOK-Q01-MCQ-02",
+    "G9G-BOOK-Q01-MCQ-03",
+    "G9G-BOOK-Q01-MCQ-04",
+    "G9G-BOOK-Q02-MCQ-01",
+    "G9G-BOOK-Q02-MCQ-02",
+    "G9G-BOOK-Q02-MCQ-03",
+    "G9G-BOOK-Q02-MCQ-04",
+    "G9G-BOOK-Q03-MCQ-01",
+    "G9G-BOOK-Q03-MCQ-02",
+    "G9G-BOOK-Q03-MCQ-03",
+    "G9G-BOOK-Q03-MCQ-04",
+    "G9G-BOOK-Q04-MCQ-01",
+    "G9G-BOOK-Q04-MCQ-02",
+    "G9G-BOOK-Q04-MCQ-03",
+    "G9G-BOOK-Q04-MCQ-04",
+    "G9G-BOOK-Q05-MCQ-01",
+    "G9G-BOOK-Q05-MCQ-02",
+    "G9G-BOOK-Q05-MCQ-03",
+    "G9G-BOOK-Q05-MCQ-04",
+    "G9G-BOOK-Q06-MCQ-01",
+    "G9G-BOOK-Q06-MCQ-02",
+    "G9G-BOOK-Q06-MCQ-03",
+    "G9G-BOOK-Q06-MCQ-04",
+    "G9G-BOOK-Q07-MCQ-01",
+    "G9G-BOOK-Q07-MCQ-02",
+    "G9G-BOOK-Q07-MCQ-03",
+    "G9G-BOOK-Q07-MCQ-04",
+    "G9G-BOOK-Q08-MCQ-01",
+    "G9G-BOOK-Q08-MCQ-02",
+    "G9G-BOOK-Q08-MCQ-03",
+    "G9G-BOOK-Q08-MCQ-04",
+    "G9G-BOOK-Q09-MCQ-01",
+    "G9G-BOOK-Q09-MCQ-02",
+    "G9G-BOOK-Q09-MCQ-03",
+    "G9G-BOOK-Q09-MCQ-04",
+    "G9G-BOOK-Q10-MCQ-01",
+    "G9G-BOOK-Q10-MCQ-02",
+    "G9G-BOOK-Q10-MCQ-03",
+    "G9G-BOOK-Q10-MCQ-04",
+    "G9G-BOOK-Q11-MCQ-01",
+    "G9G-BOOK-Q11-MCQ-02",
+    "G9G-BOOK-Q11-MCQ-03",
+    "G9G-BOOK-Q11-MCQ-04",
+    "G9G-BOOK-Q12-MCQ-01",
+    "G9G-BOOK-Q12-MCQ-02",
+    "G9G-BOOK-Q12-MCQ-03",
+    "G9G-BOOK-Q12-MCQ-04",
+    "G9G-BOOK-Q13-MCQ-01",
+    "G9G-BOOK-Q13-MCQ-02",
+    "G9G-BOOK-Q13-MCQ-03",
+    "G9G-BOOK-Q13-MCQ-04",
+    "G9G-BOOK-Q14-MCQ-01",
+    "G9G-BOOK-Q14-MCQ-02",
+    "G9G-BOOK-Q14-MCQ-03",
+    "G9G-BOOK-Q14-MCQ-04",
+    "G9G-BOOK-Q15-MCQ-01",
+    "G9G-BOOK-Q15-MCQ-02",
+    "G9G-BOOK-Q15-MCQ-03",
+    "G9G-BOOK-Q15-MCQ-04",
+    "G9G-BOOK-Q16-MCQ-01",
+    "G9G-BOOK-Q16-MCQ-02",
+    "G9G-BOOK-Q16-MCQ-03",
+    "G9G-BOOK-Q16-MCQ-04",
+    "G9G-BOOK-Q17-MCQ-01",
+    "G9G-BOOK-Q17-MCQ-02",
+    "G9G-BOOK-Q17-MCQ-03",
+    "G9G-BOOK-Q17-MCQ-04",
+    "G9G-BOOK-Q18-MCQ-01",
+    "G9G-BOOK-Q18-MCQ-02",
+    "G9G-BOOK-Q18-MCQ-03",
+    "G9G-BOOK-Q18-MCQ-04",
+    "G9G-BOOK-Q19-MCQ-01",
+    "G9G-BOOK-Q19-MCQ-02",
+    "G9G-BOOK-Q19-MCQ-03",
+    "G9G-BOOK-Q19-MCQ-04",
+    "G9G-BOOK-Q20-MCQ-01",
+    "G9G-BOOK-Q20-MCQ-02",
+    "G9G-BOOK-Q20-MCQ-03",
+    "G9G-BOOK-Q20-MCQ-04",
+    "G9G-BOOK-Q21-FRQ-01",
+    "G9G-BOOK-Q21-FRQ-02",
+    "G9G-BOOK-Q21-FRQ-03",
+    "G9G-BOOK-Q21-FRQ-04",
+    "G9G-BOOK-Q22-FRQ-01",
+    "G9G-BOOK-Q22-FRQ-02",
+    "G9G-BOOK-Q22-FRQ-03",
+    "G9G-BOOK-Q22-FRQ-04",
+    "G9G-BOOK-Q23-FRQ-01",
+    "G9G-BOOK-Q23-FRQ-02",
+    "G9G-BOOK-Q23-FRQ-03",
+    "G9G-BOOK-Q23-FRQ-04",
+    "G9G-BOOK-Q24-FRQ-01",
+    "G9G-BOOK-Q24-FRQ-02",
+    "G9G-BOOK-Q24-FRQ-03",
+    "G9G-BOOK-Q24-FRQ-04",
+    "G9G-BOOK-Q25-FRQ-01",
+    "G9G-BOOK-Q25-FRQ-02",
+    "G9G-BOOK-Q25-FRQ-03",
+    "G9G-BOOK-Q25-FRQ-04",
+    "G9G-BOOK-Q26-FRQ-01",
+    "G9G-BOOK-Q26-FRQ-02",
+    "G9G-BOOK-Q26-FRQ-03",
+    "G9G-BOOK-Q26-FRQ-04"
+  ],
+  "mcq_count": 80,
+  "frq_count": 24,
+  "coverage": [
+    [
+      "Q1",
+      "Numerical expressions",
+      2
+    ],
+    [
+      "Q2",
+      "Distributive Property",
+      2
+    ],
+    [
+      "Q3",
+      "Addition and subtraction equations",
+      3
+    ],
+    [
+      "Q4",
+      "Rearrange formulas",
+      3
+    ],
+    [
+      "Q5",
+      "Properties of equality",
+      4
+    ],
+    [
+      "Q6",
+      "Variables on each side",
+      4
+    ],
+    [
+      "Q7",
+      "Distribute to evaluate",
+      5
+    ],
+    [
+      "Q8",
+      "Rate of change",
+      6
+    ],
+    [
+      "Q9",
+      "Solve proportions",
+      7
+    ],
+    [
+      "Q10",
+      "Multi-step equations with parameters",
+      7
+    ],
+    [
+      "Q11",
+      "Dilations of linear functions",
+      8
+    ],
+    [
+      "Q12",
+      "Slope-intercept form",
+      9
+    ],
+    [
+      "Q13",
+      "Read linear graphs",
+      10
+    ],
+    [
+      "Q14",
+      "Graph step functions",
+      11
+    ],
+    [
+      "Q15",
+      "Slope from two points",
+      12
+    ],
+    [
+      "Q16",
+      "Evaluate step functions",
+      13
+    ],
+    [
+      "Q17",
+      "Arithmetic sequence arguments",
+      14
+    ],
+    [
+      "Q18",
+      "Constant linear functions",
+      15
+    ],
+    [
+      "Q19",
+      "Verbal expressions",
+      16
+    ],
+    [
+      "Q20",
+      "Solve multi-step equations",
+      17
+    ],
+    [
+      "Q21",
+      "Evaluate algebraic expressions",
+      18
+    ],
+    [
+      "Q22",
+      "Use and rearrange formulas",
+      19
+    ],
+    [
+      "Q23",
+      "Equations, identities and contradictions",
+      21
+    ],
+    [
+      "Q24",
+      "Graph with a table",
+      22
+    ],
+    [
+      "Q25",
+      "Piecewise functions",
+      24
+    ],
+    [
+      "Q26",
+      "Arithmetic nth term",
+      26
+    ],
+    [
+      "KEY",
+      "MCQ answers",
+      28
+    ],
+    [
+      "KEY",
+      "Worked written answers",
+      29
+    ]
+  ],
+  "book_sha256": "4f01481258cdf22d1b060c2b7c785ef62d2777fe2bfa27b9aee6dcc9f95e1a5b"
+}

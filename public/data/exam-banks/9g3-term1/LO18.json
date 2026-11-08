@@ -1,0 +1,263 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO18",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO18",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO18",
+      "exam_slot": "Q18",
+      "title": "Constant linear functions",
+      "title_ar": "الدوال الخطية الثابتة",
+      "statement": "Constant linear functions",
+      "question_type": "mcq",
+      "rule_summary": "y=b is horizontal, with slope 0 and y-intercept b.",
+      "textbook_references": [
+        {
+          "printed_page": 233,
+          "exercises_or_section": "Graphs C,D; p236 25–26"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q18-MCQ-01",
+        "G9G-BOOK-Q18-MCQ-02",
+        "G9G-BOOK-Q18-MCQ-03",
+        "G9G-BOOK-Q18-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q18-MCQ-01",
+        "G9G-BOOK-Q18-MCQ-02",
+        "G9G-BOOK-Q18-MCQ-03",
+        "G9G-BOOK-Q18-MCQ-04"
+      ],
+      "download": "LO18.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q18-MCQ-01",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.1",
+      "instruction": "Match the original constant-function graph with its equation. Options give y.",
+      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 4 x",
+          "math_latex": "- 4 x"
+        },
+        {
+          "id": "B",
+          "text": "-4",
+          "math_latex": "-4"
+        },
+        {
+          "id": "C",
+          "text": "-3",
+          "math_latex": "-3"
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "math_latex": "4"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "-4",
+        "explanation": "A horizontal line has a constant y-value, slope 0."
+      },
+      "diagram_asset_ids": [
+        "constant_c"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph C",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-02",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.2",
+      "instruction": "Match the original constant-function graph with its equation. Options give y.",
+      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "B",
+          "text": "9",
+          "math_latex": "9"
+        },
+        {
+          "id": "C",
+          "text": "-8",
+          "math_latex": "-8"
+        },
+        {
+          "id": "D",
+          "text": "8 x",
+          "math_latex": "8 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "8",
+        "explanation": "A horizontal line has a constant y-value, slope 0."
+      },
+      "diagram_asset_ids": [
+        "constant_d"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph D",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-03",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.3",
+      "instruction": "Choose the graph description.",
+      "stem": "Choose the graph description. y=7",
+      "math_latex": "y=7",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical line through (7,0)."
+        },
+        {
+          "id": "B",
+          "text": "Line through the origin with slope 7."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal line through (0,0)."
+        },
+        {
+          "id": "D",
+          "text": "Horizontal line through (0,7)."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Horizontal line through (0,7).",
+        "explanation": "A constant equation y=b is a horizontal line at height b."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "25",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-04",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.4",
+      "instruction": "Choose the graph description.",
+      "stem": "Choose the graph description. y=-\\frac23",
+      "math_latex": "y=-\\frac23",
+      "options": [
+        {
+          "id": "A",
+          "text": "Line through the origin with slope 7."
+        },
+        {
+          "id": "B",
+          "text": "Horizontal line through (0,0)."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal line through (0,−2/3)."
+        },
+        {
+          "id": "D",
+          "text": "Vertical line through (7,0)."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Horizontal line through (0,−2/3).",
+        "explanation": "A constant equation y=b is a horizontal line at height b."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "26",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {
+    "constant_c": {
+      "src": "assets/constant_c.png",
+      "width": 323,
+      "height": 357,
+      "alt_text": "Original textbook visual, Reveal p. 233, Match graph C.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph C",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.52,
+        0.49,
+        0.7,
+        0.631
+      ]
+    },
+    "constant_d": {
+      "src": "assets/constant_d.png",
+      "width": 323,
+      "height": 357,
+      "alt_text": "Original textbook visual, Reveal p. 233, Match graph D.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph D",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.145,
+        0.642,
+        0.325,
+        0.783
+      ]
+    }
+  }
+}

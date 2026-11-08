@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO19",
     "classroom": "10A1",
     "learning_outcome_id": "LO19",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,262 +18,209 @@
           "printed_page": 199,
           "exercises_or_section": "1–7"
         }
-      ]
+      ],
+      "title_ar": "زوايا الارتفاع والانخفاض",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q19-MCQ-01",
+        "G10A-BOOK-Q19-MCQ-02",
+        "G10A-BOOK-Q19-MCQ-03",
+        "G10A-BOOK-Q19-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q19-MCQ-01",
+        "G10A-BOOK-Q19-MCQ-02",
+        "G10A-BOOK-Q19-MCQ-03",
+        "G10A-BOOK-Q19-MCQ-04"
+      ],
+      "download": "LO19.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q19-MCQ-01",
+      "id": "G10A-BOOK-Q19-MCQ-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
       "display_number": "19.1",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "A 30 m tower is viewed from level ground at an elevation angle of 25°. Find the horizontal distance to its base, to the nearest metre.",
-      "diagram_asset_ids": [],
+      "instruction": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
+      "stem": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "33 m"
+          "text": "64",
+          "math_latex": "64"
         },
         {
           "id": "B",
-          "text": "71 m"
+          "text": "65",
+          "math_latex": "65"
         },
         {
           "id": "C",
-          "text": "14 m"
+          "text": "63",
+          "math_latex": "63"
         },
         {
           "id": "D",
-          "text": "64 m"
+          "text": "69",
+          "math_latex": "69"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "64 m",
-        "explanation": "d=30/tan25°≈64.3."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "64",
+        "explanation": "tan25°=30/d, so d≈64.335 m, which rounds to 64 m."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "1",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q19-MCQ-02",
+      "id": "G10A-BOOK-Q19-MCQ-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
       "display_number": "19.2",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "An observer is 50 m from a building. The elevation angle to its roof is 32° and eye height is 1.6 m. Find the building height to the nearest tenth.",
-      "diagram_asset_ids": [],
+      "instruction": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
+      "stem": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "81.6 m"
+          "text": "\\frac{29}{2}",
+          "math_latex": "\\frac{29}{2}"
         },
         {
           "id": "B",
-          "text": "31.2 m"
+          "text": "\\frac{25}{2}",
+          "math_latex": "\\frac{25}{2}"
         },
         {
           "id": "C",
-          "text": "27.9 m"
+          "text": "\\frac{37}{2}",
+          "math_latex": "\\frac{37}{2}"
         },
         {
           "id": "D",
-          "text": "32.8 m"
+          "text": "\\frac{27}{2}",
+          "math_latex": "\\frac{27}{2}"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "32.8 m",
-        "explanation": "h=50tan32°+1.6≈32.8."
+        "correct_option_text": "\\frac{27}{2}",
+        "explanation": "The vertical difference is 32.5−6=26.5 ft. θ=tan⁻¹(26.5/110)≈13.5°."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "2",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q19-MCQ-03",
+      "id": "G10A-BOOK-Q19-MCQ-03",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
       "display_number": "19.3",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "From a 45 m cliff top, the depression angle to a boat is 18°. Find the horizontal distance to the boat, to the nearest metre.",
-      "diagram_asset_ids": [],
+      "instruction": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
+      "stem": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "146 m"
+          "text": "20",
+          "math_latex": "20"
         },
         {
           "id": "B",
-          "text": "138 m"
+          "text": "26",
+          "math_latex": "26"
         },
         {
           "id": "C",
-          "text": "43 m"
+          "text": "21",
+          "math_latex": "21"
         },
         {
           "id": "D",
-          "text": "15 m"
+          "text": "22",
+          "math_latex": "22"
         }
       ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "138 m",
-        "explanation": "d=45/tan18°≈138.5, which rounds to 138 m."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "21",
+        "explanation": "The horizontal distance is 30/tan55°≈21.006 ft, so 21 ft."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "3",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q19-MCQ-04",
+      "id": "G10A-BOOK-Q19-MCQ-04",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
       "display_number": "19.4",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "A 10 m ladder reaches a point 8 m up a vertical wall. Find its angle with level ground to the nearest tenth.",
-      "diagram_asset_ids": [],
+      "instruction": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
+      "stem": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "38.7°"
+          "text": "\\frac{627}{10}",
+          "math_latex": "\\frac{627}{10}"
         },
         {
           "id": "B",
-          "text": "53.1°"
+          "text": "\\frac{577}{10}",
+          "math_latex": "\\frac{577}{10}"
         },
         {
           "id": "C",
-          "text": "36.9°"
+          "text": "\\frac{587}{10}",
+          "math_latex": "\\frac{587}{10}"
         },
         {
           "id": "D",
-          "text": "51.3°"
+          "text": "\\frac{567}{10}",
+          "math_latex": "\\frac{567}{10}"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "53.1°",
-        "explanation": "θ=sin⁻¹(8/10)."
+        "correct_option_text": "\\frac{577}{10}",
+        "explanation": "Use the actual eye-to-top difference 100−5=95 m: θ=tan⁻¹(95/60)."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q19-MCQ-05",
-      "display_number": "19.5",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "A plane is 600 m above level ground and 2000 m horizontally from a landing point. Find the depression angle to the nearest tenth.",
       "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "17.5°"
-        },
-        {
-          "id": "B",
-          "text": "30.0°"
-        },
-        {
-          "id": "C",
-          "text": "73.3°"
-        },
-        {
-          "id": "D",
-          "text": "16.7°"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "16.7°",
-        "explanation": "θ=tan⁻¹(600/2000)."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q19-MCQ-06",
-      "display_number": "19.6",
-      "exam_slot": "Q19",
-      "type": "mcq",
-      "learning_outcome_id": "LO19",
-      "origin": "parallel_practice",
-      "stem": "The angle of depression from a tower to a car is 27°. What is the elevation angle from the car to the same point?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "90°"
-        },
-        {
-          "id": "B",
-          "text": "27°"
-        },
-        {
-          "id": "C",
-          "text": "153°"
-        },
-        {
-          "id": "D",
-          "text": "63°"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "27°",
-        "explanation": "Horizontal lines are parallel, giving equal alternate interior angles."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "4",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {}
 }

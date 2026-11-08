@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO01",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO01",
+    "question_count": 6,
+    "mcq_count": 6,
+    "frq_count": 0
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO01",
+      "exam_slot": "Q1",
+      "title": "Polynomial operations",
+      "statement": "Write polynomials in standard form. Add and subtract polynomials.",
+      "rule_summary": "Order terms by decreasing powers. Combine like terms. When subtracting a polynomial, change the sign of every term in the second polynomial.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 635,
+          "exercises_or_section": "10–14, 22–26"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q01-MCQ-01",
+      "display_number": "1.1",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Write 7 − 4x² + 3x³ − x in standard form.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3x³ − 4x² − x + 7"
+        },
+        {
+          "id": "B",
+          "text": "7 − x − 4x² + 3x³"
+        },
+        {
+          "id": "C",
+          "text": "3x³ − 4x² + x + 7"
+        },
+        {
+          "id": "D",
+          "text": "−4x² + 3x³ − x + 7"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3x³ − 4x² − x + 7",
+        "explanation": "Descending exponents are 3, 2, 1, 0."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-02",
+      "display_number": "1.2",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "What is the leading coefficient of 5 − 2t + 7t⁴ − 3t²?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "−3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7",
+        "explanation": "The highest-degree term is 7t⁴."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-03",
+      "display_number": "1.3",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Simplify (4x² − 5x) + (3x − 7x²).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "11x² − 2x"
+        },
+        {
+          "id": "B",
+          "text": "−3x² − 2x"
+        },
+        {
+          "id": "C",
+          "text": "−3x² − 8x"
+        },
+        {
+          "id": "D",
+          "text": "7x² − 2x"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "−3x² − 2x",
+        "explanation": "4−7=−3 and −5+3=−2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-04",
+      "display_number": "1.4",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Simplify (6y² + 2y − 9) − (4y² − 5y + 1).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2y² − 3y − 8"
+        },
+        {
+          "id": "B",
+          "text": "10y² − 3y − 10"
+        },
+        {
+          "id": "C",
+          "text": "2y² + 7y − 8"
+        },
+        {
+          "id": "D",
+          "text": "2y² + 7y − 10"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "2y² + 7y − 10",
+        "explanation": "Distribute the negative, then combine like terms."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-05",
+      "display_number": "1.5",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Which polynomial must be added to 3x² − 2x + 4 to obtain x² + 5x − 1?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2x² − 7x + 5"
+        },
+        {
+          "id": "B",
+          "text": "−2x² + 7x − 5"
+        },
+        {
+          "id": "C",
+          "text": "−2x² + 3x − 5"
+        },
+        {
+          "id": "D",
+          "text": "4x² + 3x + 3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "−2x² + 7x − 5",
+        "explanation": "Subtract the known polynomial from the target."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-06",
+      "display_number": "1.6",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "A student writes −(2x² − 3x + 8) = −2x² − 3x − 8. Which correction is needed?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The constant should be +8."
+        },
+        {
+          "id": "B",
+          "text": "The first term should be +2x²."
+        },
+        {
+          "id": "C",
+          "text": "The middle term should be +3x."
+        },
+        {
+          "id": "D",
+          "text": "No correction is needed."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "The middle term should be +3x.",
+        "explanation": "Every term is multiplied by −1."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    }
+  ]
+}

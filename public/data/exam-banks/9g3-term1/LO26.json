@@ -1,0 +1,234 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO26",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO26",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO26",
+      "exam_slot": "Q26",
+      "title": "Arithmetic nth term",
+      "title_ar": "الحد النوني للمتتالية الحسابية",
+      "statement": "Arithmetic nth term",
+      "question_type": "frq",
+      "rule_summary": "aₙ=a₁+(n−1)d; substitute the requested term number.",
+      "textbook_references": [
+        {
+          "printed_page": 255,
+          "exercises_or_section": "19–22"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q26-FRQ-01",
+        "G9G-BOOK-Q26-FRQ-02",
+        "G9G-BOOK-Q26-FRQ-03",
+        "G9G-BOOK-Q26-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q26-FRQ-01",
+        "G9G-BOOK-Q26-FRQ-02",
+        "G9G-BOOK-Q26-FRQ-03",
+        "G9G-BOOK-Q26-FRQ-04"
+      ],
+      "download": "LO26.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q26-FRQ-01",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.1",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -3,-8,-13,-18,\\ldots",
+      "math_latex": "-3,-8,-13,-18,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=−5; aₙ=−3+(n−1)(−5)=2−5n. Common difference (2), formula (3).",
+            "math_latex": "a_n=2-5n"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=-33. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-02",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.2",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -2,3,8,13,\\ldots",
+      "math_latex": "-2,3,8,13,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=5; aₙ=−2+5(n−1)=5n−7. Common difference (2), formula (3).",
+            "math_latex": "a_n=5n-7"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=28. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "20",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-03",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.3",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -11,-15,-19,-23,\\ldots",
+      "math_latex": "-11,-15,-19,-23,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=−4; aₙ=−11−4(n−1)=−4n−7. Common difference (2), formula (3).",
+            "math_latex": "a_n=-4n-7"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=-35. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "21",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-04",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.4",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -0.75,-0.5,-0.25,0,\\ldots",
+      "math_latex": "-0.75,-0.5,-0.25,0,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=0.25; aₙ=−0.75+0.25(n−1)=0.25n−1. Common difference (2), formula (3).",
+            "math_latex": "a_n=\\frac n4-1"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=3/4. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "22",
+        "adaptation": "transcription"
+      }
+    }
+  ],
+  "assets": {}
+}

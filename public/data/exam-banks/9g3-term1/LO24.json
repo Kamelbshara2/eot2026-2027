@@ -1,0 +1,182 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO24",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO24",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Graph with a table",
+      "title_ar": "الرسم باستخدام جدول",
+      "statement": "Graph with a table",
+      "question_type": "frq",
+      "rule_summary": "Choose convenient x-values, calculate y, and plot collinear points.",
+      "textbook_references": [
+        {
+          "printed_page": 215,
+          "exercises_or_section": "5–8"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q24-FRQ-01",
+        "G9G-BOOK-Q24-FRQ-02",
+        "G9G-BOOK-Q24-FRQ-03",
+        "G9G-BOOK-Q24-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q24-FRQ-01",
+        "G9G-BOOK-Q24-FRQ-02",
+        "G9G-BOOK-Q24-FRQ-03",
+        "G9G-BOOK-Q24-FRQ-04"
+      ],
+      "download": "LO24.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q24-FRQ-01",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.1",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y-8=-x",
+      "math_latex": "y-8=-x",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (0,8), (4,4), (8,0). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "5",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-02",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.2",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. x=10-y",
+      "math_latex": "x=10-y",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (0,10), (5,5), (10,0). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "6",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-03",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.3",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y=\\frac12x+1",
+      "math_latex": "y=\\frac12x+1",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (−2,0), (0,1), (2,2). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "7",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-04",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.4",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y+2=\\frac14x",
+      "math_latex": "y+2=\\frac14x",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (−4,−3), (0,−2), (4,−1). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "8",
+        "adaptation": "transcription"
+      }
+    }
+  ],
+  "assets": {}
+}

@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO02",
     "classroom": "10A1",
     "learning_outcome_id": "LO02",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,262 +18,209 @@
           "printed_page": 649,
           "exercises_or_section": "1–6"
         }
-      ]
+      ],
+      "title_ar": "ضرب ثنائيي الحد بطريقة FOIL",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q02-MCQ-01",
+        "G10A-BOOK-Q02-MCQ-02",
+        "G10A-BOOK-Q02-MCQ-03",
+        "G10A-BOOK-Q02-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q02-MCQ-01",
+        "G10A-BOOK-Q02-MCQ-02",
+        "G10A-BOOK-Q02-MCQ-03",
+        "G10A-BOOK-Q02-MCQ-04"
+      ],
+      "download": "LO02.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q02-MCQ-01",
+      "id": "G10A-BOOK-Q02-MCQ-01",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
       "display_number": "2.1",
-      "exam_slot": "Q2",
-      "type": "mcq",
-      "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "Expand (3x − 4)(x + 5).",
-      "diagram_asset_ids": [],
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(c + 3\\right) \\left(3 c - 5\\right)",
+      "math_latex": "\\left(c + 3\\right) \\left(3 c - 5\\right)",
       "options": [
         {
           "id": "A",
-          "text": "3x² + 11x + 20"
+          "text": "3 c^{2} + 4 c - 14",
+          "math_latex": "3 c^{2} + 4 c - 14"
         },
         {
           "id": "B",
-          "text": "3x² + 15x − 20"
+          "text": "3 c^{2} + 4 c - 15",
+          "math_latex": "3 c^{2} + 4 c - 15"
         },
         {
           "id": "C",
-          "text": "3x² − 11x − 20"
+          "text": "3 c^{2} + 5 c - 15",
+          "math_latex": "3 c^{2} + 5 c - 15"
         },
         {
           "id": "D",
-          "text": "3x² + 11x − 20"
+          "text": "3 c^{2} + 3 c - 15",
+          "math_latex": "3 c^{2} + 3 c - 15"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "3x² + 11x − 20",
-        "explanation": "Middle terms are 15x and −4x."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q02-MCQ-02",
-      "display_number": "2.2",
-      "exam_slot": "Q2",
-      "type": "mcq",
-      "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "Expand (2y − 3)(4y − 7).",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "8y² − 26y + 21"
-        },
-        {
-          "id": "B",
-          "text": "8y² − 20y + 21"
-        },
-        {
-          "id": "C",
-          "text": "8y² + 26y + 21"
-        },
-        {
-          "id": "D",
-          "text": "8y² − 26y − 21"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "8y² − 26y + 21",
-        "explanation": "−14y−12y=−26y."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q02-MCQ-03",
-      "display_number": "2.3",
-      "exam_slot": "Q2",
-      "type": "mcq",
-      "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "What is the coefficient of x in (5x + 2)(3x − 4)?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "6"
-        },
-        {
-          "id": "B",
-          "text": "−20"
-        },
-        {
-          "id": "C",
-          "text": "14"
-        },
-        {
-          "id": "D",
-          "text": "−14"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "−14",
-        "explanation": "The middle products are −20x and 6x."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q02-MCQ-04",
-      "display_number": "2.4",
-      "exam_slot": "Q2",
-      "type": "mcq",
-      "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "Which product expands to 6x² + x − 2?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "(3x − 2)(2x + 1)"
-        },
-        {
-          "id": "B",
-          "text": "(6x − 1)(x + 2)"
-        },
-        {
-          "id": "C",
-          "text": "(3x + 2)(2x − 1)"
-        },
-        {
-          "id": "D",
-          "text": "(3x + 1)(2x − 2)"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "(3x + 2)(2x − 1)",
-        "explanation": "Expand each proposed factorization."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q02-MCQ-05",
-      "display_number": "2.5",
-      "exam_slot": "Q2",
-      "type": "mcq",
-      "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "A rectangle has sides (2x + 3) m and (x − 1) m, with x > 1. What is its area?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "(2x² − x − 3) m²"
-        },
-        {
-          "id": "B",
-          "text": "(2x² + x − 3) m²"
-        },
-        {
-          "id": "C",
-          "text": "(3x + 2) m²"
-        },
-        {
-          "id": "D",
-          "text": "(2x² + 5x + 3) m²"
-        }
-      ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "(2x² + x − 3) m²",
-        "explanation": "Multiply length by width."
+        "correct_option_text": "3 c^{2} + 4 c - 15",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "1",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q02-MCQ-06",
-      "display_number": "2.6",
-      "exam_slot": "Q2",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q02-MCQ-02",
       "learning_outcome_id": "LO02",
-      "origin": "parallel_practice",
-      "stem": "In (x + a)(x + 4) = x² + 10x + 24, find a.",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "2.2",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(g + 10\\right) \\left(2 g - 5\\right)",
+      "math_latex": "\\left(g + 10\\right) \\left(2 g - 5\\right)",
       "options": [
         {
           "id": "A",
-          "text": "10"
+          "text": "2 g^{2} + 15 g - 50",
+          "math_latex": "2 g^{2} + 15 g - 50"
         },
         {
           "id": "B",
-          "text": "4"
+          "text": "2 g^{2} + 16 g - 50",
+          "math_latex": "2 g^{2} + 16 g - 50"
         },
         {
           "id": "C",
-          "text": "24"
+          "text": "2 g^{2} + 14 g - 50",
+          "math_latex": "2 g^{2} + 14 g - 50"
         },
         {
           "id": "D",
-          "text": "6"
+          "text": "2 g^{2} + 15 g - 49",
+          "math_latex": "2 g^{2} + 15 g - 49"
         }
       ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 g^{2} + 15 g - 50",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-03",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.3",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(5 a + 3\\right) \\left(6 a + 5\\right)",
+      "math_latex": "\\left(5 a + 3\\right) \\left(6 a + 5\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 a^{2} + 44 a + 15",
+          "math_latex": "30 a^{2} + 44 a + 15"
+        },
+        {
+          "id": "B",
+          "text": "30 a^{2} + 42 a + 15",
+          "math_latex": "30 a^{2} + 42 a + 15"
+        },
+        {
+          "id": "C",
+          "text": "30 a^{2} + 43 a + 16",
+          "math_latex": "30 a^{2} + 43 a + 16"
+        },
+        {
+          "id": "D",
+          "text": "30 a^{2} + 43 a + 15",
+          "math_latex": "30 a^{2} + 43 a + 15"
+        }
+      ],
+      "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "6",
-        "explanation": "a+4=10 and 4a=24."
+        "correct_option_text": "30 a^{2} + 43 a + 15",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
       },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-04",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.4",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(4 x + 1\\right) \\left(6 x + 3\\right)",
+      "math_latex": "\\left(4 x + 1\\right) \\left(6 x + 3\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 x^{2} + 17 x + 3",
+          "math_latex": "24 x^{2} + 17 x + 3"
+        },
+        {
+          "id": "B",
+          "text": "24 x^{2} + 18 x + 4",
+          "math_latex": "24 x^{2} + 18 x + 4"
+        },
+        {
+          "id": "C",
+          "text": "24 x^{2} + 18 x + 3",
+          "math_latex": "24 x^{2} + 18 x + 3"
+        },
+        {
+          "id": "D",
+          "text": "24 x^{2} + 19 x + 3",
+          "math_latex": "24 x^{2} + 19 x + 3"
+        }
+      ],
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "24 x^{2} + 18 x + 3",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "4",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {}
 }

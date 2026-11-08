@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO14",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO14",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO14",
+      "exam_slot": "Q14",
+      "title": "Graph step functions",
+      "title_ar": "رسم الدوال الدرجية",
+      "statement": "Graph step functions",
+      "question_type": "mcq",
+      "rule_summary": "⌊x⌋ is the greatest integer ≤x; pay attention to open and closed endpoints.",
+      "textbook_references": [
+        {
+          "printed_page": 263,
+          "exercises_or_section": "7–9; 7 domain/range"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q14-MCQ-01",
+        "G9G-BOOK-Q14-MCQ-02",
+        "G9G-BOOK-Q14-MCQ-03",
+        "G9G-BOOK-Q14-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q14-MCQ-01",
+        "G9G-BOOK-Q14-MCQ-02",
+        "G9G-BOOK-Q14-MCQ-03",
+        "G9G-BOOK-Q14-MCQ-04"
+      ],
+      "download": "LO14.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q14-MCQ-01",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.1",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=3\\lfloor x\\rfloor",
+      "math_latex": "f(x)=3\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=n\\text{ on }[3n,3n+3)",
+          "math_latex": "y=n\\text{ on }[3n,3n+3)"
+        },
+        {
+          "id": "B",
+          "text": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+          "math_latex": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z"
+        },
+        {
+          "id": "C",
+          "text": "y=3n\\text{ on }(n,n+1]",
+          "math_latex": "y=3n\\text{ on }(n,n+1]"
+        },
+        {
+          "id": "D",
+          "text": "y=3x",
+          "math_latex": "y=3x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "7",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-02",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.2",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=\\lfloor-x\\rfloor",
+      "math_latex": "f(x)=\\lfloor-x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z",
+          "math_latex": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z"
+        },
+        {
+          "id": "B",
+          "text": "y=n\\text{ on }[-n-1,-n)",
+          "math_latex": "y=n\\text{ on }[-n-1,-n)"
+        },
+        {
+          "id": "C",
+          "text": "y=-x",
+          "math_latex": "y=-x"
+        },
+        {
+          "id": "D",
+          "text": "y=n\\text{ on }[n,n+1)",
+          "math_latex": "y=n\\text{ on }[n,n+1)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "8",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-03",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.3",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. g(x)=-2\\lfloor x\\rfloor",
+      "math_latex": "g(x)=-2\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=-2n\\text{ on }(n,n+1]",
+          "math_latex": "y=-2n\\text{ on }(n,n+1]"
+        },
+        {
+          "id": "B",
+          "text": "y=-2x",
+          "math_latex": "y=-2x"
+        },
+        {
+          "id": "C",
+          "text": "y=2n\\text{ on }[n,n+1)",
+          "math_latex": "y=2n\\text{ on }[n,n+1)"
+        },
+        {
+          "id": "D",
+          "text": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+          "math_latex": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-04",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.4",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=3\\lfloor x\\rfloor",
+      "math_latex": "f(x)=3\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "D=\\mathbb R,\\ R=\\mathbb R",
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb R"
+        },
+        {
+          "id": "B",
+          "text": "D=\\mathbb R,\\ R=\\mathbb Z",
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb Z"
+        },
+        {
+          "id": "C",
+          "text": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}",
+          "math_latex": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}"
+        },
+        {
+          "id": "D",
+          "text": "D=\\mathbb Z,\\ R=\\mathbb R",
+          "math_latex": "D=\\mathbb Z,\\ R=\\mathbb R"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "7: domain and range",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

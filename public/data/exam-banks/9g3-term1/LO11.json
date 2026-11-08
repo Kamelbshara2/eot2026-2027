@@ -1,0 +1,299 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO11",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO11",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Dilations of linear functions",
+      "title_ar": "التمدد لدوال خطية",
+      "statement": "Dilations of linear functions",
+      "question_type": "mcq",
+      "rule_summary": "Relative to y=x, kx stretches vertically if |k|>1 and compresses if 0<|k|<1.",
+      "textbook_references": [
+        {
+          "printed_page": 248,
+          "exercises_or_section": "10–12,14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q11-MCQ-01",
+        "G9G-BOOK-Q11-MCQ-02",
+        "G9G-BOOK-Q11-MCQ-03",
+        "G9G-BOOK-Q11-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q11-MCQ-01",
+        "G9G-BOOK-Q11-MCQ-02",
+        "G9G-BOOK-Q11-MCQ-03",
+        "G9G-BOOK-Q11-MCQ-04"
+      ],
+      "download": "LO11.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q11-MCQ-01",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.1",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=5x",
+      "math_latex": "g(x)=5x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical stretch by factor 5."
+        },
+        {
+          "id": "B",
+          "text": "Horizontal shift right by 5."
+        },
+        {
+          "id": "C",
+          "text": "Vertical shift up by 5."
+        },
+        {
+          "id": "D",
+          "text": "Vertical compression by factor 5."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Vertical stretch by factor 5.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_10"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-02",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.2",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{1}{3}x",
+      "math_latex": "g(x)=\\frac{1}{3}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Horizontal shift right by 1/3."
+        },
+        {
+          "id": "B",
+          "text": "Vertical shift up by 1/3."
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by factor 1/3."
+        },
+        {
+          "id": "D",
+          "text": "Vertical compression by factor 1/3."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Vertical compression by factor 1/3.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-03",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.3",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{3}{2}x",
+      "math_latex": "g(x)=\\frac{3}{2}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical shift up by 3/2."
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by factor 3/2."
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by factor 3/2."
+        },
+        {
+          "id": "D",
+          "text": "Horizontal shift right by 3/2."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Vertical stretch by factor 3/2.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-04",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.4",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{3}{4}x",
+      "math_latex": "g(x)=\\frac{3}{4}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical stretch by factor 3/4."
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by factor 3/4."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal shift right by 3/4."
+        },
+        {
+          "id": "D",
+          "text": "Vertical shift up by 3/4."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Vertical compression by factor 3/4.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {
+    "dilation_12": {
+      "src": "assets/dilation_12.png",
+      "width": 303,
+      "height": 302,
+      "alt_text": "Original textbook visual, Reveal p. 248, 12.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "12",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.613,
+        0.154,
+        0.782,
+        0.273
+      ]
+    },
+    "dilation_14": {
+      "src": "assets/dilation_14.png",
+      "width": 305,
+      "height": 299,
+      "alt_text": "Original textbook visual, Reveal p. 248, 14.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "14",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.348,
+        0.409,
+        0.518,
+        0.527
+      ]
+    },
+    "dilation_11": {
+      "src": "assets/dilation_11.png",
+      "width": 305,
+      "height": 302,
+      "alt_text": "Original textbook visual, Reveal p. 248, 11.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "11",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.348,
+        0.154,
+        0.518,
+        0.273
+      ]
+    },
+    "dilation_10": {
+      "src": "assets/dilation_10.png",
+      "width": 301,
+      "height": 302,
+      "alt_text": "Original textbook visual, Reveal p. 248, 10.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "10",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.09,
+        0.154,
+        0.258,
+        0.273
+      ]
+    }
+  }
+}

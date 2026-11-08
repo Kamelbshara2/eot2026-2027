@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO01",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO01",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO01",
+      "exam_slot": "Q1",
+      "title": "Numerical expressions",
+      "title_ar": "التعابير العددية",
+      "statement": "Numerical expressions",
+      "question_type": "mcq",
+      "rule_summary": "Group words such as sum and difference with parentheses.",
+      "textbook_references": [
+        {
+          "printed_page": 9,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q01-MCQ-01",
+        "G9G-BOOK-Q01-MCQ-02",
+        "G9G-BOOK-Q01-MCQ-03",
+        "G9G-BOOK-Q01-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q01-MCQ-01",
+        "G9G-BOOK-Q01-MCQ-02",
+        "G9G-BOOK-Q01-MCQ-03",
+        "G9G-BOOK-Q01-MCQ-04"
+      ],
+      "download": "LO01.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q01-MCQ-01",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.1",
+      "instruction": "Write a numerical expression for the sum of 3 and 7, divided by 2.",
+      "stem": "Write a numerical expression for the sum of 3 and 7, divided by 2. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac3{7+2}",
+          "math_latex": "\\frac3{7+2}"
+        },
+        {
+          "id": "B",
+          "text": "2(3+7)",
+          "math_latex": "2(3+7)"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{3+7}{2}",
+          "math_latex": "\\frac{3+7}{2}"
+        },
+        {
+          "id": "D",
+          "text": "3+\\frac72",
+          "math_latex": "3+\\frac72"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{3+7}{2}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-02",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.2",
+      "instruction": "Write a numerical expression for the difference of 6 and 2, divided by 4.",
+      "stem": "Write a numerical expression for the difference of 6 and 2, divided by 4. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "4(6-2)",
+          "math_latex": "4(6-2)"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{6-2}{4}",
+          "math_latex": "\\frac{6-2}{4}"
+        },
+        {
+          "id": "C",
+          "text": "6-\\frac24",
+          "math_latex": "6-\\frac24"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{4}{6-2}",
+          "math_latex": "\\frac{4}{6-2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{6-2}{4}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-03",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.3",
+      "instruction": "Write a numerical expression for the product of 3 and the sum of 4 and 9.",
+      "stem": "Write a numerical expression for the product of 3 and the sum of 4 and 9. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "3(4+9)",
+          "math_latex": "3(4+9)"
+        },
+        {
+          "id": "B",
+          "text": "3(4)+9",
+          "math_latex": "3(4)+9"
+        },
+        {
+          "id": "C",
+          "text": "3+4+9",
+          "math_latex": "3+4+9"
+        },
+        {
+          "id": "D",
+          "text": "4(3+9)",
+          "math_latex": "4(3+9)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3(4+9)",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-04",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.4",
+      "instruction": "Write a numerical expression for 18 divided by the sum of 2 and 7.",
+      "stem": "Write a numerical expression for 18 divided by the sum of 2 and 7. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{18}{2}+7",
+          "math_latex": "\\frac{18}{2}+7"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{18+2}{7}",
+          "math_latex": "\\frac{18+2}{7}"
+        },
+        {
+          "id": "C",
+          "text": "18(2+7)",
+          "math_latex": "18(2+7)"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{18}{2+7}",
+          "math_latex": "\\frac{18}{2+7}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{18}{2+7}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

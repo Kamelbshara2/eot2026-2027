@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO20",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO20",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO20",
+      "exam_slot": "Q20",
+      "title": "Solve multi-step equations",
+      "title_ar": "حل المعادلات متعددة الخطوات",
+      "statement": "Solve multi-step equations",
+      "question_type": "mcq",
+      "rule_summary": "Distribute if needed, combine like terms, then use inverse operations.",
+      "textbook_references": [
+        {
+          "printed_page": 89,
+          "exercises_or_section": "27,29,33,34"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q20-MCQ-01",
+        "G9G-BOOK-Q20-MCQ-02",
+        "G9G-BOOK-Q20-MCQ-03",
+        "G9G-BOOK-Q20-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q20-MCQ-01",
+        "G9G-BOOK-Q20-MCQ-02",
+        "G9G-BOOK-Q20-MCQ-03",
+        "G9G-BOOK-Q20-MCQ-04"
+      ],
+      "download": "LO20.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q20-MCQ-01",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.1",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 3x+8=29",
+      "math_latex": "3x+8=29",
+      "options": [
+        {
+          "id": "A",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "C",
+          "text": "-7",
+          "math_latex": "-7"
+        },
+        {
+          "id": "D",
+          "text": "7",
+          "math_latex": "7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "7",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "27",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-02",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.2",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. \\frac{5f}{2}-6=19",
+      "math_latex": "\\frac{5f}{2}-6=19",
+      "options": [
+        {
+          "id": "A",
+          "text": "9",
+          "math_latex": "9"
+        },
+        {
+          "id": "B",
+          "text": "-10",
+          "math_latex": "-10"
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "math_latex": "11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "10",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "29",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-03",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.3",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 5(1+n)=-5",
+      "math_latex": "5(1+n)=-5",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "-2",
+          "math_latex": "-2"
+        },
+        {
+          "id": "C",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "D",
+          "text": "-3",
+          "math_latex": "-3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "-2",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "33",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-04",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.4",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. -27=-6-3p",
+      "math_latex": "-27=-6-3p",
+      "options": [
+        {
+          "id": "A",
+          "text": "7",
+          "math_latex": "7"
+        },
+        {
+          "id": "B",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "D",
+          "text": "-7",
+          "math_latex": "-7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "34",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO03",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO03",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO03",
+      "exam_slot": "Q3",
+      "title": "Addition and subtraction equations",
+      "title_ar": "معادلات الجمع والطرح",
+      "statement": "Addition and subtraction equations",
+      "question_type": "mcq",
+      "rule_summary": "Apply the same addition or subtraction to both sides.",
+      "textbook_references": [
+        {
+          "printed_page": 81,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q03-MCQ-01",
+        "G9G-BOOK-Q03-MCQ-02",
+        "G9G-BOOK-Q03-MCQ-03",
+        "G9G-BOOK-Q03-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q03-MCQ-01",
+        "G9G-BOOK-Q03-MCQ-02",
+        "G9G-BOOK-Q03-MCQ-03",
+        "G9G-BOOK-Q03-MCQ-04"
+      ],
+      "download": "LO03.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q03-MCQ-01",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.1",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. v-9=14",
+      "math_latex": "v-9=14",
+      "options": [
+        {
+          "id": "A",
+          "text": "23",
+          "math_latex": "23"
+        },
+        {
+          "id": "B",
+          "text": "24",
+          "math_latex": "24"
+        },
+        {
+          "id": "C",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "D",
+          "text": "-23",
+          "math_latex": "-23"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "23",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-02",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.2",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. 44=t-72",
+      "math_latex": "44=t-72",
+      "options": [
+        {
+          "id": "A",
+          "text": "117",
+          "math_latex": "117"
+        },
+        {
+          "id": "B",
+          "text": "115",
+          "math_latex": "115"
+        },
+        {
+          "id": "C",
+          "text": "-116",
+          "math_latex": "-116"
+        },
+        {
+          "id": "D",
+          "text": "116",
+          "math_latex": "116"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "116",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-03",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.3",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. -61=d+(-18)",
+      "math_latex": "-61=d+(-18)",
+      "options": [
+        {
+          "id": "A",
+          "text": "-44",
+          "math_latex": "-44"
+        },
+        {
+          "id": "B",
+          "text": "43",
+          "math_latex": "43"
+        },
+        {
+          "id": "C",
+          "text": "-43",
+          "math_latex": "-43"
+        },
+        {
+          "id": "D",
+          "text": "-42",
+          "math_latex": "-42"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "-43",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-04",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.4",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. 18+z=40",
+      "math_latex": "18+z=40",
+      "options": [
+        {
+          "id": "A",
+          "text": "-22",
+          "math_latex": "-22"
+        },
+        {
+          "id": "B",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "C",
+          "text": "23",
+          "math_latex": "23"
+        },
+        {
+          "id": "D",
+          "text": "21",
+          "math_latex": "21"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "22",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

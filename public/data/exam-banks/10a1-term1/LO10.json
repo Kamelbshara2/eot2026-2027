@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO10",
     "classroom": "10A1",
     "learning_outcome_id": "LO10",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,262 +18,298 @@
           "printed_page": 128,
           "exercises_or_section": "11–14"
         }
-      ]
+      ],
+      "title_ar": "المضلعات المتشابهة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q10-MCQ-01",
+        "G10A-BOOK-Q10-MCQ-02",
+        "G10A-BOOK-Q10-MCQ-03",
+        "G10A-BOOK-Q10-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q10-MCQ-01",
+        "G10A-BOOK-Q10-MCQ-02",
+        "G10A-BOOK-Q10-MCQ-03",
+        "G10A-BOOK-Q10-MCQ-04"
+      ],
+      "download": "LO10.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q10-MCQ-01",
-      "display_number": "10.1",
-      "exam_slot": "Q10",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q10-MCQ-01",
       "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "ABCD ~ EFGH. AB = 8, EF = 12, and BC = 10. Find FG.",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "10.1",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "6⅔"
+          "text": "6",
+          "math_latex": "6"
         },
         {
           "id": "B",
-          "text": "14"
+          "text": "3",
+          "math_latex": "3"
         },
         {
           "id": "C",
-          "text": "18"
+          "text": "4",
+          "math_latex": "4"
         },
         {
           "id": "D",
-          "text": "15"
+          "text": "2",
+          "math_latex": "2"
         }
       ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3",
+        "explanation": "Corresponding edges satisfy (x+1)/8=(3x+1)/20. Cross multiply to get x=3."
+      },
+      "diagram_asset_ids": [
+        "q10_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-02",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.2",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "C",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2",
+        "explanation": "(3x−1)/4=(8x−1)/12 gives 36x−12=32x−4, so x=2."
+      },
+      "diagram_asset_ids": [
+        "q10_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-03",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.3",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "15",
-        "explanation": "Scale factor is 12/8=1.5."
+        "correct_option_text": "5",
+        "explanation": "The large-to-small scale factor is 3/2. Hence (2x+2)/(x+3)=3/2 and x=5."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q10-MCQ-02",
-      "display_number": "10.2",
-      "exam_slot": "Q10",
-      "type": "mcq",
-      "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "Two similar polygons have corresponding sides 6 and 15. The smaller perimeter is 28. Find the larger perimeter.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "11.2"
-        },
-        {
-          "id": "B",
-          "text": "37"
-        },
-        {
-          "id": "C",
-          "text": "70"
-        },
-        {
-          "id": "D",
-          "text": "175"
-        }
+      "diagram_asset_ids": [
+        "q10_13"
       ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "70",
-        "explanation": "Perimeters scale by 15/6=2.5."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "13",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q10-MCQ-03",
-      "display_number": "10.3",
-      "exam_slot": "Q10",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q10-MCQ-04",
       "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "ABCD ~ WXYZ. ∠C = 115°. Find ∠Y.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "115°"
-        },
-        {
-          "id": "B",
-          "text": "65°"
-        },
-        {
-          "id": "C",
-          "text": "57.5°"
-        },
-        {
-          "id": "D",
-          "text": "230°"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "115°",
-        "explanation": "C corresponds to Y."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q10-MCQ-04",
+      "type": "mcq",
       "display_number": "10.4",
-      "exam_slot": "Q10",
-      "type": "mcq",
-      "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "A small side 9 corresponds to 15. Another small side is x + 2 and its corresponding large side is 20. Find x.",
-      "diagram_asset_ids": [],
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "12"
+          "text": "6",
+          "math_latex": "6"
         },
         {
           "id": "B",
-          "text": "18"
+          "text": "10",
+          "math_latex": "10"
         },
         {
           "id": "C",
-          "text": "10"
+          "text": "7",
+          "math_latex": "7"
         },
         {
           "id": "D",
-          "text": "31⅓"
+          "text": "8",
+          "math_latex": "8"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "10",
-        "explanation": "(x+2)/20=9/15, so x+2=12."
+        "correct_option_text": "7",
+        "explanation": "Corresponding side ratios give (x+5)/15=4/5, so x+5=12 and x=7."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q10-MCQ-05",
-      "display_number": "10.5",
-      "exam_slot": "Q10",
-      "type": "mcq",
-      "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "Two similar figures have side-length ratio small:large = 3:5. What is their area ratio?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "9:25"
-        },
-        {
-          "id": "B",
-          "text": "6:10"
-        },
-        {
-          "id": "C",
-          "text": "3:5"
-        },
-        {
-          "id": "D",
-          "text": "27:125"
-        }
+      "diagram_asset_ids": [
+        "q10_14"
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "9:25",
-        "explanation": "Square the linear scale factor."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q10-MCQ-06",
-      "display_number": "10.6",
-      "exam_slot": "Q10",
-      "type": "mcq",
-      "learning_outcome_id": "LO10",
-      "origin": "parallel_practice",
-      "stem": "Which information is sufficient for two quadrilaterals to be similar?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "Corresponding angles congruent only."
-        },
-        {
-          "id": "B",
-          "text": "Equal perimeters."
-        },
-        {
-          "id": "C",
-          "text": "Corresponding angles congruent and corresponding sides proportional."
-        },
-        {
-          "id": "D",
-          "text": "Corresponding sides proportional only."
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "Corresponding angles congruent and corresponding sides proportional.",
-        "explanation": "Quadrilateral similarity needs both conditions."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "14",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {
+    "q10_12": {
+      "src": "assets/q10_12.png",
+      "width": 733,
+      "height": 216,
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 12.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "12",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.47,
+        0.505,
+        0.88,
+        0.59
+      ]
+    },
+    "q10_14": {
+      "src": "assets/q10_14.png",
+      "width": 751,
+      "height": 317,
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 14.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "14",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.47,
+        0.585,
+        0.89,
+        0.71
+      ]
+    },
+    "q10_13": {
+      "src": "assets/q10_13.png",
+      "width": 733,
+      "height": 317,
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 13.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "13",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.585,
+        0.46,
+        0.71
+      ]
+    },
+    "q10_11": {
+      "src": "assets/q10_11.png",
+      "width": 733,
+      "height": 216,
+      "alt_text": "Original textbook diagram, Reveal p. 128, exercise 11.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "11",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.505,
+        0.46,
+        0.59
+      ]
+    }
+  }
 }

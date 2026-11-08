@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO11",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO11",
+    "question_count": 6,
+    "mcq_count": 6,
+    "frq_count": 0
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Dilation scale factors",
+      "statement": "Find the scale factor of a dilation.",
+      "rule_summary": "Scale factor = image length/original length. For positive k, 0 < k < 1 gives a reduction and k > 1 gives an enlargement. A dilation preserves angle measures.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 120,
+          "exercises_or_section": "10–12, 17–18"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q11-MCQ-01",
+      "display_number": "11.1",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "An original segment is 15 units long and its image is 6 units long. Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2/5"
+        },
+        {
+          "id": "B",
+          "text": "2/3"
+        },
+        {
+          "id": "C",
+          "text": "5/2"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2/5",
+        "explanation": "k=6/15=2/5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-02",
+      "display_number": "11.2",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A(−2, 3) maps to A′(−6, 9) about the origin. Which description is correct?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduction with k = −3"
+        },
+        {
+          "id": "B",
+          "text": "Reduction with k = 1/3"
+        },
+        {
+          "id": "C",
+          "text": "Enlargement with k = 3"
+        },
+        {
+          "id": "D",
+          "text": "Enlargement with k = 6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Enlargement with k = 3",
+        "explanation": "Each image coordinate is 3 times its original."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-03",
+      "display_number": "11.3",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "On a coordinate grid, O is the center, OP = 8, and OP′ = 2 on the same ray. Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1/4"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "1/4",
+        "explanation": "Use distances from the center."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-04",
+      "display_number": "11.4",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A dilation has k = 0.6. An original angle measures 75°. What is its image angle?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "75°"
+        },
+        {
+          "id": "B",
+          "text": "15°"
+        },
+        {
+          "id": "C",
+          "text": "45°"
+        },
+        {
+          "id": "D",
+          "text": "125°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "75°",
+        "explanation": "Dilations preserve angles."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-05",
+      "display_number": "11.5",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "The image perimeter is 54 and the original perimeter is 18. What is the inverse dilation scale factor?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "36"
+        },
+        {
+          "id": "D",
+          "text": "1/3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1/3",
+        "explanation": "Forward k=3. The inverse uses its reciprocal."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-06",
+      "display_number": "11.6",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A dilation about the origin sends B(4, −6) to B′(−2, 3). Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "−1/2"
+        },
+        {
+          "id": "B",
+          "text": "−2"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "−1/2",
+        "explanation": "The negative ratio reverses the ray from the center."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    }
+  ]
+}

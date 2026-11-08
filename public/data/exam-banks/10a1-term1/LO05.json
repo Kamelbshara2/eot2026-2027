@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO05",
     "classroom": "10A1",
     "learning_outcome_id": "LO05",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,262 +18,298 @@
           "printed_page": 63,
           "exercises_or_section": "1–4"
         }
-      ]
+      ],
+      "title_ar": "الزوايا الداخلية للمضلعات",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q05-MCQ-01",
+        "G10A-BOOK-Q05-MCQ-02",
+        "G10A-BOOK-Q05-MCQ-03",
+        "G10A-BOOK-Q05-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q05-MCQ-01",
+        "G10A-BOOK-Q05-MCQ-02",
+        "G10A-BOOK-Q05-MCQ-03",
+        "G10A-BOOK-Q05-MCQ-04"
+      ],
+      "download": "LO05.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q05-MCQ-01",
+      "id": "G10A-BOOK-Q05-MCQ-01",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
       "display_number": "5.1",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "What is the sum of the interior angles of a nonagon?",
-      "diagram_asset_ids": [],
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "1260°"
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "1620°"
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "1080°"
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "1440°"
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "1260°",
-        "explanation": "(9−2)180=1260."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}",
+        "explanation": "6x+12=360, so x=58. Substitute into every labelled angle."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q5_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "1",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q05-MCQ-02",
+      "id": "G10A-BOOK-Q05-MCQ-02",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
       "display_number": "5.2",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "A polygon has an interior angle sum of 1980°. How many sides does it have?",
-      "diagram_asset_ids": [],
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "14"
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "11"
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "13"
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "12"
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "13",
-        "explanation": "n−2=1980/180=11."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}",
+        "explanation": "7x−4=360 gives x=52. Then J=3x−6, K=x+10, L=x, M=2x−8."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q5_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "2",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q05-MCQ-03",
+      "id": "G10A-BOOK-Q05-MCQ-03",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
       "display_number": "5.3",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "What is each interior angle of a regular decagon?",
-      "diagram_asset_ids": [],
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "140°"
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "150°"
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "144°"
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "36°"
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "144°",
-        "explanation": "1440/10=144."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}",
+        "explanation": "Pentagon sum=540. 180+(2x−20)+x+(2x+10)=540, giving x=74."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q5_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "3",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q05-MCQ-04",
+      "id": "G10A-BOOK-Q05-MCQ-04",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
       "display_number": "5.4",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "A pentagon has angles 105°, 110°, 120°, 95°, and x°. Find x.",
-      "diagram_asset_ids": [],
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "110°"
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "90°"
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "100°"
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "130°"
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "110°",
-        "explanation": "540−(105+110+120+95)=110."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}",
+        "explanation": "8x−4=540, so x=68. Substitute in all five expressions."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q05-MCQ-05",
-      "display_number": "5.5",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "A quadrilateral has angles x°, (x + 20)°, 2x°, and (2x − 20)°. Find x.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "60°"
-        },
-        {
-          "id": "B",
-          "text": "70°"
-        },
-        {
-          "id": "C",
-          "text": "90°"
-        },
-        {
-          "id": "D",
-          "text": "50°"
-        }
+      "diagram_asset_ids": [
+        "q5_4"
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "60°",
-        "explanation": "6x=360."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q05-MCQ-06",
-      "display_number": "5.6",
-      "exam_slot": "Q5",
-      "type": "mcq",
-      "learning_outcome_id": "LO05",
-      "origin": "parallel_practice",
-      "stem": "A regular polygon has interior angle 165°. How many sides does it have?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "24"
-        },
-        {
-          "id": "B",
-          "text": "22"
-        },
-        {
-          "id": "C",
-          "text": "12"
-        },
-        {
-          "id": "D",
-          "text": "30"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "24",
-        "explanation": "Its exterior angle is 15° and 360/15=24."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "4",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {
+    "q5_4": {
+      "src": "assets/q5_4.png",
+      "width": 608,
+      "height": 468,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 4.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "4",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.48,
+        0.355,
+        0.82,
+        0.54
+      ]
+    },
+    "q5_2": {
+      "src": "assets/q5_2.png",
+      "width": 608,
+      "height": 329,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 2.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "2",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.48,
+        0.17,
+        0.82,
+        0.3
+      ]
+    },
+    "q5_1": {
+      "src": "assets/q5_1.png",
+      "width": 554,
+      "height": 329,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 1.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "1",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.14,
+        0.17,
+        0.45,
+        0.3
+      ]
+    },
+    "q5_3": {
+      "src": "assets/q5_3.png",
+      "width": 572,
+      "height": 342,
+      "alt_text": "Original textbook diagram, Reveal p. 63, exercise 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.14,
+        0.355,
+        0.46,
+        0.49
+      ]
+    }
+  }
 }

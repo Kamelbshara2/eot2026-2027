@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO15",
     "classroom": "10A1",
     "learning_outcome_id": "LO15",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,272 +18,254 @@
           "printed_page": 165,
           "exercises_or_section": "1–6, 11–14"
         }
-      ]
+      ],
+      "title_ar": "الوسط الهندسي",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q15-MCQ-01",
+        "G10A-BOOK-Q15-MCQ-02",
+        "G10A-BOOK-Q15-MCQ-03",
+        "G10A-BOOK-Q15-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q15-MCQ-01",
+        "G10A-BOOK-Q15-MCQ-02",
+        "G10A-BOOK-Q15-MCQ-03",
+        "G10A-BOOK-Q15-MCQ-04"
+      ],
+      "download": "LO15.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10A-BOOK-Q15-MCQ-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.1",
+      "instruction": "Find the geometric mean between the two numbers.",
+      "stem": "Find the geometric mean between the two numbers. 4\\quad\\text{and}\\quad 6",
+      "math_latex": "4\\quad\\text{and}\\quad 6",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\sqrt{6}",
+          "math_latex": "2 \\sqrt{6}"
+        },
+        {
+          "id": "B",
+          "text": "- 2 \\sqrt{6}",
+          "math_latex": "- 2 \\sqrt{6}"
+        },
+        {
+          "id": "C",
+          "text": "4 \\sqrt{6}",
+          "math_latex": "4 \\sqrt{6}"
+        },
+        {
+          "id": "D",
+          "text": "3 + 2 \\sqrt{6}",
+          "math_latex": "3 + 2 \\sqrt{6}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 \\sqrt{6}",
+        "explanation": "The positive geometric mean of positive a,b is √(ab)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.2",
+      "instruction": "Find the geometric mean between the two numbers.",
+      "stem": "Find the geometric mean between the two numbers. \\frac{1}{2}\\quad\\text{and}\\quad 2",
+      "math_latex": "\\frac{1}{2}\\quad\\text{and}\\quad 2",
+      "options": [
+        {
+          "id": "A",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1",
+        "explanation": "The positive geometric mean of positive a,b is √(ab)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-03",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.3",
+      "instruction": "Find all of x, y and z in simplest exact form.",
+      "stem": "Find all of x, y and z in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})",
+          "math_latex": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})"
+        },
+        {
+          "id": "B",
+          "text": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})",
+          "math_latex": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})"
+        },
+        {
+          "id": "C",
+          "text": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})",
+          "math_latex": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})"
+        },
+        {
+          "id": "D",
+          "text": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})",
+          "math_latex": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})",
+        "explanation": "Hypotenuse=8+23=31. Altitude²=8·23; each leg²=hypotenuse times its adjacent projection."
+      },
+      "diagram_asset_ids": [
+        "q15_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-04",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.4",
+      "instruction": "Find all of x, y and z in simplest exact form.",
+      "stem": "Find all of x, y and z in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y,z)=(10,10,10\\sqrt2)",
+          "math_latex": "(x,y,z)=(10,10,10\\sqrt2)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y,z)=(15,5,10\\sqrt3)",
+          "math_latex": "(x,y,z)=(15,5,10\\sqrt3)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y,z)=(5,15,10\\sqrt3)",
+          "math_latex": "(x,y,z)=(5,15,10\\sqrt3)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y,z)=(15,5,5\\sqrt3)",
+          "math_latex": "(x,y,z)=(15,5,5\\sqrt3)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(x,y,z)=(15,5,10\\sqrt3)",
+        "explanation": "10²=20y gives y=5, so x=15. Then z²=20·15=300."
+      },
+      "diagram_asset_ids": [
+        "q15_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
     }
   ],
   "assets": {
-    "right_triangle_altitude_4_9": {
-      "type": "image/svg+xml",
-      "alt_text": "Right triangle ABC with right angle at A. Altitude AD is perpendicular to hypotenuse BC. D lies between B and C. BD = 4, DC = 9, and AD = h.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 220\" role=\"img\" aria-label=\"Right triangle with altitude to the hypotenuse\"><title>Right triangle with altitude to the hypotenuse</title><rect width=\"500\" height=\"220\" fill=\"white\"/><g fill=\"none\" stroke=\"#12304a\" stroke-width=\"2\"><path d=\"M90 175 L170 55 L350 175 Z M170 55 V175\"/><path d=\"M170 165 H180 V175\"/></g><g fill=\"#182c3a\" font-family=\"Arial, sans-serif\" font-size=\"16\"><text x=\"163\" y=\"43\">A</text><text x=\"68\" y=\"181\">B</text><text x=\"360\" y=\"181\">C</text><text x=\"163\" y=\"199\">D</text><text x=\"179\" y=\"116\">h</text><text x=\"110\" y=\"167\">p = 4</text><text x=\"235\" y=\"167\">q = 9</text><text x=\"380\" y=\"75\">∠A = 90°</text></g></svg>"
+    "q15_11": {
+      "src": "assets/q15_11.png",
+      "width": 457,
+      "height": 241,
+      "alt_text": "Original textbook diagram, Reveal p. 165, exercise 11.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "11",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.145,
+        0.535,
+        0.4,
+        0.63
+      ]
+    },
+    "q15_14": {
+      "src": "assets/q15_14.png",
+      "width": 537,
+      "height": 258,
+      "alt_text": "Original textbook diagram, Reveal p. 165, exercise 14.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "14",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.48,
+        0.66,
+        0.78,
+        0.762
+      ]
     }
-  },
-  "questions": [
-    {
-      "id": "G10A-Q15-MCQ-01",
-      "display_number": "15.1",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "Find the geometric mean of 8 and 18.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "10"
-        },
-        {
-          "id": "B",
-          "text": "12"
-        },
-        {
-          "id": "C",
-          "text": "144"
-        },
-        {
-          "id": "D",
-          "text": "13"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "12",
-        "explanation": "√(8×18)=√144=12."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q15-MCQ-02",
-      "display_number": "15.2",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "Find the geometric mean of 6 and 15 in simplest radical form.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "3√10"
-        },
-        {
-          "id": "B",
-          "text": "45"
-        },
-        {
-          "id": "C",
-          "text": "9√10"
-        },
-        {
-          "id": "D",
-          "text": "√21"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "3√10",
-        "explanation": "√90=3√10."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q15-MCQ-03",
-      "display_number": "15.3",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "The geometric mean of 5 and x is 10. Find x.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "15"
-        },
-        {
-          "id": "B",
-          "text": "2"
-        },
-        {
-          "id": "C",
-          "text": "20"
-        },
-        {
-          "id": "D",
-          "text": "50"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "20",
-        "explanation": "10²=5x."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q15-MCQ-04",
-      "display_number": "15.4",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "In the right-triangle diagram, p = 4 and q = 9. Find the altitude h.",
-      "diagram_asset_ids": [
-        "right_triangle_altitude_4_9"
-      ],
-      "options": [
-        {
-          "id": "A",
-          "text": "13"
-        },
-        {
-          "id": "B",
-          "text": "6"
-        },
-        {
-          "id": "C",
-          "text": "√13"
-        },
-        {
-          "id": "D",
-          "text": "36"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "6",
-        "explanation": "h²=4×9=36."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q15-MCQ-05",
-      "display_number": "15.5",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "In right triangle ABC, ∠A = 90°, AD is perpendicular to BC, BD = 4, and DC = 9, as shown. Find the leg AB adjacent to segment BD.",
-      "diagram_asset_ids": [
-        "right_triangle_altitude_4_9"
-      ],
-      "options": [
-        {
-          "id": "A",
-          "text": "6"
-        },
-        {
-          "id": "B",
-          "text": "13"
-        },
-        {
-          "id": "C",
-          "text": "4√13"
-        },
-        {
-          "id": "D",
-          "text": "2√13"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "2√13",
-        "explanation": "leg²=13×4=52."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q15-MCQ-06",
-      "display_number": "15.6",
-      "exam_slot": "Q15",
-      "type": "mcq",
-      "learning_outcome_id": "LO15",
-      "origin": "parallel_practice",
-      "stem": "An altitude to the hypotenuse is 12. One hypotenuse segment is 9. Find the other segment.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "21"
-        },
-        {
-          "id": "B",
-          "text": "16"
-        },
-        {
-          "id": "C",
-          "text": "144"
-        },
-        {
-          "id": "D",
-          "text": "3"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "16",
-        "explanation": "144=9q."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    }
-  ]
+  }
 }

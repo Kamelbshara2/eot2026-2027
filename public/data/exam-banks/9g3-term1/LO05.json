@@ -1,0 +1,210 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO05",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO05",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Properties of equality",
+      "title_ar": "خصائص المساواة",
+      "statement": "Properties of equality",
+      "question_type": "mcq",
+      "rule_summary": "Reflexive A=A; symmetric A=B⇒B=A; transitive A=B,B=C⇒A=C.",
+      "textbook_references": [
+        {
+          "printed_page": 31,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q05-MCQ-01",
+        "G9G-BOOK-Q05-MCQ-02",
+        "G9G-BOOK-Q05-MCQ-03",
+        "G9G-BOOK-Q05-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q05-MCQ-01",
+        "G9G-BOOK-Q05-MCQ-02",
+        "G9G-BOOK-Q05-MCQ-03",
+        "G9G-BOOK-Q05-MCQ-04"
+      ],
+      "download": "LO05.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q05-MCQ-01",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.1",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 4+17=21\\ \\Rightarrow\\ 21=4+17",
+      "math_latex": "4+17=21\\ \\Rightarrow\\ 21=4+17",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transitive Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "C",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Reflexive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Symmetric Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-02",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.2",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. x+3=x+3",
+      "math_latex": "x+3=x+3",
+      "options": [
+        {
+          "id": "A",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "B",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Transitive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Reflexive Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-03",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.3",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 16=9+7\\ \\Rightarrow\\ 9+7=16",
+      "math_latex": "16=9+7\\ \\Rightarrow\\ 9+7=16",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Transitive Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Additive Identity Property"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Symmetric Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-04",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.4",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 6+2=4+4,\\quad4+4=8\\ \\Rightarrow\\ 6+2=8",
+      "math_latex": "6+2=4+4,\\quad4+4=8\\ \\Rightarrow\\ 6+2=8",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "D",
+          "text": "Transitive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Transitive Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

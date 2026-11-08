@@ -1,0 +1,5346 @@
+{
+  "parts": {
+    "1": {
+      "file_name": "9-1.pdf",
+      "sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+      "printed_start": 1,
+      "pdf_pages": 134
+    },
+    "2": {
+      "file_name": "9-2.pdf",
+      "sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+      "printed_start": 135,
+      "pdf_pages": 147
+    }
+  },
+  "selection_policy": "Book only: original numbers and original visual crops. MCQ options and worked keys are added. Repeated exercise references identify distinct original subparts or graph/domain questions. No final-exam prediction is claimed.",
+  "learning_outcomes": [
+    {
+      "id": "LO01",
+      "exam_slot": "Q1",
+      "title": "Numerical expressions",
+      "title_ar": "التعابير العددية",
+      "statement": "Numerical expressions",
+      "question_type": "mcq",
+      "rule_summary": "Group words such as sum and difference with parentheses.",
+      "textbook_references": [
+        {
+          "printed_page": 9,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q01-MCQ-01",
+        "G9G-BOOK-Q01-MCQ-02",
+        "G9G-BOOK-Q01-MCQ-03",
+        "G9G-BOOK-Q01-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q01-MCQ-01",
+        "G9G-BOOK-Q01-MCQ-02",
+        "G9G-BOOK-Q01-MCQ-03",
+        "G9G-BOOK-Q01-MCQ-04"
+      ],
+      "download": "LO01.json"
+    },
+    {
+      "id": "LO02",
+      "exam_slot": "Q2",
+      "title": "Distributive Property",
+      "title_ar": "خاصية التوزيع",
+      "statement": "Distributive Property",
+      "question_type": "mcq",
+      "rule_summary": "a(b+c)=ab+ac; distribute negative factors carefully.",
+      "textbook_references": [
+        {
+          "printed_page": 42,
+          "exercises_or_section": "23–26"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q02-MCQ-01",
+        "G9G-BOOK-Q02-MCQ-02",
+        "G9G-BOOK-Q02-MCQ-03",
+        "G9G-BOOK-Q02-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q02-MCQ-01",
+        "G9G-BOOK-Q02-MCQ-02",
+        "G9G-BOOK-Q02-MCQ-03",
+        "G9G-BOOK-Q02-MCQ-04"
+      ],
+      "download": "LO02.json"
+    },
+    {
+      "id": "LO03",
+      "exam_slot": "Q3",
+      "title": "Addition and subtraction equations",
+      "title_ar": "معادلات الجمع والطرح",
+      "statement": "Addition and subtraction equations",
+      "question_type": "mcq",
+      "rule_summary": "Apply the same addition or subtraction to both sides.",
+      "textbook_references": [
+        {
+          "printed_page": 81,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q03-MCQ-01",
+        "G9G-BOOK-Q03-MCQ-02",
+        "G9G-BOOK-Q03-MCQ-03",
+        "G9G-BOOK-Q03-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q03-MCQ-01",
+        "G9G-BOOK-Q03-MCQ-02",
+        "G9G-BOOK-Q03-MCQ-03",
+        "G9G-BOOK-Q03-MCQ-04"
+      ],
+      "download": "LO03.json"
+    },
+    {
+      "id": "LO04",
+      "exam_slot": "Q4",
+      "title": "Rearrange formulas",
+      "title_ar": "إعادة ترتيب الصيغ",
+      "statement": "Rearrange formulas",
+      "question_type": "mcq",
+      "rule_summary": "Isolate the requested variable; state nonzero divisor assumptions.",
+      "textbook_references": [
+        {
+          "printed_page": 125,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q04-MCQ-01",
+        "G9G-BOOK-Q04-MCQ-02",
+        "G9G-BOOK-Q04-MCQ-03",
+        "G9G-BOOK-Q04-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q04-MCQ-01",
+        "G9G-BOOK-Q04-MCQ-02",
+        "G9G-BOOK-Q04-MCQ-03",
+        "G9G-BOOK-Q04-MCQ-04"
+      ],
+      "download": "LO04.json"
+    },
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Properties of equality",
+      "title_ar": "خصائص المساواة",
+      "statement": "Properties of equality",
+      "question_type": "mcq",
+      "rule_summary": "Reflexive A=A; symmetric A=B⇒B=A; transitive A=B,B=C⇒A=C.",
+      "textbook_references": [
+        {
+          "printed_page": 31,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q05-MCQ-01",
+        "G9G-BOOK-Q05-MCQ-02",
+        "G9G-BOOK-Q05-MCQ-03",
+        "G9G-BOOK-Q05-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q05-MCQ-01",
+        "G9G-BOOK-Q05-MCQ-02",
+        "G9G-BOOK-Q05-MCQ-03",
+        "G9G-BOOK-Q05-MCQ-04"
+      ],
+      "download": "LO05.json"
+    },
+    {
+      "id": "LO06",
+      "exam_slot": "Q6",
+      "title": "Variables on each side",
+      "title_ar": "متغيرات في طرفي المعادلة",
+      "statement": "Variables on each side",
+      "question_type": "mcq",
+      "rule_summary": "Collect variable terms on one side and constants on the other.",
+      "textbook_references": [
+        {
+          "printed_page": 97,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q06-MCQ-01",
+        "G9G-BOOK-Q06-MCQ-02",
+        "G9G-BOOK-Q06-MCQ-03",
+        "G9G-BOOK-Q06-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q06-MCQ-01",
+        "G9G-BOOK-Q06-MCQ-02",
+        "G9G-BOOK-Q06-MCQ-03",
+        "G9G-BOOK-Q06-MCQ-04"
+      ],
+      "download": "LO06.json"
+    },
+    {
+      "id": "LO07",
+      "exam_slot": "Q7",
+      "title": "Distribute to evaluate",
+      "title_ar": "التوزيع للحساب الذهني",
+      "statement": "Distribute to evaluate",
+      "question_type": "mcq",
+      "rule_summary": "Rewrite a factor as a nearby convenient value plus or minus a small number.",
+      "textbook_references": [
+        {
+          "printed_page": 37,
+          "exercises_or_section": "Example 2; Check"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q07-MCQ-01",
+        "G9G-BOOK-Q07-MCQ-02",
+        "G9G-BOOK-Q07-MCQ-03",
+        "G9G-BOOK-Q07-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q07-MCQ-01",
+        "G9G-BOOK-Q07-MCQ-02",
+        "G9G-BOOK-Q07-MCQ-03",
+        "G9G-BOOK-Q07-MCQ-04"
+      ],
+      "download": "LO07.json"
+    },
+    {
+      "id": "LO08",
+      "exam_slot": "Q8",
+      "title": "Rate of change",
+      "title_ar": "معدل التغير",
+      "statement": "Rate of change",
+      "question_type": "mcq",
+      "rule_summary": "A linear function has a constant Δy/Δx.",
+      "textbook_references": [
+        {
+          "printed_page": 221,
+          "exercises_or_section": "Examples 3–4; Check"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q08-MCQ-01",
+        "G9G-BOOK-Q08-MCQ-02",
+        "G9G-BOOK-Q08-MCQ-03",
+        "G9G-BOOK-Q08-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q08-MCQ-01",
+        "G9G-BOOK-Q08-MCQ-02",
+        "G9G-BOOK-Q08-MCQ-03",
+        "G9G-BOOK-Q08-MCQ-04"
+      ],
+      "download": "LO08.json"
+    },
+    {
+      "id": "LO09",
+      "exam_slot": "Q9",
+      "title": "Solve proportions",
+      "title_ar": "حل التناسب",
+      "statement": "Solve proportions",
+      "question_type": "mcq",
+      "rule_summary": "For b,d≠0, a/b=c/d implies ad=bc.",
+      "textbook_references": [
+        {
+          "printed_page": 113,
+          "exercises_or_section": "13–16"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q09-MCQ-01",
+        "G9G-BOOK-Q09-MCQ-02",
+        "G9G-BOOK-Q09-MCQ-03",
+        "G9G-BOOK-Q09-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q09-MCQ-01",
+        "G9G-BOOK-Q09-MCQ-02",
+        "G9G-BOOK-Q09-MCQ-03",
+        "G9G-BOOK-Q09-MCQ-04"
+      ],
+      "download": "LO09.json"
+    },
+    {
+      "id": "LO10",
+      "exam_slot": "Q10",
+      "title": "Multi-step equations with parameters",
+      "title_ar": "معادلات متعددة الخطوات بمعاملات",
+      "statement": "Multi-step equations with parameters",
+      "question_type": "mcq",
+      "rule_summary": "Undo constants before dividing by a nonzero coefficient.",
+      "textbook_references": [
+        {
+          "printed_page": 89,
+          "exercises_or_section": "18–21"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q10-MCQ-01",
+        "G9G-BOOK-Q10-MCQ-02",
+        "G9G-BOOK-Q10-MCQ-03",
+        "G9G-BOOK-Q10-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q10-MCQ-01",
+        "G9G-BOOK-Q10-MCQ-02",
+        "G9G-BOOK-Q10-MCQ-03",
+        "G9G-BOOK-Q10-MCQ-04"
+      ],
+      "download": "LO10.json"
+    },
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Dilations of linear functions",
+      "title_ar": "التمدد لدوال خطية",
+      "statement": "Dilations of linear functions",
+      "question_type": "mcq",
+      "rule_summary": "Relative to y=x, kx stretches vertically if |k|>1 and compresses if 0<|k|<1.",
+      "textbook_references": [
+        {
+          "printed_page": 248,
+          "exercises_or_section": "10–12,14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q11-MCQ-01",
+        "G9G-BOOK-Q11-MCQ-02",
+        "G9G-BOOK-Q11-MCQ-03",
+        "G9G-BOOK-Q11-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q11-MCQ-01",
+        "G9G-BOOK-Q11-MCQ-02",
+        "G9G-BOOK-Q11-MCQ-03",
+        "G9G-BOOK-Q11-MCQ-04"
+      ],
+      "download": "LO11.json"
+    },
+    {
+      "id": "LO12",
+      "exam_slot": "Q12",
+      "title": "Slope-intercept form",
+      "title_ar": "صيغة الميل والمقطع",
+      "statement": "Slope-intercept form",
+      "question_type": "mcq",
+      "rule_summary": "Isolate y to obtain y=mx+b.",
+      "textbook_references": [
+        {
+          "printed_page": 235,
+          "exercises_or_section": "9–12"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q12-MCQ-01",
+        "G9G-BOOK-Q12-MCQ-02",
+        "G9G-BOOK-Q12-MCQ-03",
+        "G9G-BOOK-Q12-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q12-MCQ-01",
+        "G9G-BOOK-Q12-MCQ-02",
+        "G9G-BOOK-Q12-MCQ-03",
+        "G9G-BOOK-Q12-MCQ-04"
+      ],
+      "download": "LO12.json"
+    },
+    {
+      "id": "LO13",
+      "exam_slot": "Q13",
+      "title": "Read linear graphs",
+      "title_ar": "قراءة الرسوم الخطية",
+      "statement": "Read linear graphs",
+      "question_type": "mcq",
+      "rule_summary": "Slope is rise/run; b is where the line crosses the y-axis.",
+      "textbook_references": [
+        {
+          "printed_page": 236,
+          "exercises_or_section": "37–39; p233 graph A"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q13-MCQ-01",
+        "G9G-BOOK-Q13-MCQ-02",
+        "G9G-BOOK-Q13-MCQ-03",
+        "G9G-BOOK-Q13-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q13-MCQ-01",
+        "G9G-BOOK-Q13-MCQ-02",
+        "G9G-BOOK-Q13-MCQ-03",
+        "G9G-BOOK-Q13-MCQ-04"
+      ],
+      "download": "LO13.json"
+    },
+    {
+      "id": "LO14",
+      "exam_slot": "Q14",
+      "title": "Graph step functions",
+      "title_ar": "رسم الدوال الدرجية",
+      "statement": "Graph step functions",
+      "question_type": "mcq",
+      "rule_summary": "⌊x⌋ is the greatest integer ≤x; pay attention to open and closed endpoints.",
+      "textbook_references": [
+        {
+          "printed_page": 263,
+          "exercises_or_section": "7–9; 7 domain/range"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q14-MCQ-01",
+        "G9G-BOOK-Q14-MCQ-02",
+        "G9G-BOOK-Q14-MCQ-03",
+        "G9G-BOOK-Q14-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q14-MCQ-01",
+        "G9G-BOOK-Q14-MCQ-02",
+        "G9G-BOOK-Q14-MCQ-03",
+        "G9G-BOOK-Q14-MCQ-04"
+      ],
+      "download": "LO14.json"
+    },
+    {
+      "id": "LO15",
+      "exam_slot": "Q15",
+      "title": "Slope from two points",
+      "title_ar": "الميل بين نقطتين",
+      "statement": "Slope from two points",
+      "question_type": "mcq",
+      "rule_summary": "m=(y₂−y₁)/(x₂−x₁); vertical lines have undefined slope.",
+      "textbook_references": [
+        {
+          "printed_page": 223,
+          "exercises_or_section": "Examples 6–8; Check a"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q15-MCQ-01",
+        "G9G-BOOK-Q15-MCQ-02",
+        "G9G-BOOK-Q15-MCQ-03",
+        "G9G-BOOK-Q15-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q15-MCQ-01",
+        "G9G-BOOK-Q15-MCQ-02",
+        "G9G-BOOK-Q15-MCQ-03",
+        "G9G-BOOK-Q15-MCQ-04"
+      ],
+      "download": "LO15.json"
+    },
+    {
+      "id": "LO16",
+      "exam_slot": "Q16",
+      "title": "Evaluate step functions",
+      "title_ar": "إيجاد قيم الدوال الدرجية",
+      "statement": "Evaluate step functions",
+      "question_type": "mcq",
+      "rule_summary": "Evaluate the expression inside the floor brackets first.",
+      "textbook_references": [
+        {
+          "printed_page": 265,
+          "exercises_or_section": "18a–18d"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q16-MCQ-01",
+        "G9G-BOOK-Q16-MCQ-02",
+        "G9G-BOOK-Q16-MCQ-03",
+        "G9G-BOOK-Q16-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q16-MCQ-01",
+        "G9G-BOOK-Q16-MCQ-02",
+        "G9G-BOOK-Q16-MCQ-03",
+        "G9G-BOOK-Q16-MCQ-04"
+      ],
+      "download": "LO16.json"
+    },
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Arithmetic sequence arguments",
+      "title_ar": "تبرير المتتاليات الحسابية",
+      "statement": "Arithmetic sequence arguments",
+      "question_type": "mcq",
+      "rule_summary": "Check that all consecutive differences are equal.",
+      "textbook_references": [
+        {
+          "printed_page": 257,
+          "exercises_or_section": "28–31"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q17-MCQ-01",
+        "G9G-BOOK-Q17-MCQ-02",
+        "G9G-BOOK-Q17-MCQ-03",
+        "G9G-BOOK-Q17-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q17-MCQ-01",
+        "G9G-BOOK-Q17-MCQ-02",
+        "G9G-BOOK-Q17-MCQ-03",
+        "G9G-BOOK-Q17-MCQ-04"
+      ],
+      "download": "LO17.json"
+    },
+    {
+      "id": "LO18",
+      "exam_slot": "Q18",
+      "title": "Constant linear functions",
+      "title_ar": "الدوال الخطية الثابتة",
+      "statement": "Constant linear functions",
+      "question_type": "mcq",
+      "rule_summary": "y=b is horizontal, with slope 0 and y-intercept b.",
+      "textbook_references": [
+        {
+          "printed_page": 233,
+          "exercises_or_section": "Graphs C,D; p236 25–26"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q18-MCQ-01",
+        "G9G-BOOK-Q18-MCQ-02",
+        "G9G-BOOK-Q18-MCQ-03",
+        "G9G-BOOK-Q18-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q18-MCQ-01",
+        "G9G-BOOK-Q18-MCQ-02",
+        "G9G-BOOK-Q18-MCQ-03",
+        "G9G-BOOK-Q18-MCQ-04"
+      ],
+      "download": "LO18.json"
+    },
+    {
+      "id": "LO19",
+      "exam_slot": "Q19",
+      "title": "Verbal expressions",
+      "title_ar": "التعابير اللفظية",
+      "statement": "Verbal expressions",
+      "question_type": "mcq",
+      "rule_summary": "Translate each operation and preserve subtraction/division order.",
+      "textbook_references": [
+        {
+          "printed_page": 18,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q19-MCQ-01",
+        "G9G-BOOK-Q19-MCQ-02",
+        "G9G-BOOK-Q19-MCQ-03",
+        "G9G-BOOK-Q19-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q19-MCQ-01",
+        "G9G-BOOK-Q19-MCQ-02",
+        "G9G-BOOK-Q19-MCQ-03",
+        "G9G-BOOK-Q19-MCQ-04"
+      ],
+      "download": "LO19.json"
+    },
+    {
+      "id": "LO20",
+      "exam_slot": "Q20",
+      "title": "Solve multi-step equations",
+      "title_ar": "حل المعادلات متعددة الخطوات",
+      "statement": "Solve multi-step equations",
+      "question_type": "mcq",
+      "rule_summary": "Distribute if needed, combine like terms, then use inverse operations.",
+      "textbook_references": [
+        {
+          "printed_page": 89,
+          "exercises_or_section": "27,29,33,34"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q20-MCQ-01",
+        "G9G-BOOK-Q20-MCQ-02",
+        "G9G-BOOK-Q20-MCQ-03",
+        "G9G-BOOK-Q20-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q20-MCQ-01",
+        "G9G-BOOK-Q20-MCQ-02",
+        "G9G-BOOK-Q20-MCQ-03",
+        "G9G-BOOK-Q20-MCQ-04"
+      ],
+      "download": "LO20.json"
+    },
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Evaluate algebraic expressions",
+      "title_ar": "إيجاد قيم التعابير الجبرية",
+      "statement": "Evaluate algebraic expressions",
+      "question_type": "frq",
+      "rule_summary": "Substitute first, then powers, multiplication/division, addition/subtraction.",
+      "textbook_references": [
+        {
+          "printed_page": 19,
+          "exercises_or_section": "42–45"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q21-FRQ-01",
+        "G9G-BOOK-Q21-FRQ-02",
+        "G9G-BOOK-Q21-FRQ-03",
+        "G9G-BOOK-Q21-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q21-FRQ-01",
+        "G9G-BOOK-Q21-FRQ-02",
+        "G9G-BOOK-Q21-FRQ-03",
+        "G9G-BOOK-Q21-FRQ-04"
+      ],
+      "download": "LO21.json"
+    },
+    {
+      "id": "LO22",
+      "exam_slot": "Q22",
+      "title": "Use and rearrange formulas",
+      "title_ar": "تطبيق الصيغ وإعادة ترتيبها",
+      "statement": "Use and rearrange formulas",
+      "question_type": "frq",
+      "rule_summary": "Rearrange symbolically before substituting numerical values.",
+      "textbook_references": [
+        {
+          "printed_page": 125,
+          "exercises_or_section": "19–22"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q22-FRQ-01",
+        "G9G-BOOK-Q22-FRQ-02",
+        "G9G-BOOK-Q22-FRQ-03",
+        "G9G-BOOK-Q22-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q22-FRQ-01",
+        "G9G-BOOK-Q22-FRQ-02",
+        "G9G-BOOK-Q22-FRQ-03",
+        "G9G-BOOK-Q22-FRQ-04"
+      ],
+      "download": "LO22.json"
+    },
+    {
+      "id": "LO23",
+      "exam_slot": "Q23",
+      "title": "Equations, identities and contradictions",
+      "title_ar": "المعادلات والمتطابقات والتناقض",
+      "statement": "Equations, identities and contradictions",
+      "question_type": "frq",
+      "rule_summary": "A true constant statement is an identity; a false one means no solution.",
+      "textbook_references": [
+        {
+          "printed_page": 97,
+          "exercises_or_section": "7,11; p99 37,39"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q23-FRQ-01",
+        "G9G-BOOK-Q23-FRQ-02",
+        "G9G-BOOK-Q23-FRQ-03",
+        "G9G-BOOK-Q23-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q23-FRQ-01",
+        "G9G-BOOK-Q23-FRQ-02",
+        "G9G-BOOK-Q23-FRQ-03",
+        "G9G-BOOK-Q23-FRQ-04"
+      ],
+      "download": "LO23.json"
+    },
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Graph with a table",
+      "title_ar": "الرسم باستخدام جدول",
+      "statement": "Graph with a table",
+      "question_type": "frq",
+      "rule_summary": "Choose convenient x-values, calculate y, and plot collinear points.",
+      "textbook_references": [
+        {
+          "printed_page": 215,
+          "exercises_or_section": "5–8"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q24-FRQ-01",
+        "G9G-BOOK-Q24-FRQ-02",
+        "G9G-BOOK-Q24-FRQ-03",
+        "G9G-BOOK-Q24-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q24-FRQ-01",
+        "G9G-BOOK-Q24-FRQ-02",
+        "G9G-BOOK-Q24-FRQ-03",
+        "G9G-BOOK-Q24-FRQ-04"
+      ],
+      "download": "LO24.json"
+    },
+    {
+      "id": "LO25",
+      "exam_slot": "Q25",
+      "title": "Piecewise functions",
+      "title_ar": "الدوال متعددة التعريف",
+      "statement": "Piecewise functions",
+      "question_type": "frq",
+      "rule_summary": "Use each formula only on its stated interval; show endpoint inclusion.",
+      "textbook_references": [
+        {
+          "printed_page": 263,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q25-FRQ-01",
+        "G9G-BOOK-Q25-FRQ-02",
+        "G9G-BOOK-Q25-FRQ-03",
+        "G9G-BOOK-Q25-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q25-FRQ-01",
+        "G9G-BOOK-Q25-FRQ-02",
+        "G9G-BOOK-Q25-FRQ-03",
+        "G9G-BOOK-Q25-FRQ-04"
+      ],
+      "download": "LO25.json"
+    },
+    {
+      "id": "LO26",
+      "exam_slot": "Q26",
+      "title": "Arithmetic nth term",
+      "title_ar": "الحد النوني للمتتالية الحسابية",
+      "statement": "Arithmetic nth term",
+      "question_type": "frq",
+      "rule_summary": "aₙ=a₁+(n−1)d; substitute the requested term number.",
+      "textbook_references": [
+        {
+          "printed_page": 255,
+          "exercises_or_section": "19–22"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q26-FRQ-01",
+        "G9G-BOOK-Q26-FRQ-02",
+        "G9G-BOOK-Q26-FRQ-03",
+        "G9G-BOOK-Q26-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q26-FRQ-01",
+        "G9G-BOOK-Q26-FRQ-02",
+        "G9G-BOOK-Q26-FRQ-03",
+        "G9G-BOOK-Q26-FRQ-04"
+      ],
+      "download": "LO26.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q01-MCQ-01",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.1",
+      "instruction": "Write a numerical expression for the sum of 3 and 7, divided by 2.",
+      "stem": "Write a numerical expression for the sum of 3 and 7, divided by 2. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac3{7+2}",
+          "math_latex": "\\frac3{7+2}"
+        },
+        {
+          "id": "B",
+          "text": "2(3+7)",
+          "math_latex": "2(3+7)"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{3+7}{2}",
+          "math_latex": "\\frac{3+7}{2}"
+        },
+        {
+          "id": "D",
+          "text": "3+\\frac72",
+          "math_latex": "3+\\frac72"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{3+7}{2}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-02",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.2",
+      "instruction": "Write a numerical expression for the difference of 6 and 2, divided by 4.",
+      "stem": "Write a numerical expression for the difference of 6 and 2, divided by 4. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "4(6-2)",
+          "math_latex": "4(6-2)"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{6-2}{4}",
+          "math_latex": "\\frac{6-2}{4}"
+        },
+        {
+          "id": "C",
+          "text": "6-\\frac24",
+          "math_latex": "6-\\frac24"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{4}{6-2}",
+          "math_latex": "\\frac{4}{6-2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{6-2}{4}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-03",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.3",
+      "instruction": "Write a numerical expression for the product of 3 and the sum of 4 and 9.",
+      "stem": "Write a numerical expression for the product of 3 and the sum of 4 and 9. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "3(4+9)",
+          "math_latex": "3(4+9)"
+        },
+        {
+          "id": "B",
+          "text": "3(4)+9",
+          "math_latex": "3(4)+9"
+        },
+        {
+          "id": "C",
+          "text": "3+4+9",
+          "math_latex": "3+4+9"
+        },
+        {
+          "id": "D",
+          "text": "4(3+9)",
+          "math_latex": "4(3+9)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3(4+9)",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q01-MCQ-04",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.4",
+      "instruction": "Write a numerical expression for 18 divided by the sum of 2 and 7.",
+      "stem": "Write a numerical expression for 18 divided by the sum of 2 and 7. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{18}{2}+7",
+          "math_latex": "\\frac{18}{2}+7"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{18+2}{7}",
+          "math_latex": "\\frac{18+2}{7}"
+        },
+        {
+          "id": "C",
+          "text": "18(2+7)",
+          "math_latex": "18(2+7)"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{18}{2+7}",
+          "math_latex": "\\frac{18}{2+7}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{18}{2+7}",
+        "explanation": "Group the entire sum or difference before performing the stated multiplication or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 9,
+        "pdf_page": 9,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-01",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.1",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. 2(x+4)",
+      "math_latex": "2(x+4)",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x + 10",
+          "math_latex": "2 x + 10"
+        },
+        {
+          "id": "B",
+          "text": "2 x + 8",
+          "math_latex": "2 x + 8"
+        },
+        {
+          "id": "C",
+          "text": "2 x + 9",
+          "math_latex": "2 x + 9"
+        },
+        {
+          "id": "D",
+          "text": "- 2 x - 8",
+          "math_latex": "- 2 x - 8"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "2 x + 8",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "23",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-02",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.2",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. (5+n)3",
+      "math_latex": "(5+n)3",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 n + 15",
+          "math_latex": "3 n + 15"
+        },
+        {
+          "id": "B",
+          "text": "3 n + 16",
+          "math_latex": "3 n + 16"
+        },
+        {
+          "id": "C",
+          "text": "- 3 n - 15",
+          "math_latex": "- 3 n - 15"
+        },
+        {
+          "id": "D",
+          "text": "3 n + 17",
+          "math_latex": "3 n + 17"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3 n + 15",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "24",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-03",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.3",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. (4-3m)8",
+      "math_latex": "(4-3m)8",
+      "options": [
+        {
+          "id": "A",
+          "text": "33 - 24 m",
+          "math_latex": "33 - 24 m"
+        },
+        {
+          "id": "B",
+          "text": "24 m - 32",
+          "math_latex": "24 m - 32"
+        },
+        {
+          "id": "C",
+          "text": "34 - 24 m",
+          "math_latex": "34 - 24 m"
+        },
+        {
+          "id": "D",
+          "text": "32 - 24 m",
+          "math_latex": "32 - 24 m"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "32 - 24 m",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "25",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-04",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.4",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. -3(2x-6)",
+      "math_latex": "-3(2x-6)",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 x - 18",
+          "math_latex": "6 x - 18"
+        },
+        {
+          "id": "B",
+          "text": "20 - 6 x",
+          "math_latex": "20 - 6 x"
+        },
+        {
+          "id": "C",
+          "text": "18 - 6 x",
+          "math_latex": "18 - 6 x"
+        },
+        {
+          "id": "D",
+          "text": "19 - 6 x",
+          "math_latex": "19 - 6 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "18 - 6 x",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "26",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-01",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.1",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. v-9=14",
+      "math_latex": "v-9=14",
+      "options": [
+        {
+          "id": "A",
+          "text": "23",
+          "math_latex": "23"
+        },
+        {
+          "id": "B",
+          "text": "24",
+          "math_latex": "24"
+        },
+        {
+          "id": "C",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "D",
+          "text": "-23",
+          "math_latex": "-23"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "23",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-02",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.2",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. 44=t-72",
+      "math_latex": "44=t-72",
+      "options": [
+        {
+          "id": "A",
+          "text": "117",
+          "math_latex": "117"
+        },
+        {
+          "id": "B",
+          "text": "115",
+          "math_latex": "115"
+        },
+        {
+          "id": "C",
+          "text": "-116",
+          "math_latex": "-116"
+        },
+        {
+          "id": "D",
+          "text": "116",
+          "math_latex": "116"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "116",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-03",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.3",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. -61=d+(-18)",
+      "math_latex": "-61=d+(-18)",
+      "options": [
+        {
+          "id": "A",
+          "text": "-44",
+          "math_latex": "-44"
+        },
+        {
+          "id": "B",
+          "text": "43",
+          "math_latex": "43"
+        },
+        {
+          "id": "C",
+          "text": "-43",
+          "math_latex": "-43"
+        },
+        {
+          "id": "D",
+          "text": "-42",
+          "math_latex": "-42"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "-43",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q03-MCQ-04",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.4",
+      "instruction": "Solve the equation.",
+      "stem": "Solve the equation. 18+z=40",
+      "math_latex": "18+z=40",
+      "options": [
+        {
+          "id": "A",
+          "text": "-22",
+          "math_latex": "-22"
+        },
+        {
+          "id": "B",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "C",
+          "text": "23",
+          "math_latex": "23"
+        },
+        {
+          "id": "D",
+          "text": "21",
+          "math_latex": "21"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "22",
+        "explanation": "Add or subtract the same number on both sides to isolate the variable; substitute to check."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 81,
+        "pdf_page": 81,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-01",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.1",
+      "instruction": "Solve for v. Assume any divisor is nonzero.",
+      "stem": "Solve for v. Assume any divisor is nonzero. u=vw+z",
+      "math_latex": "u=vw+z",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{u - z}{w}",
+          "math_latex": "- \\frac{u - z}{w}"
+        },
+        {
+          "id": "B",
+          "text": "1 + \\frac{u - z}{w}",
+          "math_latex": "1 + \\frac{u - z}{w}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2 \\left(u - z\\right)}{w}",
+          "math_latex": "\\frac{2 \\left(u - z\\right)}{w}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{u - z}{w}",
+          "math_latex": "\\frac{u - z}{w}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{u - z}{w}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-02",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.2",
+      "instruction": "Solve for c. Assume any divisor is nonzero.",
+      "stem": "Solve for c. Assume any divisor is nonzero. x=b-cd",
+      "math_latex": "x=b-cd",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 + \\frac{b - x}{d}",
+          "math_latex": "1 + \\frac{b - x}{d}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{2 \\left(b - x\\right)}{d}",
+          "math_latex": "\\frac{2 \\left(b - x\\right)}{d}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{b - x}{d}",
+          "math_latex": "\\frac{b - x}{d}"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{b - x}{d}",
+          "math_latex": "- \\frac{b - x}{d}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{b - x}{d}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-03",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.3",
+      "instruction": "Solve for g. Assume any divisor is nonzero.",
+      "stem": "Solve for g. Assume any divisor is nonzero. fg-9h=10j",
+      "math_latex": "fg-9h=10j",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2 \\left(9 h + 10 j\\right)}{f}",
+          "math_latex": "\\frac{2 \\left(9 h + 10 j\\right)}{f}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{9 h + 10 j}{f}",
+          "math_latex": "\\frac{9 h + 10 j}{f}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{9 h + 10 j}{f}",
+          "math_latex": "- \\frac{9 h + 10 j}{f}"
+        },
+        {
+          "id": "D",
+          "text": "1 + \\frac{9 h + 10 j}{f}",
+          "math_latex": "1 + \\frac{9 h + 10 j}{f}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{9 h + 10 j}{f}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-04",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.4",
+      "instruction": "Solve for m. Assume any divisor is nonzero.",
+      "stem": "Solve for m. Assume any divisor is nonzero. 10m-p=-n",
+      "math_latex": "10m-p=-n",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{n}{10} + \\frac{p}{10}",
+          "math_latex": "- \\frac{n}{10} + \\frac{p}{10}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{n}{10} - \\frac{p}{10}",
+          "math_latex": "\\frac{n}{10} - \\frac{p}{10}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{n}{10} + \\frac{p}{10} + 1",
+          "math_latex": "- \\frac{n}{10} + \\frac{p}{10} + 1"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{n}{5} + \\frac{p}{5}",
+          "math_latex": "- \\frac{n}{5} + \\frac{p}{5}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- \\frac{n}{10} + \\frac{p}{10}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-01",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.1",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 4+17=21\\ \\Rightarrow\\ 21=4+17",
+      "math_latex": "4+17=21\\ \\Rightarrow\\ 21=4+17",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transitive Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "C",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Reflexive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Symmetric Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-02",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.2",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. x+3=x+3",
+      "math_latex": "x+3=x+3",
+      "options": [
+        {
+          "id": "A",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "B",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Transitive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Reflexive Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-03",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.3",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 16=9+7\\ \\Rightarrow\\ 9+7=16",
+      "math_latex": "16=9+7\\ \\Rightarrow\\ 9+7=16",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Transitive Property of Equality"
+        },
+        {
+          "id": "D",
+          "text": "Additive Identity Property"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Symmetric Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q05-MCQ-04",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.4",
+      "instruction": "Name the property illustrated.",
+      "stem": "Name the property illustrated. 6+2=4+4,\\quad4+4=8\\ \\Rightarrow\\ 6+2=8",
+      "math_latex": "6+2=4+4,\\quad4+4=8\\ \\Rightarrow\\ 6+2=8",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflexive Property of Equality"
+        },
+        {
+          "id": "B",
+          "text": "Symmetric Property of Equality"
+        },
+        {
+          "id": "C",
+          "text": "Additive Identity Property"
+        },
+        {
+          "id": "D",
+          "text": "Transitive Property of Equality"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Transitive Property of Equality",
+        "explanation": "Reflexive: A=A. Symmetric: reverse A=B. Transitive: A=B and B=C imply A=C."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 31,
+        "pdf_page": 31,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q06-MCQ-01",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.1",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 7c+12=-4c+78",
+      "math_latex": "7c+12=-4c+78",
+      "options": [
+        {
+          "id": "A",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "C",
+          "text": "7",
+          "math_latex": "7"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "6",
+        "explanation": "Collect variable terms on one side and constants on the other, then divide; substitution gives equal sides."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q06-MCQ-02",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.2",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 2m-13=-8m+27",
+      "math_latex": "2m-13=-8m+27",
+      "options": [
+        {
+          "id": "A",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "math_latex": "5"
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "D",
+          "text": "-4",
+          "math_latex": "-4"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "4",
+        "explanation": "Collect variable terms on one side and constants on the other, then divide; substitution gives equal sides."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q06-MCQ-03",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.3",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 9x-4=2x+3",
+      "math_latex": "9x-4=2x+3",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "C",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1",
+        "explanation": "Collect variable terms on one side and constants on the other, then divide; substitution gives equal sides."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q06-MCQ-04",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.4",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 6+3t=8t-14",
+      "math_latex": "6+3t=8t-14",
+      "options": [
+        {
+          "id": "A",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "B",
+          "text": "-4",
+          "math_latex": "-4"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "4",
+        "explanation": "Collect variable terms on one side and constants on the other, then divide; substitution gives equal sides."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.1",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 5(99)",
+      "math_latex": "5(99)",
+      "options": [
+        {
+          "id": "A",
+          "text": "5(100)-5(1)=495",
+          "math_latex": "5(100)-5(1)=495"
+        },
+        {
+          "id": "B",
+          "text": "5(100)+5(1)=505",
+          "math_latex": "5(100)+5(1)=505"
+        },
+        {
+          "id": "C",
+          "text": "5(100)-1=499",
+          "math_latex": "5(100)-1=499"
+        },
+        {
+          "id": "D",
+          "text": "5(90)+5(1)=455",
+          "math_latex": "5(90)+5(1)=455"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5(100)-5(1)=495",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Example 2a",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-02",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.2",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 4(1002)",
+      "math_latex": "4(1002)",
+      "options": [
+        {
+          "id": "A",
+          "text": "4(1000)+2=4002",
+          "math_latex": "4(1000)+2=4002"
+        },
+        {
+          "id": "B",
+          "text": "4(1000)-4(2)=3992",
+          "math_latex": "4(1000)-4(2)=3992"
+        },
+        {
+          "id": "C",
+          "text": "4(100)+4(2)=408",
+          "math_latex": "4(100)+4(2)=408"
+        },
+        {
+          "id": "D",
+          "text": "4(1000)+4(2)=4008",
+          "math_latex": "4(1000)+4(2)=4008"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "4(1000)+4(2)=4008",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Example 2b",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.3",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 7(51)",
+      "math_latex": "7(51)",
+      "options": [
+        {
+          "id": "A",
+          "text": "7(60)=420,\\quad\\text{more than }420",
+          "math_latex": "7(60)=420,\\quad\\text{more than }420"
+        },
+        {
+          "id": "B",
+          "text": "7(5)=35,\\quad\\text{less than }35",
+          "math_latex": "7(5)=35,\\quad\\text{less than }35"
+        },
+        {
+          "id": "C",
+          "text": "7(50)=350,\\quad\\text{a little more than }350",
+          "math_latex": "7(50)=350,\\quad\\text{a little more than }350"
+        },
+        {
+          "id": "D",
+          "text": "7(50)=350,\\quad\\text{a little less than }350",
+          "math_latex": "7(50)=350,\\quad\\text{a little less than }350"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "7(50)=350,\\quad\\text{a little more than }350",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Check Part A",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-04",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.4",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 7(51)",
+      "math_latex": "7(51)",
+      "options": [
+        {
+          "id": "A",
+          "text": "7(50)+51=401",
+          "math_latex": "7(50)+51=401"
+        },
+        {
+          "id": "B",
+          "text": "7(50)+7(1)=357",
+          "math_latex": "7(50)+7(1)=357"
+        },
+        {
+          "id": "C",
+          "text": "7(50)+1=351",
+          "math_latex": "7(50)+1=351"
+        },
+        {
+          "id": "D",
+          "text": "7(50)-7(1)=343",
+          "math_latex": "7(50)-7(1)=343"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "7(50)+7(1)=357",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Check Part B",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.1",
+      "instruction": "Is the function linear? State its rate of change.",
+      "stem": "Is the function linear? State its rate of change. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linear; rate 2/3."
+        },
+        {
+          "id": "B",
+          "text": "Linear; rate −3/2."
+        },
+        {
+          "id": "C",
+          "text": "Nonlinear; rate is not constant."
+        },
+        {
+          "id": "D",
+          "text": "Linear; rate −2/3."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Linear; rate −2/3.",
+        "explanation": "Every change Δx=−3 gives Δy=2, so Δy/Δx=−2/3."
+      },
+      "diagram_asset_ids": [
+        "rate_table3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.2",
+      "instruction": "Is the function linear?",
+      "stem": "Is the function linear? ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes; the rate is 2/7."
+        },
+        {
+          "id": "B",
+          "text": "Yes; the rate is 7/3."
+        },
+        {
+          "id": "C",
+          "text": "No; successive rates alternate between 3/7 and 2/7."
+        },
+        {
+          "id": "D",
+          "text": "Yes; the rate is 3/7."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "No; successive rates alternate between 3/7 and 2/7.",
+        "explanation": "Equal x-steps of 7 have y-steps 3, 2, 3, 2, which are not constant."
+      },
+      "diagram_asset_ids": [
+        "rate_table4"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.3",
+      "instruction": "Complete the first x-value so the table is linear.",
+      "stem": "Complete the first x-value so the table is linear. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "-12",
+          "math_latex": "-12"
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "math_latex": "12"
+        },
+        {
+          "id": "C",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "math_latex": "11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "12",
+        "explanation": "Each decrease of 0.5 in x increases y by 3.25; y=−2.25 corresponds to x=12."
+      },
+      "diagram_asset_ids": [
+        "rate_check"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Check: first blank",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.4",
+      "instruction": "Complete the final y-value, where x=9.5, so the table is linear.",
+      "stem": "Complete the final y-value, where x=9.5, so the table is linear. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "14",
+          "math_latex": "14"
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "math_latex": "15"
+        },
+        {
+          "id": "C",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "D",
+          "text": "-14",
+          "math_latex": "-14"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "14",
+        "explanation": "Continue the constant y-increase of 3.25: 10.75+3.25=14."
+      },
+      "diagram_asset_ids": [
+        "rate_check"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Check: final blank",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.1",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac{x-3}{5}=\\frac6{10}",
+      "math_latex": "\\frac{x-3}{5}=\\frac6{10}",
+      "options": [
+        {
+          "id": "A",
+          "text": "5",
+          "math_latex": "5"
+        },
+        {
+          "id": "B",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "D",
+          "text": "7",
+          "math_latex": "7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "6",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.2",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac7{x+9}=\\frac{21}{36}",
+      "math_latex": "\\frac7{x+9}=\\frac{21}{36}",
+      "options": [
+        {
+          "id": "A",
+          "text": "-3",
+          "math_latex": "-3"
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "math_latex": "2"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-03",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.3",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac{10}{15}=\\frac4{x-5}",
+      "math_latex": "\\frac{10}{15}=\\frac4{x-5}",
+      "options": [
+        {
+          "id": "A",
+          "text": "11",
+          "math_latex": "11"
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "math_latex": "12"
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "D",
+          "text": "-11",
+          "math_latex": "-11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "11",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-04",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.4",
+      "instruction": "Solve. Round to the nearest hundredth.",
+      "stem": "Solve. Round to the nearest hundredth. \\frac6{14}=\\frac7{x-3}",
+      "math_latex": "\\frac6{14}=\\frac7{x-3}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2033}{100}",
+          "math_latex": "\\frac{2033}{100}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{1833}{100}",
+          "math_latex": "\\frac{1833}{100}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{1933}{100}",
+          "math_latex": "- \\frac{1933}{100}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{1933}{100}",
+          "math_latex": "\\frac{1933}{100}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{1933}{100}",
+        "explanation": "Cross multiply: 6(x−3)=98, so x=58/3≈19.33."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-01",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.1",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. ax+3=23",
+      "math_latex": "ax+3=23",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{40}{a}",
+          "math_latex": "\\frac{40}{a}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{20}{a}",
+          "math_latex": "\\frac{20}{a}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{20}{a}",
+          "math_latex": "- \\frac{20}{a}"
+        },
+        {
+          "id": "D",
+          "text": "1 + \\frac{20}{a}",
+          "math_latex": "1 + \\frac{20}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{20}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "18",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-02",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.2",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. 4=ax-14",
+      "math_latex": "4=ax-14",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{18}{a}",
+          "math_latex": "\\frac{18}{a}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{18}{a}",
+          "math_latex": "- \\frac{18}{a}"
+        },
+        {
+          "id": "C",
+          "text": "1 + \\frac{18}{a}",
+          "math_latex": "1 + \\frac{18}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{36}{a}",
+          "math_latex": "\\frac{36}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\frac{18}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "19",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-03",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.3",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. ax-5=19",
+      "math_latex": "ax-5=19",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{24}{a}",
+          "math_latex": "- \\frac{24}{a}"
+        },
+        {
+          "id": "B",
+          "text": "1 + \\frac{24}{a}",
+          "math_latex": "1 + \\frac{24}{a}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{48}{a}",
+          "math_latex": "\\frac{48}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{24}{a}",
+          "math_latex": "\\frac{24}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{24}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "20",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q10-MCQ-04",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.4",
+      "instruction": "Solve for x. Assume a≠0.",
+      "stem": "Solve for x. Assume a≠0. 6+ax=-29",
+      "math_latex": "6+ax=-29",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 - \\frac{35}{a}",
+          "math_latex": "1 - \\frac{35}{a}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{70}{a}",
+          "math_latex": "- \\frac{70}{a}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{35}{a}",
+          "math_latex": "- \\frac{35}{a}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{35}{a}",
+          "math_latex": "\\frac{35}{a}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "- \\frac{35}{a}",
+        "explanation": "First undo the constant term, then divide by a."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "21",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-01",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.1",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=5x",
+      "math_latex": "g(x)=5x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical stretch by factor 5."
+        },
+        {
+          "id": "B",
+          "text": "Horizontal shift right by 5."
+        },
+        {
+          "id": "C",
+          "text": "Vertical shift up by 5."
+        },
+        {
+          "id": "D",
+          "text": "Vertical compression by factor 5."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Vertical stretch by factor 5.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_10"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-02",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.2",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{1}{3}x",
+      "math_latex": "g(x)=\\frac{1}{3}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Horizontal shift right by 1/3."
+        },
+        {
+          "id": "B",
+          "text": "Vertical shift up by 1/3."
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by factor 1/3."
+        },
+        {
+          "id": "D",
+          "text": "Vertical compression by factor 1/3."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Vertical compression by factor 1/3.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-03",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.3",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{3}{2}x",
+      "math_latex": "g(x)=\\frac{3}{2}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical shift up by 3/2."
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by factor 3/2."
+        },
+        {
+          "id": "C",
+          "text": "Vertical stretch by factor 3/2."
+        },
+        {
+          "id": "D",
+          "text": "Horizontal shift right by 3/2."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Vertical stretch by factor 3/2.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q11-MCQ-04",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.4",
+      "instruction": "Describe the dilation relative to the parent function f(x)=x.",
+      "stem": "Describe the dilation relative to the parent function f(x)=x. g(x)=\\frac{3}{4}x",
+      "math_latex": "g(x)=\\frac{3}{4}x",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical stretch by factor 3/4."
+        },
+        {
+          "id": "B",
+          "text": "Vertical compression by factor 3/4."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal shift right by 3/4."
+        },
+        {
+          "id": "D",
+          "text": "Vertical shift up by 3/4."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Vertical compression by factor 3/4.",
+        "explanation": "For g(x)=kx with k>0, k>1 stretches vertically; 0<k<1 compresses vertically."
+      },
+      "diagram_asset_ids": [
+        "dilation_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 248,
+        "pdf_page": 114,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-01",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.1",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. -10x+2y=12",
+      "math_latex": "-10x+2y=12",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 5 x - 6",
+          "math_latex": "- 5 x - 6"
+        },
+        {
+          "id": "B",
+          "text": "5 x + 7",
+          "math_latex": "5 x + 7"
+        },
+        {
+          "id": "C",
+          "text": "4 x + 6",
+          "math_latex": "4 x + 6"
+        },
+        {
+          "id": "D",
+          "text": "5 x + 6",
+          "math_latex": "5 x + 6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "5 x + 6",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-02",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.2",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. 4y+12x=16",
+      "math_latex": "4y+12x=16",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 - 3 x",
+          "math_latex": "5 - 3 x"
+        },
+        {
+          "id": "B",
+          "text": "4 - 4 x",
+          "math_latex": "4 - 4 x"
+        },
+        {
+          "id": "C",
+          "text": "4 - 3 x",
+          "math_latex": "4 - 3 x"
+        },
+        {
+          "id": "D",
+          "text": "3 x - 4",
+          "math_latex": "3 x - 4"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "4 - 3 x",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-03",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.3",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. -5x+15y=-30",
+      "math_latex": "-5x+15y=-30",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{2 x}{3} - 2",
+          "math_latex": "- \\frac{2 x}{3} - 2"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{x}{3} - 2",
+          "math_latex": "\\frac{x}{3} - 2"
+        },
+        {
+          "id": "C",
+          "text": "2 - \\frac{x}{3}",
+          "math_latex": "2 - \\frac{x}{3}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{x}{3} - 1",
+          "math_latex": "\\frac{x}{3} - 1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{x}{3} - 2",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-04",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.4",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. 6x-3y=-18",
+      "math_latex": "6x-3y=-18",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x + 6",
+          "math_latex": "2 x + 6"
+        },
+        {
+          "id": "B",
+          "text": "- 2 x - 6",
+          "math_latex": "- 2 x - 6"
+        },
+        {
+          "id": "C",
+          "text": "2 x + 7",
+          "math_latex": "2 x + 7"
+        },
+        {
+          "id": "D",
+          "text": "x + 6",
+          "math_latex": "x + 6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 x + 6",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-01",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.1",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x - 2",
+          "math_latex": "2 x - 2"
+        },
+        {
+          "id": "B",
+          "text": "x - 3",
+          "math_latex": "x - 3"
+        },
+        {
+          "id": "C",
+          "text": "2 x - 3",
+          "math_latex": "2 x - 3"
+        },
+        {
+          "id": "D",
+          "text": "3 - 2 x",
+          "math_latex": "3 - 2 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "2 x - 3",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_37"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "37",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-02",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.2",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 - 4 x",
+          "math_latex": "2 - 4 x"
+        },
+        {
+          "id": "B",
+          "text": "2 - 3 x",
+          "math_latex": "2 - 3 x"
+        },
+        {
+          "id": "C",
+          "text": "3 x - 2",
+          "math_latex": "3 x - 2"
+        },
+        {
+          "id": "D",
+          "text": "3 - 3 x",
+          "math_latex": "3 - 3 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "2 - 3 x",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_38"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "38",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-03",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.3",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "- x - 1",
+          "math_latex": "- x - 1"
+        },
+        {
+          "id": "B",
+          "text": "x + 1",
+          "math_latex": "x + 1"
+        },
+        {
+          "id": "C",
+          "text": "- x",
+          "math_latex": "- x"
+        },
+        {
+          "id": "D",
+          "text": "- 2 x - 1",
+          "math_latex": "- 2 x - 1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- x - 1",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_39"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "39",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-04",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.4",
+      "instruction": "Match graph A with its equation. Options give y.",
+      "stem": "Match graph A with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 - 3 x",
+          "math_latex": "8 - 3 x"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{3 x}{7} - 4",
+          "math_latex": "\\frac{3 x}{7} - 4"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{3 x}{7} - 4",
+          "math_latex": "- \\frac{3 x}{7} - 4"
+        },
+        {
+          "id": "D",
+          "text": "3 x - 8",
+          "math_latex": "3 x - 8"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "3 x - 8",
+        "explanation": "The line rises steeply and crosses the y-axis at −8: y=3x−8."
+      },
+      "diagram_asset_ids": [
+        "match_a"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph A",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-01",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.1",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=3\\lfloor x\\rfloor",
+      "math_latex": "f(x)=3\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=n\\text{ on }[3n,3n+3)",
+          "math_latex": "y=n\\text{ on }[3n,3n+3)"
+        },
+        {
+          "id": "B",
+          "text": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+          "math_latex": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z"
+        },
+        {
+          "id": "C",
+          "text": "y=3n\\text{ on }(n,n+1]",
+          "math_latex": "y=3n\\text{ on }(n,n+1]"
+        },
+        {
+          "id": "D",
+          "text": "y=3x",
+          "math_latex": "y=3x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "y=3n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "7",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-02",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.2",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=\\lfloor-x\\rfloor",
+      "math_latex": "f(x)=\\lfloor-x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z",
+          "math_latex": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z"
+        },
+        {
+          "id": "B",
+          "text": "y=n\\text{ on }[-n-1,-n)",
+          "math_latex": "y=n\\text{ on }[-n-1,-n)"
+        },
+        {
+          "id": "C",
+          "text": "y=-x",
+          "math_latex": "y=-x"
+        },
+        {
+          "id": "D",
+          "text": "y=n\\text{ on }[n,n+1)",
+          "math_latex": "y=n\\text{ on }[n,n+1)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "y=n\\text{ on }(-n-1,-n],\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "8",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-03",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.3",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. g(x)=-2\\lfloor x\\rfloor",
+      "math_latex": "g(x)=-2\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "y=-2n\\text{ on }(n,n+1]",
+          "math_latex": "y=-2n\\text{ on }(n,n+1]"
+        },
+        {
+          "id": "B",
+          "text": "y=-2x",
+          "math_latex": "y=-2x"
+        },
+        {
+          "id": "C",
+          "text": "y=2n\\text{ on }[n,n+1)",
+          "math_latex": "y=2n\\text{ on }[n,n+1)"
+        },
+        {
+          "id": "D",
+          "text": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+          "math_latex": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "y=-2n\\text{ on }[n,n+1),\\ n\\in\\mathbb Z",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q14-MCQ-04",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.4",
+      "instruction": "Choose the correct graph description or domain and range.",
+      "stem": "Choose the correct graph description or domain and range. f(x)=3\\lfloor x\\rfloor",
+      "math_latex": "f(x)=3\\lfloor x\\rfloor",
+      "options": [
+        {
+          "id": "A",
+          "text": "D=\\mathbb R,\\ R=\\mathbb R",
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb R"
+        },
+        {
+          "id": "B",
+          "text": "D=\\mathbb R,\\ R=\\mathbb Z",
+          "math_latex": "D=\\mathbb R,\\ R=\\mathbb Z"
+        },
+        {
+          "id": "C",
+          "text": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}",
+          "math_latex": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}"
+        },
+        {
+          "id": "D",
+          "text": "D=\\mathbb Z,\\ R=\\mathbb R",
+          "math_latex": "D=\\mathbb Z,\\ R=\\mathbb R"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "D=\\mathbb R,\\ R=\\{3n:n\\in\\mathbb Z\\}",
+        "explanation": "The floor of x is the greatest integer ≤x. Include the endpoint where the input is an integer; exclude the other end."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "7: domain and range",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q15-MCQ-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.1",
+      "instruction": "Find the slope through the points.",
+      "stem": "Find the slope through the points. (-1,3),\\ (4,1)",
+      "math_latex": "(-1,3),\\ (4,1)",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{2}{5}",
+          "math_latex": "- \\frac{2}{5}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{3}{5}",
+          "math_latex": "\\frac{3}{5}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{7}{5}",
+          "math_latex": "- \\frac{7}{5}"
+        },
+        {
+          "id": "D",
+          "text": "Undefined"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- \\frac{2}{5}",
+        "explanation": "m=(y₂−y₁)/(x₂−x₁). A horizontal line has slope 0."
+      },
+      "diagram_asset_ids": [
+        "slope_6"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Example 6",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q15-MCQ-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.2",
+      "instruction": "Find the slope through the points.",
+      "stem": "Find the slope through the points. (-2,-5),\\ (4,-5)",
+      "math_latex": "(-2,-5),\\ (4,-5)",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "C",
+          "text": "Undefined"
+        },
+        {
+          "id": "D",
+          "text": "0",
+          "math_latex": "0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "0",
+        "explanation": "m=(y₂−y₁)/(x₂−x₁). A horizontal line has slope 0."
+      },
+      "diagram_asset_ids": [
+        "slope_7"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Example 7",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q15-MCQ-03",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.3",
+      "instruction": "Find the slope through the points.",
+      "stem": "Find the slope through the points. (-3,4),\\ (-3,-2)",
+      "math_latex": "(-3,4),\\ (-3,-2)",
+      "options": [
+        {
+          "id": "A",
+          "text": "−6"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "Undefined"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Undefined",
+        "explanation": "The x-values are equal; the vertical line has an undefined slope."
+      },
+      "diagram_asset_ids": [
+        "slope_8"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Example 8",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q15-MCQ-04",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.4",
+      "instruction": "Find the slope through the points.",
+      "stem": "Find the slope through the points. (5,-4),\\ (0,1)",
+      "math_latex": "(5,-4),\\ (0,1)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Undefined"
+        },
+        {
+          "id": "B",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "math_latex": "0"
+        },
+        {
+          "id": "D",
+          "text": "-2",
+          "math_latex": "-2"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "-1",
+        "explanation": "m=(y₂−y₁)/(x₂−x₁). A horizontal line has slope 0."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 223,
+        "pdf_page": 89,
+        "exercise": "Check a",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.1",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "D",
+          "text": "0",
+          "math_latex": "0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "0",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18a",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.2",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "B",
+          "text": "-2",
+          "math_latex": "-2"
+        },
+        {
+          "id": "C",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "D",
+          "text": "3",
+          "math_latex": "3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "2",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18b",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-03",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.3",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
+      "options": [
+        {
+          "id": "A",
+          "text": "-16",
+          "math_latex": "-16"
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "math_latex": "16"
+        },
+        {
+          "id": "C",
+          "text": "17",
+          "math_latex": "17"
+        },
+        {
+          "id": "D",
+          "text": "15",
+          "math_latex": "15"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "16",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18c",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-04",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.4",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
+      "options": [
+        {
+          "id": "A",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "B",
+          "text": "-5",
+          "math_latex": "-5"
+        },
+        {
+          "id": "C",
+          "text": "-7",
+          "math_latex": "-7"
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "math_latex": "6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "-6",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18d",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.1",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "B",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: every difference is −3."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Arithmetic: every difference is −3.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "28",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.2",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. 10,15,25,40,\\ldots",
+      "math_latex": "10,15,25,40,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "B",
+          "text": "Not arithmetic: differences 5, 10, 15 are unequal."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "D",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Not arithmetic: differences 5, 10, 15 are unequal.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "29",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-03",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.3",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -10,-5,0,5,\\ldots",
+      "math_latex": "-10,-5,0,5,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: every difference is 5."
+        },
+        {
+          "id": "B",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: the common difference is 1."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Arithmetic: every difference is 5.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "30",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-04",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.4",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -5,-3,-1,1,\\ldots",
+      "math_latex": "-5,-3,-1,1,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "B",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: every difference is 2."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Arithmetic: every difference is 2.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "31",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-01",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.1",
+      "instruction": "Match the original constant-function graph with its equation. Options give y.",
+      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 4 x",
+          "math_latex": "- 4 x"
+        },
+        {
+          "id": "B",
+          "text": "-4",
+          "math_latex": "-4"
+        },
+        {
+          "id": "C",
+          "text": "-3",
+          "math_latex": "-3"
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "math_latex": "4"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "-4",
+        "explanation": "A horizontal line has a constant y-value, slope 0."
+      },
+      "diagram_asset_ids": [
+        "constant_c"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph C",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-02",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.2",
+      "instruction": "Match the original constant-function graph with its equation. Options give y.",
+      "stem": "Match the original constant-function graph with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "B",
+          "text": "9",
+          "math_latex": "9"
+        },
+        {
+          "id": "C",
+          "text": "-8",
+          "math_latex": "-8"
+        },
+        {
+          "id": "D",
+          "text": "8 x",
+          "math_latex": "8 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "8",
+        "explanation": "A horizontal line has a constant y-value, slope 0."
+      },
+      "diagram_asset_ids": [
+        "constant_d"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph D",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-03",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.3",
+      "instruction": "Choose the graph description.",
+      "stem": "Choose the graph description. y=7",
+      "math_latex": "y=7",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical line through (7,0)."
+        },
+        {
+          "id": "B",
+          "text": "Line through the origin with slope 7."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal line through (0,0)."
+        },
+        {
+          "id": "D",
+          "text": "Horizontal line through (0,7)."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Horizontal line through (0,7).",
+        "explanation": "A constant equation y=b is a horizontal line at height b."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "25",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q18-MCQ-04",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.4",
+      "instruction": "Choose the graph description.",
+      "stem": "Choose the graph description. y=-\\frac23",
+      "math_latex": "y=-\\frac23",
+      "options": [
+        {
+          "id": "A",
+          "text": "Line through the origin with slope 7."
+        },
+        {
+          "id": "B",
+          "text": "Horizontal line through (0,0)."
+        },
+        {
+          "id": "C",
+          "text": "Horizontal line through (0,−2/3)."
+        },
+        {
+          "id": "D",
+          "text": "Vertical line through (7,0)."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Horizontal line through (0,−2/3).",
+        "explanation": "A constant equation y=b is a horizontal line at height b."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "26",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.1",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. 4q",
+      "math_latex": "4q",
+      "options": [
+        {
+          "id": "A",
+          "text": "The product of 4 and q."
+        },
+        {
+          "id": "B",
+          "text": "The sum of 4 and q."
+        },
+        {
+          "id": "C",
+          "text": "q divided by 4."
+        },
+        {
+          "id": "D",
+          "text": "4 less than q."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "The product of 4 and q.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.2",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. \\frac18y",
+      "math_latex": "\\frac18y",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eight times y."
+        },
+        {
+          "id": "B",
+          "text": "y minus eight."
+        },
+        {
+          "id": "C",
+          "text": "Eight divided by y."
+        },
+        {
+          "id": "D",
+          "text": "One eighth of y."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "One eighth of y.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-03",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.3",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. 15+r",
+      "math_latex": "15+r",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 minus r."
+        },
+        {
+          "id": "B",
+          "text": "r divided by 15."
+        },
+        {
+          "id": "C",
+          "text": "The sum of 15 and r."
+        },
+        {
+          "id": "D",
+          "text": "The product of 15 and r."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "The sum of 15 and r.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-04",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.4",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. w-24",
+      "math_latex": "w-24",
+      "options": [
+        {
+          "id": "A",
+          "text": "w plus 24."
+        },
+        {
+          "id": "B",
+          "text": "24 less than w."
+        },
+        {
+          "id": "C",
+          "text": "w less than 24."
+        },
+        {
+          "id": "D",
+          "text": "24 times w."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "24 less than w.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-01",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.1",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 3x+8=29",
+      "math_latex": "3x+8=29",
+      "options": [
+        {
+          "id": "A",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "C",
+          "text": "-7",
+          "math_latex": "-7"
+        },
+        {
+          "id": "D",
+          "text": "7",
+          "math_latex": "7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "7",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "27",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-02",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.2",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. \\frac{5f}{2}-6=19",
+      "math_latex": "\\frac{5f}{2}-6=19",
+      "options": [
+        {
+          "id": "A",
+          "text": "9",
+          "math_latex": "9"
+        },
+        {
+          "id": "B",
+          "text": "-10",
+          "math_latex": "-10"
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "math_latex": "11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "10",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "29",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-03",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.3",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 5(1+n)=-5",
+      "math_latex": "5(1+n)=-5",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "-2",
+          "math_latex": "-2"
+        },
+        {
+          "id": "C",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "D",
+          "text": "-3",
+          "math_latex": "-3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "-2",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "33",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q20-MCQ-04",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.4",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. -27=-6-3p",
+      "math_latex": "-27=-6-3p",
+      "options": [
+        {
+          "id": "A",
+          "text": "7",
+          "math_latex": "7"
+        },
+        {
+          "id": "B",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "D",
+          "text": "-7",
+          "math_latex": "-7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7",
+        "explanation": "Undo operations in reverse order; use the Distributive Property when needed and check by substitution."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 89,
+        "pdf_page": 89,
+        "exercise": "34",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-01",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.1",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. g+6t",
+      "math_latex": "g+6t",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "2+6(11)=2+66=68. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "68"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "42",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-02",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.2",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. 7-gr",
+      "math_latex": "7-gr",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "7−2(3)=7−6=1. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "1"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "43",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-03",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.3",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. r^2+(g^3-8)^5",
+      "math_latex": "r^2+(g^3-8)^5",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "3²+(2³−8)⁵=9+0=9. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "9"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "44",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-04",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.4",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. (2t+3g)\\div4",
+      "math_latex": "(2t+3g)\\div4",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "(2·11+3·2)/4=(22+6)/4=7. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "7"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "45",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-01",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.1",
+      "instruction": "The perimeter of a rectangle is P=2ℓ+2w.",
+      "stem": "The perimeter of a rectangle is P=2ℓ+2w. P=2\\ell+2w",
+      "math_latex": "P=2\\ell+2w",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for ℓ.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "\\ell=(P-2w)/2"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find ℓ when w=4 m and P=36 m.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "ℓ=(36−8)/2=14 m. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-02",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.2",
+      "instruction": "A batting average is a=h/b, with h hits in b times at bat.",
+      "stem": "A batting average is a=h/b, with h hits in b times at bat. a=h/b",
+      "math_latex": "a=h/b",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for b.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "b=h/a"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find b when a=0.325 and h=39.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "b=39/0.325=120 times at bat. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "20",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-03",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.3",
+      "instruction": "Videogames cost $13.50 each. Controllers cost p dollars; c is the total cost.",
+      "stem": "Videogames cost $13.50 each. Controllers cost p dollars; c is the total cost. c=13.50g+p",
+      "math_latex": "c=13.50g+p",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for g.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "g=(c-p)/13.50"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find g when p=$55 and c=$136.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "g=(136−55)/13.50=6 games. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "21",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-04",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.4",
+      "instruction": "The volume of a box is V=ℓwh.",
+      "stem": "The volume of a box is V=ℓwh. V=\\ell wh",
+      "math_latex": "V=\\ell wh",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for h.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "h=V/(\\ell w)"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find h when V=50 m³, ℓ=10 m, and w=2 m.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "h=50/(10·2)=2.5 m. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "22",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q23-FRQ-01",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.1",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 2(r+6)=4(r+4)",
+      "math_latex": "2(r+6)=4(r+4)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your steps. State if there is one solution, no solution, or an identity.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "2r+12=4r+16 ⇒ −4=2r ⇒ r=−2. Both sides equal 8. Distribution (3), collection/simplification (3), conclusion and check (4).",
+            "math_latex": "r=-2"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "7",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q23-FRQ-02",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.2",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 3(3m-2)=2(3m+3)",
+      "math_latex": "3(3m-2)=2(3m+3)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your steps. State if there is one solution, no solution, or an identity.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "9m−6=6m+6 ⇒ 3m=12 ⇒ m=4. Both sides equal 30. Distribution (3), collection/simplification (3), conclusion and check (4).",
+            "math_latex": "m=4"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 97,
+        "pdf_page": 97,
+        "exercise": "11",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q23-FRQ-03",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.3",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. 2x=2(x-3)",
+      "math_latex": "2x=2(x-3)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your steps. State if there is one solution, no solution, or an identity.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "2x=2x−6 ⇒ 0=−6, a contradiction. No solution. Distribution (3), collection/simplification (3), conclusion and check (4).",
+            "math_latex": "\\varnothing"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 99,
+        "pdf_page": 99,
+        "exercise": "37",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q23-FRQ-04",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.4",
+      "instruction": "Solve the equation. Check your solution.",
+      "stem": "Solve the equation. Check your solution. -5(3-q)+4=5q-11",
+      "math_latex": "-5(3-q)+4=5q-11",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your steps. State if there is one solution, no solution, or an identity.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "−15+5q+4=5q−11 ⇒ 5q−11=5q−11. Identity: every real q is a solution. Distribution (3), collection/simplification (3), conclusion and check (4).",
+            "math_latex": "q\\in\\mathbb R"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 99,
+        "pdf_page": 99,
+        "exercise": "39",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-01",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.1",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y-8=-x",
+      "math_latex": "y-8=-x",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (0,8), (4,4), (8,0). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "5",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-02",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.2",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. x=10-y",
+      "math_latex": "x=10-y",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (0,10), (5,5), (10,0). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "6",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-03",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.3",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y=\\frac12x+1",
+      "math_latex": "y=\\frac12x+1",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (−2,0), (0,1), (2,2). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "7",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q24-FRQ-04",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.4",
+      "instruction": "Graph the equation by making a table.",
+      "stem": "Graph the equation by making a table. y+2=\\frac14x",
+      "math_latex": "y+2=\\frac14x",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Make a table of values, then plot the points and draw the complete line.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "One possible table: (−4,−3), (0,−2), (4,−1). Valid table (4), accurately plotted points (3), straight line with arrows and labelled axes (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 215,
+        "pdf_page": 81,
+        "exercise": "8",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q25-FRQ-01",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.1",
+      "instruction": "Graph the function. State its domain and range.",
+      "stem": "Graph the function. State its domain and range. f(x)=\\begin{cases}\\frac12x-1&x>3\\\\-2x+3&x\\le3\\end{cases}",
+      "math_latex": "f(x)=\\begin{cases}\\frac12x-1&x>3\\\\-2x+3&x\\le3\\end{cases}",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Plot both pieces with correct endpoints; state domain and range.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Open (3,0.5), slope 1/2 to the right; closed (3,−3), slope −2 to the left. D=ℝ, R=[−3,∞). Slopes and rays (4), endpoints (2), domain (2), range (2).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "1",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q25-FRQ-02",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.2",
+      "instruction": "Graph the function. State its domain and range.",
+      "stem": "Graph the function. State its domain and range. f(x)=\\begin{cases}2x-5&x>1\\\\4x-3&x\\le1\\end{cases}",
+      "math_latex": "f(x)=\\begin{cases}2x-5&x>1\\\\4x-3&x\\le1\\end{cases}",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Plot both pieces with correct endpoints; state domain and range.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Open (1,−3), slope 2 to the right; closed (1,1), slope 4 to the left. D=ℝ, R=ℝ. Slopes and rays (4), endpoints (2), domain (2), range (2).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "2",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q25-FRQ-03",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.3",
+      "instruction": "Graph the function. State its domain and range.",
+      "stem": "Graph the function. State its domain and range. f(x)=\\begin{cases}2x+3&x\\ge-3\\\\\\frac13x+1&x<-3\\end{cases}",
+      "math_latex": "f(x)=\\begin{cases}2x+3&x\\ge-3\\\\\\frac13x+1&x<-3\\end{cases}",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Plot both pieces with correct endpoints; state domain and range.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Closed (−3,−3), slope 2 to the right; open (−3,0), slope 1/3 to the left. D=ℝ, R=ℝ. Slopes and rays (4), endpoints (2), domain (2), range (2).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "3",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q25-FRQ-04",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.4",
+      "instruction": "Graph the function. State its domain and range.",
+      "stem": "Graph the function. State its domain and range. f(x)=\\begin{cases}3x+4&x\\ge1\\\\x+3&x<1\\end{cases}",
+      "math_latex": "f(x)=\\begin{cases}3x+4&x\\ge1\\\\x+3&x<1\\end{cases}",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Plot both pieces with correct endpoints; state domain and range.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Closed (1,7), slope 3 to the right; open (1,4), slope 1 to the left. D=ℝ, R=(−∞,4)∪[7,∞). Slopes and rays (4), endpoints (2), domain (2), range (2).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": true,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 263,
+        "pdf_page": 129,
+        "exercise": "4",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-01",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.1",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -3,-8,-13,-18,\\ldots",
+      "math_latex": "-3,-8,-13,-18,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=−5; aₙ=−3+(n−1)(−5)=2−5n. Common difference (2), formula (3).",
+            "math_latex": "a_n=2-5n"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=-33. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-02",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.2",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -2,3,8,13,\\ldots",
+      "math_latex": "-2,3,8,13,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=5; aₙ=−2+5(n−1)=5n−7. Common difference (2), formula (3).",
+            "math_latex": "a_n=5n-7"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=28. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "20",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-03",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.3",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -11,-15,-19,-23,\\ldots",
+      "math_latex": "-11,-15,-19,-23,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=−4; aₙ=−11−4(n−1)=−4n−7. Common difference (2), formula (3).",
+            "math_latex": "a_n=-4n-7"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=-35. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "21",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q26-FRQ-04",
+      "learning_outcome_id": "LO26",
+      "type": "frq",
+      "display_number": "26.4",
+      "instruction": "Use the arithmetic sequence to write an equation and find the 7th term.",
+      "stem": "Use the arithmetic sequence to write an equation and find the 7th term. -0.75,-0.5,-0.25,0,\\ldots",
+      "math_latex": "-0.75,-0.5,-0.25,0,\\ldots",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write a formula for the nth term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "d=0.25; aₙ=−0.75+0.25(n−1)=0.25n−1. Common difference (2), formula (3).",
+            "math_latex": "a_n=\\frac n4-1"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the 7th term.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Substitute n=7: a₇=3/4. Substitution (2), correct value (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 255,
+        "pdf_page": 121,
+        "exercise": "22",
+        "adaptation": "transcription"
+      }
+    }
+  ]
+}

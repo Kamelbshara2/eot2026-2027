@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO07",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO07",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO07",
+      "exam_slot": "Q7",
+      "title": "Distribute to evaluate",
+      "title_ar": "التوزيع للحساب الذهني",
+      "statement": "Distribute to evaluate",
+      "question_type": "mcq",
+      "rule_summary": "Rewrite a factor as a nearby convenient value plus or minus a small number.",
+      "textbook_references": [
+        {
+          "printed_page": 37,
+          "exercises_or_section": "Example 2; Check"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q07-MCQ-01",
+        "G9G-BOOK-Q07-MCQ-02",
+        "G9G-BOOK-Q07-MCQ-03",
+        "G9G-BOOK-Q07-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q07-MCQ-01",
+        "G9G-BOOK-Q07-MCQ-02",
+        "G9G-BOOK-Q07-MCQ-03",
+        "G9G-BOOK-Q07-MCQ-04"
+      ],
+      "download": "LO07.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q07-MCQ-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.1",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 5(99)",
+      "math_latex": "5(99)",
+      "options": [
+        {
+          "id": "A",
+          "text": "5(100)-5(1)=495",
+          "math_latex": "5(100)-5(1)=495"
+        },
+        {
+          "id": "B",
+          "text": "5(100)+5(1)=505",
+          "math_latex": "5(100)+5(1)=505"
+        },
+        {
+          "id": "C",
+          "text": "5(100)-1=499",
+          "math_latex": "5(100)-1=499"
+        },
+        {
+          "id": "D",
+          "text": "5(90)+5(1)=455",
+          "math_latex": "5(90)+5(1)=455"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "5(100)-5(1)=495",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Example 2a",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-02",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.2",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 4(1002)",
+      "math_latex": "4(1002)",
+      "options": [
+        {
+          "id": "A",
+          "text": "4(1000)+2=4002",
+          "math_latex": "4(1000)+2=4002"
+        },
+        {
+          "id": "B",
+          "text": "4(1000)-4(2)=3992",
+          "math_latex": "4(1000)-4(2)=3992"
+        },
+        {
+          "id": "C",
+          "text": "4(100)+4(2)=408",
+          "math_latex": "4(100)+4(2)=408"
+        },
+        {
+          "id": "D",
+          "text": "4(1000)+4(2)=4008",
+          "math_latex": "4(1000)+4(2)=4008"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "4(1000)+4(2)=4008",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Example 2b",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.3",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 7(51)",
+      "math_latex": "7(51)",
+      "options": [
+        {
+          "id": "A",
+          "text": "7(60)=420,\\quad\\text{more than }420",
+          "math_latex": "7(60)=420,\\quad\\text{more than }420"
+        },
+        {
+          "id": "B",
+          "text": "7(5)=35,\\quad\\text{less than }35",
+          "math_latex": "7(5)=35,\\quad\\text{less than }35"
+        },
+        {
+          "id": "C",
+          "text": "7(50)=350,\\quad\\text{a little more than }350",
+          "math_latex": "7(50)=350,\\quad\\text{a little more than }350"
+        },
+        {
+          "id": "D",
+          "text": "7(50)=350,\\quad\\text{a little less than }350",
+          "math_latex": "7(50)=350,\\quad\\text{a little less than }350"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "7(50)=350,\\quad\\text{a little more than }350",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Check Part A",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q07-MCQ-04",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.4",
+      "instruction": "Choose the correct distributive rewrite or estimate.",
+      "stem": "Choose the correct distributive rewrite or estimate. 7(51)",
+      "math_latex": "7(51)",
+      "options": [
+        {
+          "id": "A",
+          "text": "7(50)+51=401",
+          "math_latex": "7(50)+51=401"
+        },
+        {
+          "id": "B",
+          "text": "7(50)+7(1)=357",
+          "math_latex": "7(50)+7(1)=357"
+        },
+        {
+          "id": "C",
+          "text": "7(50)+1=351",
+          "math_latex": "7(50)+1=351"
+        },
+        {
+          "id": "D",
+          "text": "7(50)-7(1)=343",
+          "math_latex": "7(50)-7(1)=343"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "7(50)+7(1)=357",
+        "explanation": "Use a nearby multiple of 10 or 100, then distribute the factor to the small adjustment."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 37,
+        "pdf_page": 37,
+        "exercise": "Check Part B",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

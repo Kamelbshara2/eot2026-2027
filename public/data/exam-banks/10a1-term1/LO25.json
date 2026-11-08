@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO25",
     "classroom": "10A1",
     "learning_outcome_id": "LO25",
-    "question_count": 3,
-    "mcq_count": 0,
-    "frq_count": 3
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,194 +18,213 @@
           "printed_page": 208,
           "exercises_or_section": "15–26"
         }
-      ]
+      ],
+      "title_ar": "قانون الجيوب والحالة المبهمة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q25-FRQ-01",
+        "G10A-BOOK-Q25-FRQ-02",
+        "G10A-BOOK-Q25-FRQ-03",
+        "G10A-BOOK-Q25-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q25-FRQ-01",
+        "G10A-BOOK-Q25-FRQ-02",
+        "G10A-BOOK-Q25-FRQ-03",
+        "G10A-BOOK-Q25-FRQ-04"
+      ],
+      "download": "LO25.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q25-FRQ-01",
+      "id": "G10A-BOOK-Q25-FRQ-01",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
       "display_number": "25.1",
-      "exam_slot": "Q25",
-      "type": "frq",
-      "learning_outcome_id": "LO25",
-      "origin": "parallel_practice",
-      "title": "A • All acute-angle boundary cases",
-      "stem": "In each case A = 30° and b = 10. Side a is opposite A and b is opposite B.",
-      "diagram_asset_ids": [],
-      "marks": 10,
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=50^\\circ,\\quad a=34,\\quad b=40",
+      "math_latex": "A=50^\\circ,\\quad a=34,\\quad b=40",
       "parts": [
         {
           "id": "a",
-          "prompt": "Calculate h = b sin A and state its geometric meaning.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "h=10sin30°=5. It is the perpendicular height from the end of side b to the ray carrying side c. Award 2."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Determine the number of triangles for a = 4, 5, 7, 10, and 12. Explain each classification.",
-          "marks": 5,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 80,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "a=4<h gives 0; a=5=h gives 1 right triangle; 5<a=7<10 gives 2; a=10=b gives 1; a=12>b gives 1. Award 1 per correct classification with its comparison."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "For a = 5, find B and C. Explain why the count is one.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "sinB=10sin30°/5=1, so B=90° and C=60°. The supplementary B equals the same 90°, so it creates no second distinct triangle. Award 3."
-          }
-        }
-      ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
-      }
-    },
-    {
-      "id": "G10A-Q25-FRQ-02",
-      "display_number": "25.2",
-      "exam_slot": "Q25",
-      "type": "frq",
-      "learning_outcome_id": "LO25",
-      "origin": "parallel_practice",
-      "title": "B • Solve both triangles",
-      "stem": "Given A = 40°, a = 9, and b = 12. Use degree mode. Keep full calculator precision until your final answers.",
-      "diagram_asset_ids": [],
-      "marks": 10,
-      "parts": [
-        {
-          "id": "a",
-          "prompt": "Find sin B and the two candidate values of B.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "sinB=12sin40°/9≈0.85705. B₁≈58.986° and B₂≈121.014°. Award 1 for ratio and 2 for candidates."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Check both candidates with the angle sum. State the number of triangles.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "40+58.986<180 and 40+121.014<180, so two triangles exist. Award 2."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "For each valid triangle, find C to the nearest degree and c to the nearest tenth.",
+          "prompt": "Determine the number of solutions and justify it.",
           "marks": 4,
+          "math_latex": "",
           "workspace": {
-            "style": "lined",
-            "height_mm": 64,
-            "line_spacing_mm": 8
+            "height_mm": 25
           },
           "answer": {
-            "model_answer_and_marking": "C₁≈81.014°→81°, c₁=9sinC₁/sin40°≈13.8. C₂≈18.986°→19°, c₂≈4.6. Award 1 per requested result."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Explain why using only the inverse-sine output can miss a triangle.",
-          "marks": 1,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "An acute and its supplementary obtuse angle have the same sine. Award 1."
-          }
-        }
-      ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
-      }
-    },
-    {
-      "id": "G10A-Q25-FRQ-03",
-      "display_number": "25.3",
-      "exam_slot": "Q25",
-      "type": "frq",
-      "learning_outcome_id": "LO25",
-      "origin": "parallel_practice",
-      "title": "C • Obtuse angles and false candidates",
-      "stem": "Use the Law of Sines and the angle-sum condition.",
-      "diagram_asset_ids": [],
-      "marks": 10,
-      "parts": [
-        {
-          "id": "a",
-          "prompt": "Given A = 120°, a = 8, b = 10, test the data and state the number of triangles.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "sinB=10sin120°/8≈1.0825>1, so no triangle exists. Award 3."
+            "model_answer_and_marking": "sin B=b sin A/a=0.90122876. Two solutions; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
           }
         },
         {
           "id": "b",
-          "prompt": "Given A = 120°, a = 10, b = 8, determine the number of triangles and solve it. Round angles to the nearest degree and sides to the nearest tenth.",
-          "marks": 5,
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
           "workspace": {
-            "style": "lined",
-            "height_mm": 80,
-            "line_spacing_mm": 8
+            "height_mm": 35
           },
           "answer": {
-            "model_answer_and_marking": "sinB=8sin120°/10≈0.69282. B₁≈43.854° is valid, while B₂≈136.146° gives A+B₂>180°. Thus one triangle. B≈44°, C≈16°, and c=10sin(16.146°)/sin120°≈3.2. Award 1 for ratio, 1 for rejecting second angle, 1 for count, 1 for angles, 1 for c."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "For an obtuse A, explain why a must be greater than b for a triangle to exist.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "The side opposite the obtuse angle must be the longest side, so a>b. Award 2."
+            "model_answer_and_marking": "B≈64°, C≈66°, c≈40.4; B≈116°, C≈14°, c≈11.0 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
           }
         }
       ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "15",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-02",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.2",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=24^\\circ,\\quad a=3,\\quad b=8",
+      "math_latex": "A=24^\\circ,\\quad a=3,\\quad b=8",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=1.08463105. No solution; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B>1, so there is no real angle B and no triangle. Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "16",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-03",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.3",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=125^\\circ,\\quad a=22,\\quad b=15",
+      "math_latex": "A=125^\\circ,\\quad a=22,\\quad b=15",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=0.55851276. One solution; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "B≈34°, C≈21°, c≈9.6 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "17",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-04",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.4",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=30^\\circ,\\quad a=2,\\quad b=4",
+      "math_latex": "A=30^\\circ,\\quad a=2,\\quad b=4",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=1.00000000. Two solutions; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "B≈90°, C≈60°, c≈3.5; B≈90°, C≈60°, c≈3.5 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "19",
+        "adaptation": "transcription"
       }
     }
-  ]
+  ],
+  "assets": {}
 }

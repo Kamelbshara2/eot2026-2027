@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO09",
     "classroom": "10A1",
     "learning_outcome_id": "LO09",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -97,262 +22,209 @@
           "printed_page": 121,
           "exercises_or_section": "20"
         }
-      ]
+      ],
+      "title_ar": "إحداثيات التمدد",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q09-MCQ-01",
+        "G10A-BOOK-Q09-MCQ-02",
+        "G10A-BOOK-Q09-MCQ-03",
+        "G10A-BOOK-Q09-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q09-MCQ-01",
+        "G10A-BOOK-Q09-MCQ-02",
+        "G10A-BOOK-Q09-MCQ-03",
+        "G10A-BOOK-Q09-MCQ-04"
+      ],
+      "download": "LO09.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q09-MCQ-01",
+      "id": "G10A-BOOK-Q09-MCQ-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
       "display_number": "9.1",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "P(−8, 12) is dilated about the origin with k = 1/4. Find P′.",
-      "diagram_asset_ids": [],
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}F(-10,4)\\quad G(-4,4)\\quad H(-4,-8)\\\\k=\\frac{1}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}F(-10,4)\\quad G(-4,4)\\quad H(-4,-8)\\\\k=\\frac{1}{4}\\end{gathered}",
       "options": [
         {
           "id": "A",
-          "text": "(−2, 3)"
+          "text": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "(−32, 48)"
+          "text": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "(2, 3)"
+          "text": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "(−2, 12)"
+          "text": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "(−2, 3)",
-        "explanation": "Multiply both coordinates by 1/4."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "13",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q09-MCQ-02",
+      "id": "G10A-BOOK-Q09-MCQ-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
       "display_number": "9.2",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "Q(3, −2) maps to Q′(9, −6). Find k.",
-      "diagram_asset_ids": [],
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}X(2,-1)\\quad Y(-6,4)\\quad Z(-2,-5)\\\\k=\\frac{5}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}X(2,-1)\\quad Y(-6,4)\\quad Z(-2,-5)\\\\k=\\frac{5}{4}\\end{gathered}",
       "options": [
         {
           "id": "A",
-          "text": "3"
+          "text": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "1/3"
+          "text": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "6"
+          "text": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "−3"
+          "text": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "3",
-        "explanation": "9/3=(−6)/(−2)=3."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "14",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q09-MCQ-03",
+      "id": "G10A-BOOK-Q09-MCQ-03",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
       "display_number": "9.3",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "Triangle ABC has C(4, −3). A dilation about the origin has k = 2.5. Find C′.",
-      "diagram_asset_ids": [],
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}M(4,6)\\quad N(-6,2)\\quad P(0,-8)\\\\k=\\frac{3}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}M(4,6)\\quad N(-6,2)\\quad P(0,-8)\\\\k=\\frac{3}{4}\\end{gathered}",
       "options": [
         {
           "id": "A",
-          "text": "(6.5, −0.5)"
+          "text": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "(10, 7.5)"
+          "text": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "(1.6, −1.2)"
+          "text": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "(10, −7.5)"
+          "text": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "(10, −7.5)",
-        "explanation": "Multiply each coordinate by 2.5."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "15",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q09-MCQ-04",
+      "id": "G10A-BOOK-Q09-MCQ-04",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
       "display_number": "9.4",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "P′(−6, 9) is the image of P under an origin-centered dilation with k = 3. Find P.",
-      "diagram_asset_ids": [],
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}R(-2,6)\\quad S(0,-1)\\quad T(-5,3)\\\\k=\\frac{3}{2}\\end{gathered}",
+      "math_latex": "\\begin{gathered}R(-2,6)\\quad S(0,-1)\\quad T(-5,3)\\\\k=\\frac{3}{2}\\end{gathered}",
       "options": [
         {
           "id": "A",
-          "text": "(−2, 3)"
+          "text": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}"
         },
         {
           "id": "B",
-          "text": "(−18, 27)"
+          "text": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}"
         },
         {
           "id": "C",
-          "text": "(−3, 6)"
+          "text": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}"
         },
         {
           "id": "D",
-          "text": "(2, −3)"
+          "text": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "(−2, 3)",
-        "explanation": "Divide image coordinates by 3."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q09-MCQ-05",
-      "display_number": "9.5",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "A triangle has vertices (2, 1), (6, 1), (2, 4). After k = 2, what is its area?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "24 square units"
-        },
-        {
-          "id": "B",
-          "text": "48 square units"
-        },
-        {
-          "id": "C",
-          "text": "12 square units"
-        },
-        {
-          "id": "D",
-          "text": "6 square units"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "24 square units",
-        "explanation": "Original area is 6. Area scales by k²=4."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q09-MCQ-06",
-      "display_number": "9.6",
-      "exam_slot": "Q9",
-      "type": "mcq",
-      "learning_outcome_id": "LO09",
-      "origin": "parallel_practice",
-      "stem": "Which rule represents an origin-centered dilation with scale factor 0.4?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "(x, y) → (2.5x, 2.5y)"
-        },
-        {
-          "id": "B",
-          "text": "(x, y) → (0.4x, y)"
-        },
-        {
-          "id": "C",
-          "text": "(x, y) → (x + 0.4, y + 0.4)"
-        },
-        {
-          "id": "D",
-          "text": "(x, y) → (0.4x, 0.4y)"
-        }
-      ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "(x, y) → (0.4x, 0.4y)",
-        "explanation": "Both coordinates are multiplied by the same factor."
+        "correct_option_text": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "16",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {}
 }

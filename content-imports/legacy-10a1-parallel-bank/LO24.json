@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO24",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO24",
+    "question_count": 3,
+    "mcq_count": 0,
+    "frq_count": 3
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Distance and midpoint in space",
+      "statement": "Use Distance and Midpoint Formulas in Space.",
+      "rule_summary": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²]. Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2).",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 177,
+          "exercises_or_section": "13–18"
+        },
+        {
+          "printed_page": 178,
+          "exercises_or_section": "19–24"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q24-FRQ-01",
+      "display_number": "24.1",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "A • Coordinates and exact distance",
+      "stem": "Points A(−2, 4, −3) and B(4, −4, 9) are endpoints of a segment in space.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Find the coordinate changes from A to B.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Changes are 6, −8, and 12. Award 2 for all three."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Use the distance formula. Give an exact answer and a decimal to the nearest tenth.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AB=√(6²+(−8)²+12²)=√244=2√61≈15.6. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find the midpoint M.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "M=((−2+4)/2,(4−4)/2,(−3+9)/2)=(1,0,3). Award 3, one per coordinate."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find AM exactly and explain its relation to AB.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AM=√61, half of AB, since M is the midpoint. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q24-FRQ-02",
+      "display_number": "24.2",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "B • Recover an endpoint",
+      "stem": "A drone travels along a straight segment from P(−3, 2, 5) to Q. Its halfway position is M(1, −1, 4). Coordinates are in metres.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write three midpoint equations and find Q.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "(−3+x)/2=1, (2+y)/2=−1, (5+z)/2=4. Thus Q=(5,−4,3). Award 1 for midpoint setup and 1 per coordinate."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the total straight-line flight distance PQ exactly.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "PQ=√(8²+(−6)²+(−2)²)=√104=2√26 m. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find PM and use it to check your result.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "PM=√(4²+(−3)²+(−1)²)=√26 m. Twice this is PQ. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "What would be the units of PQ²?",
+          "marks": 1,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Square metres (m²). Award 1."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q24-FRQ-03",
+      "display_number": "24.3",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "C • Radical coordinates and error analysis",
+      "stem": "R(√3, 2, 2√2) and S(−2√3, 4, 4√2) are points in space.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Find the midpoint of RS in exact form.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Midpoint=(−√3/2,3,3√2). Award 3, one per coordinate."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find RS in simplest radical form.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "RS=√[(−3√3)²+2²+(2√2)²]=√(27+4+8)=√39. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A student adds coordinate changes without squaring them to calculate distance. Explain why that method fails.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Distance uses squared perpendicular displacements before taking a square root. Signed changes can cancel if merely added. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find the distance from the origin to T(3, 4, 12), showing the two Pythagorean stages.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Horizontal distance=√(3²+4²)=5. Space distance=√(5²+12²)=13. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    }
+  ]
+}

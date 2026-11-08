@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO03",
     "classroom": "10A1",
     "learning_outcome_id": "LO03",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,262 +18,209 @@
           "printed_page": 665,
           "exercises_or_section": "11–20"
         }
-      ]
+      ],
+      "title_ar": "التحليل بالعامل المشترك والتجميع",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q03-MCQ-01",
+        "G10A-BOOK-Q03-MCQ-02",
+        "G10A-BOOK-Q03-MCQ-03",
+        "G10A-BOOK-Q03-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q03-MCQ-01",
+        "G10A-BOOK-Q03-MCQ-02",
+        "G10A-BOOK-Q03-MCQ-03",
+        "G10A-BOOK-Q03-MCQ-04"
+      ],
+      "download": "LO03.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q03-MCQ-01",
-      "display_number": "3.1",
-      "exam_slot": "Q3",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q03-MCQ-01",
       "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Factor xy − 3y + 5x − 15 completely.",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "3.1",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. f g + 4 f - 5 g - 20",
+      "math_latex": "f g + 4 f - 5 g - 20",
       "options": [
         {
           "id": "A",
-          "text": "(x − 3)(y + 5)"
+          "text": "\\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(f - 5\\right) \\left(g + 4\\right)"
         },
         {
           "id": "B",
-          "text": "(x + 3)(y − 5)"
+          "text": "- \\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "- \\left(f - 5\\right) \\left(g + 4\\right)"
         },
         {
           "id": "C",
-          "text": "(x − 5)(y + 3)"
+          "text": "2 \\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "2 \\left(f - 5\\right) \\left(g + 4\\right)"
         },
         {
           "id": "D",
-          "text": "(x − 3)(y − 5)"
+          "text": "\\left(f - 4\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(f - 4\\right) \\left(g + 4\\right)"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "(x − 3)(y + 5)",
-        "explanation": "y(x−3)+5(x−3)."
+        "correct_option_text": "\\left(f - 5\\right) \\left(g + 4\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "11",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q03-MCQ-02",
+      "id": "G10A-BOOK-Q03-MCQ-02",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
       "display_number": "3.2",
-      "exam_slot": "Q3",
-      "type": "mcq",
-      "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Factor 6ab − 9a + 4b − 6.",
-      "diagram_asset_ids": [],
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. h j - 2 h + 5 j - 10",
+      "math_latex": "h j - 2 h + 5 j - 10",
       "options": [
         {
           "id": "A",
-          "text": "(6a + 4)(b − 3)"
+          "text": "- \\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "- \\left(h + 5\\right) \\left(j - 2\\right)"
         },
         {
           "id": "B",
-          "text": "(3a + 2)(2b − 3)"
+          "text": "2 \\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "2 \\left(h + 5\\right) \\left(j - 2\\right)"
         },
         {
           "id": "C",
-          "text": "(3a − 2)(2b + 3)"
+          "text": "\\left(h + 6\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(h + 6\\right) \\left(j - 2\\right)"
         },
         {
           "id": "D",
-          "text": "(2a + 3)(3b − 2)"
+          "text": "\\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(h + 5\\right) \\left(j - 2\\right)"
         }
       ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "(3a + 2)(2b − 3)",
-        "explanation": "3a(2b−3)+2(2b−3)."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q03-MCQ-03",
-      "display_number": "3.3",
-      "exam_slot": "Q3",
-      "type": "mcq",
-      "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Factor 8r³ + 12r² completely.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "4r(2r² + 3r)"
-        },
-        {
-          "id": "B",
-          "text": "2r²(4r + 6)"
-        },
-        {
-          "id": "C",
-          "text": "4r²(2r − 3)"
-        },
-        {
-          "id": "D",
-          "text": "4r²(2r + 3)"
-        }
-      ],
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "4r²(2r + 3)",
-        "explanation": "The GCF is 4r². The other positive forms are not completely factored."
+        "correct_option_text": "\\left(h + 5\\right) \\left(j - 2\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "13",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q03-MCQ-04",
-      "display_number": "3.4",
-      "exam_slot": "Q3",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q03-MCQ-03",
       "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Which expression is equivalent to 3x(y − 2) − 5(y − 2)?",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "3.3",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. x y - 2 x + y - 2",
+      "math_latex": "x y - 2 x + y - 2",
       "options": [
         {
           "id": "A",
-          "text": "(3x − 5)(y + 2)"
+          "text": "2 \\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "2 \\left(x + 1\\right) \\left(y - 2\\right)"
         },
         {
           "id": "B",
-          "text": "(3x − 2)(y − 5)"
+          "text": "\\left(x + 2\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(x + 2\\right) \\left(y - 2\\right)"
         },
         {
           "id": "C",
-          "text": "(3x − 5)(y − 2)"
+          "text": "\\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(x + 1\\right) \\left(y - 2\\right)"
         },
         {
           "id": "D",
-          "text": "(3x + 5)(y − 2)"
+          "text": "- \\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "- \\left(x + 1\\right) \\left(y - 2\\right)"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "(3x − 5)(y − 2)",
-        "explanation": "Treat y−2 as the common factor."
+        "correct_option_text": "\\left(x + 1\\right) \\left(y - 2\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "14",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q03-MCQ-05",
-      "display_number": "3.5",
-      "exam_slot": "Q3",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q03-MCQ-04",
       "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Which rearrangement helps factor 2mn + 6m − 5n − 15?",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "3.4",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. p v + 8 p + 12 v + 96",
+      "math_latex": "p v + 8 p + 12 v + 96",
       "options": [
         {
           "id": "A",
-          "text": "2m(n + 3) − 5(n + 3)"
+          "text": "\\left(p + 13\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(p + 13\\right) \\left(v + 8\\right)"
         },
         {
           "id": "B",
-          "text": "2m(n + 3) + 5(n − 3)"
+          "text": "\\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(p + 12\\right) \\left(v + 8\\right)"
         },
         {
           "id": "C",
-          "text": "2n(m + 3) − 5(n + 3)"
+          "text": "- \\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "- \\left(p + 12\\right) \\left(v + 8\\right)"
         },
         {
           "id": "D",
-          "text": "2m(n − 3) − 5(n + 3)"
+          "text": "2 \\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "2 \\left(p + 12\\right) \\left(v + 8\\right)"
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "2m(n + 3) − 5(n + 3)",
-        "explanation": "Both groups must share n+3."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q03-MCQ-06",
-      "display_number": "3.6",
-      "exam_slot": "Q3",
-      "type": "mcq",
-      "learning_outcome_id": "LO03",
-      "origin": "parallel_practice",
-      "stem": "Factor 4pq − 8p − q + 2.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "(4p + 1)(q − 2)"
-        },
-        {
-          "id": "B",
-          "text": "(4p − 1)(q − 2)"
-        },
-        {
-          "id": "C",
-          "text": "(4p − 2)(q − 1)"
-        },
-        {
-          "id": "D",
-          "text": "(p − 1)(4q − 2)"
-        }
-      ],
       "answer": {
         "correct_option_id": "B",
-        "correct_option_text": "(4p − 1)(q − 2)",
-        "explanation": "4p(q−2)−1(q−2)."
+        "correct_option_text": "\\left(p + 12\\right) \\left(v + 8\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "20",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {}
 }

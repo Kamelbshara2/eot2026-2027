@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO17",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO17",
+    "question_count": 6,
+    "mcq_count": 6,
+    "frq_count": 0
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Special right triangles",
+      "statement": "Use the properties of 45°–45°–90° and 30°–60°–90° triangles.",
+      "rule_summary": "45°–45°–90° side ratio is 1:1:√2. In a 30°–60°–90° triangle, sides opposite 30°, 60°, and 90° have ratio 1:√3:2.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 184,
+          "exercises_or_section": "19–25"
+        },
+        {
+          "printed_page": 185,
+          "exercises_or_section": "33–38"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q17-MCQ-01",
+      "display_number": "17.1",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "An isosceles right triangle has a leg of length 7. Find its hypotenuse.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7√2"
+        },
+        {
+          "id": "B",
+          "text": "7√3"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "7/√2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7√2",
+        "explanation": "Multiply a leg by √2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-02",
+      "display_number": "17.2",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 45°–45°–90° triangle has hypotenuse 12√2. Find a leg.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6√2"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "12√2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "12",
+        "explanation": "Divide the hypotenuse by √2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-03",
+      "display_number": "17.3",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 30°–60°–90° triangle has short leg 5. Find the long leg.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "5√2"
+        },
+        {
+          "id": "B",
+          "text": "5√3"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "5/√3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "5√3",
+        "explanation": "The long leg is √3 times the short leg."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-04",
+      "display_number": "17.4",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 30°–60°–90° triangle has long leg 9√3. Find its hypotenuse.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "18√3"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "27"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "18",
+        "explanation": "Short leg=9 and hypotenuse=18."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-05",
+      "display_number": "17.5",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 24 m escalator makes a 30° angle with the horizontal. What vertical height does it reach?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "12√3 m"
+        },
+        {
+          "id": "B",
+          "text": "24√3 m"
+        },
+        {
+          "id": "C",
+          "text": "48 m"
+        },
+        {
+          "id": "D",
+          "text": "12 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "12 m",
+        "explanation": "The height is opposite 30°, so it is half the hypotenuse."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-06",
+      "display_number": "17.6",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A square has diagonal 10√2 cm. Find its area.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "100 cm²"
+        },
+        {
+          "id": "B",
+          "text": "200 cm²"
+        },
+        {
+          "id": "C",
+          "text": "50 cm²"
+        },
+        {
+          "id": "D",
+          "text": "20 cm²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "100 cm²",
+        "explanation": "Its side is 10 cm."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    }
+  ]
+}

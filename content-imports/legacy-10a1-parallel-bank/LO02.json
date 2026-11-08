@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO02",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO02",
+    "question_count": 6,
+    "mcq_count": 6,
+    "frq_count": 0
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO02",
+      "exam_slot": "Q2",
+      "title": "FOIL and binomial products",
+      "statement": "Multiply binomials by using the FOIL method.",
+      "rule_summary": "(a + b)(c + d) = ac + ad + bc + bd. Combine the two middle products when they are like terms.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 649,
+          "exercises_or_section": "1–6"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q02-MCQ-01",
+      "display_number": "2.1",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Expand (3x − 4)(x + 5).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3x² + 11x + 20"
+        },
+        {
+          "id": "B",
+          "text": "3x² + 15x − 20"
+        },
+        {
+          "id": "C",
+          "text": "3x² − 11x − 20"
+        },
+        {
+          "id": "D",
+          "text": "3x² + 11x − 20"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "3x² + 11x − 20",
+        "explanation": "Middle terms are 15x and −4x."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-02",
+      "display_number": "2.2",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Expand (2y − 3)(4y − 7).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "8y² − 26y + 21"
+        },
+        {
+          "id": "B",
+          "text": "8y² − 20y + 21"
+        },
+        {
+          "id": "C",
+          "text": "8y² + 26y + 21"
+        },
+        {
+          "id": "D",
+          "text": "8y² − 26y − 21"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "8y² − 26y + 21",
+        "explanation": "−14y−12y=−26y."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-03",
+      "display_number": "2.3",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "What is the coefficient of x in (5x + 2)(3x − 4)?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "−20"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "−14"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "−14",
+        "explanation": "The middle products are −20x and 6x."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-04",
+      "display_number": "2.4",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Which product expands to 6x² + x − 2?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(3x − 2)(2x + 1)"
+        },
+        {
+          "id": "B",
+          "text": "(6x − 1)(x + 2)"
+        },
+        {
+          "id": "C",
+          "text": "(3x + 2)(2x − 1)"
+        },
+        {
+          "id": "D",
+          "text": "(3x + 1)(2x − 2)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(3x + 2)(2x − 1)",
+        "explanation": "Expand each proposed factorization."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-05",
+      "display_number": "2.5",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "A rectangle has sides (2x + 3) m and (x − 1) m, with x > 1. What is its area?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(2x² − x − 3) m²"
+        },
+        {
+          "id": "B",
+          "text": "(2x² + x − 3) m²"
+        },
+        {
+          "id": "C",
+          "text": "(3x + 2) m²"
+        },
+        {
+          "id": "D",
+          "text": "(2x² + 5x + 3) m²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(2x² + x − 3) m²",
+        "explanation": "Multiply length by width."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-06",
+      "display_number": "2.6",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "In (x + a)(x + 4) = x² + 10x + 24, find a.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "24"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "6",
+        "explanation": "a+4=10 and 4a=24."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    }
+  ]
+}

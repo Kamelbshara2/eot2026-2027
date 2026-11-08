@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO07",
     "classroom": "10A1",
     "learning_outcome_id": "LO07",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -97,262 +22,282 @@
           "printed_page": 79,
           "exercises_or_section": "1–6"
         }
-      ]
+      ],
+      "title_ar": "اختبارات متوازي الأضلاع",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q07-MCQ-01",
+        "G10A-BOOK-Q07-MCQ-02",
+        "G10A-BOOK-Q07-MCQ-03",
+        "G10A-BOOK-Q07-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q07-MCQ-01",
+        "G10A-BOOK-Q07-MCQ-02",
+        "G10A-BOOK-Q07-MCQ-03",
+        "G10A-BOOK-Q07-MCQ-04"
+      ],
+      "download": "LO07.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q07-MCQ-01",
+      "id": "G10A-BOOK-Q07-MCQ-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
       "display_number": "7.1",
-      "exam_slot": "Q7",
-      "type": "mcq",
-      "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "Which condition guarantees that a quadrilateral is a parallelogram?",
-      "diagram_asset_ids": [],
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "One pair of opposite angles is congruent."
+          "text": "Yes: one pair of opposite sides is both parallel and congruent."
         },
         {
           "id": "B",
-          "text": "Both pairs of opposite sides are congruent."
+          "text": "Yes: the diagonals are marked perpendicular."
         },
         {
           "id": "C",
-          "text": "One pair of opposite sides is congruent."
+          "text": "No: a parallelogram cannot have these markings."
         },
         {
           "id": "D",
-          "text": "The diagonals are congruent."
+          "text": "Yes: any one pair of congruent sides is sufficient."
         }
       ],
-      "answer": {
-        "correct_option_id": "B",
-        "correct_option_text": "Both pairs of opposite sides are congruent.",
-        "explanation": "Both opposite-side pairs are required for this test."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q07-MCQ-02",
-      "display_number": "7.2",
-      "exam_slot": "Q7",
-      "type": "mcq",
-      "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "AB ∥ CD in quadrilateral ABCD. Which extra fact guarantees a parallelogram?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "AD = BC"
-        },
-        {
-          "id": "B",
-          "text": "AC = BD"
-        },
-        {
-          "id": "C",
-          "text": "∠A = 90°"
-        },
-        {
-          "id": "D",
-          "text": "AB = CD"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "AB = CD",
-        "explanation": "The same opposite-side pair must be parallel and congruent."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q07-MCQ-03",
-      "display_number": "7.3",
-      "exam_slot": "Q7",
-      "type": "mcq",
-      "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "Diagonals AC and BD meet at E. AE = EC = 7, BE = 3x − 1, ED = x + 9. Which x proves a parallelogram?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "7"
-        },
-        {
-          "id": "B",
-          "text": "10"
-        },
-        {
-          "id": "C",
-          "text": "4"
-        },
-        {
-          "id": "D",
-          "text": "5"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "5",
-        "explanation": "Both diagonals bisect each other when 3x−1=x+9."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q07-MCQ-04",
-      "display_number": "7.4",
-      "exam_slot": "Q7",
-      "type": "mcq",
-      "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "Which condition alone is insufficient to prove that a quadrilateral is a parallelogram?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "Its diagonals are perpendicular."
-        },
-        {
-          "id": "B",
-          "text": "Its diagonals bisect each other."
-        },
-        {
-          "id": "C",
-          "text": "Both pairs of opposite sides are parallel."
-        },
-        {
-          "id": "D",
-          "text": "Both pairs of opposite angles are congruent."
-        }
-      ],
       "answer": {
         "correct_option_id": "A",
-        "correct_option_text": "Its diagonals are perpendicular.",
-        "explanation": "A kite can have perpendicular diagonals without being a parallelogram."
+        "correct_option_text": "Yes: one pair of opposite sides is both parallel and congruent.",
+        "explanation": "A single pair that is BOTH parallel and congruent is sufficient."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q7_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "1",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q07-MCQ-05",
-      "display_number": "7.5",
-      "exam_slot": "Q7",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q07-MCQ-02",
       "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "Which angle list, in cyclic order, guarantees a parallelogram?",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "7.2",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "90°, 80°, 90°, 100°"
+          "text": "Yes: the diagonals are marked perpendicular."
         },
         {
           "id": "B",
-          "text": "70°, 70°, 110°, 110°"
+          "text": "No: a parallelogram cannot have these markings."
         },
         {
           "id": "C",
-          "text": "70°, 110°, 70°, 110°"
+          "text": "Yes: any one pair of congruent sides is sufficient."
         },
         {
           "id": "D",
-          "text": "60°, 80°, 100°, 120°"
+          "text": "Yes: both pairs of opposite angles are congruent."
         }
       ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Yes: both pairs of opposite angles are congruent.",
+        "explanation": "Both opposite-angle pairs are marked congruent."
+      },
+      "diagram_asset_ids": [
+        "q7_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q07-MCQ-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.3",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "No: a parallelogram cannot have these markings."
+        },
+        {
+          "id": "B",
+          "text": "Yes: any one pair of congruent sides is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Not enough information: only one pair of opposite sides is congruent."
+        },
+        {
+          "id": "D",
+          "text": "Yes: the diagonals are marked perpendicular."
+        }
+      ],
+      "marks": null,
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "70°, 110°, 70°, 110°",
-        "explanation": "Both pairs of opposite angles are congruent."
+        "correct_option_text": "Not enough information: only one pair of opposite sides is congruent.",
+        "explanation": "A single congruent opposite-side pair alone is insufficient."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q7_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "3",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q07-MCQ-06",
-      "display_number": "7.6",
-      "exam_slot": "Q7",
-      "type": "mcq",
+      "id": "G10A-BOOK-Q07-MCQ-04",
       "learning_outcome_id": "LO07",
-      "origin": "parallel_practice",
-      "stem": "A student says that congruent diagonals guarantee a parallelogram. Which shape is a counterexample?",
-      "diagram_asset_ids": [],
+      "type": "mcq",
+      "display_number": "7.4",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "A nonrectangular isosceles trapezoid"
+          "text": "Yes: any one pair of congruent sides is sufficient."
         },
         {
           "id": "B",
-          "text": "A rectangle"
+          "text": "Not enough information: one pair is parallel and the other pair is congruent."
         },
         {
           "id": "C",
-          "text": "A parallelogram"
+          "text": "Yes: the diagonals are marked perpendicular."
         },
         {
           "id": "D",
-          "text": "A square"
+          "text": "No: a parallelogram cannot have these markings."
         }
       ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "A nonrectangular isosceles trapezoid",
-        "explanation": "An isosceles trapezoid can have congruent diagonals."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Not enough information: one pair is parallel and the other pair is congruent.",
+        "explanation": "These conditions also describe an isosceles trapezoid; the same pair would need to be both parallel and congruent."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q7_6"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "6",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {
+    "q7_1": {
+      "src": "assets/q7_1.png",
+      "width": 448,
+      "height": 215,
+      "alt_text": "Original textbook diagram, Reveal p. 79, exercise 1.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "1",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.175,
+        0.4,
+        0.26
+      ]
+    },
+    "q7_6": {
+      "src": "assets/q7_6.png",
+      "width": 537,
+      "height": 203,
+      "alt_text": "Original textbook diagram, Reveal p. 79, exercise 6.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "6",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.53,
+        0.37,
+        0.83,
+        0.45
+      ]
+    },
+    "q7_3": {
+      "src": "assets/q7_3.png",
+      "width": 430,
+      "height": 229,
+      "alt_text": "Original textbook diagram, Reveal p. 79, exercise 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.27,
+        0.39,
+        0.36
+      ]
+    },
+    "q7_2": {
+      "src": "assets/q7_2.png",
+      "width": 537,
+      "height": 215,
+      "alt_text": "Original textbook diagram, Reveal p. 79, exercise 2.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "2",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.53,
+        0.175,
+        0.83,
+        0.26
+      ]
+    }
+  }
 }

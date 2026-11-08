@@ -1,0 +1,210 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO17",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO17",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Arithmetic sequence arguments",
+      "title_ar": "تبرير المتتاليات الحسابية",
+      "statement": "Arithmetic sequence arguments",
+      "question_type": "mcq",
+      "rule_summary": "Check that all consecutive differences are equal.",
+      "textbook_references": [
+        {
+          "printed_page": 257,
+          "exercises_or_section": "28–31"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q17-MCQ-01",
+        "G9G-BOOK-Q17-MCQ-02",
+        "G9G-BOOK-Q17-MCQ-03",
+        "G9G-BOOK-Q17-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q17-MCQ-01",
+        "G9G-BOOK-Q17-MCQ-02",
+        "G9G-BOOK-Q17-MCQ-03",
+        "G9G-BOOK-Q17-MCQ-04"
+      ],
+      "download": "LO17.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q17-MCQ-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.1",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -9,-12,-15,-18,\\ldots",
+      "math_latex": "-9,-12,-15,-18,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "B",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: every difference is −3."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Arithmetic: every difference is −3.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "28",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.2",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. 10,15,25,40,\\ldots",
+      "math_latex": "10,15,25,40,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "B",
+          "text": "Not arithmetic: differences 5, 10, 15 are unequal."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "D",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Not arithmetic: differences 5, 10, 15 are unequal.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "29",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-03",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.3",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -10,-5,0,5,\\ldots",
+      "math_latex": "-10,-5,0,5,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: every difference is 5."
+        },
+        {
+          "id": "B",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: the common difference is 1."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Arithmetic: every difference is 5.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "30",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q17-MCQ-04",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.4",
+      "instruction": "Determine whether the sequence is arithmetic. Choose the justification.",
+      "stem": "Determine whether the sequence is arithmetic. Choose the justification. -5,-3,-1,1,\\ldots",
+      "math_latex": "-5,-3,-1,1,\\ldots",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arithmetic: a constant ratio is sufficient."
+        },
+        {
+          "id": "B",
+          "text": "Not arithmetic: increasing terms cannot be arithmetic."
+        },
+        {
+          "id": "C",
+          "text": "Arithmetic: the common difference is 1."
+        },
+        {
+          "id": "D",
+          "text": "Arithmetic: every difference is 2."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Arithmetic: every difference is 2.",
+        "explanation": "An arithmetic sequence has the SAME difference between every consecutive pair of terms."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 257,
+        "pdf_page": 123,
+        "exercise": "31",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

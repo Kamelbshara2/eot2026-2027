@@ -1,0 +1,287 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO08",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO08",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO08",
+      "exam_slot": "Q8",
+      "title": "Rate of change",
+      "title_ar": "معدل التغير",
+      "statement": "Rate of change",
+      "question_type": "mcq",
+      "rule_summary": "A linear function has a constant Δy/Δx.",
+      "textbook_references": [
+        {
+          "printed_page": 221,
+          "exercises_or_section": "Examples 3–4; Check"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q08-MCQ-01",
+        "G9G-BOOK-Q08-MCQ-02",
+        "G9G-BOOK-Q08-MCQ-03",
+        "G9G-BOOK-Q08-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q08-MCQ-01",
+        "G9G-BOOK-Q08-MCQ-02",
+        "G9G-BOOK-Q08-MCQ-03",
+        "G9G-BOOK-Q08-MCQ-04"
+      ],
+      "download": "LO08.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q08-MCQ-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.1",
+      "instruction": "Is the function linear? State its rate of change.",
+      "stem": "Is the function linear? State its rate of change. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linear; rate 2/3."
+        },
+        {
+          "id": "B",
+          "text": "Linear; rate −3/2."
+        },
+        {
+          "id": "C",
+          "text": "Nonlinear; rate is not constant."
+        },
+        {
+          "id": "D",
+          "text": "Linear; rate −2/3."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Linear; rate −2/3.",
+        "explanation": "Every change Δx=−3 gives Δy=2, so Δy/Δx=−2/3."
+      },
+      "diagram_asset_ids": [
+        "rate_table3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.2",
+      "instruction": "Is the function linear?",
+      "stem": "Is the function linear? ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes; the rate is 2/7."
+        },
+        {
+          "id": "B",
+          "text": "Yes; the rate is 7/3."
+        },
+        {
+          "id": "C",
+          "text": "No; successive rates alternate between 3/7 and 2/7."
+        },
+        {
+          "id": "D",
+          "text": "Yes; the rate is 3/7."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "No; successive rates alternate between 3/7 and 2/7.",
+        "explanation": "Equal x-steps of 7 have y-steps 3, 2, 3, 2, which are not constant."
+      },
+      "diagram_asset_ids": [
+        "rate_table4"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.3",
+      "instruction": "Complete the first x-value so the table is linear.",
+      "stem": "Complete the first x-value so the table is linear. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "-12",
+          "math_latex": "-12"
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "math_latex": "12"
+        },
+        {
+          "id": "C",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "math_latex": "11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "12",
+        "explanation": "Each decrease of 0.5 in x increases y by 3.25; y=−2.25 corresponds to x=12."
+      },
+      "diagram_asset_ids": [
+        "rate_check"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Check: first blank",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q08-MCQ-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.4",
+      "instruction": "Complete the final y-value, where x=9.5, so the table is linear.",
+      "stem": "Complete the final y-value, where x=9.5, so the table is linear. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "14",
+          "math_latex": "14"
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "math_latex": "15"
+        },
+        {
+          "id": "C",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "D",
+          "text": "-14",
+          "math_latex": "-14"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "14",
+        "explanation": "Continue the constant y-increase of 3.25: 10.75+3.25=14."
+      },
+      "diagram_asset_ids": [
+        "rate_check"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Check: final blank",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {
+    "rate_table4": {
+      "src": "assets/rate_table4.png",
+      "width": 305,
+      "height": 337,
+      "alt_text": "Original textbook visual, Reveal p. 221, Example 4.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 4",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.54,
+        0.323,
+        0.71,
+        0.456
+      ]
+    },
+    "rate_check": {
+      "src": "assets/rate_check.png",
+      "width": 288,
+      "height": 385,
+      "alt_text": "Original textbook visual, Reveal p. 221, Check.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Check",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.34,
+        0.568,
+        0.501,
+        0.72
+      ]
+    },
+    "rate_table3": {
+      "src": "assets/rate_table3.png",
+      "width": 305,
+      "height": 339,
+      "alt_text": "Original textbook visual, Reveal p. 221, Example 3.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 221,
+        "pdf_page": 87,
+        "exercise": "Example 3",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.54,
+        0.12,
+        0.71,
+        0.254
+      ]
+    }
+  }
+}

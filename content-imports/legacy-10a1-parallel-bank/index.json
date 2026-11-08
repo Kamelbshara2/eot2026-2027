@@ -1,0 +1,6757 @@
+{
+  "id": "10a1-term1",
+  "classroom": "10A1",
+  "title": "Term 1 exam question bank",
+  "title_ar": "بنك أسئلة اختبار الفصل الأول",
+  "term": 1,
+  "academic_year": "2026–2027",
+  "source_sha256": "b6bc1fae6e18be6dd468a27dcb22055805d4ecd2f7222653e2fa8c400b3fb8da",
+  "source_file": "source.json",
+  "authored_notice": "Parallel practice from the uploaded JSON: numbers and contexts differ from the textbook. The three SVG diagrams are supplied schematics, not original textbook images. This bank has not been verified as a verbatim textbook selection.",
+  "authored_notice_ar": "تدريبات موازية من ملف JSON المرفق؛ الأعداد والسياقات تختلف عن الكتاب. الرسومات الثلاثة تخطيطية من الملف وليست صور الكتاب الأصلية. لم تتم مطابقة هذا البنك حرفيًا مع الكتاب.",
+  "question_count": 135,
+  "mcq_count": 120,
+  "frq_count": 15,
+  "learning_outcomes": [
+    {
+      "id": "LO01",
+      "exam_slot": "Q1",
+      "title": "Polynomial operations",
+      "statement": "Write polynomials in standard form. Add and subtract polynomials.",
+      "rule_summary": "Order terms by decreasing powers. Combine like terms. When subtracting a polynomial, change the sign of every term in the second polynomial.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 635,
+          "exercises_or_section": "10–14, 22–26"
+        }
+      ],
+      "title_ar": "عمليات كثيرات الحدود",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q01-MCQ-01",
+        "G10A-Q01-MCQ-02",
+        "G10A-Q01-MCQ-03",
+        "G10A-Q01-MCQ-04",
+        "G10A-Q01-MCQ-05",
+        "G10A-Q01-MCQ-06"
+      ],
+      "download": "LO01.json"
+    },
+    {
+      "id": "LO02",
+      "exam_slot": "Q2",
+      "title": "FOIL and binomial products",
+      "statement": "Multiply binomials by using the FOIL method.",
+      "rule_summary": "(a + b)(c + d) = ac + ad + bc + bd. Combine the two middle products when they are like terms.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 649,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "ضرب ثنائيي الحد بطريقة FOIL",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q02-MCQ-01",
+        "G10A-Q02-MCQ-02",
+        "G10A-Q02-MCQ-03",
+        "G10A-Q02-MCQ-04",
+        "G10A-Q02-MCQ-05",
+        "G10A-Q02-MCQ-06"
+      ],
+      "download": "LO02.json"
+    },
+    {
+      "id": "LO03",
+      "exam_slot": "Q3",
+      "title": "Factoring by GCF and grouping",
+      "statement": "Factor polynomials by using the Distributive Property and grouping.",
+      "rule_summary": "Factor out the greatest common factor first. For grouping, arrange terms so both groups contain the same binomial factor.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 665,
+          "exercises_or_section": "11–20"
+        }
+      ],
+      "title_ar": "التحليل بالعامل المشترك والتجميع",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q03-MCQ-01",
+        "G10A-Q03-MCQ-02",
+        "G10A-Q03-MCQ-03",
+        "G10A-Q03-MCQ-04",
+        "G10A-Q03-MCQ-05",
+        "G10A-Q03-MCQ-06"
+      ],
+      "download": "LO03.json"
+    },
+    {
+      "id": "LO04",
+      "exam_slot": "Q4",
+      "title": "Factoring monic trinomials",
+      "statement": "Factor trinomials of the form x² + bx + c.",
+      "rule_summary": "Find integers m and n with m + n = b and mn = c. Then x² + bx + c = (x + m)(x + n).",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 671,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "تحليل ثلاثيات الحدود ذات المعامل الرئيسي 1",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q04-MCQ-01",
+        "G10A-Q04-MCQ-02",
+        "G10A-Q04-MCQ-03",
+        "G10A-Q04-MCQ-04",
+        "G10A-Q04-MCQ-05",
+        "G10A-Q04-MCQ-06"
+      ],
+      "download": "LO04.json"
+    },
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Interior angles of polygons",
+      "statement": "Find and use the sum of the measures of the interior angles of a polygon.",
+      "rule_summary": "For a simple n-sided polygon, the interior angle sum is (n − 2)180°. For a regular polygon, each interior angle is (n − 2)180°/n.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 63,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "title_ar": "الزوايا الداخلية للمضلعات",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q05-MCQ-01",
+        "G10A-Q05-MCQ-02",
+        "G10A-Q05-MCQ-03",
+        "G10A-Q05-MCQ-04",
+        "G10A-Q05-MCQ-05",
+        "G10A-Q05-MCQ-06"
+      ],
+      "download": "LO05.json"
+    },
+    {
+      "id": "LO06",
+      "exam_slot": "Q6",
+      "title": "Properties of parallelograms",
+      "statement": "Recognize and apply the properties of the sides and angles of parallelograms.",
+      "rule_summary": "Opposite sides and opposite angles are congruent. Consecutive angles are supplementary. A diagonal divides a parallelogram into two congruent triangles.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 72,
+          "exercises_or_section": "9–12"
+        }
+      ],
+      "title_ar": "خصائص متوازيات الأضلاع",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q06-MCQ-01",
+        "G10A-Q06-MCQ-02",
+        "G10A-Q06-MCQ-03",
+        "G10A-Q06-MCQ-04",
+        "G10A-Q06-MCQ-05",
+        "G10A-Q06-MCQ-06"
+      ],
+      "download": "LO06.json"
+    },
+    {
+      "id": "LO07",
+      "exam_slot": "Q7",
+      "title": "Tests for parallelograms",
+      "statement": "Recognize the conditions that ensure a quadrilateral is a parallelogram.",
+      "rule_summary": "Sufficient tests include both pairs of opposite sides congruent, both pairs of opposite angles congruent, diagonals bisecting each other, or one pair of opposite sides both parallel and congruent.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 75,
+          "exercises_or_section": "Learn section"
+        },
+        {
+          "printed_page": 79,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "اختبارات متوازي الأضلاع",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q07-MCQ-01",
+        "G10A-Q07-MCQ-02",
+        "G10A-Q07-MCQ-03",
+        "G10A-Q07-MCQ-04",
+        "G10A-Q07-MCQ-05",
+        "G10A-Q07-MCQ-06"
+      ],
+      "download": "LO07.json"
+    },
+    {
+      "id": "LO08",
+      "exam_slot": "Q8",
+      "title": "Kites",
+      "statement": "Recognize and apply the properties of kites.",
+      "rule_summary": "In a kite with AB = AD and CB = CD, AC is the symmetry diagonal. AC is perpendicular to BD and bisects BD. The opposite angles at B and D are congruent.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 106,
+          "exercises_or_section": "13–16"
+        }
+      ],
+      "title_ar": "الطائرات الورقية",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q08-MCQ-01",
+        "G10A-Q08-MCQ-02",
+        "G10A-Q08-MCQ-03",
+        "G10A-Q08-MCQ-04",
+        "G10A-Q08-MCQ-05",
+        "G10A-Q08-MCQ-06"
+      ],
+      "download": "LO08.json"
+    },
+    {
+      "id": "LO09",
+      "exam_slot": "Q9",
+      "title": "Dilation coordinates",
+      "statement": "Find the scale factor of a dilation.",
+      "rule_summary": "For a dilation centered at the origin, (x, y) maps to (kx, ky). Use image/original to find k, retaining the signs of coordinates.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 120,
+          "exercises_or_section": "13–16"
+        },
+        {
+          "printed_page": 121,
+          "exercises_or_section": "20"
+        }
+      ],
+      "title_ar": "إحداثيات التمدد",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q09-MCQ-01",
+        "G10A-Q09-MCQ-02",
+        "G10A-Q09-MCQ-03",
+        "G10A-Q09-MCQ-04",
+        "G10A-Q09-MCQ-05",
+        "G10A-Q09-MCQ-06"
+      ],
+      "download": "LO09.json"
+    },
+    {
+      "id": "LO10",
+      "exam_slot": "Q10",
+      "title": "Similar polygons",
+      "statement": "Solve problems using the properties of similar polygons.",
+      "rule_summary": "Corresponding angles of similar polygons are congruent. Corresponding side lengths have one common ratio. Match vertices in the stated order.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 128,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "title_ar": "المضلعات المتشابهة",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q10-MCQ-01",
+        "G10A-Q10-MCQ-02",
+        "G10A-Q10-MCQ-03",
+        "G10A-Q10-MCQ-04",
+        "G10A-Q10-MCQ-05",
+        "G10A-Q10-MCQ-06"
+      ],
+      "download": "LO10.json"
+    },
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Dilation scale factors",
+      "statement": "Find the scale factor of a dilation.",
+      "rule_summary": "Scale factor = image length/original length. For positive k, 0 < k < 1 gives a reduction and k > 1 gives an enlargement. A dilation preserves angle measures.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 120,
+          "exercises_or_section": "10–12, 17–18"
+        }
+      ],
+      "title_ar": "معاملات التمدد",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q11-MCQ-01",
+        "G10A-Q11-MCQ-02",
+        "G10A-Q11-MCQ-03",
+        "G10A-Q11-MCQ-04",
+        "G10A-Q11-MCQ-05",
+        "G10A-Q11-MCQ-06"
+      ],
+      "download": "LO11.json"
+    },
+    {
+      "id": "LO12",
+      "exam_slot": "Q12",
+      "title": "AA triangle similarity",
+      "statement": "Identify similar triangles using the AA Similarity Postulate.",
+      "rule_summary": "Two pairs of congruent corresponding angles establish triangle similarity. Parallel lines and vertical angles can supply those angle pairs.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 133,
+          "exercises_or_section": "1–8"
+        }
+      ],
+      "title_ar": "تشابه المثلثات بزاويتين",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q12-MCQ-01",
+        "G10A-Q12-MCQ-02",
+        "G10A-Q12-MCQ-03",
+        "G10A-Q12-MCQ-04",
+        "G10A-Q12-MCQ-05",
+        "G10A-Q12-MCQ-06"
+      ],
+      "download": "LO12.json"
+    },
+    {
+      "id": "LO13",
+      "exam_slot": "Q13",
+      "title": "Proportional parts in triangles",
+      "statement": "Use proportional parts within triangles.",
+      "rule_summary": "A line parallel to one side of a triangle divides the other two sides proportionally. A triangle midsegment is parallel to the third side and half its length.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 146,
+          "exercises_or_section": "11–16"
+        }
+      ],
+      "title_ar": "الأجزاء المتناسبة في المثلثات",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q13-MCQ-01",
+        "G10A-Q13-MCQ-02",
+        "G10A-Q13-MCQ-03",
+        "G10A-Q13-MCQ-04",
+        "G10A-Q13-MCQ-05",
+        "G10A-Q13-MCQ-06"
+      ],
+      "download": "LO13.json"
+    },
+    {
+      "id": "LO14",
+      "exam_slot": "Q14",
+      "title": "Parts of similar triangles",
+      "statement": "Recognize and use proportional relationships of corresponding angle bisectors, altitudes, and medians of similar triangles.",
+      "rule_summary": "Corresponding altitudes, medians, and angle-bisector lengths of similar triangles have the same ratio as corresponding sides. Within one triangle, an angle bisector divides the opposite side in the ratio of the adjacent sides.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 153,
+          "exercises_or_section": "1–11"
+        }
+      ],
+      "title_ar": "أجزاء المثلثات المتشابهة",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q14-MCQ-01",
+        "G10A-Q14-MCQ-02",
+        "G10A-Q14-MCQ-03",
+        "G10A-Q14-MCQ-04",
+        "G10A-Q14-MCQ-05",
+        "G10A-Q14-MCQ-06"
+      ],
+      "download": "LO14.json"
+    },
+    {
+      "id": "LO15",
+      "exam_slot": "Q15",
+      "title": "Geometric mean",
+      "statement": "Find the geometric mean between two numbers.",
+      "rule_summary": "The geometric mean of positive a and b is √(ab). For a right triangle with altitude h to a hypotenuse split into p and q, h² = pq. A leg squared equals the whole hypotenuse times its adjacent hypotenuse segment.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 165,
+          "exercises_or_section": "1–6, 11–14"
+        }
+      ],
+      "title_ar": "الوسط الهندسي",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q15-MCQ-01",
+        "G10A-Q15-MCQ-02",
+        "G10A-Q15-MCQ-03",
+        "G10A-Q15-MCQ-04",
+        "G10A-Q15-MCQ-05",
+        "G10A-Q15-MCQ-06"
+      ],
+      "download": "LO15.json"
+    },
+    {
+      "id": "LO16",
+      "exam_slot": "Q16",
+      "title": "Pythagorean theorem and converse",
+      "statement": "Use the Pythagorean Theorem and its converse.",
+      "rule_summary": "For a right triangle, a² + b² = c² with c the hypotenuse. For valid side lengths and longest side c, compare c² with a² + b² to classify the triangle.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 171,
+          "exercises_or_section": "7–12"
+        },
+        {
+          "printed_page": 172,
+          "exercises_or_section": "20–22"
+        }
+      ],
+      "title_ar": "نظرية فيثاغورس وعكسها",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q16-MCQ-01",
+        "G10A-Q16-MCQ-02",
+        "G10A-Q16-MCQ-03",
+        "G10A-Q16-MCQ-04",
+        "G10A-Q16-MCQ-05",
+        "G10A-Q16-MCQ-06"
+      ],
+      "download": "LO16.json"
+    },
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Special right triangles",
+      "statement": "Use the properties of 45°–45°–90° and 30°–60°–90° triangles.",
+      "rule_summary": "45°–45°–90° side ratio is 1:1:√2. In a 30°–60°–90° triangle, sides opposite 30°, 60°, and 90° have ratio 1:√3:2.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 184,
+          "exercises_or_section": "19–25"
+        },
+        {
+          "printed_page": 185,
+          "exercises_or_section": "33–38"
+        }
+      ],
+      "title_ar": "المثلثات القائمة الخاصة",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q17-MCQ-01",
+        "G10A-Q17-MCQ-02",
+        "G10A-Q17-MCQ-03",
+        "G10A-Q17-MCQ-04",
+        "G10A-Q17-MCQ-05",
+        "G10A-Q17-MCQ-06"
+      ],
+      "download": "LO17.json"
+    },
+    {
+      "id": "LO18",
+      "exam_slot": "Q18",
+      "title": "Right-triangle trigonometry",
+      "statement": "Use trigonometric ratios to find side lengths and angle measures of right triangles.",
+      "rule_summary": "sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ = opposite/adjacent. Use inverse ratios for angles. Set a scientific calculator to degrees.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 192,
+          "exercises_or_section": "22–27"
+        },
+        {
+          "printed_page": 193,
+          "exercises_or_section": "30–32"
+        }
+      ],
+      "title_ar": "النسب المثلثية في المثلث القائم",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q18-MCQ-01",
+        "G10A-Q18-MCQ-02",
+        "G10A-Q18-MCQ-03",
+        "G10A-Q18-MCQ-04",
+        "G10A-Q18-MCQ-05",
+        "G10A-Q18-MCQ-06"
+      ],
+      "download": "LO18.json"
+    },
+    {
+      "id": "LO19",
+      "exam_slot": "Q19",
+      "title": "Angles of elevation and depression",
+      "statement": "Use trigonometric ratios to find side lengths and angle measures of right triangles.",
+      "rule_summary": "Angles of elevation and depression are measured from horizontal lines. Use vertical height differences, including eye height when given.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 199,
+          "exercises_or_section": "1–7"
+        }
+      ],
+      "title_ar": "زوايا الارتفاع والانخفاض",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q19-MCQ-01",
+        "G10A-Q19-MCQ-02",
+        "G10A-Q19-MCQ-03",
+        "G10A-Q19-MCQ-04",
+        "G10A-Q19-MCQ-05",
+        "G10A-Q19-MCQ-06"
+      ],
+      "download": "LO19.json"
+    },
+    {
+      "id": "LO20",
+      "exam_slot": "Q20",
+      "title": "Area with two sides and an angle",
+      "statement": "Find the area of a triangle using two sides and an included angle.",
+      "rule_summary": "Area = ½ab sin C, where C is the included angle between sides a and b. If two other angles are given, find the included angle using the 180° sum.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 200,
+          "exercises_or_section": "13–18"
+        },
+        {
+          "printed_page": 201,
+          "exercises_or_section": "19–21"
+        }
+      ],
+      "title_ar": "المساحة بضلعين والزاوية المحصورة",
+      "question_count": 6,
+      "question_ids": [
+        "G10A-Q20-MCQ-01",
+        "G10A-Q20-MCQ-02",
+        "G10A-Q20-MCQ-03",
+        "G10A-Q20-MCQ-04",
+        "G10A-Q20-MCQ-05",
+        "G10A-Q20-MCQ-06"
+      ],
+      "download": "LO20.json"
+    },
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Special-product factorization",
+      "statement": "Factor binomials that are differences of squares and factor perfect square trinomials.",
+      "rule_summary": "A² − B² = (A − B)(A + B). A² ± 2AB + B² = (A ± B)². Extract the GCF before applying a special-product pattern.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 680,
+          "exercises_or_section": "35–41"
+        },
+        {
+          "printed_page": 681,
+          "exercises_or_section": "51–56"
+        }
+      ],
+      "title_ar": "التحليل باستعمال المتطابقات الخاصة",
+      "question_count": 3,
+      "question_ids": [
+        "G10A-Q21-FRQ-01",
+        "G10A-Q21-FRQ-02",
+        "G10A-Q21-FRQ-03"
+      ],
+      "download": "LO21.json"
+    },
+    {
+      "id": "LO22",
+      "exam_slot": "Q22",
+      "title": "Interior and exterior angle reasoning",
+      "statement": "a) Prove and use the Polygon Interior Angles Sum Theorem. b) Find and use the sum of exterior angles of a polygon.",
+      "rule_summary": "For a convex polygon, diagonals from one vertex form n − 2 triangles. Interior sum = (n − 2)180°. One exterior angle at each vertex, taken consistently around the polygon, sums to 360°.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 64,
+          "exercises_or_section": "9–14, 15–18"
+        }
+      ],
+      "title_ar": "الاستدلال بالزوايا الداخلية والخارجية",
+      "question_count": 3,
+      "question_ids": [
+        "G10A-Q22-FRQ-01",
+        "G10A-Q22-FRQ-02",
+        "G10A-Q22-FRQ-03"
+      ],
+      "download": "LO22.json"
+    },
+    {
+      "id": "LO23",
+      "exam_slot": "Q23",
+      "title": "Solving with similar triangles",
+      "statement": "Use similar triangles to solve problems.",
+      "rule_summary": "Establish similarity by AA, SAS, or SSS. Write corresponding vertices in order, set up a proportion, and solve. Check that all lengths use the same units.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 139,
+          "exercises_or_section": "5–11"
+        }
+      ],
+      "title_ar": "حل المسائل باستعمال المثلثات المتشابهة",
+      "question_count": 3,
+      "question_ids": [
+        "G10A-Q23-FRQ-01",
+        "G10A-Q23-FRQ-02",
+        "G10A-Q23-FRQ-03"
+      ],
+      "download": "LO23.json"
+    },
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Distance and midpoint in space",
+      "statement": "Use Distance and Midpoint Formulas in Space.",
+      "rule_summary": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²]. Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2).",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 177,
+          "exercises_or_section": "13–18"
+        },
+        {
+          "printed_page": 178,
+          "exercises_or_section": "19–24"
+        }
+      ],
+      "title_ar": "المسافة ومنتصف القطعة في الفراغ",
+      "question_count": 3,
+      "question_ids": [
+        "G10A-Q24-FRQ-01",
+        "G10A-Q24-FRQ-02",
+        "G10A-Q24-FRQ-03"
+      ],
+      "download": "LO24.json"
+    },
+    {
+      "id": "LO25",
+      "exam_slot": "Q25",
+      "title": "Law of Sines and the ambiguous case",
+      "statement": "Determine whether three given measures define 0, 1, or 2 triangles using the Law of Sines.",
+      "rule_summary": "Use a/sin A = b/sin B. For SSA, sin B = b sin A/a. Test both B₁ = sin⁻¹(value) and B₂ = 180° − B₁, accepting only cases with A + B < 180°. Opposite sides and angles share letters.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 208,
+          "exercises_or_section": "15–26"
+        }
+      ],
+      "title_ar": "قانون الجيوب والحالة المبهمة",
+      "question_count": 3,
+      "question_ids": [
+        "G10A-Q25-FRQ-01",
+        "G10A-Q25-FRQ-02",
+        "G10A-Q25-FRQ-03"
+      ],
+      "download": "LO25.json"
+    }
+  ],
+  "assets": {
+    "kite_8_3_6": {
+      "src": "assets/kite_8_3_6.svg",
+      "alt_text": "Kite ABCD. A at the top, C at the bottom, B at the left, D at the right. AC and BD meet at E at a right angle. AE = 8, CE = 3, BE = ED = 6. AB = AD and CB = CD.",
+      "width": 500,
+      "height": 220
+    },
+    "right_triangle_altitude_4_9": {
+      "src": "assets/right_triangle_altitude_4_9.svg",
+      "alt_text": "Right triangle ABC with right angle at A. Altitude AD is perpendicular to hypotenuse BC. D lies between B and C. BD = 4, DC = 9, and AD = h.",
+      "width": 500,
+      "height": 220
+    },
+    "similar_nested_6_4_9_15": {
+      "src": "assets/similar_nested_6_4_9_15.svg",
+      "alt_text": "Triangle ABC with A at the top. D lies on AB and E lies on AC. DE is parallel to BC. AD = 6, DB = 4, AE = 9, BC = 15. Diagram is schematic.",
+      "width": 500,
+      "height": 220
+    }
+  },
+  "questions": [
+    {
+      "id": "G10A-Q01-MCQ-01",
+      "display_number": "1.1",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Write 7 − 4x² + 3x³ − x in standard form.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3x³ − 4x² − x + 7"
+        },
+        {
+          "id": "B",
+          "text": "7 − x − 4x² + 3x³"
+        },
+        {
+          "id": "C",
+          "text": "3x³ − 4x² + x + 7"
+        },
+        {
+          "id": "D",
+          "text": "−4x² + 3x³ − x + 7"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3x³ − 4x² − x + 7",
+        "explanation": "Descending exponents are 3, 2, 1, 0."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-02",
+      "display_number": "1.2",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "What is the leading coefficient of 5 − 2t + 7t⁴ − 3t²?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "−3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7",
+        "explanation": "The highest-degree term is 7t⁴."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-03",
+      "display_number": "1.3",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Simplify (4x² − 5x) + (3x − 7x²).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "11x² − 2x"
+        },
+        {
+          "id": "B",
+          "text": "−3x² − 2x"
+        },
+        {
+          "id": "C",
+          "text": "−3x² − 8x"
+        },
+        {
+          "id": "D",
+          "text": "7x² − 2x"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "−3x² − 2x",
+        "explanation": "4−7=−3 and −5+3=−2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-04",
+      "display_number": "1.4",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Simplify (6y² + 2y − 9) − (4y² − 5y + 1).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2y² − 3y − 8"
+        },
+        {
+          "id": "B",
+          "text": "10y² − 3y − 10"
+        },
+        {
+          "id": "C",
+          "text": "2y² + 7y − 8"
+        },
+        {
+          "id": "D",
+          "text": "2y² + 7y − 10"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "2y² + 7y − 10",
+        "explanation": "Distribute the negative, then combine like terms."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-05",
+      "display_number": "1.5",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "Which polynomial must be added to 3x² − 2x + 4 to obtain x² + 5x − 1?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2x² − 7x + 5"
+        },
+        {
+          "id": "B",
+          "text": "−2x² + 7x − 5"
+        },
+        {
+          "id": "C",
+          "text": "−2x² + 3x − 5"
+        },
+        {
+          "id": "D",
+          "text": "4x² + 3x + 3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "−2x² + 7x − 5",
+        "explanation": "Subtract the known polynomial from the target."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q01-MCQ-06",
+      "display_number": "1.6",
+      "exam_slot": "Q1",
+      "type": "mcq",
+      "learning_outcome_id": "LO01",
+      "origin": "parallel_practice",
+      "stem": "A student writes −(2x² − 3x + 8) = −2x² − 3x − 8. Which correction is needed?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The constant should be +8."
+        },
+        {
+          "id": "B",
+          "text": "The first term should be +2x²."
+        },
+        {
+          "id": "C",
+          "text": "The middle term should be +3x."
+        },
+        {
+          "id": "D",
+          "text": "No correction is needed."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "The middle term should be +3x.",
+        "explanation": "Every term is multiplied by −1."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-01",
+      "display_number": "2.1",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Expand (3x − 4)(x + 5).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3x² + 11x + 20"
+        },
+        {
+          "id": "B",
+          "text": "3x² + 15x − 20"
+        },
+        {
+          "id": "C",
+          "text": "3x² − 11x − 20"
+        },
+        {
+          "id": "D",
+          "text": "3x² + 11x − 20"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "3x² + 11x − 20",
+        "explanation": "Middle terms are 15x and −4x."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-02",
+      "display_number": "2.2",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Expand (2y − 3)(4y − 7).",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "8y² − 26y + 21"
+        },
+        {
+          "id": "B",
+          "text": "8y² − 20y + 21"
+        },
+        {
+          "id": "C",
+          "text": "8y² + 26y + 21"
+        },
+        {
+          "id": "D",
+          "text": "8y² − 26y − 21"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "8y² − 26y + 21",
+        "explanation": "−14y−12y=−26y."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-03",
+      "display_number": "2.3",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "What is the coefficient of x in (5x + 2)(3x − 4)?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "−20"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "−14"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "−14",
+        "explanation": "The middle products are −20x and 6x."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-04",
+      "display_number": "2.4",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "Which product expands to 6x² + x − 2?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(3x − 2)(2x + 1)"
+        },
+        {
+          "id": "B",
+          "text": "(6x − 1)(x + 2)"
+        },
+        {
+          "id": "C",
+          "text": "(3x + 2)(2x − 1)"
+        },
+        {
+          "id": "D",
+          "text": "(3x + 1)(2x − 2)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(3x + 2)(2x − 1)",
+        "explanation": "Expand each proposed factorization."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-05",
+      "display_number": "2.5",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "A rectangle has sides (2x + 3) m and (x − 1) m, with x > 1. What is its area?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(2x² − x − 3) m²"
+        },
+        {
+          "id": "B",
+          "text": "(2x² + x − 3) m²"
+        },
+        {
+          "id": "C",
+          "text": "(3x + 2) m²"
+        },
+        {
+          "id": "D",
+          "text": "(2x² + 5x + 3) m²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(2x² + x − 3) m²",
+        "explanation": "Multiply length by width."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q02-MCQ-06",
+      "display_number": "2.6",
+      "exam_slot": "Q2",
+      "type": "mcq",
+      "learning_outcome_id": "LO02",
+      "origin": "parallel_practice",
+      "stem": "In (x + a)(x + 4) = x² + 10x + 24, find a.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "24"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "6",
+        "explanation": "a+4=10 and 4a=24."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-01",
+      "display_number": "3.1",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Factor xy − 3y + 5x − 15 completely.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(x − 3)(y + 5)"
+        },
+        {
+          "id": "B",
+          "text": "(x + 3)(y − 5)"
+        },
+        {
+          "id": "C",
+          "text": "(x − 5)(y + 3)"
+        },
+        {
+          "id": "D",
+          "text": "(x − 3)(y − 5)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(x − 3)(y + 5)",
+        "explanation": "y(x−3)+5(x−3)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-02",
+      "display_number": "3.2",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Factor 6ab − 9a + 4b − 6.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(6a + 4)(b − 3)"
+        },
+        {
+          "id": "B",
+          "text": "(3a + 2)(2b − 3)"
+        },
+        {
+          "id": "C",
+          "text": "(3a − 2)(2b + 3)"
+        },
+        {
+          "id": "D",
+          "text": "(2a + 3)(3b − 2)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(3a + 2)(2b − 3)",
+        "explanation": "3a(2b−3)+2(2b−3)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-03",
+      "display_number": "3.3",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Factor 8r³ + 12r² completely.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "4r(2r² + 3r)"
+        },
+        {
+          "id": "B",
+          "text": "2r²(4r + 6)"
+        },
+        {
+          "id": "C",
+          "text": "4r²(2r − 3)"
+        },
+        {
+          "id": "D",
+          "text": "4r²(2r + 3)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "4r²(2r + 3)",
+        "explanation": "The GCF is 4r². The other positive forms are not completely factored."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-04",
+      "display_number": "3.4",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Which expression is equivalent to 3x(y − 2) − 5(y − 2)?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(3x − 5)(y + 2)"
+        },
+        {
+          "id": "B",
+          "text": "(3x − 2)(y − 5)"
+        },
+        {
+          "id": "C",
+          "text": "(3x − 5)(y − 2)"
+        },
+        {
+          "id": "D",
+          "text": "(3x + 5)(y − 2)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(3x − 5)(y − 2)",
+        "explanation": "Treat y−2 as the common factor."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-05",
+      "display_number": "3.5",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Which rearrangement helps factor 2mn + 6m − 5n − 15?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2m(n + 3) − 5(n + 3)"
+        },
+        {
+          "id": "B",
+          "text": "2m(n + 3) + 5(n − 3)"
+        },
+        {
+          "id": "C",
+          "text": "2n(m + 3) − 5(n + 3)"
+        },
+        {
+          "id": "D",
+          "text": "2m(n − 3) − 5(n + 3)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2m(n + 3) − 5(n + 3)",
+        "explanation": "Both groups must share n+3."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q03-MCQ-06",
+      "display_number": "3.6",
+      "exam_slot": "Q3",
+      "type": "mcq",
+      "learning_outcome_id": "LO03",
+      "origin": "parallel_practice",
+      "stem": "Factor 4pq − 8p − q + 2.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(4p + 1)(q − 2)"
+        },
+        {
+          "id": "B",
+          "text": "(4p − 1)(q − 2)"
+        },
+        {
+          "id": "C",
+          "text": "(4p − 2)(q − 1)"
+        },
+        {
+          "id": "D",
+          "text": "(p − 1)(4q − 2)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(4p − 1)(q − 2)",
+        "explanation": "4p(q−2)−1(q−2)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-01",
+      "display_number": "4.1",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "Factor x² + 11x + 24.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(x − 3)(x − 8)"
+        },
+        {
+          "id": "B",
+          "text": "(x + 4)(x + 6)"
+        },
+        {
+          "id": "C",
+          "text": "(x + 3)(x + 8)"
+        },
+        {
+          "id": "D",
+          "text": "(x + 2)(x + 12)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(x + 3)(x + 8)",
+        "explanation": "3+8=11 and 3×8=24."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-02",
+      "display_number": "4.2",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "Factor t² − 3t − 28.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(t − 14)(t + 2)"
+        },
+        {
+          "id": "B",
+          "text": "(t + 7)(t − 4)"
+        },
+        {
+          "id": "C",
+          "text": "(t − 7)(t + 4)"
+        },
+        {
+          "id": "D",
+          "text": "(t − 7)(t − 4)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(t − 7)(t + 4)",
+        "explanation": "−7+4=−3 and −7×4=−28."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-03",
+      "display_number": "4.3",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "Factor 36 − 13y + y².",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(y − 4)(y − 9)"
+        },
+        {
+          "id": "B",
+          "text": "(y − 3)(y − 12)"
+        },
+        {
+          "id": "C",
+          "text": "(y − 6)²"
+        },
+        {
+          "id": "D",
+          "text": "(y + 4)(y + 9)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(y − 4)(y − 9)",
+        "explanation": "First write y²−13y+36."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-04",
+      "display_number": "4.4",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "Which polynomial is prime over the integers?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "x² − x − 6"
+        },
+        {
+          "id": "B",
+          "text": "x² − 6x + 9"
+        },
+        {
+          "id": "C",
+          "text": "x² + 5x + 6"
+        },
+        {
+          "id": "D",
+          "text": "x² + 5x + 7"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x² + 5x + 7",
+        "explanation": "No integer factor pair of 7 has sum 5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-05",
+      "display_number": "4.5",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "If x² + bx − 18 = (x + 6)(x − 3), find b.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "−3"
+        },
+        {
+          "id": "C",
+          "text": "−18"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "3",
+        "explanation": "6+(−3)=3."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q04-MCQ-06",
+      "display_number": "4.6",
+      "exam_slot": "Q4",
+      "type": "mcq",
+      "learning_outcome_id": "LO04",
+      "origin": "parallel_practice",
+      "stem": "A rectangle has area x² + 9x + 20. Which pair could be its dimensions?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "x + 4 and x + 5"
+        },
+        {
+          "id": "B",
+          "text": "x − 4 and x − 5"
+        },
+        {
+          "id": "C",
+          "text": "x + 2 and x + 10"
+        },
+        {
+          "id": "D",
+          "text": "x + 1 and x + 20"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "x + 4 and x + 5",
+        "explanation": "4+5=9 and 4×5=20."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-01",
+      "display_number": "5.1",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "What is the sum of the interior angles of a nonagon?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1260°"
+        },
+        {
+          "id": "B",
+          "text": "1620°"
+        },
+        {
+          "id": "C",
+          "text": "1080°"
+        },
+        {
+          "id": "D",
+          "text": "1440°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "1260°",
+        "explanation": "(9−2)180=1260."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-02",
+      "display_number": "5.2",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A polygon has an interior angle sum of 1980°. How many sides does it have?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "14"
+        },
+        {
+          "id": "B",
+          "text": "11"
+        },
+        {
+          "id": "C",
+          "text": "13"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "13",
+        "explanation": "n−2=1980/180=11."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-03",
+      "display_number": "5.3",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "What is each interior angle of a regular decagon?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "140°"
+        },
+        {
+          "id": "B",
+          "text": "150°"
+        },
+        {
+          "id": "C",
+          "text": "144°"
+        },
+        {
+          "id": "D",
+          "text": "36°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "144°",
+        "explanation": "1440/10=144."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-04",
+      "display_number": "5.4",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A pentagon has angles 105°, 110°, 120°, 95°, and x°. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "110°"
+        },
+        {
+          "id": "B",
+          "text": "90°"
+        },
+        {
+          "id": "C",
+          "text": "100°"
+        },
+        {
+          "id": "D",
+          "text": "130°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "110°",
+        "explanation": "540−(105+110+120+95)=110."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-05",
+      "display_number": "5.5",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A quadrilateral has angles x°, (x + 20)°, 2x°, and (2x − 20)°. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "60°"
+        },
+        {
+          "id": "B",
+          "text": "70°"
+        },
+        {
+          "id": "C",
+          "text": "90°"
+        },
+        {
+          "id": "D",
+          "text": "50°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "60°",
+        "explanation": "6x=360."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q05-MCQ-06",
+      "display_number": "5.6",
+      "exam_slot": "Q5",
+      "type": "mcq",
+      "learning_outcome_id": "LO05",
+      "origin": "parallel_practice",
+      "stem": "A regular polygon has interior angle 165°. How many sides does it have?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "22"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "24",
+        "explanation": "Its exterior angle is 15° and 360/15=24."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-01",
+      "display_number": "6.1",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "ABCD is a parallelogram. AB = 3x + 2 and CD = 5x − 10. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "12"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "6",
+        "explanation": "Opposite sides are congruent, so 3x+2=5x−10."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-02",
+      "display_number": "6.2",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "An angle of a parallelogram is 68°. What is an adjacent angle?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "22°"
+        },
+        {
+          "id": "B",
+          "text": "68°"
+        },
+        {
+          "id": "C",
+          "text": "112°"
+        },
+        {
+          "id": "D",
+          "text": "122°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "112°",
+        "explanation": "Adjacent angles sum to 180°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-03",
+      "display_number": "6.3",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "In parallelogram ABCD, ∠A = (4x + 8)° and ∠C = (6x − 20)°. Find ∠A.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "64°"
+        },
+        {
+          "id": "B",
+          "text": "76°"
+        },
+        {
+          "id": "C",
+          "text": "116°"
+        },
+        {
+          "id": "D",
+          "text": "14°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "64°",
+        "explanation": "Opposite angles are equal. x=14, so ∠A=64°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-04",
+      "display_number": "6.4",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "Consecutive angles of a parallelogram are (3x + 10)° and (5x − 6)°. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "20"
+        },
+        {
+          "id": "C",
+          "text": "44"
+        },
+        {
+          "id": "D",
+          "text": "22"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "22",
+        "explanation": "8x+4=180."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-05",
+      "display_number": "6.5",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "Which statement is always true for parallelogram ABCD?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "∠A ≅ ∠C"
+        },
+        {
+          "id": "B",
+          "text": "All four angles are right angles."
+        },
+        {
+          "id": "C",
+          "text": "∠A ≅ ∠B"
+        },
+        {
+          "id": "D",
+          "text": "AB ≅ BC"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "∠A ≅ ∠C",
+        "explanation": "Opposite angles are congruent."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q06-MCQ-06",
+      "display_number": "6.6",
+      "exam_slot": "Q6",
+      "type": "mcq",
+      "learning_outcome_id": "LO06",
+      "origin": "parallel_practice",
+      "stem": "A parallelogram has adjacent sides 2x + 1 and x + 4. Its perimeter is 46. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "6",
+        "explanation": "2[(2x+1)+(x+4)]=46."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-01",
+      "display_number": "7.1",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "Which condition guarantees that a quadrilateral is a parallelogram?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "One pair of opposite angles is congruent."
+        },
+        {
+          "id": "B",
+          "text": "Both pairs of opposite sides are congruent."
+        },
+        {
+          "id": "C",
+          "text": "One pair of opposite sides is congruent."
+        },
+        {
+          "id": "D",
+          "text": "The diagonals are congruent."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Both pairs of opposite sides are congruent.",
+        "explanation": "Both opposite-side pairs are required for this test."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-02",
+      "display_number": "7.2",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "AB ∥ CD in quadrilateral ABCD. Which extra fact guarantees a parallelogram?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "AD = BC"
+        },
+        {
+          "id": "B",
+          "text": "AC = BD"
+        },
+        {
+          "id": "C",
+          "text": "∠A = 90°"
+        },
+        {
+          "id": "D",
+          "text": "AB = CD"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "AB = CD",
+        "explanation": "The same opposite-side pair must be parallel and congruent."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-03",
+      "display_number": "7.3",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "Diagonals AC and BD meet at E. AE = EC = 7, BE = 3x − 1, ED = x + 9. Which x proves a parallelogram?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "5",
+        "explanation": "Both diagonals bisect each other when 3x−1=x+9."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-04",
+      "display_number": "7.4",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "Which condition alone is insufficient to prove that a quadrilateral is a parallelogram?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its diagonals are perpendicular."
+        },
+        {
+          "id": "B",
+          "text": "Its diagonals bisect each other."
+        },
+        {
+          "id": "C",
+          "text": "Both pairs of opposite sides are parallel."
+        },
+        {
+          "id": "D",
+          "text": "Both pairs of opposite angles are congruent."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Its diagonals are perpendicular.",
+        "explanation": "A kite can have perpendicular diagonals without being a parallelogram."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-05",
+      "display_number": "7.5",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "Which angle list, in cyclic order, guarantees a parallelogram?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "90°, 80°, 90°, 100°"
+        },
+        {
+          "id": "B",
+          "text": "70°, 70°, 110°, 110°"
+        },
+        {
+          "id": "C",
+          "text": "70°, 110°, 70°, 110°"
+        },
+        {
+          "id": "D",
+          "text": "60°, 80°, 100°, 120°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "70°, 110°, 70°, 110°",
+        "explanation": "Both pairs of opposite angles are congruent."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q07-MCQ-06",
+      "display_number": "7.6",
+      "exam_slot": "Q7",
+      "type": "mcq",
+      "learning_outcome_id": "LO07",
+      "origin": "parallel_practice",
+      "stem": "A student says that congruent diagonals guarantee a parallelogram. Which shape is a counterexample?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A nonrectangular isosceles trapezoid"
+        },
+        {
+          "id": "B",
+          "text": "A rectangle"
+        },
+        {
+          "id": "C",
+          "text": "A parallelogram"
+        },
+        {
+          "id": "D",
+          "text": "A square"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "A nonrectangular isosceles trapezoid",
+        "explanation": "An isosceles trapezoid can have congruent diagonals."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-01",
+      "display_number": "8.1",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "In kite ABCD, AB = AD, CB = CD, ∠A = 80°, and ∠C = 120°. Find ∠B.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "120°"
+        },
+        {
+          "id": "B",
+          "text": "100°"
+        },
+        {
+          "id": "C",
+          "text": "160°"
+        },
+        {
+          "id": "D",
+          "text": "80°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "80°",
+        "explanation": "The remaining 160° is shared equally by B and D."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-02",
+      "display_number": "8.2",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "The diagonals of a kite intersect. What is the angle between them?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "90°"
+        },
+        {
+          "id": "B",
+          "text": "180°"
+        },
+        {
+          "id": "C",
+          "text": "60°"
+        },
+        {
+          "id": "D",
+          "text": "45°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "90°",
+        "explanation": "The diagonals are perpendicular."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-03",
+      "display_number": "8.3",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "In kite ABCD, AB = AD and CB = CD. Diagonals meet at E. If BE = 6, find BD.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "12",
+        "explanation": "The symmetry diagonal AC bisects BD."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-04",
+      "display_number": "8.4",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "In the kite shown, AE = 8, CE = 3, and BE = ED = 6. Find BC.",
+      "diagram_asset_ids": [
+        "kite_8_3_6"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "3√5"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "√73"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3√5",
+        "explanation": "BC²=3²+6²=45."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-05",
+      "display_number": "8.5",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "In kite ABCD, AB = AD, CB = CD, AE = 8, CE = 3, and BE = ED = 6, as shown. What is its perimeter?",
+      "diagram_asset_ids": [
+        "kite_8_3_6"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "20 + 3√5"
+        },
+        {
+          "id": "B",
+          "text": "10 + 6√5"
+        },
+        {
+          "id": "C",
+          "text": "20 + 6√5"
+        },
+        {
+          "id": "D",
+          "text": "40"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "20 + 6√5",
+        "explanation": "AB=AD=10 and BC=CD=3√5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q08-MCQ-06",
+      "display_number": "8.6",
+      "exam_slot": "Q8",
+      "type": "mcq",
+      "learning_outcome_id": "LO08",
+      "origin": "parallel_practice",
+      "stem": "For a kite with two distinct pairs of adjacent congruent sides, which statement need not be true?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "One diagonal bisects the other."
+        },
+        {
+          "id": "B",
+          "text": "The diagonals are perpendicular."
+        },
+        {
+          "id": "C",
+          "text": "Both diagonals bisect each other."
+        },
+        {
+          "id": "D",
+          "text": "One pair of opposite angles is congruent."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Both diagonals bisect each other.",
+        "explanation": "Only the symmetry diagonal necessarily bisects the other diagonal."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-01",
+      "display_number": "9.1",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "P(−8, 12) is dilated about the origin with k = 1/4. Find P′.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(−2, 3)"
+        },
+        {
+          "id": "B",
+          "text": "(−32, 48)"
+        },
+        {
+          "id": "C",
+          "text": "(2, 3)"
+        },
+        {
+          "id": "D",
+          "text": "(−2, 12)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(−2, 3)",
+        "explanation": "Multiply both coordinates by 1/4."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-02",
+      "display_number": "9.2",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "Q(3, −2) maps to Q′(9, −6). Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "1/3"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "−3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3",
+        "explanation": "9/3=(−6)/(−2)=3."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-03",
+      "display_number": "9.3",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "Triangle ABC has C(4, −3). A dilation about the origin has k = 2.5. Find C′.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(6.5, −0.5)"
+        },
+        {
+          "id": "B",
+          "text": "(10, 7.5)"
+        },
+        {
+          "id": "C",
+          "text": "(1.6, −1.2)"
+        },
+        {
+          "id": "D",
+          "text": "(10, −7.5)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "(10, −7.5)",
+        "explanation": "Multiply each coordinate by 2.5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-04",
+      "display_number": "9.4",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "P′(−6, 9) is the image of P under an origin-centered dilation with k = 3. Find P.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(−2, 3)"
+        },
+        {
+          "id": "B",
+          "text": "(−18, 27)"
+        },
+        {
+          "id": "C",
+          "text": "(−3, 6)"
+        },
+        {
+          "id": "D",
+          "text": "(2, −3)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(−2, 3)",
+        "explanation": "Divide image coordinates by 3."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-05",
+      "display_number": "9.5",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "A triangle has vertices (2, 1), (6, 1), (2, 4). After k = 2, what is its area?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "24 square units"
+        },
+        {
+          "id": "B",
+          "text": "48 square units"
+        },
+        {
+          "id": "C",
+          "text": "12 square units"
+        },
+        {
+          "id": "D",
+          "text": "6 square units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "24 square units",
+        "explanation": "Original area is 6. Area scales by k²=4."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q09-MCQ-06",
+      "display_number": "9.6",
+      "exam_slot": "Q9",
+      "type": "mcq",
+      "learning_outcome_id": "LO09",
+      "origin": "parallel_practice",
+      "stem": "Which rule represents an origin-centered dilation with scale factor 0.4?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "(x, y) → (2.5x, 2.5y)"
+        },
+        {
+          "id": "B",
+          "text": "(x, y) → (0.4x, y)"
+        },
+        {
+          "id": "C",
+          "text": "(x, y) → (x + 0.4, y + 0.4)"
+        },
+        {
+          "id": "D",
+          "text": "(x, y) → (0.4x, 0.4y)"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "(x, y) → (0.4x, 0.4y)",
+        "explanation": "Both coordinates are multiplied by the same factor."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-01",
+      "display_number": "10.1",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "ABCD ~ EFGH. AB = 8, EF = 12, and BC = 10. Find FG.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6⅔"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "15",
+        "explanation": "Scale factor is 12/8=1.5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-02",
+      "display_number": "10.2",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "Two similar polygons have corresponding sides 6 and 15. The smaller perimeter is 28. Find the larger perimeter.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "11.2"
+        },
+        {
+          "id": "B",
+          "text": "37"
+        },
+        {
+          "id": "C",
+          "text": "70"
+        },
+        {
+          "id": "D",
+          "text": "175"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "70",
+        "explanation": "Perimeters scale by 15/6=2.5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-03",
+      "display_number": "10.3",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "ABCD ~ WXYZ. ∠C = 115°. Find ∠Y.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "115°"
+        },
+        {
+          "id": "B",
+          "text": "65°"
+        },
+        {
+          "id": "C",
+          "text": "57.5°"
+        },
+        {
+          "id": "D",
+          "text": "230°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "115°",
+        "explanation": "C corresponds to Y."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-04",
+      "display_number": "10.4",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "A small side 9 corresponds to 15. Another small side is x + 2 and its corresponding large side is 20. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "12"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "31⅓"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "10",
+        "explanation": "(x+2)/20=9/15, so x+2=12."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-05",
+      "display_number": "10.5",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "Two similar figures have side-length ratio small:large = 3:5. What is their area ratio?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "9:25"
+        },
+        {
+          "id": "B",
+          "text": "6:10"
+        },
+        {
+          "id": "C",
+          "text": "3:5"
+        },
+        {
+          "id": "D",
+          "text": "27:125"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "9:25",
+        "explanation": "Square the linear scale factor."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q10-MCQ-06",
+      "display_number": "10.6",
+      "exam_slot": "Q10",
+      "type": "mcq",
+      "learning_outcome_id": "LO10",
+      "origin": "parallel_practice",
+      "stem": "Which information is sufficient for two quadrilaterals to be similar?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Corresponding angles congruent only."
+        },
+        {
+          "id": "B",
+          "text": "Equal perimeters."
+        },
+        {
+          "id": "C",
+          "text": "Corresponding angles congruent and corresponding sides proportional."
+        },
+        {
+          "id": "D",
+          "text": "Corresponding sides proportional only."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Corresponding angles congruent and corresponding sides proportional.",
+        "explanation": "Quadrilateral similarity needs both conditions."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-01",
+      "display_number": "11.1",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "An original segment is 15 units long and its image is 6 units long. Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2/5"
+        },
+        {
+          "id": "B",
+          "text": "2/3"
+        },
+        {
+          "id": "C",
+          "text": "5/2"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2/5",
+        "explanation": "k=6/15=2/5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-02",
+      "display_number": "11.2",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A(−2, 3) maps to A′(−6, 9) about the origin. Which description is correct?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Reduction with k = −3"
+        },
+        {
+          "id": "B",
+          "text": "Reduction with k = 1/3"
+        },
+        {
+          "id": "C",
+          "text": "Enlargement with k = 3"
+        },
+        {
+          "id": "D",
+          "text": "Enlargement with k = 6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Enlargement with k = 3",
+        "explanation": "Each image coordinate is 3 times its original."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-03",
+      "display_number": "11.3",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "On a coordinate grid, O is the center, OP = 8, and OP′ = 2 on the same ray. Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1/4"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "1/4",
+        "explanation": "Use distances from the center."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-04",
+      "display_number": "11.4",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A dilation has k = 0.6. An original angle measures 75°. What is its image angle?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "75°"
+        },
+        {
+          "id": "B",
+          "text": "15°"
+        },
+        {
+          "id": "C",
+          "text": "45°"
+        },
+        {
+          "id": "D",
+          "text": "125°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "75°",
+        "explanation": "Dilations preserve angles."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-05",
+      "display_number": "11.5",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "The image perimeter is 54 and the original perimeter is 18. What is the inverse dilation scale factor?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "36"
+        },
+        {
+          "id": "D",
+          "text": "1/3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1/3",
+        "explanation": "Forward k=3. The inverse uses its reciprocal."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q11-MCQ-06",
+      "display_number": "11.6",
+      "exam_slot": "Q11",
+      "type": "mcq",
+      "learning_outcome_id": "LO11",
+      "origin": "parallel_practice",
+      "stem": "A dilation about the origin sends B(4, −6) to B′(−2, 3). Find k.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "−1/2"
+        },
+        {
+          "id": "B",
+          "text": "−2"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "−1/2",
+        "explanation": "The negative ratio reverses the ray from the center."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-01",
+      "display_number": "12.1",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "One triangle has angles 42° and 68°. Another has angles 70° and 42°. What can you conclude?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The triangles must be congruent."
+        },
+        {
+          "id": "B",
+          "text": "Their side lengths must be equal."
+        },
+        {
+          "id": "C",
+          "text": "The triangles are similar by AA."
+        },
+        {
+          "id": "D",
+          "text": "The triangles cannot be similar."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "The triangles are similar by AA.",
+        "explanation": "The first third angle is 70°, so the angle sets match."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-02",
+      "display_number": "12.2",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "In triangles ABC and DEF, ∠A = ∠D = 50° and ∠B = ∠F = 60°. Which statement matches corresponding vertices?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ABC ~ DFE"
+        },
+        {
+          "id": "B",
+          "text": "ABC ~ FED"
+        },
+        {
+          "id": "C",
+          "text": "ABC ~ DEF"
+        },
+        {
+          "id": "D",
+          "text": "ABC ~ EFD"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "ABC ~ DFE",
+        "explanation": "A↔D, B↔F, C↔E."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-03",
+      "display_number": "12.3",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "In triangle ABC, D lies on AB, E lies on AC, and DE ∥ BC. Which similarity statement is correct?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "DAE ~ ABC"
+        },
+        {
+          "id": "B",
+          "text": "ADE ~ ABC"
+        },
+        {
+          "id": "C",
+          "text": "AED ~ ABC"
+        },
+        {
+          "id": "D",
+          "text": "ADE ~ ACB"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "ADE ~ ABC",
+        "explanation": "Corresponding angles from parallel lines prove AA."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-04",
+      "display_number": "12.4",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "Two triangles each contain a 40° angle. Is this enough to prove similarity?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "No. A second matching angle is needed."
+        },
+        {
+          "id": "B",
+          "text": "Yes, by AA."
+        },
+        {
+          "id": "C",
+          "text": "Yes, by SAS."
+        },
+        {
+          "id": "D",
+          "text": "No. Three side lengths must always be given."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "No. A second matching angle is needed.",
+        "explanation": "One matching angle alone is insufficient."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-05",
+      "display_number": "12.5",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "A 1.8 m person casts a 1.2 m shadow. A nearby pole casts an 8 m shadow at the same time on level ground. Find the pole height.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "12 m"
+        },
+        {
+          "id": "B",
+          "text": "5.33 m"
+        },
+        {
+          "id": "C",
+          "text": "9.2 m"
+        },
+        {
+          "id": "D",
+          "text": "10.8 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "12 m",
+        "explanation": "h/8=1.8/1.2. The sun creates equal elevation angles."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q12-MCQ-06",
+      "display_number": "12.6",
+      "exam_slot": "Q12",
+      "type": "mcq",
+      "learning_outcome_id": "LO12",
+      "origin": "parallel_practice",
+      "stem": "In a bow-tie figure, AB ∥ DE, and A, C, E and B, C, D are collinear. Why are ACB and ECD similar?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical angles at C and an angle pair from parallel lines."
+        },
+        {
+          "id": "B",
+          "text": "All intersecting triangles are similar."
+        },
+        {
+          "id": "C",
+          "text": "The triangles share a side."
+        },
+        {
+          "id": "D",
+          "text": "Their areas are equal."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Vertical angles at C and an angle pair from parallel lines.",
+        "explanation": "These supply two congruent angle pairs."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-01",
+      "display_number": "13.1",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "D is on AB and E is on AC, with DE ∥ BC. AD = 6, DB = 4, AE = 9. Find EC.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "13.5"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "6",
+        "explanation": "AD/DB=AE/EC, so 6/4=9/EC."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-02",
+      "display_number": "13.2",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "D and E are midpoints of two sides of a triangle. If DE = 13, find the third side.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "6.5"
+        },
+        {
+          "id": "C",
+          "text": "26"
+        },
+        {
+          "id": "D",
+          "text": "39"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "26",
+        "explanation": "The third side is twice the midsegment."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-03",
+      "display_number": "13.3",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "A midsegment has length 3x − 2 and the parallel side has length 8x − 12. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "4",
+        "explanation": "2(3x−2)=8x−12."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-04",
+      "display_number": "13.4",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "D lies on AB and E on AC. AD = 4, DB = 6, AE = 6, and EC = 9. Which conclusion follows?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "DE = BC"
+        },
+        {
+          "id": "B",
+          "text": "DE ∥ BC"
+        },
+        {
+          "id": "C",
+          "text": "DE ⟂ BC"
+        },
+        {
+          "id": "D",
+          "text": "AB = AC"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "DE ∥ BC",
+        "explanation": "4/6=6/9, so use the converse proportionality theorem."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-05",
+      "display_number": "13.5",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "D is on AB and E on AC, with DE ∥ BC. AD = 5, AB = 12, AC = 18. Find AE.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7.5"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "30"
+        },
+        {
+          "id": "D",
+          "text": "10.8"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7.5",
+        "explanation": "AD/AB=AE/AC."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q13-MCQ-06",
+      "display_number": "13.6",
+      "exam_slot": "Q13",
+      "type": "mcq",
+      "learning_outcome_id": "LO13",
+      "origin": "parallel_practice",
+      "stem": "A segment joins the midpoints of two triangle sides. Which statement must be true?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is perpendicular to the third side."
+        },
+        {
+          "id": "B",
+          "text": "It is parallel to the third side."
+        },
+        {
+          "id": "C",
+          "text": "It equals the third side."
+        },
+        {
+          "id": "D",
+          "text": "It bisects the opposite angle."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "It is parallel to the third side.",
+        "explanation": "This is the Triangle Midsegment Theorem."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-01",
+      "display_number": "14.1",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "Two similar triangles have corresponding sides 8 and 20. The smaller altitude is 6. Find the corresponding larger altitude.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2.4"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "15",
+        "explanation": "Multiply 6 by 20/8."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-02",
+      "display_number": "14.2",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "Corresponding medians in similar triangles are 9 and 15. A side in the smaller triangle is 12. Find its corresponding larger side.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7.2"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "20",
+        "explanation": "12×15/9=20."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-03",
+      "display_number": "14.3",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "ABC ~ DEF. Corresponding angle-bisector lengths are 10 and 14. If AB = 15, find DE.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "21"
+        },
+        {
+          "id": "C",
+          "text": "10.71"
+        },
+        {
+          "id": "D",
+          "text": "19"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "21",
+        "explanation": "DE/15=14/10."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-04",
+      "display_number": "14.4",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "In triangle ABC, AD bisects ∠A and D lies on BC. AB = 8, AC = 12, BD = 6. Find DC.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "9",
+        "explanation": "BD/DC=AB/AC=8/12."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-05",
+      "display_number": "14.5",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "AD bisects ∠A in triangle ABC. AB = 10, AC = 15, and BC = 20. Find BD.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "13⅓"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "8",
+        "explanation": "BD:DC=2:3, so BD is 2/5 of 20."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q14-MCQ-06",
+      "display_number": "14.6",
+      "exam_slot": "Q14",
+      "type": "mcq",
+      "learning_outcome_id": "LO14",
+      "origin": "parallel_practice",
+      "stem": "Similar triangles have side ratio 3:4. Which ratio applies to their corresponding altitudes?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3:4"
+        },
+        {
+          "id": "B",
+          "text": "6:8.5"
+        },
+        {
+          "id": "C",
+          "text": "4:3"
+        },
+        {
+          "id": "D",
+          "text": "9:16"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3:4",
+        "explanation": "All corresponding linear measurements use the same scale factor."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-01",
+      "display_number": "15.1",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "Find the geometric mean of 8 and 18.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "144"
+        },
+        {
+          "id": "D",
+          "text": "13"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "12",
+        "explanation": "√(8×18)=√144=12."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-02",
+      "display_number": "15.2",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "Find the geometric mean of 6 and 15 in simplest radical form.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3√10"
+        },
+        {
+          "id": "B",
+          "text": "45"
+        },
+        {
+          "id": "C",
+          "text": "9√10"
+        },
+        {
+          "id": "D",
+          "text": "√21"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3√10",
+        "explanation": "√90=3√10."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-03",
+      "display_number": "15.3",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "The geometric mean of 5 and x is 10. Find x.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "50"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "20",
+        "explanation": "10²=5x."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-04",
+      "display_number": "15.4",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "In the right-triangle diagram, p = 4 and q = 9. Find the altitude h.",
+      "diagram_asset_ids": [
+        "right_triangle_altitude_4_9"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "√13"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "6",
+        "explanation": "h²=4×9=36."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-05",
+      "display_number": "15.5",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "In right triangle ABC, ∠A = 90°, AD is perpendicular to BC, BD = 4, and DC = 9, as shown. Find the leg AB adjacent to segment BD.",
+      "diagram_asset_ids": [
+        "right_triangle_altitude_4_9"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "4√13"
+        },
+        {
+          "id": "D",
+          "text": "2√13"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "2√13",
+        "explanation": "leg²=13×4=52."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q15-MCQ-06",
+      "display_number": "15.6",
+      "exam_slot": "Q15",
+      "type": "mcq",
+      "learning_outcome_id": "LO15",
+      "origin": "parallel_practice",
+      "stem": "An altitude to the hypotenuse is 12. One hypotenuse segment is 9. Find the other segment.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "21"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "144"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "16",
+        "explanation": "144=9q."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-01",
+      "display_number": "16.1",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has legs 9 and 12. Find its hypotenuse.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "√63"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "18"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "15",
+        "explanation": "9²+12²=225."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-02",
+      "display_number": "16.2",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has hypotenuse 17 and one leg 8. Find the other leg.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "√353"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "15",
+        "explanation": "17²−8²=225."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-03",
+      "display_number": "16.3",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "Classify a triangle with side lengths 7, 24, and 25.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "No triangle"
+        },
+        {
+          "id": "B",
+          "text": "Acute"
+        },
+        {
+          "id": "C",
+          "text": "Obtuse"
+        },
+        {
+          "id": "D",
+          "text": "Right"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Right",
+        "explanation": "7²+24²=25²."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-04",
+      "display_number": "16.4",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "Classify a triangle with side lengths 6, 8, and 11.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "No triangle"
+        },
+        {
+          "id": "B",
+          "text": "Right"
+        },
+        {
+          "id": "C",
+          "text": "Acute"
+        },
+        {
+          "id": "D",
+          "text": "Obtuse"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Obtuse",
+        "explanation": "11²=121>100. Also 6+8>11."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-05",
+      "display_number": "16.5",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "Can 4, 5, and 10 be the side lengths of a triangle?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes, and it is right."
+        },
+        {
+          "id": "B",
+          "text": "Yes, and it is acute."
+        },
+        {
+          "id": "C",
+          "text": "No, because 4 + 5 < 10."
+        },
+        {
+          "id": "D",
+          "text": "Yes, and it is obtuse."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "No, because 4 + 5 < 10.",
+        "explanation": "Check the triangle inequality before classifying."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q16-MCQ-06",
+      "display_number": "16.6",
+      "exam_slot": "Q16",
+      "type": "mcq",
+      "learning_outcome_id": "LO16",
+      "origin": "parallel_practice",
+      "stem": "A triangle has side lengths √5, √8, and √13. Classify it.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Acute"
+        },
+        {
+          "id": "B",
+          "text": "Obtuse"
+        },
+        {
+          "id": "C",
+          "text": "Right"
+        },
+        {
+          "id": "D",
+          "text": "No triangle"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Right",
+        "explanation": "5+8=13."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-01",
+      "display_number": "17.1",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "An isosceles right triangle has a leg of length 7. Find its hypotenuse.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "7√2"
+        },
+        {
+          "id": "B",
+          "text": "7√3"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "7/√2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "7√2",
+        "explanation": "Multiply a leg by √2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-02",
+      "display_number": "17.2",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 45°–45°–90° triangle has hypotenuse 12√2. Find a leg.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6√2"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "12√2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "12",
+        "explanation": "Divide the hypotenuse by √2."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-03",
+      "display_number": "17.3",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 30°–60°–90° triangle has short leg 5. Find the long leg.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "5√2"
+        },
+        {
+          "id": "B",
+          "text": "5√3"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "5/√3"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "5√3",
+        "explanation": "The long leg is √3 times the short leg."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-04",
+      "display_number": "17.4",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 30°–60°–90° triangle has long leg 9√3. Find its hypotenuse.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "18√3"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "27"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "18",
+        "explanation": "Short leg=9 and hypotenuse=18."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-05",
+      "display_number": "17.5",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A 24 m escalator makes a 30° angle with the horizontal. What vertical height does it reach?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "12√3 m"
+        },
+        {
+          "id": "B",
+          "text": "24√3 m"
+        },
+        {
+          "id": "C",
+          "text": "48 m"
+        },
+        {
+          "id": "D",
+          "text": "12 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "12 m",
+        "explanation": "The height is opposite 30°, so it is half the hypotenuse."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q17-MCQ-06",
+      "display_number": "17.6",
+      "exam_slot": "Q17",
+      "type": "mcq",
+      "learning_outcome_id": "LO17",
+      "origin": "parallel_practice",
+      "stem": "A square has diagonal 10√2 cm. Find its area.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "100 cm²"
+        },
+        {
+          "id": "B",
+          "text": "200 cm²"
+        },
+        {
+          "id": "C",
+          "text": "50 cm²"
+        },
+        {
+          "id": "D",
+          "text": "20 cm²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "100 cm²",
+        "explanation": "Its side is 10 cm."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-01",
+      "display_number": "18.1",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "For angle θ, the opposite side is 7 and the hypotenuse is 25. Which ratio equals sin θ?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "25/7"
+        },
+        {
+          "id": "B",
+          "text": "24/25"
+        },
+        {
+          "id": "C",
+          "text": "7/24"
+        },
+        {
+          "id": "D",
+          "text": "7/25"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "7/25",
+        "explanation": "Use opposite/hypotenuse."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-02",
+      "display_number": "18.2",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has hypotenuse 20 and acute angle 35°. Find the opposite side to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "11.5"
+        },
+        {
+          "id": "B",
+          "text": "14.0"
+        },
+        {
+          "id": "C",
+          "text": "16.4"
+        },
+        {
+          "id": "D",
+          "text": "28.6"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "11.5",
+        "explanation": "20 sin35°≈11.5."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-03",
+      "display_number": "18.3",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "The adjacent side to θ is 12 and the opposite side is 5. Find θ to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "22.6°"
+        },
+        {
+          "id": "B",
+          "text": "67.4°"
+        },
+        {
+          "id": "C",
+          "text": "65.4°"
+        },
+        {
+          "id": "D",
+          "text": "24.6°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "22.6°",
+        "explanation": "θ=tan⁻¹(5/12)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-04",
+      "display_number": "18.4",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has an acute angle 38°. Find the other acute angle.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "62°"
+        },
+        {
+          "id": "B",
+          "text": "52°"
+        },
+        {
+          "id": "C",
+          "text": "142°"
+        },
+        {
+          "id": "D",
+          "text": "38°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "52°",
+        "explanation": "The two acute angles sum to 90°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-05",
+      "display_number": "18.5",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has a 40° angle and adjacent leg 9 cm. Find its area to the nearest hundredth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "67.97 cm²"
+        },
+        {
+          "id": "B",
+          "text": "33.98 cm²"
+        },
+        {
+          "id": "C",
+          "text": "40.50 cm²"
+        },
+        {
+          "id": "D",
+          "text": "24.84 cm²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "33.98 cm²",
+        "explanation": "Opposite leg=9tan40°. Area=½×9×9tan40°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q18-MCQ-06",
+      "display_number": "18.6",
+      "exam_slot": "Q18",
+      "type": "mcq",
+      "learning_outcome_id": "LO18",
+      "origin": "parallel_practice",
+      "stem": "A right triangle has legs 6 and 8. Find its perimeter.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "20"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "48"
+        },
+        {
+          "id": "D",
+          "text": "24"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "24",
+        "explanation": "The hypotenuse is 10, so perimeter=6+8+10."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-01",
+      "display_number": "19.1",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "A 30 m tower is viewed from level ground at an elevation angle of 25°. Find the horizontal distance to its base, to the nearest metre.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "33 m"
+        },
+        {
+          "id": "B",
+          "text": "71 m"
+        },
+        {
+          "id": "C",
+          "text": "14 m"
+        },
+        {
+          "id": "D",
+          "text": "64 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "64 m",
+        "explanation": "d=30/tan25°≈64.3."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-02",
+      "display_number": "19.2",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "An observer is 50 m from a building. The elevation angle to its roof is 32° and eye height is 1.6 m. Find the building height to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "81.6 m"
+        },
+        {
+          "id": "B",
+          "text": "31.2 m"
+        },
+        {
+          "id": "C",
+          "text": "27.9 m"
+        },
+        {
+          "id": "D",
+          "text": "32.8 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "32.8 m",
+        "explanation": "h=50tan32°+1.6≈32.8."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-03",
+      "display_number": "19.3",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "From a 45 m cliff top, the depression angle to a boat is 18°. Find the horizontal distance to the boat, to the nearest metre.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "146 m"
+        },
+        {
+          "id": "B",
+          "text": "138 m"
+        },
+        {
+          "id": "C",
+          "text": "43 m"
+        },
+        {
+          "id": "D",
+          "text": "15 m"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "138 m",
+        "explanation": "d=45/tan18°≈138.5, which rounds to 138 m."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-04",
+      "display_number": "19.4",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "A 10 m ladder reaches a point 8 m up a vertical wall. Find its angle with level ground to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "38.7°"
+        },
+        {
+          "id": "B",
+          "text": "53.1°"
+        },
+        {
+          "id": "C",
+          "text": "36.9°"
+        },
+        {
+          "id": "D",
+          "text": "51.3°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "53.1°",
+        "explanation": "θ=sin⁻¹(8/10)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-05",
+      "display_number": "19.5",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "A plane is 600 m above level ground and 2000 m horizontally from a landing point. Find the depression angle to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "17.5°"
+        },
+        {
+          "id": "B",
+          "text": "30.0°"
+        },
+        {
+          "id": "C",
+          "text": "73.3°"
+        },
+        {
+          "id": "D",
+          "text": "16.7°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "16.7°",
+        "explanation": "θ=tan⁻¹(600/2000)."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q19-MCQ-06",
+      "display_number": "19.6",
+      "exam_slot": "Q19",
+      "type": "mcq",
+      "learning_outcome_id": "LO19",
+      "origin": "parallel_practice",
+      "stem": "The angle of depression from a tower to a car is 27°. What is the elevation angle from the car to the same point?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "90°"
+        },
+        {
+          "id": "B",
+          "text": "27°"
+        },
+        {
+          "id": "C",
+          "text": "153°"
+        },
+        {
+          "id": "D",
+          "text": "63°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "27°",
+        "explanation": "Horizontal lines are parallel, giving equal alternate interior angles."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-01",
+      "display_number": "20.1",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "Two sides of a triangle are 10 cm and 14 cm with included angle 30°. Find its area.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "60.6 cm²"
+        },
+        {
+          "id": "B",
+          "text": "140 cm²"
+        },
+        {
+          "id": "C",
+          "text": "70 cm²"
+        },
+        {
+          "id": "D",
+          "text": "35 cm²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "35 cm²",
+        "explanation": "½×10×14×sin30°=35."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-02",
+      "display_number": "20.2",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "Two sides are 8 m and 11 m with included angle 120°. Find the area to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "22.0 m²"
+        },
+        {
+          "id": "B",
+          "text": "44.0 m²"
+        },
+        {
+          "id": "C",
+          "text": "76.2 m²"
+        },
+        {
+          "id": "D",
+          "text": "38.1 m²"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "38.1 m²",
+        "explanation": "½×8×11×sin120°≈38.1."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-03",
+      "display_number": "20.3",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "AB = AC = 12, and ∠B = ∠C = 50°. Find the area to the nearest tenth.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "55.2 square units"
+        },
+        {
+          "id": "B",
+          "text": "141.8 square units"
+        },
+        {
+          "id": "C",
+          "text": "72.0 square units"
+        },
+        {
+          "id": "D",
+          "text": "70.9 square units"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "70.9 square units",
+        "explanation": "∠A=80° is included between AB and AC. Area=½×12×12sin80°≈70.9."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-04",
+      "display_number": "20.4",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "A triangle has area 24 and sides 8 and 12 enclosing angle θ. Which equation is correct?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "cos θ = 1/2"
+        },
+        {
+          "id": "B",
+          "text": "tan θ = 2"
+        },
+        {
+          "id": "C",
+          "text": "sin θ = 1/4"
+        },
+        {
+          "id": "D",
+          "text": "sin θ = 1/2"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "sin θ = 1/2",
+        "explanation": "24=½×8×12sinθ."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-05",
+      "display_number": "20.5",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "For fixed side lengths a and b, which included angle produces the greatest area?",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "30°"
+        },
+        {
+          "id": "B",
+          "text": "60°"
+        },
+        {
+          "id": "C",
+          "text": "90°"
+        },
+        {
+          "id": "D",
+          "text": "120°"
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "90°",
+        "explanation": "sinθ has maximum 1 at 90°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q20-MCQ-06",
+      "display_number": "20.6",
+      "exam_slot": "Q20",
+      "type": "mcq",
+      "learning_outcome_id": "LO20",
+      "origin": "parallel_practice",
+      "stem": "Two triangles have the same two side lengths. Their included angles are 35° and 145°. Compare their areas.",
+      "diagram_asset_ids": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The 35° triangle has greater area."
+        },
+        {
+          "id": "B",
+          "text": "The 145° triangle has greater area."
+        },
+        {
+          "id": "C",
+          "text": "Their areas are equal."
+        },
+        {
+          "id": "D",
+          "text": "More side lengths are needed."
+        }
+      ],
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Their areas are equal.",
+        "explanation": "sin35°=sin145°."
+      },
+      "marks": null,
+      "workspace": {
+        "style": "blank",
+        "height_mm": 25
+      },
+      "layout": {
+        "keep_together": true,
+        "options_per_row": 1
+      }
+    },
+    {
+      "id": "G10A-Q21-FRQ-01",
+      "display_number": "21.1",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "A • Difference of squares",
+      "stem": "Factor over the integers and justify every stage.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Factor 12x² − 75y² completely. Show the GCF and the difference-of-squares step.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "12x²−75y² = 3(4x²−25y²) = 3(2x−5y)(2x+5y). Award 1 for GCF, 1 for squares, 2 for factors."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Factor 18a⁴ − 50a² completely.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "18a⁴−50a² = 2a²(9a²−25) = 2a²(3a−5)(3a+5). Award 2 for GCF and 2 for binomial factors."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Expand one of your factorizations to verify it.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "For example, 3(2x−5y)(2x+5y)=3(4x²−25y²)=12x²−75y². Award 2 for valid expansion."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q21-FRQ-02",
+      "display_number": "21.2",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "B • Perfect square or near miss?",
+      "stem": "Use the middle-term test, including the sign.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show that 9t² − 30t + 25 is a perfect square trinomial and factor it.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "9t²=(3t)², 25=5², and −30t=−2(3t)(5). The factorization is (3t−5)². One mark for each check/factor stage."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Determine whether 4c² + 12cd + 9d² is a perfect square trinomial. Justify and factor.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Yes. 12cd=2(2c)(3d), so the factorization is (2c+3d)². Award 2 for test and 1 for factors."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A student claims 4c² + 10cd + 9d² = (2c + 3d)². Explain the error.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "(2c+3d)² has middle term 12cd, not 10cd. Award 1 for expansion fact and 1 for conclusion."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find k so that x² − 18x + k is a perfect square.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "k=(18/2)²=81. Award 1 for method and 1 for value."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q21-FRQ-03",
+      "display_number": "21.3",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "C • Dimensions and repeated factoring",
+      "stem": "A rectangular panel has area 4x² − 100 square units, with x > 5.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Factor the area completely.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "4(x²−25)=4(x−5)(x+5). Award 1 for GCF and 2 for difference-of-squares factors."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give possible positive length and width expressions and verify their product.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Possible dimensions are 2x−10 and 2x+10. Their product is 4x²−100. Both are positive for x>5. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "If x = 8, find those dimensions and the area.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "At x=8 the dimensions are 6 and 26, and area=156. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Factor x⁴ − 81 completely over the integers.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "x⁴−81=(x²−9)(x²+9)=(x−3)(x+3)(x²+9). Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q22-FRQ-01",
+      "display_number": "22.1",
+      "exam_slot": "Q22",
+      "type": "frq",
+      "learning_outcome_id": "LO22",
+      "origin": "parallel_practice",
+      "title": "A • Build the theorem",
+      "stem": "Consider a convex polygon with n sides.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Draw a hexagon. Triangulate it using diagonals from one vertex. Label the triangles.",
+          "marks": 2,
+          "workspace": {
+            "style": "blank",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "A correct convex hexagon has 3 noncrossing diagonals from one vertex, forming 4 triangles. Award 2."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Use your diagram to explain why the interior angle sum of an n-gon is (n − 2)180°.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "An n-gon forms n−2 triangles. Their angles partition the polygon interior, so the total is (n−2)×180°. Award 3 for count, triangle sum, and conclusion."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A regular polygon has each interior angle 156°. Set up an equation and find n.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "156n=180(n−2). Thus 24n=360 and n=15. Award 3."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find its exterior angle and check the exterior angle sum.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Exterior angle=180−156=24°. Check 15×24=360°. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q22-FRQ-02",
+      "display_number": "22.2",
+      "exam_slot": "Q22",
+      "type": "frq",
+      "learning_outcome_id": "LO22",
+      "origin": "parallel_practice",
+      "title": "B • Exterior angles and algebra",
+      "stem": "A convex pentagon has one exterior angle at each vertex, all measured in the same direction. They are x°, (x + 10)°, (2x − 5)°, (x + 20)°, and (x + 5)°.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write an equation using the exterior-angle theorem.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "x+(x+10)+(2x−5)+(x+20)+(x+5)=360. Award 2."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Solve for x.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "6x+30=360, hence x=55. Award 2."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find all five exterior angles and the corresponding interior angles.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Exterior angles are 55°,65°,105°,75°,60°. Corresponding interiors are 125°,115°,75°,105°,120°. Award 2 per correct list."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Verify the interior-angle sum for the pentagon.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "125+115+75+105+120=540=(5−2)180°. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q22-FRQ-03",
+      "display_number": "22.3",
+      "exam_slot": "Q22",
+      "type": "frq",
+      "learning_outcome_id": "LO22",
+      "origin": "parallel_practice",
+      "title": "C • Work backward and critique",
+      "stem": "A designer uses regular polygons in a tiled pattern.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "A regular polygon has exterior angle 18°. Find its number of sides.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "n=360/18=20. Award 2."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find its interior angle and total interior-angle sum.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Interior angle=162°. Interior sum=(20−2)180=3240°. Award 1+2."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A student claims a regular polygon can have each interior angle 145°. Test this claim.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Its exterior angle would be 35°, giving n=360/35=72/7, which is not an integer. Such a regular polygon does not exist. Award 3."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Explain why one exterior angle at each vertex of a convex polygon sums to 360°.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Walking once around its boundary makes one complete turn. The consistent exterior turns sum to 360°. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q23-FRQ-01",
+      "display_number": "23.1",
+      "exam_slot": "Q23",
+      "type": "frq",
+      "learning_outcome_id": "LO23",
+      "origin": "parallel_practice",
+      "title": "A • Nested triangles",
+      "stem": "In triangle ABC, D lies on AB and E lies on AC. DE ∥ BC. AD = 6, DB = 4, AE = 9, and BC = 15.",
+      "diagram_asset_ids": [
+        "similar_nested_6_4_9_15"
+      ],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Prove that triangle ADE is similar to triangle ABC.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "∠DAE=∠BAC (common angle), and ∠ADE=∠ABC (corresponding angles with DE∥BC). Thus ADE~ABC by AA. Award 3."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Write the small-to-large scale factor.",
+          "marks": 1,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AB=6+4=10, so the scale factor is AD/AB=6/10=3/5. Award 1."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find AC and EC, showing a proportion.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "9/AC=3/5 gives AC=15. Therefore EC=15−9=6. Award 2 for proportion/AC and 1 for EC."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find DE and the ratio of the two triangle areas.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "DE/15=3/5, so DE=9. Area(ADE):area(ABC)=(3/5)²=9:25. Award 2+1."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q23-FRQ-02",
+      "display_number": "23.2",
+      "exam_slot": "Q23",
+      "type": "frq",
+      "learning_outcome_id": "LO23",
+      "origin": "parallel_practice",
+      "title": "B • Shadows and unit conversion",
+      "stem": "A vertical 1.5 m measuring pole casts a 0.75 m shadow. At the same moment, a nearby vertical tower casts a shadow 18 m long on the same level ground.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Sketch and label the two triangles. Explain why they are similar.",
+          "marks": 3,
+          "workspace": {
+            "style": "blank",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Two right triangles have equal sun-elevation angles, so they are similar by AA. Award 1 for labeled sketch and 2 for justification."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Write and solve a proportion for the tower height.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "h/18=1.5/0.75=2, so h=36 m. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A second pole is 180 cm tall. Predict its shadow length in metres at the same moment.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "180 cm=1.8 m. Shadow=1.8/2=0.9 m. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "State two physical assumptions that support this model.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Examples include level ground, vertical poles/tower, simultaneous measurements, and parallel sunlight. Award 1 for each of two valid assumptions."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q23-FRQ-03",
+      "display_number": "23.3",
+      "exam_slot": "Q23",
+      "type": "frq",
+      "learning_outcome_id": "LO23",
+      "origin": "parallel_practice",
+      "title": "C • SSS and SAS reasoning",
+      "stem": "Triangle ABC has AB = 6, AC = 9, BC = 12. Triangle DEF has DE = 10, DF = 15, EF = 20.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Use SSS to prove the triangles similar and write a correct similarity statement.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AB/DE=6/10=3/5, AC/DF=9/15=3/5, BC/EF=12/20=3/5. Thus ABC~DEF by SSS. Award 3."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "In a separate pair of similar triangles with the same small-to-large scale factor 3:5, the smaller median is 7.2. Find the corresponding larger median.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "The larger median is 7.2×5/3=12. Award 2."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "In a separate pair, XY = 8, XZ = 12, PQ = 10, PR = 15, and ∠X = ∠P = 40°. Prove XYZ ~ PQR.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "XY/PQ=8/10=4/5 and XZ/PR=12/15=4/5. The included angles X and P are congruent, so XYZ~PQR by SAS. Award 3."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Explain why matching only one angle in the separate pair would be insufficient.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "A single angle can occur in many triangles with different other angles and side ratios. Another valid criterion is needed. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q24-FRQ-01",
+      "display_number": "24.1",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "A • Coordinates and exact distance",
+      "stem": "Points A(−2, 4, −3) and B(4, −4, 9) are endpoints of a segment in space.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Find the coordinate changes from A to B.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Changes are 6, −8, and 12. Award 2 for all three."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Use the distance formula. Give an exact answer and a decimal to the nearest tenth.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AB=√(6²+(−8)²+12²)=√244=2√61≈15.6. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find the midpoint M.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "M=((−2+4)/2,(4−4)/2,(−3+9)/2)=(1,0,3). Award 3, one per coordinate."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find AM exactly and explain its relation to AB.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "AM=√61, half of AB, since M is the midpoint. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q24-FRQ-02",
+      "display_number": "24.2",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "B • Recover an endpoint",
+      "stem": "A drone travels along a straight segment from P(−3, 2, 5) to Q. Its halfway position is M(1, −1, 4). Coordinates are in metres.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Write three midpoint equations and find Q.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "(−3+x)/2=1, (2+y)/2=−1, (5+z)/2=4. Thus Q=(5,−4,3). Award 1 for midpoint setup and 1 per coordinate."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find the total straight-line flight distance PQ exactly.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "PQ=√(8²+(−6)²+(−2)²)=√104=2√26 m. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Find PM and use it to check your result.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "PM=√(4²+(−3)²+(−1)²)=√26 m. Twice this is PQ. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "What would be the units of PQ²?",
+          "marks": 1,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Square metres (m²). Award 1."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q24-FRQ-03",
+      "display_number": "24.3",
+      "exam_slot": "Q24",
+      "type": "frq",
+      "learning_outcome_id": "LO24",
+      "origin": "parallel_practice",
+      "title": "C • Radical coordinates and error analysis",
+      "stem": "R(√3, 2, 2√2) and S(−2√3, 4, 4√2) are points in space.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Find the midpoint of RS in exact form.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Midpoint=(−√3/2,3,3√2). Award 3, one per coordinate."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find RS in simplest radical form.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "RS=√[(−3√3)²+2²+(2√2)²]=√(27+4+8)=√39. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A student adds coordinate changes without squaring them to calculate distance. Explain why that method fails.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Distance uses squared perpendicular displacements before taking a square root. Signed changes can cancel if merely added. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find the distance from the origin to T(3, 4, 12), showing the two Pythagorean stages.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Horizontal distance=√(3²+4²)=5. Space distance=√(5²+12²)=13. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q25-FRQ-01",
+      "display_number": "25.1",
+      "exam_slot": "Q25",
+      "type": "frq",
+      "learning_outcome_id": "LO25",
+      "origin": "parallel_practice",
+      "title": "A • All acute-angle boundary cases",
+      "stem": "In each case A = 30° and b = 10. Side a is opposite A and b is opposite B.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Calculate h = b sin A and state its geometric meaning.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "h=10sin30°=5. It is the perpendicular height from the end of side b to the ray carrying side c. Award 2."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Determine the number of triangles for a = 4, 5, 7, 10, and 12. Explain each classification.",
+          "marks": 5,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 80,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "a=4<h gives 0; a=5=h gives 1 right triangle; 5<a=7<10 gives 2; a=10=b gives 1; a=12>b gives 1. Award 1 per correct classification with its comparison."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "For a = 5, find B and C. Explain why the count is one.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "sinB=10sin30°/5=1, so B=90° and C=60°. The supplementary B equals the same 90°, so it creates no second distinct triangle. Award 3."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q25-FRQ-02",
+      "display_number": "25.2",
+      "exam_slot": "Q25",
+      "type": "frq",
+      "learning_outcome_id": "LO25",
+      "origin": "parallel_practice",
+      "title": "B • Solve both triangles",
+      "stem": "Given A = 40°, a = 9, and b = 12. Use degree mode. Keep full calculator precision until your final answers.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Find sin B and the two candidate values of B.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "sinB=12sin40°/9≈0.85705. B₁≈58.986° and B₂≈121.014°. Award 1 for ratio and 2 for candidates."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Check both candidates with the angle sum. State the number of triangles.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "40+58.986<180 and 40+121.014<180, so two triangles exist. Award 2."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "For each valid triangle, find C to the nearest degree and c to the nearest tenth.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "C₁≈81.014°→81°, c₁=9sinC₁/sin40°≈13.8. C₂≈18.986°→19°, c₂≈4.6. Award 1 per requested result."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Explain why using only the inverse-sine output can miss a triangle.",
+          "marks": 1,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "An acute and its supplementary obtuse angle have the same sine. Award 1."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q25-FRQ-03",
+      "display_number": "25.3",
+      "exam_slot": "Q25",
+      "type": "frq",
+      "learning_outcome_id": "LO25",
+      "origin": "parallel_practice",
+      "title": "C • Obtuse angles and false candidates",
+      "stem": "Use the Law of Sines and the angle-sum condition.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Given A = 120°, a = 8, b = 10, test the data and state the number of triangles.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "sinB=10sin120°/8≈1.0825>1, so no triangle exists. Award 3."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Given A = 120°, a = 10, b = 8, determine the number of triangles and solve it. Round angles to the nearest degree and sides to the nearest tenth.",
+          "marks": 5,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 80,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "sinB=8sin120°/10≈0.69282. B₁≈43.854° is valid, while B₂≈136.146° gives A+B₂>180°. Thus one triangle. B≈44°, C≈16°, and c=10sin(16.146°)/sin120°≈3.2. Award 1 for ratio, 1 for rejecting second angle, 1 for count, 1 for angles, 1 for c."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "For an obtuse A, explain why a must be greater than b for a triangle to exist.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "The side opposite the obtuse angle must be the longest side, so a>b. Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    }
+  ],
+  "content_adjustments": [
+    {
+      "question_id": "G10A-Q23-FRQ-03",
+      "part_id": "b",
+      "field": "prompt",
+      "original_text": "A median from A has length 7.2. Find the corresponding median from D.",
+      "revised_text": "In a separate pair of similar triangles with the same small-to-large scale factor 3:5, the smaller median is 7.2. Find the corresponding larger median.",
+      "reason": "The sides 6, 9, 12 in part (a) imply a median from A of sqrt(90)/2, not 7.2. A separate pair preserves the intended proportionality exercise and answer 12.",
+      "answer_unchanged": true
+    }
+  ],
+  "review_notes": {
+    "G10A-Q23-FRQ-03": "Part (b) uses a separate pair of similar triangles with the same scale factor. The supplied median 7.2 does not belong to the triangle with sides 6, 9 and 12 in part (a). The intended answer and marks are unchanged.",
+    "G10A-Q19-MCQ-03": "Use full precision before rounding: 45/tan(18°) ≈ 138.495759 m, which rounds to 138 m. Rounding an intermediate value to 138.5 first can give the wrong result."
+  }
+}

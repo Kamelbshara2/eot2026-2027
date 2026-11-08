@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO16",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO16",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO16",
+      "exam_slot": "Q16",
+      "title": "Evaluate step functions",
+      "title_ar": "إيجاد قيم الدوال الدرجية",
+      "statement": "Evaluate step functions",
+      "question_type": "mcq",
+      "rule_summary": "Evaluate the expression inside the floor brackets first.",
+      "textbook_references": [
+        {
+          "printed_page": 265,
+          "exercises_or_section": "18a–18d"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q16-MCQ-01",
+        "G9G-BOOK-Q16-MCQ-02",
+        "G9G-BOOK-Q16-MCQ-03",
+        "G9G-BOOK-Q16-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q16-MCQ-01",
+        "G9G-BOOK-Q16-MCQ-02",
+        "G9G-BOOK-Q16-MCQ-03",
+        "G9G-BOOK-Q16-MCQ-04"
+      ],
+      "download": "LO16.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q16-MCQ-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.1",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=1.5",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "D",
+          "text": "0",
+          "math_latex": "0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "0",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18a",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.2",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=2.2",
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "B",
+          "text": "-2",
+          "math_latex": "-2"
+        },
+        {
+          "id": "C",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "D",
+          "text": "3",
+          "math_latex": "3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "2",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18b",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-03",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.3",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=9.7",
+      "options": [
+        {
+          "id": "A",
+          "text": "-16",
+          "math_latex": "-16"
+        },
+        {
+          "id": "B",
+          "text": "16",
+          "math_latex": "16"
+        },
+        {
+          "id": "C",
+          "text": "17",
+          "math_latex": "17"
+        },
+        {
+          "id": "D",
+          "text": "15",
+          "math_latex": "15"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "16",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18c",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q16-MCQ-04",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.4",
+      "instruction": "Evaluate the step function at the given value.",
+      "stem": "Evaluate the step function at the given value. f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
+      "math_latex": "f(x)=2\\lfloor x-1\\rfloor,\\quad x=-1.25",
+      "options": [
+        {
+          "id": "A",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "B",
+          "text": "-5",
+          "math_latex": "-5"
+        },
+        {
+          "id": "C",
+          "text": "-7",
+          "math_latex": "-7"
+        },
+        {
+          "id": "D",
+          "text": "6",
+          "math_latex": "6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "-6",
+        "explanation": "Subtract 1, take the greatest integer less than or equal to that result, then multiply by 2."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 265,
+        "pdf_page": 131,
+        "exercise": "18d",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

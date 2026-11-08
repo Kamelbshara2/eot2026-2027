@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO22",
     "classroom": "10A1",
     "learning_outcome_id": "LO22",
-    "question_count": 3,
-    "mcq_count": 0,
-    "frq_count": 3
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,220 +18,206 @@
           "printed_page": 64,
           "exercises_or_section": "9–14, 15–18"
         }
-      ]
+      ],
+      "title_ar": "الاستدلال بالزوايا الداخلية والخارجية",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q22-FRQ-01",
+        "G10A-BOOK-Q22-FRQ-02",
+        "G10A-BOOK-Q22-FRQ-03",
+        "G10A-BOOK-Q22-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q22-FRQ-01",
+        "G10A-BOOK-Q22-FRQ-02",
+        "G10A-BOOK-Q22-FRQ-03",
+        "G10A-BOOK-Q22-FRQ-04"
+      ],
+      "download": "LO22.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q22-FRQ-01",
+      "id": "G10A-BOOK-Q22-FRQ-01",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
       "display_number": "22.1",
-      "exam_slot": "Q22",
-      "type": "frq",
-      "learning_outcome_id": "LO22",
-      "origin": "parallel_practice",
-      "title": "A • Build the theorem",
-      "stem": "Consider a convex polygon with n sides.",
-      "diagram_asset_ids": [],
-      "marks": 10,
+      "instruction": "The given angle is an interior angle of a regular polygon. Find the number of sides.",
+      "stem": "The given angle is an interior angle of a regular polygon. Find the number of sides. 144^\\circ",
+      "math_latex": "144^\\circ",
       "parts": [
         {
           "id": "a",
-          "prompt": "Draw a hexagon. Triangulate it using diagonals from one vertex. Label the triangles.",
-          "marks": 2,
+          "prompt": "Show an equation and solve for n.",
+          "marks": 10,
+          "math_latex": "",
           "workspace": {
-            "style": "blank",
-            "height_mm": 32,
-            "line_spacing_mm": 8
+            "height_mm": 40
           },
           "answer": {
-            "model_answer_and_marking": "A correct convex hexagon has 3 noncrossing diagonals from one vertex, forming 4 triangles. Award 2."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Use your diagram to explain why the interior angle sum of an n-gon is (n − 2)180°.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "An n-gon forms n−2 triangles. Their angles partition the polygon interior, so the total is (n−2)×180°. Award 3 for count, triangle sum, and conclusion."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "A regular polygon has each interior angle 156°. Set up an equation and find n.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "156n=180(n−2). Thus 24n=360 and n=15. Award 3."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Find its exterior angle and check the exterior angle sum.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Exterior angle=180−156=24°. Check 15×24=360°. Award 2."
+            "model_answer_and_marking": "Exterior angle=180−144=36°. Therefore n=360/36=10. Correct exterior angle (3), equation (3), number of sides (4).",
+            "math_latex": "n=10"
           }
         }
       ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "9",
+        "adaptation": "transcription"
       }
     },
     {
-      "id": "G10A-Q22-FRQ-02",
+      "id": "G10A-BOOK-Q22-FRQ-02",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
       "display_number": "22.2",
-      "exam_slot": "Q22",
-      "type": "frq",
-      "learning_outcome_id": "LO22",
-      "origin": "parallel_practice",
-      "title": "B • Exterior angles and algebra",
-      "stem": "A convex pentagon has one exterior angle at each vertex, all measured in the same direction. They are x°, (x + 10)°, (2x − 5)°, (x + 20)°, and (x + 5)°.",
-      "diagram_asset_ids": [],
-      "marks": 10,
+      "instruction": "The given angle is an interior angle of a regular polygon. Find the number of sides.",
+      "stem": "The given angle is an interior angle of a regular polygon. Find the number of sides. 160^\\circ",
+      "math_latex": "160^\\circ",
       "parts": [
         {
           "id": "a",
-          "prompt": "Write an equation using the exterior-angle theorem.",
-          "marks": 2,
+          "prompt": "Show an equation and solve for n.",
+          "marks": 10,
+          "math_latex": "",
           "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
+            "height_mm": 40
           },
           "answer": {
-            "model_answer_and_marking": "x+(x+10)+(2x−5)+(x+20)+(x+5)=360. Award 2."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Solve for x.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "6x+30=360, hence x=55. Award 2."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "Find all five exterior angles and the corresponding interior angles.",
-          "marks": 4,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 64,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Exterior angles are 55°,65°,105°,75°,60°. Corresponding interiors are 125°,115°,75°,105°,120°. Award 2 per correct list."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Verify the interior-angle sum for the pentagon.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "125+115+75+105+120=540=(5−2)180°. Award 2."
+            "model_answer_and_marking": "Exterior angle=180−160=20°. Therefore n=360/20=18. Correct exterior angle (3), equation (3), number of sides (4).",
+            "math_latex": "n=18"
           }
         }
       ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "11",
+        "adaptation": "transcription"
       }
     },
     {
-      "id": "G10A-Q22-FRQ-03",
-      "display_number": "22.3",
-      "exam_slot": "Q22",
-      "type": "frq",
+      "id": "G10A-BOOK-Q22-FRQ-03",
       "learning_outcome_id": "LO22",
-      "origin": "parallel_practice",
-      "title": "C • Work backward and critique",
-      "stem": "A designer uses regular polygons in a tiled pattern.",
-      "diagram_asset_ids": [],
-      "marks": 10,
+      "type": "frq",
+      "display_number": "22.3",
+      "instruction": "Find x in the diagram.",
+      "stem": "Find x in the diagram.",
+      "math_latex": "",
       "parts": [
         {
           "id": "a",
-          "prompt": "A regular polygon has exterior angle 18°. Find its number of sides.",
-          "marks": 2,
+          "prompt": "Show how you use the exterior-angle sum.",
+          "marks": 10,
+          "math_latex": "",
           "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
+            "height_mm": 40
           },
           "answer": {
-            "model_answer_and_marking": "n=360/18=20. Award 2."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Find its interior angle and total interior-angle sum.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Interior angle=162°. Interior sum=(20−2)180=3240°. Award 1+2."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "A student claims a regular polygon can have each interior angle 145°. Test this claim.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Its exterior angle would be 35°, giving n=360/35=72/7, which is not an integer. Such a regular polygon does not exist. Award 3."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Explain why one exterior angle at each vertex of a convex polygon sums to 360°.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Walking once around its boundary makes one complete turn. The consistent exterior turns sum to 360°. Award 2."
+            "model_answer_and_marking": "The exterior angles sum to 360° (3). Combine all labelled exterior angles: 9x+27=360 (4), so x=37 (3).",
+            "math_latex": "x=37"
           }
         }
       ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq22_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "15",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q22-FRQ-04",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.4",
+      "instruction": "Find x in the diagram.",
+      "stem": "Find x in the diagram.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show how you use the exterior-angle sum.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The exterior angles sum to 360° (3). Combine all labelled exterior angles: 4x+76=360 (4), so x=71 (3).",
+            "math_latex": "x=71"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq22_18"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "18",
+        "adaptation": "transcription"
       }
     }
-  ]
+  ],
+  "assets": {
+    "frq22_18": {
+      "src": "assets/frq22_18.png",
+      "width": 573,
+      "height": 296,
+      "alt_text": "Original textbook diagram, Reveal p. 64, exercise 18.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "18",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.45,
+        0.735,
+        0.77,
+        0.852
+      ]
+    },
+    "frq22_15": {
+      "src": "assets/frq22_15.png",
+      "width": 554,
+      "height": 304,
+      "alt_text": "Original textbook diagram, Reveal p. 64, exercise 15.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "15",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.588,
+        0.36,
+        0.708
+      ]
+    }
+  }
 }

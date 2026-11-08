@@ -1,0 +1,210 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO19",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO19",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO19",
+      "exam_slot": "Q19",
+      "title": "Verbal expressions",
+      "title_ar": "التعابير اللفظية",
+      "statement": "Verbal expressions",
+      "question_type": "mcq",
+      "rule_summary": "Translate each operation and preserve subtraction/division order.",
+      "textbook_references": [
+        {
+          "printed_page": 18,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q19-MCQ-01",
+        "G9G-BOOK-Q19-MCQ-02",
+        "G9G-BOOK-Q19-MCQ-03",
+        "G9G-BOOK-Q19-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q19-MCQ-01",
+        "G9G-BOOK-Q19-MCQ-02",
+        "G9G-BOOK-Q19-MCQ-03",
+        "G9G-BOOK-Q19-MCQ-04"
+      ],
+      "download": "LO19.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q19-MCQ-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.1",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. 4q",
+      "math_latex": "4q",
+      "options": [
+        {
+          "id": "A",
+          "text": "The product of 4 and q."
+        },
+        {
+          "id": "B",
+          "text": "The sum of 4 and q."
+        },
+        {
+          "id": "C",
+          "text": "q divided by 4."
+        },
+        {
+          "id": "D",
+          "text": "4 less than q."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "The product of 4 and q.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.2",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. \\frac18y",
+      "math_latex": "\\frac18y",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eight times y."
+        },
+        {
+          "id": "B",
+          "text": "y minus eight."
+        },
+        {
+          "id": "C",
+          "text": "Eight divided by y."
+        },
+        {
+          "id": "D",
+          "text": "One eighth of y."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "One eighth of y.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-03",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.3",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. 15+r",
+      "math_latex": "15+r",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 minus r."
+        },
+        {
+          "id": "B",
+          "text": "r divided by 15."
+        },
+        {
+          "id": "C",
+          "text": "The sum of 15 and r."
+        },
+        {
+          "id": "D",
+          "text": "The product of 15 and r."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "The sum of 15 and r.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q19-MCQ-04",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.4",
+      "instruction": "Write a verbal expression.",
+      "stem": "Write a verbal expression. w-24",
+      "math_latex": "w-24",
+      "options": [
+        {
+          "id": "A",
+          "text": "w plus 24."
+        },
+        {
+          "id": "B",
+          "text": "24 less than w."
+        },
+        {
+          "id": "C",
+          "text": "w less than 24."
+        },
+        {
+          "id": "D",
+          "text": "24 times w."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "24 less than w.",
+        "explanation": "Match the operation and preserve the order of subtraction or division."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 18,
+        "pdf_page": 18,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

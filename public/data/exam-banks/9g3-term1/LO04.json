@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO04",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO04",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO04",
+      "exam_slot": "Q4",
+      "title": "Rearrange formulas",
+      "title_ar": "إعادة ترتيب الصيغ",
+      "statement": "Rearrange formulas",
+      "question_type": "mcq",
+      "rule_summary": "Isolate the requested variable; state nonzero divisor assumptions.",
+      "textbook_references": [
+        {
+          "printed_page": 125,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q04-MCQ-01",
+        "G9G-BOOK-Q04-MCQ-02",
+        "G9G-BOOK-Q04-MCQ-03",
+        "G9G-BOOK-Q04-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q04-MCQ-01",
+        "G9G-BOOK-Q04-MCQ-02",
+        "G9G-BOOK-Q04-MCQ-03",
+        "G9G-BOOK-Q04-MCQ-04"
+      ],
+      "download": "LO04.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q04-MCQ-01",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.1",
+      "instruction": "Solve for v. Assume any divisor is nonzero.",
+      "stem": "Solve for v. Assume any divisor is nonzero. u=vw+z",
+      "math_latex": "u=vw+z",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{u - z}{w}",
+          "math_latex": "- \\frac{u - z}{w}"
+        },
+        {
+          "id": "B",
+          "text": "1 + \\frac{u - z}{w}",
+          "math_latex": "1 + \\frac{u - z}{w}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2 \\left(u - z\\right)}{w}",
+          "math_latex": "\\frac{2 \\left(u - z\\right)}{w}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{u - z}{w}",
+          "math_latex": "\\frac{u - z}{w}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{u - z}{w}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-02",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.2",
+      "instruction": "Solve for c. Assume any divisor is nonzero.",
+      "stem": "Solve for c. Assume any divisor is nonzero. x=b-cd",
+      "math_latex": "x=b-cd",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 + \\frac{b - x}{d}",
+          "math_latex": "1 + \\frac{b - x}{d}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{2 \\left(b - x\\right)}{d}",
+          "math_latex": "\\frac{2 \\left(b - x\\right)}{d}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{b - x}{d}",
+          "math_latex": "\\frac{b - x}{d}"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{b - x}{d}",
+          "math_latex": "- \\frac{b - x}{d}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{b - x}{d}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-03",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.3",
+      "instruction": "Solve for g. Assume any divisor is nonzero.",
+      "stem": "Solve for g. Assume any divisor is nonzero. fg-9h=10j",
+      "math_latex": "fg-9h=10j",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2 \\left(9 h + 10 j\\right)}{f}",
+          "math_latex": "\\frac{2 \\left(9 h + 10 j\\right)}{f}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{9 h + 10 j}{f}",
+          "math_latex": "\\frac{9 h + 10 j}{f}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{9 h + 10 j}{f}",
+          "math_latex": "- \\frac{9 h + 10 j}{f}"
+        },
+        {
+          "id": "D",
+          "text": "1 + \\frac{9 h + 10 j}{f}",
+          "math_latex": "1 + \\frac{9 h + 10 j}{f}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{9 h + 10 j}{f}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q04-MCQ-04",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.4",
+      "instruction": "Solve for m. Assume any divisor is nonzero.",
+      "stem": "Solve for m. Assume any divisor is nonzero. 10m-p=-n",
+      "math_latex": "10m-p=-n",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{n}{10} + \\frac{p}{10}",
+          "math_latex": "- \\frac{n}{10} + \\frac{p}{10}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{n}{10} - \\frac{p}{10}",
+          "math_latex": "\\frac{n}{10} - \\frac{p}{10}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{n}{10} + \\frac{p}{10} + 1",
+          "math_latex": "- \\frac{n}{10} + \\frac{p}{10} + 1"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{n}{5} + \\frac{p}{5}",
+          "math_latex": "- \\frac{n}{5} + \\frac{p}{5}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- \\frac{n}{10} + \\frac{p}{10}",
+        "explanation": "Undo addition/subtraction, then divide both sides by the coefficient of the requested variable."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

@@ -1,0 +1,5304 @@
+{
+  "parts": {
+    "1": {
+      "file_name": "10adv 1.pdf",
+      "sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+      "printed_start": 627,
+      "pdf_pages": 60
+    },
+    "2": {
+      "file_name": "10متقدم 2.pdf",
+      "sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+      "printed_start": 57,
+      "pdf_pages": 164
+    }
+  },
+  "selection_policy": "Only the original uploaded textbook exercises and original diagram crops are used. MCQ choices and worked solutions are added; no changed-number parallel variants are used.",
+  "questions": [
+    {
+      "id": "G10A-BOOK-Q01-MCQ-01",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.1",
+      "instruction": "Write in standard form and identify the leading coefficient.",
+      "stem": "Write in standard form and identify the leading coefficient. -y^3+3y-3y^2+2",
+      "math_latex": "-y^3+3y-3y^2+2",
+      "options": [
+        {
+          "id": "A",
+          "text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 1",
+          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 1"
+        },
+        {
+          "id": "B",
+          "text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 2",
+          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad 2"
+        },
+        {
+          "id": "C",
+          "text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad -1",
+          "math_latex": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad -1"
+        },
+        {
+          "id": "D",
+          "text": "y^{3} + 3 y^{2} - 3 y - 2,\\quad 1",
+          "math_latex": "y^{3} + 3 y^{2} - 3 y - 2,\\quad 1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "- y^{3} - 3 y^{2} + 3 y + 2,\\quad -1",
+        "explanation": "Order terms by decreasing exponent; the leading coefficient is the coefficient of the first term."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 635,
+        "pdf_page": 9,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q01-MCQ-02",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.2",
+      "instruction": "Write in standard form and identify the leading coefficient.",
+      "stem": "Write in standard form and identify the leading coefficient. \\frac12x-3x^4+7",
+      "math_latex": "\\frac12x-3x^4+7",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 2",
+          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 2"
+        },
+        {
+          "id": "B",
+          "text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad -3",
+          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad -3"
+        },
+        {
+          "id": "C",
+          "text": "3 x^{4} - \\frac{x}{2} - 7,\\quad 3",
+          "math_latex": "3 x^{4} - \\frac{x}{2} - 7,\\quad 3"
+        },
+        {
+          "id": "D",
+          "text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 3",
+          "math_latex": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad 3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "- 3 x^{4} + \\frac{x}{2} + 7,\\quad -3",
+        "explanation": "Order terms by decreasing exponent; the leading coefficient is the coefficient of the first term."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 635,
+        "pdf_page": 9,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q01-MCQ-03",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.3",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (2h^2-5h)+(7h-3h^2)",
+      "math_latex": "(2h^2-5h)+(7h-3h^2)",
+      "options": [
+        {
+          "id": "A",
+          "text": "- h^{2} + 2 h",
+          "math_latex": "- h^{2} + 2 h"
+        },
+        {
+          "id": "B",
+          "text": "- h^{2} + 2 h + 1",
+          "math_latex": "- h^{2} + 2 h + 1"
+        },
+        {
+          "id": "C",
+          "text": "h^{2} - 2 h",
+          "math_latex": "h^{2} - 2 h"
+        },
+        {
+          "id": "D",
+          "text": "- h^{2} + 2 h - x",
+          "math_latex": "- h^{2} + 2 h - x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- h^{2} + 2 h",
+        "explanation": "Distribute any subtraction sign, then combine like powers."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 635,
+        "pdf_page": 9,
+        "exercise": "22",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q01-MCQ-04",
+      "learning_outcome_id": "LO01",
+      "type": "mcq",
+      "display_number": "1.4",
+      "instruction": "Find the sum or difference.",
+      "stem": "Find the sum or difference. (2x+3x^2)-(7-8x^2)",
+      "math_latex": "(2x+3x^2)-(7-8x^2)",
+      "options": [
+        {
+          "id": "A",
+          "text": "11 x^{2} + 2 x - 6",
+          "math_latex": "11 x^{2} + 2 x - 6"
+        },
+        {
+          "id": "B",
+          "text": "- 11 x^{2} - 2 x + 7",
+          "math_latex": "- 11 x^{2} - 2 x + 7"
+        },
+        {
+          "id": "C",
+          "text": "11 x^{2} + x - 7",
+          "math_latex": "11 x^{2} + x - 7"
+        },
+        {
+          "id": "D",
+          "text": "11 x^{2} + 2 x - 7",
+          "math_latex": "11 x^{2} + 2 x - 7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "11 x^{2} + 2 x - 7",
+        "explanation": "Distribute any subtraction sign, then combine like powers."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 635,
+        "pdf_page": 9,
+        "exercise": "26",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-01",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.1",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(c + 3\\right) \\left(3 c - 5\\right)",
+      "math_latex": "\\left(c + 3\\right) \\left(3 c - 5\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 c^{2} + 4 c - 14",
+          "math_latex": "3 c^{2} + 4 c - 14"
+        },
+        {
+          "id": "B",
+          "text": "3 c^{2} + 4 c - 15",
+          "math_latex": "3 c^{2} + 4 c - 15"
+        },
+        {
+          "id": "C",
+          "text": "3 c^{2} + 5 c - 15",
+          "math_latex": "3 c^{2} + 5 c - 15"
+        },
+        {
+          "id": "D",
+          "text": "3 c^{2} + 3 c - 15",
+          "math_latex": "3 c^{2} + 3 c - 15"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3 c^{2} + 4 c - 15",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-02",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.2",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(g + 10\\right) \\left(2 g - 5\\right)",
+      "math_latex": "\\left(g + 10\\right) \\left(2 g - 5\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 g^{2} + 15 g - 50",
+          "math_latex": "2 g^{2} + 15 g - 50"
+        },
+        {
+          "id": "B",
+          "text": "2 g^{2} + 16 g - 50",
+          "math_latex": "2 g^{2} + 16 g - 50"
+        },
+        {
+          "id": "C",
+          "text": "2 g^{2} + 14 g - 50",
+          "math_latex": "2 g^{2} + 14 g - 50"
+        },
+        {
+          "id": "D",
+          "text": "2 g^{2} + 15 g - 49",
+          "math_latex": "2 g^{2} + 15 g - 49"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 g^{2} + 15 g - 50",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-03",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.3",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(5 a + 3\\right) \\left(6 a + 5\\right)",
+      "math_latex": "\\left(5 a + 3\\right) \\left(6 a + 5\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "30 a^{2} + 44 a + 15",
+          "math_latex": "30 a^{2} + 44 a + 15"
+        },
+        {
+          "id": "B",
+          "text": "30 a^{2} + 42 a + 15",
+          "math_latex": "30 a^{2} + 42 a + 15"
+        },
+        {
+          "id": "C",
+          "text": "30 a^{2} + 43 a + 16",
+          "math_latex": "30 a^{2} + 43 a + 16"
+        },
+        {
+          "id": "D",
+          "text": "30 a^{2} + 43 a + 15",
+          "math_latex": "30 a^{2} + 43 a + 15"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "30 a^{2} + 43 a + 15",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q02-MCQ-04",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.4",
+      "instruction": "Find the product.",
+      "stem": "Find the product. \\left(4 x + 1\\right) \\left(6 x + 3\\right)",
+      "math_latex": "\\left(4 x + 1\\right) \\left(6 x + 3\\right)",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 x^{2} + 17 x + 3",
+          "math_latex": "24 x^{2} + 17 x + 3"
+        },
+        {
+          "id": "B",
+          "text": "24 x^{2} + 18 x + 4",
+          "math_latex": "24 x^{2} + 18 x + 4"
+        },
+        {
+          "id": "C",
+          "text": "24 x^{2} + 18 x + 3",
+          "math_latex": "24 x^{2} + 18 x + 3"
+        },
+        {
+          "id": "D",
+          "text": "24 x^{2} + 19 x + 3",
+          "math_latex": "24 x^{2} + 19 x + 3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "24 x^{2} + 18 x + 3",
+        "explanation": "Multiply every term by both terms of the other binomial and combine the middle products."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 649,
+        "pdf_page": 23,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q03-MCQ-01",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.1",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. f g + 4 f - 5 g - 20",
+      "math_latex": "f g + 4 f - 5 g - 20",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(f - 5\\right) \\left(g + 4\\right)"
+        },
+        {
+          "id": "B",
+          "text": "- \\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "- \\left(f - 5\\right) \\left(g + 4\\right)"
+        },
+        {
+          "id": "C",
+          "text": "2 \\left(f - 5\\right) \\left(g + 4\\right)",
+          "math_latex": "2 \\left(f - 5\\right) \\left(g + 4\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(f - 4\\right) \\left(g + 4\\right)",
+          "math_latex": "\\left(f - 4\\right) \\left(g + 4\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(f - 5\\right) \\left(g + 4\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q03-MCQ-02",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.2",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. h j - 2 h + 5 j - 10",
+      "math_latex": "h j - 2 h + 5 j - 10",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "- \\left(h + 5\\right) \\left(j - 2\\right)"
+        },
+        {
+          "id": "B",
+          "text": "2 \\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "2 \\left(h + 5\\right) \\left(j - 2\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(h + 6\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(h + 6\\right) \\left(j - 2\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(h + 5\\right) \\left(j - 2\\right)",
+          "math_latex": "\\left(h + 5\\right) \\left(j - 2\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\left(h + 5\\right) \\left(j - 2\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q03-MCQ-03",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.3",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. x y - 2 x + y - 2",
+      "math_latex": "x y - 2 x + y - 2",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "2 \\left(x + 1\\right) \\left(y - 2\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(x + 2\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(x + 2\\right) \\left(y - 2\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "\\left(x + 1\\right) \\left(y - 2\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(x + 1\\right) \\left(y - 2\\right)",
+          "math_latex": "- \\left(x + 1\\right) \\left(y - 2\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\left(x + 1\\right) \\left(y - 2\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q03-MCQ-04",
+      "learning_outcome_id": "LO03",
+      "type": "mcq",
+      "display_number": "3.4",
+      "instruction": "Factor completely using the Distributive Property.",
+      "stem": "Factor completely using the Distributive Property. p v + 8 p + 12 v + 96",
+      "math_latex": "p v + 8 p + 12 v + 96",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(p + 13\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(p + 13\\right) \\left(v + 8\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "\\left(p + 12\\right) \\left(v + 8\\right)"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "- \\left(p + 12\\right) \\left(v + 8\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(p + 12\\right) \\left(v + 8\\right)",
+          "math_latex": "2 \\left(p + 12\\right) \\left(v + 8\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\left(p + 12\\right) \\left(v + 8\\right)",
+        "explanation": "Group terms to extract the same binomial factor from both groups."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 665,
+        "pdf_page": 39,
+        "exercise": "20",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q04-MCQ-01",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.1",
+      "instruction": "Factor using integers.",
+      "stem": "Factor using integers. x^{2} + 17 x + 42",
+      "math_latex": "x^{2} + 17 x + 42",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\left(x + 3\\right) \\left(x + 14\\right)",
+          "math_latex": "- \\left(x + 3\\right) \\left(x + 14\\right)"
+        },
+        {
+          "id": "B",
+          "text": "2 \\left(x + 3\\right) \\left(x + 14\\right)",
+          "math_latex": "2 \\left(x + 3\\right) \\left(x + 14\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(x + 4\\right) \\left(x + 15\\right)",
+          "math_latex": "\\left(x + 4\\right) \\left(x + 15\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(x + 3\\right) \\left(x + 14\\right)",
+          "math_latex": "\\left(x + 3\\right) \\left(x + 14\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\left(x + 3\\right) \\left(x + 14\\right)",
+        "explanation": "Use two integer factors of the constant whose sum is the middle coefficient."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 671,
+        "pdf_page": 45,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q04-MCQ-02",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.2",
+      "instruction": "Factor using integers.",
+      "stem": "Factor using integers. y^{2} - 17 y + 72",
+      "math_latex": "y^{2} - 17 y + 72",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\left(y - 9\\right) \\left(y - 8\\right)",
+          "math_latex": "2 \\left(y - 9\\right) \\left(y - 8\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(y - 8\\right) \\left(y - 7\\right)",
+          "math_latex": "\\left(y - 8\\right) \\left(y - 7\\right)"
+        },
+        {
+          "id": "C",
+          "text": "\\left(y - 9\\right) \\left(y - 8\\right)",
+          "math_latex": "\\left(y - 9\\right) \\left(y - 8\\right)"
+        },
+        {
+          "id": "D",
+          "text": "- \\left(y - 9\\right) \\left(y - 8\\right)",
+          "math_latex": "- \\left(y - 9\\right) \\left(y - 8\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\left(y - 9\\right) \\left(y - 8\\right)",
+        "explanation": "Use two integer factors of the constant whose sum is the middle coefficient."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 671,
+        "pdf_page": 45,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q04-MCQ-03",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.3",
+      "instruction": "Factor using integers.",
+      "stem": "Factor using integers. a^{2} + 8 a - 48",
+      "math_latex": "a^{2} + 8 a - 48",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(a - 3\\right) \\left(a + 13\\right)",
+          "math_latex": "\\left(a - 3\\right) \\left(a + 13\\right)"
+        },
+        {
+          "id": "B",
+          "text": "\\left(a - 4\\right) \\left(a + 12\\right)",
+          "math_latex": "\\left(a - 4\\right) \\left(a + 12\\right)"
+        },
+        {
+          "id": "C",
+          "text": "- \\left(a - 4\\right) \\left(a + 12\\right)",
+          "math_latex": "- \\left(a - 4\\right) \\left(a + 12\\right)"
+        },
+        {
+          "id": "D",
+          "text": "2 \\left(a - 4\\right) \\left(a + 12\\right)",
+          "math_latex": "2 \\left(a - 4\\right) \\left(a + 12\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\left(a - 4\\right) \\left(a + 12\\right)",
+        "explanation": "Use two integer factors of the constant whose sum is the middle coefficient."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 671,
+        "pdf_page": 45,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q04-MCQ-04",
+      "learning_outcome_id": "LO04",
+      "type": "mcq",
+      "display_number": "4.4",
+      "instruction": "Factor using integers.",
+      "stem": "Factor using integers. n^{2} - 2 n - 35",
+      "math_latex": "n^{2} - 2 n - 35",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\left(n - 7\\right) \\left(n + 5\\right)",
+          "math_latex": "\\left(n - 7\\right) \\left(n + 5\\right)"
+        },
+        {
+          "id": "B",
+          "text": "- \\left(n - 7\\right) \\left(n + 5\\right)",
+          "math_latex": "- \\left(n - 7\\right) \\left(n + 5\\right)"
+        },
+        {
+          "id": "C",
+          "text": "2 \\left(n - 7\\right) \\left(n + 5\\right)",
+          "math_latex": "2 \\left(n - 7\\right) \\left(n + 5\\right)"
+        },
+        {
+          "id": "D",
+          "text": "\\left(n - 6\\right) \\left(n + 6\\right)",
+          "math_latex": "\\left(n - 6\\right) \\left(n + 6\\right)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\left(n - 7\\right) \\left(n + 5\\right)",
+        "explanation": "Use two integer factors of the constant whose sum is the middle coefficient."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 671,
+        "pdf_page": 45,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q05-MCQ-01",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.1",
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(117,56,119,56)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(125,60,127,60)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(Q,R,S,T)=\\\\(120,60,120,60)^\\circ\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\begin{gathered}(Q,R,S,T)=\\\\(121,58,123,58)^\\circ\\end{gathered}",
+        "explanation": "6x+12=360, so x=58. Substitute into every labelled angle."
+      },
+      "diagram_asset_ids": [
+        "q5_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q05-MCQ-02",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.2",
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,52,62,96)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(144,60,50,92)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(J,K,L,M)=\\\\(156,64,54,100)^\\circ\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\begin{gathered}(J,K,L,M)=\\\\(150,62,52,96)^\\circ\\end{gathered}",
+        "explanation": "7x−4=360 gives x=52. Then J=3x−6, K=x+10, L=x, M=2x−8."
+      },
+      "diagram_asset_ids": [
+        "q5_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q05-MCQ-03",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.3",
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,140,80,170)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,124,72,154)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,158,74,128)^\\circ\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\begin{gathered}(A,B,C,D,E)=\\\\(90,90,128,74,158)^\\circ\\end{gathered}",
+        "explanation": "Pentagon sum=540. 180+(2x−20)+x+(2x+10)=540, giving x=74."
+      },
+      "diagram_asset_ids": [
+        "q5_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q05-MCQ-04",
+      "learning_outcome_id": "LO05",
+      "type": "mcq",
+      "display_number": "5.4",
+      "instruction": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "stem": "Find the measure of each interior angle. Options list the vertices in the stated order.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(62,199,78,70,147)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(68,217,84,76,159)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,143,76,68,193)^\\circ\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}",
+          "math_latex": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\begin{gathered}(U,V,W,Y,Z)=\\\\(60,193,76,68,143)^\\circ\\end{gathered}",
+        "explanation": "8x−4=540, so x=68. Substitute in all five expressions."
+      },
+      "diagram_asset_ids": [
+        "q5_4"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 63,
+        "pdf_page": 7,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q06-MCQ-01",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.1",
+      "instruction": "Find each variable in the parallelogram.",
+      "stem": "Find each variable in the parallelogram.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(16,3)",
+          "math_latex": "(x,y)=(16,3)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(5,17)",
+          "math_latex": "(x,y)=(5,17)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(11,10)",
+          "math_latex": "(x,y)=(11,10)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(17,5)",
+          "math_latex": "(x,y)=(17,5)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(x,y)=(5,17)",
+        "explanation": "Diagonals bisect each other: x+6=11 and y−7=10."
+      },
+      "diagram_asset_ids": [
+        "q6_9"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 72,
+        "pdf_page": 16,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q06-MCQ-02",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.2",
+      "instruction": "Find each variable in the parallelogram.",
+      "stem": "Find each variable in the parallelogram.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(a,b)=(2,3)",
+          "math_latex": "(a,b)=(2,3)"
+        },
+        {
+          "id": "B",
+          "text": "(a,b)=(3,2)",
+          "math_latex": "(a,b)=(3,2)"
+        },
+        {
+          "id": "C",
+          "text": "(a,b)=(13,6)",
+          "math_latex": "(a,b)=(13,6)"
+        },
+        {
+          "id": "D",
+          "text": "(a,b)=(4,3)",
+          "math_latex": "(a,b)=(4,3)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(a,b)=(2,3)",
+        "explanation": "Opposite sides are equal: a+15=3a+11, 3b+5=b+11."
+      },
+      "diagram_asset_ids": [
+        "q6_10"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 72,
+        "pdf_page": 16,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q06-MCQ-03",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.3",
+      "instruction": "Find each variable in the parallelogram.",
+      "stem": "Find each variable in the parallelogram.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(58,29)",
+          "math_latex": "(x,y)=(58,29)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(60,60)",
+          "math_latex": "(x,y)=(60,60)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(53,58)",
+          "math_latex": "(x,y)=(53,58)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(58,\\frac{127}{2})",
+          "math_latex": "(x,y)=(58,\\frac{127}{2})"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "(x,y)=(58,\\frac{127}{2})",
+        "explanation": "Adjacent angles: (x−5)+(2x+11)=180, so x=58. Opposite angles: 2y=2x+11=127."
+      },
+      "diagram_asset_ids": [
+        "q6_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 72,
+        "pdf_page": 16,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q06-MCQ-04",
+      "learning_outcome_id": "LO06",
+      "type": "mcq",
+      "display_number": "6.4",
+      "instruction": "Find each variable in the parallelogram.",
+      "stem": "Find each variable in the parallelogram.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(y,z)=(3,2)",
+          "math_latex": "(y,z)=(3,2)"
+        },
+        {
+          "id": "B",
+          "text": "(y,z)=(5,9)",
+          "math_latex": "(y,z)=(5,9)"
+        },
+        {
+          "id": "C",
+          "text": "(y,z)=(5,2)",
+          "math_latex": "(y,z)=(5,2)"
+        },
+        {
+          "id": "D",
+          "text": "(y,z)=(2,5)",
+          "math_latex": "(y,z)=(2,5)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(y,z)=(5,2)",
+        "explanation": "Bisecting diagonals give 3y−5=y+5 and 2z+7=z+9."
+      },
+      "diagram_asset_ids": [
+        "q6_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 72,
+        "pdf_page": 16,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q07-MCQ-01",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.1",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes: one pair of opposite sides is both parallel and congruent."
+        },
+        {
+          "id": "B",
+          "text": "Yes: the diagonals are marked perpendicular."
+        },
+        {
+          "id": "C",
+          "text": "No: a parallelogram cannot have these markings."
+        },
+        {
+          "id": "D",
+          "text": "Yes: any one pair of congruent sides is sufficient."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Yes: one pair of opposite sides is both parallel and congruent.",
+        "explanation": "A single pair that is BOTH parallel and congruent is sufficient."
+      },
+      "diagram_asset_ids": [
+        "q7_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q07-MCQ-02",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.2",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes: the diagonals are marked perpendicular."
+        },
+        {
+          "id": "B",
+          "text": "No: a parallelogram cannot have these markings."
+        },
+        {
+          "id": "C",
+          "text": "Yes: any one pair of congruent sides is sufficient."
+        },
+        {
+          "id": "D",
+          "text": "Yes: both pairs of opposite angles are congruent."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Yes: both pairs of opposite angles are congruent.",
+        "explanation": "Both opposite-angle pairs are marked congruent."
+      },
+      "diagram_asset_ids": [
+        "q7_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q07-MCQ-03",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.3",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "No: a parallelogram cannot have these markings."
+        },
+        {
+          "id": "B",
+          "text": "Yes: any one pair of congruent sides is sufficient."
+        },
+        {
+          "id": "C",
+          "text": "Not enough information: only one pair of opposite sides is congruent."
+        },
+        {
+          "id": "D",
+          "text": "Yes: the diagonals are marked perpendicular."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Not enough information: only one pair of opposite sides is congruent.",
+        "explanation": "A single congruent opposite-side pair alone is insufficient."
+      },
+      "diagram_asset_ids": [
+        "q7_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q07-MCQ-04",
+      "learning_outcome_id": "LO07",
+      "type": "mcq",
+      "display_number": "7.4",
+      "instruction": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "stem": "Determine whether the markings guarantee a parallelogram. Choose the correct justification.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes: any one pair of congruent sides is sufficient."
+        },
+        {
+          "id": "B",
+          "text": "Not enough information: one pair is parallel and the other pair is congruent."
+        },
+        {
+          "id": "C",
+          "text": "Yes: the diagonals are marked perpendicular."
+        },
+        {
+          "id": "D",
+          "text": "No: a parallelogram cannot have these markings."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Not enough information: one pair is parallel and the other pair is congruent.",
+        "explanation": "These conditions also describe an isosceles trapezoid; the same pair would need to be both parallel and congruent."
+      },
+      "diagram_asset_ids": [
+        "q7_6"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 79,
+        "pdf_page": 23,
+        "exercise": "6",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.1",
+      "instruction": "Find the requested angle measure in the kite.",
+      "stem": "Find the requested angle measure in the kite.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "103",
+          "math_latex": "103"
+        },
+        {
+          "id": "B",
+          "text": "79",
+          "math_latex": "79"
+        },
+        {
+          "id": "C",
+          "text": "99",
+          "math_latex": "99"
+        },
+        {
+          "id": "D",
+          "text": "101",
+          "math_latex": "101"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "101",
+        "explanation": "The unmarked opposite angles Q and S are equal: (360−110−48)/2=101."
+      },
+      "diagram_asset_ids": [
+        "q8_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.2",
+      "instruction": "Find the requested angle measure in the kite.",
+      "stem": "Find the requested angle measure in the kite.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "53",
+          "math_latex": "53"
+        },
+        {
+          "id": "B",
+          "text": "125",
+          "math_latex": "125"
+        },
+        {
+          "id": "C",
+          "text": "127",
+          "math_latex": "127"
+        },
+        {
+          "id": "D",
+          "text": "129",
+          "math_latex": "129"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "127",
+        "explanation": "The equal opposite angles B and D share the remainder: (360−36−70)/2=127."
+      },
+      "diagram_asset_ids": [
+        "q8_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.3",
+      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "BC=\\sqrt{65},\\quad P\\approx58.5",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx58.5"
+        },
+        {
+          "id": "B",
+          "text": "BC=\\sqrt{65},\\quad P\\approx42.2",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx42.2"
+        },
+        {
+          "id": "C",
+          "text": "BC=\\sqrt{170},\\quad P\\approx42.2",
+          "math_latex": "BC=\\sqrt{170},\\quad P\\approx42.2"
+        },
+        {
+          "id": "D",
+          "text": "BC=\\sqrt{65},\\quad P\\approx21.1",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx21.1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "BC=\\sqrt{65},\\quad P\\approx42.2",
+        "explanation": "Perpendicular diagonals give BC=√(7²+4²)=√65 and AB=√170. P=2(√65+√170)≈42.2."
+      },
+      "diagram_asset_ids": [
+        "q8_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.4",
+      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx107.6",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx107.6"
+        },
+        {
+          "id": "B",
+          "text": "RH=4\\sqrt{58},\\quad P\\approx107.6",
+          "math_latex": "RH=4\\sqrt{58},\\quad P\\approx107.6"
+        },
+        {
+          "id": "C",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx53.8",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx53.8"
+        },
+        {
+          "id": "D",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx96.0",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx96.0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "RH=4\\sqrt{34},\\quad P\\approx107.6",
+        "explanation": "RH=√(20²+12²)=4√34 and RS=√(28²+12²)=4√58. The perimeter is 2(RH+RS)≈107.6."
+      },
+      "diagram_asset_ids": [
+        "q8_16"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q09-MCQ-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.1",
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}F(-10,4)\\quad G(-4,4)\\quad H(-4,-8)\\\\k=\\frac{1}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}F(-10,4)\\quad G(-4,4)\\quad H(-4,-8)\\\\k=\\frac{1}{4}\\end{gathered}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(\\frac{5}{2},-1)\\\\G'=(1,-1)\\\\H'=(1,2)\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(- \\frac{25}{2},5)\\\\G'=(-5,5)\\\\H'=(-5,-10)\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}",
+          "math_latex": "\\begin{gathered}F'=(-40,16)\\\\G'=(-16,16)\\\\H'=(-16,-32)\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\begin{gathered}F'=(- \\frac{5}{2},1)\\\\G'=(-1,1)\\\\H'=(-1,-2)\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q09-MCQ-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.2",
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}X(2,-1)\\quad Y(-6,4)\\quad Z(-2,-5)\\\\k=\\frac{5}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}X(2,-1)\\quad Y(-6,4)\\quad Z(-2,-5)\\\\k=\\frac{5}{4}\\end{gathered}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{9}{2},- \\frac{9}{4})\\\\Y'=(- \\frac{27}{2},9)\\\\Z'=(- \\frac{9}{2},- \\frac{45}{4})\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(\\frac{8}{5},- \\frac{4}{5})\\\\Y'=(- \\frac{24}{5},\\frac{16}{5})\\\\Z'=(- \\frac{8}{5},-4)\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}",
+          "math_latex": "\\begin{gathered}X'=(- \\frac{5}{2},\\frac{5}{4})\\\\Y'=(\\frac{15}{2},-5)\\\\Z'=(\\frac{5}{2},\\frac{25}{4})\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\begin{gathered}X'=(\\frac{5}{2},- \\frac{5}{4})\\\\Y'=(- \\frac{15}{2},5)\\\\Z'=(- \\frac{5}{2},- \\frac{25}{4})\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q09-MCQ-03",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.3",
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}M(4,6)\\quad N(-6,2)\\quad P(0,-8)\\\\k=\\frac{3}{4}\\end{gathered}",
+      "math_latex": "\\begin{gathered}M(4,6)\\quad N(-6,2)\\quad P(0,-8)\\\\k=\\frac{3}{4}\\end{gathered}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(\\frac{16}{3},8)\\\\N'=(-8,\\frac{8}{3})\\\\P'=(0,- \\frac{32}{3})\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(-3,- \\frac{9}{2})\\\\N'=(\\frac{9}{2},- \\frac{3}{2})\\\\P'=(0,6)\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}",
+          "math_latex": "\\begin{gathered}M'=(7,\\frac{21}{2})\\\\N'=(- \\frac{21}{2},\\frac{7}{2})\\\\P'=(0,-14)\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\begin{gathered}M'=(3,\\frac{9}{2})\\\\N'=(- \\frac{9}{2},\\frac{3}{2})\\\\P'=(0,-6)\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q09-MCQ-04",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.4",
+      "instruction": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices.",
+      "stem": "Graph the image after a dilation centred at the origin. Choose the complete set of image vertices. \\begin{gathered}R(-2,6)\\quad S(0,-1)\\quad T(-5,3)\\\\k=\\frac{3}{2}\\end{gathered}",
+      "math_latex": "\\begin{gathered}R(-2,6)\\quad S(0,-1)\\quad T(-5,3)\\\\k=\\frac{3}{2}\\end{gathered}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(- \\frac{4}{3},4)\\\\S'=(0,- \\frac{2}{3})\\\\T'=(- \\frac{10}{3},2)\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(3,-9)\\\\S'=(0,\\frac{3}{2})\\\\T'=(\\frac{15}{2},- \\frac{9}{2})\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(-5,15)\\\\S'=(0,- \\frac{5}{2})\\\\T'=(- \\frac{25}{2},\\frac{15}{2})\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}",
+          "math_latex": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\begin{gathered}R'=(-3,9)\\\\S'=(0,- \\frac{3}{2})\\\\T'=(- \\frac{15}{2},\\frac{9}{2})\\end{gathered}",
+        "explanation": "Multiply BOTH coordinates of EVERY vertex by the given scale factor. Plot and connect the resulting vertices."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-01",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.1",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "math_latex": "2"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3",
+        "explanation": "Corresponding edges satisfy (x+1)/8=(3x+1)/20. Cross multiply to get x=3."
+      },
+      "diagram_asset_ids": [
+        "q10_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-02",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.2",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "C",
+          "text": "1",
+          "math_latex": "1"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2",
+        "explanation": "(3x−1)/4=(8x−1)/12 gives 36x−12=32x−4, so x=2."
+      },
+      "diagram_asset_ids": [
+        "q10_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-03",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.3",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "math_latex": "8"
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "math_latex": "5"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "5",
+        "explanation": "The large-to-small scale factor is 3/2. Hence (2x+2)/(x+3)=3/2 and x=5."
+      },
+      "diagram_asset_ids": [
+        "q10_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q10-MCQ-04",
+      "learning_outcome_id": "LO10",
+      "type": "mcq",
+      "display_number": "10.4",
+      "instruction": "Each pair of polygons is similar. Find x.",
+      "stem": "Each pair of polygons is similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "B",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "C",
+          "text": "7",
+          "math_latex": "7"
+        },
+        {
+          "id": "D",
+          "text": "8",
+          "math_latex": "8"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "7",
+        "explanation": "Corresponding side ratios give (x+5)/15=4/5, so x+5=12 and x=7."
+      },
+      "diagram_asset_ids": [
+        "q10_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 128,
+        "pdf_page": 72,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q11-MCQ-01",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.1",
+      "instruction": "Find the scale factor from the original polygon to its primed image.",
+      "stem": "Find the scale factor from the original polygon to its primed image.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{1}{2}",
+          "math_latex": "\\frac{1}{2}"
+        },
+        {
+          "id": "C",
+          "text": "-2",
+          "math_latex": "-2"
+        },
+        {
+          "id": "D",
+          "text": "3",
+          "math_latex": "3"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2",
+        "explanation": "Corresponding image coordinates are twice the original coordinates."
+      },
+      "diagram_asset_ids": [
+        "q11_10"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q11-MCQ-02",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.2",
+      "instruction": "Find the scale factor from the original polygon to its primed image.",
+      "stem": "Find the scale factor from the original polygon to its primed image.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2}{3}",
+          "math_latex": "\\frac{2}{3}"
+        },
+        {
+          "id": "B",
+          "text": "- \\frac{3}{2}",
+          "math_latex": "- \\frac{3}{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{5}{2}",
+          "math_latex": "\\frac{5}{2}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{3}{2}",
+          "math_latex": "\\frac{3}{2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{3}{2}",
+        "explanation": "For example, a corresponding distance from the origin grows from 2 units to 3 units."
+      },
+      "diagram_asset_ids": [
+        "q11_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q11-MCQ-03",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.3",
+      "instruction": "Find the scale factor from the original polygon to its primed image.",
+      "stem": "Find the scale factor from the original polygon to its primed image.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{2}{3}",
+          "math_latex": "- \\frac{2}{3}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{5}{3}",
+          "math_latex": "\\frac{5}{3}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2}{3}",
+          "math_latex": "\\frac{2}{3}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{3}{2}",
+          "math_latex": "\\frac{3}{2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{2}{3}",
+        "explanation": "The primed figure is the smaller image: corresponding dimensions are 4 and 6, so image/original=2/3."
+      },
+      "diagram_asset_ids": [
+        "q11_17"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "17",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q11-MCQ-04",
+      "learning_outcome_id": "LO11",
+      "type": "mcq",
+      "display_number": "11.4",
+      "instruction": "Find the scale factor from the original polygon to its primed image.",
+      "stem": "Find the scale factor from the original polygon to its primed image.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{5}{2}",
+          "math_latex": "\\frac{5}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{3}{2}",
+          "math_latex": "\\frac{3}{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{2}{3}",
+          "math_latex": "\\frac{2}{3}"
+        },
+        {
+          "id": "D",
+          "text": "- \\frac{3}{2}",
+          "math_latex": "- \\frac{3}{2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{3}{2}",
+        "explanation": "The primed image is larger: a corresponding coordinate changes by a factor of 3/2."
+      },
+      "diagram_asset_ids": [
+        "q11_18"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 120,
+        "pdf_page": 64,
+        "exercise": "18",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q12-MCQ-01",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.1",
+      "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not similar: equal vertical angles prevent similarity."
+        },
+        {
+          "id": "B",
+          "text": "Not enough information: no angle pair is known."
+        },
+        {
+          "id": "C",
+          "text": "Similar by SSS: three side lengths are given."
+        },
+        {
+          "id": "D",
+          "text": "Similar by AA: the marked angles and vertical angles are equal."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "Similar by AA: the marked angles and vertical angles are equal.",
+        "explanation": "There is a marked equal angle pair, and the angles at H are vertical."
+      },
+      "diagram_asset_ids": [
+        "q12_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q12-MCQ-02",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.2",
+      "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not enough information: the third angles cannot be found."
+        },
+        {
+          "id": "B",
+          "text": "Similar by SSS only."
+        },
+        {
+          "id": "C",
+          "text": "Similar by AA: their angle sets are 42°, 98°, 40°."
+        },
+        {
+          "id": "D",
+          "text": "Not similar: one triangle has 42° and the other has 40°."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "Similar by AA: their angle sets are 42°, 98°, 40°.",
+        "explanation": "Use the 180° sum to find the missing angle in each triangle."
+      },
+      "diagram_asset_ids": [
+        "q12_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q12-MCQ-03",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.3",
+      "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Definitely not similar: vertical angles have different measures."
+        },
+        {
+          "id": "B",
+          "text": "Not enough information: only the vertical angle pair is known."
+        },
+        {
+          "id": "C",
+          "text": "Similar by AA: a second pair is marked congruent."
+        },
+        {
+          "id": "D",
+          "text": "Similar by SSS: all side ratios are given."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "Not enough information: only the vertical angle pair is known.",
+        "explanation": "The drawing alone does not establish a second angle pair or side ratios."
+      },
+      "diagram_asset_ids": [
+        "q12_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q12-MCQ-04",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.4",
+      "instruction": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "stem": "Determine whether the triangles are similar. Choose a valid explanation.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "Similar by AA: both triangles have angles 87°, 41°, 52°."
+        },
+        {
+          "id": "B",
+          "text": "Not similar: the displayed angle values differ."
+        },
+        {
+          "id": "C",
+          "text": "Not enough information: a third angle cannot be calculated."
+        },
+        {
+          "id": "D",
+          "text": "Similar by a scale factor of 2 shown on the sides."
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "Similar by AA: both triangles have angles 87°, 41°, 52°.",
+        "explanation": "Subtract 87+41 or 52+41 from 180 to get the missing angle."
+      },
+      "diagram_asset_ids": [
+        "q12_5"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 133,
+        "pdf_page": 77,
+        "exercise": "5",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q13-MCQ-01",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.1",
+      "instruction": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "stem": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(7,6)",
+          "math_latex": "(x,y)=(7,6)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(13,6)",
+          "math_latex": "(x,y)=(13,6)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(6,\\frac{13}{2})",
+          "math_latex": "(x,y)=(6,\\frac{13}{2})"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(6,13)",
+          "math_latex": "(x,y)=(6,13)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(x,y)=(6,\\frac{13}{2})",
+        "explanation": "Equal intercepted segments give 2x+1=x+7. The corresponding segments satisfy 3y−8=y+5."
+      },
+      "diagram_asset_ids": [
+        "q13_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 146,
+        "pdf_page": 90,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q13-MCQ-02",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.2",
+      "instruction": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "stem": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(3,4)",
+          "math_latex": "(x,y)=(3,4)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(2,4)",
+          "math_latex": "(x,y)=(2,4)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(4,2)",
+          "math_latex": "(x,y)=(4,2)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(2,3)",
+          "math_latex": "(x,y)=(2,3)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(x,y)=(2,4)",
+        "explanation": "The midpoint markings imply x+3=(3/2)x+2 and 2y−1=3y−5."
+      },
+      "diagram_asset_ids": [
+        "q13_12"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 146,
+        "pdf_page": 90,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q13-MCQ-03",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.3",
+      "instruction": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "stem": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "x=15",
+          "math_latex": "x=15"
+        },
+        {
+          "id": "B",
+          "text": "x=30",
+          "math_latex": "x=30"
+        },
+        {
+          "id": "C",
+          "text": "x=60",
+          "math_latex": "x=60"
+        },
+        {
+          "id": "D",
+          "text": "x=20",
+          "math_latex": "x=20"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "x=15",
+        "explanation": "A triangle midsegment is half the length of its parallel side: 30/2=15."
+      },
+      "diagram_asset_ids": [
+        "q13_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 146,
+        "pdf_page": 90,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q13-MCQ-04",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.4",
+      "instruction": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "stem": "Find the labelled variable(s), using the parallel-line and midpoint markings.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "x=9",
+          "math_latex": "x=9"
+        },
+        {
+          "id": "B",
+          "text": "x=4.5",
+          "math_latex": "x=4.5"
+        },
+        {
+          "id": "C",
+          "text": "x=27",
+          "math_latex": "x=27"
+        },
+        {
+          "id": "D",
+          "text": "x=18",
+          "math_latex": "x=18"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "x=18",
+        "explanation": "The side is twice its parallel midsegment: 2·9=18."
+      },
+      "diagram_asset_ids": [
+        "q13_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 146,
+        "pdf_page": 90,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q14-MCQ-01",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.1",
+      "instruction": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{35}{2}",
+          "math_latex": "\\frac{35}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{33}{2}",
+          "math_latex": "\\frac{33}{2}"
+        },
+        {
+          "id": "C",
+          "text": "33",
+          "math_latex": "33"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{33}{4}",
+          "math_latex": "\\frac{33}{4}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{33}{2}",
+        "explanation": "Corresponding altitudes have the side ratio 5.25/7: x=22(5.25/7)=16.5."
+      },
+      "diagram_asset_ids": [
+        "q14_1"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q14-MCQ-02",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.2",
+      "instruction": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "B",
+          "text": "44",
+          "math_latex": "44"
+        },
+        {
+          "id": "C",
+          "text": "11",
+          "math_latex": "11"
+        },
+        {
+          "id": "D",
+          "text": "23",
+          "math_latex": "23"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "22",
+        "explanation": "Corresponding medians are proportional: x/33=10/15, so x=22."
+      },
+      "diagram_asset_ids": [
+        "q14_2"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q14-MCQ-03",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.3",
+      "instruction": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "22",
+          "math_latex": "22"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{11}{2}",
+          "math_latex": "\\frac{11}{2}"
+        },
+        {
+          "id": "C",
+          "text": "12",
+          "math_latex": "12"
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "math_latex": "11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "11",
+        "explanation": "Corresponding side lengths have altitude ratio 10/20: x=22/2=11."
+      },
+      "diagram_asset_ids": [
+        "q14_3"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q14-MCQ-04",
+      "learning_outcome_id": "LO14",
+      "type": "mcq",
+      "display_number": "14.4",
+      "instruction": "The triangles are similar. Find x.",
+      "stem": "The triangles are similar. Find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{60}{7}",
+          "math_latex": "\\frac{60}{7}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{127}{7}",
+          "math_latex": "\\frac{127}{7}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{120}{7}",
+          "math_latex": "\\frac{120}{7}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{240}{7}",
+          "math_latex": "\\frac{240}{7}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{120}{7}",
+        "explanation": "Corresponding angle bisectors have side ratio 18/12.6: x/12=18/12.6, so x=120/7."
+      },
+      "diagram_asset_ids": [
+        "q14_4"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 153,
+        "pdf_page": 97,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-01",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.1",
+      "instruction": "Find the geometric mean between the two numbers.",
+      "stem": "Find the geometric mean between the two numbers. 4\\quad\\text{and}\\quad 6",
+      "math_latex": "4\\quad\\text{and}\\quad 6",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 \\sqrt{6}",
+          "math_latex": "2 \\sqrt{6}"
+        },
+        {
+          "id": "B",
+          "text": "- 2 \\sqrt{6}",
+          "math_latex": "- 2 \\sqrt{6}"
+        },
+        {
+          "id": "C",
+          "text": "4 \\sqrt{6}",
+          "math_latex": "4 \\sqrt{6}"
+        },
+        {
+          "id": "D",
+          "text": "3 + 2 \\sqrt{6}",
+          "math_latex": "3 + 2 \\sqrt{6}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 \\sqrt{6}",
+        "explanation": "The positive geometric mean of positive a,b is √(ab)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-02",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.2",
+      "instruction": "Find the geometric mean between the two numbers.",
+      "stem": "Find the geometric mean between the two numbers. \\frac{1}{2}\\quad\\text{and}\\quad 2",
+      "math_latex": "\\frac{1}{2}\\quad\\text{and}\\quad 2",
+      "options": [
+        {
+          "id": "A",
+          "text": "-1",
+          "math_latex": "-1"
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "math_latex": "2"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "1",
+          "math_latex": "1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "1",
+        "explanation": "The positive geometric mean of positive a,b is √(ab)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-03",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.3",
+      "instruction": "Find all of x, y and z in simplest exact form.",
+      "stem": "Find all of x, y and z in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})",
+          "math_latex": "(x,y,z)=(\\sqrt{184},\\sqrt{713},\\sqrt{248})"
+        },
+        {
+          "id": "B",
+          "text": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})",
+          "math_latex": "(x,y,z)=(\\sqrt{248},\\sqrt{184},\\sqrt{713})"
+        },
+        {
+          "id": "C",
+          "text": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})",
+          "math_latex": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})"
+        },
+        {
+          "id": "D",
+          "text": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})",
+          "math_latex": "(x,y,z)=(\\sqrt{31},\\sqrt{184},\\sqrt{248})"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(x,y,z)=(2\\sqrt{46},2\\sqrt{62},\\sqrt{713})",
+        "explanation": "Hypotenuse=8+23=31. Altitude²=8·23; each leg²=hypotenuse times its adjacent projection."
+      },
+      "diagram_asset_ids": [
+        "q15_11"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q15-MCQ-04",
+      "learning_outcome_id": "LO15",
+      "type": "mcq",
+      "display_number": "15.4",
+      "instruction": "Find all of x, y and z in simplest exact form.",
+      "stem": "Find all of x, y and z in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y,z)=(10,10,10\\sqrt2)",
+          "math_latex": "(x,y,z)=(10,10,10\\sqrt2)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y,z)=(15,5,10\\sqrt3)",
+          "math_latex": "(x,y,z)=(15,5,10\\sqrt3)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y,z)=(5,15,10\\sqrt3)",
+          "math_latex": "(x,y,z)=(5,15,10\\sqrt3)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y,z)=(15,5,5\\sqrt3)",
+          "math_latex": "(x,y,z)=(15,5,5\\sqrt3)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(x,y,z)=(15,5,10\\sqrt3)",
+        "explanation": "10²=20y gives y=5, so x=15. Then z²=20·15=300."
+      },
+      "diagram_asset_ids": [
+        "q15_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "pdf_page": 109,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q16-MCQ-01",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.1",
+      "instruction": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "17",
+          "math_latex": "17"
+        },
+        {
+          "id": "B",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "C",
+          "text": "20",
+          "math_latex": "20"
+        },
+        {
+          "id": "D",
+          "text": "15",
+          "math_latex": "15"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "15",
+        "explanation": "x²+8²=17², giving x=15."
+      },
+      "diagram_asset_ids": [
+        "q16_7"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "7",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q16-MCQ-02",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.2",
+      "instruction": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "49",
+          "math_latex": "49"
+        },
+        {
+          "id": "B",
+          "text": "56",
+          "math_latex": "56"
+        },
+        {
+          "id": "C",
+          "text": "51",
+          "math_latex": "51"
+        },
+        {
+          "id": "D",
+          "text": "53",
+          "math_latex": "53"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "51",
+        "explanation": "x²=45²+24²=2601, giving x=51."
+      },
+      "diagram_asset_ids": [
+        "q16_8"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "8",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q16-MCQ-03",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.3",
+      "instruction": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "105",
+          "math_latex": "105"
+        },
+        {
+          "id": "B",
+          "text": "100",
+          "math_latex": "100"
+        },
+        {
+          "id": "C",
+          "text": "102",
+          "math_latex": "102"
+        },
+        {
+          "id": "D",
+          "text": "98",
+          "math_latex": "98"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "100",
+        "explanation": "x²=28²+96²=10000, giving x=100."
+      },
+      "diagram_asset_ids": [
+        "q16_9"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q16-MCQ-04",
+      "learning_outcome_id": "LO16",
+      "type": "mcq",
+      "display_number": "16.4",
+      "instruction": "Use a Pythagorean triple to find x.",
+      "stem": "Use a Pythagorean triple to find x.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "13",
+          "math_latex": "13"
+        },
+        {
+          "id": "B",
+          "text": "15",
+          "math_latex": "15"
+        },
+        {
+          "id": "C",
+          "text": "11",
+          "math_latex": "11"
+        },
+        {
+          "id": "D",
+          "text": "18",
+          "math_latex": "18"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "13",
+        "explanation": "x²=5²+12²=169, giving x=13."
+      },
+      "diagram_asset_ids": [
+        "q16_10"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "pdf_page": 115,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q17-MCQ-01",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.1",
+      "instruction": "Find x and y in simplest exact form.",
+      "stem": "Find x and y in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(8\\sqrt3,16)",
+          "math_latex": "(x,y)=(8\\sqrt3,16)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(8,8\\sqrt3)",
+          "math_latex": "(x,y)=(8,8\\sqrt3)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(8,16)",
+          "math_latex": "(x,y)=(8,16)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(16,8)",
+          "math_latex": "(x,y)=(16,8)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "(x,y)=(8,16)",
+        "explanation": "In a 30–60–90 triangle, the sides are s, s√3, 2s. Here s√3=8√3."
+      },
+      "diagram_asset_ids": [
+        "q17_19"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "19",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q17-MCQ-02",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.2",
+      "instruction": "Find x and y in simplest exact form.",
+      "stem": "Find x and y in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(10,10\\sqrt3)",
+          "math_latex": "(x,y)=(10,10\\sqrt3)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(10,20)",
+          "math_latex": "(x,y)=(10,20)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(20,10)",
+          "math_latex": "(x,y)=(20,10)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(10\\sqrt3,20)",
+          "math_latex": "(x,y)=(10\\sqrt3,20)"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "(x,y)=(10,20)",
+        "explanation": "The long leg is 10√3, so the short leg is 10 and hypotenuse 20."
+      },
+      "diagram_asset_ids": [
+        "q17_20"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "20",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q17-MCQ-03",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.3",
+      "instruction": "Find x and y in simplest exact form.",
+      "stem": "Find x and y in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(\\frac{15\\sqrt3}{2},\\frac{15}{2})",
+          "math_latex": "(x,y)=(\\frac{15\\sqrt3}{2},\\frac{15}{2})"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(\\frac{15}{2},\\frac{15\\sqrt3}{2})",
+          "math_latex": "(x,y)=(\\frac{15}{2},\\frac{15\\sqrt3}{2})"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(15\\sqrt3,15)",
+          "math_latex": "(x,y)=(15\\sqrt3,15)"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(\\frac{15\\sqrt2}{2},\\frac{15}{2})",
+          "math_latex": "(x,y)=(\\frac{15\\sqrt2}{2},\\frac{15}{2})"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "(x,y)=(\\frac{15\\sqrt3}{2},\\frac{15}{2})",
+        "explanation": "The hypotenuse is 15. Opposite 30° is y=15/2 and the adjacent long leg is x=15√3/2."
+      },
+      "diagram_asset_ids": [
+        "q17_21"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "21",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q17-MCQ-04",
+      "learning_outcome_id": "LO17",
+      "type": "mcq",
+      "display_number": "17.4",
+      "instruction": "Find x and y in simplest exact form.",
+      "stem": "Find x and y in simplest exact form.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x,y)=(14,28)",
+          "math_latex": "(x,y)=(14,28)"
+        },
+        {
+          "id": "B",
+          "text": "(x,y)=(14\\sqrt3,28\\sqrt3)",
+          "math_latex": "(x,y)=(14\\sqrt3,28\\sqrt3)"
+        },
+        {
+          "id": "C",
+          "text": "(x,y)=(\\frac{28\\sqrt3}{3},\\frac{14\\sqrt3}{3})",
+          "math_latex": "(x,y)=(\\frac{28\\sqrt3}{3},\\frac{14\\sqrt3}{3})"
+        },
+        {
+          "id": "D",
+          "text": "(x,y)=(\\frac{14\\sqrt3}{3},\\frac{28\\sqrt3}{3})",
+          "math_latex": "(x,y)=(\\frac{14\\sqrt3}{3},\\frac{28\\sqrt3}{3})"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "(x,y)=(\\frac{14\\sqrt3}{3},\\frac{28\\sqrt3}{3})",
+        "explanation": "The long leg is 14, so the short leg x=14/√3 and hypotenuse y=2x."
+      },
+      "diagram_asset_ids": [
+        "q17_24"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "pdf_page": 128,
+        "exercise": "24",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q18-MCQ-01",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.1",
+      "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx6.9\\\\GH\\approx13.0\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx6.9\\\\GH\\approx13.0\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx20.8\\\\GH\\approx17.6\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx20.8\\\\GH\\approx17.6\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}\\angle G=32^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle G=32^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\begin{gathered}\\angle G=58^\\circ\\\\FH\\approx17.6\\\\GH\\approx20.8\\end{gathered}",
+        "explanation": "GF=11 is opposite H=32°. GH=11/sin32° and FH=11/tan32°."
+      },
+      "diagram_asset_ids": [
+        "q18_22"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 192,
+        "pdf_page": 136,
+        "exercise": "22",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q18-MCQ-02",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.2",
+      "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx9.8\\\\XZ\\approx15.1\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx9.8\\\\XZ\\approx15.1\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}\\angle W=57^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle W=57^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx21.5\\\\XZ\\approx33.1\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx21.5\\\\XZ\\approx33.1\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "\\begin{gathered}\\angle W=33^\\circ\\\\WX\\approx15.1\\\\XZ\\approx9.8\\end{gathered}",
+        "explanation": "WZ=18 is the hypotenuse. WX=18 sin57°, XZ=18 cos57°."
+      },
+      "diagram_asset_ids": [
+        "q18_23"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 192,
+        "pdf_page": 136,
+        "exercise": "23",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q18-MCQ-03",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.3",
+      "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx3.7\\\\RT\\approx5.9\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx3.7\\\\RT\\approx5.9\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}\\angle R=32^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle R=32^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx8.3\\\\RT\\approx13.2\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx8.3\\\\RT\\approx13.2\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\begin{gathered}\\angle R=58^\\circ\\\\ST\\approx5.9\\\\RT\\approx3.7\\end{gathered}",
+        "explanation": "SR=7 is the hypotenuse. ST=7 cos32°, RT=7 sin32°."
+      },
+      "diagram_asset_ids": [
+        "q18_25"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 192,
+        "pdf_page": 136,
+        "exercise": "25",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q18-MCQ-04",
+      "learning_outcome_id": "LO18",
+      "type": "mcq",
+      "display_number": "18.4",
+      "instruction": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "stem": "Solve the right triangle. Round sides to the nearest tenth and acute angles to the nearest degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM\\approx25.5\\\\QN=18\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM\\approx25.5\\\\QN=18\\end{gathered}"
+        },
+        {
+          "id": "B",
+          "text": "\\begin{gathered}\\angle N=90^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle N=90^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}"
+        },
+        {
+          "id": "C",
+          "text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}"
+        },
+        {
+          "id": "D",
+          "text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN=36\\end{gathered}",
+          "math_latex": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN=36\\end{gathered}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\begin{gathered}\\angle N=45^\\circ\\\\QM=18\\\\QN\\approx25.5\\end{gathered}",
+        "explanation": "The acute angles are both 45°. The equal legs are 18, and the hypotenuse is 18√2."
+      },
+      "diagram_asset_ids": [
+        "q18_27"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 192,
+        "pdf_page": 136,
+        "exercise": "27",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q19-MCQ-01",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.1",
+      "instruction": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
+      "stem": "A lighthouse light is 30 m above sea level. Sailors see it at a 25° angle of elevation. How far is the ship from shore, to the nearest metre?",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "64",
+          "math_latex": "64"
+        },
+        {
+          "id": "B",
+          "text": "65",
+          "math_latex": "65"
+        },
+        {
+          "id": "C",
+          "text": "63",
+          "math_latex": "63"
+        },
+        {
+          "id": "D",
+          "text": "69",
+          "math_latex": "69"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "64",
+        "explanation": "tan25°=30/d, so d≈64.335 m, which rounds to 64 m."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "1",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q19-MCQ-02",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.2",
+      "instruction": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
+      "stem": "A water tower is 110 ft from a student and is 32.5 ft high. The student’s eye level is 6 ft. Find the angle of elevation to the nearest tenth of a degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{29}{2}",
+          "math_latex": "\\frac{29}{2}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{25}{2}",
+          "math_latex": "\\frac{25}{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{37}{2}",
+          "math_latex": "\\frac{37}{2}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{27}{2}",
+          "math_latex": "\\frac{27}{2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{27}{2}",
+        "explanation": "The vertical difference is 32.5−6=26.5 ft. θ=tan⁻¹(26.5/110)≈13.5°."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "2",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q19-MCQ-03",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.3",
+      "instruction": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
+      "stem": "A ladder reaches a 30-ft roof and makes a 55° angle with the ground. How far is its foot from the wall, to the nearest foot?",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "20",
+          "math_latex": "20"
+        },
+        {
+          "id": "B",
+          "text": "26",
+          "math_latex": "26"
+        },
+        {
+          "id": "C",
+          "text": "21",
+          "math_latex": "21"
+        },
+        {
+          "id": "D",
+          "text": "22",
+          "math_latex": "22"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "21",
+        "explanation": "The horizontal distance is 30/tan55°≈21.006 ft, so 21 ft."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "3",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q19-MCQ-04",
+      "learning_outcome_id": "LO19",
+      "type": "mcq",
+      "display_number": "19.4",
+      "instruction": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
+      "stem": "Nabuko is 60 m from a cliff with bridges 100 m high. Her line of sight is 5 m above the ground. Find the elevation angle to the nearest tenth of a degree.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{627}{10}",
+          "math_latex": "\\frac{627}{10}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{577}{10}",
+          "math_latex": "\\frac{577}{10}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{587}{10}",
+          "math_latex": "\\frac{587}{10}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{567}{10}",
+          "math_latex": "\\frac{567}{10}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{577}{10}",
+        "explanation": "Use the actual eye-to-top difference 100−5=95 m: θ=tan⁻¹(95/60)."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 199,
+        "pdf_page": 143,
+        "exercise": "4",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q20-MCQ-01",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.1",
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{633}{10}",
+          "math_latex": "\\frac{633}{10}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{643}{10}",
+          "math_latex": "\\frac{643}{10}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{623}{5}",
+          "math_latex": "\\frac{623}{5}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{623}{10}",
+          "math_latex": "\\frac{623}{10}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{623}{10}",
+        "explanation": "A=½ab sin C=½(11)(14)sin(54°)≈62.3."
+      },
+      "diagram_asset_ids": [
+        "q20_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q20-MCQ-02",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.2",
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{219}{5}",
+          "math_latex": "\\frac{219}{5}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{418}{5}",
+          "math_latex": "\\frac{418}{5}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{209}{5}",
+          "math_latex": "\\frac{209}{5}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{214}{5}",
+          "math_latex": "\\frac{214}{5}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{209}{5}",
+        "explanation": "A=½ab sin C=½(8.5)(12)sin(125°)≈41.8."
+      },
+      "diagram_asset_ids": [
+        "q20_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q20-MCQ-03",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.3",
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "143",
+          "math_latex": "143"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{143}{2}",
+          "math_latex": "\\frac{143}{2}"
+        },
+        {
+          "id": "C",
+          "text": "\\frac{145}{2}",
+          "math_latex": "\\frac{145}{2}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{147}{2}",
+          "math_latex": "\\frac{147}{2}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{143}{2}",
+        "explanation": "A=½ab sin C=½(15)(18)sin(32°)≈71.5."
+      },
+      "diagram_asset_ids": [
+        "q20_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q20-MCQ-04",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
+      "display_number": "20.4",
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "19",
+          "math_latex": "19"
+        },
+        {
+          "id": "B",
+          "text": "20",
+          "math_latex": "20"
+        },
+        {
+          "id": "C",
+          "text": "21",
+          "math_latex": "21"
+        },
+        {
+          "id": "D",
+          "text": "38",
+          "math_latex": "38"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "19",
+        "explanation": "A=½ab sin C=½(9)(10)sin(155°)≈19.0."
+      },
+      "diagram_asset_ids": [
+        "q20_16"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q21-FRQ-01",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.1",
+      "instruction": "Factor completely using integers.",
+      "stem": "Factor completely using integers. - 72 p^{2} + 8 x^{2}",
+      "math_latex": "- 72 p^{2} + 8 x^{2}",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your factorisation and check by expansion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Extract any greatest common factor, then use the difference-of-squares or perfect-square identity. Correct method (5), complete factors and check (5).",
+            "math_latex": "8 \\left(- 3 p + x\\right) \\left(3 p + x\\right)"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 680,
+        "pdf_page": 54,
+        "exercise": "35",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q21-FRQ-02",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.2",
+      "instruction": "Factor completely using integers.",
+      "stem": "Factor completely using integers. 16 b^{2} - 100",
+      "math_latex": "16 b^{2} - 100",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your factorisation and check by expansion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Extract any greatest common factor, then use the difference-of-squares or perfect-square identity. Correct method (5), complete factors and check (5).",
+            "math_latex": "4 \\left(2 b - 5\\right) \\left(2 b + 5\\right)"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 680,
+        "pdf_page": 54,
+        "exercise": "38",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q21-FRQ-03",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.3",
+      "instruction": "Determine whether this is a perfect-square trinomial; if so, factor it.",
+      "stem": "Determine whether this is a perfect-square trinomial; if so, factor it. 9 z^{2} - 6 z + 1",
+      "math_latex": "9 z^{2} - 6 z + 1",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your factorisation and check by expansion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Yes; Extract any greatest common factor, then use the difference-of-squares or perfect-square identity. Correct method (5), complete factors and check (5).",
+            "math_latex": "\\left(3 z - 1\\right)^{2}"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 681,
+        "pdf_page": 55,
+        "exercise": "51",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q21-FRQ-04",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.4",
+      "instruction": "Determine whether this is a perfect-square trinomial; if so, factor it.",
+      "stem": "Determine whether this is a perfect-square trinomial; if so, factor it. 36 x^{2} - 60 x + 25",
+      "math_latex": "36 x^{2} - 60 x + 25",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show your factorisation and check by expansion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Yes; Extract any greatest common factor, then use the difference-of-squares or perfect-square identity. Correct method (5), complete factors and check (5).",
+            "math_latex": "\\left(6 x - 5\\right)^{2}"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "c01f671ac4e5dc4e59860a1aa89e55f4e6b2b9d3b251229ee36d6bfe343433bb",
+        "printed_page": 681,
+        "pdf_page": 55,
+        "exercise": "52",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q22-FRQ-01",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.1",
+      "instruction": "The given angle is an interior angle of a regular polygon. Find the number of sides.",
+      "stem": "The given angle is an interior angle of a regular polygon. Find the number of sides. 144^\\circ",
+      "math_latex": "144^\\circ",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show an equation and solve for n.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Exterior angle=180−144=36°. Therefore n=360/36=10. Correct exterior angle (3), equation (3), number of sides (4).",
+            "math_latex": "n=10"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "9",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q22-FRQ-02",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.2",
+      "instruction": "The given angle is an interior angle of a regular polygon. Find the number of sides.",
+      "stem": "The given angle is an interior angle of a regular polygon. Find the number of sides. 160^\\circ",
+      "math_latex": "160^\\circ",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show an equation and solve for n.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Exterior angle=180−160=20°. Therefore n=360/20=18. Correct exterior angle (3), equation (3), number of sides (4).",
+            "math_latex": "n=18"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "11",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q22-FRQ-03",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.3",
+      "instruction": "Find x in the diagram.",
+      "stem": "Find x in the diagram.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show how you use the exterior-angle sum.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The exterior angles sum to 360° (3). Combine all labelled exterior angles: 9x+27=360 (4), so x=37 (3).",
+            "math_latex": "x=37"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq22_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "15",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q22-FRQ-04",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.4",
+      "instruction": "Find x in the diagram.",
+      "stem": "Find x in the diagram.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show how you use the exterior-angle sum.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The exterior angles sum to 360° (3). Combine all labelled exterior angles: 4x+76=360 (4), so x=71 (3).",
+            "math_latex": "x=71"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq22_18"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 64,
+        "pdf_page": 8,
+        "exercise": "18",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-01",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.1",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The vertical angles at J are equal and H,K are right angles. 8/4=10/x gives x=5. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle IHJ\\sim\\triangle LKJ,\\quad x=5"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_5"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "5",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-02",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.2",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Both have a right angle at E and a marked 25° angle. 12/18=8/x gives x=12. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle ABE\\sim\\triangle DCE,\\quad x=12"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_6"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "6",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-03",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.3",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The ratios 9/4=6.75/3=2.25 agree. The hypotenuse x=5·2.25=11.25. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle UVW\\sim\\triangle RTS,\\quad x=\\frac{45}{4}"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_7"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "7",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-04",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.4",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Use the marked angles at M,K and vertical angles at L. 4/x=8/6 gives x=3. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle MNL\\sim\\triangle KJL,\\quad x=3"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_8"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "8",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q24-FRQ-01",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.1",
+      "instruction": "Find the midpoint of the segment joining the two points.",
+      "stem": "Find the midpoint of the segment joining the two points. K(-2,-4,-4),\\quad L(4,2,0)",
+      "math_latex": "K(-2,-4,-4),\\quad L(4,2,0)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the coordinates of midpoint M.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "Average the corresponding x, y and z coordinates separately. Correct component calculations and complete midpoint.",
+            "math_latex": "M=(1,-1,-2)"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "pdf_page": 121,
+        "exercise": "13",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q24-FRQ-02",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.2",
+      "instruction": "Find the midpoint of the segment joining the two points.",
+      "stem": "Find the midpoint of the segment joining the two points. R(3,3,4),\\quad V(5,4,13)",
+      "math_latex": "R(3,3,4),\\quad V(5,4,13)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the coordinates of midpoint M.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "Average the corresponding x, y and z coordinates separately. Correct component calculations and complete midpoint.",
+            "math_latex": "M=(4,\\frac{7}{2},\\frac{17}{2})"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "pdf_page": 121,
+        "exercise": "15",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q24-FRQ-03",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.3",
+      "instruction": "Find the distance and midpoint of the segment.",
+      "stem": "Find the distance and midpoint of the segment. P(-5,-2,-1),\\quad Q(-1,0,3)",
+      "math_latex": "P(-5,-2,-1),\\quad Q(-1,0,3)",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the distance.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Use d=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]; substitution (3) and simplified exact distance (2).",
+            "math_latex": "d=6"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Determine the coordinates of midpoint M.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "Average the corresponding x, y and z coordinates separately. Correct component calculations and complete midpoint.",
+            "math_latex": "M=(-3,-1,1)"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "pdf_page": 122,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q24-FRQ-04",
+      "learning_outcome_id": "LO24",
+      "type": "frq",
+      "display_number": "24.4",
+      "instruction": "Find the distance and midpoint of the segment.",
+      "stem": "Find the distance and midpoint of the segment. B(\\sqrt{3},2,2 \\sqrt{2}),\\quad C(- 2 \\sqrt{3},4,4 \\sqrt{2})",
+      "math_latex": "B(\\sqrt{3},2,2 \\sqrt{2}),\\quad C(- 2 \\sqrt{3},4,4 \\sqrt{2})",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the distance.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "Use d=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]; substitution (3) and simplified exact distance (2).",
+            "math_latex": "d=\\sqrt{39}"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Determine the coordinates of midpoint M.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 30
+          },
+          "answer": {
+            "model_answer_and_marking": "Average the corresponding x, y and z coordinates separately. Correct component calculations and complete midpoint.",
+            "math_latex": "M=(- \\frac{\\sqrt{3}}{2},3,3 \\sqrt{2})"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "pdf_page": 122,
+        "exercise": "23",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-01",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.1",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=50^\\circ,\\quad a=34,\\quad b=40",
+      "math_latex": "A=50^\\circ,\\quad a=34,\\quad b=40",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=0.90122876. Two solutions; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "B≈64°, C≈66°, c≈40.4; B≈116°, C≈14°, c≈11.0 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "15",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-02",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.2",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=24^\\circ,\\quad a=3,\\quad b=8",
+      "math_latex": "A=24^\\circ,\\quad a=3,\\quad b=8",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=1.08463105. No solution; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B>1, so there is no real angle B and no triangle. Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "16",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-03",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.3",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=125^\\circ,\\quad a=22,\\quad b=15",
+      "math_latex": "A=125^\\circ,\\quad a=22,\\quad b=15",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=0.55851276. One solution; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "B≈34°, C≈21°, c≈9.6 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "17",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q25-FRQ-04",
+      "learning_outcome_id": "LO25",
+      "type": "frq",
+      "display_number": "25.4",
+      "instruction": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree.",
+      "stem": "Determine whether the triangle has no solution, one solution or two solutions. Then solve it. Round sides to the nearest tenth and angles to the nearest degree. A=30^\\circ,\\quad a=2,\\quad b=4",
+      "math_latex": "A=30^\\circ,\\quad a=2,\\quad b=4",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Determine the number of solutions and justify it.",
+          "marks": 4,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 25
+          },
+          "answer": {
+            "model_answer_and_marking": "sin B=b sin A/a=1.00000000. Two solutions; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "math_latex": ""
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give every possible triangle, or explain why none exists.",
+          "marks": 6,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 35
+          },
+          "answer": {
+            "model_answer_and_marking": "B≈90°, C≈60°, c≈3.5; B≈90°, C≈60°, c≈3.5 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 208,
+        "pdf_page": 152,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "id": "LO01",
+      "exam_slot": "Q1",
+      "title": "Polynomial operations",
+      "statement": "Write polynomials in standard form. Add and subtract polynomials.",
+      "rule_summary": "Order terms by decreasing powers. Combine like terms. When subtracting a polynomial, change the sign of every term in the second polynomial.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 635,
+          "exercises_or_section": "10–14, 22–26"
+        }
+      ],
+      "title_ar": "عمليات كثيرات الحدود",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q01-MCQ-01",
+        "G10A-BOOK-Q01-MCQ-02",
+        "G10A-BOOK-Q01-MCQ-03",
+        "G10A-BOOK-Q01-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q01-MCQ-01",
+        "G10A-BOOK-Q01-MCQ-02",
+        "G10A-BOOK-Q01-MCQ-03",
+        "G10A-BOOK-Q01-MCQ-04"
+      ],
+      "download": "LO01.json"
+    },
+    {
+      "id": "LO02",
+      "exam_slot": "Q2",
+      "title": "FOIL and binomial products",
+      "statement": "Multiply binomials by using the FOIL method.",
+      "rule_summary": "(a + b)(c + d) = ac + ad + bc + bd. Combine the two middle products when they are like terms.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 649,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "ضرب ثنائيي الحد بطريقة FOIL",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q02-MCQ-01",
+        "G10A-BOOK-Q02-MCQ-02",
+        "G10A-BOOK-Q02-MCQ-03",
+        "G10A-BOOK-Q02-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q02-MCQ-01",
+        "G10A-BOOK-Q02-MCQ-02",
+        "G10A-BOOK-Q02-MCQ-03",
+        "G10A-BOOK-Q02-MCQ-04"
+      ],
+      "download": "LO02.json"
+    },
+    {
+      "id": "LO03",
+      "exam_slot": "Q3",
+      "title": "Factoring by GCF and grouping",
+      "statement": "Factor polynomials by using the Distributive Property and grouping.",
+      "rule_summary": "Factor out the greatest common factor first. For grouping, arrange terms so both groups contain the same binomial factor.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 665,
+          "exercises_or_section": "11–20"
+        }
+      ],
+      "title_ar": "التحليل بالعامل المشترك والتجميع",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q03-MCQ-01",
+        "G10A-BOOK-Q03-MCQ-02",
+        "G10A-BOOK-Q03-MCQ-03",
+        "G10A-BOOK-Q03-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q03-MCQ-01",
+        "G10A-BOOK-Q03-MCQ-02",
+        "G10A-BOOK-Q03-MCQ-03",
+        "G10A-BOOK-Q03-MCQ-04"
+      ],
+      "download": "LO03.json"
+    },
+    {
+      "id": "LO04",
+      "exam_slot": "Q4",
+      "title": "Factoring monic trinomials",
+      "statement": "Factor trinomials of the form x² + bx + c.",
+      "rule_summary": "Find integers m and n with m + n = b and mn = c. Then x² + bx + c = (x + m)(x + n).",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 671,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "تحليل ثلاثيات الحدود ذات المعامل الرئيسي 1",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q04-MCQ-01",
+        "G10A-BOOK-Q04-MCQ-02",
+        "G10A-BOOK-Q04-MCQ-03",
+        "G10A-BOOK-Q04-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q04-MCQ-01",
+        "G10A-BOOK-Q04-MCQ-02",
+        "G10A-BOOK-Q04-MCQ-03",
+        "G10A-BOOK-Q04-MCQ-04"
+      ],
+      "download": "LO04.json"
+    },
+    {
+      "id": "LO05",
+      "exam_slot": "Q5",
+      "title": "Interior angles of polygons",
+      "statement": "Find and use the sum of the measures of the interior angles of a polygon.",
+      "rule_summary": "For a simple n-sided polygon, the interior angle sum is (n − 2)180°. For a regular polygon, each interior angle is (n − 2)180°/n.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 63,
+          "exercises_or_section": "1–4"
+        }
+      ],
+      "title_ar": "الزوايا الداخلية للمضلعات",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q05-MCQ-01",
+        "G10A-BOOK-Q05-MCQ-02",
+        "G10A-BOOK-Q05-MCQ-03",
+        "G10A-BOOK-Q05-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q05-MCQ-01",
+        "G10A-BOOK-Q05-MCQ-02",
+        "G10A-BOOK-Q05-MCQ-03",
+        "G10A-BOOK-Q05-MCQ-04"
+      ],
+      "download": "LO05.json"
+    },
+    {
+      "id": "LO06",
+      "exam_slot": "Q6",
+      "title": "Properties of parallelograms",
+      "statement": "Recognize and apply the properties of the sides and angles of parallelograms.",
+      "rule_summary": "Opposite sides and opposite angles are congruent. Consecutive angles are supplementary. A diagonal divides a parallelogram into two congruent triangles.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 72,
+          "exercises_or_section": "9–12"
+        }
+      ],
+      "title_ar": "خصائص متوازيات الأضلاع",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q06-MCQ-01",
+        "G10A-BOOK-Q06-MCQ-02",
+        "G10A-BOOK-Q06-MCQ-03",
+        "G10A-BOOK-Q06-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q06-MCQ-01",
+        "G10A-BOOK-Q06-MCQ-02",
+        "G10A-BOOK-Q06-MCQ-03",
+        "G10A-BOOK-Q06-MCQ-04"
+      ],
+      "download": "LO06.json"
+    },
+    {
+      "id": "LO07",
+      "exam_slot": "Q7",
+      "title": "Tests for parallelograms",
+      "statement": "Recognize the conditions that ensure a quadrilateral is a parallelogram.",
+      "rule_summary": "Sufficient tests include both pairs of opposite sides congruent, both pairs of opposite angles congruent, diagonals bisecting each other, or one pair of opposite sides both parallel and congruent.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 75,
+          "exercises_or_section": "Learn section"
+        },
+        {
+          "printed_page": 79,
+          "exercises_or_section": "1–6"
+        }
+      ],
+      "title_ar": "اختبارات متوازي الأضلاع",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q07-MCQ-01",
+        "G10A-BOOK-Q07-MCQ-02",
+        "G10A-BOOK-Q07-MCQ-03",
+        "G10A-BOOK-Q07-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q07-MCQ-01",
+        "G10A-BOOK-Q07-MCQ-02",
+        "G10A-BOOK-Q07-MCQ-03",
+        "G10A-BOOK-Q07-MCQ-04"
+      ],
+      "download": "LO07.json"
+    },
+    {
+      "id": "LO08",
+      "exam_slot": "Q8",
+      "title": "Kites",
+      "statement": "Recognize and apply the properties of kites.",
+      "rule_summary": "In a kite with AB = AD and CB = CD, AC is the symmetry diagonal. AC is perpendicular to BD and bisects BD. The opposite angles at B and D are congruent.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 106,
+          "exercises_or_section": "13–16"
+        }
+      ],
+      "title_ar": "الطائرات الورقية",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q08-MCQ-01",
+        "G10A-BOOK-Q08-MCQ-02",
+        "G10A-BOOK-Q08-MCQ-03",
+        "G10A-BOOK-Q08-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q08-MCQ-01",
+        "G10A-BOOK-Q08-MCQ-02",
+        "G10A-BOOK-Q08-MCQ-03",
+        "G10A-BOOK-Q08-MCQ-04"
+      ],
+      "download": "LO08.json"
+    },
+    {
+      "id": "LO09",
+      "exam_slot": "Q9",
+      "title": "Dilation coordinates",
+      "statement": "Find the scale factor of a dilation.",
+      "rule_summary": "For a dilation centered at the origin, (x, y) maps to (kx, ky). Use image/original to find k, retaining the signs of coordinates.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 120,
+          "exercises_or_section": "13–16"
+        },
+        {
+          "printed_page": 121,
+          "exercises_or_section": "20"
+        }
+      ],
+      "title_ar": "إحداثيات التمدد",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q09-MCQ-01",
+        "G10A-BOOK-Q09-MCQ-02",
+        "G10A-BOOK-Q09-MCQ-03",
+        "G10A-BOOK-Q09-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q09-MCQ-01",
+        "G10A-BOOK-Q09-MCQ-02",
+        "G10A-BOOK-Q09-MCQ-03",
+        "G10A-BOOK-Q09-MCQ-04"
+      ],
+      "download": "LO09.json"
+    },
+    {
+      "id": "LO10",
+      "exam_slot": "Q10",
+      "title": "Similar polygons",
+      "statement": "Solve problems using the properties of similar polygons.",
+      "rule_summary": "Corresponding angles of similar polygons are congruent. Corresponding side lengths have one common ratio. Match vertices in the stated order.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 128,
+          "exercises_or_section": "11–14"
+        }
+      ],
+      "title_ar": "المضلعات المتشابهة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q10-MCQ-01",
+        "G10A-BOOK-Q10-MCQ-02",
+        "G10A-BOOK-Q10-MCQ-03",
+        "G10A-BOOK-Q10-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q10-MCQ-01",
+        "G10A-BOOK-Q10-MCQ-02",
+        "G10A-BOOK-Q10-MCQ-03",
+        "G10A-BOOK-Q10-MCQ-04"
+      ],
+      "download": "LO10.json"
+    },
+    {
+      "id": "LO11",
+      "exam_slot": "Q11",
+      "title": "Dilation scale factors",
+      "statement": "Find the scale factor of a dilation.",
+      "rule_summary": "Scale factor = image length/original length. For positive k, 0 < k < 1 gives a reduction and k > 1 gives an enlargement. A dilation preserves angle measures.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 120,
+          "exercises_or_section": "10–12, 17–18"
+        }
+      ],
+      "title_ar": "معاملات التمدد",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q11-MCQ-01",
+        "G10A-BOOK-Q11-MCQ-02",
+        "G10A-BOOK-Q11-MCQ-03",
+        "G10A-BOOK-Q11-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q11-MCQ-01",
+        "G10A-BOOK-Q11-MCQ-02",
+        "G10A-BOOK-Q11-MCQ-03",
+        "G10A-BOOK-Q11-MCQ-04"
+      ],
+      "download": "LO11.json"
+    },
+    {
+      "id": "LO12",
+      "exam_slot": "Q12",
+      "title": "AA triangle similarity",
+      "statement": "Identify similar triangles using the AA Similarity Postulate.",
+      "rule_summary": "Two pairs of congruent corresponding angles establish triangle similarity. Parallel lines and vertical angles can supply those angle pairs.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 133,
+          "exercises_or_section": "1–8"
+        }
+      ],
+      "title_ar": "تشابه المثلثات بزاويتين",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q12-MCQ-01",
+        "G10A-BOOK-Q12-MCQ-02",
+        "G10A-BOOK-Q12-MCQ-03",
+        "G10A-BOOK-Q12-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q12-MCQ-01",
+        "G10A-BOOK-Q12-MCQ-02",
+        "G10A-BOOK-Q12-MCQ-03",
+        "G10A-BOOK-Q12-MCQ-04"
+      ],
+      "download": "LO12.json"
+    },
+    {
+      "id": "LO13",
+      "exam_slot": "Q13",
+      "title": "Proportional parts in triangles",
+      "statement": "Use proportional parts within triangles.",
+      "rule_summary": "A line parallel to one side of a triangle divides the other two sides proportionally. A triangle midsegment is parallel to the third side and half its length.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 146,
+          "exercises_or_section": "11–16"
+        }
+      ],
+      "title_ar": "الأجزاء المتناسبة في المثلثات",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q13-MCQ-01",
+        "G10A-BOOK-Q13-MCQ-02",
+        "G10A-BOOK-Q13-MCQ-03",
+        "G10A-BOOK-Q13-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q13-MCQ-01",
+        "G10A-BOOK-Q13-MCQ-02",
+        "G10A-BOOK-Q13-MCQ-03",
+        "G10A-BOOK-Q13-MCQ-04"
+      ],
+      "download": "LO13.json"
+    },
+    {
+      "id": "LO14",
+      "exam_slot": "Q14",
+      "title": "Parts of similar triangles",
+      "statement": "Recognize and use proportional relationships of corresponding angle bisectors, altitudes, and medians of similar triangles.",
+      "rule_summary": "Corresponding altitudes, medians, and angle-bisector lengths of similar triangles have the same ratio as corresponding sides. Within one triangle, an angle bisector divides the opposite side in the ratio of the adjacent sides.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 153,
+          "exercises_or_section": "1–11"
+        }
+      ],
+      "title_ar": "أجزاء المثلثات المتشابهة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q14-MCQ-01",
+        "G10A-BOOK-Q14-MCQ-02",
+        "G10A-BOOK-Q14-MCQ-03",
+        "G10A-BOOK-Q14-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q14-MCQ-01",
+        "G10A-BOOK-Q14-MCQ-02",
+        "G10A-BOOK-Q14-MCQ-03",
+        "G10A-BOOK-Q14-MCQ-04"
+      ],
+      "download": "LO14.json"
+    },
+    {
+      "id": "LO15",
+      "exam_slot": "Q15",
+      "title": "Geometric mean",
+      "statement": "Find the geometric mean between two numbers.",
+      "rule_summary": "The geometric mean of positive a and b is √(ab). For a right triangle with altitude h to a hypotenuse split into p and q, h² = pq. A leg squared equals the whole hypotenuse times its adjacent hypotenuse segment.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 165,
+          "exercises_or_section": "1–6, 11–14"
+        }
+      ],
+      "title_ar": "الوسط الهندسي",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q15-MCQ-01",
+        "G10A-BOOK-Q15-MCQ-02",
+        "G10A-BOOK-Q15-MCQ-03",
+        "G10A-BOOK-Q15-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q15-MCQ-01",
+        "G10A-BOOK-Q15-MCQ-02",
+        "G10A-BOOK-Q15-MCQ-03",
+        "G10A-BOOK-Q15-MCQ-04"
+      ],
+      "download": "LO15.json"
+    },
+    {
+      "id": "LO16",
+      "exam_slot": "Q16",
+      "title": "Pythagorean theorem and converse",
+      "statement": "Use the Pythagorean Theorem and its converse.",
+      "rule_summary": "For a right triangle, a² + b² = c² with c the hypotenuse. For valid side lengths and longest side c, compare c² with a² + b² to classify the triangle.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 171,
+          "exercises_or_section": "7–12"
+        },
+        {
+          "printed_page": 172,
+          "exercises_or_section": "20–22"
+        }
+      ],
+      "title_ar": "نظرية فيثاغورس وعكسها",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q16-MCQ-01",
+        "G10A-BOOK-Q16-MCQ-02",
+        "G10A-BOOK-Q16-MCQ-03",
+        "G10A-BOOK-Q16-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q16-MCQ-01",
+        "G10A-BOOK-Q16-MCQ-02",
+        "G10A-BOOK-Q16-MCQ-03",
+        "G10A-BOOK-Q16-MCQ-04"
+      ],
+      "download": "LO16.json"
+    },
+    {
+      "id": "LO17",
+      "exam_slot": "Q17",
+      "title": "Special right triangles",
+      "statement": "Use the properties of 45°–45°–90° and 30°–60°–90° triangles.",
+      "rule_summary": "45°–45°–90° side ratio is 1:1:√2. In a 30°–60°–90° triangle, sides opposite 30°, 60°, and 90° have ratio 1:√3:2.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 184,
+          "exercises_or_section": "19–25"
+        },
+        {
+          "printed_page": 185,
+          "exercises_or_section": "33–38"
+        }
+      ],
+      "title_ar": "المثلثات القائمة الخاصة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q17-MCQ-01",
+        "G10A-BOOK-Q17-MCQ-02",
+        "G10A-BOOK-Q17-MCQ-03",
+        "G10A-BOOK-Q17-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q17-MCQ-01",
+        "G10A-BOOK-Q17-MCQ-02",
+        "G10A-BOOK-Q17-MCQ-03",
+        "G10A-BOOK-Q17-MCQ-04"
+      ],
+      "download": "LO17.json"
+    },
+    {
+      "id": "LO18",
+      "exam_slot": "Q18",
+      "title": "Right-triangle trigonometry",
+      "statement": "Use trigonometric ratios to find side lengths and angle measures of right triangles.",
+      "rule_summary": "sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ = opposite/adjacent. Use inverse ratios for angles. Set a scientific calculator to degrees.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 192,
+          "exercises_or_section": "22–27"
+        },
+        {
+          "printed_page": 193,
+          "exercises_or_section": "30–32"
+        }
+      ],
+      "title_ar": "النسب المثلثية في المثلث القائم",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q18-MCQ-01",
+        "G10A-BOOK-Q18-MCQ-02",
+        "G10A-BOOK-Q18-MCQ-03",
+        "G10A-BOOK-Q18-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q18-MCQ-01",
+        "G10A-BOOK-Q18-MCQ-02",
+        "G10A-BOOK-Q18-MCQ-03",
+        "G10A-BOOK-Q18-MCQ-04"
+      ],
+      "download": "LO18.json"
+    },
+    {
+      "id": "LO19",
+      "exam_slot": "Q19",
+      "title": "Angles of elevation and depression",
+      "statement": "Use trigonometric ratios to find side lengths and angle measures of right triangles.",
+      "rule_summary": "Angles of elevation and depression are measured from horizontal lines. Use vertical height differences, including eye height when given.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 199,
+          "exercises_or_section": "1–7"
+        }
+      ],
+      "title_ar": "زوايا الارتفاع والانخفاض",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q19-MCQ-01",
+        "G10A-BOOK-Q19-MCQ-02",
+        "G10A-BOOK-Q19-MCQ-03",
+        "G10A-BOOK-Q19-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q19-MCQ-01",
+        "G10A-BOOK-Q19-MCQ-02",
+        "G10A-BOOK-Q19-MCQ-03",
+        "G10A-BOOK-Q19-MCQ-04"
+      ],
+      "download": "LO19.json"
+    },
+    {
+      "id": "LO20",
+      "exam_slot": "Q20",
+      "title": "Area with two sides and an angle",
+      "statement": "Find the area of a triangle using two sides and an included angle.",
+      "rule_summary": "Area = ½ab sin C, where C is the included angle between sides a and b. If two other angles are given, find the included angle using the 180° sum.",
+      "question_type": "mcq",
+      "textbook_references": [
+        {
+          "printed_page": 200,
+          "exercises_or_section": "13–18"
+        },
+        {
+          "printed_page": 201,
+          "exercises_or_section": "19–21"
+        }
+      ],
+      "title_ar": "المساحة بضلعين والزاوية المحصورة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q20-MCQ-01",
+        "G10A-BOOK-Q20-MCQ-02",
+        "G10A-BOOK-Q20-MCQ-03",
+        "G10A-BOOK-Q20-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q20-MCQ-01",
+        "G10A-BOOK-Q20-MCQ-02",
+        "G10A-BOOK-Q20-MCQ-03",
+        "G10A-BOOK-Q20-MCQ-04"
+      ],
+      "download": "LO20.json"
+    },
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Special-product factorization",
+      "statement": "Factor binomials that are differences of squares and factor perfect square trinomials.",
+      "rule_summary": "A² − B² = (A − B)(A + B). A² ± 2AB + B² = (A ± B)². Extract the GCF before applying a special-product pattern.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 680,
+          "exercises_or_section": "35–41"
+        },
+        {
+          "printed_page": 681,
+          "exercises_or_section": "51–56"
+        }
+      ],
+      "title_ar": "التحليل باستعمال المتطابقات الخاصة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q21-FRQ-01",
+        "G10A-BOOK-Q21-FRQ-02",
+        "G10A-BOOK-Q21-FRQ-03",
+        "G10A-BOOK-Q21-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q21-FRQ-01",
+        "G10A-BOOK-Q21-FRQ-02",
+        "G10A-BOOK-Q21-FRQ-03",
+        "G10A-BOOK-Q21-FRQ-04"
+      ],
+      "download": "LO21.json"
+    },
+    {
+      "id": "LO22",
+      "exam_slot": "Q22",
+      "title": "Interior and exterior angle reasoning",
+      "statement": "a) Prove and use the Polygon Interior Angles Sum Theorem. b) Find and use the sum of exterior angles of a polygon.",
+      "rule_summary": "For a convex polygon, diagonals from one vertex form n − 2 triangles. Interior sum = (n − 2)180°. One exterior angle at each vertex, taken consistently around the polygon, sums to 360°.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 64,
+          "exercises_or_section": "9–14, 15–18"
+        }
+      ],
+      "title_ar": "الاستدلال بالزوايا الداخلية والخارجية",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q22-FRQ-01",
+        "G10A-BOOK-Q22-FRQ-02",
+        "G10A-BOOK-Q22-FRQ-03",
+        "G10A-BOOK-Q22-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q22-FRQ-01",
+        "G10A-BOOK-Q22-FRQ-02",
+        "G10A-BOOK-Q22-FRQ-03",
+        "G10A-BOOK-Q22-FRQ-04"
+      ],
+      "download": "LO22.json"
+    },
+    {
+      "id": "LO23",
+      "exam_slot": "Q23",
+      "title": "Solving with similar triangles",
+      "statement": "Use similar triangles to solve problems.",
+      "rule_summary": "Establish similarity by AA, SAS, or SSS. Write corresponding vertices in order, set up a proportion, and solve. Check that all lengths use the same units.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 139,
+          "exercises_or_section": "5–11"
+        }
+      ],
+      "title_ar": "حل المسائل باستعمال المثلثات المتشابهة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q23-FRQ-01",
+        "G10A-BOOK-Q23-FRQ-02",
+        "G10A-BOOK-Q23-FRQ-03",
+        "G10A-BOOK-Q23-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q23-FRQ-01",
+        "G10A-BOOK-Q23-FRQ-02",
+        "G10A-BOOK-Q23-FRQ-03",
+        "G10A-BOOK-Q23-FRQ-04"
+      ],
+      "download": "LO23.json"
+    },
+    {
+      "id": "LO24",
+      "exam_slot": "Q24",
+      "title": "Distance and midpoint in space",
+      "statement": "Use Distance and Midpoint Formulas in Space.",
+      "rule_summary": "Distance = √[(x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²]. Midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2).",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 177,
+          "exercises_or_section": "13–18"
+        },
+        {
+          "printed_page": 178,
+          "exercises_or_section": "19–24"
+        }
+      ],
+      "title_ar": "المسافة ومنتصف القطعة في الفراغ",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q24-FRQ-01",
+        "G10A-BOOK-Q24-FRQ-02",
+        "G10A-BOOK-Q24-FRQ-03",
+        "G10A-BOOK-Q24-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q24-FRQ-01",
+        "G10A-BOOK-Q24-FRQ-02",
+        "G10A-BOOK-Q24-FRQ-03",
+        "G10A-BOOK-Q24-FRQ-04"
+      ],
+      "download": "LO24.json"
+    },
+    {
+      "id": "LO25",
+      "exam_slot": "Q25",
+      "title": "Law of Sines and the ambiguous case",
+      "statement": "Determine whether three given measures define 0, 1, or 2 triangles using the Law of Sines.",
+      "rule_summary": "Use a/sin A = b/sin B. For SSA, sin B = b sin A/a. Test both B₁ = sin⁻¹(value) and B₂ = 180° − B₁, accepting only cases with A + B < 180°. Opposite sides and angles share letters.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 208,
+          "exercises_or_section": "15–26"
+        }
+      ],
+      "title_ar": "قانون الجيوب والحالة المبهمة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q25-FRQ-01",
+        "G10A-BOOK-Q25-FRQ-02",
+        "G10A-BOOK-Q25-FRQ-03",
+        "G10A-BOOK-Q25-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q25-FRQ-01",
+        "G10A-BOOK-Q25-FRQ-02",
+        "G10A-BOOK-Q25-FRQ-03",
+        "G10A-BOOK-Q25-FRQ-04"
+      ],
+      "download": "LO25.json"
+    }
+  ]
+}

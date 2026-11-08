@@ -1,0 +1,182 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO21",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO21",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Evaluate algebraic expressions",
+      "title_ar": "إيجاد قيم التعابير الجبرية",
+      "statement": "Evaluate algebraic expressions",
+      "question_type": "frq",
+      "rule_summary": "Substitute first, then powers, multiplication/division, addition/subtraction.",
+      "textbook_references": [
+        {
+          "printed_page": 19,
+          "exercises_or_section": "42–45"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q21-FRQ-01",
+        "G9G-BOOK-Q21-FRQ-02",
+        "G9G-BOOK-Q21-FRQ-03",
+        "G9G-BOOK-Q21-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q21-FRQ-01",
+        "G9G-BOOK-Q21-FRQ-02",
+        "G9G-BOOK-Q21-FRQ-03",
+        "G9G-BOOK-Q21-FRQ-04"
+      ],
+      "download": "LO21.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q21-FRQ-01",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.1",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. g+6t",
+      "math_latex": "g+6t",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "2+6(11)=2+66=68. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "68"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "42",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-02",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.2",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. 7-gr",
+      "math_latex": "7-gr",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "7−2(3)=7−6=1. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "1"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "43",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-03",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.3",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. r^2+(g^3-8)^5",
+      "math_latex": "r^2+(g^3-8)^5",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "3²+(2³−8)⁵=9+0=9. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "9"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "44",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q21-FRQ-04",
+      "learning_outcome_id": "LO21",
+      "type": "frq",
+      "display_number": "21.4",
+      "instruction": "Evaluate if g=2, r=3, and t=11.",
+      "stem": "Evaluate if g=2, r=3, and t=11. (2t+3g)\\div4",
+      "math_latex": "(2t+3g)\\div4",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show substitutions and evaluate.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 18
+          },
+          "answer": {
+            "model_answer_and_marking": "(2·11+3·2)/4=(22+6)/4=7. Substitution (3), order of operations (4), final answer (3).",
+            "math_latex": "7"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 19,
+        "pdf_page": 19,
+        "exercise": "45",
+        "adaptation": "transcription"
+      }
+    }
+  ],
+  "assets": {}
+}

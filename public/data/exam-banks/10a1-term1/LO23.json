@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO23",
     "classroom": "10A1",
     "learning_outcome_id": "LO23",
-    "question_count": 3,
-    "mcq_count": 0,
-    "frq_count": 3
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,239 +18,250 @@
           "printed_page": 139,
           "exercises_or_section": "5–11"
         }
-      ]
+      ],
+      "title_ar": "حل المسائل باستعمال المثلثات المتشابهة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q23-FRQ-01",
+        "G10A-BOOK-Q23-FRQ-02",
+        "G10A-BOOK-Q23-FRQ-03",
+        "G10A-BOOK-Q23-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q23-FRQ-01",
+        "G10A-BOOK-Q23-FRQ-02",
+        "G10A-BOOK-Q23-FRQ-03",
+        "G10A-BOOK-Q23-FRQ-04"
+      ],
+      "download": "LO23.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10A-BOOK-Q23-FRQ-01",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.1",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The vertical angles at J are equal and H,K are right angles. 8/4=10/x gives x=5. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle IHJ\\sim\\triangle LKJ,\\quad x=5"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_5"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "5",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-02",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.2",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Both have a right angle at E and a marked 25° angle. 12/18=8/x gives x=12. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle ABE\\sim\\triangle DCE,\\quad x=12"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_6"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "6",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-03",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.3",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "The ratios 9/4=6.75/3=2.25 agree. The hypotenuse x=5·2.25=11.25. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle UVW\\sim\\triangle RTS,\\quad x=\\frac{45}{4}"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_7"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "7",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q23-FRQ-04",
+      "learning_outcome_id": "LO23",
+      "type": "frq",
+      "display_number": "23.4",
+      "instruction": "Identify the similar triangles. Then find x.",
+      "stem": "Identify the similar triangles. Then find x.",
+      "math_latex": "",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "State corresponding vertices and show a proportion.",
+          "marks": 10,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 40
+          },
+          "answer": {
+            "model_answer_and_marking": "Use the marked angles at M,K and vertical angles at L. 4/x=8/6 gives x=3. Correct ordered correspondence (4), proportion (3), x (3).",
+            "math_latex": "\\triangle MNL\\sim\\triangle KJL,\\quad x=3"
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [
+        "frq23_8"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "8",
+        "adaptation": "transcription"
+      }
     }
   ],
   "assets": {
-    "similar_nested_6_4_9_15": {
-      "type": "image/svg+xml",
-      "alt_text": "Triangle ABC with A at the top. D lies on AB and E lies on AC. DE is parallel to BC. AD = 6, DB = 4, AE = 9, BC = 15. Diagram is schematic.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 220\" role=\"img\" aria-label=\"Nested triangles with parallel sides\"><title>Nested triangles with parallel sides</title><rect width=\"500\" height=\"220\" fill=\"white\"/><g fill=\"none\" stroke=\"#12304a\" stroke-width=\"2\"><path d=\"M190 20 L100 180 L390 180 Z M136 116 H310\"/></g><g fill=\"#182c3a\" font-family=\"Arial, sans-serif\" font-size=\"16\"><text x=\"184\" y=\"16\">A</text><text x=\"78\" y=\"186\">B</text><text x=\"399\" y=\"186\">C</text><text x=\"113\" y=\"120\">D</text><text x=\"317\" y=\"120\">E</text><text x=\"148\" y=\"68\">6</text><text x=\"103\" y=\"153\">4</text><text x=\"259\" y=\"66\">9</text><text x=\"240\" y=\"202\">15</text><text x=\"365\" y=\"90\">DE ∥ BC</text></g></svg>"
-    }
-  },
-  "questions": [
-    {
-      "id": "G10A-Q23-FRQ-01",
-      "display_number": "23.1",
-      "exam_slot": "Q23",
-      "type": "frq",
-      "learning_outcome_id": "LO23",
-      "origin": "parallel_practice",
-      "title": "A • Nested triangles",
-      "stem": "In triangle ABC, D lies on AB and E lies on AC. DE ∥ BC. AD = 6, DB = 4, AE = 9, and BC = 15.",
-      "diagram_asset_ids": [
-        "similar_nested_6_4_9_15"
-      ],
-      "marks": 10,
-      "parts": [
-        {
-          "id": "a",
-          "prompt": "Prove that triangle ADE is similar to triangle ABC.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "∠DAE=∠BAC (common angle), and ∠ADE=∠ABC (corresponding angles with DE∥BC). Thus ADE~ABC by AA. Award 3."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Write the small-to-large scale factor.",
-          "marks": 1,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "AB=6+4=10, so the scale factor is AD/AB=6/10=3/5. Award 1."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "Find AC and EC, showing a proportion.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "9/AC=3/5 gives AC=15. Therefore EC=15−9=6. Award 2 for proportion/AC and 1 for EC."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Find DE and the ratio of the two triangle areas.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "DE/15=3/5, so DE=9. Area(ADE):area(ABC)=(3/5)²=9:25. Award 2+1."
-          }
-        }
-      ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
-      }
+    "frq23_6": {
+      "src": "assets/frq23_6.png",
+      "width": 715,
+      "height": 304,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 6.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "6",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.54,
+        0.418,
+        0.94,
+        0.538
+      ]
     },
-    {
-      "id": "G10A-Q23-FRQ-02",
-      "display_number": "23.2",
-      "exam_slot": "Q23",
-      "type": "frq",
-      "learning_outcome_id": "LO23",
-      "origin": "parallel_practice",
-      "title": "B • Shadows and unit conversion",
-      "stem": "A vertical 1.5 m measuring pole casts a 0.75 m shadow. At the same moment, a nearby vertical tower casts a shadow 18 m long on the same level ground.",
-      "diagram_asset_ids": [],
-      "marks": 10,
-      "parts": [
-        {
-          "id": "a",
-          "prompt": "Sketch and label the two triangles. Explain why they are similar.",
-          "marks": 3,
-          "workspace": {
-            "style": "blank",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Two right triangles have equal sun-elevation angles, so they are similar by AA. Award 1 for labeled sketch and 2 for justification."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "Write and solve a proportion for the tower height.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "h/18=1.5/0.75=2, so h=36 m. Award 3."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "A second pole is 180 cm tall. Predict its shadow length in metres at the same moment.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "180 cm=1.8 m. Shadow=1.8/2=0.9 m. Award 2."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "State two physical assumptions that support this model.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "Examples include level ground, vertical poles/tower, simultaneous measurements, and parallel sunlight. Award 1 for each of two valid assumptions."
-          }
-        }
-      ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
-      }
+    "frq23_7": {
+      "src": "assets/frq23_7.png",
+      "width": 680,
+      "height": 312,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 7.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "7",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.537,
+        0.53,
+        0.66
+      ]
     },
-    {
-      "id": "G10A-Q23-FRQ-03",
-      "display_number": "23.3",
-      "exam_slot": "Q23",
-      "type": "frq",
-      "learning_outcome_id": "LO23",
-      "origin": "parallel_practice",
-      "title": "C • SSS and SAS reasoning",
-      "stem": "Triangle ABC has AB = 6, AC = 9, BC = 12. Triangle DEF has DE = 10, DF = 15, EF = 20.",
-      "diagram_asset_ids": [],
-      "marks": 10,
-      "parts": [
-        {
-          "id": "a",
-          "prompt": "Use SSS to prove the triangles similar and write a correct similarity statement.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "AB/DE=6/10=3/5, AC/DF=9/15=3/5, BC/EF=12/20=3/5. Thus ABC~DEF by SSS. Award 3."
-          }
-        },
-        {
-          "id": "b",
-          "prompt": "In a separate pair of similar triangles with the same small-to-large scale factor 3:5, the smaller median is 7.2. Find the corresponding larger median.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "The larger median is 7.2×5/3=12. Award 2."
-          }
-        },
-        {
-          "id": "c",
-          "prompt": "In a separate pair, XY = 8, XZ = 12, PQ = 10, PR = 15, and ∠X = ∠P = 40°. Prove XYZ ~ PQR.",
-          "marks": 3,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 48,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "XY/PQ=8/10=4/5 and XZ/PR=12/15=4/5. The included angles X and P are congruent, so XYZ~PQR by SAS. Award 3."
-          }
-        },
-        {
-          "id": "d",
-          "prompt": "Explain why matching only one angle in the separate pair would be insufficient.",
-          "marks": 2,
-          "workspace": {
-            "style": "lined",
-            "height_mm": 32,
-            "line_spacing_mm": 8
-          },
-          "answer": {
-            "model_answer_and_marking": "A single angle can occur in many triangles with different other angles and side ratios. Another valid criterion is needed. Award 2."
-          }
-        }
-      ],
-      "layout": {
-        "start_on_new_page": true,
-        "keep_part_prompt_with_workspace": true
-      }
+    "frq23_5": {
+      "src": "assets/frq23_5.png",
+      "width": 484,
+      "height": 355,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 5.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "5",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.15,
+        0.418,
+        0.42,
+        0.558
+      ]
+    },
+    "frq23_8": {
+      "src": "assets/frq23_8.png",
+      "width": 412,
+      "height": 312,
+      "alt_text": "Original textbook diagram, Reveal p. 139, exercise 8.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 139,
+        "pdf_page": 83,
+        "exercise": "8",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.55,
+        0.537,
+        0.78,
+        0.66
+      ]
     }
-  ],
-  "import_notes": [
-    {
-      "question_id": "G10A-Q23-FRQ-03",
-      "part_id": "b",
-      "field": "prompt",
-      "original_text": "A median from A has length 7.2. Find the corresponding median from D.",
-      "revised_text": "In a separate pair of similar triangles with the same small-to-large scale factor 3:5, the smaller median is 7.2. Find the corresponding larger median.",
-      "reason": "The sides 6, 9, 12 in part (a) imply a median from A of sqrt(90)/2, not 7.2. A separate pair preserves the intended proportionality exercise and answer 12.",
-      "answer_unchanged": true
-    }
-  ]
+  }
 }

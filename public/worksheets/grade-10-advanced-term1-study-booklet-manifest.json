@@ -1,0 +1,246 @@
+{
+  "classroom": "10A1",
+  "pages": 30,
+  "selected_question_ids": [
+    "G10A-BOOK-Q01-MCQ-01",
+    "G10A-BOOK-Q01-MCQ-02",
+    "G10A-BOOK-Q01-MCQ-03",
+    "G10A-BOOK-Q01-MCQ-04",
+    "G10A-BOOK-Q02-MCQ-01",
+    "G10A-BOOK-Q02-MCQ-02",
+    "G10A-BOOK-Q02-MCQ-03",
+    "G10A-BOOK-Q02-MCQ-04",
+    "G10A-BOOK-Q03-MCQ-01",
+    "G10A-BOOK-Q03-MCQ-02",
+    "G10A-BOOK-Q03-MCQ-03",
+    "G10A-BOOK-Q03-MCQ-04",
+    "G10A-BOOK-Q04-MCQ-01",
+    "G10A-BOOK-Q04-MCQ-02",
+    "G10A-BOOK-Q04-MCQ-03",
+    "G10A-BOOK-Q04-MCQ-04",
+    "G10A-BOOK-Q05-MCQ-01",
+    "G10A-BOOK-Q05-MCQ-02",
+    "G10A-BOOK-Q05-MCQ-03",
+    "G10A-BOOK-Q05-MCQ-04",
+    "G10A-BOOK-Q06-MCQ-01",
+    "G10A-BOOK-Q06-MCQ-02",
+    "G10A-BOOK-Q06-MCQ-03",
+    "G10A-BOOK-Q06-MCQ-04",
+    "G10A-BOOK-Q07-MCQ-01",
+    "G10A-BOOK-Q07-MCQ-02",
+    "G10A-BOOK-Q07-MCQ-03",
+    "G10A-BOOK-Q07-MCQ-04",
+    "G10A-BOOK-Q08-MCQ-01",
+    "G10A-BOOK-Q08-MCQ-02",
+    "G10A-BOOK-Q08-MCQ-03",
+    "G10A-BOOK-Q08-MCQ-04",
+    "G10A-BOOK-Q09-MCQ-01",
+    "G10A-BOOK-Q09-MCQ-02",
+    "G10A-BOOK-Q09-MCQ-03",
+    "G10A-BOOK-Q09-MCQ-04",
+    "G10A-BOOK-Q10-MCQ-01",
+    "G10A-BOOK-Q10-MCQ-02",
+    "G10A-BOOK-Q10-MCQ-03",
+    "G10A-BOOK-Q10-MCQ-04",
+    "G10A-BOOK-Q11-MCQ-01",
+    "G10A-BOOK-Q11-MCQ-02",
+    "G10A-BOOK-Q11-MCQ-03",
+    "G10A-BOOK-Q11-MCQ-04",
+    "G10A-BOOK-Q12-MCQ-01",
+    "G10A-BOOK-Q12-MCQ-02",
+    "G10A-BOOK-Q12-MCQ-03",
+    "G10A-BOOK-Q12-MCQ-04",
+    "G10A-BOOK-Q13-MCQ-01",
+    "G10A-BOOK-Q13-MCQ-02",
+    "G10A-BOOK-Q13-MCQ-03",
+    "G10A-BOOK-Q13-MCQ-04",
+    "G10A-BOOK-Q14-MCQ-01",
+    "G10A-BOOK-Q14-MCQ-02",
+    "G10A-BOOK-Q14-MCQ-03",
+    "G10A-BOOK-Q14-MCQ-04",
+    "G10A-BOOK-Q15-MCQ-01",
+    "G10A-BOOK-Q15-MCQ-02",
+    "G10A-BOOK-Q15-MCQ-03",
+    "G10A-BOOK-Q15-MCQ-04",
+    "G10A-BOOK-Q16-MCQ-01",
+    "G10A-BOOK-Q16-MCQ-02",
+    "G10A-BOOK-Q16-MCQ-03",
+    "G10A-BOOK-Q16-MCQ-04",
+    "G10A-BOOK-Q17-MCQ-01",
+    "G10A-BOOK-Q17-MCQ-02",
+    "G10A-BOOK-Q17-MCQ-03",
+    "G10A-BOOK-Q17-MCQ-04",
+    "G10A-BOOK-Q18-MCQ-01",
+    "G10A-BOOK-Q18-MCQ-02",
+    "G10A-BOOK-Q18-MCQ-03",
+    "G10A-BOOK-Q18-MCQ-04",
+    "G10A-BOOK-Q19-MCQ-01",
+    "G10A-BOOK-Q19-MCQ-02",
+    "G10A-BOOK-Q19-MCQ-03",
+    "G10A-BOOK-Q19-MCQ-04",
+    "G10A-BOOK-Q20-MCQ-01",
+    "G10A-BOOK-Q20-MCQ-02",
+    "G10A-BOOK-Q20-MCQ-03",
+    "G10A-BOOK-Q20-MCQ-04",
+    "G10A-BOOK-Q21-FRQ-01",
+    "G10A-BOOK-Q21-FRQ-02",
+    "G10A-BOOK-Q21-FRQ-03",
+    "G10A-BOOK-Q21-FRQ-04",
+    "G10A-BOOK-Q22-FRQ-01",
+    "G10A-BOOK-Q22-FRQ-02",
+    "G10A-BOOK-Q22-FRQ-03",
+    "G10A-BOOK-Q22-FRQ-04",
+    "G10A-BOOK-Q23-FRQ-01",
+    "G10A-BOOK-Q23-FRQ-02",
+    "G10A-BOOK-Q23-FRQ-03",
+    "G10A-BOOK-Q23-FRQ-04",
+    "G10A-BOOK-Q24-FRQ-01",
+    "G10A-BOOK-Q24-FRQ-02",
+    "G10A-BOOK-Q24-FRQ-03",
+    "G10A-BOOK-Q24-FRQ-04",
+    "G10A-BOOK-Q25-FRQ-01",
+    "G10A-BOOK-Q25-FRQ-02",
+    "G10A-BOOK-Q25-FRQ-03",
+    "G10A-BOOK-Q25-FRQ-04"
+  ],
+  "mcq_count": 80,
+  "frq_count": 20,
+  "coverage": [
+    [
+      "Q1",
+      "Polynomial operations",
+      2
+    ],
+    [
+      "Q2",
+      "FOIL and binomial products",
+      2
+    ],
+    [
+      "Q3",
+      "Factoring by GCF and grouping",
+      3
+    ],
+    [
+      "Q4",
+      "Factoring monic trinomials",
+      3
+    ],
+    [
+      "Q5",
+      "Interior angles of polygons",
+      4
+    ],
+    [
+      "Q6",
+      "Properties of parallelograms",
+      5
+    ],
+    [
+      "Q7",
+      "Tests for parallelograms",
+      6
+    ],
+    [
+      "Q8",
+      "Kites",
+      7
+    ],
+    [
+      "Q9",
+      "Dilation coordinates",
+      8
+    ],
+    [
+      "Q10",
+      "Similar polygons",
+      9
+    ],
+    [
+      "Q11",
+      "Dilation scale factors",
+      10
+    ],
+    [
+      "Q12",
+      "AA triangle similarity",
+      11
+    ],
+    [
+      "Q13",
+      "Proportional parts in triangles",
+      12
+    ],
+    [
+      "Q14",
+      "Parts of similar triangles",
+      13
+    ],
+    [
+      "Q15",
+      "Geometric mean",
+      14
+    ],
+    [
+      "Q16",
+      "Pythagorean theorem and converse",
+      15
+    ],
+    [
+      "Q17",
+      "Special right triangles",
+      16
+    ],
+    [
+      "Q18",
+      "Right-triangle trigonometry",
+      17
+    ],
+    [
+      "Q19",
+      "Angles of elevation and depression",
+      18
+    ],
+    [
+      "Q20",
+      "Area with two sides and an angle",
+      19
+    ],
+    [
+      "Q21",
+      "Special-product factorization",
+      20
+    ],
+    [
+      "Q22",
+      "Interior and exterior angle reasoning",
+      21
+    ],
+    [
+      "Q23",
+      "Solving with similar triangles",
+      22
+    ],
+    [
+      "Q24",
+      "Distance and midpoint in space",
+      24
+    ],
+    [
+      "Q25",
+      "Law of Sines and the ambiguous case",
+      26
+    ],
+    [
+      "KEY",
+      "MCQ answers",
+      28
+    ],
+    [
+      "KEY",
+      "Worked written answers",
+      29
+    ]
+  ],
+  "book_sha256": "1e4477ebebe961f801055876f2641d665ca4097a0f1d20e0d37beca25283153c"
+}

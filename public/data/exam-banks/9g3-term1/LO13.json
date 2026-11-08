@@ -1,0 +1,315 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO13",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO13",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO13",
+      "exam_slot": "Q13",
+      "title": "Read linear graphs",
+      "title_ar": "قراءة الرسوم الخطية",
+      "statement": "Read linear graphs",
+      "question_type": "mcq",
+      "rule_summary": "Slope is rise/run; b is where the line crosses the y-axis.",
+      "textbook_references": [
+        {
+          "printed_page": 236,
+          "exercises_or_section": "37–39; p233 graph A"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q13-MCQ-01",
+        "G9G-BOOK-Q13-MCQ-02",
+        "G9G-BOOK-Q13-MCQ-03",
+        "G9G-BOOK-Q13-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q13-MCQ-01",
+        "G9G-BOOK-Q13-MCQ-02",
+        "G9G-BOOK-Q13-MCQ-03",
+        "G9G-BOOK-Q13-MCQ-04"
+      ],
+      "download": "LO13.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q13-MCQ-01",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.1",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x - 2",
+          "math_latex": "2 x - 2"
+        },
+        {
+          "id": "B",
+          "text": "x - 3",
+          "math_latex": "x - 3"
+        },
+        {
+          "id": "C",
+          "text": "2 x - 3",
+          "math_latex": "2 x - 3"
+        },
+        {
+          "id": "D",
+          "text": "3 - 2 x",
+          "math_latex": "3 - 2 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "2 x - 3",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_37"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "37",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-02",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.2",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 - 4 x",
+          "math_latex": "2 - 4 x"
+        },
+        {
+          "id": "B",
+          "text": "2 - 3 x",
+          "math_latex": "2 - 3 x"
+        },
+        {
+          "id": "C",
+          "text": "3 x - 2",
+          "math_latex": "3 x - 2"
+        },
+        {
+          "id": "D",
+          "text": "3 - 3 x",
+          "math_latex": "3 - 3 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "2 - 3 x",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_38"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "38",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-03",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.3",
+      "instruction": "Write an equation for the original graph. Options give y.",
+      "stem": "Write an equation for the original graph. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "- x - 1",
+          "math_latex": "- x - 1"
+        },
+        {
+          "id": "B",
+          "text": "x + 1",
+          "math_latex": "x + 1"
+        },
+        {
+          "id": "C",
+          "text": "- x",
+          "math_latex": "- x"
+        },
+        {
+          "id": "D",
+          "text": "- 2 x - 1",
+          "math_latex": "- 2 x - 1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "- x - 1",
+        "explanation": "Use the two labelled points to find m=Δy/Δx, then read the y-intercept."
+      },
+      "diagram_asset_ids": [
+        "line_39"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "39",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q13-MCQ-04",
+      "learning_outcome_id": "LO13",
+      "type": "mcq",
+      "display_number": "13.4",
+      "instruction": "Match graph A with its equation. Options give y.",
+      "stem": "Match graph A with its equation. Options give y. ",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 - 3 x",
+          "math_latex": "8 - 3 x"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{3 x}{7} - 4",
+          "math_latex": "\\frac{3 x}{7} - 4"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{3 x}{7} - 4",
+          "math_latex": "- \\frac{3 x}{7} - 4"
+        },
+        {
+          "id": "D",
+          "text": "3 x - 8",
+          "math_latex": "3 x - 8"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "3 x - 8",
+        "explanation": "The line rises steeply and crosses the y-axis at −8: y=3x−8."
+      },
+      "diagram_asset_ids": [
+        "match_a"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Match graph A",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {
+    "line_39": {
+      "src": "assets/line_39.png",
+      "width": 258,
+      "height": 316,
+      "alt_text": "Original textbook visual, Reveal p. 236, 39.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "39",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.568,
+        0.765,
+        0.712,
+        0.89
+      ]
+    },
+    "line_37": {
+      "src": "assets/line_37.png",
+      "width": 250,
+      "height": 316,
+      "alt_text": "Original textbook visual, Reveal p. 236, 37.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "37",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.085,
+        0.765,
+        0.224,
+        0.89
+      ]
+    },
+    "match_a": {
+      "src": "assets/match_a.png",
+      "width": 323,
+      "height": 357,
+      "alt_text": "Original textbook visual, Reveal p. 233, Graph A.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 233,
+        "pdf_page": 99,
+        "exercise": "Graph A",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.145,
+        0.49,
+        0.325,
+        0.631
+      ]
+    },
+    "line_38": {
+      "src": "assets/line_38.png",
+      "width": 253,
+      "height": 316,
+      "alt_text": "Original textbook visual, Reveal p. 236, 38.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 236,
+        "pdf_page": 102,
+        "exercise": "38",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.326,
+        0.765,
+        0.467,
+        0.89
+      ]
+    }
+  }
+}

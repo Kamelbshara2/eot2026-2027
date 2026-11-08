@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO20",
     "classroom": "10A1",
     "learning_outcome_id": "LO20",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -97,262 +22,298 @@
           "printed_page": 201,
           "exercises_or_section": "19–21"
         }
-      ]
+      ],
+      "title_ar": "المساحة بضلعين والزاوية المحصورة",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q20-MCQ-01",
+        "G10A-BOOK-Q20-MCQ-02",
+        "G10A-BOOK-Q20-MCQ-03",
+        "G10A-BOOK-Q20-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q20-MCQ-01",
+        "G10A-BOOK-Q20-MCQ-02",
+        "G10A-BOOK-Q20-MCQ-03",
+        "G10A-BOOK-Q20-MCQ-04"
+      ],
+      "download": "LO20.json"
     }
   ],
-  "assets": {},
   "questions": [
     {
-      "id": "G10A-Q20-MCQ-01",
+      "id": "G10A-BOOK-Q20-MCQ-01",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
       "display_number": "20.1",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "Two sides of a triangle are 10 cm and 14 cm with included angle 30°. Find its area.",
-      "diagram_asset_ids": [],
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "60.6 cm²"
+          "text": "\\frac{633}{10}",
+          "math_latex": "\\frac{633}{10}"
         },
         {
           "id": "B",
-          "text": "140 cm²"
+          "text": "\\frac{643}{10}",
+          "math_latex": "\\frac{643}{10}"
         },
         {
           "id": "C",
-          "text": "70 cm²"
+          "text": "\\frac{623}{5}",
+          "math_latex": "\\frac{623}{5}"
         },
         {
           "id": "D",
-          "text": "35 cm²"
+          "text": "\\frac{623}{10}",
+          "math_latex": "\\frac{623}{10}"
         }
       ],
+      "marks": null,
       "answer": {
         "correct_option_id": "D",
-        "correct_option_text": "35 cm²",
-        "explanation": "½×10×14×sin30°=35."
+        "correct_option_text": "\\frac{623}{10}",
+        "explanation": "A=½ab sin C=½(11)(14)sin(54°)≈62.3."
       },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q20_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "13",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q20-MCQ-02",
+      "id": "G10A-BOOK-Q20-MCQ-02",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
       "display_number": "20.2",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "Two sides are 8 m and 11 m with included angle 120°. Find the area to the nearest tenth.",
-      "diagram_asset_ids": [],
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "22.0 m²"
+          "text": "\\frac{219}{5}",
+          "math_latex": "\\frac{219}{5}"
         },
         {
           "id": "B",
-          "text": "44.0 m²"
+          "text": "\\frac{418}{5}",
+          "math_latex": "\\frac{418}{5}"
         },
         {
           "id": "C",
-          "text": "76.2 m²"
+          "text": "\\frac{209}{5}",
+          "math_latex": "\\frac{209}{5}"
         },
         {
           "id": "D",
-          "text": "38.1 m²"
+          "text": "\\frac{214}{5}",
+          "math_latex": "\\frac{214}{5}"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "38.1 m²",
-        "explanation": "½×8×11×sin120°≈38.1."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "\\frac{209}{5}",
+        "explanation": "A=½ab sin C=½(8.5)(12)sin(125°)≈41.8."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q20_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "14",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q20-MCQ-03",
+      "id": "G10A-BOOK-Q20-MCQ-03",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
       "display_number": "20.3",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "AB = AC = 12, and ∠B = ∠C = 50°. Find the area to the nearest tenth.",
-      "diagram_asset_ids": [],
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "55.2 square units"
+          "text": "143",
+          "math_latex": "143"
         },
         {
           "id": "B",
-          "text": "141.8 square units"
+          "text": "\\frac{143}{2}",
+          "math_latex": "\\frac{143}{2}"
         },
         {
           "id": "C",
-          "text": "72.0 square units"
+          "text": "\\frac{145}{2}",
+          "math_latex": "\\frac{145}{2}"
         },
         {
           "id": "D",
-          "text": "70.9 square units"
+          "text": "\\frac{147}{2}",
+          "math_latex": "\\frac{147}{2}"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "70.9 square units",
-        "explanation": "∠A=80° is included between AB and AC. Area=½×12×12sin80°≈70.9."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{143}{2}",
+        "explanation": "A=½ab sin C=½(15)(18)sin(32°)≈71.5."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "diagram_asset_ids": [
+        "q20_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "15",
+        "adaptation": "mcq"
       }
     },
     {
-      "id": "G10A-Q20-MCQ-04",
+      "id": "G10A-BOOK-Q20-MCQ-04",
+      "learning_outcome_id": "LO20",
+      "type": "mcq",
       "display_number": "20.4",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "A triangle has area 24 and sides 8 and 12 enclosing angle θ. Which equation is correct?",
-      "diagram_asset_ids": [],
+      "instruction": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "stem": "Use trigonometry to find the triangle’s area to the nearest tenth.",
+      "math_latex": "",
       "options": [
         {
           "id": "A",
-          "text": "cos θ = 1/2"
+          "text": "19",
+          "math_latex": "19"
         },
         {
           "id": "B",
-          "text": "tan θ = 2"
+          "text": "20",
+          "math_latex": "20"
         },
         {
           "id": "C",
-          "text": "sin θ = 1/4"
+          "text": "21",
+          "math_latex": "21"
         },
         {
           "id": "D",
-          "text": "sin θ = 1/2"
+          "text": "38",
+          "math_latex": "38"
         }
       ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "sin θ = 1/2",
-        "explanation": "24=½×8×12sinθ."
-      },
       "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "19",
+        "explanation": "A=½ab sin C=½(9)(10)sin(155°)≈19.0."
       },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q20-MCQ-05",
-      "display_number": "20.5",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "For fixed side lengths a and b, which included angle produces the greatest area?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "30°"
-        },
-        {
-          "id": "B",
-          "text": "60°"
-        },
-        {
-          "id": "C",
-          "text": "90°"
-        },
-        {
-          "id": "D",
-          "text": "120°"
-        }
+      "diagram_asset_ids": [
+        "q20_16"
       ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "90°",
-        "explanation": "sinθ has maximum 1 at 90°."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q20-MCQ-06",
-      "display_number": "20.6",
-      "exam_slot": "Q20",
-      "type": "mcq",
-      "learning_outcome_id": "LO20",
-      "origin": "parallel_practice",
-      "stem": "Two triangles have the same two side lengths. Their included angles are 35° and 145°. Compare their areas.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "The 35° triangle has greater area."
-        },
-        {
-          "id": "B",
-          "text": "The 145° triangle has greater area."
-        },
-        {
-          "id": "C",
-          "text": "Their areas are equal."
-        },
-        {
-          "id": "D",
-          "text": "More side lengths are needed."
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "Their areas are equal.",
-        "explanation": "sin35°=sin145°."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "16",
+        "adaptation": "mcq"
       }
     }
-  ]
+  ],
+  "assets": {
+    "q20_16": {
+      "src": "assets/q20_16.png",
+      "width": 537,
+      "height": 203,
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 16.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "16",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.76,
+        0.35,
+        0.84
+      ]
+    },
+    "q20_15": {
+      "src": "assets/q20_15.png",
+      "width": 465,
+      "height": 279,
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 15.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "15",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.6,
+        0.64,
+        0.86,
+        0.75
+      ]
+    },
+    "q20_13": {
+      "src": "assets/q20_13.png",
+      "width": 358,
+      "height": 279,
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 13.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "13",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.64,
+        0.25,
+        0.75
+      ]
+    },
+    "q20_14": {
+      "src": "assets/q20_14.png",
+      "width": 429,
+      "height": 279,
+      "alt_text": "Original textbook diagram, Reveal p. 200, exercise 14.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 200,
+        "pdf_page": 144,
+        "exercise": "14",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.35,
+        0.64,
+        0.59,
+        0.75
+      ]
+    }
+  }
 }

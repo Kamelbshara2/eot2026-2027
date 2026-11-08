@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO02",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO02",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO02",
+      "exam_slot": "Q2",
+      "title": "Distributive Property",
+      "title_ar": "خاصية التوزيع",
+      "statement": "Distributive Property",
+      "question_type": "mcq",
+      "rule_summary": "a(b+c)=ab+ac; distribute negative factors carefully.",
+      "textbook_references": [
+        {
+          "printed_page": 42,
+          "exercises_or_section": "23–26"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q02-MCQ-01",
+        "G9G-BOOK-Q02-MCQ-02",
+        "G9G-BOOK-Q02-MCQ-03",
+        "G9G-BOOK-Q02-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q02-MCQ-01",
+        "G9G-BOOK-Q02-MCQ-02",
+        "G9G-BOOK-Q02-MCQ-03",
+        "G9G-BOOK-Q02-MCQ-04"
+      ],
+      "download": "LO02.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q02-MCQ-01",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.1",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. 2(x+4)",
+      "math_latex": "2(x+4)",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x + 10",
+          "math_latex": "2 x + 10"
+        },
+        {
+          "id": "B",
+          "text": "2 x + 8",
+          "math_latex": "2 x + 8"
+        },
+        {
+          "id": "C",
+          "text": "2 x + 9",
+          "math_latex": "2 x + 9"
+        },
+        {
+          "id": "D",
+          "text": "- 2 x - 8",
+          "math_latex": "- 2 x - 8"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "2 x + 8",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "23",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-02",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.2",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. (5+n)3",
+      "math_latex": "(5+n)3",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 n + 15",
+          "math_latex": "3 n + 15"
+        },
+        {
+          "id": "B",
+          "text": "3 n + 16",
+          "math_latex": "3 n + 16"
+        },
+        {
+          "id": "C",
+          "text": "- 3 n - 15",
+          "math_latex": "- 3 n - 15"
+        },
+        {
+          "id": "D",
+          "text": "3 n + 17",
+          "math_latex": "3 n + 17"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "3 n + 15",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "24",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-03",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.3",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. (4-3m)8",
+      "math_latex": "(4-3m)8",
+      "options": [
+        {
+          "id": "A",
+          "text": "33 - 24 m",
+          "math_latex": "33 - 24 m"
+        },
+        {
+          "id": "B",
+          "text": "24 m - 32",
+          "math_latex": "24 m - 32"
+        },
+        {
+          "id": "C",
+          "text": "34 - 24 m",
+          "math_latex": "34 - 24 m"
+        },
+        {
+          "id": "D",
+          "text": "32 - 24 m",
+          "math_latex": "32 - 24 m"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "32 - 24 m",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "25",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q02-MCQ-04",
+      "learning_outcome_id": "LO02",
+      "type": "mcq",
+      "display_number": "2.4",
+      "instruction": "Use the Distributive Property to simplify.",
+      "stem": "Use the Distributive Property to simplify. -3(2x-6)",
+      "math_latex": "-3(2x-6)",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 x - 18",
+          "math_latex": "6 x - 18"
+        },
+        {
+          "id": "B",
+          "text": "20 - 6 x",
+          "math_latex": "20 - 6 x"
+        },
+        {
+          "id": "C",
+          "text": "18 - 6 x",
+          "math_latex": "18 - 6 x"
+        },
+        {
+          "id": "D",
+          "text": "19 - 6 x",
+          "math_latex": "19 - 6 x"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "18 - 6 x",
+        "explanation": "Multiply the outside factor by EVERY term inside the parentheses."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 42,
+        "pdf_page": 42,
+        "exercise": "26",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

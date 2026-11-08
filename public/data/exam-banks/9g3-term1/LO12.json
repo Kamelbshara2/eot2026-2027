@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO12",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO12",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO12",
+      "exam_slot": "Q12",
+      "title": "Slope-intercept form",
+      "title_ar": "صيغة الميل والمقطع",
+      "statement": "Slope-intercept form",
+      "question_type": "mcq",
+      "rule_summary": "Isolate y to obtain y=mx+b.",
+      "textbook_references": [
+        {
+          "printed_page": 235,
+          "exercises_or_section": "9–12"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q12-MCQ-01",
+        "G9G-BOOK-Q12-MCQ-02",
+        "G9G-BOOK-Q12-MCQ-03",
+        "G9G-BOOK-Q12-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q12-MCQ-01",
+        "G9G-BOOK-Q12-MCQ-02",
+        "G9G-BOOK-Q12-MCQ-03",
+        "G9G-BOOK-Q12-MCQ-04"
+      ],
+      "download": "LO12.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q12-MCQ-01",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.1",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. -10x+2y=12",
+      "math_latex": "-10x+2y=12",
+      "options": [
+        {
+          "id": "A",
+          "text": "- 5 x - 6",
+          "math_latex": "- 5 x - 6"
+        },
+        {
+          "id": "B",
+          "text": "5 x + 7",
+          "math_latex": "5 x + 7"
+        },
+        {
+          "id": "C",
+          "text": "4 x + 6",
+          "math_latex": "4 x + 6"
+        },
+        {
+          "id": "D",
+          "text": "5 x + 6",
+          "math_latex": "5 x + 6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "5 x + 6",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "9",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-02",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.2",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. 4y+12x=16",
+      "math_latex": "4y+12x=16",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 - 3 x",
+          "math_latex": "5 - 3 x"
+        },
+        {
+          "id": "B",
+          "text": "4 - 4 x",
+          "math_latex": "4 - 4 x"
+        },
+        {
+          "id": "C",
+          "text": "4 - 3 x",
+          "math_latex": "4 - 3 x"
+        },
+        {
+          "id": "D",
+          "text": "3 x - 4",
+          "math_latex": "3 x - 4"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "4 - 3 x",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "10",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-03",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.3",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. -5x+15y=-30",
+      "math_latex": "-5x+15y=-30",
+      "options": [
+        {
+          "id": "A",
+          "text": "- \\frac{2 x}{3} - 2",
+          "math_latex": "- \\frac{2 x}{3} - 2"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{x}{3} - 2",
+          "math_latex": "\\frac{x}{3} - 2"
+        },
+        {
+          "id": "C",
+          "text": "2 - \\frac{x}{3}",
+          "math_latex": "2 - \\frac{x}{3}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{x}{3} - 1",
+          "math_latex": "\\frac{x}{3} - 1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "\\frac{x}{3} - 2",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "11",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q12-MCQ-04",
+      "learning_outcome_id": "LO12",
+      "type": "mcq",
+      "display_number": "12.4",
+      "instruction": "Write in slope-intercept form. Options give y.",
+      "stem": "Write in slope-intercept form. Options give y. 6x-3y=-18",
+      "math_latex": "6x-3y=-18",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 x + 6",
+          "math_latex": "2 x + 6"
+        },
+        {
+          "id": "B",
+          "text": "- 2 x - 6",
+          "math_latex": "- 2 x - 6"
+        },
+        {
+          "id": "C",
+          "text": "2 x + 7",
+          "math_latex": "2 x + 7"
+        },
+        {
+          "id": "D",
+          "text": "x + 6",
+          "math_latex": "x + 6"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "2 x + 6",
+        "explanation": "Isolate y by moving the x-term and dividing every term by the coefficient of y."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "745571f27aa82d9ae7159a3fecfc402f89373287acb8b48be5282e6c1839242e",
+        "printed_page": 235,
+        "pdf_page": 101,
+        "exercise": "12",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

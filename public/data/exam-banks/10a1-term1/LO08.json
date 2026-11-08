@@ -1,84 +1,9 @@
 {
-  "schema_version": "1.0.0",
   "bank_metadata": {
     "id": "10a1-term1-LO08",
     "classroom": "10A1",
     "learning_outcome_id": "LO08",
-    "question_count": 6,
-    "mcq_count": 6,
-    "frq_count": 0
-  },
-  "booklet": {
-    "id": "g10-advanced-reveal-ii-term1-2026",
-    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
-    "term": 1,
-    "academic_year": "2026–2027",
-    "language": "en",
-    "curriculum": "Reveal Integrated II",
-    "question_counts": {
-      "mcq": 120,
-      "frq": 15
-    },
-    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
-    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
-  },
-  "render_settings": {
-    "page_size": "A4",
-    "orientation": "portrait",
-    "margins_mm": {
-      "top": 15,
-      "right": 15,
-      "bottom": 15,
-      "left": 15
-    },
-    "text_format": "plain_text",
-    "math_notation": "unicode",
-    "font_family": "DejaVu Sans",
-    "minimum_font_size_pt": 11,
-    "group_by": "learning_outcome_id",
-    "keep_stem_with_options": true,
-    "option_layout": "one_per_line",
-    "option_label_style": "uppercase_letter",
-    "shuffle_options": false,
-    "show_answers_in_student_booklet": false,
-    "teacher_answer_field": "answer",
-    "default_mcq_workspace": {
-      "style": "blank",
-      "height_mm": 25
-    },
-    "default_frq_workspace": {
-      "style": "lined",
-      "line_spacing_mm": 8
-    },
-    "question_number_field": "display_number",
-    "diagram_asset_field": "diagram_asset_ids"
-  },
-  "import_contract": {
-    "required_mcq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "options",
-      "answer",
-      "workspace"
-    ],
-    "required_frq_fields": [
-      "id",
-      "type",
-      "learning_outcome_id",
-      "stem",
-      "parts"
-    ],
-    "mcq_option_count": 4,
-    "mcq_correct_option_count": 1,
-    "mcq_incorrect_option_count": 3,
-    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
-    "answer_rendering": "Show answer objects in teacher output only.",
-    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
-    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
-    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
-    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+    "question_count": 4
   },
   "learning_outcomes": [
     {
@@ -93,272 +18,298 @@
           "printed_page": 106,
           "exercises_or_section": "13–16"
         }
-      ]
+      ],
+      "title_ar": "الطائرات الورقية",
+      "question_count": 4,
+      "question_ids": [
+        "G10A-BOOK-Q08-MCQ-01",
+        "G10A-BOOK-Q08-MCQ-02",
+        "G10A-BOOK-Q08-MCQ-03",
+        "G10A-BOOK-Q08-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G10A-BOOK-Q08-MCQ-01",
+        "G10A-BOOK-Q08-MCQ-02",
+        "G10A-BOOK-Q08-MCQ-03",
+        "G10A-BOOK-Q08-MCQ-04"
+      ],
+      "download": "LO08.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G10A-BOOK-Q08-MCQ-01",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.1",
+      "instruction": "Find the requested angle measure in the kite.",
+      "stem": "Find the requested angle measure in the kite.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "103",
+          "math_latex": "103"
+        },
+        {
+          "id": "B",
+          "text": "79",
+          "math_latex": "79"
+        },
+        {
+          "id": "C",
+          "text": "99",
+          "math_latex": "99"
+        },
+        {
+          "id": "D",
+          "text": "101",
+          "math_latex": "101"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "101",
+        "explanation": "The unmarked opposite angles Q and S are equal: (360−110−48)/2=101."
+      },
+      "diagram_asset_ids": [
+        "q8_13"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-02",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.2",
+      "instruction": "Find the requested angle measure in the kite.",
+      "stem": "Find the requested angle measure in the kite.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "53",
+          "math_latex": "53"
+        },
+        {
+          "id": "B",
+          "text": "125",
+          "math_latex": "125"
+        },
+        {
+          "id": "C",
+          "text": "127",
+          "math_latex": "127"
+        },
+        {
+          "id": "D",
+          "text": "129",
+          "math_latex": "129"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "127",
+        "explanation": "The equal opposite angles B and D share the remainder: (360−36−70)/2=127."
+      },
+      "diagram_asset_ids": [
+        "q8_14"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-03",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.3",
+      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "BC=\\sqrt{65},\\quad P\\approx58.5",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx58.5"
+        },
+        {
+          "id": "B",
+          "text": "BC=\\sqrt{65},\\quad P\\approx42.2",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx42.2"
+        },
+        {
+          "id": "C",
+          "text": "BC=\\sqrt{170},\\quad P\\approx42.2",
+          "math_latex": "BC=\\sqrt{170},\\quad P\\approx42.2"
+        },
+        {
+          "id": "D",
+          "text": "BC=\\sqrt{65},\\quad P\\approx21.1",
+          "math_latex": "BC=\\sqrt{65},\\quad P\\approx21.1"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "BC=\\sqrt{65},\\quad P\\approx42.2",
+        "explanation": "Perpendicular diagonals give BC=√(7²+4²)=√65 and AB=√170. P=2(√65+√170)≈42.2."
+      },
+      "diagram_asset_ids": [
+        "q8_15"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G10A-BOOK-Q08-MCQ-04",
+      "learning_outcome_id": "LO08",
+      "type": "mcq",
+      "display_number": "8.4",
+      "instruction": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "stem": "Find the requested side in simplest radical form, then the perimeter to the nearest tenth.",
+      "math_latex": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx107.6",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx107.6"
+        },
+        {
+          "id": "B",
+          "text": "RH=4\\sqrt{58},\\quad P\\approx107.6",
+          "math_latex": "RH=4\\sqrt{58},\\quad P\\approx107.6"
+        },
+        {
+          "id": "C",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx53.8",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx53.8"
+        },
+        {
+          "id": "D",
+          "text": "RH=4\\sqrt{34},\\quad P\\approx96.0",
+          "math_latex": "RH=4\\sqrt{34},\\quad P\\approx96.0"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "RH=4\\sqrt{34},\\quad P\\approx107.6",
+        "explanation": "RH=√(20²+12²)=4√34 and RS=√(28²+12²)=4√58. The perimeter is 2(RH+RS)≈107.6."
+      },
+      "diagram_asset_ids": [
+        "q8_16"
+      ],
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
     }
   ],
   "assets": {
-    "kite_8_3_6": {
-      "type": "image/svg+xml",
-      "alt_text": "Kite ABCD. A at the top, C at the bottom, B at the left, D at the right. AC and BD meet at E at a right angle. AE = 8, CE = 3, BE = ED = 6. AB = AD and CB = CD.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 220\" role=\"img\" aria-label=\"Kite ABCD with labeled diagonal segments\"><title>Kite ABCD with labeled diagonal segments</title><rect width=\"500\" height=\"220\" fill=\"white\"/><g fill=\"none\" stroke=\"#12304a\" stroke-width=\"2\"><path d=\"M200 20 L110 140 L200 185 L290 140 Z M200 20 V185 M110 140 H290\"/><path d=\"M200 130 H210 V140\"/></g><g fill=\"#182c3a\" font-family=\"Arial, sans-serif\" font-size=\"16\"><text x=\"194\" y=\"15\">A</text><text x=\"88\" y=\"145\">B</text><text x=\"194\" y=\"208\">C</text><text x=\"300\" y=\"145\">D</text><text x=\"205\" y=\"160\">E</text><text x=\"207\" y=\"82\">8</text><text x=\"208\" y=\"180\">3</text><text x=\"151\" y=\"132\">6</text><text x=\"247\" y=\"132\">6</text></g></svg>"
+    "q8_14": {
+      "src": "assets/q8_14.png",
+      "width": 698,
+      "height": 417,
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 14.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "14",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.45,
+        0.375,
+        0.84,
+        0.54
+      ]
+    },
+    "q8_15": {
+      "src": "assets/q8_15.png",
+      "width": 394,
+      "height": 342,
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 15.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "15",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.66,
+        0.55,
+        0.88,
+        0.685
+      ]
+    },
+    "q8_13": {
+      "src": "assets/q8_13.png",
+      "width": 626,
+      "height": 417,
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 13.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "13",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.05,
+        0.375,
+        0.4,
+        0.54
+      ]
+    },
+    "q8_16": {
+      "src": "assets/q8_16.png",
+      "width": 465,
+      "height": 253,
+      "alt_text": "Original textbook diagram, Reveal p. 106, exercise 16.",
+      "source": {
+        "book_part": 2,
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 106,
+        "pdf_page": 50,
+        "exercise": "16",
+        "adaptation": "transcription"
+      },
+      "crop_box": [
+        0.62,
+        0.67,
+        0.88,
+        0.77
+      ]
     }
-  },
-  "questions": [
-    {
-      "id": "G10A-Q08-MCQ-01",
-      "display_number": "8.1",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "In kite ABCD, AB = AD, CB = CD, ∠A = 80°, and ∠C = 120°. Find ∠B.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "120°"
-        },
-        {
-          "id": "B",
-          "text": "100°"
-        },
-        {
-          "id": "C",
-          "text": "160°"
-        },
-        {
-          "id": "D",
-          "text": "80°"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "80°",
-        "explanation": "The remaining 160° is shared equally by B and D."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q08-MCQ-02",
-      "display_number": "8.2",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "The diagonals of a kite intersect. What is the angle between them?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "90°"
-        },
-        {
-          "id": "B",
-          "text": "180°"
-        },
-        {
-          "id": "C",
-          "text": "60°"
-        },
-        {
-          "id": "D",
-          "text": "45°"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "90°",
-        "explanation": "The diagonals are perpendicular."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q08-MCQ-03",
-      "display_number": "8.3",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "In kite ABCD, AB = AD and CB = CD. Diagonals meet at E. If BE = 6, find BD.",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "6"
-        },
-        {
-          "id": "B",
-          "text": "3"
-        },
-        {
-          "id": "C",
-          "text": "18"
-        },
-        {
-          "id": "D",
-          "text": "12"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "D",
-        "correct_option_text": "12",
-        "explanation": "The symmetry diagonal AC bisects BD."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q08-MCQ-04",
-      "display_number": "8.4",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "In the kite shown, AE = 8, CE = 3, and BE = ED = 6. Find BC.",
-      "diagram_asset_ids": [
-        "kite_8_3_6"
-      ],
-      "options": [
-        {
-          "id": "A",
-          "text": "3√5"
-        },
-        {
-          "id": "B",
-          "text": "10"
-        },
-        {
-          "id": "C",
-          "text": "√73"
-        },
-        {
-          "id": "D",
-          "text": "9"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "A",
-        "correct_option_text": "3√5",
-        "explanation": "BC²=3²+6²=45."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q08-MCQ-05",
-      "display_number": "8.5",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "In kite ABCD, AB = AD, CB = CD, AE = 8, CE = 3, and BE = ED = 6, as shown. What is its perimeter?",
-      "diagram_asset_ids": [
-        "kite_8_3_6"
-      ],
-      "options": [
-        {
-          "id": "A",
-          "text": "20 + 3√5"
-        },
-        {
-          "id": "B",
-          "text": "10 + 6√5"
-        },
-        {
-          "id": "C",
-          "text": "20 + 6√5"
-        },
-        {
-          "id": "D",
-          "text": "40"
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "20 + 6√5",
-        "explanation": "AB=AD=10 and BC=CD=3√5."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    },
-    {
-      "id": "G10A-Q08-MCQ-06",
-      "display_number": "8.6",
-      "exam_slot": "Q8",
-      "type": "mcq",
-      "learning_outcome_id": "LO08",
-      "origin": "parallel_practice",
-      "stem": "For a kite with two distinct pairs of adjacent congruent sides, which statement need not be true?",
-      "diagram_asset_ids": [],
-      "options": [
-        {
-          "id": "A",
-          "text": "One diagonal bisects the other."
-        },
-        {
-          "id": "B",
-          "text": "The diagonals are perpendicular."
-        },
-        {
-          "id": "C",
-          "text": "Both diagonals bisect each other."
-        },
-        {
-          "id": "D",
-          "text": "One pair of opposite angles is congruent."
-        }
-      ],
-      "answer": {
-        "correct_option_id": "C",
-        "correct_option_text": "Both diagonals bisect each other.",
-        "explanation": "Only the symmetry diagonal necessarily bisects the other diagonal."
-      },
-      "marks": null,
-      "workspace": {
-        "style": "blank",
-        "height_mm": 25
-      },
-      "layout": {
-        "keep_together": true,
-        "options_per_row": 1
-      }
-    }
-  ]
+  }
 }

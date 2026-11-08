@@ -1,0 +1,226 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO09",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO09",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO09",
+      "exam_slot": "Q9",
+      "title": "Solve proportions",
+      "title_ar": "حل التناسب",
+      "statement": "Solve proportions",
+      "question_type": "mcq",
+      "rule_summary": "For b,d≠0, a/b=c/d implies ad=bc.",
+      "textbook_references": [
+        {
+          "printed_page": 113,
+          "exercises_or_section": "13–16"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q09-MCQ-01",
+        "G9G-BOOK-Q09-MCQ-02",
+        "G9G-BOOK-Q09-MCQ-03",
+        "G9G-BOOK-Q09-MCQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q09-MCQ-01",
+        "G9G-BOOK-Q09-MCQ-02",
+        "G9G-BOOK-Q09-MCQ-03",
+        "G9G-BOOK-Q09-MCQ-04"
+      ],
+      "download": "LO09.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q09-MCQ-01",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.1",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac{x-3}{5}=\\frac6{10}",
+      "math_latex": "\\frac{x-3}{5}=\\frac6{10}",
+      "options": [
+        {
+          "id": "A",
+          "text": "5",
+          "math_latex": "5"
+        },
+        {
+          "id": "B",
+          "text": "-6",
+          "math_latex": "-6"
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "math_latex": "6"
+        },
+        {
+          "id": "D",
+          "text": "7",
+          "math_latex": "7"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "C",
+        "correct_option_text": "6",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "13",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-02",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.2",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac7{x+9}=\\frac{21}{36}",
+      "math_latex": "\\frac7{x+9}=\\frac{21}{36}",
+      "options": [
+        {
+          "id": "A",
+          "text": "-3",
+          "math_latex": "-3"
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "math_latex": "3"
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "math_latex": "4"
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "math_latex": "2"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "B",
+        "correct_option_text": "3",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "14",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-03",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.3",
+      "instruction": "Solve the proportion.",
+      "stem": "Solve the proportion. \\frac{10}{15}=\\frac4{x-5}",
+      "math_latex": "\\frac{10}{15}=\\frac4{x-5}",
+      "options": [
+        {
+          "id": "A",
+          "text": "11",
+          "math_latex": "11"
+        },
+        {
+          "id": "B",
+          "text": "12",
+          "math_latex": "12"
+        },
+        {
+          "id": "C",
+          "text": "10",
+          "math_latex": "10"
+        },
+        {
+          "id": "D",
+          "text": "-11",
+          "math_latex": "-11"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "A",
+        "correct_option_text": "11",
+        "explanation": "Cross multiply, solve the resulting linear equation, and check neither denominator is zero."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "15",
+        "adaptation": "mcq"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q09-MCQ-04",
+      "learning_outcome_id": "LO09",
+      "type": "mcq",
+      "display_number": "9.4",
+      "instruction": "Solve. Round to the nearest hundredth.",
+      "stem": "Solve. Round to the nearest hundredth. \\frac6{14}=\\frac7{x-3}",
+      "math_latex": "\\frac6{14}=\\frac7{x-3}",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\frac{2033}{100}",
+          "math_latex": "\\frac{2033}{100}"
+        },
+        {
+          "id": "B",
+          "text": "\\frac{1833}{100}",
+          "math_latex": "\\frac{1833}{100}"
+        },
+        {
+          "id": "C",
+          "text": "- \\frac{1933}{100}",
+          "math_latex": "- \\frac{1933}{100}"
+        },
+        {
+          "id": "D",
+          "text": "\\frac{1933}{100}",
+          "math_latex": "\\frac{1933}{100}"
+        }
+      ],
+      "marks": null,
+      "answer": {
+        "correct_option_id": "D",
+        "correct_option_text": "\\frac{1933}{100}",
+        "explanation": "Cross multiply: 6(x−3)=98, so x=58/3≈19.33."
+      },
+      "diagram_asset_ids": [],
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 113,
+        "pdf_page": 113,
+        "exercise": "16",
+        "adaptation": "mcq"
+      }
+    }
+  ],
+  "assets": {}
+}

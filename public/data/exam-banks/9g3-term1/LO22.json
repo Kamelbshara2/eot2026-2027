@@ -1,0 +1,234 @@
+{
+  "bank_metadata": {
+    "id": "9g3-term1-LO22",
+    "classroom": "9G3",
+    "learning_outcome_id": "LO22",
+    "question_count": 4
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO22",
+      "exam_slot": "Q22",
+      "title": "Use and rearrange formulas",
+      "title_ar": "تطبيق الصيغ وإعادة ترتيبها",
+      "statement": "Use and rearrange formulas",
+      "question_type": "frq",
+      "rule_summary": "Rearrange symbolically before substituting numerical values.",
+      "textbook_references": [
+        {
+          "printed_page": 125,
+          "exercises_or_section": "19–22"
+        }
+      ],
+      "question_count": 4,
+      "question_ids": [
+        "G9G-BOOK-Q22-FRQ-01",
+        "G9G-BOOK-Q22-FRQ-02",
+        "G9G-BOOK-Q22-FRQ-03",
+        "G9G-BOOK-Q22-FRQ-04"
+      ],
+      "booklet_question_ids": [
+        "G9G-BOOK-Q22-FRQ-01",
+        "G9G-BOOK-Q22-FRQ-02",
+        "G9G-BOOK-Q22-FRQ-03",
+        "G9G-BOOK-Q22-FRQ-04"
+      ],
+      "download": "LO22.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G9G-BOOK-Q22-FRQ-01",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.1",
+      "instruction": "The perimeter of a rectangle is P=2ℓ+2w.",
+      "stem": "The perimeter of a rectangle is P=2ℓ+2w. P=2\\ell+2w",
+      "math_latex": "P=2\\ell+2w",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for ℓ.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "\\ell=(P-2w)/2"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find ℓ when w=4 m and P=36 m.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "ℓ=(36−8)/2=14 m. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "19",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-02",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.2",
+      "instruction": "A batting average is a=h/b, with h hits in b times at bat.",
+      "stem": "A batting average is a=h/b, with h hits in b times at bat. a=h/b",
+      "math_latex": "a=h/b",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for b.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "b=h/a"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find b when a=0.325 and h=39.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "b=39/0.325=120 times at bat. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "20",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-03",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.3",
+      "instruction": "Videogames cost $13.50 each. Controllers cost p dollars; c is the total cost.",
+      "stem": "Videogames cost $13.50 each. Controllers cost p dollars; c is the total cost. c=13.50g+p",
+      "math_latex": "c=13.50g+p",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for g.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "g=(c-p)/13.50"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find g when p=$55 and c=$136.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "g=(136−55)/13.50=6 games. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "21",
+        "adaptation": "transcription"
+      }
+    },
+    {
+      "id": "G9G-BOOK-Q22-FRQ-04",
+      "learning_outcome_id": "LO22",
+      "type": "frq",
+      "display_number": "22.4",
+      "instruction": "The volume of a box is V=ℓwh.",
+      "stem": "The volume of a box is V=ℓwh. V=\\ell wh",
+      "math_latex": "V=\\ell wh",
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Solve for h.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "Correct isolation and formula (5).",
+            "math_latex": "h=V/(\\ell w)"
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Find h when V=50 m³, ℓ=10 m, and w=2 m.",
+          "marks": 5,
+          "math_latex": "",
+          "workspace": {
+            "height_mm": 22
+          },
+          "answer": {
+            "model_answer_and_marking": "h=50/(10·2)=2.5 m. Substitution (2), calculation and units (3).",
+            "math_latex": ""
+          }
+        }
+      ],
+      "marks": 10,
+      "diagram_asset_ids": [],
+      "coordinate_workspace": false,
+      "source": {
+        "book_part": 1,
+        "book_sha256": "fa94c6b54dadfff7815caf64b602d76756b9374db14f8ed09898f3236b057e53",
+        "printed_page": 125,
+        "pdf_page": 125,
+        "exercise": "22",
+        "adaptation": "transcription"
+      }
+    }
+  ],
+  "assets": {}
+}

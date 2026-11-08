@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0.0",
+  "bank_metadata": {
+    "id": "10a1-term1-LO21",
+    "classroom": "10A1",
+    "learning_outcome_id": "LO21",
+    "question_count": 3,
+    "mcq_count": 0,
+    "frq_count": 3
+  },
+  "booklet": {
+    "id": "g10-advanced-reveal-ii-term1-2026",
+    "title": "Grade 10 Advanced Mathematics — Reveal Integrated II",
+    "term": 1,
+    "academic_year": "2026–2027",
+    "language": "en",
+    "curriculum": "Reveal Integrated II",
+    "question_counts": {
+      "mcq": 120,
+      "frq": 15
+    },
+    "source_booklet": "Grade10_Advanced_Reveal_Integrated2_Study_Booklet.pdf",
+    "source_pdf_sha256": "6f640370c5cb01f8663442197d700d900bbdf41f4b48f9feb777f2789a190bec"
+  },
+  "render_settings": {
+    "page_size": "A4",
+    "orientation": "portrait",
+    "margins_mm": {
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
+    },
+    "text_format": "plain_text",
+    "math_notation": "unicode",
+    "font_family": "DejaVu Sans",
+    "minimum_font_size_pt": 11,
+    "group_by": "learning_outcome_id",
+    "keep_stem_with_options": true,
+    "option_layout": "one_per_line",
+    "option_label_style": "uppercase_letter",
+    "shuffle_options": false,
+    "show_answers_in_student_booklet": false,
+    "teacher_answer_field": "answer",
+    "default_mcq_workspace": {
+      "style": "blank",
+      "height_mm": 25
+    },
+    "default_frq_workspace": {
+      "style": "lined",
+      "line_spacing_mm": 8
+    },
+    "question_number_field": "display_number",
+    "diagram_asset_field": "diagram_asset_ids"
+  },
+  "import_contract": {
+    "required_mcq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "options",
+      "answer",
+      "workspace"
+    ],
+    "required_frq_fields": [
+      "id",
+      "type",
+      "learning_outcome_id",
+      "stem",
+      "parts"
+    ],
+    "mcq_option_count": 4,
+    "mcq_correct_option_count": 1,
+    "mcq_incorrect_option_count": 3,
+    "correct_answer_lookup": "answer.correct_option_id matches exactly one options[].id",
+    "answer_rendering": "Show answer objects in teacher output only.",
+    "diagram_rendering": "Resolve diagram_asset_ids against assets. Render the SVG with its viewBox aspect ratio and alt_text.",
+    "workspace_rendering": "Reserve workspace height_mm after the MCQ options or after each FRQ part. Keep options together. Continue working space on the next page when needed.",
+    "marks_policy": "MCQ marks are null because individual practice-item marks were not supplied. Each FRQ practice set is 10 author-assigned marks.",
+    "provenance": "Textbook references belong to each learning outcome. These parallel practice questions are newly authored, with changed values and contexts."
+  },
+  "learning_outcomes": [
+    {
+      "id": "LO21",
+      "exam_slot": "Q21",
+      "title": "Special-product factorization",
+      "statement": "Factor binomials that are differences of squares and factor perfect square trinomials.",
+      "rule_summary": "A² − B² = (A − B)(A + B). A² ± 2AB + B² = (A ± B)². Extract the GCF before applying a special-product pattern.",
+      "question_type": "frq",
+      "textbook_references": [
+        {
+          "printed_page": 680,
+          "exercises_or_section": "35–41"
+        },
+        {
+          "printed_page": 681,
+          "exercises_or_section": "51–56"
+        }
+      ]
+    }
+  ],
+  "assets": {},
+  "questions": [
+    {
+      "id": "G10A-Q21-FRQ-01",
+      "display_number": "21.1",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "A • Difference of squares",
+      "stem": "Factor over the integers and justify every stage.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Factor 12x² − 75y² completely. Show the GCF and the difference-of-squares step.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "12x²−75y² = 3(4x²−25y²) = 3(2x−5y)(2x+5y). Award 1 for GCF, 1 for squares, 2 for factors."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Factor 18a⁴ − 50a² completely.",
+          "marks": 4,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 64,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "18a⁴−50a² = 2a²(9a²−25) = 2a²(3a−5)(3a+5). Award 2 for GCF and 2 for binomial factors."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "Expand one of your factorizations to verify it.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "For example, 3(2x−5y)(2x+5y)=3(4x²−25y²)=12x²−75y². Award 2 for valid expansion."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q21-FRQ-02",
+      "display_number": "21.2",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "B • Perfect square or near miss?",
+      "stem": "Use the middle-term test, including the sign.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Show that 9t² − 30t + 25 is a perfect square trinomial and factor it.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "9t²=(3t)², 25=5², and −30t=−2(3t)(5). The factorization is (3t−5)². One mark for each check/factor stage."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Determine whether 4c² + 12cd + 9d² is a perfect square trinomial. Justify and factor.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Yes. 12cd=2(2c)(3d), so the factorization is (2c+3d)². Award 2 for test and 1 for factors."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "A student claims 4c² + 10cd + 9d² = (2c + 3d)². Explain the error.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "(2c+3d)² has middle term 12cd, not 10cd. Award 1 for expansion fact and 1 for conclusion."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Find k so that x² − 18x + k is a perfect square.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "k=(18/2)²=81. Award 1 for method and 1 for value."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    },
+    {
+      "id": "G10A-Q21-FRQ-03",
+      "display_number": "21.3",
+      "exam_slot": "Q21",
+      "type": "frq",
+      "learning_outcome_id": "LO21",
+      "origin": "parallel_practice",
+      "title": "C • Dimensions and repeated factoring",
+      "stem": "A rectangular panel has area 4x² − 100 square units, with x > 5.",
+      "diagram_asset_ids": [],
+      "marks": 10,
+      "parts": [
+        {
+          "id": "a",
+          "prompt": "Factor the area completely.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "4(x²−25)=4(x−5)(x+5). Award 1 for GCF and 2 for difference-of-squares factors."
+          }
+        },
+        {
+          "id": "b",
+          "prompt": "Give possible positive length and width expressions and verify their product.",
+          "marks": 3,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 48,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "Possible dimensions are 2x−10 and 2x+10. Their product is 4x²−100. Both are positive for x>5. Award 3."
+          }
+        },
+        {
+          "id": "c",
+          "prompt": "If x = 8, find those dimensions and the area.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "At x=8 the dimensions are 6 and 26, and area=156. Award 2."
+          }
+        },
+        {
+          "id": "d",
+          "prompt": "Factor x⁴ − 81 completely over the integers.",
+          "marks": 2,
+          "workspace": {
+            "style": "lined",
+            "height_mm": 32,
+            "line_spacing_mm": 8
+          },
+          "answer": {
+            "model_answer_and_marking": "x⁴−81=(x²−9)(x²+9)=(x−3)(x+3)(x²+9). Award 2."
+          }
+        }
+      ],
+      "layout": {
+        "start_on_new_page": true,
+        "keep_part_prompt_with_workspace": true
+      }
+    }
+  ]
+}
