@@ -22,7 +22,7 @@ export const DEFAULT_SETUP = Object.freeze({
   multiLineFont: 'normal',
   qr: 11,
   contrast: 5,
-  language: 'hu',           // kept by RESET, like Contrast
+  language: 'en',           // kept by RESET, like Contrast
 });
 
 export const VAR_NAMES = ['A', 'B', 'C', 'D', 'E', 'F', 'M', 'x', 'y'];
