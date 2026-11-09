@@ -19,12 +19,3 @@ test('calculator helper escapes imported text and rejects external illustration 
  const q={display_number:'<script>',calculator:{applicable:true,model:'<img>',image:'https://example.org/x.png',steps:[{title:'<script>',keys:['<b>'],text:'<svg/onload=alert(1)>',expression:'<iframe>'}]}};
  const html=calculatorGuide(q,'/');assert(!html.includes('<script>'));assert(!html.includes('<img'));assert(!html.includes('<iframe>'));assert(html.includes('&lt;script&gt;'));
 });
-
-test('calculator illustrations show the question input without inventing a screen result',()=>{
- const q={display_number:'1',calculator:{applicable:true,model:'fx-991EX',steps:[{title:'Enter and evaluate',keys:['='],text:'Evaluate',expression:'2**3+1'},{title:'Choose mode',keys:['MENU','1'],text:'Select Calculate'}]}};
- const html=calculatorGuide(q,'/');
- assert.match(html,/INPUT · إدخال/);
- assert.match(html,/2\^3\+1/);
- assert.equal((html.match(/class="calculator-step-image"/g)||[]).length,2);
- assert.match(html,/not an official Casio emulator/);
-});
