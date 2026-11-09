@@ -1,0 +1,685 @@
+{
+  "week": 10,
+  "label": "Grade 10 Advanced — four confirmed learning outcomes",
+  "classroom": "10A1",
+  "scorm": "1.2",
+  "mainSeconds": 900,
+  "graceSeconds": 120,
+  "totalSeconds": 1020,
+  "maxAttempts": 2,
+  "attemptControl": "Two internal tries in one resumable LMS activity",
+  "scorePolicy": "first-answered-attempt",
+  "totalMarks": 10,
+  "mcqCount": 4,
+  "mcqMarks": 2,
+  "frqCount": 1,
+  "frqMarks": 2,
+  "outcomes": [
+    {
+      "id": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Find the geometric mean between two numbers",
+      "titleAr": "إيجاد الوسط الهندسي بين عددين",
+      "bookPages": "165 (Q1–6, Q11–14)",
+      "assessmentItem": "Q15",
+      "position": 1,
+      "targetCount": 10
+    },
+    {
+      "id": "16238684-4124-4402-931c-ab70a306d490",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Use the Pythagorean Theorem and its converse",
+      "titleAr": "استعمال نظرية فيثاغورس وعكسها",
+      "bookPages": "171 (Q7–12); 172 (Q20–22); supplied Q1–6",
+      "assessmentItem": "Q16",
+      "position": 2,
+      "targetCount": 15
+    },
+    {
+      "id": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Use the properties of 45°–45°–90° and 30°–60°–90° triangles",
+      "titleAr": "استعمال خصائص المثلثات ٤٥°–٤٥°–٩٠° و٣٠°–٦٠°–٩٠°",
+      "bookPages": "184 (Q19–25); 185 (Q33–38)",
+      "assessmentItem": "Q17",
+      "position": 3,
+      "targetCount": 13
+    },
+    {
+      "id": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "classroom": "10A1",
+      "examWeek": 10,
+      "title": "Find midpoints and distances in three-dimensional coordinates",
+      "titleAr": "إيجاد منتصف القطعة والمسافة في الإحداثيات الثلاثية",
+      "bookPages": "Supplied Q13–24 (page unspecified)",
+      "assessmentItem": "Q24",
+      "position": 4,
+      "targetCount": 12
+    }
+  ],
+  "pools": [
+    {
+      "id": "geometric-mean",
+      "title": "Geometric mean",
+      "titleAr": "الوسط الهندسي",
+      "marks": 2,
+      "questions": [
+        "10a1-w10-p165-q1",
+        "10a1-w10-p165-q2",
+        "10a1-w10-p165-q3",
+        "10a1-w10-p165-q4",
+        "10a1-w10-p165-q5",
+        "10a1-w10-p165-q6"
+      ]
+    },
+    {
+      "id": "pythagorean-leg",
+      "title": "Pythagorean theorem: missing leg",
+      "titleAr": "فيثاغورس: الضلع القائم",
+      "marks": 2,
+      "questions": [
+        "10a1-w10-p171-q2",
+        "10a1-w10-p171-q3",
+        "10a1-w10-p171-q7",
+        "10a1-w10-p171-q11",
+        "10a1-w10-p171-q12"
+      ]
+    },
+    {
+      "id": "pythagorean-converse",
+      "title": "Pythagorean converse and classification",
+      "titleAr": "عكس فيثاغورس وتصنيف المثلث",
+      "marks": 2,
+      "questions": [
+        "10a1-w10-p172-q20",
+        "10a1-w10-p172-q21",
+        "10a1-w10-p172-q22"
+      ]
+    },
+    {
+      "id": "special-triangle",
+      "title": "Special right triangles",
+      "titleAr": "المثلثات القائمة الخاصة",
+      "marks": 2,
+      "questions": [
+        "10a1-w10-p184-q19",
+        "10a1-w10-p184-q20",
+        "10a1-w10-p184-q21",
+        "10a1-w10-p184-q22",
+        "10a1-w10-p184-q23",
+        "10a1-w10-p184-q24"
+      ]
+    }
+  ],
+  "frqs": [
+    {
+      "id": "10a1-four-outcomes-written-p178-q19",
+      "practiceId": "10a1-w10-coordinate-q19",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "marks": 2
+    },
+    {
+      "id": "10a1-four-outcomes-written-p178-q20",
+      "practiceId": "10a1-w10-coordinate-q20",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "marks": 2
+    }
+  ],
+  "practiceQuestions": [
+    {
+      "id": "10a1-w10-p165-q1",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 1,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q2",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 2,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q3",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 3,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q4",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 4,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q5",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 5,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q6",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 6,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q11",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 11,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q12",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 12,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q13",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 13,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p165-q14",
+      "type": "MCQ",
+      "outcomeId": "955b8d24-9b63-455e-8623-d8f35d240d0c",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 165,
+        "exercise": 14,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q1",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 1,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q2",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 2,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q3",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 3,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q4",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 4,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q5",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 5,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q6",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 6,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q7",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 7,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q8",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 8,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q9",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 9,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q10",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 10,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q11",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 11,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p171-q12",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 171,
+        "exercise": 12,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p172-q20",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 172,
+        "exercise": 20,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p172-q21",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 172,
+        "exercise": 21,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p172-q22",
+      "type": "MCQ",
+      "outcomeId": "16238684-4124-4402-931c-ab70a306d490",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 172,
+        "exercise": 22,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q19",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 19,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q20",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 20,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q21",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 21,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q22",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 22,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q23",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 23,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q24",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 24,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q33",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 33,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q34",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 34,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q35",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 35,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q36",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 36,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q37",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 37,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p185-q38",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 185,
+        "exercise": 38,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-p184-q25",
+      "type": "MCQ",
+      "outcomeId": "3bc13ec5-8fb1-40ee-9ac0-a79b598cebcf",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 184,
+        "exercise": 25,
+        "adaptation": "Original book givens, authored multiple-choice format"
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q13",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 13
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q14",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 14
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q15",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 15
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q16",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 16
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q17",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 17
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q18",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 177,
+        "exercise": 18
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q19",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 19
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q20",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 20
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q21",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 21
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q22",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 22
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q23",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 23
+      }
+    },
+    {
+      "id": "10a1-w10-coordinate-q24",
+      "type": "FRQ",
+      "outcomeId": "5ccc9f87-f16f-4382-8d13-f22ceadcd14b",
+      "source": {
+        "book_sha256": "7ba96d714c63670cda31b98e4593ade9077c05a55e81d11fe0e3af1d7865a31a",
+        "printed_page": 178,
+        "exercise": 24
+      }
+    }
+  ],
+  "packages": [
+    {
+      "kind": "Main",
+      "id": "math-10a1-four-outcomes-20261109-main-v1",
+      "file": "10A1-Four-Outcomes-Main-15min-2tries-SCORM12.zip",
+      "frq": "10a1-four-outcomes-written-p178-q19"
+    },
+    {
+      "kind": "Reserve",
+      "id": "math-10a1-four-outcomes-20261109-reserve-v1",
+      "file": "10A1-Four-Outcomes-Reserve-15min-2tries-SCORM12.zip",
+      "frq": "10a1-four-outcomes-written-p178-q20"
+    }
+  ]
+}
