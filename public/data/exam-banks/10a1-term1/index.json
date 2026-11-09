@@ -9324,7 +9324,7 @@
             "height_mm": 25
           },
           "answer": {
-            "model_answer_and_marking": "sin B=b sin A/a=1.00000000. Two solutions; test both arcsine candidates against A+B<180°. Correct ratio (2), count and admissibility (2).",
+            "model_answer_and_marking": "sin B=b sin A/a=1.00000000. Exactly one solution (a right angle at B): the second arcsine candidate 180°−90° repeats the same triangle. Correct ratio (2), count and admissibility (2).",
             "math_latex": ""
           }
         },
@@ -9337,7 +9337,7 @@
             "height_mm": 35
           },
           "answer": {
-            "model_answer_and_marking": "B≈90°, C≈60°, c≈3.5; B≈90°, C≈60°, c≈3.5 Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
+            "model_answer_and_marking": "B=90°, C=60°, c≈3.5 (one triangle only). Calculate with full-precision angles before rounding. Correct possible triangles and remaining side(s) (6).",
             "math_latex": ""
           }
         }

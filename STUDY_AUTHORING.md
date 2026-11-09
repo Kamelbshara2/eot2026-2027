@@ -13,3 +13,11 @@ Applies to all future uploaded classes and textbooks for this platform. The late
 9. Validate the content mathematically and run browser tests of practice, shuffled grading, timer and persistence. A passing software test is not proof of mathematical correctness. Keep source review and artifact consistency as separate checks.
 
 Rebuild: original textbook extraction scripts → `scripts/revise-study-banks.py` → calculator guide renderer → booklet HTML/PDF exporter → database packager. Current baseline inputs are retained under `content-imports/textbook-v1-inputs/`. Do not overwrite newer reviewed questions by running only an older extractor.
+
+## Interactive study booklet (web) — added fill-in-the-blank, calculator and quiz layers
+
+- `lib/study-booklet.js` renders five colour-coded lesson parts: 1 Idea, 2 Worked example, 3 Study helper, 4 Practise, 5 Quiz. Every block carries a label (QUESTION / SOLUTION / HELPER / YOUR ANSWER). Do not merge them again.
+- Written (FRQ) parts may carry `blanks` = `{lines:[LaTeX with [[blanks]]], table?:{xs,ys}}`. Syntax and checking rules are in `lib/study-fill.js`. Generate them with `python3 scripts/add-study-blanks.py` (requires `sympy`) **after** the study JSON is rebuilt; the script is idempotent and also applies reviewed corrections. Answers are computed from the stem wherever possible. Blanks must never reveal a value that the student should read from a given graph.
+- Parts with no `blanks` (graphs to draw, explanations) stay paper-only with the reference solution.
+- Quizzes (`/banks/term1/quiz?lo=…&n=…&mix=…&t=1`) draw round-robin across the chosen outcomes from MCQs and blank-bearing FRQs only. Practice quizzes grade in the browser and may show explanations; a real exam must not use this path (keys are in the public JSON).
+- Calculator guides render as selectable text steps + key chips; the PNG is secondary. Questions without a calculator route state why.
