@@ -20,3 +20,17 @@ test('calculator solves a quadratic, generates a table and solves a linear equat
  assert.equal(linear.top.constructor.name, 'SolveResult');
  assert.equal(linear.top.x.d.toString(), '2');
 });
+
+test('illustrated walkthroughs have images for each calculator key', async () => {
+ const {readFile, access} = await import('node:fs/promises');
+ const base = new URL('../public/data/calculator-examples/', import.meta.url);
+ const examples = JSON.parse(await readFile(new URL('examples.json', base)));
+ assert.deepEqual(examples.map(item => item.id), ['quadratic', 'table', 'linear']);
+ for (const example of examples) {
+   assert.ok(example.result && example.steps.length > 0);
+   for (let i = 0; i < example.steps.length; i++) {
+     assert.ok(example.steps[i][0] && example.steps[i][1]);
+     await access(new URL(`${example.id}/${i+1}.png`, base));
+   }
+ }
+});
