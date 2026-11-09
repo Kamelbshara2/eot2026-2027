@@ -42,3 +42,11 @@ test('three requested curves have separate tables and reasoning-only problems do
  const identity=data.classes['9G3'].questions['G9G-BOOK-Q23-FRQ-04'];
  assert.equal(identity.role,'reasoning');assert.match(identity.prepare,/One SOLVE result cannot prove/);
 });
+test('each question-specific TABLE sequence reaches the table screen',()=>{
+ let count=0;
+ for(const bank of Object.values(data.classes))for(const [id,g] of Object.entries(bank.questions))for(const table of g.tables){
+  assert.equal(run(table.keys).top.constructor.name,'GridScreen',`${id}: ${table.expression}`);
+  count++;
+ }
+ assert.equal(count,35);
+});
