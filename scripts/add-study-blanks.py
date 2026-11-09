@@ -133,10 +133,9 @@ put('G9G-BOOK-Q23-FRQ-02', 'a', ['[[9m-6]]=[[6m+6]]', '[[3m]]=12', 'm=[[4]]', '\
 put('G9G-BOOK-Q23-FRQ-03', 'a', ['2x=[[2x-6]]', '0=[[-6]]\\ \\text{(false)}', SOL('No solution')])
 put('G9G-BOOK-Q23-FRQ-04', 'a', ['-5(3-q)+4=[[5q-11]]', '5q-11=5q-11\\ \\text{(always true)}', SOL('Infinitely many solutions')])
 # ---- 9G3 LO24 tables (x given, y computed from the equation)
-put('G9G-BOOK-Q24-FRQ-01', 'a', ['y=[[8-x]]'], {'xs': [0, 4, 8], 'ys': [8, 4, 0]})
-put('G9G-BOOK-Q24-FRQ-02', 'a', ['y=[[10-x]]'], {'xs': [0, 5, 10], 'ys': [10, 5, 0]})
-put('G9G-BOOK-Q24-FRQ-03', 'a', ['y=\\frac12x+1'], {'xs': [-2, 0, 2], 'ys': [0, 1, 2]})
-put('G9G-BOOK-Q24-FRQ-04', 'a', ['y=[[x/4-2|0.25x-2]]'], {'xs': [-4, 0, 4], 'ys': [-3, -2, -1]})
+put('G9G-BOOK-Q24-FRQ-01', 'a', ['y=[[8-x]]'])
+put('G9G-BOOK-Q24-FRQ-02', 'a', ['y=[[10-x]]'])
+put('G9G-BOOK-Q24-FRQ-04', 'a', ['y=[[x/4-2|0.25x-2]]'])
 # ---- 9G3 LO25 piecewise (endpoint, slope, domain, range)
 def piece(q, rows, rng_opts, rng):
     lines = []
@@ -218,6 +217,17 @@ def triangle(qid, A, a, b):
 triangle('G10A-BOOK-Q25-FRQ-01', 50, 34, 40); triangle('G10A-BOOK-Q25-FRQ-02', 24, 3, 8)
 triangle('G10A-BOOK-Q25-FRQ-03', 125, 22, 15); triangle('G10A-BOOK-Q25-FRQ-04', 30, 2, 4)
 
+PLOTS = {
+    'G9G-BOOK-Q24-FRQ-01': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 8}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-02': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 10}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-03': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.5, 'b': 1}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-04': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.25, 'b': -2}, 'min_points': 3},
+    'G9G-BOOK-Q25-FRQ-01': {'kind': 'piecewise', 'bounds': [-6, 10, -6, 8], 'pieces': [{'m': 0.5, 'b': -1, 'x0': 3, 'side': 'right', 'closed': False}, {'m': -2, 'b': 3, 'x0': 3, 'side': 'left', 'closed': True}]},
+    'G9G-BOOK-Q25-FRQ-02': {'kind': 'piecewise', 'bounds': [-6, 8, -8, 8], 'pieces': [{'m': 2, 'b': -5, 'x0': 1, 'side': 'right', 'closed': False}, {'m': 4, 'b': -3, 'x0': 1, 'side': 'left', 'closed': True}]},
+    'G9G-BOOK-Q25-FRQ-03': {'kind': 'piecewise', 'bounds': [-8, 6, -6, 8], 'pieces': [{'m': 2, 'b': 3, 'x0': -3, 'side': 'right', 'closed': True}, {'m': 1 / 3, 'b': 1, 'x0': -3, 'side': 'left', 'closed': False}]},
+    'G9G-BOOK-Q25-FRQ-04': {'kind': 'piecewise', 'bounds': [-6, 6, -4, 12], 'pieces': [{'m': 3, 'b': 4, 'x0': 1, 'side': 'right', 'closed': True}, {'m': 1, 'b': 3, 'x0': 1, 'side': 'left', 'closed': False}]},
+}
+
 CORRECTIONS = {
     # sin B = 4*sin30/2 = 1 exactly -> ONE (right) triangle, not two identical ones
     'G10A-BOOK-Q25-FRQ-04': {
@@ -244,7 +254,8 @@ def process(classroom):
             else:
                 spec['a'] = {'lines': dist_lines(*P)}; spec['b'] = {'lines': mid_lines(*P)}
         for part in q['parts']:
-            part.pop('blanks', None)
+            part.pop('blanks', None); part.pop('plot', None)
+            if q['id'] in PLOTS: part['plot'] = PLOTS[q['id']]
             b = spec.get(part['id'])
             if b: part['blanks'] = b; n += 1
             fix = CORRECTIONS.get(q['id'], {}).get(part['id'])
