@@ -1,0 +1,2412 @@
+{
+  "description": "Inventory of existing question calculator metadata; presence does not establish mathematical or device validation.",
+  "classes": {
+    "9G3": [
+      {
+        "id": "LO01",
+        "title": "Numerical expressions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q01-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q01-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q01-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q01-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO02",
+        "title": "Distributive Property",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q02-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G9G-BOOK-Q02-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G9G-BOOK-Q02-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G9G-BOOK-Q02-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO03",
+        "title": "Addition and subtraction equations",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q03-MCQ-01",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q03-MCQ-02",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q03-MCQ-03",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q03-MCQ-04",
+            "guide": "existing",
+            "kind": "solve"
+          }
+        ]
+      },
+      {
+        "id": "LO04",
+        "title": "Rearrange formulas",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q04-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q04-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q04-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q04-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO05",
+        "title": "Properties of equality",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q05-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q05-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q05-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q05-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO06",
+        "title": "Variables on each side",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q06-MCQ-01",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q06-MCQ-02",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q06-MCQ-03",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q06-MCQ-04",
+            "guide": "existing",
+            "kind": "solve"
+          }
+        ]
+      },
+      {
+        "id": "LO07",
+        "title": "Distribute to evaluate",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q07-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q07-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q07-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q07-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO07-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO07-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO07-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO07-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO08",
+        "title": "Rate of change",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q08-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q08-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q08-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q08-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO08-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO08-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO08-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO08-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO09",
+        "title": "Solve proportions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q09-MCQ-01",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q09-MCQ-02",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q09-MCQ-03",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q09-MCQ-04",
+            "guide": "existing",
+            "kind": "solve"
+          }
+        ]
+      },
+      {
+        "id": "LO10",
+        "title": "Multi-step equations with parameters",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q10-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q10-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q10-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q10-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO11",
+        "title": "Dilations of linear functions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q11-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q11-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q11-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q11-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO11-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO11-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO12",
+        "title": "Slope-intercept form",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q12-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q12-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q12-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q12-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO13",
+        "title": "Read linear graphs",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q13-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q13-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q13-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q13-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO14",
+        "title": "Graph step functions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q14-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q14-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q14-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q14-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO14-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO14-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO15",
+        "title": "Slope from two points",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q15-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q15-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q15-MCQ-03",
+            "guide": "existing",
+            "kind": "vertical"
+          },
+          {
+            "id": "G9G-BOOK-Q15-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO15-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO15-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO15-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO15-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO16",
+        "title": "Evaluate step functions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q16-MCQ-01",
+            "guide": "existing",
+            "kind": "floor"
+          },
+          {
+            "id": "G9G-BOOK-Q16-MCQ-02",
+            "guide": "existing",
+            "kind": "floor"
+          },
+          {
+            "id": "G9G-BOOK-Q16-MCQ-03",
+            "guide": "existing",
+            "kind": "floor"
+          },
+          {
+            "id": "G9G-BOOK-Q16-MCQ-04",
+            "guide": "existing",
+            "kind": "floor"
+          }
+        ]
+      },
+      {
+        "id": "LO17",
+        "title": "Arithmetic sequence arguments",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q17-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q17-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q17-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q17-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO17-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO17-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO17-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "9G3-REV-LO17-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO18",
+        "title": "Constant linear functions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q18-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q18-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q18-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q18-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO18-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "9G3-REV-LO18-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO19",
+        "title": "Verbal expressions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q19-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q19-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q19-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q19-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO20",
+        "title": "Solve multi-step equations",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q20-MCQ-01",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q20-MCQ-02",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q20-MCQ-03",
+            "guide": "existing",
+            "kind": "solve"
+          },
+          {
+            "id": "G9G-BOOK-Q20-MCQ-04",
+            "guide": "existing",
+            "kind": "solve"
+          }
+        ]
+      },
+      {
+        "id": "LO21",
+        "title": "Evaluate algebraic expressions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q21-FRQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q21-FRQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q21-FRQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q21-FRQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO22",
+        "title": "Use and rearrange formulas",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q22-FRQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q22-FRQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q22-FRQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q22-FRQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO23",
+        "title": "Equations, identities and contradictions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q23-FRQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q23-FRQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q23-FRQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G9G-BOOK-Q23-FRQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO24",
+        "title": "Graph with a table",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q24-FRQ-01",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q24-FRQ-02",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q24-FRQ-03",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q24-FRQ-04",
+            "guide": "existing",
+            "kind": "table"
+          }
+        ]
+      },
+      {
+        "id": "LO25",
+        "title": "Piecewise functions",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q25-FRQ-01",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q25-FRQ-02",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q25-FRQ-03",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G9G-BOOK-Q25-FRQ-04",
+            "guide": "existing",
+            "kind": "table"
+          }
+        ]
+      },
+      {
+        "id": "LO26",
+        "title": "Arithmetic nth term",
+        "questions": [
+          {
+            "id": "G9G-BOOK-Q26-FRQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q26-FRQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q26-FRQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G9G-BOOK-Q26-FRQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      }
+    ],
+    "10G3": [
+      {
+        "id": "LO01",
+        "title": "FOIL binomial products",
+        "questions": [
+          {
+            "id": "G10G-Q01-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q01-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q01-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q01-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q01-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q01-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO02",
+        "title": "Squares of sums and differences",
+        "questions": [
+          {
+            "id": "G10G-Q02-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q02-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q02-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q02-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q02-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q02-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "10G3-REV-LO02-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "10G3-REV-LO02-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO03",
+        "title": "Sum and difference products",
+        "questions": [
+          {
+            "id": "G10G-Q03-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q03-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q03-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q03-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q03-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q03-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO04",
+        "title": "Factor using distribution",
+        "questions": [
+          {
+            "id": "G10G-Q04-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q04-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q04-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q04-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q04-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q04-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO05",
+        "title": "Analyse monic trinomial factors",
+        "questions": [
+          {
+            "id": "G10G-Q05-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q05-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q05-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q05-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q05-MCQ-05",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q05-MCQ-06",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO06",
+        "title": "Factor non-monic trinomials",
+        "questions": [
+          {
+            "id": "G10G-Q06-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q06-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q06-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q06-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q06-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q06-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO07",
+        "title": "Difference of squares",
+        "questions": [
+          {
+            "id": "G10G-Q07-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q07-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q07-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q07-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q07-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q07-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO08",
+        "title": "Divide monomials",
+        "questions": [
+          {
+            "id": "G10G-Q08-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q08-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q08-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q08-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q08-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q08-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "10G3-REV-LO08-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO08-02",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO09",
+        "title": "Negative and zero exponents",
+        "questions": [
+          {
+            "id": "G10G-Q09-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q09-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q09-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q09-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q09-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q09-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "10G3-REV-LO09-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "10G3-REV-LO09-02",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO10",
+        "title": "Rational exponents",
+        "questions": [
+          {
+            "id": "G10G-Q10-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q10-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q10-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q10-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q10-MCQ-05",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q10-MCQ-06",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO11",
+        "title": "Products of square roots",
+        "questions": [
+          {
+            "id": "G10G-Q11-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q11-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q11-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q11-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q11-MCQ-05",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q11-MCQ-06",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO12",
+        "title": "Quotients of radicals",
+        "questions": [
+          {
+            "id": "G10G-Q12-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q12-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q12-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q12-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q12-MCQ-05",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q12-MCQ-06",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO13",
+        "title": "Add and subtract radicals",
+        "questions": [
+          {
+            "id": "G10G-Q13-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q13-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q13-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q13-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q13-MCQ-05",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q13-MCQ-06",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO14",
+        "title": "Factoring in context",
+        "questions": [
+          {
+            "id": "G10G-Q14-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q14-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q14-MCQ-03",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q14-MCQ-04",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q14-MCQ-05",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q14-MCQ-06",
+            "guide": "existing",
+            "kind": "quadratic"
+          }
+        ]
+      },
+      {
+        "id": "LO15",
+        "title": "Square root and completing-square methods",
+        "questions": [
+          {
+            "id": "G10G-Q15-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q15-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q15-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q15-MCQ-04",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q15-MCQ-05",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q15-MCQ-06",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "10G3-REV-LO15-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO15-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO16",
+        "title": "Translations of quadratics",
+        "questions": [
+          {
+            "id": "G10G-Q16-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q16-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q16-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q16-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q16-MCQ-05",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q16-MCQ-06",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO16-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO16-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO17",
+        "title": "Factoring quadratic equations",
+        "questions": [
+          {
+            "id": "G10G-Q17-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q17-MCQ-02",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q17-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q17-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q17-MCQ-05",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q17-MCQ-06",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO18",
+        "title": "Dilations and reflections of quadratics",
+        "questions": [
+          {
+            "id": "G10G-Q18-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q18-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q18-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q18-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q18-MCQ-05",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q18-MCQ-06",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO18-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO18-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO19",
+        "title": "Solve quadratics by graphing",
+        "questions": [
+          {
+            "id": "G10G-Q19-MCQ-01",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q19-MCQ-02",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q19-MCQ-03",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q19-MCQ-04",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q19-MCQ-05",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "G10G-Q19-MCQ-06",
+            "guide": "existing",
+            "kind": "quadratic"
+          },
+          {
+            "id": "10G3-REV-LO19-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10G3-REV-LO19-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO20",
+        "title": "Complete the square",
+        "questions": [
+          {
+            "id": "G10G-Q20-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q20-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q20-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q20-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q20-MCQ-05",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10G-Q20-MCQ-06",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO21",
+        "title": "Add and subtract polynomials",
+        "questions": [
+          {
+            "id": "G10G-Q21-FRQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q21-FRQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q21-FRQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q21-FRQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO22",
+        "title": "Multiply polynomials",
+        "questions": [
+          {
+            "id": "G10G-Q22-FRQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q22-FRQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q22-FRQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q22-FRQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO23",
+        "title": "Multiplication properties of exponents",
+        "questions": [
+          {
+            "id": "G10G-Q23-FRQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q23-FRQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q23-FRQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q23-FRQ-04",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10G-Q23-FRQ-05",
+            "guide": "existing",
+            "kind": "table"
+          }
+        ]
+      },
+      {
+        "id": "LO24",
+        "title": "Quadratic extrema and graph features",
+        "questions": [
+          {
+            "id": "G10G-Q24-FRQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q24-FRQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q24-FRQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10G-Q24-FRQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO25",
+        "title": "Write a quadratic from its graph",
+        "questions": [
+          {
+            "id": "G10G-Q25-FRQ-01",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G10G-Q25-FRQ-02",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G10G-Q25-FRQ-03",
+            "guide": "existing",
+            "kind": "table"
+          },
+          {
+            "id": "G10G-Q25-FRQ-04",
+            "guide": "existing",
+            "kind": "table"
+          }
+        ]
+      }
+    ],
+    "10A1": [
+      {
+        "id": "LO01",
+        "title": "Polynomial operations",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q01-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q01-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q01-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q01-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO02",
+        "title": "FOIL and binomial products",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q02-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q02-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q02-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q02-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO03",
+        "title": "Factoring by GCF and grouping",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q03-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q03-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q03-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q03-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO04",
+        "title": "Factoring monic trinomials",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q04-MCQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q04-MCQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q04-MCQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q04-MCQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO05",
+        "title": "Interior angles of polygons",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q05-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q05-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q05-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q05-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO06",
+        "title": "Properties of parallelograms",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q06-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q06-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q06-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q06-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO07",
+        "title": "Tests for parallelograms",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q07-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q07-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q07-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q07-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO07-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO07-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO08",
+        "title": "Kites",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q08-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q08-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q08-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q08-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO09",
+        "title": "Dilation coordinates",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q09-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q09-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q09-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q09-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO10",
+        "title": "Similar polygons",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q10-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q10-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q10-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q10-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO11",
+        "title": "Dilation scale factors",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q11-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q11-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q11-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q11-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO12",
+        "title": "AA triangle similarity",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q12-MCQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q12-MCQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q12-MCQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q12-MCQ-04",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO12-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO12-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO13",
+        "title": "Proportional parts in triangles",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q13-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q13-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q13-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q13-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO14",
+        "title": "Parts of similar triangles",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q14-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q14-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q14-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q14-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO15",
+        "title": "Geometric mean",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q15-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q15-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q15-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q15-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO16",
+        "title": "Pythagorean theorem and converse",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q16-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q16-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q16-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q16-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "10A1-REV-LO16-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO16-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO17",
+        "title": "Special right triangles",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q17-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q17-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q17-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q17-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "10A1-REV-LO17-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "10A1-REV-LO17-02",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO18",
+        "title": "Right-triangle trigonometry",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q18-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q18-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q18-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q18-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO19",
+        "title": "Angles of elevation and depression",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q19-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q19-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q19-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q19-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO20",
+        "title": "Area with two sides and an angle",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q20-MCQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q20-MCQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q20-MCQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q20-MCQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO21",
+        "title": "Special-product factorization",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q21-FRQ-01",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q21-FRQ-02",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q21-FRQ-03",
+            "guide": "existing",
+            "kind": "check"
+          },
+          {
+            "id": "G10A-BOOK-Q21-FRQ-04",
+            "guide": "existing",
+            "kind": "check"
+          }
+        ]
+      },
+      {
+        "id": "LO22",
+        "title": "Interior and exterior angle reasoning",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q22-FRQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q22-FRQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q22-FRQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q22-FRQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO23",
+        "title": "Solving with similar triangles",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q23-FRQ-01",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q23-FRQ-02",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q23-FRQ-03",
+            "guide": "not_available",
+            "kind": null
+          },
+          {
+            "id": "G10A-BOOK-Q23-FRQ-04",
+            "guide": "not_available",
+            "kind": null
+          }
+        ]
+      },
+      {
+        "id": "LO24",
+        "title": "Distance and midpoint in space",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q24-FRQ-01",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q24-FRQ-02",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q24-FRQ-03",
+            "guide": "existing",
+            "kind": "evaluate"
+          },
+          {
+            "id": "G10A-BOOK-Q24-FRQ-04",
+            "guide": "existing",
+            "kind": "evaluate"
+          }
+        ]
+      },
+      {
+        "id": "LO25",
+        "title": "Law of Sines and the ambiguous case",
+        "questions": [
+          {
+            "id": "G10A-BOOK-Q25-FRQ-01",
+            "guide": "existing",
+            "kind": "ssa"
+          },
+          {
+            "id": "G10A-BOOK-Q25-FRQ-02",
+            "guide": "existing",
+            "kind": "ssa"
+          },
+          {
+            "id": "G10A-BOOK-Q25-FRQ-03",
+            "guide": "existing",
+            "kind": "ssa"
+          },
+          {
+            "id": "G10A-BOOK-Q25-FRQ-04",
+            "guide": "existing",
+            "kind": "ssa"
+          }
+        ]
+      }
+    ]
+  }
+}
