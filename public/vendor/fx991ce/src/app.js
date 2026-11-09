@@ -14,6 +14,8 @@ let shownText = '';
 const toast = document.getElementById('toast');
 
 function storage() {
+  // Walkthrough frames must never read or overwrite the student's calculator.
+  if (new URLSearchParams(location.search).has('walkthrough')) return null;
   try {
     localStorage.setItem('fx991ex.probe', '1');
     return localStorage;

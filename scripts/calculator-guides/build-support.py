@@ -295,6 +295,7 @@ for classroom in PREP:
             op['key_labels']=[KEY_LABELS.get(k,k) for k in op['keys']]
             guide['operations'].append(op)
         for t in guide['tables']:
+            t['keys']=['MENU','9']+input_keys(t['expression'])+['EQ','EQ']+input_keys(str(t['start']))+['EQ']+input_keys(str(t['end']))+['EQ']+input_keys(str(t['step']))+['EQ','EQ']
             for row in t['rows']:
                 expr=t['expression'].replace('X','('+row['x']+')')
                 row['keys']=['AC']+input_keys(expr)+['EQ']
