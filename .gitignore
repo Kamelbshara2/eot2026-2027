@@ -8,3 +8,5 @@ dist/
 
 # Expanded copy is reproducible; publish the self-contained teacher ZIP.
 artifacts/assessment-transfer/
+.claude-flow/
+.swarm/
