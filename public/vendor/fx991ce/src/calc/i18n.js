@@ -85,14 +85,14 @@ const HU = {
 };
 
 const DICTS = { hu: HU };
-let current = 'hu';
+let current = 'en';
 
 // The fx-991CE X language list. Only Hungarian is translated; the others show the English base strings.
-export const LANGUAGES = [['Cesky', 'cs'], ['Magyar', 'hu'], ['Polski', 'pl'], ['Slovensky', 'sk']];
+export const LANGUAGES = [['English', 'en'], ['Cesky', 'cs'], ['Magyar', 'hu'], ['Polski', 'pl'], ['Slovensky', 'sk']];
 
-/** Selects the display language; anything not on the list (e.g. an older saved 'en') becomes Magyar. */
+/** Selects the display language; unknown saved languages use English in this local teaching adaptation. */
 export function setLanguage(lang) {
-  current = LANGUAGES.some(([, id]) => id === lang) ? lang : 'hu';
+  current = LANGUAGES.some(([, id]) => id === lang) ? lang : 'en';
   return current;
 }
 
