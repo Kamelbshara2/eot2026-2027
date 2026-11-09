@@ -1,0 +1,67 @@
+{
+  "coverage": {
+    "9G3": {
+      "outcomes": 26,
+      "questions": 126,
+      "roles": {
+        "calculation": 10,
+        "check": 4,
+        "solve": 18,
+        "numerical_check": 15,
+        "reasoning": 16,
+        "evaluate": 40,
+        "manual_setup": 10,
+        "vertical": 1,
+        "floor": 4,
+        "table": 8
+      }
+    },
+    "10G3": {
+      "outcomes": 25,
+      "questions": 155,
+      "roles": {
+        "check": 63,
+        "numerical_check": 5,
+        "calculation": 15,
+        "evaluate": 23,
+        "quadratic": 23,
+        "function_check": 16,
+        "table": 5,
+        "manual_setup": 4,
+        "reasoning": 1
+      }
+    },
+    "10A1": {
+      "outcomes": 25,
+      "questions": 108,
+      "roles": {
+        "check": 20,
+        "evaluate": 64,
+        "reasoning": 10,
+        "calculation": 10,
+        "ssa": 4
+      }
+    }
+  },
+  "issues": [],
+  "sources": [
+    {
+      "id": "upstream-modes",
+      "title": "fx991ex-emulator: equation, table and SOLVE source",
+      "url": "https://github.com/magicnothief/fx991ex-emulator/tree/2c26421/src/calc",
+      "scope": "Implementation inspected and key sequences tested. CE X simulation, not a certification of physical EX or ES PLUS behaviour."
+    },
+    {
+      "id": "casio-ex",
+      "title": "Casio fx-570EX / fx-991EX user guide",
+      "url": "https://support.casio.com/global/en/calc/manual/fx-991EX_en/",
+      "scope": "Official reference link. Live access was blocked by this environment; not used as a newly verified source."
+    },
+    {
+      "id": "reviewed-bank",
+      "title": "Repository question bank and worked marking keys",
+      "url": "",
+      "scope": "Original prompts, reference solutions and diagrams preserved. Numerical checks do not validate every source diagram or theorem proof."
+    }
+  ]
+}

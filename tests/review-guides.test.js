@@ -19,3 +19,17 @@ test('calculator helper escapes imported text and rejects external illustration 
  const q={display_number:'<script>',calculator:{applicable:true,model:'<img>',image:'https://example.org/x.png',steps:[{title:'<script>',keys:['<b>'],text:'<svg/onload=alert(1)>',expression:'<iframe>'}]}};
  const html=calculatorGuide(q,'/');assert(!html.includes('<script>'));assert(!html.includes('<img'));assert(!html.includes('<iframe>'));assert(html.includes('&lt;script&gt;'));
 });
+
+test('quadratic guide uses Equation, Polynomial and degree 2 with this question’s coefficients',()=>{
+ const q={calculator:{applicable:true,model:'fx-991EX',kind:'quadratic',expressions:['(-30)^2-4*(-9)*(-25)'],steps:[]}};
+ const html=calculatorGuide(q,'/');
+ assert.match(html,/Equation\/Func/); assert.match(html,/2: Polynomial/); assert.match(html,/2: Degree 2/);
+ assert.match(html,/a = -9, b = -30, c = -25/);
+});
+
+test('all existing quadratic calculator guides expose the polynomial mode and coefficients',async()=>{
+ const bank=await load('public/data/study/10G3.json');
+ const questions=bank.questions.filter(q=>q.calculator?.kind==='quadratic');
+ assert.equal(questions.length,15);
+ for(const q of questions){const html=calculatorGuide(q,'/');assert.match(html,/2: Polynomial/);assert.match(html,/2: Degree 2/);assert.match(html,/a = -?\d+, b = -?\d+, c = -?\d+/)}
+});

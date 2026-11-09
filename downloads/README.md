@@ -1,5 +1,18 @@
 # Downloadable exams
 
+## 10A1 Four Learning Outcomes — new primary and reserve, two internal tries
+
+- [Primary SCORM 1.2 ZIP](10A1-Four-Outcomes-Main-15min-2tries-SCORM12.zip)
+- [Reserve SCORM 1.2 ZIP](10A1-Four-Outcomes-Reserve-15min-2tries-SCORM12.zip)
+- [Arabic LMS setup and verification guide](10A1-Four-Outcomes-LMS-Setup-AR.md)
+- [Website practice bank with original book images](https://kamelbshara2.github.io/eot2026-2027/exams/10a1-four-outcomes-assessment-practice.html)
+
+Each new activity has **four MCQs × 2 marks and one written question with two working steps and a final answer × 2 marks = 10**, covering all four confirmed Advanced outcomes. One whole-exam timer runs for **15 minutes plus an automatic 2-minute grace period**, then submits. The fixed four-pool blueprint has 20 eligible MCQs; question and option order are shuffled. Try 2 selects a different item in every MCQ pool. The common FRQ differs between primary and reserve; it assesses midpoint and distance in space. The complete website bank contains all 38 MCQs and 12 FRQs from the four outcomes. Its Q21 on p.178 uses the original G(0,3,0), correcting the old transcription. Original textbook PNGs and math fonts are bundled in each ZIP.
+
+**Two tries are managed inside each package. Configure ONE outer SCORM attempt**, preserving suspend data and allowing normal/resume launches after completion; do not automatically reset attempts. Students may start try 2 immediately after try 1. A completed activity launched in review/browse mode cannot start the remaining try. Set the LMS gradebook maximum to **10**; SCORM reports the FIRST submitted grade as 0–100; only if the first try has no selected MCQ and no nonblank written response does it use try 2. A zero grade with any answer remains zero. A second try cannot replace a first try that contains answers. Restrict the reserve to approved students and substitute its grade rather than adding both activities to the course total. See the guide for systems that force completed activities into review. Existing exam packages and submissions are unchanged.
+
+Rebuild with `node scripts/build-advanced-four-outcomes-scorm.mjs`. Run `npm test` and `scripts/verify-advanced-four-outcomes-browser.mjs` with Playwright/Chromium. Verified with a simulated SCORM 1.2 API, including exact timer boundaries, refresh, two tries, shuffled scoring, save failures and retry; verify gradebook/launch settings in the actual LMS before assignment. The browser cannot submit while closed or guarantee warning audio if muted. The independent offline package includes client-side marking keys.
+
 ## 9G3 — individual exam, one trial
 
 [Download the new single-student Grade 9 SCORM 1.2 exam](https://github.com/Kamelbshara2/eot2026-2027/raw/refs/heads/main/downloads/9G3-Week10-Single-Student-SCORM12.zip).
