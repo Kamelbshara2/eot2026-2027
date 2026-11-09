@@ -46,7 +46,7 @@ for (const c of ['9G3']) {
       const plot = q.parts.find(p => p.plot).plot;
       assert.ok(plot.bounds[0] < plot.bounds[1] && plot.bounds[2] < plot.bounds[3]);
       if (plot.kind === 'line') {
-        for (const x of [-2, 0, 2]) assert.ok(checkTable(plot, [{x: String(x), y: String(plot.line.m * x + plot.line.b)}, {x: '1', y: String(plot.line.m + plot.line.b)}, {x: '4', y: String(plot.line.m * 4 + plot.line.b)}]).ok);
+        assert.ok(checkTable(plot, plot.xs.map(x => ({y: String(plot.line.m * x + plot.line.b)}))).ok);
       } else {
         for (const pc of plot.pieces) { const e = pieceEnd(pc); assert.ok(e.x >= plot.bounds[0] && e.x <= plot.bounds[1] && e.y >= plot.bounds[2] && e.y <= plot.bounds[3], q.id + ' endpoint inside plane'); }
         const model = q.parts[0].blanks.lines.join(' ');
@@ -98,4 +98,19 @@ test('exam bank routes include mock and print', () => {
   assert.equal(examBankRoute('#/classrooms/9G3/banks/term1/mock').mock, true);
   assert.equal(examBankRoute('#/classrooms/10A1/banks/term1/print').print, true);
   assert.equal(examBankRoute('#/classrooms/10G3/banks/term1/outcomes/LO05').outcomeId, 'LO05');
+});
+
+test('plot: x values given by the question — student supplies y; all given points must be plotted', () => {
+  const spec = {kind: 'line', xs: [0, 5, 10], line: {m: -1, b: 10}, min_points: 3, bounds: [-12, 12, -12, 12]};
+  assert.ok(checkTable(spec, [{y: '10'}, {y: '5'}, {y: '0'}]).ok);
+  assert.ok(!checkTable(spec, [{y: '10'}, {y: '5'}, {y: '1'}]).ok);
+  assert.ok(!checkTable(spec, [{y: '10'}, {y: ''}, {y: '0'}]).ok);
+  const pts = [{x: 0, y: 10}, {x: 5, y: 5}, {x: 10, y: 0}];
+  assert.ok(checkPlot(spec, [{y: '10'}, {y: '5'}, {y: '0'}], pts).ok);
+  assert.ok(!checkPlot(spec, [{y: '10'}, {y: '5'}, {y: '0'}], pts.slice(0, 2)).ok, 'a given point is not plotted');
+  const bank = JSON.parse(fs.readFileSync(new URL('../public/data/study/9G3.json', import.meta.url)));
+  for (const q of bank.questions.filter(q => q.parts?.[0]?.plot?.kind === 'line')) {
+    const p = q.parts[0].plot; assert.equal(p.xs.length, 3, q.id);
+    assert.ok(p.xs.every(x => Number.isInteger(p.line.m * x + p.line.b)), q.id + ': y values should be exact integers for the given x');
+  }
 });

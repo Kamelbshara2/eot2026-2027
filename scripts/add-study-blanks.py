@@ -218,10 +218,10 @@ triangle('G10A-BOOK-Q25-FRQ-01', 50, 34, 40); triangle('G10A-BOOK-Q25-FRQ-02', 2
 triangle('G10A-BOOK-Q25-FRQ-03', 125, 22, 15); triangle('G10A-BOOK-Q25-FRQ-04', 30, 2, 4)
 
 PLOTS = {
-    'G9G-BOOK-Q24-FRQ-01': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 8}, 'min_points': 3},
-    'G9G-BOOK-Q24-FRQ-02': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 10}, 'min_points': 3},
-    'G9G-BOOK-Q24-FRQ-03': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.5, 'b': 1}, 'min_points': 3},
-    'G9G-BOOK-Q24-FRQ-04': {'kind': 'line', 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.25, 'b': -2}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-01': {'kind': 'line', 'xs': [0, 4, 8], 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 8}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-02': {'kind': 'line', 'xs': [0, 5, 10], 'bounds': [-12, 12, -12, 12], 'line': {'m': -1, 'b': 10}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-03': {'kind': 'line', 'xs': [-2, 0, 2], 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.5, 'b': 1}, 'min_points': 3},
+    'G9G-BOOK-Q24-FRQ-04': {'kind': 'line', 'xs': [-4, 0, 4], 'bounds': [-12, 12, -12, 12], 'line': {'m': 0.25, 'b': -2}, 'min_points': 3},
     'G9G-BOOK-Q25-FRQ-01': {'kind': 'piecewise', 'bounds': [-6, 10, -6, 8], 'pieces': [{'m': 0.5, 'b': -1, 'x0': 3, 'side': 'right', 'closed': False}, {'m': -2, 'b': 3, 'x0': 3, 'side': 'left', 'closed': True}]},
     'G9G-BOOK-Q25-FRQ-02': {'kind': 'piecewise', 'bounds': [-6, 8, -8, 8], 'pieces': [{'m': 2, 'b': -5, 'x0': 1, 'side': 'right', 'closed': False}, {'m': 4, 'b': -3, 'x0': 1, 'side': 'left', 'closed': True}]},
     'G9G-BOOK-Q25-FRQ-03': {'kind': 'piecewise', 'bounds': [-8, 6, -6, 8], 'pieces': [{'m': 2, 'b': 3, 'x0': -3, 'side': 'right', 'closed': True}, {'m': 1 / 3, 'b': 1, 'x0': -3, 'side': 'left', 'closed': False}]},
