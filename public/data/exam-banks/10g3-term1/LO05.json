@@ -55,33 +55,32 @@
       "options": [
         {
           "id": "A",
-          "text": "- x^{2} - 12 x + 24",
-          "math_latex": "- x^{2} - 12 x + 24",
-          "misconception": "Reverse a sign inside a factor."
+          "text": "x^{2} + 11 x + 24",
+          "math_latex": "x^{2} + 11 x + 24",
+          "misconception": "Choose a pair that sums to 11 only by guessing; 3 and 8 do work, so this one factors."
         },
         {
           "id": "B",
-          "text": "x^{2} + 12 x - 24",
-          "math_latex": "x^{2} + 12 x - 24",
-          "misconception": "Reverse a sign inside a factor."
+          "text": "x^{2} - 10 x - 24",
+          "math_latex": "x^{2} - 10 x - 24",
+          "misconception": "Sign slip on the middle term; -12 and 2 do work, so this one factors."
         },
         {
           "id": "C",
-          "text": "\\left(x^{2} + 12 x\\right) + 24",
-          "math_latex": "\\left(x^{2} + 12 x\\right) + 24",
-          "misconception": null
+          "text": "x^{2} + 12 x + 24",
+          "math_latex": "x^{2} + 12 x + 24"
         },
         {
           "id": "D",
-          "text": "- x^{2} - 12 x - 24",
-          "math_latex": "- x^{2} - 12 x - 24",
-          "misconception": "Reverse every sign instead of applying the operation to the required term."
+          "text": "x^{2} + 2 x - 24",
+          "math_latex": "x^{2} + 2 x - 24",
+          "misconception": "Check the sum of the pair: 6 and -4 do work, so this one factors."
         }
       ],
       "answer": {
         "correct_option_id": "C",
-        "correct_option_text": "\\left(x^{2} + 12 x\\right) + 24",
-        "explanation": "For 24, no integer factor pair sums to 12. The other three factor into integer binomials."
+        "correct_option_text": "x^{2} + 12 x + 24",
+        "explanation": "x²+12x+24: no integer pair has product 24 and sum 12 (the discriminant 48 is not a perfect square). The other three factor into integer binomials: (x+3)(x+8), (x−12)(x+2), (x+6)(x−4)."
       },
       "diagram_asset_ids": [],
       "source": {

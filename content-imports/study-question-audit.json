@@ -1,0 +1,397 @@
+{
+ "generated": "2026-11-09",
+ "needs_human": {
+  "9G3": {
+   "justification_or_prose": [
+    "G9G-BOOK-Q05-MCQ-01",
+    "G9G-BOOK-Q05-MCQ-02",
+    "G9G-BOOK-Q05-MCQ-03",
+    "G9G-BOOK-Q05-MCQ-04",
+    "G9G-BOOK-Q07-MCQ-01",
+    "G9G-BOOK-Q07-MCQ-02",
+    "G9G-BOOK-Q07-MCQ-03",
+    "G9G-BOOK-Q07-MCQ-04",
+    "G9G-BOOK-Q17-MCQ-01",
+    "G9G-BOOK-Q17-MCQ-02",
+    "G9G-BOOK-Q17-MCQ-03",
+    "G9G-BOOK-Q17-MCQ-04",
+    "9G3-REV-LO08-04",
+    "9G3-REV-LO11-01",
+    "9G3-REV-LO11-02"
+   ],
+   "diagram_or_graph": [
+    "G9G-BOOK-Q08-MCQ-01",
+    "G9G-BOOK-Q08-MCQ-02",
+    "G9G-BOOK-Q11-MCQ-01",
+    "G9G-BOOK-Q11-MCQ-02",
+    "G9G-BOOK-Q11-MCQ-03",
+    "G9G-BOOK-Q11-MCQ-04",
+    "G9G-BOOK-Q13-MCQ-01",
+    "G9G-BOOK-Q13-MCQ-02",
+    "G9G-BOOK-Q13-MCQ-03",
+    "G9G-BOOK-Q13-MCQ-04",
+    "G9G-BOOK-Q14-MCQ-01",
+    "G9G-BOOK-Q14-MCQ-02",
+    "G9G-BOOK-Q14-MCQ-03",
+    "G9G-BOOK-Q14-MCQ-04",
+    "G9G-BOOK-Q18-MCQ-01",
+    "G9G-BOOK-Q18-MCQ-02",
+    "G9G-BOOK-Q18-MCQ-03",
+    "G9G-BOOK-Q18-MCQ-04",
+    "G9G-BOOK-Q24-FRQ-01",
+    "G9G-BOOK-Q24-FRQ-02",
+    "G9G-BOOK-Q24-FRQ-03",
+    "G9G-BOOK-Q24-FRQ-04",
+    "G9G-BOOK-Q25-FRQ-01",
+    "G9G-BOOK-Q25-FRQ-02",
+    "G9G-BOOK-Q25-FRQ-03",
+    "G9G-BOOK-Q25-FRQ-04",
+    "9G3-REV-LO14-01",
+    "9G3-REV-LO18-01"
+   ],
+   "algebra_not_parsed": [
+    "G9G-BOOK-Q09-MCQ-01",
+    "G9G-BOOK-Q09-MCQ-02",
+    "G9G-BOOK-Q09-MCQ-03",
+    "G9G-BOOK-Q09-MCQ-04",
+    "G9G-BOOK-Q12-MCQ-01",
+    "G9G-BOOK-Q12-MCQ-02",
+    "G9G-BOOK-Q12-MCQ-03",
+    "G9G-BOOK-Q12-MCQ-04",
+    "G9G-BOOK-Q16-MCQ-01",
+    "G9G-BOOK-Q16-MCQ-02",
+    "G9G-BOOK-Q16-MCQ-03",
+    "G9G-BOOK-Q16-MCQ-04",
+    "G9G-BOOK-Q19-MCQ-01",
+    "G9G-BOOK-Q19-MCQ-02",
+    "G9G-BOOK-Q19-MCQ-03",
+    "G9G-BOOK-Q19-MCQ-04",
+    "9G3-REV-LO14-02",
+    "9G3-REV-LO18-02",
+    "9G3-REV-LO17-01"
+   ],
+   "written_answer": [
+    "G9G-BOOK-Q22-FRQ-01",
+    "G9G-BOOK-Q22-FRQ-02",
+    "G9G-BOOK-Q22-FRQ-03",
+    "G9G-BOOK-Q22-FRQ-04",
+    "G9G-BOOK-Q23-FRQ-01",
+    "G9G-BOOK-Q23-FRQ-02",
+    "G9G-BOOK-Q23-FRQ-03",
+    "G9G-BOOK-Q23-FRQ-04",
+    "G9G-BOOK-Q26-FRQ-01",
+    "G9G-BOOK-Q26-FRQ-02",
+    "G9G-BOOK-Q26-FRQ-03",
+    "G9G-BOOK-Q26-FRQ-04"
+   ]
+  },
+  "10G3": {
+   "algebra_not_parsed": [
+    "G10G-Q05-MCQ-01",
+    "G10G-Q05-MCQ-02",
+    "G10G-Q12-MCQ-01",
+    "G10G-Q12-MCQ-02",
+    "G10G-Q12-MCQ-04",
+    "G10G-Q14-MCQ-02",
+    "G10G-Q15-MCQ-01",
+    "G10G-Q15-MCQ-02",
+    "G10G-Q15-MCQ-04",
+    "G10G-Q15-MCQ-05",
+    "G10G-Q15-MCQ-06",
+    "G10G-Q19-MCQ-01",
+    "G10G-Q19-MCQ-04",
+    "10G3-REV-LO02-02",
+    "10G3-REV-LO08-01",
+    "10G3-REV-LO15-01",
+    "10G3-REV-LO16-01",
+    "10G3-REV-LO18-01",
+    "10G3-REV-LO19-02"
+   ],
+   "diagram_or_graph": [
+    "G10G-Q15-MCQ-03",
+    "G10G-Q18-MCQ-01",
+    "G10G-Q18-MCQ-02",
+    "G10G-Q18-MCQ-03",
+    "G10G-Q18-MCQ-04",
+    "G10G-Q18-MCQ-05",
+    "G10G-Q18-MCQ-06",
+    "G10G-Q23-FRQ-02",
+    "G10G-Q24-FRQ-01",
+    "G10G-Q24-FRQ-02",
+    "G10G-Q24-FRQ-03",
+    "G10G-Q24-FRQ-04",
+    "G10G-Q25-FRQ-01",
+    "G10G-Q25-FRQ-02",
+    "G10G-Q25-FRQ-03",
+    "G10G-Q25-FRQ-04",
+    "10G3-REV-LO16-02",
+    "10G3-REV-LO18-02",
+    "10G3-REV-LO19-01"
+   ],
+   "justification_or_prose": [
+    "G10G-Q16-MCQ-01",
+    "G10G-Q16-MCQ-02",
+    "G10G-Q16-MCQ-03",
+    "G10G-Q16-MCQ-04",
+    "G10G-Q16-MCQ-05",
+    "G10G-Q16-MCQ-06"
+   ],
+   "written_answer": [
+    "G10G-Q23-FRQ-01",
+    "G10G-Q23-FRQ-03",
+    "G10G-Q23-FRQ-05"
+   ]
+  },
+  "10A1": {
+   "diagram_or_graph": [
+    "G10A-BOOK-Q05-MCQ-01",
+    "G10A-BOOK-Q05-MCQ-02",
+    "G10A-BOOK-Q05-MCQ-03",
+    "G10A-BOOK-Q05-MCQ-04",
+    "G10A-BOOK-Q06-MCQ-01",
+    "G10A-BOOK-Q06-MCQ-02",
+    "G10A-BOOK-Q06-MCQ-03",
+    "G10A-BOOK-Q06-MCQ-04",
+    "G10A-BOOK-Q07-MCQ-01",
+    "G10A-BOOK-Q07-MCQ-02",
+    "G10A-BOOK-Q07-MCQ-03",
+    "G10A-BOOK-Q07-MCQ-04",
+    "G10A-BOOK-Q08-MCQ-03",
+    "G10A-BOOK-Q08-MCQ-04",
+    "G10A-BOOK-Q09-MCQ-01",
+    "G10A-BOOK-Q09-MCQ-02",
+    "G10A-BOOK-Q09-MCQ-03",
+    "G10A-BOOK-Q09-MCQ-04",
+    "G10A-BOOK-Q12-MCQ-01",
+    "G10A-BOOK-Q12-MCQ-02",
+    "G10A-BOOK-Q12-MCQ-03",
+    "G10A-BOOK-Q12-MCQ-04",
+    "G10A-BOOK-Q13-MCQ-01",
+    "G10A-BOOK-Q13-MCQ-02",
+    "G10A-BOOK-Q13-MCQ-03",
+    "G10A-BOOK-Q13-MCQ-04",
+    "G10A-BOOK-Q14-MCQ-01",
+    "G10A-BOOK-Q14-MCQ-04",
+    "G10A-BOOK-Q15-MCQ-03",
+    "G10A-BOOK-Q15-MCQ-04",
+    "G10A-BOOK-Q17-MCQ-01",
+    "G10A-BOOK-Q17-MCQ-02",
+    "G10A-BOOK-Q17-MCQ-03",
+    "G10A-BOOK-Q17-MCQ-04",
+    "G10A-BOOK-Q18-MCQ-01",
+    "G10A-BOOK-Q18-MCQ-02",
+    "G10A-BOOK-Q18-MCQ-03",
+    "G10A-BOOK-Q18-MCQ-04",
+    "G10A-BOOK-Q20-MCQ-02",
+    "G10A-BOOK-Q20-MCQ-03",
+    "G10A-BOOK-Q20-MCQ-04",
+    "G10A-BOOK-Q22-FRQ-03",
+    "G10A-BOOK-Q22-FRQ-04",
+    "G10A-BOOK-Q23-FRQ-01",
+    "G10A-BOOK-Q23-FRQ-02",
+    "G10A-BOOK-Q23-FRQ-03",
+    "G10A-BOOK-Q23-FRQ-04"
+   ],
+   "algebra_not_parsed": [
+    "G10A-BOOK-Q19-MCQ-01",
+    "G10A-BOOK-Q19-MCQ-02",
+    "G10A-BOOK-Q19-MCQ-03",
+    "G10A-BOOK-Q19-MCQ-04",
+    "10A1-REV-LO07-01",
+    "10A1-REV-LO07-02",
+    "10A1-REV-LO12-01"
+   ],
+   "written_answer": [
+    "G10A-BOOK-Q22-FRQ-01",
+    "G10A-BOOK-Q22-FRQ-02",
+    "G10A-BOOK-Q24-FRQ-01",
+    "G10A-BOOK-Q24-FRQ-02",
+    "G10A-BOOK-Q24-FRQ-03",
+    "G10A-BOOK-Q24-FRQ-04",
+    "G10A-BOOK-Q25-FRQ-01",
+    "G10A-BOOK-Q25-FRQ-02",
+    "G10A-BOOK-Q25-FRQ-03",
+    "G10A-BOOK-Q25-FRQ-04"
+   ],
+   "justification_or_prose": [
+    "10A1-REV-LO12-02",
+    "10A1-REV-LO16-01",
+    "10A1-REV-LO16-02"
+   ]
+  }
+ },
+ "script": "scripts/audit-study-questions.py",
+ "stats": {
+  "9G3": {
+   "questions": 126,
+   "mcq": 102,
+   "frq": 24,
+   "structure_ok": 102,
+   "option_pairs": 612,
+   "key_verified_stem": 8,
+   "key_verified_calc": 21,
+   "frq_verified": 4,
+   "needs_human": 74,
+   "errors": 0,
+   "warnings": 0,
+   "baseline_compared": 80,
+   "key_verified_eq": 20,
+   "key_verified_slope": 8,
+   "key_verified_sequence": 1
+  },
+  "10G3": {
+   "questions": 155,
+   "mcq": 134,
+   "frq": 21,
+   "structure_ok": 134,
+   "option_pairs": 804,
+   "key_verified_stem": 59,
+   "key_verified_calc": 30,
+   "frq_verified": 9,
+   "needs_human": 47,
+   "errors": 0,
+   "warnings": 2,
+   "baseline_compared": 120,
+   "key_verified_factor": 18,
+   "key_verified_k_values": 4,
+   "key_verified_solution_set": 15
+  },
+  "10A1": {
+   "questions": 108,
+   "mcq": 88,
+   "frq": 20,
+   "structure_ok": 88,
+   "option_pairs": 528,
+   "key_verified_stem": 12,
+   "key_verified_calc": 25,
+   "frq_verified": 4,
+   "needs_human": 67,
+   "errors": 0,
+   "warnings": 0,
+   "baseline_compared": 80,
+   "key_verified_factor": 8
+  }
+ },
+ "findings": [
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q12-MCQ-01",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=5 x + 6', before '5 x + 6'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q12-MCQ-02",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=4 - 3 x', before '4 - 3 x'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q12-MCQ-03",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=\\\\frac{x}{3} - 2', before '\\\\frac{x}{3} - 2'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q12-MCQ-04",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=2 x + 6', before '2 x + 6'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q13-MCQ-01",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=2 x - 3', before '2 x - 3'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q13-MCQ-02",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=2 - 3 x', before '2 - 3 x'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q13-MCQ-03",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=- x - 1', before '- x - 1'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q13-MCQ-04",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=3 x - 8', before '3 x - 8'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q18-MCQ-01",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=-4', before '-4'"
+  },
+  {
+   "severity": "info",
+   "class": "9G3",
+   "id": "G9G-BOOK-Q18-MCQ-02",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now 'y=8', before '8'"
+  },
+  {
+   "severity": "info",
+   "class": "10G3",
+   "id": "G10G-Q12-MCQ-01",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now '\\\\frac{2\\\\sqrt2}3', before '\\\\frac{2 \\\\sqrt{2}}{3}'"
+  },
+  {
+   "severity": "info",
+   "class": "10G3",
+   "id": "G10G-Q12-MCQ-02",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now '\\\\frac{2\\\\sqrt{11}}3', before '\\\\frac{2 \\\\sqrt{11}}{3}'"
+  },
+  {
+   "severity": "info",
+   "class": "10G3",
+   "id": "G10G-Q12-MCQ-04",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now '\\\\frac{\\\\sqrt{15}}2', before '\\\\frac{\\\\sqrt{15}}{2}'"
+  },
+  {
+   "severity": "warning",
+   "class": "10G3",
+   "id": "G10G-Q12-MCQ-05",
+   "kind": "K-no-option-equals-stem",
+   "message": "no option is algebraically equal to the stem expression"
+  },
+  {
+   "severity": "warning",
+   "class": "10G3",
+   "id": "G10G-Q12-MCQ-06",
+   "kind": "K-no-option-equals-stem",
+   "message": "no option is algebraically equal to the stem expression"
+  },
+  {
+   "severity": "info",
+   "class": "10A1",
+   "id": "G10A-BOOK-Q14-MCQ-01",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now '\\\\frac{33}2', before '\\\\frac{33}{2}'"
+  },
+  {
+   "severity": "info",
+   "class": "10A1",
+   "id": "G10A-BOOK-Q14-MCQ-04",
+   "kind": "R-key-unparsed-change",
+   "message": "could not compare: now '\\\\frac{120}7', before '\\\\frac{120}{7}'"
+  }
+ ],
+ "limitations": "Computed equivalence covers parseable algebraic/numeric content. Geometry, graph reading, prose and proofs are listed as needs_human and are NOT certified."
+}

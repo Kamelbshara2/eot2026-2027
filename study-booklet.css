@@ -63,7 +63,7 @@
 .study-booklet .example-window>header button{min-height:40px;width:40px;padding:0;font-size:22px}
 .ew-body{overflow:auto;padding:14px 16px 90px}
 .ew-question{padding:12px 14px;border:1px solid #cfdde4;border-radius:14px;background:#fbfcfd}
-.ew-tabs{display:flex;gap:6px;margin:14px 0 8px;position:sticky;top:-14px;background:#fff;padding:6px 0;z-index:2}
+.ew-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 8px;position:sticky;top:-14px;background:#fff;padding:6px 0;z-index:2}
 .study-booklet .ew-tabs button{flex:1;border-radius:10px 10px 0 0;border-bottom:3px solid transparent}.study-booklet .ew-tabs [aria-selected=true]{background:#fff4dd;border-bottom-color:#b67717;font-weight:700}
 @media(min-width:701px){body.example-window-open .study-ribbon{right:min(520px,100vw)}}@media(min-width:1100px){body.example-window-open .study-booklet{margin-right:530px}}
 .solution-mode{display:inline-block;font-size:12px;border-radius:20px;padding:3px 12px;margin:6px 0;background:#e8eef2;color:#2c4558}
@@ -117,3 +117,6 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .study-booklet .study-cta-card{display:flex;flex-direction:column;gap:2px;padding:18px 20px;border-radius:16px;text-decoration:none;color:#fff;background:#153f69;border-bottom:5px solid #e8b75a}
 .study-booklet .study-cta-card.cta-print{background:#006d68}.study-cta-card b{font-size:20px}.study-cta-card span{font-size:14px;opacity:.92}
 @media(max-width:600px){.study-cta{grid-template-columns:1fr}}
+.ew-rule{margin:0 0 12px}.ew-body .calculator-examples{border:0;padding:0}.ew-body .calculator-examples>summary{display:none}
+.study-coach{width:100%}
+.study-columns{grid-template-columns:minmax(0,1fr)}
