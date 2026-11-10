@@ -92,3 +92,13 @@ test('corrected answer keys stay corrected', () => {
   assert.equal(q['12G-en-Q059'].answer.correct_option_id, 'B');
   assert.equal(q['12G-en-Q060'].answer.correct_option_id, 'C');
 });
+
+test('no auto-checked blank expects a non-real or machine-formatted answer (I, **, sqrt(…), *)', () => {
+  for (const c of Object.keys(CLASSES)) for (const q of load(c).questions) for (const p of q.parts || []) for (const l of p.blanks?.lines || [])
+    for (const [, b] of l.matchAll(/\[\[(.+?)\]\]/g)) assert(!/\bI\b|\*\*|\*|sqrt\(/.test(b), `${q.id}: ${b}`);
+});
+test('11A oblique-asymptote questions: no real zeros means the blank asks for the number of zeros (0); every part has worked steps', () => {
+  const q = Object.fromEntries(load('11A').questions.map(q => [q.id, q]));
+  for (const id of ['11A-Q23-13', '11A-Q23-15', '11A-Q23-16']) assert.match(q[id].parts[0].blanks.lines[0], /Number of real zeros: \}\[\[0\]\]/);
+  for (const id of Object.keys(q).filter(k => k.startsWith('11A-Q23'))) for (const p of q[id].parts) assert(p.answer.steps?.length >= 2, `${id} ${p.id}`);
+});

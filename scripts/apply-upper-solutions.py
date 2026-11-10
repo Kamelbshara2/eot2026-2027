@@ -22,7 +22,9 @@ for cls, items in by.items():
         else:
             for part in q['parts']:
                 sp = (it.get('parts') or {}).get(part['id'])
-                if sp: part['answer']['steps'] = sp['steps']
+                if sp:
+                    part['answer']['steps'] = sp['steps']
+                    if part['answer'].get('model_answer_and_marking', '').startswith('Included in the combined reference solution'): part['answer']['model_answer_and_marking'] = 'Worked solution for this part:'
         if not it.get('verified', True): bad.append({'id': q['id'], 'note': it.get('note', '')})
         n += 1
     missing = [k for k in items if k not in {q['id'] for q in bank['questions']}]

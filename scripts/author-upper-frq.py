@@ -83,7 +83,7 @@ for qid, half, m0, t1 in [('11A-Q22-added-01', 6, 100, 18), ('11A-Q22-added-02',
 
 def rational(qid, num, den, hole=None):
     f = S.cancel(num / den); q, rem = S.div(S.Poly(num, x), S.Poly(den, x))
-    va = S.solve(den, x); zeros = [z for z in S.solve(num, x) if z not in va]
+    va = S.solve(den, x); zeros = [z for z in S.solve(num, x) if z.is_real and z not in va]   # real zeros only
     slant = q.as_expr()
     y0 = S.nsimplify(num.subs(x, 0) / den.subs(x, 0)) if den.subs(x, 0) != 0 else None
     lines_z = [r'\text{Number of real zeros: }[[' + str(len(zeros)) + ']]'] if not zeros else [rf'x=[[{S.nsimplify(z)}' + ('#z' if len(zeros) > 1 else '') + ']]' for z in zeros]
