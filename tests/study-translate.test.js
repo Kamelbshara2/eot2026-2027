@@ -31,3 +31,10 @@ test('coverage gap report is consistent with the study data (no item counted bot
     assert.equal(v.in_site_data + v.missing.length, v.structure_items, `${c} ${lo}`);
   }
 });
+
+test('bidi never splits an HTML entity (a&lt;0 and “quoted” text stay intact)', async () => {
+  const {bidi} = await import('../lib/study-translate.js');
+  const out = bidi('فتحة لأعلى a&lt;0 و &quot;abc&quot;');
+  assert(out.includes('&lt;') && out.includes('&quot;'));
+  assert(!/<bdi[^>]*>[^<]*(?:lt|quot|amp)<\/bdi>/.test(out.replace('<bdi dir="ltr">a&lt;0</bdi>', '')));
+});
