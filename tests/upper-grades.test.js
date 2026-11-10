@@ -73,3 +73,13 @@ test('reviewed corrections stay applied (no stray "5k" in the 11G hypotenuse exp
   assert.equal(q.length, 2);
   for (const x of q) assert.match(x.answer.explanation, /^c=√\(a²\+b²\)=√\(\d+²\+\d+²\)=√\d+=\d+\.$/);
 });
+
+test('worked solutions: every authored solution has steps with LaTeX and the final answer matches the key', () => {
+  let n = 0;
+  for (const c of Object.keys(CLASSES)) for (const q of load(c).questions) {
+    const steps = q.answer?.steps; if (!steps) continue; n++;
+    assert(steps.length >= 2 && steps.every(s => s.text && s.latex), q.id);
+    assert.equal(q.answer.steps_verified, true, `${q.id}: derived answer differs from the key`);
+  }
+  assert(n >= 59);
+});

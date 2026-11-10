@@ -1,0 +1,135 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p02-Q1-1": {
+   "steps": [
+    {
+     "text": "The axis of symmetry of y = ax² + bx + c is x = −b/(2a).",
+     "latex": "x=-\\dfrac{b}{2a}"
+    },
+    {
+     "text": "Here a = 1 and b = 2.",
+     "latex": "x=-\\dfrac{2}{2(1)}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "x=-1"
+    },
+    {
+     "text": "The answer is option b).",
+     "latex": "x=-1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p03-Q2-1": {
+   "steps": [
+    {
+     "text": "The vertex lies on the axis of symmetry: x = −b/(2a).",
+     "latex": "x=-\\dfrac{2}{2(1)}=-1"
+    },
+    {
+     "text": "Substitute x = −1 into f to find the y-coordinate.",
+     "latex": "f(-1)=(-1)^2+2(-1)-3"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "f(-1)=1-2-3=-4"
+    },
+    {
+     "text": "The vertex is (−1, −4): option c).",
+     "latex": "(-1,-4)"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p03-Q3-1": {
+   "steps": [
+    {
+     "text": "The y-intercept is the value of f when x = 0.",
+     "latex": "f(0)=0^2+2(0)-3"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "f(0)=-3"
+    },
+    {
+     "text": "The graph crosses the y-axis at (0, −3): option b).",
+     "latex": "y=-3"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p03-Q4-1": {
+   "steps": [
+    {
+     "text": "Use x = −b/(2a) with a = −1 and b = 8.",
+     "latex": "x=-\\dfrac{8}{2(-1)}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "x=\\dfrac{-8}{-2}=4"
+    },
+    {
+     "text": "The axis of symmetry is the vertical line x = 4: option a).",
+     "latex": "x=4"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p04-Q1-1": {
+   "steps": [
+    {
+     "text": "Find the turning point (lowest point) of the parabola on the grid.",
+     "latex": "\\text{lowest point of the graph}"
+    },
+    {
+     "text": "Read its coordinates: it lies 2 units left of the y-axis and 3 units below the x-axis.",
+     "latex": "x=-2,\\ y=-3"
+    },
+    {
+     "text": "The vertex is (−2, −3): option B).",
+     "latex": "(-2,-3)"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p04-Q2-1": {
+   "steps": [
+    {
+     "text": "The axis of symmetry is the vertical line through the vertex.",
+     "latex": "x=h"
+    },
+    {
+     "text": "The vertex of the parabola is at x = 1 on the grid.",
+     "latex": "h=1"
+    },
+    {
+     "text": "The axis of symmetry is x = 1: option A).",
+     "latex": "x=1"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p04-Q3-1": {
+   "steps": [
+    {
+     "text": "The y-intercept is where the graph crosses the y-axis (x = 0).",
+     "latex": "x=0"
+    },
+    {
+     "text": "Read the y-value at the crossing point on the grid.",
+     "latex": "y=4"
+    },
+    {
+     "text": "The y-intercept is y = 4: option C).",
+     "latex": "y=4"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  }
+ }
+}
