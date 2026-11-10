@@ -42,14 +42,15 @@ for (const [c, outcomes] of Object.entries(CLASSES)) {
   });
 }
 
-test('all text-only written questions have an auto-checked solution space; the rest keep the original image and a workspace', () => {
-  let auto = 0, card = 0;
+test('written questions: text-only ones are all auto-checked; image cards are auto-checked except seven documented paper-only ones', () => {
+  let textOnly = 0, cards = 0, auto = 0; const paper = [];
   for (const c of Object.keys(CLASSES)) for (const q of load(c).questions.filter(q => q.type === 'frq')) {
-    if (q.figure_in_image) { card++; assert(q.parts.length && q.diagram_asset_ids.length); continue; }
-    assert(q.parts.some(p => p.blanks), `${c} ${q.id} has no auto-checked blanks`); auto++;
+    const has = q.parts.some(p => p.blanks);
+    if (q.figure_in_image) { cards++; assert(q.parts.length && q.diagram_asset_ids.length); } else { textOnly++; assert(has, `${c} ${q.id} has no auto-checked blanks`); }
+    if (has) auto++; else paper.push(q.id);
   }
-  assert.equal(auto, 129 - card);
-  assert.equal(card, 69 - 0);
+  assert.equal(textOnly, 69); assert.equal(cards, 67); assert.equal(auto, 129);
+  assert.deepEqual(paper.sort(), ['12A-p63-Q3-1', '12A-p63-Q4-1', '12A-p63-Q5-1', '12A-p64-Q6-1', '12A-p64-Q7-1', '12A-p64-Q8-1', '12G-p54-32/19-1']);
 });
 
 test('imported question totals match the supplied package (753 eligible of 760)', () => {
