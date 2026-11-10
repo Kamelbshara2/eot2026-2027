@@ -1,0 +1,62 @@
+"""Fill-in solution spaces for written questions whose question is an original image card (Grades 11-12).
+Every answer comes from the reviewed key of the supplied bank (private/answer-keys.json) and, for the numeric ones, was recomputed.
+Cards not listed here stay paper-only with the reference solution (trigonometric derivatives, two source-version cards): the blank
+engine cannot compare trigonometric expressions, so it does not pretend to grade them."""
+YN = lambda a: f'[[?Yes;No|{a}]]'
+t = lambda v, tol: f'[[~{tol}:{v}]]'
+CARD = {
+ # ---- 11G
+ '11G-p18-21a': [r'x=[[3]]'], '11G-p18-21b': [r'x=[[2]]'], '11G-p19-21c': [r'x=[[5]]'], '11G-p19-21d': [r'x=[[7]]'],
+ '11G-p19-22a': [r'ED=[[6]]'], '11G-p19-22b': [r'AE=[[15]]'],
+ '11G-p20-22c': [r'MN=18-6=[[12]]', r'\dfrac{MN}{MP}=[[2/3]],\quad \dfrac{MR}{MQ}=[[2/3]]', r'NR\parallel PQ\,?\ ' + YN('Yes')],
+ '11G-p20-23a': [r'\text{Perimeter}=' + t(13.84, 0.011) + r'\text{ in}', r'\text{Area}=' + t(7.51, 0.011) + r'\text{ in}^2'],
+ '11G-p21-23b': [r'\text{Perimeter}=' + t(28.52, 0.011) + r'\text{ cm}', r'\text{Area}=' + t(23.39, 0.011) + r'\text{ cm}^2'],
+ '11G-p21-23c': [r'\text{Perimeter}=' + t(8.44, 0.011) + r'\text{ ft}', r'\text{Area}=' + t(3.05, 0.011) + r'\text{ ft}^2'],
+ '11G-p22-24a': [r'102-6=[[96]]', r'd=\dfrac{96}{\sin 30^\circ}=[[192]]\text{ ft}'],
+ '11G-p22-24b': [r'h=200\tan 35^\circ=' + t(140, 0.5) + r'\text{ m}'],
+ '11G-p23-25a': [r'\dfrac{3}{150}\cdot\dfrac{[[2]]}{[[149]]}=' + t('1/3725', 0.000001), r'\text{The draws are }[[?dependent;independent|dependent]]'],
+ '11G-p24-25c': [r'P(D\cup F)=[[0.9]]', r'\text{(a) }P(F)=[[0.5]]', r'\text{(b) }P(F\mid D)=[[1/3]]'],
+ '11G-p24-26a': [r'\dfrac{5+4-[[2]]}{9}=[[7/9]]'],
+ '11G-p24-26b': [r'\dfrac{3+6-[[2]]}{8}=[[7/8]]'],
+ # ---- 12G
+ '12G-p50-Ex2-1': [r'(x-[[3]])^2=[[16]]', r'x=[[-1#s]],\ [[7#s]]'],
+ '12G-p50-3-1': [r'(x-[[6]])^2=[[41]]', r'x=6\pm[[\sqrt{41}]]'],
+ '12G-p50-Ex3-1': [r'(x-[[2]])^2=[[-5]]', r'\text{Real solutions?}\ ' + YN('No')],
+ '12G-p51-3-1': [r'(x-[[3/2]])^2=[[41/4]]', r'x=\dfrac{3\pm[[\sqrt{41}]]}{2}'],
+ '12G-p51-Ex5-1': [r'(x+[[9]])^2=[[85]]', r'x=-9\pm[[\sqrt{85}]]'],
+ '12G-p51-Ex7-1': [r'(x-[[3/2]])^2=[[9]]', r'x=[[-3/2#s]],\ [[9/2#s]]'],
+ '12G-p52-Ex2-1': [r'-[[4]]<x<[[2]]'],
+ '12G-p52-EX3-1': [r'x\le[[-1-\sqrt{14}/2]]\ \text{ or }\ x\ge[[-1+\sqrt{14}/2]]'],
+ '12G-p53-Ex3-1': [r'-[[3]]<x<[[2]]'],
+ '12G-p53-Ex4-1': [r'x\le[[-1]]\ \text{ or }\ x\ge[[4]]'],
+ '12G-p54-EX3-1': [r'\text{(a) }[[2x^2-8x+7]]', r'\text{(b) }[[2x^2+2x+3]]'],
+ '12G-p54-38-1': [r'\text{No. 38: }[[2x^3+x^2y-2xy^2-y^3]]', r'\text{No. 39/22: }[[4a^2x-2a^2y+10abx-5aby+6b^2x-3b^2y]]'],
+ '12G-p55-58/36-1': [r'\text{No. 58/36: }[[8x^3-24x^2y+24xy^2-8y^3]]', r'\text{No. 60/38: }[[27z^3-54z^2+36z-8]]'],
+ '12G-p55-5-1': [r'\text{No. 5: }[[2a^2-a-2]]', r'\text{No. 10: }[[-4f^2-6f+3]]'],
+ '12G-p55-9/21-1': [r'\text{No. 9/21: }x=[[0]]', r'\text{No. 10/22: }x=[[9]]'],
+ '12G-p56-11-1': [r'\text{No. 11: }a=[[-7]]', r'\text{No. 12/24: }b=[[-1]]', r'\text{No. 25: }c=[[5/3]]'],
+ '12G-p57-Ex5-1': [r'\text{(a) }P=' + t(0.8998, 0.001), r'\text{(b) }P=' + t(0.0098, 0.0006)],
+ '12G-p58-Q17-1': [r'\text{(a) }' + t(0.0915, 0.0005), r'\text{(b) }' + t(0.0038, 0.0003), r'\text{(c) }' + t(0.248, 0.0012)],
+ '12G-p59-Ex8-1': [r'z=\dfrac{100000-98452}{10325}=' + t(0.15, 0.006), r'P(X\ge100000)=' + t(0.4404, 0.002)],
+ '12G-p60-Q14-1': [r'\text{(a) }' + t(4.42, 0.2) + r'\%', r'\text{(b) }' + t(11.12, 0.2) + r'\%', r'\text{(c) expected number}=' + t(1.59, 0.5)],
+ # ---- 12A
+ '12A-p54-Q1-1': [r'\text{Domain: }\mathbb R\setminus\{[[-2]]\}', r'\text{Removable discontinuity at }x=[[-2]]', r'g(x)=[[x-1]],\quad g(-2)=[[-3]]'],
+ '12A-p55-Q2-1': [r'\text{Domain: }\mathbb R\setminus\{[[3]]\}', r'\text{Removable discontinuity at }x=[[3]]', r'h(x)=[[x+3]],\quad h(3)=[[6]]'],
+ '12A-p55-Q3-1': [r'c=[[-700]]'], '12A-p56-Q4-1': [r'a=[[0]],\quad b=[[2400]]'], '12A-p56-Q5-1': [r'a=[[2]],\quad b=[[2]]'],
+ '12A-p57-Q6-1': [r'a=[[3/2]],\quad b=\dfrac{\ln 4}{3}\approx' + t(0.4621, 0.0006)],
+ '12A-p57-Q7-1': [r'a=[[-1]],\quad b=\dfrac{\pi}{2}-2\approx' + t(-0.4292, 0.0006)],
+ '12A-p58-Q8-1': [r'a=[[5/2]],\quad b=[[-1/2]]'], '12A-p58-Q9-1': [r'a=[[-3/2]],\quad b=[[-3/2]]'],
+ '12A-p59-Q29-1': [r'\text{Vertical asymptotes: }x=[[-2#v]],\ x=[[2#v]]', r'\text{Slant asymptote: }y=[[-x]]'],
+ '12A-p60-Q30-1': [r'\text{Vertical asymptote: }x=[[2]]', r'\text{Slant asymptote: }y=[[x+2]]'],
+ '12A-p60-Q31-1': [r'\text{Vertical asymptotes: }x=[[(-1+\sqrt{17})/2#v]],\ x=[[(-1-\sqrt{17})/2#v]]', r'\text{Slant asymptote: }y=[[x-1]]'],
+ '12A-p61-Q32-1': [r'\text{Vertical asymptote: }x=' + t(-1.26, 0.01) + r'\ (=-\sqrt[3]{2})', r'\text{Slant asymptote: }y=[[x]]'],
+ '12A-p61-Q17-1': [r'f(0)=[[0]],\quad f\prime(0)=[[2]],\quad y=[[2x]]'],
+ '12A-p62-Q18-1': [r'f(1)=[[12]],\quad f\prime(1)=[[40]],\quad y=[[40x-28]]'],
+ '12A-p62-Q19-1': [r'f(0)=[[1/2]],\quad f\prime(0)=[[1/4]],\quad y=[[x/4+1/2]]'],
+ '12A-p62-Q20-1': [r'f(1)=[[2]],\quad f\prime(1)=[[-3/2]],\quad y=[[-3x/2+7/2]]'],
+ '12A-p67-Q37-1': [r"c\prime(t)=\dfrac{[[96e^{-8t}]]}{(2e^{-8t}+1)^2},\quad c\prime(t)\text{ is }[[?positive;negative;zero|positive]]", r'c(t)<[[6]],\qquad \lim_{t\to\infty}c(t)=[[6]]'],
+ '12A-p69-Q-1': [r'\text{Secant slope}=[[0]],\quad 2c=0\Rightarrow c=[[0]]'], '12A-p69-Q-2': [r'\text{Secant slope}=[[2]],\quad c=[[1]]'],
+ '12A-p70-Q-1': [r'\text{Secant slope}=[[2]],\quad c=\dfrac{-1+\sqrt7}{3}\approx' + t(0.5486, 0.001)], '12A-p70-Q-2': [r'\text{Secant slope}=[[1]],\quad c=[[1/3]]'],
+ '12A-p71-Q-1': [r'\text{Secant slope}=' + t(0.6366, 0.001) + r',\quad c=\arccos\dfrac{2}{\pi}\approx' + t(0.8807, 0.001)],
+ '12A-p71-Q-2': [r'\text{Secant slope}=[[0]],\quad c\approx' + t(-1.5708, 0.001)],
+}

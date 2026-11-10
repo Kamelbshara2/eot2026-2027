@@ -6,7 +6,7 @@ export function validateStudent(input){
  const {id,classroom,grade}=input;
  const name=typeof input.name==='string'?input.name.trim():'';
  const school=typeof input.school==='string'?input.school.trim():'';
- if(typeof id!=='string'||!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id)||!['10A1','10G3','9G3'].includes(classroom)||grade!==(classroom==='9G3'?9:10)||name.length<2||name.length>100||school.length<2||school.length>150||/[\x00-\x1f\x7f]/.test(name+school))return null;
+ if(typeof id!=='string'||!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(id)||!['10A1','10G3','9G3','11G','11A','12G','12A'].includes(classroom)||grade!==Number(classroom.match(/^\d+/)[0])||name.length<2||name.length>100||school.length<2||school.length>150||/[\x00-\x1f\x7f]/.test(name+school))return null;
  return {id,name,school,grade,classroom};
 }
 export function createStudentHandler(getSql=()=>neon(process.env.DATABASE_URL)){
