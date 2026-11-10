@@ -1,0 +1,511 @@
+{
+ "9G3": {
+  "LO01": {
+   "structure_items": 11,
+   "in_site_data": 4,
+   "missing": [
+    "p.9 #15",
+    "p.9 #16",
+    "p.9 #17",
+    "p.9 #18",
+    "p.9 #19",
+    "p.9 #20",
+    "p.9 #21"
+   ],
+   "pages_to_upload": [
+    9
+   ]
+  },
+  "LO02": {
+   "structure_items": 11,
+   "in_site_data": 4,
+   "missing": [
+    "p.42 #27",
+    "p.42 #28",
+    "p.42 #29",
+    "p.42 #30",
+    "p.42 #31",
+    "p.42 #32",
+    "p.42 #33"
+   ],
+   "pages_to_upload": [
+    42
+   ]
+  },
+  "LO03": {
+   "structure_items": 12,
+   "in_site_data": 4,
+   "missing": [
+    "p.81 #7",
+    "p.81 #8",
+    "p.81 #13",
+    "p.81 #14",
+    "p.81 #15",
+    "p.81 #16",
+    "p.81 #17",
+    "p.81 #18"
+   ],
+   "pages_to_upload": [
+    81
+   ]
+  },
+  "LO04": {
+   "structure_items": 8,
+   "in_site_data": 4,
+   "missing": [
+    "p.125 #15",
+    "p.125 #16",
+    "p.125 #17",
+    "p.125 #18"
+   ],
+   "pages_to_upload": [
+    125
+   ]
+  },
+  "LO05": {
+   "structure_items": 9,
+   "in_site_data": 4,
+   "missing": [
+    "p.31 #5",
+    "p.31 #6",
+    "p.31 #7",
+    "p.31 #8",
+    "p.31 #9"
+   ],
+   "pages_to_upload": [
+    31
+   ]
+  },
+  "LO06": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.97 #5",
+    "p.97 #6"
+   ],
+   "pages_to_upload": [
+    97
+   ]
+  },
+  "LO07": {
+   "structure_items": 1,
+   "in_site_data": 1,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO08": {
+   "structure_items": 2,
+   "in_site_data": 2,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO09": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.113 #17",
+    "p.113 #18"
+   ],
+   "pages_to_upload": [
+    113
+   ]
+  },
+  "LO10": {
+   "structure_items": 9,
+   "in_site_data": 4,
+   "missing": [
+    "p.89 #22",
+    "p.89 #23",
+    "p.89 #24",
+    "p.89 #25",
+    "p.89 #26"
+   ],
+   "pages_to_upload": [
+    89
+   ]
+  },
+  "LO11": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.248 #13",
+    "p.248 #15"
+   ],
+   "pages_to_upload": [
+    248
+   ]
+  },
+  "LO12": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.235 #13",
+    "p.235 #14"
+   ],
+   "pages_to_upload": [
+    235
+   ]
+  },
+  "LO13": {
+   "structure_items": 3,
+   "in_site_data": 3,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO14": {
+   "structure_items": 3,
+   "in_site_data": 3,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO15": {
+   "structure_items": 3,
+   "in_site_data": 3,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO16": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO17": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO18": {
+   "structure_items": 7,
+   "in_site_data": 3,
+   "missing": [
+    "p.236 #23",
+    "p.236 #24",
+    "p.236 #27",
+    "p.236 #28"
+   ],
+   "pages_to_upload": [
+    236
+   ]
+  },
+  "LO19": {
+   "structure_items": 12,
+   "in_site_data": 4,
+   "missing": [
+    "p.18 #5",
+    "p.18 #6",
+    "p.18 #7",
+    "p.18 #8",
+    "p.18 #9",
+    "p.18 #10",
+    "p.18 #11",
+    "p.18 #12"
+   ],
+   "pages_to_upload": [
+    18
+   ]
+  },
+  "LO20": {
+   "structure_items": 9,
+   "in_site_data": 4,
+   "missing": [
+    "p.89 #28",
+    "p.89 #30",
+    "p.89 #31",
+    "p.89 #32",
+    "p.89 #35"
+   ],
+   "pages_to_upload": [
+    89
+   ]
+  },
+  "LO21": {
+   "structure_items": 9,
+   "in_site_data": 4,
+   "missing": [
+    "p.19 #46",
+    "p.19 #47",
+    "p.19 #48",
+    "p.19 #49",
+    "p.19 #50"
+   ],
+   "pages_to_upload": [
+    19
+   ]
+  },
+  "LO22": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO23": {
+   "structure_items": 33,
+   "in_site_data": 4,
+   "missing": [
+    "p.97 #1",
+    "p.97 #2",
+    "p.97 #3",
+    "p.97 #4",
+    "p.97 #5",
+    "p.97 #6",
+    "p.97 #8",
+    "p.97 #9",
+    "p.97 #10",
+    "p.97 #12",
+    "p.97 #13",
+    "p.97 #14",
+    "p.97 #15",
+    "p.97 #16",
+    "p.99 #ex6",
+    "p.99 #ex7",
+    "p.99 #25",
+    "p.99 #26",
+    "p.99 #27",
+    "p.99 #28",
+    "p.99 #29",
+    "p.99 #30",
+    "p.99 #31",
+    "p.99 #32",
+    "p.99 #33",
+    "p.99 #34",
+    "p.99 #35",
+    "p.99 #36",
+    "p.99 #38"
+   ],
+   "pages_to_upload": [
+    97,
+    99
+   ]
+  },
+  "LO24": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO25": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.263 #5",
+    "p.263 #6"
+   ],
+   "pages_to_upload": [
+    263
+   ]
+  },
+  "LO26": {
+   "structure_items": 14,
+   "in_site_data": 4,
+   "missing": [
+    "p.255 #9",
+    "p.255 #10",
+    "p.255 #11",
+    "p.255 #12",
+    "p.255 #13",
+    "p.255 #14",
+    "p.255 #15",
+    "p.255 #16",
+    "p.255 #17",
+    "p.255 #18"
+   ],
+   "pages_to_upload": [
+    255
+   ]
+  }
+ },
+ "10G3": {
+  "LO01": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO02": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO03": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO04": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO05": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO06": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO07": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO08": {
+   "structure_items": 5,
+   "in_site_data": 5,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO09": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO10": {
+   "structure_items": 8,
+   "in_site_data": 6,
+   "missing": [
+    "p.599 #14",
+    "p.599 #16"
+   ],
+   "pages_to_upload": [
+    599
+   ]
+  },
+  "LO11": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO12": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO13": {
+   "structure_items": 8,
+   "in_site_data": 6,
+   "missing": [
+    "p.615 #5",
+    "p.615 #6"
+   ],
+   "pages_to_upload": [
+    615
+   ]
+  },
+  "LO14": {
+   "structure_items": 2,
+   "in_site_data": 2,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO15": {
+   "structure_items": 3,
+   "in_site_data": 3,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO16": {
+   "structure_items": 8,
+   "in_site_data": 6,
+   "missing": [
+    "p.707 #7",
+    "p.707 #9"
+   ],
+   "pages_to_upload": [
+    707
+   ]
+  },
+  "LO17": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO18": {
+   "structure_items": 8,
+   "in_site_data": 6,
+   "missing": [
+    "p.707 #26",
+    "p.708 #29"
+   ],
+   "pages_to_upload": [
+    707,
+    708
+   ]
+  },
+  "LO19": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO20": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO21": {
+   "structure_items": 8,
+   "in_site_data": 4,
+   "missing": [
+    "p.636 #31",
+    "p.636 #32",
+    "p.636 #33",
+    "p.636 #34"
+   ],
+   "pages_to_upload": [
+    636
+   ]
+  },
+  "LO22": {
+   "structure_items": 6,
+   "in_site_data": 4,
+   "missing": [
+    "p.650 #22",
+    "p.650 #23"
+   ],
+   "pages_to_upload": [
+    650
+   ]
+  },
+  "LO23": {
+   "structure_items": 9,
+   "in_site_data": 5,
+   "missing": [
+    "p.576 #26",
+    "p.576 #28",
+    "p.576 #29",
+    "p.576 #30"
+   ],
+   "pages_to_upload": [
+    576
+   ]
+  },
+  "LO24": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO25": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  }
+ }
+}
