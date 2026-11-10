@@ -1,0 +1,130 @@
+{
+ "structure": [],
+ "equivalent_options": [],
+ "key_mismatch": [],
+ "key_verified": 59,
+ "unverified": 557,
+ "numeric_key_checked": 1,
+ "frq_consistency": [
+  {
+   "class": "11A",
+   "id": "11A-Q21-10",
+   "blank": "4.10400390625",
+   "key": "Domain R; range (3,∞); horizontal asymptote y=3. Average rate=e^(−3)−e^(−6)≈0.0473."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q21-11",
+   "blank": "3.0",
+   "key": "Domain R; range (−1,∞); asymptote y=−1. Average rate=2(e^(−2)−e^(−6))≈0.2657."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q21-12",
+   "blank": "-38.1710205078125",
+   "key": "Domain R; range (−∞,2); asymptote y=2. Average rate=−2(e^(−1)−e^(−4))/3≈−0.2330."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q21-added-01",
+   "blank": "-1.0",
+   "key": "Domain R; range(−3,∞); asymptote y=−3. Average rate=2(e²−1)/2≈6.3891."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q21-added-02",
+   "blank": "-1.0",
+   "key": "Domain R; range(−4,∞); asymptote y=−4. Average rate=3(e²−1)/2≈9.5836."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q22-added-01",
+   "blank": "12",
+   "key": "k=ln2/6; M(t)=100e^(−t ln2/6). After18 days=12.5g. Quarter remains after12days."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q22-added-02",
+   "blank": "16",
+   "key": "k=ln2/8; M(t)=120e^(−t ln2/8). After24 days=15g. Quarter remains after16days."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q22-added-03",
+   "blank": "20",
+   "key": "k=ln2/10; M(t)=140e^(−t ln2/10). After30 days=17.5g. Quarter remains after20days."
+  },
+  {
+   "class": "12G",
+   "id": "12G-p52-Ex2-1",
+   "blank": "4",
+   "key": "−4<x<2. The upward-opening parabola has zeros −4,2 and is below the x-axis between them."
+  },
+  {
+   "class": "12G",
+   "id": "12G-p53-Ex3-1",
+   "blank": "3",
+   "key": "−3<x<2. The upward-opening parabola is negative between its two zeros."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p57-Q6-1",
+   "blank": "0.4621",
+   "key": "a=3/2, b=ln(4)/3. At zero, 2a=3; at three, 2e^(3b)+1=9."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p57-Q7-1",
+   "blank": "-0.4292",
+   "key": "a=−1, b=π/2−2. Match the pieces at x=0 and x=2."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p61-Q32-1",
+   "blank": "-1.26",
+   "key": "Vertical asymptote x=−∛2; slant asymptote y=x. Rewrite x−2x/(x³+2)."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p70-Q-1",
+   "blank": "0.5486",
+   "key": "Secant slope 2; 3c²+2c=2. The only root in (0,1) is c=(−1+√7)/3."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p71-Q-1",
+   "blank": "0.6366",
+   "key": "Secant slope 2/π; cos c=2/π, so c=arccos(2/π) in (0,π/2)."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p71-Q-1",
+   "blank": "0.8807",
+   "key": "Secant slope 2/π; cos c=2/π, so c=arccos(2/π) in (0,π/2)."
+  },
+  {
+   "class": "12A",
+   "id": "12A-p71-Q-2",
+   "blank": "-1.5708",
+   "key": "Secant slope 0; cos c=0 gives c=−π/2 in (−π,0)."
+  }
+ ],
+ "totals": {
+  "11G": {
+   "mcq": 105,
+   "verified_independently": 22
+  },
+  "11A": {
+   "mcq": 122,
+   "verified_independently": 35
+  },
+  "12G": {
+   "mcq": 246,
+   "verified_independently": 3
+  },
+  "12A": {
+   "mcq": 144,
+   "verified_independently": 0
+  }
+ }
+}

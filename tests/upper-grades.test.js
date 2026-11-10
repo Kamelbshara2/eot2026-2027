@@ -67,3 +67,9 @@ test('every text question and written-part prompt of Grades 11-12 has an Arabic 
     for (const p of q.parts || []) assert(translate(table, 'part', p.prompt), `${q.id}: ${p.prompt}`);
   }
 });
+
+test('reviewed corrections stay applied (no stray "5k" in the 11G hypotenuse explanations)', () => {
+  const q = load('11G').questions.filter(q => q.id.startsWith('11G-Q09-added'));
+  assert.equal(q.length, 2);
+  for (const x of q) assert.match(x.answer.explanation, /^c=√\(a²\+b²\)=√\(\d+²\+\d+²\)=√\d+=\d+\.$/);
+});
