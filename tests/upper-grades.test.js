@@ -103,8 +103,8 @@ test('11A oblique-asymptote questions: no real zeros means the blank asks for th
   for (const id of Object.keys(q).filter(k => k.startsWith('11A-Q23'))) for (const p of q[id].parts) assert(p.answer.steps?.length >= 2, `${id} ${p.id}`);
 });
 
-test('11 Advanced: every question has a full worked solution (every MCQ and every written part)', () => {
-  for (const q of load('11A').questions) {
+for (const c of ['11A', '12G']) test(`${c}: every question has a full worked solution (every MCQ and every written part)`, () => {
+  for (const q of load(c).questions) {
     if (q.type === 'mcq') assert(q.answer.steps?.length >= 2, q.id);
     else for (const p of q.parts) assert(p.answer.steps?.length >= 1, `${q.id} ${p.id}`);
   }

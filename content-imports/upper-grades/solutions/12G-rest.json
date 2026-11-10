@@ -1,0 +1,1592 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q008": {
+   "steps": [
+    {
+     "text": "The axis of symmetry passes through the vertex, halfway between the two x-intercepts.",
+     "latex": "x=\\dfrac{x_1+x_2}{2}"
+    },
+    {
+     "text": "The graph crosses the x-axis at x = 1 and x = 2.",
+     "latex": "x=\\dfrac{1+2}{2}=\\dfrac32"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "x=\\tfrac32"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p11-Q6-1": {
+   "steps": [
+    {
+     "text": "The solutions of f(x) = 0 are the x-intercepts.",
+     "latex": "f(x)=0"
+    },
+    {
+     "text": "The graph crosses the x-axis at −2 and 4.",
+     "latex": "x=-2,\\ x=4"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "x=-2,\\ x=4"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q022": {
+   "steps": [
+    {
+     "text": "Multiply by −1 (same solutions).",
+     "latex": "x^2+3x-18=0"
+    },
+    {
+     "text": "Factor.",
+     "latex": "- \\left(x - 3\\right) \\left(x + 6\\right)=0"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=-6,\\ 3"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\{-6,3\\}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p12-Ex2-1": {
+   "steps": [
+    {
+     "text": "Move all terms to one side.",
+     "latex": "x^{2} - 6 x - 27=0"
+    },
+    {
+     "text": "Factor.",
+     "latex": "\\left(x - 9\\right) \\left(x + 3\\right)=0"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=-3,\\ 9"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\{-3,9\\}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p13-Q2-1": {
+   "steps": [
+    {
+     "text": "Move all terms to one side.",
+     "latex": "x^{2} - 9 x - 22=0"
+    },
+    {
+     "text": "Factor.",
+     "latex": "\\left(x - 11\\right) \\left(x + 2\\right)=0"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=-2,\\ 11"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\{-2,11\\}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p16-Ex1-1": {
+   "steps": [
+    {
+     "text": "The pumpkin hits the ground when h(t) = 0.",
+     "latex": "-4.9t^2+11.7t+42=0"
+    },
+    {
+     "text": "Quadratic formula with a = −4.9, b = 11.7, c = 42.",
+     "latex": "t=\\dfrac{-11.7\\pm\\sqrt{11.7^2-4(-4.9)(42)}}{2(-4.9)}=\\dfrac{-11.7\\pm\\sqrt{960.09}}{-9.8}"
+    },
+    {
+     "text": "Two roots; time must be positive.",
+     "latex": "t\\approx-1.97\\ \\text{(reject)},\\quad t\\approx4.36"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "4.36\\text{ s}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p28-Q6-1": {
+   "steps": [
+    {
+     "text": "A continuous function changes sign only by passing through zero (Location Principle): look for sign changes between consecutive integers.",
+     "latex": "f(x)=- x^{4} + x^{3} + 2 x^{2} + x + 1"
+    },
+    {
+     "text": "Values at consecutive integers.",
+     "latex": "f(-3)=-92,\\ f(-2)=-17,\\ f(-1)=0,\\ f(0)=1,\\ f(1)=4,\\ f(2)=3,\\ f(3)=-32,\\ f(4)=-155"
+    },
+    {
+     "text": "Sign changes (and exact zeros).",
+     "latex": "(2,\\,3),\\ x=-1"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\text{x=−1 and one zero in (2,3).}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p28-Q7-1": {
+   "steps": [
+    {
+     "text": "A continuous function changes sign only by passing through zero (Location Principle): look for sign changes between consecutive integers.",
+     "latex": "f(x)=- 3 x^{4} + 5 x^{3} + 4 x^{2} + 4 x - 8"
+    },
+    {
+     "text": "Values at consecutive integers.",
+     "latex": "f(-3)=-362,\\ f(-2)=-88,\\ f(-1)=-16,\\ f(0)=-8,\\ f(1)=2,\\ f(2)=8,\\ f(3)=-68,\\ f(4)=-376"
+    },
+    {
+     "text": "Sign changes (and exact zeros).",
+     "latex": "(0,\\,1),\\ (2,\\,3)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "(0,1)\\text{ and }(2,3)"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q072": {
+   "steps": [
+    {
+     "text": "A continuous function changes sign only by passing through zero (Location Principle): look for sign changes between consecutive integers.",
+     "latex": "f(x)=x^{4} - 2 x^{3} - x^{2} + 1"
+    },
+    {
+     "text": "Values at consecutive integers.",
+     "latex": "f(-2)=29,\\ f(-1)=3,\\ f(0)=1,\\ f(1)=-1,\\ f(2)=-3,\\ f(3)=19,\\ f(4)=113"
+    },
+    {
+     "text": "Sign changes (and exact zeros).",
+     "latex": "(0,\\,1),\\ (2,\\,3)"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "(0,1)\\text{ and }(2,3)"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q078": {
+   "steps": [
+    {
+     "text": "Values at consecutive integers.",
+     "latex": "f(-2)=-7,\\ f(-1)=2,\\ f(0)=1,\\ f(1)=-4,\\ f(2)=-7,\\ f(3)=-2,\\ f(4)=7"
+    },
+    {
+     "text": "Sign changes (and exact zeros).",
+     "latex": "(-2,\\,-1),\\ (0,\\,1),\\ (3,\\,4)"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{(−2,−1), (0,1), (3,4)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q079": {
+   "steps": [
+    {
+     "text": "A relative maximum is a peak and a relative minimum is a valley of the graph.",
+     "latex": "\\text{peak / valley}"
+    },
+    {
+     "text": "The peak is at x = −2 and the valley is at x ≈ 0.5.",
+     "latex": "x_{\\max}=-2,\\quad x_{\\min}\\approx0.5"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{Relative maximum at }x=-2;\\ \\text{relative minimum at }x=0.5"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q083": {
+   "steps": [
+    {
+     "text": "From the table, f(1) = −2 and f(2) = −9 and the values keep falling, so the minimum is past x = 2.",
+     "latex": "f(2)=-9"
+    },
+    {
+     "text": "Set the slope to zero.",
+     "latex": "f\\prime(x)=3x^2-8x-2=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=\\dfrac{4\\pm\\sqrt{22}}{3}\\approx-0.23,\\ 2.90"
+    },
+    {
+     "text": "The larger critical point is the relative minimum.",
+     "latex": "x\\approx2.9"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "x\\approx2.9"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p31-Ex4-1": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (0 for any missing power).",
+     "latex": "\\left(2 x^{3} - 13 x^{2} + 26 x - 24\\right)\\div\\left(x - 4\\right)"
+    },
+    {
+     "text": "Synthetic division with the zero of the divisor, x = 4: bring down, multiply by 4, add.",
+     "latex": "4\\ \\big|\\ 2\\ \\ -13\\ \\ 26\\ \\ -24\\ \\Rightarrow\\ 2\\ \\ -5\\ \\ 6\\ \\ 0"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q=2 x^{2} - 5 x + 6,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x - 4\\right)\\left(2 x^{2} - 5 x + 6\\right)+0=2 x^{3} - 13 x^{2} + 26 x - 24"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "2x^2-5x+6"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p32-Ex4-1": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (0 for any missing power).",
+     "latex": "\\left(3 x^{3} - 2 x^{2} - 53 x - 60\\right)\\div\\left(x + 3\\right)"
+    },
+    {
+     "text": "Synthetic division with the zero of the divisor, x = -3: bring down, multiply by -3, add.",
+     "latex": "-3\\ \\big|\\ 3\\ \\ -2\\ \\ -53\\ \\ -60\\ \\Rightarrow\\ 3\\ \\ -11\\ \\ -20\\ \\ 0"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q=3 x^{2} - 11 x - 20,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x + 3\\right)\\left(3 x^{2} - 11 x - 20\\right)+0=3 x^{3} - 2 x^{2} - 53 x - 60"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "3x^2-11x-20"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p32-Q1-1": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (0 for any missing power).",
+     "latex": "\\left(3 x^{3} - 2 x + 5\\right)\\div\\left(x - 2\\right)"
+    },
+    {
+     "text": "Synthetic division with the zero of the divisor, x = 2: bring down, multiply by 2, add.",
+     "latex": "2\\ \\big|\\ 3\\ \\ 0\\ \\ -2\\ \\ 5\\ \\Rightarrow\\ 3\\ \\ 6\\ \\ 10\\ \\ 25"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q=3 x^{2} + 6 x + 10,\\qquad r=25"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x - 2\\right)\\left(3 x^{2} + 6 x + 10\\right)+25=3 x^{3} - 2 x + 5"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "3x^2+6x+10+\\frac{25}{x-2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p34-47-1": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "24 u^{2} + 14 u - 3=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "\\left(4 u + 3\\right) \\left(6 u - 1\\right)=0\\ \\Rightarrow\\ u=- \\frac{3}{4},\\ \\frac{1}{6}"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{\\sqrt{6}}{6}"
+    },
+    {
+     "text": "Only u = 1/6 is non-negative; u = −3/4 gives no real x.",
+     "latex": "x=\\pm\\sqrt{\\tfrac16}=\\pm\\dfrac{\\sqrt6}{6}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "x=\\pm\\frac{\\sqrt6}{6}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p35-5B-1": {
+   "steps": [
+    {
+     "text": "a = 0.1 > 0 and base 2 > 1: increasing.",
+     "latex": "f(x)=0.1(2)^x-3"
+    },
+    {
+     "text": "Horizontal asymptote y = −3.",
+     "latex": "y=-3"
+    },
+    {
+     "text": "Points.",
+     "latex": "f(0)=0.1-3=-2.9,\\quad f(5)=0.1(32)-3=0.2"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\text{Increasing; asymptote y=−3; f(0)=−2.9; f(5)=0.2.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q105": {
+   "steps": [
+    {
+     "text": "Asymptote y = 6; f(0) = 1.5 + 6 = 7.5; f(3) = 1.5·8 + 6 = 18.",
+     "latex": "y=6,\\ f(0)=7.5,\\ f(3)=18"
+    },
+    {
+     "text": "Graph A levels off at 6 and reaches 18 at x = 3.",
+     "latex": "\\text{graph A}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "Option a) in the image"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p43-Q4-1": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "The description says nothing about assigning a diet or observing existing diets, so the design cannot be decided.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\text{The description does not specify the design.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p44-Q9-1": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Nothing says whether exercise is assigned or existing habits are observed, so the design is not specified.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\text{The description does not specify the design.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p45-Q11-1": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Only the medicine trial randomly assigns a treatment and compares with a control group.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{A medicine trial randomly assigns treatment and control groups.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q112": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Customers are asked for feedback: data come from answers.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Survey}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q113": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Existing groups are compared without assigning a treatment.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\text{Observational study}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q114": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "The description does not say whether exercise is assigned or observed.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{The study design is not specified.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q115": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "People answer a questionnaire.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\text{Survey}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q116": {
+   "steps": [
+    {
+     "text": "Survey: asks questions. Observational study: observes or measures without assigning a treatment. Experiment: assigns a treatment (usually with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Random assignment of people to an exercise programme is a treatment.",
+     "latex": "\\text{apply the definitions}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\text{Researchers randomly assign people to an exercise programme or a control group and compare outcomes.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q118": {
+   "steps": [
+    {
+     "text": "A question is biased if it leads the respondent, uses loaded words, limits the choices or asks two things at once.",
+     "latex": "\\text{neutral, one question, open choice}"
+    },
+    {
+     "text": "It asks about two different things (a treadmill AND a racquetball court) in one question.",
+     "latex": "\\text{apply the rule}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\text{Biased: it combines two different requests in one question.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q119": {
+   "steps": [
+    {
+     "text": "A question is biased if it leads the respondent, uses loaded words, limits the choices or asks two things at once.",
+     "latex": "\\text{neutral, one question, open choice}"
+    },
+    {
+     "text": "Only pop or country can be chosen; other types are excluded.",
+     "latex": "\\text{apply the rule}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Biased: it excludes other music types.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q120": {
+   "steps": [
+    {
+     "text": "A question is biased if it leads the respondent, uses loaded words, limits the choices or asks two things at once.",
+     "latex": "\\text{neutral, one question, open choice}"
+    },
+    {
+     "text": "Neutral wording; one question.",
+     "latex": "\\text{apply the rule}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{Unbiased: the wording is neutral and asks one clear question.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q121": {
+   "steps": [
+    {
+     "text": "A question is biased if it leads the respondent, uses loaded words, limits the choices or asks two things at once.",
+     "latex": "\\text{neutral, one question, open choice}"
+    },
+    {
+     "text": "“Don’t you agree…” pushes the respondent to say yes.",
+     "latex": "\\text{apply the rule}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Biased: the wording leads respondents towards agreement.}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q129": {
+   "steps": [
+    {
+     "text": "36 = 42 − 6 = μ − σ.",
+     "latex": "\\dfrac{36-42}{6}=-1"
+    },
+    {
+     "text": "Above μ − σ: 34% (μ − σ to μ) + 50% (above μ).",
+     "latex": "34\\%+50\\%=84\\%"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "84\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-original-english-Q2": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "x^{2} - 18 x + 32=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-18x=-32"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=81"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x-9\\right)^2=49"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x-9=\\pm7"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=2,\\ 16"
+      },
+      {
+       "text": "Check by substituting each value into the original equation.",
+       "latex": "\\text{both sides equal}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q4": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "4 x^{2} - 28 x - 15=0"
+      },
+      {
+       "text": "Divide every term by 4 so the x² coefficient is 1.",
+       "latex": "x^2-7x- \\frac{15}{4}=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-7x=\\frac{15}{4}"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=\\frac{49}{4}"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x- \\frac{7}{2}\\right)^2=16"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x- \\frac{7}{2}=\\pm4"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=- \\frac{1}{2},\\ \\frac{15}{2}"
+      },
+      {
+       "text": "Check by substituting each value into the original equation.",
+       "latex": "\\text{both sides equal}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q5": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "25 x^{2} + 20 x - 71=0"
+      },
+      {
+       "text": "Divide every term by 25 so the x² coefficient is 1.",
+       "latex": "x^2+\\frac{4}{5}x- \\frac{71}{25}=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2+\\frac{4}{5}x=\\frac{71}{25}"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=\\frac{4}{25}"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x+\\frac{2}{5}\\right)^2=3"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x+\\frac{2}{5}=\\pm\\sqrt{3}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=- \\sqrt{3} - \\frac{2}{5},\\ - \\frac{2}{5} + \\sqrt{3}"
+      },
+      {
+       "text": "Check by substituting each value into the original equation.",
+       "latex": "\\text{both sides equal}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q8": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "6 x^{2} - 21 x + 9=0"
+      },
+      {
+       "text": "Divide every term by 6 so the x² coefficient is 1.",
+       "latex": "x^2- \\frac{7}{2}x+\\frac{3}{2}=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2- \\frac{7}{2}x=- \\frac{3}{2}"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=\\frac{49}{16}"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x- \\frac{7}{4}\\right)^2=\\frac{25}{16}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x- \\frac{7}{4}=\\pm\\frac{5}{4}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=\\frac{1}{2},\\ 3"
+      },
+      {
+       "text": "Check by substituting each value into the original equation.",
+       "latex": "\\text{both sides equal}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p50-Ex2-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "x^{2} - 6 x - 7=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-6x=7"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=9"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x-3\\right)^2=16"
+      },
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x-3=\\pm4"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=-1,\\ 7"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p50-3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "x^{2} - 12 x - 5=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-12x=5"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=36"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x-6\\right)^2=41"
+      },
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x-6=\\pm\\sqrt{41}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=6 - \\sqrt{41},\\ 6 + \\sqrt{41}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p50-Ex3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "- 2 x^{2} + 8 x - 18=0"
+      },
+      {
+       "text": "Divide every term by -2 so the x² coefficient is 1.",
+       "latex": "x^2-4x+9=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-4x=-9"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=4"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x-2\\right)^2=-5"
+      },
+      {
+       "text": "A square cannot be negative: no real solution.",
+       "latex": "\\text{no real solution}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p51-3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "3 x^{2} - 9 x - 24=0"
+      },
+      {
+       "text": "Divide every term by 3 so the x² coefficient is 1.",
+       "latex": "x^2-3x-8=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-3x=8"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=\\frac{9}{4}"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x- \\frac{3}{2}\\right)^2=\\frac{41}{4}"
+      },
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x- \\frac{3}{2}=\\pm\\frac{\\sqrt{41}}{2}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=\\frac{3}{2} - \\frac{\\sqrt{41}}{2},\\ \\frac{3}{2} + \\frac{\\sqrt{41}}{2}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p51-Ex5-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "x^{2} + 18 x - 4=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2+18x=4"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=81"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x+9\\right)^2=85"
+      },
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x+9=\\pm\\sqrt{85}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=- \\sqrt{85} - 9,\\ -9 + \\sqrt{85}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p51-Ex7-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standard form.",
+       "latex": "4 x^{2} - 12 x - 27=0"
+      },
+      {
+       "text": "Divide every term by 4 so the x² coefficient is 1.",
+       "latex": "x^2-3x- \\frac{27}{4}=0"
+      },
+      {
+       "text": "Move the constant term to the right.",
+       "latex": "x^2-3x=\\frac{27}{4}"
+      },
+      {
+       "text": "Add (b/2)² to both sides.",
+       "latex": "\\left(\\tfrac{b}{2}\\right)^2=\\frac{9}{4}"
+      },
+      {
+       "text": "Write the left side as a square.",
+       "latex": "\\left(x- \\frac{3}{2}\\right)^2=9"
+      },
+      {
+       "text": "Take the square root of both sides (±).",
+       "latex": "x- \\frac{3}{2}=\\pm3"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=- \\frac{3}{2},\\ \\frac{9}{2}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q11": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Centre the table on the vertex x = −b/(2a).",
+       "latex": "x_v=1"
+      },
+      {
+       "text": "Compute y for each x.",
+       "latex": "(-1,\\,-21),\\ (0,\\,-24),\\ (1,\\,-25),\\ (2,\\,-24),\\ (3,\\,-21)"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Plot the points, draw the parabola (solid for ≤ / ≥, dashed for < / >) and mark the x-intercepts.",
+       "latex": "\\text{parabola through the table points}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "x^{2} - 2 x - 24=0\\ \\Rightarrow\\ x=-4,\\ 6"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=-24"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (include the zeros for ≤ / ≥).",
+       "latex": "-4 \\leq x \\wedge x \\leq 6"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q13": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Centre the table on the vertex x = −b/(2a).",
+       "latex": "x_v=\\frac{3}{2}"
+      },
+      {
+       "text": "Compute y for each x.",
+       "latex": "(0,\\,10),\\ (1,\\,12),\\ (\\frac{3}{2},\\,\\frac{49}{4}),\\ (2,\\,12),\\ (3,\\,10)"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Plot the points, draw the parabola (solid for ≤ / ≥, dashed for < / >) and mark the x-intercepts.",
+       "latex": "\\text{parabola through the table points}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "- x^{2} + 3 x + 10=0\\ \\Rightarrow\\ x=-2,\\ 5"
+      },
+      {
+       "text": "The parabola opens down; test a point in each interval (or read the graph).",
+       "latex": "f(0)=10"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (zeros excluded for < / >).",
+       "latex": "\\left(-\\infty < x \\wedge x < -2\\right) \\vee \\left(5 < x \\wedge x < \\infty\\right)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q14": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Centre the table on the vertex x = −b/(2a).",
+       "latex": "x_v=3"
+      },
+      {
+       "text": "Compute y for each x.",
+       "latex": "(1,\\,-3),\\ (2,\\,-6),\\ (3,\\,-7),\\ (4,\\,-6),\\ (5,\\,-3)"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Plot the points, draw the parabola (solid for ≤ / ≥, dashed for < / >) and mark the x-intercepts.",
+       "latex": "\\text{parabola through the table points}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "x^{2} - 6 x + 2=0\\ \\Rightarrow\\ x=3 - \\sqrt{7},\\ \\sqrt{7} + 3"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=2"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (zeros excluded for < / >).",
+       "latex": "\\left(-\\infty < x \\wedge x < 3 - \\sqrt{7}\\right) \\vee \\left(x < \\infty \\wedge \\sqrt{7} + 3 < x\\right)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p52-Ex2-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "x^{2} + 2 x - 8=0\\ \\Rightarrow\\ x=-4,\\ 2"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=-8"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (zeros excluded for < / >).",
+       "latex": "-4 < x \\wedge x < 2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p52-EX3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "2 x^{2} + 4 x - 5=0\\ \\Rightarrow\\ x=- \\frac{\\sqrt{14}}{2} - 1,\\ -1 + \\frac{\\sqrt{14}}{2}"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=-5"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (include the zeros for ≤ / ≥).",
+       "latex": "\\left(x \\leq - \\frac{\\sqrt{14}}{2} - 1 \\wedge -\\infty < x\\right) \\vee \\left(-1 + \\frac{\\sqrt{14}}{2} \\leq x \\wedge x < \\infty\\right)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p53-Ex3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "x^{2} + x - 6=0\\ \\Rightarrow\\ x=-3,\\ 2"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=-6"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (zeros excluded for < / >).",
+       "latex": "-3 < x \\wedge x < 2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p53-Ex4-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Related equation: find where the parabola meets the x-axis.",
+       "latex": "x^{2} - 3 x - 4=0\\ \\Rightarrow\\ x=-1,\\ 4"
+      },
+      {
+       "text": "The parabola opens up; test a point in each interval (or read the graph).",
+       "latex": "f(0)=-4"
+      },
+      {
+       "text": "Choose the intervals where the inequality is true (include the zeros for ≤ / ≥).",
+       "latex": "\\left(4 \\leq x \\wedge x < \\infty\\right) \\vee \\left(x \\leq -1 \\wedge -\\infty < x\\right)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q18": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Distribute a over the second factor.",
+       "latex": "a(b^3-3ab-b^2)=ab^3-3a^2b-ab^2"
+      },
+      {
+       "text": "Distribute b over the second factor.",
+       "latex": "b(b^3-3ab-b^2)=b^4-3ab^2-b^3"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Add the partial products and collect like terms (−ab² − 3ab² = −4ab²).",
+       "latex": "- 3 a^{2} b + a b^{3} - 4 a b^{2} + b^{4} - b^{3}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q22": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Square first.",
+       "latex": "(4n-5)^2=16n^2-40n+25"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Multiply by (4n − 5) and collect.",
+       "latex": "(4n-5)(16n^2-40n+25)=64 n^{3} - 240 n^{2} + 300 n - 125"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q24": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Remove the brackets (adding: signs unchanged).",
+       "latex": "6x^2-7x+8-4x^2+9x-5"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Collect like terms.",
+       "latex": "(6-4)x^2+(-7+9)x+(8-5)=2x^2+2x+3"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q25": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Subtracting a bracket changes every sign inside it.",
+       "latex": "-x^2-3x+4-x^2-2x-5"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Collect like terms.",
+       "latex": "-2x^2-5x-1"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q30": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Write both bases as powers of 3.",
+       "latex": "9=3^2,\\ 27=3^3\\ \\Rightarrow\\ 3^{2(3c+1)}=3^{3(2c-1)}"
+      },
+      {
+       "text": "Equal bases: equate exponents.",
+       "latex": "6c+2=6c-3"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Subtract 6c.",
+       "latex": "2=-3"
+      },
+      {
+       "text": "A false statement: no solution.",
+       "latex": "\\text{no solution}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q31": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Common base 3.",
+       "latex": "\\tfrac1{27}=3^{-3},\\ 81=3^4\\ \\Rightarrow\\ 3^{-3(2d-2)}=3^{4(d+4)}"
+      },
+      {
+       "text": "Equate exponents.",
+       "latex": "-6d+6=4d+16"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Solve.",
+       "latex": "-10d=10\\ \\Rightarrow\\ d=-1"
+      },
+      {
+       "text": "Check.",
+       "latex": "(1/27)^{-4}=3^{12}=81^{3}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-original-english-Q35": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standardise.",
+       "latex": "z=\\dfrac{89-72}{5}=3.4"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Read Φ(3.4) from the table.",
+       "latex": "P(X<89)=\\Phi(3.4)\\approx0.9997"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-Q24-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Common base 3.",
+       "latex": "27=3^3,\\ 9=3^2\\ \\Rightarrow\\ 3^{3(x-1)}=3^{2(x+2)}"
+      },
+      {
+       "text": "Equate exponents.",
+       "latex": "3x-3=2x+4"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Solve.",
+       "latex": "x=7"
+      },
+      {
+       "text": "Check.",
+       "latex": "27^6=3^{18}=9^9"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p54-EX3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "(a) Combine like terms of the given sum/difference.",
+       "latex": "2x^2-8x+7"
+      },
+      {
+       "text": "(b) Distribute the subtraction sign first, then collect.",
+       "latex": "2x^2+2x+3"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p54-38-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "No. 38: multiply every term of one factor by every term of the other and collect.",
+       "latex": "2x^3+x^2y-2xy^2-y^3"
+      },
+      {
+       "text": "No. 39/22: same method.",
+       "latex": "4a^2x-2a^2y+10abx-5aby+6b^2x-3b^2y"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p55-58/36-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "No. 58/36: expand the cube (a − b)³ = a³ − 3a²b + 3ab² − b³ with a = 2x, b = 2y.",
+       "latex": "8x^3-24x^2y+24xy^2-8y^3"
+      },
+      {
+       "text": "No. 60/38: (3z − 2)³.",
+       "latex": "27z^3-54z^2+36z-8"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p55-5-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "No. 5: collect like terms.",
+       "latex": "2a^2-a-2"
+      },
+      {
+       "text": "No. 10: change the signs of the subtracted bracket, then collect.",
+       "latex": "-4f^2-6f+3"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p55-9/21-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "No. 9/21: 8^(4x+2) = 64 = 8², so equate exponents.",
+       "latex": "4x+2=2\\Rightarrow x=0"
+      },
+      {
+       "text": "No. 10/22: write 125 = 5³ and equate exponents.",
+       "latex": "x=9"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p56-11-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "No. 11: common base, equate exponents.",
+       "latex": "4(a+2)=3a+1\\Rightarrow a=-7"
+      },
+      {
+       "text": "No. 12/24.",
+       "latex": "4(b+2)=2-2b\\Rightarrow b=-1"
+      },
+      {
+       "text": "No. 25.",
+       "latex": "2(3c+1)=3(3c-1)\\Rightarrow c=\\tfrac53"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p57-Ex5-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "(a) Standardise both limits and subtract the table areas.",
+       "latex": "P\\approx0.8998"
+      },
+      {
+       "text": "(b) Standardise and take the right tail.",
+       "latex": "z=\\tfrac{14}{6},\\quad P\\approx0.0098"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p58-Q17-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "(a) Left tail.",
+       "latex": "\\Phi(-4/3)\\approx0.0912"
+      },
+      {
+       "text": "(b) Right tail.",
+       "latex": "1-\\Phi(8/3)\\approx0.0038"
+      },
+      {
+       "text": "(c) Between the mean and z = 2/3.",
+       "latex": "\\Phi(2/3)-0.5\\approx0.2475"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p59-Ex8-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standardise.",
+       "latex": "z=\\dfrac{100000-98452}{10325}\\approx0.15"
+      },
+      {
+       "text": "Right tail.",
+       "latex": "1-\\Phi(0.15)=0.4404"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p60-Q14-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "(a) z-values −2.44 and −1.63; subtract the areas.",
+       "latex": "0.0516-0.0073\\approx4.42\\%"
+      },
+      {
+       "text": "(b) z = 1.22, right tail.",
+       "latex": "1-0.8888=11.12\\%"
+      },
+      {
+       "text": "(c) z = −2.03; multiply the proportion by 75.",
+       "latex": "75(0.0212)\\approx1.59\\approx2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12G-p54-32/19-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Multiply every term of the first factor by every term of the second, then collect like terms.",
+       "latex": "\\text{e.g. }(x-y)(x+y)^2=x^3+x^2y-xy^2-y^3"
+      },
+      {
+       "text": "The second item follows the printed source; two printed versions of this exercise exist, so compare with the version on your sheet.",
+       "latex": "\\text{see reference solution}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  }
+ }
+}
