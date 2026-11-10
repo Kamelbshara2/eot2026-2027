@@ -1,0 +1,228 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p39-Ex6-1": {
+   "steps": [
+    {
+     "text": "An exponential graph a·bᵗ + k levels off at the horizontal asymptote y = k.",
+     "latex": "y=-3"
+    },
+    {
+     "text": "Compute a point: x = 0.",
+     "latex": "f(0)=- \\frac{23}{8}"
+    },
+    {
+     "text": "Compute a point: x = -2.",
+     "latex": "f(-2)=-1"
+    },
+    {
+     "text": "Compute a point: x = -3.",
+     "latex": "f(-3)=5"
+    },
+    {
+     "text": "The graph decreases.",
+     "latex": "\\text{decreasing}"
+    },
+    {
+     "text": "Only graph b) has this asymptote, these points and this direction.",
+     "latex": "\\text{graph b)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p40-Ex6-1": {
+   "steps": [
+    {
+     "text": "An exponential graph a·bᵗ + k levels off at the horizontal asymptote y = k.",
+     "latex": "y=0"
+    },
+    {
+     "text": "Compute a point: x = 0.",
+     "latex": "f(0)=1"
+    },
+    {
+     "text": "Compute a point: x = -1.",
+     "latex": "f(-1)=2"
+    },
+    {
+     "text": "The graph decreases.",
+     "latex": "\\text{decreasing}"
+    },
+    {
+     "text": "Only graph b) has this asymptote, these points and this direction.",
+     "latex": "\\text{graph b)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p41-Ex7-1": {
+   "steps": [
+    {
+     "text": "An exponential graph a·bᵗ + k levels off at the horizontal asymptote y = k.",
+     "latex": "y=3"
+    },
+    {
+     "text": "Compute a point: x = 4.",
+     "latex": "f(4)=1"
+    },
+    {
+     "text": "Compute a point: x = 5.",
+     "latex": "f(5)=\\frac{5}{2}"
+    },
+    {
+     "text": "Compute a point: x = 3.",
+     "latex": "f(3)=-5"
+    },
+    {
+     "text": "The graph increases.",
+     "latex": "\\text{increasing}"
+    },
+    {
+     "text": "Only graph c) has this asymptote, these points and this direction.",
+     "latex": "\\text{graph c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q107": {
+   "steps": [
+    {
+     "text": "The graph rises towards y = 3 on the right: asymptote y = 3, so k = 3.",
+     "latex": "k=3"
+    },
+    {
+     "text": "It approaches from below, so a < 0; with base 1/4 the curve flattens as x increases.",
+     "latex": "a<0,\\ 0<b<1"
+    },
+    {
+     "text": "Check a point with the option −2(1/4)^(x−4) + 3.",
+     "latex": "f(4)=-2+3=1"
+    },
+    {
+     "text": "Option C.",
+     "latex": "f(x)=-2\\left(\\tfrac14\\right)^{x-4}+3"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q108": {
+   "steps": [
+    {
+     "text": "An exponential graph a·bᵗ + k levels off at the horizontal asymptote y = k.",
+     "latex": "y=0"
+    },
+    {
+     "text": "Compute a point: x = 0.",
+     "latex": "f(0)=1"
+    },
+    {
+     "text": "Compute a point: x = -1.",
+     "latex": "f(-1)=2"
+    },
+    {
+     "text": "The graph decreases.",
+     "latex": "\\text{decreasing}"
+    },
+    {
+     "text": "Only graph A has this asymptote, these points and this direction.",
+     "latex": "\\text{graph A}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q109": {
+   "steps": [
+    {
+     "text": "bˣ is exponential growth when b > 1 and decay when 0 < b < 1.",
+     "latex": "b>1\\ \\Rightarrow\\ \\text{growth}"
+    },
+    {
+     "text": "Only 2.5 is greater than 1 (0.5, 3/5 and 0.2 are less than 1).",
+     "latex": "2.5>1"
+    },
+    {
+     "text": "Option A.",
+     "latex": "f(x)=(2.5)^x"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q110": {
+   "steps": [
+    {
+     "text": "bˣ is exponential decay when 0 < b < 1.",
+     "latex": "0<b<1\\ \\Rightarrow\\ \\text{decay}"
+    },
+    {
+     "text": "3/7 ≈ 0.43 is between 0 and 1; 2.5, 1.5 and 5/3 are greater than 1.",
+     "latex": "0<\\tfrac37<1"
+    },
+    {
+     "text": "Option C.",
+     "latex": "f(x)=\\left(\\tfrac37\\right)^x"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q111": {
+   "steps": [
+    {
+     "text": "An exponential graph a·bᵗ + k levels off at the horizontal asymptote y = k.",
+     "latex": "y=2"
+    },
+    {
+     "text": "Compute a point: x = 4.",
+     "latex": "f(4)=-1"
+    },
+    {
+     "text": "Compute a point: x = 5.",
+     "latex": "f(5)=\\frac{7}{5}"
+    },
+    {
+     "text": "The graph increases.",
+     "latex": "\\text{increasing}"
+    },
+    {
+     "text": "Only graph A has this asymptote, these points and this direction.",
+     "latex": "\\text{graph A}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p42-Q1-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured, no treatment is assigned. Experiment: a treatment is assigned (often with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "The label shows the covers to the teenagers and records their reactions; it does not assign different treatments or compare a control group.",
+     "latex": "\\text{observe and record}"
+    },
+    {
+     "text": "Observational study: option c).",
+     "latex": "\\text{Observational study}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p42-Q2-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured, no treatment is assigned. Experiment: a treatment is assigned (often with a control group).",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Customers are asked to give feedback: the data come from their answers.",
+     "latex": "\\text{asking questions}"
+    },
+    {
+     "text": "Survey: option a).",
+     "latex": "\\text{Survey}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}
