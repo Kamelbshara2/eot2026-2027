@@ -69,6 +69,7 @@ def poly_product(stem):
 def pts_from(stem):
     s = stem.replace('\\quad', ' ').replace('\\left', '').replace('\\right', '')
     s = re.sub(r'\\sqrt\{([^{}]*)\}', r'sqrt(\1)', s)
+    s = re.sub(r'\\frac\{([^{}]*)\}\{([^{}]*)\}', r'((\1)/(\2))', s)
     pts, depth, buf = [], 0, ''
     for ch in s:
         if ch == '(':
@@ -228,6 +229,69 @@ PLOTS = {
     'G9G-BOOK-Q25-FRQ-04': {'kind': 'piecewise', 'bounds': [-6, 6, -4, 12], 'pieces': [{'m': 3, 'b': 4, 'x0': 1, 'side': 'right', 'closed': True}, {'m': 1, 'b': 3, 'x0': 1, 'side': 'left', 'closed': False}]},
 }
 
+
+# ---------------------------------------------------------------- Grade 10 Advanced revision-booklet questions (G10A-REV-*)
+def _pos(txt):
+    names = set(re.findall(r'[A-Za-z]', re.sub(r'\\[a-z]+', '', txt)))
+    loc = {n: sp.Symbol(n, positive=True) for n in names}
+    t = re.sub(r'\^\{(\d+)\}', r'^\1', txt.replace('\\left', '').replace('\\right', ''))
+    t = re.sub(r'\\frac\{([^{}]*)\}\{([^{}]*)\}', r'((\1)/(\2))', t)
+    return parse_expr(t.replace('−', '-'), local_dict=loc, transformations=T)
+
+def tex_lin(e):
+    return re.sub(r'\\left|\\right', '', sp.latex(e, order='lex')).replace(' ', '')
+
+def register_revision(bank):
+    for q in bank['questions']:
+        if not q['id'].startswith('G10A-REV-') or q['type'] != 'frq': continue
+        lo, qid, ml = q['learning_outcome_id'], q['id'], q['math_latex']
+        if lo == 'LO21':
+            e = _pos(ml)
+            if 'perfect-square' in q['instruction']:
+                P = sp.Poly(sp.expand(e), *sorted(e.free_symbols, key=str))
+                terms = sorted(P.terms(), key=lambda t: t[0], reverse=True)
+                gens = sorted(e.free_symbols, key=str)
+                mk = lambda mon, c: c * sp.Mul(*[g ** k for g, k in zip(gens, mon)])
+                first, last = mk(*terms[0]), mk(*terms[-1]); mid = sp.expand(e - first - last)
+                sf, sl = sp.sqrt(first), sp.sqrt(last); need = sp.expand(2 * sf * sl)
+                yes = sp.expand(e - (sf + sl) ** 2) == 0 or sp.expand(e - (sf - sl) ** 2) == 0
+                lines = [f'\\sqrt{{{tex_lin(first)}}}=[[{ascii_expr(sf)}]],\\quad \\sqrt{{{tex_lin(last)}}}=[[{ascii_expr(sl)}]]',
+                         f'2\\cdot({tex_lin(sf)})\\cdot({tex_lin(sl)})=[[{ascii_expr(need)}]]\\ \\Rightarrow\\ \\text{{middle term matches? }}[[?yes;no|{"yes" if yes else "no"}]]']
+                if yes:
+                    sign = '-' if sp.expand(e - (sf - sl) ** 2) == 0 else '+'
+                    lines.append(f'{ml}=([[{ascii_expr(sf)}{sign}{ascii_expr(sl)}]])^2')
+                put(qid, 'a', lines)
+            else:
+                g = sp.gcd_list(list(sp.Add.make_args(sp.expand(e)))); rest = sp.cancel(sp.expand(e) / g); fl = sp.factor_list(rest)[1]
+                lines = []
+                if g != 1:
+                    lines += [f'\\text{{Greatest common factor}}=[[{ascii_expr(g)}]]', f'{ml}={tex_lin(g)}([[{ascii_expr(rest)}]])']
+                if len(fl) == 1 and fl[0][1] == 2: lines.append(f'={tex_lin(g) if g != 1 else ""}([[{ascii_expr(fl[0][0])}]])^2')
+                elif len(fl) >= 2: lines.append(f'={tex_lin(g) if g != 1 else ""}' + ''.join(f'([[{ascii_expr(f_)}#f]])' for f_, _ in fl))
+                put(qid, 'a', lines)
+        elif lo == 'LO22':
+            if 'regular polygon' in q['instruction']:
+                ang = int(re.sub(r'\D', '', ml)); e_ = 180 - ang
+                put(qid, 'a', [f'\\text{{exterior angle}}=180^\\circ-{ang}^\\circ=[[{e_}]]^\\circ', f'n=\\dfrac{{360}}{{[[{e_}]]}}=[[{360 // e_}]]'])
+            else:
+                sol = q['parts'][0]['answer']['model_answer_and_marking']; m = re.search(r'Combine all labelled exterior angles: (.*?) \(4\)', sol)
+                lhs = _pos(m.group(1).split('=')[0].replace('x', 'X')) if False else None
+                x = sp.Symbol('x'); left = parse_expr(m.group(1).split('=')[0].strip().replace('−', '-'), transformations=T)
+                P = sp.Poly(sp.expand(left), x); a_, b_ = P.all_coeffs(); xv = int(q['parts'][0]['answer']['math_latex'].split('=')[1])
+                put(qid, 'a', [f'[[{a_}x{"+" if b_ >= 0 else "-"}{abs(b_)}]]=360', f'{a_}x=[[{360 - b_}]]', f'x=[[{xv}]]'])
+        elif lo == 'LO23':
+            n_ = q['id'][-2:]
+            lines = {'01': ['16x=[[80]]', 'x=[[5]]'], '02': ['\\text{yardstick}=[[3]]\\text{ ft},\\quad \\tfrac12\\text{ in}=[[1/24]]\\text{ ft}', 'h=8\\times3\\times24=[[576]]\\text{ ft}'],
+                     '03': ['k=\\dfrac{264}{220}=[[1.2]]', 'x=168.5\\times[[1.2]]=[[202.2]]\\text{ in.}']}
+            put(qid, 'a', lines[n_])
+        elif lo == 'LO24':
+            P = pts_from(ml)
+            if len(q['parts']) == 2: put(qid, 'a', dist_lines(*P)); put(qid, 'b', mid_lines(*P))
+            else: put(qid, 'a', mid_lines(*P))
+        elif lo == 'LO25':
+            A_, a_, b_ = [float(x) for x in re.findall(r'[\d.]+', ml)[:3]]
+            triangle(qid, A_, a_, b_)
+
 CORRECTIONS = {
     # sin B = 4*sin30/2 = 1 exactly -> ONE (right) triangle, not two identical ones
     'G10A-BOOK-Q25-FRQ-04': {
@@ -239,6 +303,7 @@ CORRECTIONS = {
 def process(classroom):
     path = ROOT / 'public/data/study' / f'{classroom}.json'
     d = json.loads(path.read_text())
+    if classroom == '10A1': register_revision(d)
     n = 0
     for q in d['questions']:
         if q['type'] != 'frq': continue

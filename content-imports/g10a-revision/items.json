@@ -1,0 +1,5536 @@
+{
+ "source": {
+  "file_name": "G10A-revision-solutions-booklet.pdf",
+  "sha256": "51e2f2a2fcf211427624f0efa8792458b148ea055b1985288616df4957a2e8d4",
+  "pages": 99,
+  "title": "Mathematics Exam Revision - Solutions · Grade 10 Advanced · Term 1 (teacher-supplied)",
+  "author_credit": "Elsayed Abdelkader (as printed in the footer)"
+ },
+ "items": [
+  {
+   "number": 1,
+   "page": 2,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Write in standard form and identify the leading coefficient.",
+    "-y³ + 3y - 3y² + 2"
+   ],
+   "options": {
+    "A": "-y³ - 8y² + 3y + 2; -1",
+    "B": "-y³ - 3y² + 3y + 2; -1",
+    "C": "-y³ - 5y² + 3y + 2; -1",
+    "D": "-y³ - 1y² + 3y + 2; -1"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Write in standard form and identify the leading coefficient.",
+   "math_lines": [
+    "-y³ + 3y - 3y² + 2"
+   ]
+  },
+  {
+   "number": 2,
+   "page": 2,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Write in standard form and identify the leading coefficient.",
+    "11t + 2t² - 3 + t⁵"
+   ],
+   "options": {
+    "A": "t⁵ + 2t² + 11t - 3; 1",
+    "B": "t⁵ + 4t² + 11t - 3; 1",
+    "C": "t⁵ + 0t² + 11t - 3; 1",
+    "D": "t⁵ + 7t² + 11t - 3; 1"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Write in standard form and identify the leading coefficient.",
+   "math_lines": [
+    "11t + 2t² - 3 + t⁵"
+   ]
+  },
+  {
+   "number": 3,
+   "page": 2,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Write in standard form and identify the leading coefficient.",
+    "2 + r - r³"
+   ],
+   "options": {
+    "A": "-r³ + r + 4; -1",
+    "B": "-r³ + r + 0; -1",
+    "C": "-r³ + r + 7; -1",
+    "D": "-r³ + r + 2; -1"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Write in standard form and identify the leading coefficient.",
+   "math_lines": [
+    "2 + r - r³"
+   ]
+  },
+  {
+   "number": 4,
+   "page": 3,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Write in standard form and identify the leading coefficient.",
+    "½x - 3x⁴ + 7"
+   ],
+   "options": {
+    "A": "-5x⁴ + ½x + 7; -3",
+    "B": "2x⁴ + ½x + 7; -3",
+    "C": "-3x⁴ + ½x + 7; -3",
+    "D": "-1x⁴ + ½x + 7; -3"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Write in standard form and identify the leading coefficient.",
+   "math_lines": [
+    "½x - 3x⁴ + 7"
+   ]
+  },
+  {
+   "number": 5,
+   "page": 3,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Write in standard form and identify the leading coefficient.",
+    "-9b² + 10b - b⁶"
+   ],
+   "options": {
+    "A": "-b⁶ - 14b² + 10b; -1",
+    "B": "-b⁶ - 9b² + 10b; -1",
+    "C": "-b⁶ - 11b² + 10b; -1",
+    "D": "-b⁶ - 7b² + 10b; -1"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Write in standard form and identify the leading coefficient.",
+   "math_lines": [
+    "-9b² + 10b - b⁶"
+   ]
+  },
+  {
+   "number": 6,
+   "page": 3,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Find the sum or difference.",
+    "(2h² - 5h) + (7h - 3h²)"
+   ],
+   "options": {
+    "A": "-h² + 7h",
+    "B": "-h² + 2h",
+    "C": "-h² + 4h",
+    "D": "-h² + 0h"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the sum or difference.",
+   "math_lines": [
+    "(2h² - 5h) + (7h - 3h²)"
+   ]
+  },
+  {
+   "number": 7,
+   "page": 4,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Find the sum or difference.",
+    "(5f + g - 2) + (-2f + 3)"
+   ],
+   "options": {
+    "A": "3f + g + 1",
+    "B": "5f + g + 1",
+    "C": "1f + g + 1",
+    "D": "8f + g + 1"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the sum or difference.",
+   "math_lines": [
+    "(5f + g - 2) + (-2f + 3)"
+   ]
+  },
+  {
+   "number": 8,
+   "page": 4,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Find the sum or difference.",
+    "(6k² + 2k + 9) + (4k² - 5k)"
+   ],
+   "options": {
+    "A": "12k² - 3k + 9",
+    "B": "8k² - 3k + 9",
+    "C": "15k² - 3k + 9",
+    "D": "10k² - 3k + 9"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the sum or difference.",
+   "math_lines": [
+    "(6k² + 2k + 9) + (4k² - 5k)"
+   ]
+  },
+  {
+   "number": 9,
+   "page": 4,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Find the sum or difference.",
+    "(2c² + 6c + 4) + (5c² - 7)"
+   ],
+   "options": {
+    "A": "5c² + 6c - 3",
+    "B": "12c² + 6c - 3",
+    "C": "7c² + 6c - 3",
+    "D": "9c² + 6c - 3"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the sum or difference.",
+   "math_lines": [
+    "(2c² + 6c + 4) + (5c² - 7)"
+   ]
+  },
+  {
+   "number": 10,
+   "page": 5,
+   "topic": "Polynomials",
+   "lo": "LO01",
+   "stem_lines": [
+    "Find the sum or difference.",
+    "(2x + 3x²) - (7 - 8x²)"
+   ],
+   "options": {
+    "A": "16x² + 2x - 7",
+    "B": "11x² + 2x - 7",
+    "C": "13x² + 2x - 7",
+    "D": "9x² + 2x - 7"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the sum or difference.",
+   "math_lines": [
+    "(2x + 3x²) - (7 - 8x²)"
+   ]
+  },
+  {
+   "number": 11,
+   "page": 6,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(3c - 5)(c + 3)"
+   ],
+   "options": {
+    "A": "8c² + 4c - 15",
+    "B": "3c² + 4c - 15",
+    "C": "5c² + 4c - 15",
+    "D": "1c² + 4c - 15"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(3c - 5)(c + 3)"
+   ]
+  },
+  {
+   "number": 12,
+   "page": 6,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(g + 10)(2g - 5)"
+   ],
+   "options": {
+    "A": "2g² + 15g - 50",
+    "B": "4g² + 15g - 50",
+    "C": "0g² + 15g - 50",
+    "D": "7g² + 15g - 50"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(g + 10)(2g - 5)"
+   ]
+  },
+  {
+   "number": 13,
+   "page": 6,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(6a + 5)(5a + 3)"
+   ],
+   "options": {
+    "A": "32a² + 43a + 15",
+    "B": "28a² + 43a + 15",
+    "C": "35a² + 43a + 15",
+    "D": "30a² + 43a + 15"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(6a + 5)(5a + 3)"
+   ]
+  },
+  {
+   "number": 14,
+   "page": 7,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(4x + 1)(6x + 3)"
+   ],
+   "options": {
+    "A": "22x² + 18x + 3",
+    "B": "29x² + 18x + 3",
+    "C": "24x² + 18x + 3",
+    "D": "26x² + 18x + 3"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(4x + 1)(6x + 3)"
+   ]
+  },
+  {
+   "number": 15,
+   "page": 7,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(5y - 4)(3y - 1)"
+   ],
+   "options": {
+    "A": "20y² - 17y + 4",
+    "B": "15y² - 17y + 4",
+    "C": "17y² - 17y + 4",
+    "D": "13y² - 17y + 4"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(5y - 4)(3y - 1)"
+   ]
+  },
+  {
+   "number": 16,
+   "page": 7,
+   "topic": "Multiplying Binomials",
+   "lo": "LO02",
+   "stem_lines": [
+    "Find the product.",
+    "(6d - 5)(4d - 7)"
+   ],
+   "options": {
+    "A": "24d² - 62d + 35",
+    "B": "26d² - 62d + 35",
+    "C": "22d² - 62d + 35",
+    "D": "29d² - 62d + 35"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the product.",
+   "math_lines": [
+    "(6d - 5)(4d - 7)"
+   ]
+  },
+  {
+   "number": 17,
+   "page": 8,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "fg - 5g + 4f - 20"
+   ],
+   "options": {
+    "A": "(f - 3)(g + 4)",
+    "B": "(f - 10)(g + 4)",
+    "C": "(f - 5)(g + 4)",
+    "D": "(f - 7)(g + 4)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "fg - 5g + 4f - 20"
+   ]
+  },
+  {
+   "number": 18,
+   "page": 8,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "a² - 4a - 24 + 6a"
+   ],
+   "options": {
+    "A": "(a + 11)(a - 4)",
+    "B": "(a + 6)(a - 4)",
+    "C": "(a + 8)(a - 4)",
+    "D": "(a + 4)(a - 4)"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "a² - 4a - 24 + 6a"
+   ]
+  },
+  {
+   "number": 19,
+   "page": 8,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "hj - 2h + 5j - 10"
+   ],
+   "options": {
+    "A": "(h + 5)(j - 2)",
+    "B": "(h + 7)(j - 2)",
+    "C": "(h + 3)(j - 2)",
+    "D": "(h + 10)(j - 2)"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "hj - 2h + 5j - 10"
+   ]
+  },
+  {
+   "number": 20,
+   "page": 9,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "xy - 2x - 2 + y"
+   ],
+   "options": {
+    "A": "(x + 3)(y - 2)",
+    "B": "(x - 1)(y - 2)",
+    "C": "(x + 6)(y - 2)",
+    "D": "(x + 1)(y - 2)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "xy - 2x - 2 + y"
+   ]
+  },
+  {
+   "number": 21,
+   "page": 9,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "45pq - 27q - 50p + 30"
+   ],
+   "options": {
+    "A": "(7q - 10)(5p - 3)",
+    "B": "(14q - 10)(5p - 3)",
+    "C": "(9q - 10)(5p - 3)",
+    "D": "(11q - 10)(5p - 3)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "45pq - 27q - 50p + 30"
+   ]
+  },
+  {
+   "number": 22,
+   "page": 9,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "24tv - 18t + 4v - 3"
+   ],
+   "options": {
+    "A": "(11t + 1)(4v - 3)",
+    "B": "(6t + 1)(4v - 3)",
+    "C": "(8t + 1)(4v - 3)",
+    "D": "(4t + 1)(4v - 3)"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "24tv - 18t + 4v - 3"
+   ]
+  },
+  {
+   "number": 23,
+   "page": 10,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "3dt - 21d + 35 - 5t"
+   ],
+   "options": {
+    "A": "(3d - 5)(t - 7)",
+    "B": "(5d - 5)(t - 7)",
+    "C": "(1d - 5)(t - 7)",
+    "D": "(8d - 5)(t - 7)"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "3dt - 21d + 35 - 5t"
+   ]
+  },
+  {
+   "number": 24,
+   "page": 10,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "8r² + 12r"
+   ],
+   "options": {
+    "A": "6r(2r + 3)",
+    "B": "2r(2r + 3)",
+    "C": "9r(2r + 3)",
+    "D": "4r(2r + 3)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "8r² + 12r"
+   ]
+  },
+  {
+   "number": 25,
+   "page": 10,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "21th - 3t - 35h + 5"
+   ],
+   "options": {
+    "A": "(5h - 1)(3t - 5)",
+    "B": "(12h - 1)(3t - 5)",
+    "C": "(7h - 1)(3t - 5)",
+    "D": "(9h - 1)(3t - 5)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "21th - 3t - 35h + 5"
+   ]
+  },
+  {
+   "number": 26,
+   "page": 11,
+   "topic": "Factoring by Grouping",
+   "lo": "LO03",
+   "stem_lines": [
+    "Factor the polynomial.",
+    "vp + 12v + 8p + 96"
+   ],
+   "options": {
+    "A": "(v + 13)(p + 12)",
+    "B": "(v + 8)(p + 12)",
+    "C": "(v + 10)(p + 12)",
+    "D": "(v + 6)(p + 12)"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial.",
+   "math_lines": [
+    "vp + 12v + 8p + 96"
+   ]
+  },
+  {
+   "number": 27,
+   "page": 12,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "x² + 17x + 42"
+   ],
+   "options": {
+    "A": "(x + 5)(x + 14)",
+    "B": "(x + 1)(x + 14)",
+    "C": "(x + 8)(x + 14)",
+    "D": "(x + 3)(x + 14)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "x² + 17x + 42"
+   ]
+  },
+  {
+   "number": 28,
+   "page": 12,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "y² - 17y + 72"
+   ],
+   "options": {
+    "A": "(y - 6)(y - 9)",
+    "B": "(y - 13)(y - 9)",
+    "C": "(y - 8)(y - 9)",
+    "D": "(y - 10)(y - 9)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "y² - 17y + 72"
+   ]
+  },
+  {
+   "number": 29,
+   "page": 12,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "a² + 8a - 48"
+   ],
+   "options": {
+    "A": "(a + 17)(a - 4)",
+    "B": "(a + 12)(a - 4)",
+    "C": "(a + 14)(a - 4)",
+    "D": "(a + 10)(a - 4)"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "a² + 8a - 48"
+   ]
+  },
+  {
+   "number": 30,
+   "page": 13,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "n² - 2n - 35"
+   ],
+   "options": {
+    "A": "(n - 7)(n + 5)",
+    "B": "(n - 9)(n + 5)",
+    "C": "(n - 5)(n + 5)",
+    "D": "(n - 12)(n + 5)"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "n² - 2n - 35"
+   ]
+  },
+  {
+   "number": 31,
+   "page": 13,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "44 + 15h + h²"
+   ],
+   "options": {
+    "A": "(h + 6)(h + 11)",
+    "B": "(h + 2)(h + 11)",
+    "C": "(h + 9)(h + 11)",
+    "D": "(h + 4)(h + 11)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "44 + 15h + h²"
+   ]
+  },
+  {
+   "number": 32,
+   "page": 13,
+   "topic": "Factoring Trinomials",
+   "lo": "LO04",
+   "stem_lines": [
+    "Factor the polynomial, if possible.",
+    "40 - 22x + x²"
+   ],
+   "options": {
+    "A": "(x - 0)(x - 20)",
+    "B": "(x - 7)(x - 20)",
+    "C": "(x - 2)(x - 20)",
+    "D": "(x - 4)(x - 20)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Factor the polynomial, if possible.",
+   "math_lines": [
+    "40 - 22x + x²"
+   ]
+  },
+  {
+   "number": 33,
+   "page": 14,
+   "topic": "Interior Angles",
+   "lo": "LO05",
+   "stem_lines": [
+    "Find the measure of each interior angle."
+   ],
+   "options": {
+    "A": "Q=119°, R=58°, S=123°, T=58°",
+    "B": "Q=126°, R=58°, S=123°, T=58°",
+    "C": "Q=121°, R=58°, S=123°, T=58°",
+    "D": "Q=123°, R=58°, S=123°, T=58°"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev033_1.png",
+     "page": 14,
+     "width": 280,
+     "height": 160
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the measure of each interior angle.",
+   "math_lines": []
+  },
+  {
+   "number": 34,
+   "page": 14,
+   "topic": "Interior Angles",
+   "lo": "LO05",
+   "stem_lines": [
+    "Find the measure of each interior angle."
+   ],
+   "options": {
+    "A": "J=155°, K=62°, L=52°, M=96°",
+    "B": "J=150°, K=62°, L=52°, M=96°",
+    "C": "J=152°, K=62°, L=52°, M=96°",
+    "D": "J=148°, K=62°, L=52°, M=96°"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev034_1.png",
+     "page": 14,
+     "width": 425,
+     "height": 160
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the measure of each interior angle.",
+   "math_lines": []
+  },
+  {
+   "number": 35,
+   "page": 15,
+   "topic": "Interior Angles",
+   "lo": "LO05",
+   "stem_lines": [
+    "Find the measure of each interior angle."
+   ],
+   "options": {
+    "A": "A=90°, B=90°, C=128°, D=74°, E=158°",
+    "B": "A=92°, B=90°, C=128°, D=74°, E=158°",
+    "C": "A=88°, B=90°, C=128°, D=74°, E=158°",
+    "D": "A=95°, B=90°, C=128°, D=74°, E=158°"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev035_1.png",
+     "page": 15,
+     "width": 280,
+     "height": 249
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the measure of each interior angle.",
+   "math_lines": []
+  },
+  {
+   "number": 36,
+   "page": 16,
+   "topic": "Interior Angles",
+   "lo": "LO05",
+   "stem_lines": [
+    "Find the measure of each interior angle."
+   ],
+   "options": {
+    "A": "U=62°, V=193°, W=76°, Y=68°, Z=143°",
+    "B": "U=58°, V=193°, W=76°, Y=68°, Z=143°",
+    "C": "U=65°, V=193°, W=76°, Y=68°, Z=143°",
+    "D": "U=60°, V=193°, W=76°, Y=68°, Z=143°"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev036_1.png",
+     "page": 16,
+     "width": 425,
+     "height": 249
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the measure of each interior angle.",
+   "math_lines": []
+  },
+  {
+   "number": 37,
+   "page": 17,
+   "topic": "Parallelograms",
+   "lo": "LO06",
+   "stem_lines": [
+    "Find the value of each variable in the parallelogram."
+   ],
+   "options": {
+    "A": "x=10, y=17",
+    "B": "x=5, y=17",
+    "C": "x=7, y=17",
+    "D": "x=3, y=17"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev037_1.png",
+     "page": 17,
+     "width": 352,
+     "height": 143
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the value of each variable in the parallelogram.",
+   "math_lines": []
+  },
+  {
+   "number": 38,
+   "page": 17,
+   "topic": "Parallelograms",
+   "lo": "LO06",
+   "stem_lines": [
+    "Find the value of each variable in the parallelogram."
+   ],
+   "options": {
+    "A": "a=2, b=3",
+    "B": "a=4, b=3",
+    "C": "a=0, b=3",
+    "D": "a=7, b=3"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev038_1.png",
+     "page": 17,
+     "width": 345,
+     "height": 143
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the value of each variable in the parallelogram.",
+   "math_lines": []
+  },
+  {
+   "number": 39,
+   "page": 18,
+   "topic": "Parallelograms",
+   "lo": "LO06",
+   "stem_lines": [
+    "Find the value of each variable in the parallelogram."
+   ],
+   "options": {
+    "A": "x=60, y=63.5",
+    "B": "x=56, y=63.5",
+    "C": "x=63, y=63.5",
+    "D": "x=58, y=63.5"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev039_1.png",
+     "page": 18,
+     "width": 352,
+     "height": 139
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the value of each variable in the parallelogram.",
+   "math_lines": []
+  },
+  {
+   "number": 40,
+   "page": 18,
+   "topic": "Parallelograms",
+   "lo": "LO06",
+   "stem_lines": [
+    "Find the value of each variable in the parallelogram."
+   ],
+   "options": {
+    "A": "y=3, z=2",
+    "B": "y=10, z=2",
+    "C": "y=5, z=2",
+    "D": "y=7, z=2"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev040_1.png",
+     "page": 18,
+     "width": 345,
+     "height": 150
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the value of each variable in the parallelogram.",
+   "math_lines": []
+  },
+  {
+   "number": 41,
+   "page": 19,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; one pair of opposite sides is both parallel and congruent.",
+    "B": "No; only one pair of opposite sides is congruent.",
+    "C": "No; only one pair of opposite sides is parallel.",
+    "D": "Yes; one pair of adjacent sides is congruent."
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev041_1.png",
+     "page": 19,
+     "width": 280,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 42,
+   "page": 19,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "No; opposite angles must be supplementary.",
+    "B": "Yes; one pair of adjacent angles is congruent.",
+    "C": "No; the diagonals must be congruent.",
+    "D": "Yes; both pairs of opposite angles are congruent."
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev042_1.png",
+     "page": 19,
+     "width": 315,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 43,
+   "page": 20,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; each pair of adjacent sides is congruent.",
+    "B": "No; opposite sides of a parallelogram cannot be congruent.",
+    "C": "No; one pair of congruent opposite sides is insufficient.",
+    "D": "Yes; one pair of congruent opposite sides is sufficient."
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev043_1.png",
+     "page": 20,
+     "width": 280,
+     "height": 94
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 44,
+   "page": 20,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "No; all four sides must be congruent.",
+    "B": "Yes; both pairs of opposite sides are congruent.",
+    "C": "No; parallel sides must have different lengths.",
+    "D": "Yes; the diagonals are congruent."
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev044_1.png",
+     "page": 20,
+     "width": 315,
+     "height": 94
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 45,
+   "page": 21,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; the diagonals bisect each other.",
+    "B": "No; diagonals must be perpendicular.",
+    "C": "Yes; diagonals have equal total lengths.",
+    "D": "No; congruent diagonal halves are insufficient."
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev045_1.png",
+     "page": 21,
+     "width": 280,
+     "height": 110
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 46,
+   "page": 21,
+   "topic": "Tests for Parallelograms",
+   "lo": "LO07",
+   "stem_lines": [
+    "Is the quadrilateral a parallelogram? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; one parallel pair and a different congruent pair are sufficient.",
+    "B": "Yes; the diagonals bisect each other.",
+    "C": "Yes; all opposite angles are marked congruent.",
+    "D": "No; the marked parallel and congruent pairs are different pairs."
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev046_1.png",
+     "page": 21,
+     "width": 315,
+     "height": 110
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Is the quadrilateral a parallelogram? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 47,
+   "page": 22,
+   "topic": "Kites",
+   "lo": "LO08",
+   "stem_lines": [
+    "Find m∠Q."
+   ],
+   "options": {
+    "A": "103°",
+    "B": "99°",
+    "C": "106°",
+    "D": "101°"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev047_1.png",
+     "page": 22,
+     "width": 265,
+     "height": 178
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find m∠Q.",
+   "math_lines": []
+  },
+  {
+   "number": 48,
+   "page": 22,
+   "topic": "Kites",
+   "lo": "LO08",
+   "stem_lines": [
+    "Find m∠D."
+   ],
+   "options": {
+    "A": "125°",
+    "B": "132°",
+    "C": "127°",
+    "D": "129°"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev048_1.png",
+     "page": 22,
+     "width": 320,
+     "height": 178
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find m∠D.",
+   "math_lines": []
+  },
+  {
+   "number": 49,
+   "page": 23,
+   "topic": "Kites",
+   "lo": "LO08",
+   "stem_lines": [
+    "Quadrilateral ABCD is a kite.",
+    "a. Find BC. Write your answer in simplest radical form.",
+    "b. Find the perimeter of kite ABCD. Round your answer to the nearest tenth, if",
+    "necessary."
+   ],
+   "options": {
+    "A": "BC=√70; perimeter≈42.2",
+    "B": "BC=√65; perimeter≈42.2",
+    "C": "BC=√67; perimeter≈42.2",
+    "D": "BC=√63; perimeter≈42.2"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev049_1.png",
+     "page": 23,
+     "width": 185,
+     "height": 147
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Quadrilateral ABCD is a kite.",
+   "math_lines": [
+    "a. Find BC. Write your answer in simplest radical form.",
+    "b. Find the perimeter of kite ABCD. Round your answer to the nearest tenth, if",
+    "necessary."
+   ]
+  },
+  {
+   "number": 50,
+   "page": 24,
+   "topic": "Kites",
+   "lo": "LO08",
+   "stem_lines": [
+    "Quadrilateral HRSE is a kite.",
+    "a. Find RH. Write your answer in simplest radical form.",
+    "b. Find the perimeter of kite HRSE. Round your answer to the nearest tenth, if",
+    "necessary."
+   ],
+   "options": {
+    "A": "RH=4√34; perimeter≈107.6",
+    "B": "RH=6√34; perimeter≈107.6",
+    "C": "RH=2√34; perimeter≈107.6",
+    "D": "RH=9√34; perimeter≈107.6"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev050_1.png",
+     "page": 24,
+     "width": 225,
+     "height": 125
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Quadrilateral HRSE is a kite.",
+   "math_lines": [
+    "a. Find RH. Write your answer in simplest radical form.",
+    "b. Find the perimeter of kite HRSE. Round your answer to the nearest tenth, if",
+    "necessary."
+   ]
+  },
+  {
+   "number": 51,
+   "page": 25,
+   "topic": "Dilations",
+   "lo": "LO09",
+   "stem_lines": [
+    "Graph the image after a dilation centered at the origin. Select the image",
+    "coordinates.",
+    "F(-10, 4), G(-4, 4), H(-4, -8); k = 0.25."
+   ],
+   "options": {
+    "A": "F′(-4.5,1), G′(-1,1), H′(-1,-2)",
+    "B": "F′(2.5,1), G′(-1,1), H′(-1,-2)",
+    "C": "F′(-2.5,1), G′(-1,1), H′(-1,-2)",
+    "D": "F′(-0.5,1), G′(-1,1), H′(-1,-2)"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Graph the image after a dilation centered at the origin. Select the image coordinates.",
+   "math_lines": [
+    "F(-10, 4), G(-4, 4), H(-4, -8); k = 0.25."
+   ]
+  },
+  {
+   "number": 52,
+   "page": 25,
+   "topic": "Dilations",
+   "lo": "LO09",
+   "stem_lines": [
+    "Graph the image after a dilation centered at the origin. Select the image",
+    "coordinates.",
+    "X(2, -1), Y(-6, 4), Z(-2, -5); k = 5/4."
+   ],
+   "options": {
+    "A": "X′(7.5,-1.25), Y′(-7.5,5), Z′(-2.5,-6.25)",
+    "B": "X′(2.5,-1.25), Y′(-7.5,5), Z′(-2.5,-6.25)",
+    "C": "X′(4.5,-1.25), Y′(-7.5,5), Z′(-2.5,-6.25)",
+    "D": "X′(0.5,-1.25), Y′(-7.5,5), Z′(-2.5,-6.25)"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Graph the image after a dilation centered at the origin. Select the image coordinates.",
+   "math_lines": [
+    "X(2, -1), Y(-6, 4), Z(-2, -5); k = 5/4."
+   ]
+  },
+  {
+   "number": 53,
+   "page": 25,
+   "topic": "Dilations",
+   "lo": "LO09",
+   "stem_lines": [
+    "Graph the image after a dilation centered at the origin. Select the image",
+    "coordinates.",
+    "M(4, 6), N(-6, 2), P(0, -8); k = 3/4."
+   ],
+   "options": {
+    "A": "M′(3,4.5), N′(-4.5,1.5), P′(0,-6)",
+    "B": "M′(5,4.5), N′(-4.5,1.5), P′(0,-6)",
+    "C": "M′(1,4.5), N′(-4.5,1.5), P′(0,-6)",
+    "D": "M′(8,4.5), N′(-4.5,1.5), P′(0,-6)"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Graph the image after a dilation centered at the origin. Select the image coordinates.",
+   "math_lines": [
+    "M(4, 6), N(-6, 2), P(0, -8); k = 3/4."
+   ]
+  },
+  {
+   "number": 54,
+   "page": 26,
+   "topic": "Dilations",
+   "lo": "LO09",
+   "stem_lines": [
+    "Graph the image after a dilation centered at the origin. Select the image",
+    "coordinates.",
+    "R(-2, 6), S(0, -1), T(-5, 3); k = 1.5."
+   ],
+   "options": {
+    "A": "R′(-1,9), S′(0,-1.5), T′(-7.5,4.5)",
+    "B": "R′(-5,9), S′(0,-1.5), T′(-7.5,4.5)",
+    "C": "R′(2,9), S′(0,-1.5), T′(-7.5,4.5)",
+    "D": "R′(-3,9), S′(0,-1.5), T′(-7.5,4.5)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Graph the image after a dilation centered at the origin. Select the image coordinates.",
+   "math_lines": [
+    "R(-2, 6), S(0, -1), T(-5, 3); k = 1.5."
+   ]
+  },
+  {
+   "number": 55,
+   "page": 26,
+   "topic": "Dilations",
+   "lo": "LO09",
+   "stem_lines": [
+    "△ABC has vertices A(2, 2), B(3, 4), and C(5, 2). What are the coordinates of",
+    "point C of the image of the triangle after a dilation centered at the origin with a",
+    "scale factor of 2.5?"
+   ],
+   "options": {
+    "A": "C′(14.5,5)",
+    "B": "C′(10.5,5)",
+    "C": "C′(17.5,5)",
+    "D": "C′(12.5,5)"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "△ABC has vertices A(2, 2), B(3, 4), and C(5, 2). What are the coordinates of point C of the image of the triangle after a dilation centered at the origin with a scale factor of 2.5?",
+   "math_lines": []
+  },
+  {
+   "number": 56,
+   "page": 27,
+   "topic": "Similar Polygons",
+   "lo": "LO10",
+   "stem_lines": [
+    "The polygons are similar. Find x."
+   ],
+   "options": {
+    "A": "5",
+    "B": "1",
+    "C": "8",
+    "D": "3"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev056_1.png",
+     "page": 27,
+     "width": 357,
+     "height": 104
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The polygons are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 57,
+   "page": 27,
+   "topic": "Similar Polygons",
+   "lo": "LO10",
+   "stem_lines": [
+    "The polygons are similar. Find x."
+   ],
+   "options": {
+    "A": "0",
+    "B": "7",
+    "C": "2",
+    "D": "4"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev057_1.png",
+     "page": 27,
+     "width": 380,
+     "height": 104
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The polygons are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 58,
+   "page": 28,
+   "topic": "Similar Polygons",
+   "lo": "LO10",
+   "stem_lines": [
+    "The polygons are similar. Find x."
+   ],
+   "options": {
+    "A": "10",
+    "B": "5",
+    "C": "7",
+    "D": "3"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev058_1.png",
+     "page": 28,
+     "width": 357,
+     "height": 134
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The polygons are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 59,
+   "page": 28,
+   "topic": "Similar Polygons",
+   "lo": "LO10",
+   "stem_lines": [
+    "The polygons are similar. Find x."
+   ],
+   "options": {
+    "A": "7",
+    "B": "9",
+    "C": "5",
+    "D": "12"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev059_1.png",
+     "page": 28,
+     "width": 380,
+     "height": 134
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The polygons are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 60,
+   "page": 29,
+   "topic": "Scale Factors",
+   "lo": "LO11",
+   "stem_lines": [
+    "Find the scale factor of the dilation."
+   ],
+   "options": {
+    "A": "4",
+    "B": "0",
+    "C": "7",
+    "D": "2"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev060_1.png",
+     "page": 29,
+     "width": 317,
+     "height": 196
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the scale factor of the dilation.",
+   "math_lines": []
+  },
+  {
+   "number": 61,
+   "page": 30,
+   "topic": "Scale Factors",
+   "lo": "LO11",
+   "stem_lines": [
+    "Find the scale factor of the dilation."
+   ],
+   "options": {
+    "A": "-0.5",
+    "B": "6.5",
+    "C": "1.5",
+    "D": "3.5"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev061_1.png",
+     "page": 30,
+     "width": 425,
+     "height": 196
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the scale factor of the dilation.",
+   "math_lines": []
+  },
+  {
+   "number": 62,
+   "page": 30,
+   "topic": "Scale Factors",
+   "lo": "LO11",
+   "stem_lines": [
+    "Find the scale factor of the dilation."
+   ],
+   "options": {
+    "A": "7.5",
+    "B": "2.5",
+    "C": "4.5",
+    "D": "0.5"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev062_1.png",
+     "page": 30,
+     "width": 747,
+     "height": 199
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the scale factor of the dilation.",
+   "math_lines": []
+  },
+  {
+   "number": 63,
+   "page": 31,
+   "topic": "Scale Factors",
+   "lo": "LO11",
+   "stem_lines": [
+    "Find the scale factor of the dilation."
+   ],
+   "options": {
+    "A": "⅔",
+    "B": "⅓",
+    "C": "3/2",
+    "D": "2"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev063_1.png",
+     "page": 31,
+     "width": 317,
+     "height": 166
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the scale factor of the dilation.",
+   "math_lines": []
+  },
+  {
+   "number": 64,
+   "page": 31,
+   "topic": "Scale Factors",
+   "lo": "LO11",
+   "stem_lines": [
+    "Find the scale factor of the dilation."
+   ],
+   "options": {
+    "A": "3.5",
+    "B": "-0.5",
+    "C": "6.5",
+    "D": "1.5"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev064_1.png",
+     "page": 31,
+     "width": 425,
+     "height": 166
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the scale factor of the dilation.",
+   "math_lines": []
+  },
+  {
+   "number": 65,
+   "page": 32,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "No; the vertical angles at H are unequal.",
+    "B": "Yes; one equal angle pair alone is sufficient.",
+    "C": "No; the triangles must share a side.",
+    "D": "Yes; two angle pairs match, including the vertical angles at H."
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev065_1.png",
+     "page": 32,
+     "width": 295,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 66,
+   "page": 32,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "No; the triangles have different angle sets.",
+    "B": "Yes; the third angle of each triangle is 40°.",
+    "C": "Yes; the third angle of each triangle is 42°.",
+    "D": "No; 98° and 40° leave a third angle of 52°."
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev066_1.png",
+     "page": 32,
+     "width": 375,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 67,
+   "page": 33,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; the unmarked sides are necessarily proportional.",
+    "B": "Similarity cannot be concluded from the given information.",
+    "C": "Yes; one pair of vertical angles alone proves similarity.",
+    "D": "Yes; all triangles on intersecting lines are similar."
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev067_1.png",
+     "page": 33,
+     "width": 295,
+     "height": 180
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 68,
+   "page": 33,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; both triangles have angles 30°, 60°, 90°.",
+    "B": "No; their right angles have different measures.",
+    "C": "Yes; both triangles have angles 30°, 30°, 120°.",
+    "D": "No; a 60° angle cannot belong to a right triangle."
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev068_1.png",
+     "page": 33,
+     "width": 375,
+     "height": 180
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 69,
+   "page": 34,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "No; the third angle of the left triangle is 42°.",
+    "B": "No; only one angle pair matches.",
+    "C": "Yes; both triangles have angles 87°, 41°, 62°.",
+    "D": "Yes; both triangles have angles 87°, 41°, 52°."
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev069_1.png",
+     "page": 34,
+     "width": 295,
+     "height": 109
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 70,
+   "page": 34,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Are the triangles similar? Select the conclusion and reason."
+   ],
+   "options": {
+    "A": "Yes; both figures are triangles.",
+    "B": "Yes; any pair of scalene triangles is similar.",
+    "C": "No; the corresponding side lengths are not proportional.",
+    "D": "Yes; all three side ratios are ¾."
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev070_1.png",
+     "page": 34,
+     "width": 375,
+     "height": 109
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Are the triangles similar? Select the conclusion and reason.",
+   "math_lines": []
+  },
+  {
+   "number": 71,
+   "page": 35,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "A cell phone tower casts a shadow that is 100 feet long. At the same time, Lia",
+    "stands near the tower and casts a shadow that is 3 feet 4 inches long. If Lia is 4",
+    "feet 6 inches tall, how tall is the cell phone tower?"
+   ],
+   "options": {
+    "A": "140 ft",
+    "B": "135 ft",
+    "C": "137 ft",
+    "D": "133 ft"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "A cell phone tower casts a shadow that is 100 feet long. At the same time, Lia stands near the tower and casts a shadow that is 3 feet 4 inches long. If Lia is 4 feet 6 inches tall, how tall is the cell phone tower?",
+   "math_lines": []
+  },
+  {
+   "number": 72,
+   "page": 35,
+   "topic": "Similar Triangles",
+   "lo": "LO12",
+   "stem_lines": [
+    "Maya wants to know how far she is standing from a lighthouse. The end of",
+    "Maya's shadow coincides with the end of the lighthouse's shadow.",
+    "a. What is the distance from the lighthouse to the end of the lighthouse's",
+    "shadow, x?",
+    "b. What is the distance from Maya to the lighthouse, y?"
+   ],
+   "options": {
+    "A": "x=64 ft, y=56 ft",
+    "B": "x=66 ft, y=56 ft",
+    "C": "x=62 ft, y=56 ft",
+    "D": "x=69 ft, y=56 ft"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev072_1.png",
+     "page": 35,
+     "width": 225,
+     "height": 164
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Maya wants to know how far she is standing from a lighthouse. The end of Maya's shadow coincides with the end of the lighthouse's shadow.",
+   "math_lines": [
+    "a. What is the distance from the lighthouse to the end of the lighthouse's",
+    "shadow, x?",
+    "b. What is the distance from Maya to the lighthouse, y?"
+   ]
+  },
+  {
+   "number": 73,
+   "page": 36,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=6, y=6.5",
+    "B": "x=8, y=6.5",
+    "C": "x=4, y=6.5",
+    "D": "x=11, y=6.5"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev073_1.png",
+     "page": 36,
+     "width": 317,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 74,
+   "page": 36,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=4, y=4",
+    "B": "x=0, y=4",
+    "C": "x=7, y=4",
+    "D": "x=2, y=4"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev074_1.png",
+     "page": 36,
+     "width": 420,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 75,
+   "page": 37,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "JH is a midsegment of △KLM. Find x."
+   ],
+   "options": {
+    "A": "13",
+    "B": "20",
+    "C": "15",
+    "D": "17"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev075_1.png",
+     "page": 37,
+     "width": 227,
+     "height": 172
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "JH is a midsegment of △KLM. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 76,
+   "page": 37,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "JH is a midsegment of △KLM. Find x."
+   ],
+   "options": {
+    "A": "23",
+    "B": "18",
+    "C": "20",
+    "D": "16"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev076_1.png",
+     "page": 37,
+     "width": 230,
+     "height": 172
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "JH is a midsegment of △KLM. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 77,
+   "page": 38,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "JH is a midsegment of △KLM. Find x."
+   ],
+   "options": {
+    "A": "8",
+    "B": "4",
+    "C": "6",
+    "D": "16"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev077_1.png",
+     "page": 38,
+     "width": 275,
+     "height": 172
+    }
+   ],
+   "extra": [
+    "The marked half of LM is 8, so LM = 2 × 8 = 16. Since JH is a midsegment, x = JH =",
+    "½LM = ½ × 16 = 8."
+   ],
+   "part": "mcq",
+   "instruction": "JH is a midsegment of △KLM. Find x.",
+   "math_lines": [
+    "The marked half of LM is 8, so LM = 2 × 8 = 16. Since JH is a midsegment, x = JH =",
+    "½LM = ½ × 16 = 8."
+   ]
+  },
+  {
+   "number": 78,
+   "page": 38,
+   "topic": "Proportional Parts",
+   "lo": "LO13",
+   "stem_lines": [
+    "In △ABC, DE is parallel to AC and DE = 10. Find the length of AC if DE is a",
+    "midsegment of △ABC."
+   ],
+   "options": {
+    "A": "22",
+    "B": "18",
+    "C": "25",
+    "D": "20"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "In △ABC, DE is parallel to AC and DE = 10. Find the length of AC if DE is a midsegment of △ABC.",
+   "math_lines": []
+  },
+  {
+   "number": 79,
+   "page": 39,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "The triangles are similar. Find x."
+   ],
+   "options": {
+    "A": "21.5",
+    "B": "16.5",
+    "C": "18.5",
+    "D": "14.5"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev079_1.png",
+     "page": 39,
+     "width": 205,
+     "height": 129
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The triangles are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 80,
+   "page": 39,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "The triangles are similar. Find x."
+   ],
+   "options": {
+    "A": "22",
+    "B": "24",
+    "C": "20",
+    "D": "27"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev080_1.png",
+     "page": 39,
+     "width": 150,
+     "height": 148
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The triangles are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 81,
+   "page": 40,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "The triangles are similar. Find x."
+   ],
+   "options": {
+    "A": "13",
+    "B": "9",
+    "C": "16",
+    "D": "11"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev081_1.png",
+     "page": 40,
+     "width": 187,
+     "height": 139
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The triangles are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 82,
+   "page": 40,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "The triangles are similar. Find x."
+   ],
+   "options": {
+    "A": "118/7",
+    "B": "125/7",
+    "C": "120/7",
+    "D": "122/7"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev082_1.png",
+     "page": 40,
+     "width": 170,
+     "height": 131
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The triangles are similar. Find x.",
+   "math_lines": []
+  },
+  {
+   "number": 83,
+   "page": 41,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "If △RST ∼ △EFG, SH is an altitude of △RST, FJ is an altitude of △EFG, ST = 6, SH",
+    "= 5, and FJ = 7, find FG."
+   ],
+   "options": {
+    "A": "13.4",
+    "B": "8.4",
+    "C": "10.4",
+    "D": "6.4"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev083_1.png",
+     "page": 41,
+     "width": 300,
+     "height": 99
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "If △RST ∼ △EFG, SH is an altitude of △RST, FJ is an altitude of △EFG, ST = 6, SH = 5, and FJ = 7, find FG.",
+   "math_lines": []
+  },
+  {
+   "number": 84,
+   "page": 41,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "If △ABC ∼ △MNP, AD is an altitude of △ABC, MQ is an altitude of △MNP, AB =",
+    "24, AD = 14, and MQ = 10.5, find MN."
+   ],
+   "options": {
+    "A": "18",
+    "B": "20",
+    "C": "16",
+    "D": "23"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev084_1.png",
+     "page": 41,
+     "width": 320,
+     "height": 99
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "If △ABC ∼ △MNP, AD is an altitude of △ABC, MQ is an altitude of △MNP, AB = 24, AD = 14, and MQ = 10.5, find MN.",
+   "math_lines": []
+  },
+  {
+   "number": 85,
+   "page": 42,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "The intersection of the two paths shown forms two similar triangles. If AC is 50",
+    "yards, MP is 35 yards, and the fountain is 5 yards from the intersection, about",
+    "how far from the intersection is the stadium entrance? Round to the nearest",
+    "yard."
+   ],
+   "options": {
+    "A": "9 yd",
+    "B": "5 yd",
+    "C": "12 yd",
+    "D": "7 yd"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev085_1.png",
+     "page": 42,
+     "width": 207,
+     "height": 151
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "The intersection of the two paths shown forms two similar triangles. If AC is 50 yards, MP is 35 yards, and the fountain is 5 yards from the intersection, about how far from the intersection is the stadium entrance? Round to the nearest yard.",
+   "math_lines": []
+  },
+  {
+   "number": 86,
+   "page": 42,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "Find the variable to the nearest tenth."
+   ],
+   "options": {
+    "A": "15.3",
+    "B": "22.3",
+    "C": "17.3",
+    "D": "19.3"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev086_1.png",
+     "page": 42,
+     "width": 320,
+     "height": 127
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the variable to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 87,
+   "page": 43,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "Find the variable to the nearest tenth."
+   ],
+   "options": {
+    "A": "13.4",
+    "B": "8.4",
+    "C": "10.4",
+    "D": "6.4"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev087_1.png",
+     "page": 43,
+     "width": 385,
+     "height": 127
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the variable to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 88,
+   "page": 43,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "△ABC ∼ △DEF. Find XC to the nearest tenth."
+   ],
+   "options": {
+    "A": "5.1 cm",
+    "B": "7.1 cm",
+    "C": "3.1 cm",
+    "D": "10.1 cm"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev088_1.png",
+     "page": 43,
+     "width": 335,
+     "height": 120
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "△ABC ∼ △DEF. Find XC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 89,
+   "page": 44,
+   "topic": "Similar Triangle Relationships",
+   "lo": "LO14",
+   "stem_lines": [
+    "△ABC ∼ △DEF. Find EY to the nearest tenth."
+   ],
+   "options": {
+    "A": "7.3 cm",
+    "B": "3.3 cm",
+    "C": "10.3 cm",
+    "D": "5.3 cm"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev089_1.png",
+     "page": 44,
+     "width": 335,
+     "height": 120
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "△ABC ∼ △DEF. Find EY to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 90,
+   "page": 45,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "4 and 6"
+   ],
+   "options": {
+    "A": "2√6",
+    "B": "4√6",
+    "C": "0√6",
+    "D": "7√6"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "4 and 6"
+   ]
+  },
+  {
+   "number": 91,
+   "page": 45,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "½ and 2"
+   ],
+   "options": {
+    "A": "3",
+    "B": "-1",
+    "C": "6",
+    "D": "1"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "½ and 2"
+   ]
+  },
+  {
+   "number": 92,
+   "page": 45,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "4 and 25"
+   ],
+   "options": {
+    "A": "8",
+    "B": "15",
+    "C": "10",
+    "D": "12"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "4 and 25"
+   ]
+  },
+  {
+   "number": 93,
+   "page": 46,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "12 and 20"
+   ],
+   "options": {
+    "A": "9√15",
+    "B": "4√15",
+    "C": "6√15",
+    "D": "2√15"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "12 and 20"
+   ]
+  },
+  {
+   "number": 94,
+   "page": 46,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "17 and 3"
+   ],
+   "options": {
+    "A": "√51",
+    "B": "√53",
+    "C": "√49",
+    "D": "√56"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "17 and 3"
+   ]
+  },
+  {
+   "number": 95,
+   "page": 46,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find the geometric mean between the numbers.",
+    "3 and 24"
+   ],
+   "options": {
+    "A": "8√2",
+    "B": "4√2",
+    "C": "11√2",
+    "D": "6√2"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the geometric mean between the numbers.",
+   "math_lines": [
+    "3 and 24"
+   ]
+  },
+  {
+   "number": 96,
+   "page": 47,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find x, y, and z."
+   ],
+   "options": {
+    "A": "x=0√46, y=2√62, z=√713",
+    "B": "x=7√46, y=2√62, z=√713",
+    "C": "x=2√46, y=2√62, z=√713",
+    "D": "x=4√46, y=2√62, z=√713"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev096_1.png",
+     "page": 47,
+     "width": 300,
+     "height": 118
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x, y, and z.",
+   "math_lines": []
+  },
+  {
+   "number": 97,
+   "page": 47,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find x, y, and z."
+   ],
+   "options": {
+    "A": "x=√119, y=5√6, z=5√19",
+    "B": "x=√114, y=5√6, z=5√19",
+    "C": "x=√116, y=5√6, z=5√19",
+    "D": "x=√112, y=5√6, z=5√19"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev097_1.png",
+     "page": 47,
+     "width": 345,
+     "height": 118
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x, y, and z.",
+   "math_lines": []
+  },
+  {
+   "number": 98,
+   "page": 48,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find x, y, and z."
+   ],
+   "options": {
+    "A": "x=4.5, y=√13, z=6.5",
+    "B": "x=6.5, y=√13, z=6.5",
+    "C": "x=2.5, y=√13, z=6.5",
+    "D": "x=9.5, y=√13, z=6.5"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev098_1.png",
+     "page": 48,
+     "width": 300,
+     "height": 163
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x, y, and z.",
+   "math_lines": []
+  },
+  {
+   "number": 99,
+   "page": 48,
+   "topic": "Geometric Mean",
+   "lo": "LO15",
+   "stem_lines": [
+    "Find x, y, and z."
+   ],
+   "options": {
+    "A": "x=17, y=5, z=10√3",
+    "B": "x=13, y=5, z=10√3",
+    "C": "x=20, y=5, z=10√3",
+    "D": "x=15, y=5, z=10√3"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev099_1.png",
+     "page": 48,
+     "width": 345,
+     "height": 163
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x, y, and z.",
+   "math_lines": []
+  },
+  {
+   "number": 100,
+   "page": 49,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "20",
+    "B": "15",
+    "C": "17",
+    "D": "13"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev100_1.png",
+     "page": 49,
+     "width": 235,
+     "height": 132
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 101,
+   "page": 49,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "51",
+    "B": "53",
+    "C": "49",
+    "D": "56"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev101_1.png",
+     "page": 49,
+     "width": 210,
+     "height": 132
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 102,
+   "page": 50,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "102",
+    "B": "98",
+    "C": "105",
+    "D": "100"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev102_1.png",
+     "page": 50,
+     "width": 260,
+     "height": 132
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 103,
+   "page": 50,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "11",
+    "B": "18",
+    "C": "13",
+    "D": "15"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev103_1.png",
+     "page": 50,
+     "width": 235,
+     "height": 117
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 104,
+   "page": 51,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "11",
+    "B": "6",
+    "C": "8",
+    "D": "4"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev104_1.png",
+     "page": 51,
+     "width": 210,
+     "height": 144
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 105,
+   "page": 51,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Use a Pythagorean triple to find x."
+   ],
+   "options": {
+    "A": "16",
+    "B": "18",
+    "C": "14",
+    "D": "21"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev105_1.png",
+     "page": 51,
+     "width": 260,
+     "height": 183
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Use a Pythagorean triple to find x.",
+   "math_lines": []
+  },
+  {
+   "number": 106,
+   "page": 52,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Can these be the side lengths of a triangle? If so, classify it.",
+    "√5, √12, √13"
+   ],
+   "options": {
+    "A": "Acute triangle",
+    "B": "Right triangle",
+    "C": "Obtuse triangle",
+    "D": "Not a triangle"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Can these be the side lengths of a triangle? If so, classify it.",
+   "math_lines": [
+    "√5, √12, √13"
+   ]
+  },
+  {
+   "number": 107,
+   "page": 52,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Can these be the side lengths of a triangle? If so, classify it.",
+    "2, √8, √12"
+   ],
+   "options": {
+    "A": "Acute triangle",
+    "B": "Obtuse triangle",
+    "C": "Not a triangle",
+    "D": "Right triangle"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Can these be the side lengths of a triangle? If so, classify it.",
+   "math_lines": [
+    "2, √8, √12"
+   ]
+  },
+  {
+   "number": 108,
+   "page": 52,
+   "topic": "Pythagorean Theorem",
+   "lo": "LO16",
+   "stem_lines": [
+    "Can these be the side lengths of a triangle? If so, classify it.",
+    "9, 40, 41"
+   ],
+   "options": {
+    "A": "Obtuse triangle",
+    "B": "Not a triangle",
+    "C": "Right triangle",
+    "D": "Acute triangle"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Can these be the side lengths of a triangle? If so, classify it.",
+   "math_lines": [
+    "9, 40, 41"
+   ]
+  },
+  {
+   "number": 109,
+   "page": 53,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=8, y=16",
+    "B": "x=10, y=16",
+    "C": "x=6, y=16",
+    "D": "x=13, y=16"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev109_1.png",
+     "page": 53,
+     "width": 222,
+     "height": 190
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 110,
+   "page": 54,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=12, y=20",
+    "B": "x=8, y=20",
+    "C": "x=15, y=20",
+    "D": "x=10, y=20"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev110_1.png",
+     "page": 54,
+     "width": 230,
+     "height": 190
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 111,
+   "page": 55,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=13√3/2, y=15/2",
+    "B": "x=20√3/2, y=15/2",
+    "C": "x=15√3/2, y=15/2",
+    "D": "x=17√3/2, y=15/2"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev111_1.png",
+     "page": 55,
+     "width": 275,
+     "height": 190
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 112,
+   "page": 55,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=22√3/2, y=17/2",
+    "B": "x=17√3/2, y=17/2",
+    "C": "x=19√3/2, y=17/2",
+    "D": "x=15√3/2, y=17/2"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev112_1.png",
+     "page": 55,
+     "width": 222,
+     "height": 115
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 113,
+   "page": 56,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=24√3, y=48",
+    "B": "x=26√3, y=48",
+    "C": "x=22√3, y=48",
+    "D": "x=29√3, y=48"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev113_1.png",
+     "page": 56,
+     "width": 230,
+     "height": 115
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 114,
+   "page": 56,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=16√3/3, y=28√3/3",
+    "B": "x=12√3/3, y=28√3/3",
+    "C": "x=19√3/3, y=28√3/3",
+    "D": "x=14√3/3, y=28√3/3"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev114_1.png",
+     "page": 56,
+     "width": 275,
+     "height": 115
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 115,
+   "page": 57,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "A 40-foot-long escalator rises from the first floor to the second floor of a",
+    "shopping mall. The escalator makes a 30° angle with the horizontal. How high",
+    "above the first floor is the second floor?"
+   ],
+   "options": {
+    "A": "18 ft",
+    "B": "25 ft",
+    "C": "20 ft",
+    "D": "22 ft"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "A 40-foot-long escalator rises from the first floor to the second floor of a shopping mall. The escalator makes a 30° angle with the horizontal. How high above the first floor is the second floor?",
+   "math_lines": []
+  },
+  {
+   "number": 116,
+   "page": 57,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=11√2/2, y=45°",
+    "B": "x=18√2/2, y=45°",
+    "C": "x=13√2/2, y=45°",
+    "D": "x=15√2/2, y=45°"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev116_1.png",
+     "page": 57,
+     "width": 220,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 117,
+   "page": 58,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=8√2, y=6√2",
+    "B": "x=3√2, y=6√2",
+    "C": "x=5√2, y=6√2",
+    "D": "x=1√2, y=6√2"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev117_1.png",
+     "page": 58,
+     "width": 215,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 118,
+   "page": 58,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=3, y=1",
+    "B": "x=5, y=1",
+    "C": "x=1, y=1",
+    "D": "x=8, y=1"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev118_1.png",
+     "page": 58,
+     "width": 260,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 119,
+   "page": 59,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=7, y=10",
+    "B": "x=3, y=10",
+    "C": "x=10, y=10",
+    "D": "x=5, y=10"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev119_1.png",
+     "page": 59,
+     "width": 220,
+     "height": 151
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 120,
+   "page": 59,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=4√3, y=3",
+    "B": "x=11√3, y=3",
+    "C": "x=6√3, y=3",
+    "D": "x=8√3, y=3"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev120_1.png",
+     "page": 59,
+     "width": 215,
+     "height": 151
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 121,
+   "page": 60,
+   "topic": "Special Right Triangles",
+   "lo": "LO17",
+   "stem_lines": [
+    "Find x and y."
+   ],
+   "options": {
+    "A": "x=50°, y=12√2",
+    "B": "x=45°, y=12√2",
+    "C": "x=47°, y=12√2",
+    "D": "x=43°, y=12√2"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev121_1.png",
+     "page": 60,
+     "width": 260,
+     "height": 151
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find x and y.",
+   "math_lines": []
+  },
+  {
+   "number": 122,
+   "page": 61,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "GH=20.8, FH=17.6, ∠G=58°",
+    "B": "GH=22.8, FH=17.6, ∠G=58°",
+    "C": "GH=18.8, FH=17.6, ∠G=58°",
+    "D": "GH=25.8, FH=17.6, ∠G=58°"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev122_1.png",
+     "page": 61,
+     "width": 222,
+     "height": 164
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 123,
+   "page": 62,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "WX=17.1, XZ=9.8, ∠W=33°",
+    "B": "WX=13.1, XZ=9.8, ∠W=33°",
+    "C": "WX=20.1, XZ=9.8, ∠W=33°",
+    "D": "WX=15.1, XZ=9.8, ∠W=33°"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev123_1.png",
+     "page": 62,
+     "width": 230,
+     "height": 164
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 124,
+   "page": 63,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "KL=18.5, ∠J=69°, ∠K=21°",
+    "B": "KL=25.5, ∠J=69°, ∠K=21°",
+    "C": "KL=20.5, ∠J=69°, ∠K=21°",
+    "D": "KL=22.5, ∠J=69°, ∠K=21°"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev124_1.png",
+     "page": 63,
+     "width": 275,
+     "height": 164
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 125,
+   "page": 64,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "ST=10.9, RT=3.7, ∠R=58°",
+    "B": "ST=5.9, RT=3.7, ∠R=58°",
+    "C": "ST=7.9, RT=3.7, ∠R=58°",
+    "D": "ST=3.9, RT=3.7, ∠R=58°"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev125_1.png",
+     "page": 64,
+     "width": 222,
+     "height": 183
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 126,
+   "page": 65,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "AC=5.1, BC=10.9, ∠A=65°",
+    "B": "AC=7.1, BC=10.9, ∠A=65°",
+    "C": "AC=3.1, BC=10.9, ∠A=65°",
+    "D": "AC=10.1, BC=10.9, ∠A=65°"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev126_1.png",
+     "page": 65,
+     "width": 230,
+     "height": 183
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 127,
+   "page": 66,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Solve the right triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree."
+   ],
+   "options": {
+    "A": "QM=20, QN=25.5, ∠N=45°",
+    "B": "QM=16, QN=25.5, ∠N=45°",
+    "C": "QM=23, QN=25.5, ∠N=45°",
+    "D": "QM=18.0, QN=25.5, ∠N=45°"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev127_1.png",
+     "page": 66,
+     "width": 275,
+     "height": 183
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Solve the right triangle. Round sides to the nearest tenth and angles to the nearest degree.",
+   "math_lines": []
+  },
+  {
+   "number": 128,
+   "page": 66,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Find the perimeter and area. Round to the nearest hundredth."
+   ],
+   "options": {
+    "A": "P=13.84 in.; A=7.51 in.²",
+    "B": "P=15.84 in.; A=7.51 in.²",
+    "C": "P=11.84 in.; A=7.51 in.²",
+    "D": "P=18.84 in.; A=7.51 in.²"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev128_1.png",
+     "page": 66,
+     "width": 245,
+     "height": 114
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the perimeter and area. Round to the nearest hundredth.",
+   "math_lines": []
+  },
+  {
+   "number": 129,
+   "page": 67,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Find the perimeter and area. Round to the nearest hundredth."
+   ],
+   "options": {
+    "A": "P=30.52 cm; A=23.39 cm²",
+    "B": "P=26.52 cm; A=23.39 cm²",
+    "C": "P=33.52 cm; A=23.39 cm²",
+    "D": "P=28.52 cm; A=23.39 cm²"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev129_1.png",
+     "page": 67,
+     "width": 215,
+     "height": 114
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the perimeter and area. Round to the nearest hundredth.",
+   "math_lines": []
+  },
+  {
+   "number": 130,
+   "page": 67,
+   "topic": "Trigonometry",
+   "lo": "LO18",
+   "stem_lines": [
+    "Find the perimeter and area. Round to the nearest hundredth."
+   ],
+   "options": {
+    "A": "P=6.44 ft; A=3.05 ft²",
+    "B": "P=13.44 ft; A=3.05 ft²",
+    "C": "P=8.44 ft; A=3.05 ft²",
+    "D": "P=10.44 ft; A=3.05 ft²"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev130_1.png",
+     "page": 67,
+     "width": 255,
+     "height": 114
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the perimeter and area. Round to the nearest hundredth.",
+   "math_lines": []
+  },
+  {
+   "number": 131,
+   "page": 68,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "Sailors on a ship at sea spot the light from a lighthouse at an angle of elevation",
+    "of 25°. The light of the lighthouse is 30 meters above sea level. How far from",
+    "the shore is the ship? Round your answer to the nearest meter."
+   ],
+   "options": {
+    "A": "64 m",
+    "B": "66 m",
+    "C": "62 m",
+    "D": "69 m"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Sailors on a ship at sea spot the light from a lighthouse at an angle of elevation of 25°. The light of the lighthouse is 30 meters above sea level. How far from the shore is the ship? Round your answer to the nearest meter.",
+   "math_lines": []
+  },
+  {
+   "number": 132,
+   "page": 68,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "A student can see a water tower from the edge of a soccer field at San Lobos",
+    "High School. The edge of the field is about 110 feet from the water tower, and",
+    "the water tower stands at a height of 32.5 feet. What is the angle of elevation if",
+    "the eye level of the student viewing the tower is 6 feet above the ground?",
+    "Round your answer to the nearest tenth."
+   ],
+   "options": {
+    "A": "15.5°",
+    "B": "11.5°",
+    "C": "18.5°",
+    "D": "13.5°"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "A student can see a water tower from the edge of a soccer field at San Lobos High School. The edge of the field is about 110 feet from the water tower, and the water tower stands at a height of 32.5 feet. What is the angle of elevation if the eye level of the student viewing the tower is 6 feet above the ground?",
+   "math_lines": [
+    "Round your answer to the nearest tenth."
+   ]
+  },
+  {
+   "number": 133,
+   "page": 69,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "A roofer props a ladder against a wall so the top of the ladder just reaches a",
+    "30-foot roof that needs repair. If the angle of elevation from the bottom of the",
+    "ladder to the roof is 55°, how far is the ladder from the base of the wall? Round",
+    "your answer to the nearest foot."
+   ],
+   "options": {
+    "A": "19 ft",
+    "B": "26 ft",
+    "C": "21 ft",
+    "D": "23 ft"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "A roofer props a ladder against a wall so the top of the ladder just reaches a 30-foot roof that needs repair. If the angle of elevation from the bottom of the ladder to the roof is 55°, how far is the ladder from the base of the wall? Round your answer to the nearest foot.",
+   "math_lines": []
+  },
+  {
+   "number": 134,
+   "page": 69,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "On a mountain bike trip along the Gemini Bridges Trail in Moab, Utah, Nabuko",
+    "stopped on the canyon floor to get a good view of the twin sandstone bridges.",
+    "Nabuko is standing about 60 meters from the base of the canyon cliff, and the",
+    "natural arch bridges are about 100 meters up the canyon wall. If her line of",
+    "sight is 5 meters above the ground, what is the angle of elevation to the top of",
+    "the bridges? Round your answer to the nearest tenth of a degree."
+   ],
+   "options": {
+    "A": "62.7°",
+    "B": "57.7°",
+    "C": "59.7°",
+    "D": "55.7°"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "On a mountain bike trip along the Gemini Bridges Trail in Moab, Utah, Nabuko stopped on the canyon floor to get a good view of the twin sandstone bridges.",
+   "math_lines": [
+    "Nabuko is standing about 60 meters from the base of the canyon cliff, and the",
+    "natural arch bridges are about 100 meters up the canyon wall. If her line of",
+    "sight is 5 meters above the ground, what is the angle of elevation to the top of",
+    "the bridges? Round your answer to the nearest tenth of a degree."
+   ]
+  },
+  {
+   "number": 135,
+   "page": 70,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "Lucia is 5.5 feet tall. She is standing on the roof of a building that is 80 feet tall.",
+    "She spots a fountain at ground level that she knows to be 122 feet away from",
+    "the base of the building. What is the measure of the angle of depression",
+    "formed by Lucia’s horizontal line of sight and her line of sight to the fountain?",
+    "Round your answer to the nearest degree."
+   ],
+   "options": {
+    "A": "35°",
+    "B": "37°",
+    "C": "33°",
+    "D": "40°"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Lucia is 5.5 feet tall. She is standing on the roof of a building that is 80 feet tall.",
+   "math_lines": [
+    "She spots a fountain at ground level that she knows to be 122 feet away from",
+    "the base of the building. What is the measure of the angle of depression",
+    "formed by Lucia’s horizontal line of sight and her line of sight to the fountain?",
+    "Round your answer to the nearest degree."
+   ]
+  },
+  {
+   "number": 136,
+   "page": 70,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "From the top of the 120-foot-high tower, an air traffic controller observes an",
+    "airplane on the runway at an angle of depression of 19°. How far from the base",
+    "of the tower is the airplane? Round to the nearest tenth of a foot."
+   ],
+   "options": {
+    "A": "350.5 ft",
+    "B": "346.5 ft",
+    "C": "353.5 ft",
+    "D": "348.5 ft"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "From the top of the 120-foot-high tower, an air traffic controller observes an airplane on the runway at an angle of depression of 19°. How far from the base of the tower is the airplane? Round to the nearest tenth of a foot.",
+   "math_lines": []
+  },
+  {
+   "number": 137,
+   "page": 71,
+   "topic": "Applying Trigonometry",
+   "lo": "LO19",
+   "stem_lines": [
+    "Due to a storm, a pilot flying at an altitude of 528 feet has to land. If he has a",
+    "horizontal distance of 2000 feet until he reaches the landing strip, what angle",
+    "of depression should he use to land? Round to the nearest tenth of a degree."
+   ],
+   "options": {
+    "A": "12.8°",
+    "B": "19.8°",
+    "C": "14.8°",
+    "D": "16.8°"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Due to a storm, a pilot flying at an altitude of 528 feet has to land. If he has a horizontal distance of 2000 feet until he reaches the landing strip, what angle of depression should he use to land? Round to the nearest tenth of a degree.",
+   "math_lines": []
+  },
+  {
+   "number": 138,
+   "page": 72,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "64.3 units²",
+    "B": "60.3 units²",
+    "C": "67.3 units²",
+    "D": "62.3 units²"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev138_1.png",
+     "page": 72,
+     "width": 237,
+     "height": 150
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 139,
+   "page": 72,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "39.8 units²",
+    "B": "46.8 units²",
+    "C": "41.8 units²",
+    "D": "43.8 units²"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev139_1.png",
+     "page": 72,
+     "width": 225,
+     "height": 150
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 140,
+   "page": 73,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "76.5 units²",
+    "B": "71.5 units²",
+    "C": "73.5 units²",
+    "D": "69.5 units²"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev140_1.png",
+     "page": 73,
+     "width": 210,
+     "height": 150
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 141,
+   "page": 73,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "19.0 cm²",
+    "B": "21 cm²",
+    "C": "17 cm²",
+    "D": "24 cm²"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev141_1.png",
+     "page": 73,
+     "width": 237,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 142,
+   "page": 74,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "12 ft²",
+    "B": "8 ft²",
+    "C": "15 ft²",
+    "D": "10.0 ft²"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev142_1.png",
+     "page": 74,
+     "width": 225,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 143,
+   "page": 74,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "33.6 yd²",
+    "B": "40.6 yd²",
+    "C": "35.6 yd²",
+    "D": "37.6 yd²"
+   },
+   "key": "C",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev143_1.png",
+     "page": 74,
+     "width": 210,
+     "height": 146
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 144,
+   "page": 75,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "37.9 cm²",
+    "B": "32.9 cm²",
+    "C": "34.9 cm²",
+    "D": "30.9 cm²"
+   },
+   "key": "B",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev144_1.png",
+     "page": 75,
+     "width": 225,
+     "height": 141
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 145,
+   "page": 75,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "29.0 m²",
+    "B": "31 m²",
+    "C": "27 m²",
+    "D": "34 m²"
+   },
+   "key": "A",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev145_1.png",
+     "page": 75,
+     "width": 210,
+     "height": 141
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 146,
+   "page": 76,
+   "topic": "Triangle Area",
+   "lo": "LO20",
+   "stem_lines": [
+    "Find the area of △ABC to the nearest tenth."
+   ],
+   "options": {
+    "A": "108.4 ft²",
+    "B": "104.4 ft²",
+    "C": "111.4 ft²",
+    "D": "106.4 ft²"
+   },
+   "key": "D",
+   "solution": [],
+   "figures": [
+    {
+     "file": "rev146_1.png",
+     "page": 76,
+     "width": 255,
+     "height": 141
+    }
+   ],
+   "extra": [],
+   "part": "mcq",
+   "instruction": "Find the area of △ABC to the nearest tenth.",
+   "math_lines": []
+  },
+  {
+   "number": 147,
+   "page": 77,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "8x² - 72p²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "8x² - 72p² = 8(x² - 9p²)",
+    "Use a² - b² = (a - b)(a + b).",
+    "8(x - 3p)(x + 3p)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "8x² - 72p²"
+   ]
+  },
+  {
+   "number": 148,
+   "page": 77,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "20q² - 5r²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "20q² - 5r² = 5(4q² - r²)",
+    "Use the difference of two squares.",
+    "5(2q - r)(2q + r)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "20q² - 5r²"
+   ]
+  },
+  {
+   "number": 149,
+   "page": 77,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "32a² - 50b²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "32a² - 50b² = 2(16a² - 25b²)",
+    "Use the difference of two squares.",
+    "2(4a - 5b)(4a + 5b)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "32a² - 50b²"
+   ]
+  },
+  {
+   "number": 150,
+   "page": 78,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "16b² - 100"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "16b² - 100 = 4(4b² - 25)",
+    "Use the difference of two squares.",
+    "4(2b - 5)(2b + 5)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "16b² - 100"
+   ]
+  },
+  {
+   "number": 151,
+   "page": 78,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "49x² - 64y²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "49x² - 64y² = (7x)² - (8y)²",
+    "(7x - 8y)(7x + 8y)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "49x² - 64y²"
+   ]
+  },
+  {
+   "number": 152,
+   "page": 78,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "3n⁴ - 42n³ + 147n²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "3n⁴ - 42n³ + 147n² = 3n²(n² - 14n + 49)",
+    "n² - 14n + 49 = n² - 2(n)(7) + 7²",
+    "3n²(n - 7)²"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "3n⁴ - 42n³ + 147n²"
+   ]
+  },
+  {
+   "number": 153,
+   "page": 79,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Factor completely, if possible. If it cannot be factored using integers, write",
+    "prime.",
+    "8m³ - 24m² + 18m"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "8m³ - 24m² + 18m = 2m(4m² - 12m + 9)",
+    "4m² - 12m + 9 = (2m)² - 2(2m)(3) + 3²",
+    "2m(2m - 3)²"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Factor completely, if possible. If it cannot be factored using integers, write prime.",
+   "math_lines": [
+    "8m³ - 24m² + 18m"
+   ]
+  },
+  {
+   "number": 154,
+   "page": 79,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "9z² - 6z + 1"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "9z² = (3z)² and 1 = 1².",
+    "The middle term is -2(3z)(1) = -6z.",
+    "Yes; (3z - 1)²."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "9z² - 6z + 1"
+   ]
+  },
+  {
+   "number": 155,
+   "page": 79,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "36x² - 60x + 25"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "36x² = (6x)² and 25 = 5².",
+    "The middle term is -2(6x)(5) = -60x.",
+    "Yes; (6x - 5)²."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "36x² - 60x + 25"
+   ]
+  },
+  {
+   "number": 156,
+   "page": 80,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "49r² + 14r + 4"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "The first and last terms are (7r)² and 2².",
+    "A perfect square would have middle term ±2(7r)(2) = ±28r, not 14r.",
+    "No; it is not a perfect square trinomial."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "49r² + 14r + 4"
+   ]
+  },
+  {
+   "number": 157,
+   "page": 80,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "a² + 14a + 49"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "a² + 14a + 49 = a² + 2(a)(7) + 7²",
+    "Yes; (a + 7)²."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "a² + 14a + 49"
+   ]
+  },
+  {
+   "number": 158,
+   "page": 80,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "t² - 18t + 81"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "t² - 18t + 81 = t² - 2(t)(9) + 9²",
+    "Yes; (t - 9)²."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "t² - 18t + 81"
+   ]
+  },
+  {
+   "number": 159,
+   "page": 80,
+   "topic": "Factoring Special Products",
+   "lo": "LO21",
+   "stem_lines": [
+    "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+    "4c² + 2cd + d²"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "The first and last terms are (2c)² and d².",
+    "The required middle term is 2(2c)(d) = 4cd, not 2cd.",
+    "No; it is not a perfect square trinomial."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Is this a perfect square trinomial? Write yes or no. If yes, factor it.",
+   "math_lines": [
+    "4c² + 2cd + d²"
+   ]
+  },
+  {
+   "number": 160,
+   "page": 81,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "144°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 144° = 36°.",
+    "n = 360° / 36° = 10 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "144°"
+   ]
+  },
+  {
+   "number": 161,
+   "page": 81,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "156°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 156° = 24°.",
+    "n = 360° / 24° = 15 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "156°"
+   ]
+  },
+  {
+   "number": 162,
+   "page": 81,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "160°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 160° = 20°.",
+    "n = 360° / 20° = 18 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "160°"
+   ]
+  },
+  {
+   "number": 163,
+   "page": 82,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "108°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 108° = 72°.",
+    "n = 360° / 72° = 5 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "108°"
+   ]
+  },
+  {
+   "number": 164,
+   "page": 82,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "120°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 120° = 60°.",
+    "n = 360° / 60° = 6 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "120°"
+   ]
+  },
+  {
+   "number": 165,
+   "page": 82,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "The measure of an interior angle of a regular polygon is given. Find the number",
+    "of sides.",
+    "150°"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "For a regular n-sided polygon, each exterior angle is 180° - the interior angle.",
+    "Exterior angle = 180° - 150° = 30°.",
+    "n = 360° / 30° = 12 sides."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The measure of an interior angle of a regular polygon is given. Find the number of sides.",
+   "math_lines": [
+    "150°"
+   ]
+  },
+  {
+   "number": 166,
+   "page": 83,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "Find x in the diagram."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "The sum of the exterior angles is 360°.",
+    "x + 2x + (x + 10) + (x + 18) + 3x + (x - 1) = 360",
+    "9x + 27 = 360; 9x = 333",
+    "x = 37"
+   ],
+   "figures": [
+    {
+     "file": "rev166_1.png",
+     "page": 83,
+     "width": 352,
+     "height": 137
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find x in the diagram.",
+   "math_lines": []
+  },
+  {
+   "number": 167,
+   "page": 83,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "Find x in the diagram."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "(x - 11) + (x + 10) + 31 + (2x - 42) = 360",
+    "4x - 12 = 360; 4x = 372",
+    "x = 93"
+   ],
+   "figures": [
+    {
+     "file": "rev167_1.png",
+     "page": 83,
+     "width": 390,
+     "height": 137
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find x in the diagram.",
+   "math_lines": []
+  },
+  {
+   "number": 168,
+   "page": 84,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "Find x in the diagram."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "(3x + 2) + 2x + (2x + 1) + (x + 5) = 360",
+    "8x + 8 = 360; 8x = 352",
+    "x = 44"
+   ],
+   "figures": [
+    {
+     "file": "rev168_1.png",
+     "page": 84,
+     "width": 352,
+     "height": 166
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find x in the diagram.",
+   "math_lines": []
+  },
+  {
+   "number": 169,
+   "page": 84,
+   "topic": "Polygon Angles",
+   "lo": "LO22",
+   "stem_lines": [
+    "Find x in the diagram."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "(x - 20) + (x - 10) + 21 + 42 + 29 + (x + 14) + x = 360",
+    "4x + 76 = 360; 4x = 284",
+    "x = 71"
+   ],
+   "figures": [
+    {
+     "file": "rev169_1.png",
+     "page": 84,
+     "width": 390,
+     "height": 166
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find x in the diagram.",
+   "math_lines": []
+  },
+  {
+   "number": 170,
+   "page": 85,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "Identify the similar triangles. Then find x."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "△IHJ ∼ △LKJ by AA: both have a right angle, and their angles at J are vertical",
+    "angles.",
+    "IH / LK = HJ / KJ",
+    "8/4 = 10/x; 8x = 40",
+    "x = 5"
+   ],
+   "figures": [
+    {
+     "file": "rev170_1.png",
+     "page": 85,
+     "width": 295,
+     "height": 130
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Identify the similar triangles. Then find x.",
+   "math_lines": []
+  },
+  {
+   "number": 171,
+   "page": 85,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "Identify the similar triangles. Then find x."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "△ABE ∼ △DCE by AA: ∠A = ∠D = 25° and both angles at E are right angles.",
+    "AB / DC = AE / DE",
+    "12/18 = 8/x; 12x = 144",
+    "x = 12"
+   ],
+   "figures": [
+    {
+     "file": "rev171_1.png",
+     "page": 85,
+     "width": 375,
+     "height": 130
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Identify the similar triangles. Then find x.",
+   "math_lines": []
+  },
+  {
+   "number": 172,
+   "page": 86,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "Identify the similar triangles. Then find x."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "△UVW ∼ △RST by SAS: UV/RS = 4/9 and UW/RT = 3/6.75 = 4/9; the included",
+    "angles are right angles.",
+    "VW / ST = UV / RS",
+    "5/x = 4/9; 4x = 45",
+    "x = 11.25"
+   ],
+   "figures": [
+    {
+     "file": "rev172_1.png",
+     "page": 86,
+     "width": 295,
+     "height": 163
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Identify the similar triangles. Then find x.",
+   "math_lines": []
+  },
+  {
+   "number": 173,
+   "page": 86,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "Identify the similar triangles. Then find x."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "△MNL ∼ △KJL by AA: the marked angles at M and K match, and the angles at L",
+    "are vertical angles.",
+    "MN / KJ = ML / KL",
+    "4/x = 8/6; 8x = 24",
+    "x = 3"
+   ],
+   "figures": [
+    {
+     "file": "rev173_1.png",
+     "page": 86,
+     "width": 375,
+     "height": 163
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Identify the similar triangles. Then find x.",
+   "math_lines": []
+  },
+  {
+   "number": 174,
+   "page": 87,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "The skeleton of a roof is shown. Find x such that triangles DEF and FBC in the",
+    "outline of the roof are similar."
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "Use the given correspondence △DEF ∼ △FBC.",
+    "DE / FB = DF / FC",
+    "x/8 = 10/16; 16x = 80",
+    "x = 5 ft"
+   ],
+   "figures": [
+    {
+     "file": "rev174_1.png",
+     "page": 87,
+     "width": 295,
+     "height": 104
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The skeleton of a roof is shown. Find x such that triangles DEF and FBC in the outline of the roof are similar.",
+   "math_lines": []
+  },
+  {
+   "number": 175,
+   "page": 87,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "A radio tower casts an 8-foot-long shadow at the same time that a vertical",
+    "yardstick casts a shadow one half inch long. If the triangles formed by the",
+    "objects and their shadows are similar, how tall is the radio tower?"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "A yardstick is 3 feet tall. Convert its shadow to feet: ½ inch = 1/24 foot.",
+    "By similarity, tower height / 8 = 3 / (1/24).",
+    "Tower height = 8 × 3 × 24",
+    "576 feet"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "A radio tower casts an 8-foot-long shadow at the same time that a vertical yardstick casts a shadow one half inch long. If the triangles formed by the objects and their shadows are similar, how tall is the radio tower?",
+   "math_lines": []
+  },
+  {
+   "number": 176,
+   "page": 88,
+   "topic": "Solving Similar Triangles",
+   "lo": "LO23",
+   "stem_lines": [
+    "The two sailboats shown are participating in a regatta. If the sails are similar,",
+    "what is x?"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "The sails are similar. The scale factor from the smaller sail to the larger sail is",
+    "264/220 = 1.2.",
+    "x / 168.5 = 264 / 220",
+    "x = 168.5 × 1.2",
+    "x = 202.2 inches"
+   ],
+   "figures": [
+    {
+     "file": "rev176_1.png",
+     "page": 88,
+     "width": 210,
+     "height": 128
+    }
+   ],
+   "extra": [],
+   "part": "frq",
+   "instruction": "The two sailboats shown are participating in a regatta. If the sails are similar, what is x?",
+   "math_lines": []
+  },
+  {
+   "number": 177,
+   "page": 89,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "K(-2, -4, -4) and L(4, 2, 0)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((-2 + (4))/2, (-4 + (2))/2, (-4 + (0))/2)",
+    "M = (1, -1, -2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "K(-2, -4, -4) and L(4, 2, 0)"
+   ]
+  },
+  {
+   "number": 178,
+   "page": 89,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "W(-1, -3, -6) and Z(-1, 5, 10)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((-1 + (-1))/2, (-3 + (5))/2, (-6 + (10))/2)",
+    "M = (-1, 1, 2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "W(-1, -3, -6) and Z(-1, 5, 10)"
+   ]
+  },
+  {
+   "number": 179,
+   "page": 89,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "R(3, 3, 4) and V(5, 4, 13)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((3 + (5))/2, (3 + (4))/2, (4 + (13))/2)",
+    "M = (4, 7/2, 17/2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "R(3, 3, 4) and V(5, 4, 13)"
+   ]
+  },
+  {
+   "number": 180,
+   "page": 90,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "A(4, 6, -8) and B(0, 0, 0)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((4 + (0))/2, (6 + (0))/2, (-8 + (0))/2)",
+    "M = (2, 3, -4)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "A(4, 6, -8) and B(0, 0, 0)"
+   ]
+  },
+  {
+   "number": 181,
+   "page": 90,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "C(8, 7, 11) and D(2, 1, 8)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((8 + (2))/2, (7 + (1))/2, (11 + (8))/2)",
+    "M = (5, 4, 19/2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "C(8, 7, 11) and D(2, 1, 8)"
+   ]
+  },
+  {
+   "number": 182,
+   "page": 90,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the coordinates of the midpoint M of the segment joining the points.",
+    "T(-1, -7, 9) and U(5, -1, -6)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "M = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+    "M = ((-1 + (5))/2, (-7 + (-1))/2, (9 + (-6))/2)",
+    "M = (2, -4, 3/2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the coordinates of the midpoint M of the segment joining the points.",
+   "math_lines": [
+    "T(-1, -7, 9) and U(5, -1, -6)"
+   ]
+  },
+  {
+   "number": 183,
+   "page": 91,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "P(-5, -2, -1) and Q(-1, 0, 3)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (4, 2, 4).",
+    "d² = 16 + 4 + 16 = 36",
+    "d = 6",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (-3, -1, 1)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "P(-5, -2, -1) and Q(-1, 0, 3)"
+   ]
+  },
+  {
+   "number": 184,
+   "page": 91,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "J(1, 1, 1) and K(-1, -1, -1)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (-2, -2, -2).",
+    "d² = 4 + 4 + 4 = 12",
+    "d = 2√3",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (0, 0, 0)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "J(1, 1, 1) and K(-1, -1, -1)"
+   ]
+  },
+  {
+   "number": 185,
+   "page": 92,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "F(3/5, 0, 4/5) and G(0, 3, 0)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (-3/5, 3, -4/5).",
+    "d² = 9/25 + 9 + 16/25 = 10",
+    "d = √10",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (3/10, 3/2, 2/5)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "F(3/5, 0, 4/5) and G(0, 3, 0)"
+   ]
+  },
+  {
+   "number": 186,
+   "page": 92,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "G(1, -1, 6) and H(1/5, -2/5, 2)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (-4/5, 3/5, -4).",
+    "d² = 16/25 + 9/25 + 16 = 17",
+    "d = √17",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (3/5, -7/10, 4)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "G(1, -1, 6) and H(1/5, -2/5, 2)"
+   ]
+  },
+  {
+   "number": 187,
+   "page": 93,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "B(√3, 2, 2√2) and C(-2√3, 4, 4√2)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (-3√3, 2, 2√2).",
+    "d² = 27 + 4 + 8 = 39",
+    "d = √39",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (-√3/2, 3, 3√2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "B(√3, 2, 2√2) and C(-2√3, 4, 4√2)"
+   ]
+  },
+  {
+   "number": 188,
+   "page": 93,
+   "topic": "Coordinates in Space",
+   "lo": "LO24",
+   "stem_lines": [
+    "Find the distance between the points and the coordinates of their midpoint M.",
+    "S(6√3, 4, 4√2) and T(4√3, 5, √2)"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+    "Coordinate differences: (-2√3, 1, -3√2).",
+    "d² = 12 + 1 + 18 = 31",
+    "d = √31",
+    "Average the corresponding coordinates to find the midpoint.",
+    "M = (5√3, 9/2, 5√2/2)"
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Find the distance between the points and the coordinates of their midpoint M.",
+   "math_lines": [
+    "S(6√3, 4, 4√2) and T(4√3, 5, √2)"
+   ]
+  },
+  {
+   "number": 189,
+   "page": 94,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 50°, a = 34, b = 40"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (40 sin 50°)/34 ≈ 0.90123.",
+    "Two solutions (2 triangles).",
+    "Triangle 1: B ≈ 64.320°, C = 180° - 50° - B ≈ 65.680°.",
+    "c = 34 sin C / sin 50° ≈ 40.4452.",
+    "B ≈ 64°, C ≈ 66°, c ≈ 40.4.",
+    "Triangle 2: B ≈ 115.680°, C = 180° - 50° - B ≈ 14.320°.",
+    "c = 34 sin C / sin 50° ≈ 10.9778.",
+    "B ≈ 116°, C ≈ 14°, c ≈ 11.0."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 50°, a = 34, b = 40"
+   ]
+  },
+  {
+   "number": 190,
+   "page": 94,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 24°, a = 3, b = 8"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (8 sin 24°)/3 ≈ 1.08463.",
+    "Since sin B cannot exceed 1, no triangle is possible.",
+    "No solution (0 triangles)."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 24°, a = 3, b = 8"
+   ]
+  },
+  {
+   "number": 191,
+   "page": 95,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 125°, a = 22, b = 15"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (15 sin 125°)/22 ≈ 0.55851.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 33.953°, C = 180° - 125° - B ≈ 21.047°.",
+    "c = 22 sin C / sin 125° ≈ 9.6453.",
+    "B ≈ 34°, C ≈ 21°, c ≈ 9.6.",
+    "The supplementary value of B makes A + B ≥ 180°, so it is rejected."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 125°, a = 22, b = 15"
+   ]
+  },
+  {
+   "number": 192,
+   "page": 95,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 1, b = 4"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (4 sin 30°)/1 ≈ 2.00000.",
+    "Since sin B cannot exceed 1, no triangle is possible.",
+    "No solution (0 triangles)."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 1, b = 4"
+   ]
+  },
+  {
+   "number": 193,
+   "page": 96,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 2, b = 4"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (4 sin 30°)/2 ≈ 1.00000.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 90.000°, C = 180° - 30° - B ≈ 60.000°.",
+    "c = 2 sin C / sin 30° ≈ 3.4641.",
+    "B ≈ 90°, C ≈ 60°, c ≈ 3.5."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 2, b = 4"
+   ]
+  },
+  {
+   "number": 194,
+   "page": 96,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 3, b = 4"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (4 sin 30°)/3 ≈ 0.66667.",
+    "Two solutions (2 triangles).",
+    "Triangle 1: B ≈ 41.810°, C = 180° - 30° - B ≈ 108.190°.",
+    "c = 3 sin C / sin 30° ≈ 5.7002.",
+    "B ≈ 42°, C ≈ 108°, c ≈ 5.7.",
+    "Triangle 2: B ≈ 138.190°, C = 180° - 30° - B ≈ 11.810°.",
+    "c = 3 sin C / sin 30° ≈ 1.2280.",
+    "B ≈ 138°, C ≈ 12°, c ≈ 1.2."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 30°, a = 3, b = 4"
+   ]
+  },
+  {
+   "number": 195,
+   "page": 97,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 38°, a = 10, b = 9"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (9 sin 38°)/10 ≈ 0.55410.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 33.648°, C = 180° - 38° - B ≈ 108.352°.",
+    "c = 10 sin C / sin 38° ≈ 15.4166.",
+    "B ≈ 34°, C ≈ 108°, c ≈ 15.4.",
+    "The supplementary value of B makes A + B ≥ 180°, so it is rejected."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 38°, a = 10, b = 9"
+   ]
+  },
+  {
+   "number": 196,
+   "page": 97,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 78°, a = 8, b = 5"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (5 sin 78°)/8 ≈ 0.61134.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 37.687°, C = 180° - 78° - B ≈ 64.313°.",
+    "c = 8 sin C / sin 78° ≈ 7.3705.",
+    "B ≈ 38°, C ≈ 64°, c ≈ 7.4.",
+    "The supplementary value of B makes A + B ≥ 180°, so it is rejected."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 78°, a = 8, b = 5"
+   ]
+  },
+  {
+   "number": 197,
+   "page": 98,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 133°, a = 9, b = 7"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (7 sin 133°)/9 ≈ 0.56883.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 34.669°, C = 180° - 133° - B ≈ 12.331°.",
+    "c = 9 sin C / sin 133° ≈ 2.6281.",
+    "B ≈ 35°, C ≈ 12°, c ≈ 2.6.",
+    "The supplementary value of B makes A + B ≥ 180°, so it is rejected."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 133°, a = 9, b = 7"
+   ]
+  },
+  {
+   "number": 198,
+   "page": 98,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 127°, a = 2, b = 6"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (6 sin 127°)/2 ≈ 2.39591.",
+    "Since sin B cannot exceed 1, no triangle is possible.",
+    "No solution (0 triangles)."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 127°, a = 2, b = 6"
+   ]
+  },
+  {
+   "number": 199,
+   "page": 99,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 109°, a = 24, b = 13"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (13 sin 109°)/24 ≈ 0.51216.",
+    "One solution (1 triangle).",
+    "Triangle 1: B ≈ 30.808°, C = 180° - 109° - B ≈ 40.192°.",
+    "c = 24 sin C / sin 109° ≈ 16.3810.",
+    "B ≈ 31°, C ≈ 40°, c ≈ 16.4.",
+    "The supplementary value of B makes A + B ≥ 180°, so it is rejected."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 109°, a = 24, b = 13"
+   ]
+  },
+  {
+   "number": 200,
+   "page": 99,
+   "topic": "Law of Sines",
+   "lo": "LO25",
+   "stem_lines": [
+    "Determine whether the triangle has no solution, one solution, or two solutions.",
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 48°, a = 11, b = 16"
+   ],
+   "options": {},
+   "key": null,
+   "solution": [
+    "By the Law of Sines, sin B / b = sin A / a.",
+    "sin B = (16 sin 48°)/11 ≈ 1.08094.",
+    "Since sin B cannot exceed 1, no triangle is possible.",
+    "No solution (0 triangles)."
+   ],
+   "figures": [],
+   "extra": [],
+   "part": "frq",
+   "instruction": "Determine whether the triangle has no solution, one solution, or two solutions.",
+   "math_lines": [
+    "Then solve the triangle. Round sides to the nearest tenth and angles to the",
+    "nearest degree.",
+    "∠A = 48°, a = 11, b = 16"
+   ]
+  }
+ ]
+}
