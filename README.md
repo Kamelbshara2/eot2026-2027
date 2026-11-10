@@ -202,3 +202,7 @@ Enter `#/classrooms/{9G3|10G3|10A1}/banks/term1` to browse/download each LO or o
 [Transfer package](artifacts/assessment-transfer.zip): normalized SQLite, SQL dump, JSON, all original and instructional images, checksums and import instructions. Grade/track/LO/type are explicit. Answer keys are separate tables; keep the transfer package private when implementing server-graded exams. It contains no student submissions.
 
 The reusable standard is [STUDY_AUTHORING.md](STUDY_AUTHORING.md). See [build/import notes](content-imports/README.md) and [calculator-library review](content-imports/calculator-library-review.md). The diagrams are instructional key guides rendered with Playwright; they are not screenshots of a verified official emulator. Weekly practice, live DB records and released SCORM packages are unchanged.
+
+## Interactive term-1 study booklet
+
+Each learning outcome page has five labelled parts (idea, worked example, study helper, practice, quiz). Written questions use LaTeX fill-in-the-blank working (`lib/study-fill.js`, authored by `scripts/add-study-blanks.py`); every question has a reference solution and a Casio fx-991EX calculator route. The index page contains a quiz builder (choose outcomes, 5–20 questions, MCQ/written/mixed, optional timer) with a result review and "retry wrong answers". Progress is kept in the browser tab only. Tests: `tests/study-fill.test.js`.
