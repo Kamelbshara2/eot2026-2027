@@ -102,3 +102,14 @@ test('11A oblique-asymptote questions: no real zeros means the blank asks for th
   for (const id of ['11A-Q23-13', '11A-Q23-15', '11A-Q23-16']) assert.match(q[id].parts[0].blanks.lines[0], /Number of real zeros: \}\[\[0\]\]/);
   for (const id of Object.keys(q).filter(k => k.startsWith('11A-Q23'))) for (const p of q[id].parts) assert(p.answer.steps?.length >= 2, `${id} ${p.id}`);
 });
+
+test('11 Advanced: every question has a full worked solution (every MCQ and every written part)', () => {
+  for (const q of load('11A').questions) {
+    if (q.type === 'mcq') assert(q.answer.steps?.length >= 2, q.id);
+    else for (const p of q.parts) assert(p.answer.steps?.length >= 1, `${q.id} ${p.id}`);
+  }
+});
+test('11A-Q08-book-19 now has a correct option (LCD gives 12x² in the denominator)', () => {
+  const q = load('11A').questions.find(q => q.id === '11A-Q08-book-19');
+  assert.equal(q.options.find(o => o.id === q.answer.correct_option_id).math_latex, '\\frac{-x^2+33x+16}{12x^2+11x-27}');
+});

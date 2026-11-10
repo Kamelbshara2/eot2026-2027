@@ -19,4 +19,15 @@ for cls, fixes in KEYFIX.items():
             o = next(o for o in q['options'] if o['id'] == fixes[q['id']]); q['answer']['correct_option_text'] = o.get('math_latex') or o.get('text')
             q['answer']['key_corrected'] = True; n += 1
     p.write_text(json.dumps(d, ensure_ascii=False, separators=(',', ':')))
+# Option text errors (no option was mathematically correct). 11A-Q08-book-19: multiplying by the LCD (x-9)(3x+2) gives
+# numerator -x^2+33x+16 and denominator 3(x-9)+4x(3x+2)=12x^2+11x-27; option A printed 4x^2.
+OPTFIX = {'11A': {('11A-Q08-book-19', 'A'): '\\frac{-x^2+33x+16}{12x^2+11x-27}'}}
+for cls, fixes in OPTFIX.items():
+    p = ROOT / f'public/data/study/{cls}.json'; d = json.loads(p.read_text())
+    for q in d['questions']:
+        for o in q.get('options', []):
+            if (q['id'], o['id']) in fixes:
+                o['math_latex'] = o['text'] = fixes[(q['id'], o['id'])]; n += 1
+                if q['answer']['correct_option_id'] == o['id']: q['answer']['correct_option_text'] = o['math_latex']
+    p.write_text(json.dumps(d, ensure_ascii=False, separators=(',', ':')))
 print('fixed', n)
