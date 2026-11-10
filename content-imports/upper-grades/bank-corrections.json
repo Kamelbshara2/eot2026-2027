@@ -1,0 +1,642 @@
+[
+  {
+    "id": "11G-p02-1a",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 2,
+      "exercise": "1a",
+      "printed_page": null
+    },
+    "reason": "Clarifies that the choices each name one image vertex."
+  },
+  {
+    "id": "11G-p02-1b",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 2,
+      "exercise": "1b",
+      "printed_page": null
+    },
+    "reason": "Clarifies that the choices each name one image vertex."
+  },
+  {
+    "id": "11G-p15-18a",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 15,
+      "exercise": "18a",
+      "printed_page": null
+    },
+    "reason": "Original choices include repeated 16/25 values. Makes the replacement/independence assumption explicit as a clarified variant."
+  },
+  {
+    "id": "11G-p15-18b",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 15,
+      "exercise": "18b",
+      "printed_page": null
+    },
+    "reason": "States the independence assumption required by the intended multiplication."
+  },
+  {
+    "id": "11G-p20-22d",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 20,
+      "exercise": "22d",
+      "printed_page": null
+    },
+    "reason": "The original diagram marks NR and PQ parallel although the numerical givens imply they are not. Replaces the contradictory diagram by its point-order information; preserves every numerical given."
+  },
+  {
+    "id": "11G-p23-25b",
+    "source": {
+      "id": "g11g_structure",
+      "pdf_page": 23,
+      "exercise": "25b",
+      "printed_page": null
+    },
+    "reason": "Preserves the distinct Arabic question about BoxA and replacement. The source English paragraph accidentally repeats25a about BoxB without replacement; that duplicate English version is recorded as an alias of25a."
+  },
+  {
+    "id": "12A-p02-Q7-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 2,
+      "exercise": "Q7",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p02-Q8-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 2,
+      "exercise": "Q8",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p02-Q9-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 2,
+      "exercise": "Q9",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p03-Q10-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 3,
+      "exercise": "Q10",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p03-Q11-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 3,
+      "exercise": "Q11",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p03-Q12-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 3,
+      "exercise": "Q12",
+      "printed_page": null
+    },
+    "reason": "Clarifies equal subdivision and rounding; Q9 and Q10 numerical options corrected."
+  },
+  {
+    "id": "12A-p04-Q23-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 4,
+      "exercise": "Q23",
+      "printed_page": null
+    },
+    "reason": "Replaces duplicated distractor 3."
+  },
+  {
+    "id": "12A-p12-Q2-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 12,
+      "exercise": "Q2",
+      "printed_page": null
+    },
+    "reason": "Replaces second correct option 5."
+  },
+  {
+    "id": "12A-p17-Q21b-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 17,
+      "exercise": "Q21b",
+      "printed_page": null
+    },
+    "reason": "Original A and D are equivalent correct answers; D replaced."
+  },
+  {
+    "id": "12A-p20-Q2-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 20,
+      "exercise": "Q2",
+      "printed_page": null
+    },
+    "reason": "None of the original graph options has the required two derivative zeros. Retains the original given graph; replaces choices with accurate descriptions."
+  },
+  {
+    "id": "12A-p28-Q10-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 28,
+      "exercise": "Q10",
+      "printed_page": null
+    },
+    "reason": "Original A and C duplicate; C replaced."
+  },
+  {
+    "id": "12A-p29-Q12-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 29,
+      "exercise": "Q12",
+      "printed_page": null
+    },
+    "reason": "No original option is correct; coefficient 10 in C corrected to 6."
+  },
+  {
+    "id": "12A-p35-Q32-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 35,
+      "exercise": "Q32",
+      "printed_page": null
+    },
+    "reason": "Corrects h′(1) misprint in all options to the requested h′(2)."
+  },
+  {
+    "id": "12A-p35-Q33-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 35,
+      "exercise": "Q33",
+      "printed_page": null
+    },
+    "reason": "Source has four empty options; completed as a concept MCQ."
+  },
+  {
+    "id": "12A-p40-Q9-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 40,
+      "exercise": "Q9",
+      "printed_page": null
+    },
+    "reason": "Makes the variable t consistent between function and choices."
+  },
+  {
+    "id": "12A-p40-Q10-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 40,
+      "exercise": "Q10",
+      "printed_page": null
+    },
+    "reason": "Makes the variable t consistent; preserves the full radical."
+  },
+  {
+    "id": "12A-p41-Q13-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 41,
+      "exercise": "Q13",
+      "printed_page": null
+    },
+    "reason": "Original A and C are equivalent correct answers; C replaced."
+  },
+  {
+    "id": "12A-p43-Q17-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 43,
+      "exercise": "Q17",
+      "printed_page": null
+    },
+    "reason": "Four source choices were empty; supplies full-chain and missing-factor alternatives."
+  },
+  {
+    "id": "12A-p43-Q18-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 43,
+      "exercise": "Q18",
+      "printed_page": null
+    },
+    "reason": "Four source choices were empty; supplies distinct Chain Rule alternatives."
+  },
+  {
+    "id": "12A-p47-Q22-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 47,
+      "exercise": "Q22",
+      "printed_page": null
+    },
+    "reason": "Replaces equivalent correct options A/B and the dependent “both” option."
+  },
+  {
+    "id": "12A-p49-Q30a-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 49,
+      "exercise": "Q30a",
+      "printed_page": null
+    },
+    "reason": "Original options all use 2x+x; correct inner derivative is 2x+1."
+  },
+  {
+    "id": "12A-p49-Q30b-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 49,
+      "exercise": "Q30b",
+      "printed_page": null
+    },
+    "reason": "Original options substitute (1/x)² instead of the given (2/x)²."
+  },
+  {
+    "id": "12A-p65-Q35-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 65,
+      "exercise": "Q35",
+      "printed_page": null
+    },
+    "reason": "Specifies instantaneous percentage rate to distinguish the calculus answer from the discrete daily increase."
+  },
+  {
+    "id": "12A-p66-Q36-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 66,
+      "exercise": "Q36",
+      "printed_page": null
+    },
+    "reason": "Specifies instantaneous percentage rate to distinguish the calculus answer from the discrete daily increase."
+  },
+  {
+    "id": "12A-p68-Q37-1",
+    "source": {
+      "id": "g12a_ar_review",
+      "pdf_page": 68,
+      "exercise": "Q37",
+      "printed_page": null
+    },
+    "reason": "Corrects the Arabic bound 6 to 5, consistent with the English prompt and the given formula."
+  },
+  {
+    "id": "12G-p11-Q6-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 11,
+      "exercise": "Q6",
+      "printed_page": null
+    },
+    "reason": "The plotted positive intercept is 4; original option A incorrectly says 5. The graph is unchanged."
+  },
+  {
+    "id": "12G-p12-Ex2-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 12,
+      "exercise": "Ex2",
+      "printed_page": null
+    },
+    "reason": "Replaces duplicated wrong option D."
+  },
+  {
+    "id": "12G-p13-Q2-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 13,
+      "exercise": "Q2",
+      "printed_page": null
+    },
+    "reason": "Source repeats option labels a,b; standardized to A,B,C,D."
+  },
+  {
+    "id": "12G-p16-Ex1-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 16,
+      "exercise": "Ex1",
+      "printed_page": null
+    },
+    "reason": "All four original options were identical; supplies four distinct numerical times."
+  },
+  {
+    "id": "12G-p28-Q6-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 28,
+      "exercise": "Q6",
+      "printed_page": null
+    },
+    "reason": "Original choices omit the exact zero −1."
+  },
+  {
+    "id": "12G-p28-Q7-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 28,
+      "exercise": "Q7",
+      "printed_page": null
+    },
+    "reason": "None of the original interval pairs is correct; corrects the second interval in D."
+  },
+  {
+    "id": "12G-p31-Ex4-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 31,
+      "exercise": "Ex4",
+      "printed_page": null
+    },
+    "reason": "Expresses the source synthetic-division diagrams as equivalent algebraic options. For p32 Ex4, restores the missing exponent 2 confirmed by the source coefficient row 3,−2,−53,−60."
+  },
+  {
+    "id": "12G-p32-Ex4-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 32,
+      "exercise": "Ex4",
+      "printed_page": null
+    },
+    "reason": "Expresses the source synthetic-division diagrams as equivalent algebraic options. For p32 Ex4, restores the missing exponent 2 confirmed by the source coefficient row 3,−2,−53,−60."
+  },
+  {
+    "id": "12G-p32-Q1-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 32,
+      "exercise": "Q1",
+      "printed_page": null
+    },
+    "reason": "Expresses the source synthetic-division diagrams as equivalent algebraic options. For p32 Ex4, restores the missing exponent 2 confirmed by the source coefficient row 3,−2,−53,−60."
+  },
+  {
+    "id": "12G-p34-47-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 34,
+      "exercise": "47",
+      "printed_page": null
+    },
+    "reason": "No original option gives precisely the real solution set."
+  },
+  {
+    "id": "12G-p35-5B-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 35,
+      "exercise": "5B",
+      "printed_page": null
+    },
+    "reason": "Original option graphs have the wrong exponential growth rate. Preserves the formula and supplies exact graph characteristics."
+  },
+  {
+    "id": "12G-p43-Q4-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 43,
+      "exercise": "Q4",
+      "printed_page": null
+    },
+    "reason": "Random sampling alone does not establish an experimental treatment; removes unsupported classification."
+  },
+  {
+    "id": "12G-p44-Q9-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 44,
+      "exercise": "Q9",
+      "printed_page": null
+    },
+    "reason": "Random sampling alone does not establish an experimental treatment; removes unsupported classification."
+  },
+  {
+    "id": "12G-p45-Q11-1",
+    "source": {
+      "id": "g12g_ar_review",
+      "pdf_page": 45,
+      "exercise": "Q11",
+      "printed_page": null
+    },
+    "reason": "Clarifies the treatment assignment in the intended experimental choice; labels the record as a rephrased concept application."
+  },
+  {
+    "id": "11A-Q03-book-3",
+    "source": {
+      "id": "g11a_lesson_booklet",
+      "pdf_page": 3,
+      "exercise": "book-3",
+      "printed_page": null
+    },
+    "reason": "The clipped source prints +2. The supplied argument 1/25 requires −2; corrected before conversion."
+  },
+  {
+    "id": "12G-en-Q008",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 5,
+      "exercise": "8",
+      "printed_page": null
+    },
+    "reason": "None of the original options equals the plotted axis x=1.5; replaces1/2 by3/2."
+  },
+  {
+    "id": "12G-en-Q022",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 9,
+      "exercise": "22",
+      "printed_page": null
+    },
+    "reason": "Original B and C are the same correct set in a different order."
+  },
+  {
+    "id": "12G-en-Q072",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 21,
+      "exercise": "72",
+      "printed_page": null
+    },
+    "reason": "The English stem saysx^5, but all seven supplied table entries matchx^4. Corrects the exponent to the table-confirmed polynomial."
+  },
+  {
+    "id": "12G-en-Q078",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 23,
+      "exercise": "78",
+      "printed_page": null
+    },
+    "reason": "Clarifies what a finite sign-change table guarantees; retains every value."
+  },
+  {
+    "id": "12G-en-Q079",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 23,
+      "exercise": "79",
+      "printed_page": null
+    },
+    "reason": "The user requested a new complete odd-degree polynomial graph with the intended turning points. This is an authored replacement, not a restoration of the unseen original graph."
+  },
+  {
+    "id": "12G-en-Q083",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 24,
+      "exercise": "83",
+      "printed_page": null
+    },
+    "reason": "The supplied sample table stops before the turning point. Replaces the incorrect minimum estimate2 by2.9, retaining the polynomial and every supplied table value."
+  },
+  {
+    "id": "12G-en-Q105",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 30,
+      "exercise": "105",
+      "printed_page": null
+    },
+    "reason": "Joins the source expression split as“.5(2)^x+6” and“f(x)=1”."
+  },
+  {
+    "id": "12G-en-Q112",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 31,
+      "exercise": "112",
+      "printed_page": null
+    },
+    "reason": "Completes the source’s three options to four, retaining the original scenario."
+  },
+  {
+    "id": "12G-en-Q113",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 32,
+      "exercise": "113",
+      "printed_page": null
+    },
+    "reason": "Completes the source’s three options to four, retaining the original scenario."
+  },
+  {
+    "id": "12G-en-Q114",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 32,
+      "exercise": "114",
+      "printed_page": null
+    },
+    "reason": "Random participant selection alone does not determine study design; supplies the missing valid choice."
+  },
+  {
+    "id": "12G-en-Q115",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 32,
+      "exercise": "115",
+      "printed_page": null
+    },
+    "reason": "Completes the source’s three options to four, retaining the original scenario."
+  },
+  {
+    "id": "12G-en-Q116",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 32,
+      "exercise": "116",
+      "printed_page": null
+    },
+    "reason": "Makes the intended treatment explicit and replaces the duplicated C/D distractor."
+  },
+  {
+    "id": "12G-en-Q118",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 33,
+      "exercise": "118",
+      "printed_page": null
+    },
+    "reason": "Expands the original two-choice biased/unbiased item into four distinct, reasoned choices."
+  },
+  {
+    "id": "12G-en-Q119",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 33,
+      "exercise": "119",
+      "printed_page": null
+    },
+    "reason": "Expands the original two-choice biased/unbiased item into four distinct, reasoned choices."
+  },
+  {
+    "id": "12G-en-Q120",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 33,
+      "exercise": "120",
+      "printed_page": null
+    },
+    "reason": "Expands the original two-choice biased/unbiased item into four distinct, reasoned choices."
+  },
+  {
+    "id": "12G-en-Q121",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 34,
+      "exercise": "121",
+      "printed_page": null
+    },
+    "reason": "Expands the original two-choice biased/unbiased item into four distinct, reasoned choices."
+  },
+  {
+    "id": "12G-en-Q129",
+    "source": {
+      "id": "g12g_total",
+      "pdf_page": 36,
+      "exercise": "129",
+      "printed_page": null
+    },
+    "reason": "Corrects the source’s85%option to84%."
+  },
+  {
+    "id": "11G-book-p402-Q13",
+    "source": {
+      "id": "g11g_user_pages_402_403",
+      "pdf_page": null,
+      "exercise": "13",
+      "printed_page": 402
+    },
+    "reason": "Clarifies that the requested probability refers to a specified team, so1/16 and the either-team probability1/8 are not competing interpretations."
+  }
+]

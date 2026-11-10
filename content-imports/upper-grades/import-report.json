@@ -1,0 +1,40 @@
+{
+ "classes": {
+  "11G": {
+   "outcomes": 26,
+   "questions": 137,
+   "mcq": 105,
+   "frq": 32,
+   "assets": 62,
+   "min_per_outcome": 5,
+   "cards": 55
+  },
+  "11A": {
+   "outcomes": 25,
+   "questions": 154,
+   "mcq": 122,
+   "frq": 32,
+   "assets": 78,
+   "min_per_outcome": 5,
+   "cards": 0
+  },
+  "12G": {
+   "outcomes": 25,
+   "questions": 282,
+   "mcq": 246,
+   "frq": 36,
+   "assets": 240,
+   "min_per_outcome": 5,
+   "cards": 236
+  },
+  "12A": {
+   "outcomes": 26,
+   "questions": 180,
+   "mcq": 144,
+   "frq": 36,
+   "assets": 146,
+   "min_per_outcome": 5,
+   "cards": 145
+  }
+ }
+}
