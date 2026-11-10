@@ -1,0 +1,311 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p14-Ex1-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 4.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{4}{2}=2"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(2\\right)^2=4"
+    },
+    {
+     "text": "Option b).",
+     "latex": "c=4"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p14-Ex4-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = -7.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{-7}{2}=-\\dfrac72"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(-\\dfrac72\\right)^2=\\dfrac{49}{4}"
+    },
+    {
+     "text": "Option b).",
+     "latex": "c=\\dfrac{49}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p14-Q1-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = -8.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{-8}{2}=-4"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(-4\\right)^2=16"
+    },
+    {
+     "text": "Option c).",
+     "latex": "c=16"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p15-Q2-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 26.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{26}{2}=13"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(13\\right)^2=169"
+    },
+    {
+     "text": "Option b).",
+     "latex": "c=169"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p15-Q3-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 24.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{24}{2}=12"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(12\\right)^2=144"
+    },
+    {
+     "text": "Option a).",
+     "latex": "c=144"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p15-Q4-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = -12.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{-12}{2}=-6"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(-6\\right)^2=36"
+    },
+    {
+     "text": "Option c).",
+     "latex": "c=36"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p15-Q5-1": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 13.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{13}{2}=\\dfrac{13}{2}"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(\\dfrac{13}{2}\\right)^2=\\dfrac{169}{4}=42.25"
+    },
+    {
+     "text": "Option d).",
+     "latex": "c=\\dfrac{169}{4}=42.25"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q033": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = -7.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{-7}{2}=-\\dfrac72"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(-\\dfrac72\\right)^2=\\dfrac{49}{4}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "c=\\dfrac{49}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q034": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 24.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{24}{2}=12"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(12\\right)^2=144"
+    },
+    {
+     "text": "Write as a square.",
+     "latex": "x^2+24x+144=\\left(x+12\\right)^2"
+    },
+    {
+     "text": "Option C.",
+     "latex": "c=144"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q035": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = -1.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{-1}{2}=-\\dfrac12"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(-\\dfrac12\\right)^2=\\dfrac14"
+    },
+    {
+     "text": "Option A.",
+     "latex": "c=\\dfrac14"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q036": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 5.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{5}{2}=\\dfrac52"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(\\dfrac52\\right)^2=\\dfrac{25}{4}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "c=\\dfrac{25}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q037": {
+   "steps": [
+    {
+     "text": "A trinomial x² + bx + c is a perfect square when c = (b/2)². Here b = 4.",
+     "latex": "c=\\left(\\dfrac{b}{2}\\right)^2"
+    },
+    {
+     "text": "Half of the x-coefficient.",
+     "latex": "\\dfrac{4}{2}=2"
+    },
+    {
+     "text": "Square it.",
+     "latex": "c=\\left(2\\right)^2=4"
+    },
+    {
+     "text": "Write as a square.",
+     "latex": "x^2+4x+4=\\left(x+2\\right)^2"
+    },
+    {
+     "text": "Option A.",
+     "latex": "c=4"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p16-Ex2-1": {
+   "steps": [
+    {
+     "text": "Recognise the perfect-square trinomial.",
+     "latex": "x^2+8x+16=(x+4)^2"
+    },
+    {
+     "text": "Set it equal to zero.",
+     "latex": "(x+4)^2=0"
+    },
+    {
+     "text": "One repeated solution.",
+     "latex": "x=-4"
+    },
+    {
+     "text": "Option b).",
+     "latex": "x=-4"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p16-Ex3-1": {
+   "steps": [
+    {
+     "text": "Coefficients.",
+     "latex": "a=2,\\ b=6,\\ c=-7"
+    },
+    {
+     "text": "Discriminant.",
+     "latex": "b^2-4ac=36+56=92"
+    },
+    {
+     "text": "Quadratic formula.",
+     "latex": "x=\\dfrac{-6\\pm\\sqrt{92}}{2(2)}=\\dfrac{-6\\pm2\\sqrt{23}}{4}"
+    },
+    {
+     "text": "Divide numerator and denominator by 2.",
+     "latex": "x=\\dfrac{-3\\pm\\sqrt{23}}{2}"
+    },
+    {
+     "text": "Option a).",
+     "latex": "x=\\dfrac{-3\\pm\\sqrt{23}}{2}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

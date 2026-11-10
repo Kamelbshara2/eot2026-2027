@@ -1,0 +1,187 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p18-Q2-1": {
+   "steps": [
+    {
+     "text": "Two different real roots means the graph crosses the x-axis at two different points.",
+     "latex": "f(x)=0\\ \\text{has two solutions}"
+    },
+    {
+     "text": "Graph b) cuts the x-axis twice (vertex below the axis); a) never touches it, c) and d) touch or miss it.",
+     "latex": "\\text{graph b)}"
+    },
+    {
+     "text": "Option b).",
+     "latex": "D>0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p18-Q3-1": {
+   "steps": [
+    {
+     "text": "No real roots means the graph never meets the x-axis.",
+     "latex": "f(x)=0\\ \\text{has no real solution}"
+    },
+    {
+     "text": "In graph d) the whole curve stays above the x-axis.",
+     "latex": "\\text{graph d)}"
+    },
+    {
+     "text": "Option d).",
+     "latex": "D<0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q045": {
+   "steps": [
+    {
+     "text": "Identify the coefficients.",
+     "latex": "a=1,\\ b=-11,\\ c=-26"
+    },
+    {
+     "text": "The discriminant is D = b² − 4ac.",
+     "latex": "D=(-11)^2-4(1)(-26)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=121+104=225"
+    },
+    {
+     "text": "D > 0: two real roots; D = 0: one repeated real root; D < 0: no real roots.",
+     "latex": "\\text{two real solutions}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{two real solutions}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q046": {
+   "steps": [
+    {
+     "text": "Identify the coefficients.",
+     "latex": "a=5,\\ b=0,\\ c=-6"
+    },
+    {
+     "text": "The discriminant is D = b² − 4ac.",
+     "latex": "D=(0)^2-4(5)(-6)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=0+120=120"
+    },
+    {
+     "text": "D > 0: two real roots; D = 0: one repeated real root; D < 0: no real roots.",
+     "latex": "\\text{two real solutions}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{two real solutions}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q047": {
+   "steps": [
+    {
+     "text": "Write in standard form ax² + bx + c = 0.",
+     "latex": "2x^2-3x=-2\\ \\Rightarrow\\ 2x^2-3x+2=0"
+    },
+    {
+     "text": "Identify the coefficients.",
+     "latex": "a=2,\\ b=-3,\\ c=2"
+    },
+    {
+     "text": "The discriminant is D = b² − 4ac.",
+     "latex": "D=(-3)^2-4(2)(2)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=9-16=-7"
+    },
+    {
+     "text": "D > 0: two real roots; D = 0: one repeated real root; D < 0: no real roots.",
+     "latex": "\\text{no real solution}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\text{no real solution}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q048": {
+   "steps": [
+    {
+     "text": "The parabola never meets the x-axis, so the equation has no real roots.",
+     "latex": "b^2-4ac<0"
+    },
+    {
+     "text": "Option B.",
+     "latex": "b^2-4ac<0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q049": {
+   "steps": [
+    {
+     "text": "The parabola crosses the x-axis at two different points, so the equation has two real roots.",
+     "latex": "b^2-4ac>0"
+    },
+    {
+     "text": "Option A.",
+     "latex": "b^2-4ac>0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q050": {
+   "steps": [
+    {
+     "text": "The vertex of the parabola touches the x-axis at exactly one point: one repeated root.",
+     "latex": "b^2-4ac=0"
+    },
+    {
+     "text": "Option C.",
+     "latex": "b^2-4ac=0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q051": {
+   "steps": [
+    {
+     "text": "Identify the coefficients.",
+     "latex": "a=3,\\ b=-2,\\ c=0"
+    },
+    {
+     "text": "The discriminant is D = b² − 4ac.",
+     "latex": "D=(-2)^2-4(3)(0)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=4-0=4"
+    },
+    {
+     "text": "D > 0: two real roots; D = 0: one repeated real root; D < 0: no real roots.",
+     "latex": "\\text{two real solutions}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{two real solutions}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

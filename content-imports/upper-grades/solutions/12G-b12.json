@@ -1,0 +1,266 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q056": {
+   "steps": [
+    {
+     "text": "The boundary is a solid parabola that opens upward (vertex near (2, −10), y-intercept −6).",
+     "latex": "y=x^2-4x-6"
+    },
+    {
+     "text": "A solid line means the inequality includes the curve: ≥ or ≤.",
+     "latex": "\\ge\\ \\text{or}\\ \\le"
+    },
+    {
+     "text": "The shaded region lies above the curve: y ≥ curve.",
+     "latex": "y\\ge x^2-4x-6"
+    },
+    {
+     "text": "Option B.",
+     "latex": "y\\ge x^2-4x-6"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q057": {
+   "steps": [
+    {
+     "text": "Use the labelled points (0, 6), (1, 7), (2, 6): the vertex is (1, 7) and the parabola opens downward.",
+     "latex": "y=a(x-1)^2+7"
+    },
+    {
+     "text": "Substitute (0, 6) to find a.",
+     "latex": "6=a(0-1)^2+7\\ \\Rightarrow\\ a=-1"
+    },
+    {
+     "text": "Expand.",
+     "latex": "y=-(x-1)^2+7=-x^2+2x+6"
+    },
+    {
+     "text": "The curve is solid and the shaded region is below it, so the inequality is ≤.",
+     "latex": "y\\le-x^2+2x+6"
+    },
+    {
+     "text": "This is option A.",
+     "latex": "y\\le-x^2+2x+6"
+    }
+   ],
+   "verified": false,
+   "note": "The boundary is drawn as a solid line, which gives option A (y ≤ −x²+2x+6); the keyed option C uses a strict inequality (dashed line). Teacher review needed."
+  },
+  "12G-en-Q058": {
+   "steps": [
+    {
+     "text": "The vertex is (−8, 18) and the parabola opens downward.",
+     "latex": "y=a(x+8)^2+18"
+    },
+    {
+     "text": "Use (0, 2) to find a.",
+     "latex": "2=a(0+8)^2+18\\ \\Rightarrow\\ 64a=-16\\ \\Rightarrow\\ a=-\\dfrac14"
+    },
+    {
+     "text": "The boundary is dashed (strict inequality) and the shaded region is above the curve.",
+     "latex": "y>-\\dfrac14(x+8)^2+18"
+    },
+    {
+     "text": "Option A.",
+     "latex": "y>-\\dfrac14(x+8)^2+18"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q059": {
+   "steps": [
+    {
+     "text": "Degree = the highest power of x; leading coefficient = the coefficient of that term.",
+     "latex": "2x^4-3x^3-4x^2-5x-2"
+    },
+    {
+     "text": "Highest power.",
+     "latex": "\\deg=4"
+    },
+    {
+     "text": "Coefficient of the highest-power term.",
+     "latex": "\\text{leading coefficient}=2"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\text{degree }4,\\ \\text{leading coefficient }2"
+    }
+   ],
+   "verified": true,
+   "note": "key corrected from C to B"
+  },
+  "12G-en-Q060": {
+   "steps": [
+    {
+     "text": "Write the terms by decreasing power.",
+     "latex": "-3x^3+2x^2-2"
+    },
+    {
+     "text": "The highest power is 3, so the degree is 3.",
+     "latex": "\\deg=3"
+    },
+    {
+     "text": "The coefficient of x³ is −3 (the sign belongs to the coefficient).",
+     "latex": "\\text{leading coefficient}=-3"
+    },
+    {
+     "text": "Option C.",
+     "latex": "\\text{degree }3,\\ \\text{leading coefficient }-3"
+    }
+   ],
+   "verified": true,
+   "note": "key corrected from B to C"
+  },
+  "12G-en-Q061": {
+   "steps": [
+    {
+     "text": "Multiply the leading terms of the two factors to get the leading term of the product.",
+     "latex": "(2x)(4x^2)=8x^3"
+    },
+    {
+     "text": "Degree 3 (1 + 2) and leading coefficient 2 × 4 = 8.",
+     "latex": "\\deg=3,\\quad \\text{leading coefficient}=8"
+    },
+    {
+     "text": "Check by expanding.",
+     "latex": "(2x-1)(4x^2+3)=8x^3-4x^2+6x-3"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{degree }3,\\ \\text{leading coefficient }8"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p24-Q17-1": {
+   "steps": [
+    {
+     "text": "Write in standard form (decreasing powers).",
+     "latex": "-5x^4-4x^3+3x^2+15x"
+    },
+    {
+     "text": "The highest power is 4: degree 4.",
+     "latex": "\\deg=4"
+    },
+    {
+     "text": "The coefficient of x⁴ is −5.",
+     "latex": "\\text{leading coefficient}=-5"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\text{degree }4,\\ \\text{leading coefficient }-5"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p24-Q18-1": {
+   "steps": [
+    {
+     "text": "Standard form.",
+     "latex": "3b^5+13b^3-9b-18"
+    },
+    {
+     "text": "Highest power 5: degree 5.",
+     "latex": "\\deg=5"
+    },
+    {
+     "text": "The coefficient of b⁵ is 3.",
+     "latex": "\\text{leading coefficient}=3"
+    },
+    {
+     "text": "Option b).",
+     "latex": "\\text{degree }5,\\ \\text{leading coefficient }3"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p24-Q19-1": {
+   "steps": [
+    {
+     "text": "Leading terms multiplied: (d)(3d) = 3d².",
+     "latex": "(d+5)(3d-4)"
+    },
+    {
+     "text": "Expand.",
+     "latex": "3d^2-4d+15d-20=3d^2+11d-20"
+    },
+    {
+     "text": "Degree 2, leading coefficient 3.",
+     "latex": "\\deg=2,\\quad \\text{leading coefficient}=3"
+    },
+    {
+     "text": "Option b).",
+     "latex": "\\text{degree }2,\\ \\text{leading coefficient }3"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p25-Q8-1": {
+   "steps": [
+    {
+     "text": "Multiply the leading terms: (2x)(4x²) = 8x³.",
+     "latex": "(2x-1)(4x^2+3)"
+    },
+    {
+     "text": "Expand to confirm.",
+     "latex": "8x^3-4x^2+6x-3"
+    },
+    {
+     "text": "Degree 3, leading coefficient 8.",
+     "latex": "\\deg=3,\\quad \\text{leading coefficient}=8"
+    },
+    {
+     "text": "Option b).",
+     "latex": "\\text{degree }3,\\ \\text{leading coefficient }8"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p25-Q9-1": {
+   "steps": [
+    {
+     "text": "Only whole-number exponents appear, so it is a polynomial in one variable.",
+     "latex": "-5x^5+3x^3-8"
+    },
+    {
+     "text": "Highest power 5: degree 5.",
+     "latex": "\\deg=5"
+    },
+    {
+     "text": "Leading coefficient is −5.",
+     "latex": "\\text{leading coefficient}=-5"
+    },
+    {
+     "text": "Option b).",
+     "latex": "\\text{degree }5,\\ \\text{leading coefficient }-5"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p25-Q10-1": {
+   "steps": [
+    {
+     "text": "Standard form (decreasing powers).",
+     "latex": "7y^6-y^5+5y^2-3y+18"
+    },
+    {
+     "text": "Highest power 6: degree 6.",
+     "latex": "\\deg=6"
+    },
+    {
+     "text": "The coefficient of y⁶ is 7.",
+     "latex": "\\text{leading coefficient}=7"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\text{degree }6,\\ \\text{leading coefficient }7"
+    }
+   ],
+   "verified": true
+  }
+ }
+}
