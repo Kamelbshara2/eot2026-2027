@@ -103,7 +103,7 @@ test('11A oblique-asymptote questions: no real zeros means the blank asks for th
   for (const id of Object.keys(q).filter(k => k.startsWith('11A-Q23'))) for (const p of q[id].parts) assert(p.answer.steps?.length >= 2, `${id} ${p.id}`);
 });
 
-for (const c of ['11A', '12G', '12A']) test(`${c}: every question has a full worked solution (every MCQ and every written part)`, () => {
+for (const c of ['11A', '12G', '12A', '11G']) test(`${c}: every question has a full worked solution (every MCQ and every written part)`, () => {
   for (const q of load(c).questions) {
     if (q.type === 'mcq') assert(q.answer.steps?.length >= 2, q.id);
     else for (const p of q.parts) assert(p.answer.steps?.length >= 1, `${q.id} ${p.id}`);
@@ -118,4 +118,13 @@ test('12A reference answers that differentiated the wrong function are corrected
   const q = Object.fromEntries(load('12A').questions.map(q => [q.id, q]));
   assert.match(q['12A-p63-Q4-1'].parts[0].answer.model_answer_and_marking, /2t−8sin\(8t\)/);
   assert.match(q['12A-p64-Q8-1'].parts[0].answer.model_answer_and_marking, /x²sin⁴\(2x\)/);
+});
+
+test('every worked-solution step and every option renders with KaTeX on all seven classes', async () => {
+  const {bankMath} = await import('../lib/exam-bank-math.js');
+  const {normalizeStudyMath} = await import('../lib/study-math.js');
+  for (const c of ['9G3', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
+    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex)].filter(Boolean);
+    for (const l of tex) assert(!/katex-error/.test(bankMath(normalizeStudyMath(l))), `${q.id}: ${l}`);
+  }
 });

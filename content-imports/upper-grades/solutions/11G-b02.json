@@ -1,0 +1,183 @@
+{
+ "class": "11G",
+ "items": {
+  "11G-p13-15b": {
+   "steps": [
+    {
+     "text": "The height a is opposite the 35° angle; 200 m is adjacent.",
+     "latex": "\\tan35^\\circ=\\dfrac{a}{200}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "a=200\\tan35^\\circ\\approx140.04"
+    },
+    {
+     "text": "Nearest metre: option 1 (A).",
+     "latex": "140\\ \\text{m}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p13-16a": {
+   "steps": [
+    {
+     "text": "List every (Saturday, Sunday) pair; each day can be black (B) or red (R).",
+     "latex": "2\\times2=4\\ \\text{outcomes}"
+    },
+    {
+     "text": "Sample space.",
+     "latex": "S=\\{RR,\\ RB,\\ BR,\\ BB\\}"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "S=\\{RR,RB,BR,BB\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p13-16b": {
+   "steps": [
+    {
+     "text": "Two projects, each red (R) or yellow (Y): 2 × 2 outcomes.",
+     "latex": "2\\times2=4"
+    },
+    {
+     "text": "Organised list.",
+     "latex": "S=\\{RY,\\ RR,\\ YR,\\ YY\\}"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "S=\\{RY,RR,YR,YY\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p14-17a": {
+   "steps": [
+    {
+     "text": "A die has six equally likely faces.",
+     "latex": "S=\\{1,2,3,4,5,6\\}"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "\\{1,2,3,4,5,6\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p14-17b": {
+   "steps": [
+    {
+     "text": "Prime numbers from 1 to 6 (1 is not prime).",
+     "latex": "\\{2,3,5\\}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "\\{2,3,5\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p17-20a": {
+   "steps": [
+    {
+     "text": "The four games are independent, each won with probability ½.",
+     "latex": "P=\\left(\\tfrac12\\right)^4"
+    },
+    {
+     "text": "Evaluate.",
+     "latex": "P=\\tfrac1{16}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "\\tfrac1{16}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p17-20b": {
+   "steps": [
+    {
+     "text": "Number of ways to draw 4 of 6 names.",
+     "latex": "\\binom64=15"
+    },
+    {
+     "text": "Ways to get all 3 directors and 1 of 3 assistants.",
+     "latex": "\\binom33\\binom31=3"
+    },
+    {
+     "text": "Probability.",
+     "latex": "P=\\dfrac{3}{15}=\\dfrac15"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "\\tfrac15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p18-20c": {
+   "steps": [
+    {
+     "text": "Dependent events (no replacement): multiply, reducing the totals after each draw.",
+     "latex": "P(A\\cap B)=P(A)\\cdot P(B\\mid A)"
+    },
+    {
+     "text": "13 hearts in 52 cards; one fewer each time.",
+     "latex": "P=\\dfrac{13}{52}\\cdot\\dfrac{12}{51}\\cdot\\dfrac{11}{50}=\\dfrac{1716}{132600}"
+    },
+    {
+     "text": "As a percentage.",
+     "latex": "P\\approx0.0129=1.29\\%"
+    },
+    {
+     "text": "Option 4 (D).",
+     "latex": "1.29\\%"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p16-19a": {
+   "steps": [
+    {
+     "text": "Dependent events (no replacement): multiply, reducing the totals after each draw.",
+     "latex": "P(A\\cap B)=P(A)\\cdot P(B\\mid A)"
+    },
+    {
+     "text": "5 of 10 slices are mushroom; after Tessa takes one, 4 of 9 remain.",
+     "latex": "P=\\dfrac5{10}\\cdot\\dfrac49=\\dfrac{20}{90}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "P=\\dfrac29"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "\\tfrac29"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p16-19b": {
+   "steps": [
+    {
+     "text": "Dependent events (no replacement): multiply, reducing the totals after each draw.",
+     "latex": "P(A\\cap B)=P(A)\\cdot P(B\\mid A)"
+    },
+    {
+     "text": "5 of 20 got all correct; choose 3 without replacement.",
+     "latex": "P=\\dfrac5{20}\\cdot\\dfrac4{19}\\cdot\\dfrac3{18}=\\dfrac{60}{6840}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "P=\\dfrac1{114}"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "\\tfrac1{114}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

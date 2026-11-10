@@ -1,0 +1,361 @@
+{
+ "class": "11G",
+ "items": {
+  "11G-p18-21a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Similar polygons: corresponding sides are proportional.",
+       "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+      },
+      {
+       "text": "Match corresponding sides from the figure.",
+       "latex": "\\dfrac{x+1}{3x+1}=\\dfrac{8}{20}"
+      },
+      {
+       "text": "Cross-multiply.",
+       "latex": "20(x+1)=8(3x+1)\\Rightarrow20x+20=24x+8"
+      },
+      {
+       "text": "Solve.",
+       "latex": "4x=12\\Rightarrow x=3"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p18-21b": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Similar polygons: corresponding sides are proportional.",
+       "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+      },
+      {
+       "text": "Match corresponding sides.",
+       "latex": "\\dfrac{8x-1}{3x-1}=\\dfrac{12}{4}=3"
+      },
+      {
+       "text": "Cross-multiply.",
+       "latex": "8x-1=9x-3"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p19-21c": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Similar polygons: corresponding sides are proportional.",
+       "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+      },
+      {
+       "text": "Match corresponding sides.",
+       "latex": "\\dfrac23=\\dfrac{x+3}{2x+2}"
+      },
+      {
+       "text": "Cross-multiply.",
+       "latex": "2(2x+2)=3(x+3)\\Rightarrow4x+4=3x+9"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=5"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p19-21d": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Similar polygons: corresponding sides are proportional.",
+       "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+      },
+      {
+       "text": "Match corresponding sides.",
+       "latex": "\\dfrac{x+5}{15}=\\dfrac45"
+      },
+      {
+       "text": "Cross-multiply.",
+       "latex": "5(x+5)=60\\Rightarrow x+5=12"
+      },
+      {
+       "text": "Solve.",
+       "latex": "x=7"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p19-22a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Triangle Proportionality: a line parallel to one side divides the other two sides proportionally.",
+       "latex": "\\dfrac{9}{ED}=\\dfrac{6}{4}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "6\\,ED=36\\Rightarrow ED=6"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p19-22b": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Parallel line: corresponding parts of the whole triangle are proportional.",
+       "latex": "\\dfrac{AE}{AE+5}=\\dfrac{12}{16}"
+      },
+      {
+       "text": "Cross-multiply.",
+       "latex": "16AE=12AE+60"
+      },
+      {
+       "text": "Solve.",
+       "latex": "4AE=60\\Rightarrow AE=15"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p20-22c": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "MN = MP − NP.",
+       "latex": "MN=18-6=12"
+      },
+      {
+       "text": "Compare the ratios on both sides.",
+       "latex": "\\dfrac{MN}{MP}=\\dfrac{12}{18}=\\dfrac23,\\qquad\\dfrac{MR}{MQ}=\\dfrac{16}{24}=\\dfrac23"
+      },
+      {
+       "text": "Equal ratios: by the converse of the Triangle Proportionality Theorem NR ∥ PQ.",
+       "latex": "NR\\parallel PQ"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p20-23a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "The leg 5 is opposite the 59° angle: find the other leg with tan and the hypotenuse with sin.",
+       "latex": "b=\\dfrac{5}{\\tan59^\\circ},\\quad c=\\dfrac{5}{\\sin59^\\circ}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "b\\approx3.00,\\quad c\\approx5.83"
+      },
+      {
+       "text": "Perimeter.",
+       "latex": "P=5+3.00+5.83\\approx13.84\\ \\text{in}"
+      },
+      {
+       "text": "Area = ½ × leg × leg.",
+       "latex": "A=\\tfrac12(5)(3.00)\\approx7.51\\ \\text{in}^2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p21-23b": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Other leg with tan and hypotenuse with cos (12 is adjacent to 18°).",
+       "latex": "b=12\\tan18^\\circ,\\quad c=\\dfrac{12}{\\cos18^\\circ}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "b\\approx3.90,\\quad c\\approx12.62"
+      },
+      {
+       "text": "Perimeter.",
+       "latex": "P=12+3.90+12.62\\approx28.52\\ \\text{cm}"
+      },
+      {
+       "text": "Area.",
+       "latex": "A=\\tfrac12(12)(3.90)\\approx23.39\\ \\text{cm}^2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p21-23c": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Hypotenuse 3.5 and angle 48°: legs with sin and cos.",
+       "latex": "a=3.5\\sin48^\\circ,\\quad b=3.5\\cos48^\\circ"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "a\\approx2.60,\\quad b\\approx2.34"
+      },
+      {
+       "text": "Perimeter.",
+       "latex": "P=3.5+2.60+2.34\\approx8.44\\ \\text{ft}"
+      },
+      {
+       "text": "Area.",
+       "latex": "A=\\tfrac12(2.60)(2.34)\\approx3.05\\ \\text{ft}^2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p22-24a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Rise above eye level.",
+       "latex": "102-6=96\\ \\text{ft}"
+      },
+      {
+       "text": "96 is opposite the 30° angle of elevation and the line of sight is the hypotenuse.",
+       "latex": "\\sin30^\\circ=\\dfrac{96}{d}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "d=\\dfrac{96}{0.5}=192\\ \\text{ft}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p22-24b": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Height is opposite the 35° angle, 200 m is adjacent.",
+       "latex": "\\tan35^\\circ=\\dfrac{h}{200}"
+      },
+      {
+       "text": "Solve.",
+       "latex": "h=200\\tan35^\\circ\\approx140.04\\approx140\\ \\text{m}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p23-25a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Box B: 2% of 150 chips are defective.",
+       "latex": "150\\times0.02=3"
+      },
+      {
+       "text": "Without replacement the second draw depends on the first.",
+       "latex": "P=\\dfrac{3}{150}\\cdot\\dfrac{2}{149}"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "P=\\dfrac{6}{22350}=\\dfrac1{3725}\\approx0.00027"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p24-25c": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Probability of travelling at all.",
+       "latex": "P(D\\cup F)=1-0.1=0.9"
+      },
+      {
+       "text": "Addition rule.",
+       "latex": "0.9=0.6+P(F)-0.2\\Rightarrow P(F)=0.5"
+      },
+      {
+       "text": "Conditional probability.",
+       "latex": "P(F\\mid D)=\\dfrac{P(F\\cap D)}{P(D)}=\\dfrac{0.2}{0.6}=\\dfrac13"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p24-26a": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Not mutually exclusive: subtract the overlap.",
+       "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+      },
+      {
+       "text": "Counts: 5 round, 4 orange, 2 both out of 9.",
+       "latex": "\\dfrac59+\\dfrac49-\\dfrac29"
+      },
+      {
+       "text": "Result.",
+       "latex": "\\dfrac79"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11G-p24-26b": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Addition rule with overlap.",
+       "latex": "P(M\\cup I)=P(M)+P(I)-P(M\\cap I)"
+      },
+      {
+       "text": "Counts: 3 male, 6 international, 2 both out of 8.",
+       "latex": "\\dfrac38+\\dfrac68-\\dfrac28"
+      },
+      {
+       "text": "Result.",
+       "latex": "\\dfrac78"
+      }
+     ]
+    }
+   },
+   "verified": true
+  }
+ }
+}

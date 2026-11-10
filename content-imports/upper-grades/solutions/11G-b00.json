@@ -1,0 +1,302 @@
+{
+ "class": "11G",
+ "items": {
+  "11G-p02-1c": {
+   "steps": [
+    {
+     "text": "A dilation centred at the origin multiplies both coordinates by k = ½.",
+     "latex": "(x,y)\\to\\left(\\tfrac12x,\\tfrac12y\\right)"
+    },
+    {
+     "text": "Apply to each vertex.",
+     "latex": "T\\prime(-2,-2.5),\\ R\\prime(0,3),\\ S\\prime(2,1.5)"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "T\\prime(-2,-2.5),\\ R\\prime(0,3),\\ S\\prime(2,1.5)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p03-2a": {
+   "steps": [
+    {
+     "text": "Scale: 4 cm on the map is 20 m, so 1 cm represents 5 m.",
+     "latex": "\\dfrac{20\\text{ m}}{4\\text{ cm}}=5\\ \\text{m/cm}"
+    },
+    {
+     "text": "Map length of the round trip.",
+     "latex": "9+8+4=21\\ \\text{cm}"
+    },
+    {
+     "text": "Actual distance.",
+     "latex": "21\\times5=105\\ \\text{m}=10500\\ \\text{cm}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "105\\ \\text{m}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p03-2b": {
+   "steps": [
+    {
+     "text": "Scale: 8 cm is 4 km, so 1 cm represents 0.5 km.",
+     "latex": "\\dfrac{4}{8}=0.5\\ \\text{km/cm}"
+    },
+    {
+     "text": "Map length of the trip.",
+     "latex": "2+8+7=17\\ \\text{cm}"
+    },
+    {
+     "text": "Actual distance.",
+     "latex": "17\\times0.5=8.5\\ \\text{km}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "8.5\\ \\text{km}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p04-3a": {
+   "steps": [
+    {
+     "text": "PQ ∥ JK (arrow marks), so corresponding angles are equal.",
+     "latex": "\\angle LPQ=\\angle LJK,\\ \\angle LQP=\\angle LKJ"
+    },
+    {
+     "text": "Both triangles share angle L; two equal angles give AA similarity.",
+     "latex": "\\triangle KLJ\\sim\\triangle QLP\\ \\text{(AA)}"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "\\text{AA}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p04-3b": {
+   "steps": [
+    {
+     "text": "Third angle of each right triangle.",
+     "latex": "\\angle A=180-90-44=46^\\circ,\\quad \\angle G=180-90-47=43^\\circ"
+    },
+    {
+     "text": "The acute angles are 44°, 46° and 43°, 47°: no pair matches.",
+     "latex": "44^\\circ,46^\\circ\\ne43^\\circ,47^\\circ"
+    },
+    {
+     "text": "Not similar: option 4 (D).",
+     "latex": "\\text{not similar}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p04-4a": {
+   "steps": [
+    {
+     "text": "Similar triangles: corresponding sides are proportional.",
+     "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+    },
+    {
+     "text": "Corresponding sides (vertical angles at B, right angles): AC ↔ DE and BC ↔ BE.",
+     "latex": "\\dfrac{x+1}{x+5}=\\dfrac{12}{15}"
+    },
+    {
+     "text": "Cross-multiply.",
+     "latex": "15x+15=12x+60\\Rightarrow x=15"
+    },
+    {
+     "text": "AC = x + 1.",
+     "latex": "AC=16"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "16"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p05-4b": {
+   "steps": [
+    {
+     "text": "Similar triangles: corresponding sides are proportional.",
+     "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+    },
+    {
+     "text": "JK ∥ MN gives JL/LM = JK/MN.",
+     "latex": "\\dfrac{x+18}{x-3}=\\dfrac{16}{4}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x+18=4x-12\\Rightarrow x=10"
+    },
+    {
+     "text": "JL = x + 18.",
+     "latex": "JL=28"
+    },
+    {
+     "text": "Option 4 (D).",
+     "latex": "28"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p05-4c": {
+   "steps": [
+    {
+     "text": "Similar triangles: corresponding sides are proportional.",
+     "latex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}"
+    },
+    {
+     "text": "HG ∥ FD with HG = 6, FD = 12: scale factor 1/2.",
+     "latex": "\\dfrac{EH}{EF}=\\dfrac{6}{12}=\\dfrac12"
+    },
+    {
+     "text": "EF = EH + 9.",
+     "latex": "\\dfrac{EH}{EH+9}=\\dfrac12\\Rightarrow EH=9"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "EH=9"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p05-5": {
+   "steps": [
+    {
+     "text": "Compare sides in order from shortest to longest.",
+     "latex": "\\dfrac{8}{6}=\\dfrac{12}{9}=\\dfrac{16}{12}=\\dfrac43"
+    },
+    {
+     "text": "All three ratios are equal: SSS similarity.",
+     "latex": "\\text{SSS}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "\\text{SSS}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p06-6a": {
+   "steps": [
+    {
+     "text": "Three parallel lines cut congruent segments on one transversal (marked), so they cut congruent segments on every transversal.",
+     "latex": "2x+1=x+7,\\quad 3y-8=y+5"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=6,\\quad y=6.5"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "x=6,\\ y=6.5"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p06-6b": {
+   "steps": [
+    {
+     "text": "The marked segment is a midsegment: it bisects both sides.",
+     "latex": "x+3=\\tfrac32x+2,\\quad 2y-1=3y-5"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=2,\\quad y=4"
+    },
+    {
+     "text": "Option 4 (D).",
+     "latex": "x=2,\\ y=4"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p06-7a": {
+   "steps": [
+    {
+     "text": "In similar triangles corresponding segments (altitude/median) are proportional to corresponding sides.",
+     "latex": "\\dfrac{MN}{XY}=\\dfrac{PF}{ZG}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{18}{27}=\\dfrac{x}{12}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=8"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "x=8"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p07-8a": {
+   "steps": [
+    {
+     "text": "Geometric mean of a and b is √(ab).",
+     "latex": "\\sqrt{5\\times45}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "\\sqrt{225}=15"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p07-8b": {
+   "steps": [
+    {
+     "text": "Geometric mean.",
+     "latex": "\\sqrt{4\\times25}=\\sqrt{100}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "10"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p07-9a": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem: x is the hypotenuse, legs 3 and 3.",
+     "latex": "x^2=3^2+3^2=18"
+    },
+    {
+     "text": "Take the positive square root.",
+     "latex": "x=\\sqrt{18}=3\\sqrt2"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "3\\sqrt2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  }
+ }
+}

@@ -2,8 +2,8 @@
  "structure": [],
  "equivalent_options": [],
  "key_mismatch": [],
- "key_verified": 59,
- "unverified": 557,
+ "key_verified": 60,
+ "unverified": 556,
  "numeric_key_checked": 1,
  "frq_consistency": [
   {
@@ -53,6 +53,24 @@
    "id": "11A-Q22-added-03",
    "blank": "20",
    "key": "k=ln2/10; M(t)=140e^(−t ln2/10). After30 days=17.5g. Quarter remains after20days."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q23-13",
+   "blank": "0",
+   "key": "No real zeros; vertical x=−2; slant y=6x−8; y-intercept 1. No hole."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q23-15",
+   "blank": "0",
+   "key": "No real zeros; vertical x=1/2; slant y=3x/2+3/4; y-intercept −8. No hole."
+  },
+  {
+   "class": "11A",
+   "id": "11A-Q23-16",
+   "blank": "0",
+   "key": "No real zeros; vertical x=−4/3; slant y=2x/3−8/9; y-intercept 5/4. No hole."
   },
   {
    "class": "12G",
@@ -116,7 +134,7 @@
   },
   "11A": {
    "mcq": 122,
-   "verified_independently": 35
+   "verified_independently": 36
   },
   "12G": {
    "mcq": 246,
