@@ -9128,7 +9128,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(3 c^{2} + 4 c\\right) - 15",
+              "math": "3 c^{2} + 4 c - 15",
               "text": "Use FOIL and combine like terms: 3·c² + 4·c - 15.",
               "answer_text": ""
             }
@@ -9272,7 +9272,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(2 g^{2} + 15 g\\right) - 50",
+              "math": "2 g^{2} + 15 g - 50",
               "text": "Use FOIL and combine like terms: 2·g² + 15·g - 50.",
               "answer_text": ""
             }
@@ -9424,7 +9424,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(30 a^{2} + 43 a\\right) + 15",
+              "math": "30 a^{2} + 43 a + 15",
               "text": "Use FOIL and combine like terms: 30·a² + 43·a + 15.",
               "answer_text": ""
             }
@@ -9574,7 +9574,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(24 x^{2} + 18 x\\right) + 3",
+              "math": "24 x^{2} + 18 x + 3",
               "text": "Use FOIL and combine like terms: 24·x² + 18·x + 3.",
               "answer_text": ""
             }
@@ -9724,7 +9724,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(15 y^{2} - 17 y\\right) + 4",
+              "math": "15 y^{2} - 17 y + 4",
               "text": "Use FOIL and combine like terms: 15·y² - 17·y + 4.",
               "answer_text": ""
             }
@@ -9876,7 +9876,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(24 d^{2} - 62 d\\right) + 35",
+              "math": "24 d^{2} - 62 d + 35",
               "text": "Use FOIL and combine like terms: 24·d² - 62·d + 35.",
               "answer_text": ""
             }
@@ -10008,7 +10008,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(a^{2} + 20 a\\right) + 100",
+              "math": "a^{2} + 20 a + 100",
               "text": "Expand both factors, including 2ab: a² + 20·a + 100.",
               "answer_text": ""
             }
@@ -10134,7 +10134,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(b^{2} - 12 b\\right) + 36",
+              "math": "b^{2} - 12 b + 36",
               "text": "Expand both factors, including 2ab: b² - 12·b + 36.",
               "answer_text": ""
             }
@@ -10254,7 +10254,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(n^{2} + 14 n\\right) + 49",
+              "math": "n^{2} + 14 n + 49",
               "text": "Expand both factors, including 2ab: n² + 14·n + 49.",
               "answer_text": ""
             }
@@ -10374,7 +10374,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(x^{2} + 12 x\\right) + 36",
+              "math": "x^{2} + 12 x + 36",
               "text": "Expand both factors, including 2ab: x² + 12·x + 36.",
               "answer_text": ""
             }
@@ -10494,7 +10494,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(m^{2} - 16 m\\right) + 64",
+              "math": "m^{2} - 16 m + 64",
               "text": "Expand both factors, including 2ab: m² - 16·m + 64.",
               "answer_text": ""
             }
@@ -10630,7 +10630,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(4 y^{2} - 36 y\\right) + 81",
+              "math": "4 y^{2} - 36 y + 81",
               "text": "Expand both factors, including 2ab: 4·y² - 36·y + 81.",
               "answer_text": ""
             }
@@ -12164,7 +12164,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "2 a b \\left(- 5 b + \\left(2 a b + a\\right)\\right)",
+              "math": "2 a b \\left(- 5 b + 2 a b + a\\right)",
               "text": "Take out the GCF: 2·a·b·(2·a·b + a - 5·b). Expanding restores the original polynomial.",
               "answer_text": ""
             }
@@ -12412,7 +12412,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "5 c^{2} v \\left(\\left(v^{2} - 3 v\\right) + 1\\right)",
+              "math": "5 c^{2} v \\left(v^{2} - 3 v + 1\\right)",
               "text": "Take out the GCF: 5·c²·v·(v² - 3·v + 1). Expanding restores the original polynomial.",
               "answer_text": ""
             }
@@ -29202,7 +29202,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(11 x^{2} + 2 x\\right) - 7",
+              "math": "11 x^{2} + 2 x - 7",
               "text": "Distribute any subtraction sign, then combine like powers.",
               "answer_text": ""
             }
@@ -29342,7 +29342,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(3 c^{2} + 4 c\\right) - 15",
+              "math": "3 c^{2} + 4 c - 15",
               "text": "Multiply every term by both terms of the other binomial and combine the middle products.",
               "answer_text": ""
             }
@@ -29486,7 +29486,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(2 g^{2} + 15 g\\right) - 50",
+              "math": "2 g^{2} + 15 g - 50",
               "text": "Multiply every term by both terms of the other binomial and combine the middle products.",
               "answer_text": ""
             }
@@ -29638,7 +29638,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(30 a^{2} + 43 a\\right) + 15",
+              "math": "30 a^{2} + 43 a + 15",
               "text": "Multiply every term by both terms of the other binomial and combine the middle products.",
               "answer_text": ""
             }
@@ -29788,7 +29788,7 @@
           "solutions": [
             {
               "part": "Answer",
-              "math": "\\left(24 x^{2} + 18 x\\right) + 3",
+              "math": "24 x^{2} + 18 x + 3",
               "text": "Multiply every term by both terms of the other binomial and combine the middle products.",
               "answer_text": ""
             }
