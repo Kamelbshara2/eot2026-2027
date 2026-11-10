@@ -1,0 +1,183 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p19-Q1-1": {
+   "steps": [
+    {
+     "text": "Rules linking f and f′: f′ > 0 where f increases, f′ < 0 where f decreases, f′ = 0 at every turning point (local max/min) of f.",
+     "latex": "f\\uparrow\\iff f\\prime>0,\\quad f\\downarrow\\iff f\\prime<0"
+    },
+    {
+     "text": "f decreases for x < 0, turns at x = 0 and increases for x > 0.",
+     "latex": "f\\prime<0\\ (x<0),\\ f\\prime(0)=0,\\ f\\prime>0\\ (x>0)"
+    },
+    {
+     "text": "For a parabola f = ax² the derivative is the line 2ax through the origin with positive slope: graph B.",
+     "latex": "f\\prime(x)=2ax"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12A-p21-Q3-1": {
+   "steps": [
+    {
+     "text": "Rules linking f and f′: f′ > 0 where f increases, f′ < 0 where f decreases, f′ = 0 at every turning point (local max/min) of f.",
+     "latex": "f\\uparrow\\iff f\\prime>0,\\quad f\\downarrow\\iff f\\prime<0"
+    },
+    {
+     "text": "f has minima at x ≈ ±1.4 and a maximum at x = 0, so f′ = 0 at these three x-values.",
+     "latex": "f\\prime(-1.4)=f\\prime(0)=f\\prime(1.4)=0"
+    },
+    {
+     "text": "Signs: f′ < 0 far left, > 0 between −1.4 and 0, < 0 between 0 and 1.4, > 0 far right: a cubic starting low and ending high.",
+     "latex": "-,\\ +,\\ -,\\ +"
+    },
+    {
+     "text": "Graph B.",
+     "latex": "\\text{graph B}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12A-p22-Q4-1": {
+   "steps": [
+    {
+     "text": "Rules linking f and f′: f′ > 0 where f increases, f′ < 0 where f decreases, f′ = 0 at every turning point (local max/min) of f.",
+     "latex": "f\\uparrow\\iff f\\prime>0,\\quad f\\downarrow\\iff f\\prime<0"
+    },
+    {
+     "text": "f′ is a line through the origin: f′ < 0 for x < 0 and f′ > 0 for x > 0.",
+     "latex": "f\\prime(x)=kx,\\ k>0"
+    },
+    {
+     "text": "So f decreases then increases with a minimum at x = 0: a parabola opening up.",
+     "latex": "f(x)=\\tfrac{k}{2}x^2+C"
+    },
+    {
+     "text": "Graph A.",
+     "latex": "\\text{graph A}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12A-p23-Q5-1": {
+   "steps": [
+    {
+     "text": "Rules linking f and f′: f′ > 0 where f increases, f′ < 0 where f decreases, f′ = 0 at every turning point (local max/min) of f.",
+     "latex": "f\\uparrow\\iff f\\prime>0,\\quad f\\downarrow\\iff f\\prime<0"
+    },
+    {
+     "text": "f′ crosses zero three times: + then − then + then −.",
+     "latex": "+,\\ -,\\ +,\\ -"
+    },
+    {
+     "text": "So f increases, reaches a maximum, decreases to a minimum at 0, increases to a maximum, then decreases: two peaks with a dip between.",
+     "latex": "\\text{max, min, max}"
+    },
+    {
+     "text": "Graph B.",
+     "latex": "\\text{graph B}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12A-p24-Q6-1": {
+   "steps": [
+    {
+     "text": "Rules linking f and f′: f′ > 0 where f increases, f′ < 0 where f decreases, f′ = 0 at every turning point (local max/min) of f.",
+     "latex": "f\\uparrow\\iff f\\prime>0,\\quad f\\downarrow\\iff f\\prime<0"
+    },
+    {
+     "text": "f′ is a parabola with two zeros: + then − then +.",
+     "latex": "+,\\ -,\\ +"
+    },
+    {
+     "text": "So f increases to a local maximum, decreases to a local minimum, then increases: a cubic shape.",
+     "latex": "\\text{max then min}"
+    },
+    {
+     "text": "Graph D.",
+     "latex": "\\text{graph D}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12A-p25-Q29-1": {
+   "steps": [
+    {
+     "text": "A function is not differentiable at a corner/cusp (e.g. where an absolute value expression is 0) or where it is not defined/continuous.",
+     "latex": "\\text{corner, cusp, discontinuity}"
+    },
+    {
+     "text": "|x| has a corner where x = 0; |x − 2| has a corner where x = 2.",
+     "latex": "x=0,\\quad x=2"
+    },
+    {
+     "text": "Option C).",
+     "latex": "x=0\\ \\text{and}\\ x=2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p25-Q29-2": {
+   "steps": [
+    {
+     "text": "A function is not differentiable at a corner/cusp (e.g. where an absolute value expression is 0) or where it is not defined/continuous.",
+     "latex": "\\text{corner, cusp, discontinuity}"
+    },
+    {
+     "text": "|x² − 4x| has corners where x² − 4x = 0 and changes sign.",
+     "latex": "x(x-4)=0\\Rightarrow x=0,\\ 4"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=0\\ \\text{and}\\ x=4"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p25-Q30-1": {
+   "steps": [
+    {
+     "text": "A function is not differentiable at a corner/cusp (e.g. where an absolute value expression is 0) or where it is not defined/continuous.",
+     "latex": "\\text{corner, cusp, discontinuity}"
+    },
+    {
+     "text": "g(x) = e^(−2/x) is not defined at x = 0 (division by zero), so it is not differentiable there; everywhere else it is a composition of differentiable functions.",
+     "latex": "x\\ne0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p26-Q30-1": {
+   "steps": [
+    {
+     "text": "A function is not differentiable at a corner/cusp (e.g. where an absolute value expression is 0) or where it is not defined/continuous.",
+     "latex": "\\text{corner, cusp, discontinuity}"
+    },
+    {
+     "text": "The exponent is undefined where x³ − x = 0.",
+     "latex": "x^3-x=x(x-1)(x+1)=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=-1,\\ 0,\\ 1"
+    },
+    {
+     "text": "Option C).",
+     "latex": "x=-1,\\ x=0,\\ x=1"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

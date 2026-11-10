@@ -1,0 +1,316 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p08-Q14-1": {
+   "steps": [
+    {
+     "text": "0/0: multiply by the conjugate of the denominator.",
+     "latex": "\\dfrac{2x}{3-\\sqrt{x+9}}\\cdot\\dfrac{3+\\sqrt{x+9}}{3+\\sqrt{x+9}}=\\dfrac{2x(3+\\sqrt{x+9})}{9-(x+9)}"
+    },
+    {
+     "text": "Simplify (9 − (x + 9) = −x).",
+     "latex": "\\dfrac{2x(3+\\sqrt{x+9})}{-x}=-2(3+\\sqrt{x+9})"
+    },
+    {
+     "text": "Substitute x = 0.",
+     "latex": "-2(3+3)=-12"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=-12"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p09-Q15-1": {
+   "steps": [
+    {
+     "text": "0/0: write x − 1 as a difference of squares.",
+     "latex": "x-1=(\\sqrt x-1)(\\sqrt x+1)"
+    },
+    {
+     "text": "Cancel.",
+     "latex": "\\dfrac{(\\sqrt x-1)(\\sqrt x+1)}{\\sqrt x-1}=\\sqrt x+1"
+    },
+    {
+     "text": "Substitute x = 1.",
+     "latex": "1+1=2"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p09-Q16-1": {
+   "steps": [
+    {
+     "text": "0/0: factor the difference of cubes.",
+     "latex": "x^3-64=(x-4)(x^2+4x+16)"
+    },
+    {
+     "text": "Cancel (x − 4).",
+     "latex": "x^2+4x+16"
+    },
+    {
+     "text": "Substitute x = 4.",
+     "latex": "16+16+16=48"
+    },
+    {
+     "text": "Option D).",
+     "latex": "\\lim=48"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p09-Q21-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\sqrt{x+3}"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "x+3\\ge0"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "[-3,\\infty)"
+    },
+    {
+     "text": "Option D).",
+     "latex": "[-3,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p10-Q22-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\sqrt{x^2-4}"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "x^2-4\\ge0\\iff(x-2)(x+2)\\ge0"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "(-\\infty,-2]\\cup[2,\\infty)"
+    },
+    {
+     "text": "Option C).",
+     "latex": "(-\\infty,-2]\\cup[2,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p10-Q23-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\sqrt[3]{x+2}"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "\\text{a cube root is defined for every real number}"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "(-\\infty,\\infty)"
+    },
+    {
+     "text": "Option A).",
+     "latex": "(-\\infty,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p10-Q24-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=(x-1)^{3/2}=\\left(\\sqrt{x-1}\\right)^3"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "x-1\\ge0"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "[1,\\infty)"
+    },
+    {
+     "text": "Option D).",
+     "latex": "[1,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p10-Q25-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\sin^{-1}(x+2)"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "-1\\le x+2\\le1"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "[-3,-1]"
+    },
+    {
+     "text": "Option D).",
+     "latex": "[-3,-1]"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p11-Q26-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\ln(\\sin x)"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "\\sin x>0"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "(2k\\pi,\\ \\pi+2k\\pi),\\ k\\in\\mathbb{Z}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "(2k\\pi,\\ \\pi+2k\\pi),\\ k\\in\\mathbb{Z}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p11-Q27-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\dfrac{\\sqrt{x+1}+e^x}{x^2-2}"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "x+1\\ge0\\ \\text{and}\\ x^2-2\\ne0\\ \\Rightarrow\\ x\\ge-1,\\ x\\ne\\pm\\sqrt2"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "[-1,\\sqrt2)\\cup(\\sqrt2,\\infty)"
+    },
+    {
+     "text": "Option B).",
+     "latex": "[-1,\\sqrt2)\\cup(\\sqrt2,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p11-Q28-1": {
+   "steps": [
+    {
+     "text": "A function is continuous on its domain when it is built from continuous pieces (roots, logs, inverse trig, quotients). Find where it is defined.",
+     "latex": "f(x)=\\dfrac{\\ln(x^2-1)}{\\sqrt{x^2-2x}}"
+    },
+    {
+     "text": "Condition for the domain.",
+     "latex": "x^2-1>0\\ \\text{and}\\ x^2-2x>0\\ \\Rightarrow\\ (|x|>1)\\ \\text{and}\\ (x<0\\ \\text{or}\\ x>2)"
+    },
+    {
+     "text": "Solve the condition.",
+     "latex": "(-\\infty,-1)\\cup(2,\\infty)"
+    },
+    {
+     "text": "Option A).",
+     "latex": "(-\\infty,-1)\\cup(2,\\infty)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p12-Q1-1": {
+   "steps": [
+    {
+     "text": "Continuity at x = 2 means the limit equals the function value.",
+     "latex": "\\lim_{x\\to2}h(x)=h(2)"
+    },
+    {
+     "text": "Then each one-sided limit also equals h(2).",
+     "latex": "\\lim_{x\\to2^-}h(x)=h(2)=-9"
+    },
+    {
+     "text": "Option C).",
+     "latex": "-9"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p12-Q3-1": {
+   "steps": [
+    {
+     "text": "A rational function is continuous wherever its denominator is not zero.",
+     "latex": "mx+2\\ne0\\ \\text{for all }x"
+    },
+    {
+     "text": "If m ≠ 0 the denominator is 0 at x = −2/m, giving a discontinuity.",
+     "latex": "x=-\\tfrac2m"
+    },
+    {
+     "text": "So m must be 0 (then f(x) = (9 − x²)/2 is a polynomial).",
+     "latex": "m=0"
+    },
+    {
+     "text": "Option B).",
+     "latex": "m=0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p13-Q4-1": {
+   "steps": [
+    {
+     "text": "For x > 2 cancel (x − 2).",
+     "latex": "f(x)=2x+1\\ (x>2)"
+    },
+    {
+     "text": "Right-hand limit at 2.",
+     "latex": "\\lim_{x\\to2^+}(2x+1)=5"
+    },
+    {
+     "text": "Continuity requires f(2) = k to equal this limit.",
+     "latex": "k=5"
+    },
+    {
+     "text": "Option D).",
+     "latex": "k=5"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p13-Q5-1": {
+   "steps": [
+    {
+     "text": "For x ≠ 1 factor and cancel.",
+     "latex": "\\dfrac{(x+3)(x-1)}{x-1}=x+3"
+    },
+    {
+     "text": "Limit at x = 1.",
+     "latex": "\\lim_{x\\to1}(x+3)=4"
+    },
+    {
+     "text": "Continuity needs g(1) = a = 4.",
+     "latex": "a=4"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\lim=4"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

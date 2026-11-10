@@ -1,0 +1,225 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p42-Q16-1": {
+   "steps": [
+    {
+     "text": "Product Rule for 4x² · (sin x sec 3x).",
+     "latex": "f\\prime=8x\\sin x\\sec3x+4x^2\\left(\\sin x\\sec3x\\right)\\prime"
+    },
+    {
+     "text": "Product and Chain Rules: (sec 3x)′ = 3 sec 3x tan 3x.",
+     "latex": "\\left(\\sin x\\sec3x\\right)\\prime=\\cos x\\sec3x+\\sin x\\sec3x\\tan3x\\,(3)"
+    },
+    {
+     "text": "Option D).",
+     "latex": "4 x^{2} \\left(3 \\sin{\\left(x \\right)} \\tan{\\left(3 x \\right)} \\sec{\\left(3 x \\right)} + \\cos{\\left(x \\right)} \\sec{\\left(3 x \\right)}\\right) + 8 x \\sin{\\left(x \\right)} \\sec{\\left(3 x \\right)}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p43-Q29-1": {
+   "steps": [
+    {
+     "text": "A horizontal tangent has slope 0: solve f′(x) = 0.",
+     "latex": "f\\prime(x)=0"
+    },
+    {
+     "text": "Product Rule with (e^{kx})′ = k e^{kx}.",
+     "latex": "f\\prime(x)=- \\left(2 x - 1\\right) e^{- 2 x}"
+    },
+    {
+     "text": "e^{kx} is never 0, so set the other factor to 0.",
+     "latex": "1-2x=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=\\frac{1}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p44-Q29-1": {
+   "steps": [
+    {
+     "text": "A horizontal tangent has slope 0: solve f′(x) = 0.",
+     "latex": "f\\prime(x)=0"
+    },
+    {
+     "text": "Product Rule with (e^{kx})′ = k e^{kx}.",
+     "latex": "f\\prime(x)=- \\left(3 x - 1\\right) e^{- 3 x}"
+    },
+    {
+     "text": "e^{kx} is never 0, so set the other factor to 0.",
+     "latex": "1-3x=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=\\frac{1}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p44-Q30-1": {
+   "steps": [
+    {
+     "text": "A horizontal tangent has slope 0: solve f′(x) = 0.",
+     "latex": "f\\prime(x)=0"
+    },
+    {
+     "text": "Product Rule with (e^{kx})′ = k e^{kx}.",
+     "latex": "f\\prime(x)=- 2 x \\left(x - 1\\right) e^{- 2 x}"
+    },
+    {
+     "text": "e^{kx} is never 0, so set the other factor to 0.",
+     "latex": "2x-2x^2=2x(1-x)=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=0,\\ 1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p44-Q30-2": {
+   "steps": [
+    {
+     "text": "A horizontal tangent has slope 0: solve f′(x) = 0.",
+     "latex": "f\\prime(x)=0"
+    },
+    {
+     "text": "Product Rule with (e^{kx})′ = k e^{kx}.",
+     "latex": "f\\prime(x)=- x \\left(3 x - 2\\right) e^{- 3 x}"
+    },
+    {
+     "text": "e^{kx} is never 0, so set the other factor to 0.",
+     "latex": "2x-3x^2=x(2-3x)=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "x=0,\\ \\frac{2}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p45-Q20-1": {
+   "steps": [
+    {
+     "text": "Quotient Rule with (√(ln x))′ = 1/(2x√(ln x)).",
+     "latex": "f\\prime=\\dfrac{\\frac{1}{2x\\sqrt{\\ln x}}\\cdot x-\\sqrt{\\ln x}}{x^2}"
+    },
+    {
+     "text": "Multiply top and bottom by 2√(ln x).",
+     "latex": "f\\prime=\\dfrac{1-2\\ln x}{2x^2\\sqrt{\\ln x}}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{1 - 2 \\log{\\left(x \\right)}}{2 x^{2} \\sqrt{\\log{\\left(x \\right)}}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p45-Q20-2": {
+   "steps": [
+    {
+     "text": "Simplify first: ln √t = ½ ln t.",
+     "latex": "g(t)=\\dfrac{\\ln t}{2t}"
+    },
+    {
+     "text": "Quotient Rule.",
+     "latex": "g\\prime(t)=\\dfrac12\\cdot\\dfrac{\\frac1t\\cdot t-\\ln t}{t^2}=\\dfrac{1-\\ln t}{2t^2}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{1 - \\log{\\left(t \\right)}}{2 t^{2}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p46-Q21-1": {
+   "steps": [
+    {
+     "text": "Product Rule.",
+     "latex": "h\\prime=e^x\\ln x+e^x\\cdot\\dfrac1x"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\left(\\log{\\left(x \\right)} + \\frac{1}{x}\\right) e^{x}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p46-Q21-2": {
+   "steps": [
+    {
+     "text": "e and ln are inverse functions: e^{ln x} = x for x > 0.",
+     "latex": "f(x)=x"
+    },
+    {
+     "text": "Derivative.",
+     "latex": "f\\prime(x)=1"
+    },
+    {
+     "text": "Option A).",
+     "latex": "1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p46-Q22-1": {
+   "steps": [
+    {
+     "text": "(a^u)′ = a^u · ln a · u′ with u = eˣ.",
+     "latex": "h\\prime=2^{e^x}\\ln2\\cdot e^x"
+    },
+    {
+     "text": "Option A).",
+     "latex": "2^{e^{x}} e^{x} \\log{\\left(2 \\right)}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p47-Ex8.2-1": {
+   "steps": [
+    {
+     "text": "Differentiate both sides with respect to x (product rule on x²y²; y′ for every y).",
+     "latex": "2xy^2+2x^2y\\,y\\prime-2=-4y\\prime"
+    },
+    {
+     "text": "Collect the y′ terms.",
+     "latex": "y\\prime(2x^2y+4)=2-2xy^2"
+    },
+    {
+     "text": "Solve.",
+     "latex": "y\\prime=\\dfrac{1-xy^2}{x^2y+2}"
+    },
+    {
+     "text": "Slope at (2, −2).",
+     "latex": "y\\prime=\\dfrac{1-2(4)}{4(-2)+2}=\\dfrac{-7}{-6}=\\dfrac76"
+    },
+    {
+     "text": "Tangent line.",
+     "latex": "y+2=\\tfrac76(x-2)\\Rightarrow y=\\tfrac76x-\\tfrac{13}{3}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "y\\prime=\\dfrac{1-xy^2}{x^2y+2},\\ y=\\tfrac76x-\\tfrac{13}3"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p48-Q29a-1": {
+   "steps": [
+    {
+     "text": "(sin⁻¹u)′ = u′/√(1 − u²) with u = x³ + 1, u′ = 3x².",
+     "latex": "f\\prime=\\dfrac{3x^2}{\\sqrt{1-(x^3+1)^2}}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{3 x^{2}}{\\sqrt{1 - \\left(x^{3} + 1\\right)^{2}}}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}
