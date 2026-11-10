@@ -11,3 +11,10 @@ test('screenshot, save and devtools shortcuts are blocked; normal typing is not'
   assert.equal(isBlockedKey({key: 'a'}), false);
   assert.equal(isBlockedKey({key: 'c', ctrlKey: true}), false);
 });
+
+test('Ctrl+Shift+I / J / C are blocked regardless of key case or layout', () => {
+  assert.equal(isBlockedKey({key: 'I', code: 'KeyI', ctrlKey: true, shiftKey: true}), true);
+  assert.equal(isBlockedKey({key: 'ا', code: 'KeyI', ctrlKey: true, shiftKey: true}), true);
+  assert.equal(isBlockedKey({key: 'J', code: 'KeyJ', ctrlKey: true, shiftKey: true}), true);
+  assert.equal(isBlockedKey({key: 'c', code: 'KeyI', ctrlKey: true, altKey: true, metaKey: true}), true);
+});
