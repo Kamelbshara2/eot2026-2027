@@ -21,3 +21,6 @@ Rebuild: original textbook extraction scripts → `scripts/revise-study-banks.py
 - Parts with no `blanks` (graphs to draw, explanations) stay paper-only with the reference solution.
 - Quizzes (`/banks/term1/quiz?lo=…&n=…&mix=…&t=1`) draw round-robin across the chosen outcomes from MCQs and blank-bearing FRQs only. Practice quizzes grade in the browser and may show explanations; a real exam must not use this path (keys are in the public JSON).
 - Calculator guides render as selectable text steps + key chips; the PNG is secondary. Questions without a calculator route state why.
+
+## Teacher revision booklet import (10 Advanced)
+`scripts/import-g10a-revision.py` (parse) → `scripts/build-g10a-revision-questions.py` (build) → `scripts/add-study-blanks.py` → `scripts/coverage-gap.py` → `scripts/audit-study-questions.py`. Items are matched to the coverage sheet by order and imported only when their (page, exercise) is absent (no duplicates). Imported ids are `G10A-REV-*`; `source.revision_booklet` keeps the file hash, PDF page and question number; `key_source` records how the key was verified (`sympy-verified`, `recomputed-numeric`, `teacher-revision-booklet`). Figures with cut-off labels are held back (see `build-report.json › held_back`), never redrawn.

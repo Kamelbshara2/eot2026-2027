@@ -507,5 +507,164 @@
    "missing": [],
    "pages_to_upload": []
   }
+ },
+ "10A1": {
+  "LO01": {
+   "structure_items": 10,
+   "in_site_data": 10,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO02": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO03": {
+   "structure_items": 10,
+   "in_site_data": 10,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO04": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO05": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO06": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO07": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO08": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO09": {
+   "structure_items": 5,
+   "in_site_data": 5,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO10": {
+   "structure_items": 4,
+   "in_site_data": 4,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO11": {
+   "structure_items": 5,
+   "in_site_data": 5,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO12": {
+   "structure_items": 8,
+   "in_site_data": 8,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO13": {
+   "structure_items": 6,
+   "in_site_data": 6,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO14": {
+   "structure_items": 11,
+   "in_site_data": 11,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO15": {
+   "structure_items": 10,
+   "in_site_data": 10,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO16": {
+   "structure_items": 9,
+   "in_site_data": 9,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO17": {
+   "structure_items": 13,
+   "in_site_data": 10,
+   "missing": [
+    "p.184 #22",
+    "p.184 #23",
+    "p.185 #34"
+   ],
+   "pages_to_upload": [
+    184,
+    185
+   ]
+  },
+  "LO18": {
+   "structure_items": 9,
+   "in_site_data": 9,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO19": {
+   "structure_items": 7,
+   "in_site_data": 7,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO20": {
+   "structure_items": 9,
+   "in_site_data": 9,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO21": {
+   "structure_items": 13,
+   "in_site_data": 13,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO22": {
+   "structure_items": 10,
+   "in_site_data": 10,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO23": {
+   "structure_items": 7,
+   "in_site_data": 7,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO24": {
+   "structure_items": 12,
+   "in_site_data": 12,
+   "missing": [],
+   "pages_to_upload": []
+  },
+  "LO25": {
+   "structure_items": 12,
+   "in_site_data": 12,
+   "missing": [],
+   "pages_to_upload": []
+  }
  }
 }

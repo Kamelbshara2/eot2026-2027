@@ -147,6 +147,25 @@ I = {  # question instructions
  "Which values solve the equation from its x-intercepts?": "أيّ قيم تحلّ المعادلة اعتماداً على نقاط تقاطعها مع المحور x؟",
  "Which verbal expression represents the given algebraic expression?": "أيّ تعبير لفظي يمثّل التعبير الجبري المعطى؟",
  "Write a quadratic function for the given graph. Give the equation in standard form.": "اكتب دالة تربيعية للتمثيل البياني المعطى بالصورة القياسية.",
+ "A #-foot-long escalator rises from the first floor to the second floor of a shopping mall. The escalator makes a #° angle with the horizontal. How high above the first floor is the second floor?": "سلّم متحرك طوله # قدماً يصعد من الطابق الأول إلى الطابق الثاني في مركز تجاري، ويصنع زاوية #° مع الأفقي. ما ارتفاع الطابق الثاني فوق الطابق الأول؟",
+ "A cell phone tower casts a shadow that is # feet long. At the same time, Lia stands near the tower and casts a shadow that is # feet # inches long. If Lia is # feet # inches tall, how tall is the cell phone tower?": "برج هاتف خلوي يُلقي ظلاً طوله # قدم. وفي الوقت نفسه تقف ليا قرب البرج ويبلغ طول ظلّها # أقدام و# بوصات. إذا كان طول ليا # أقدام و# بوصات، فما ارتفاع البرج؟",
+ "A radio tower casts an #-foot-long shadow at the same time that a vertical yardstick casts a shadow one half inch long. If the triangles formed by the objects and their shadows are similar, how tall is the radio tower?": "برج إذاعة يُلقي ظلاً طوله # أقدام في الوقت الذي يُلقي فيه مسطرة ياردة رأسية ظلاً طوله نصف بوصة. إذا كان المثلثان المتكوّنان من الجسمين وظليهما متشابهين، فما ارتفاع البرج؟",
+ "Due to a storm, a pilot flying at an altitude of # feet has to land. If he has a horizontal distance of # feet until he reaches the landing strip, what angle of depression should he use to land? Round to the nearest tenth of a degree.": "بسبب عاصفة، يضطر طيار يحلّق على ارتفاع # قدماً إلى الهبوط. إذا كانت المسافة الأفقية حتى المدرج # قدماً، فما زاوية الانخفاض التي يجب أن يستخدمها للهبوط؟ قرّب لأقرب عُشر درجة.",
+ "Find the variable to the nearest tenth.": "أوجد قيمة المتغير لأقرب عُشر.",
+ "From the top of the #-foot-high tower, an air traffic controller observes an airplane on the runway at an angle of depression of #°. How far from the base of the tower is the airplane? Round to the nearest tenth of a foot.": "من قمة برج ارتفاعه # قدماً، يرصد مراقب الحركة الجوية طائرة على المدرج بزاوية انخفاض #°. كم تبعد الطائرة عن قاعدة البرج؟ قرّب لأقرب عُشر قدم.",
+ "If △ABC ∼ △MNP, AD is an altitude of △ABC, MQ is an altitude of △MNP, AB = #, AD = #, and MQ = #, find MN.": "إذا كان △ABC ∼ △MNP، وكان AD ارتفاعاً في △ABC و MQ ارتفاعاً في △MNP، وكان AB = # و AD = # و MQ = #، فأوجد MN.",
+ "If △RST ∼ △EFG, SH is an altitude of △RST, FJ is an altitude of △EFG, ST = #, SH = #, and FJ = #, find FG.": "إذا كان △RST ∼ △EFG، وكان SH ارتفاعاً في △RST و FJ ارتفاعاً في △EFG، وكان ST = # و SH = # و FJ = #، فأوجد FG.",
+ "In △ABC, DE is parallel to AC and DE = #. Find the length of AC if DE is a midsegment of △ABC.": "في △ABC القطعة DE توازي AC وطولها DE = #. أوجد طول AC إذا كانت DE قطعة منتصفية في △ABC.",
+ "JH is a midsegment of △KLM. Find x.": "JH قطعة منتصفية في △KLM. أوجد x.",
+ "Lucia is # feet tall. She is standing on the roof of a building that is # feet tall. She spots a fountain at ground level that she knows to be # feet away from the base of the building. What is the measure of the angle of depression formed by Lucia’s horizontal line of sight and her line of sight to the fountain? Round your answer to the nearest degree.": "طول لوسيا # قدم وهي تقف على سطح مبنى ارتفاعه # قدماً. ترى نافورة على مستوى الأرض تبعد # قدماً عن قاعدة المبنى. ما قياس زاوية الانخفاض بين خط نظرها الأفقي وخط نظرها إلى النافورة؟ قرّب لأقرب درجة.",
+ "Maya wants to know how far she is standing from a lighthouse. The end of Maya's shadow coincides with the end of the lighthouse's shadow. a. What is the distance from the lighthouse to the end of the lighthouse's shadow, x? b. What is the distance from Maya to the lighthouse, y?": "تريد مايا معرفة بُعدها عن منارة. نهاية ظلّ مايا تنطبق على نهاية ظلّ المنارة. أ. ما المسافة من المنارة إلى نهاية ظلّها x؟ ب. ما المسافة من مايا إلى المنارة y؟",
+ "The intersection of the two paths shown forms two similar triangles. If AC is # yards, MP is # yards, and the fountain is # yards from the intersection, about how far from the intersection is the stadium entrance? Round to the nearest yard.": "تقاطع المسارين المبيّنين يكوّن مثلثين متشابهين. إذا كان AC = # ياردة و MP = # ياردة وتبعد النافورة # ياردات عن نقطة التقاطع، فكم تبعد بوابة الملعب تقريباً عن نقطة التقاطع؟ قرّب لأقرب ياردة.",
+ "The skeleton of a roof is shown. Find x such that triangles DEF and FBC in the outline of the roof are similar.": "هيكل سقف مبيّن في الشكل. أوجد x بحيث يكون المثلثان DEF و FBC في مخطط السقف متشابهين.",
+ "The two sailboats shown are participating in a regatta. If the sails are similar, what is x?": "قاربان شراعيان يشاركان في سباق. إذا كانت الأشرعة متشابهة، فما قيمة x؟",
+ "Which option gives the perimeter and area, rounded to the nearest hundredth?": "أيّ خيار يعطي المحيط والمساحة مقرّبَين لأقرب جزء من مئة؟",
+ "△ABC has vertices A(#, #), B(#, #), and C(#, #). What are the coordinates of point C of the image of the triangle after a dilation centered at the origin with a scale factor of #?": "رؤوس △ABC هي A(#, #) و B(#, #) و C(#, #). ما إحداثيات النقطة C في صورة المثلث بعد تمدد مركزه نقطة الأصل ومعامل تكبيره #؟",
+ "△ABC ∼ △DEF. Find EY to the nearest tenth.": "△ABC ∼ △DEF. أوجد EY لأقرب عُشر.",
+ "△ABC ∼ △DEF. Find XC to the nearest tenth.": "△ABC ∼ △DEF. أوجد XC لأقرب عُشر.",
 }
 
 P = {  # part prompts of written questions
@@ -186,6 +205,7 @@ P = {  # part prompts of written questions
  "What must be true about p and q for the expressions to be equal? Give an example.": "ما الشرط الواجب في p و q ليتساوى التعبيران؟ اذكر مثالاً.",
  "Write a formula for the nth term.": "اكتب صيغة الحد النوني.",
  "y-intercept and end behavior.": "المقطع y وسلوك طرفي المنحنى.",
+ "Write the proportion and solve.": "اكتب التناسب ثم حُلّه.",
 }
 
 O = {  # sentence options (math-only options are left as they are)
@@ -260,6 +280,21 @@ O = {  # sentence options (math-only options are left as they are)
  "Yes: any one pair of congruent sides is sufficient.": "نعم: يكفي أي زوج من الأضلاع المتطابقة.", "Yes: both pairs of opposite angles are congruent.": "نعم: كلا زوجي الزوايا المتقابلة متطابقان.",
  "Yes: one pair of opposite sides is both parallel and congruent.": "نعم: زوج واحد من الأضلاع المتقابلة متوازٍ ومتطابق معاً.", "Yes: the diagonals are marked perpendicular.": "نعم: القطران معلَّمان متعامدين.",
  "Yes; the rate is #/#.": "نعم؛ المعدّل #/#.", "q divided by #.": "q مقسومة على #.", "r divided by #.": "r مقسومة على #.", "w less than #.": "w أقل من #.", "w plus #.": "w زائد #.", "y minus eight.": "y ناقص ثمانية.",
+ "No: a #° angle cannot belong to a right triangle.": "لا: لا يمكن أن تكون زاوية #° في مثلث قائم.",
+ "No: all four sides must be congruent.": "لا: يجب أن تتطابق الأضلاع الأربعة جميعها.",
+ "No: congruent diagonal halves are insufficient.": "لا: تطابق أنصاف القطرين وحده غير كافٍ.",
+ "No: diagonals must be perpendicular.": "لا: يجب أن يكون القطران متعامدين.",
+ "No: parallel sides must have different lengths.": "لا: يجب أن تختلف أطوال الأضلاع المتوازية.",
+ "No: the corresponding side lengths are not proportional.": "لا: أطوال الأضلاع المتناظرة غير متناسبة.",
+ "No: their right angles have different measures.": "لا: الزاويتان القائمتان مختلفتا القياس.",
+ "Yes: all three side ratios are ¾.": "نعم: نسب الأضلاع الثلاث كلها ¾.",
+ "Yes: any pair of scalene triangles is similar.": "نعم: أي مثلثين مختلفي الأضلاع متشابهان.",
+ "Yes: both figures are triangles.": "نعم: كلا الشكلين مثلث.",
+ "Yes: both pairs of opposite sides are congruent.": "نعم: كلا زوجي الأضلاع المتقابلة متطابقان.",
+ "Yes: both triangles have angles #°, #°, #°.": "نعم: للمثلثين الزوايا #° و#° و#°.",
+ "Yes: diagonals have equal total lengths.": "نعم: للقطرين المجموع نفسه في الطول.",
+ "Yes: the diagonals are congruent.": "نعم: القطران متطابقان.",
+ "Yes: the diagonals bisect each other.": "نعم: القطران ينصّف كلٌّ منهما الآخر.",
 }
 
 def norm(s): return re.sub(r'-?\d+(?:\.\d+)?', '#', s.strip())

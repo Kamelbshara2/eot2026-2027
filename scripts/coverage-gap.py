@@ -29,6 +29,13 @@ S = {
   24: [(695, rng(1, 4))], 25: [(722, rng(31, 34))]},
 }
 
+def _g10a():
+    import importlib.util, sys
+    spec = importlib.util.spec_from_file_location('b', ROOT / 'scripts/build-g10a-revision-questions.py'); m = importlib.util.module_from_spec(spec)
+    argv = sys.argv; sys.argv = argv[:1]; spec.loader.exec_module(m); sys.argv = argv
+    return {int(lo[2:]): v for lo, v in m.STRUCTURE.items()}
+S['10A1'] = _g10a()   # official 10 Advanced coverage sheet (EoT1_Coverage_G10_Adv_Math_Rev_T1)
+
 def norm(ex):
     e = ex.strip()
     m = re.match(r'^Example (\d)', e, re.I)

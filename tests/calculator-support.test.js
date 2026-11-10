@@ -15,7 +15,7 @@ test('every study question has outcome-specific calculator or manual reasoning s
   assert.equal(Object.keys(support.outcomes).length,bank.learning_outcomes.length);
   for(const q of bank.questions){const g=support.questions[q.id];assert.equal(g.outcome,q.learning_outcome_id);assert(g.prepare&&g.interpret&&g.solutions.length);assert(calculatorGuide({...q,calculatorSupport:g},'/').includes('Use the output in your written answer'));total++;}
  }
- assert.equal(total,389);
+ assert.equal(total,486);
 });
 test('generated key sequences agree with independently computed arithmetic and table values',()=>{
  let count=0;
@@ -25,7 +25,7 @@ test('generated key sequences agree with independently computed arithmetic and t
    assert(Number.isFinite(got));assert(Math.abs(got-expected)<=2e-9*Math.max(1,Math.abs(expected)),`${got} != ${expected}`);count++;
   }
  }
- assert.equal(count,628);
+ assert.equal(count,742);
 });
 test('proportions use a working SOLVE guess and preserve forbidden denominator values',()=>{
  for(const [id,excluded,expected] of [['G9G-BOOK-Q09-MCQ-03','5',11],['G9G-BOOK-Q09-MCQ-04','3',58/3]]){

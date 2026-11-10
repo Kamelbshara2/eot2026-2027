@@ -155,3 +155,4 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .example-window .calculator-frame-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.example-window .calculator-example-card .calculator-frame img{max-height:380px}
 .example-window .calculator-guide-image{width:100%;height:auto}.example-window .q-frame-en{font-size:19px}
 @media(max-width:700px){.example-window .question-walkthrough-grid,.example-window .calculator-frame-grid{grid-template-columns:minmax(0,1fr)}.example-window .question-walkthrough-grid figure{max-width:380px;margin:auto}.q-frame-en{font-size:18px}.q-frame-ar{font-size:18px}}
+.q-fig-note{margin:0 18px 10px;font-size:13px;color:#7a4700;background:#fff8e6;border-radius:8px;padding:4px 10px}

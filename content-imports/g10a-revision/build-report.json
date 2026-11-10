@@ -1,0 +1,1785 @@
+{
+ "source": {
+  "file_name": "G10A-revision-solutions-booklet.pdf",
+  "sha256": "51e2f2a2fcf211427624f0efa8792458b148ea055b1985288616df4957a2e8d4",
+  "pages": 99,
+  "title": "Mathematics Exam Revision - Solutions · Grade 10 Advanced · Term 1 (teacher-supplied)",
+  "author_credit": "Elsayed Abdelkader (as printed in the footer)"
+ },
+ "added": [
+  {
+   "id": "G10A-REV-Q01-MCQ-01",
+   "lo": "LO01",
+   "revision_number": 2,
+   "page": 635,
+   "exercise": "11",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q01-MCQ-02",
+   "lo": "LO01",
+   "revision_number": 3,
+   "page": 635,
+   "exercise": "12",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q01-MCQ-03",
+   "lo": "LO01",
+   "revision_number": 5,
+   "page": 635,
+   "exercise": "14",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q01-MCQ-04",
+   "lo": "LO01",
+   "revision_number": 7,
+   "page": 635,
+   "exercise": "23",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q01-MCQ-05",
+   "lo": "LO01",
+   "revision_number": 8,
+   "page": 635,
+   "exercise": "24",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q01-MCQ-06",
+   "lo": "LO01",
+   "revision_number": 9,
+   "page": 635,
+   "exercise": "25",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q02-MCQ-01",
+   "lo": "LO02",
+   "revision_number": 15,
+   "page": 649,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q02-MCQ-02",
+   "lo": "LO02",
+   "revision_number": 16,
+   "page": 649,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-01",
+   "lo": "LO03",
+   "revision_number": 18,
+   "page": 665,
+   "exercise": "12",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-02",
+   "lo": "LO03",
+   "revision_number": 21,
+   "page": 665,
+   "exercise": "15",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-03",
+   "lo": "LO03",
+   "revision_number": 22,
+   "page": 665,
+   "exercise": "16",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-04",
+   "lo": "LO03",
+   "revision_number": 23,
+   "page": 665,
+   "exercise": "17",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-05",
+   "lo": "LO03",
+   "revision_number": 24,
+   "page": 665,
+   "exercise": "18",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q03-MCQ-06",
+   "lo": "LO03",
+   "revision_number": 25,
+   "page": 665,
+   "exercise": "19",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q04-MCQ-01",
+   "lo": "LO04",
+   "revision_number": 31,
+   "page": 671,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q04-MCQ-02",
+   "lo": "LO04",
+   "revision_number": 32,
+   "page": 671,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "check"
+  },
+  {
+   "id": "G10A-REV-Q07-MCQ-01",
+   "lo": "LO07",
+   "revision_number": 44,
+   "page": 79,
+   "exercise": "4",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "reasoning"
+  },
+  {
+   "id": "G10A-REV-Q07-MCQ-02",
+   "lo": "LO07",
+   "revision_number": 45,
+   "page": 79,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "reasoning"
+  },
+  {
+   "id": "G10A-REV-Q09-MCQ-01",
+   "lo": "LO09",
+   "revision_number": 55,
+   "page": 121,
+   "exercise": "20",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q11-MCQ-01",
+   "lo": "LO11",
+   "revision_number": 62,
+   "page": 120,
+   "exercise": "12",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q12-MCQ-01",
+   "lo": "LO12",
+   "revision_number": 68,
+   "page": 133,
+   "exercise": "4",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "reasoning"
+  },
+  {
+   "id": "G10A-REV-Q12-MCQ-02",
+   "lo": "LO12",
+   "revision_number": 70,
+   "page": 133,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "reasoning"
+  },
+  {
+   "id": "G10A-REV-Q12-MCQ-03",
+   "lo": "LO12",
+   "revision_number": 71,
+   "page": 133,
+   "exercise": "7",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q12-MCQ-04",
+   "lo": "LO12",
+   "revision_number": 72,
+   "page": 133,
+   "exercise": "8",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "reasoning"
+  },
+  {
+   "id": "G10A-REV-Q13-MCQ-01",
+   "lo": "LO13",
+   "revision_number": 77,
+   "page": 146,
+   "exercise": "15",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q13-MCQ-02",
+   "lo": "LO13",
+   "revision_number": 78,
+   "page": 146,
+   "exercise": "16",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-01",
+   "lo": "LO14",
+   "revision_number": 83,
+   "page": 153,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-02",
+   "lo": "LO14",
+   "revision_number": 84,
+   "page": 153,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-03",
+   "lo": "LO14",
+   "revision_number": 85,
+   "page": 153,
+   "exercise": "7",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-04",
+   "lo": "LO14",
+   "revision_number": 86,
+   "page": 153,
+   "exercise": "8",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-05",
+   "lo": "LO14",
+   "revision_number": 87,
+   "page": 153,
+   "exercise": "9",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-06",
+   "lo": "LO14",
+   "revision_number": 88,
+   "page": 153,
+   "exercise": "10",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-07",
+   "lo": "LO14",
+   "revision_number": 89,
+   "page": 153,
+   "exercise": "11",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-01",
+   "lo": "LO15",
+   "revision_number": 92,
+   "page": 165,
+   "exercise": "3",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-02",
+   "lo": "LO15",
+   "revision_number": 93,
+   "page": 165,
+   "exercise": "4",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-03",
+   "lo": "LO15",
+   "revision_number": 94,
+   "page": 165,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-04",
+   "lo": "LO15",
+   "revision_number": 95,
+   "page": 165,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-05",
+   "lo": "LO15",
+   "revision_number": 97,
+   "page": 165,
+   "exercise": "12",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-06",
+   "lo": "LO15",
+   "revision_number": 98,
+   "page": 165,
+   "exercise": "13",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-01",
+   "lo": "LO16",
+   "revision_number": 104,
+   "page": 171,
+   "exercise": "11",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-02",
+   "lo": "LO16",
+   "revision_number": 105,
+   "page": 171,
+   "exercise": "12",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-03",
+   "lo": "LO16",
+   "revision_number": 106,
+   "page": 172,
+   "exercise": "20",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-04",
+   "lo": "LO16",
+   "revision_number": 107,
+   "page": 172,
+   "exercise": "21",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-05",
+   "lo": "LO16",
+   "revision_number": 108,
+   "page": 172,
+   "exercise": "22",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-01",
+   "lo": "LO17",
+   "revision_number": 115,
+   "page": 184,
+   "exercise": "25",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-02",
+   "lo": "LO17",
+   "revision_number": 116,
+   "page": 185,
+   "exercise": "33",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-03",
+   "lo": "LO17",
+   "revision_number": 118,
+   "page": 185,
+   "exercise": "35",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-04",
+   "lo": "LO17",
+   "revision_number": 119,
+   "page": 185,
+   "exercise": "36",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-05",
+   "lo": "LO17",
+   "revision_number": 120,
+   "page": 185,
+   "exercise": "37",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-06",
+   "lo": "LO17",
+   "revision_number": 121,
+   "page": 185,
+   "exercise": "38",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q18-MCQ-01",
+   "lo": "LO18",
+   "revision_number": 124,
+   "page": 192,
+   "exercise": "24",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q18-MCQ-02",
+   "lo": "LO18",
+   "revision_number": 126,
+   "page": 192,
+   "exercise": "26",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q18-MCQ-03",
+   "lo": "LO18",
+   "revision_number": 128,
+   "page": 193,
+   "exercise": "30",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q18-MCQ-04",
+   "lo": "LO18",
+   "revision_number": 129,
+   "page": 193,
+   "exercise": "31",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q18-MCQ-05",
+   "lo": "LO18",
+   "revision_number": 130,
+   "page": 193,
+   "exercise": "32",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-01",
+   "lo": "LO19",
+   "revision_number": 135,
+   "page": 199,
+   "exercise": "5",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-02",
+   "lo": "LO19",
+   "revision_number": 136,
+   "page": 199,
+   "exercise": "6",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-03",
+   "lo": "LO19",
+   "revision_number": 137,
+   "page": 199,
+   "exercise": "7",
+   "type": "mcq",
+   "figure": false,
+   "key_source": "recomputed-numeric",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q20-MCQ-01",
+   "lo": "LO20",
+   "revision_number": 142,
+   "page": 200,
+   "exercise": "17",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q20-MCQ-02",
+   "lo": "LO20",
+   "revision_number": 143,
+   "page": 200,
+   "exercise": "18",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q20-MCQ-03",
+   "lo": "LO20",
+   "revision_number": 144,
+   "page": 201,
+   "exercise": "19",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q20-MCQ-04",
+   "lo": "LO20",
+   "revision_number": 145,
+   "page": 201,
+   "exercise": "20",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q20-MCQ-05",
+   "lo": "LO20",
+   "revision_number": 146,
+   "page": 201,
+   "exercise": "21",
+   "type": "mcq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-01",
+   "lo": "LO21",
+   "revision_number": 148,
+   "page": 680,
+   "exercise": "36",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-02",
+   "lo": "LO21",
+   "revision_number": 149,
+   "page": 680,
+   "exercise": "37",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-03",
+   "lo": "LO21",
+   "revision_number": 151,
+   "page": 680,
+   "exercise": "39",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-04",
+   "lo": "LO21",
+   "revision_number": 152,
+   "page": 680,
+   "exercise": "40",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-05",
+   "lo": "LO21",
+   "revision_number": 153,
+   "page": 680,
+   "exercise": "41",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-06",
+   "lo": "LO21",
+   "revision_number": 156,
+   "page": 681,
+   "exercise": "53",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-07",
+   "lo": "LO21",
+   "revision_number": 157,
+   "page": 681,
+   "exercise": "54",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-08",
+   "lo": "LO21",
+   "revision_number": 158,
+   "page": 681,
+   "exercise": "55",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q21-FRQ-09",
+   "lo": "LO21",
+   "revision_number": 159,
+   "page": 681,
+   "exercise": "56",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "manual_setup"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-01",
+   "lo": "LO22",
+   "revision_number": 161,
+   "page": 64,
+   "exercise": "10",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-02",
+   "lo": "LO22",
+   "revision_number": 163,
+   "page": 64,
+   "exercise": "12",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-03",
+   "lo": "LO22",
+   "revision_number": 164,
+   "page": 64,
+   "exercise": "13",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-04",
+   "lo": "LO22",
+   "revision_number": 165,
+   "page": 64,
+   "exercise": "14",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-05",
+   "lo": "LO22",
+   "revision_number": 167,
+   "page": 64,
+   "exercise": "16",
+   "type": "frq",
+   "figure": true,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q22-FRQ-06",
+   "lo": "LO22",
+   "revision_number": 168,
+   "page": 64,
+   "exercise": "17",
+   "type": "frq",
+   "figure": true,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q23-FRQ-01",
+   "lo": "LO23",
+   "revision_number": 174,
+   "page": 139,
+   "exercise": "9",
+   "type": "frq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q23-FRQ-02",
+   "lo": "LO23",
+   "revision_number": 175,
+   "page": 139,
+   "exercise": "10",
+   "type": "frq",
+   "figure": false,
+   "key_source": "teacher-revision-booklet",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q23-FRQ-03",
+   "lo": "LO23",
+   "revision_number": 176,
+   "page": 139,
+   "exercise": "11",
+   "type": "frq",
+   "figure": true,
+   "key_source": "teacher-revision-booklet",
+   "role": "calculation"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-01",
+   "lo": "LO24",
+   "revision_number": 178,
+   "page": 177,
+   "exercise": "14",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-02",
+   "lo": "LO24",
+   "revision_number": 180,
+   "page": 177,
+   "exercise": "16",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-03",
+   "lo": "LO24",
+   "revision_number": 181,
+   "page": 177,
+   "exercise": "17",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-04",
+   "lo": "LO24",
+   "revision_number": 182,
+   "page": 177,
+   "exercise": "18",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-05",
+   "lo": "LO24",
+   "revision_number": 184,
+   "page": 178,
+   "exercise": "20",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-06",
+   "lo": "LO24",
+   "revision_number": 185,
+   "page": 178,
+   "exercise": "21",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-07",
+   "lo": "LO24",
+   "revision_number": 186,
+   "page": 178,
+   "exercise": "22",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q24-FRQ-08",
+   "lo": "LO24",
+   "revision_number": 188,
+   "page": 178,
+   "exercise": "24",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "evaluate"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-01",
+   "lo": "LO25",
+   "revision_number": 192,
+   "page": 208,
+   "exercise": "18",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-02",
+   "lo": "LO25",
+   "revision_number": 194,
+   "page": 208,
+   "exercise": "20",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-03",
+   "lo": "LO25",
+   "revision_number": 195,
+   "page": 208,
+   "exercise": "21",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-04",
+   "lo": "LO25",
+   "revision_number": 196,
+   "page": 208,
+   "exercise": "22",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-05",
+   "lo": "LO25",
+   "revision_number": 197,
+   "page": 208,
+   "exercise": "23",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-06",
+   "lo": "LO25",
+   "revision_number": 198,
+   "page": 208,
+   "exercise": "24",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-07",
+   "lo": "LO25",
+   "revision_number": 199,
+   "page": 208,
+   "exercise": "25",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  },
+  {
+   "id": "G10A-REV-Q25-FRQ-08",
+   "lo": "LO25",
+   "revision_number": 200,
+   "page": 208,
+   "exercise": "26",
+   "type": "frq",
+   "figure": false,
+   "key_source": "sympy-verified",
+   "role": "ssa"
+  }
+ ],
+ "skipped_duplicates": [
+  {
+   "revision_number": 1,
+   "lo": "LO01",
+   "page": 635,
+   "exercise": "10"
+  },
+  {
+   "revision_number": 4,
+   "lo": "LO01",
+   "page": 635,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 6,
+   "lo": "LO01",
+   "page": 635,
+   "exercise": "22"
+  },
+  {
+   "revision_number": 10,
+   "lo": "LO01",
+   "page": 635,
+   "exercise": "26"
+  },
+  {
+   "revision_number": 11,
+   "lo": "LO02",
+   "page": 649,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 12,
+   "lo": "LO02",
+   "page": 649,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 13,
+   "lo": "LO02",
+   "page": 649,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 14,
+   "lo": "LO02",
+   "page": 649,
+   "exercise": "4"
+  },
+  {
+   "revision_number": 17,
+   "lo": "LO03",
+   "page": 665,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 19,
+   "lo": "LO03",
+   "page": 665,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 20,
+   "lo": "LO03",
+   "page": 665,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 26,
+   "lo": "LO03",
+   "page": 665,
+   "exercise": "20"
+  },
+  {
+   "revision_number": 27,
+   "lo": "LO04",
+   "page": 671,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 28,
+   "lo": "LO04",
+   "page": 671,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 29,
+   "lo": "LO04",
+   "page": 671,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 30,
+   "lo": "LO04",
+   "page": 671,
+   "exercise": "4"
+  },
+  {
+   "revision_number": 33,
+   "lo": "LO05",
+   "page": 63,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 34,
+   "lo": "LO05",
+   "page": 63,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 35,
+   "lo": "LO05",
+   "page": 63,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 36,
+   "lo": "LO05",
+   "page": 63,
+   "exercise": "4"
+  },
+  {
+   "revision_number": 37,
+   "lo": "LO06",
+   "page": 72,
+   "exercise": "9"
+  },
+  {
+   "revision_number": 38,
+   "lo": "LO06",
+   "page": 72,
+   "exercise": "10"
+  },
+  {
+   "revision_number": 39,
+   "lo": "LO06",
+   "page": 72,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 40,
+   "lo": "LO06",
+   "page": 72,
+   "exercise": "12"
+  },
+  {
+   "revision_number": 41,
+   "lo": "LO07",
+   "page": 79,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 42,
+   "lo": "LO07",
+   "page": 79,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 43,
+   "lo": "LO07",
+   "page": 79,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 46,
+   "lo": "LO07",
+   "page": 79,
+   "exercise": "6"
+  },
+  {
+   "revision_number": 47,
+   "lo": "LO08",
+   "page": 106,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 48,
+   "lo": "LO08",
+   "page": 106,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 49,
+   "lo": "LO08",
+   "page": 106,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 50,
+   "lo": "LO08",
+   "page": 106,
+   "exercise": "16"
+  },
+  {
+   "revision_number": 51,
+   "lo": "LO09",
+   "page": 120,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 52,
+   "lo": "LO09",
+   "page": 120,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 53,
+   "lo": "LO09",
+   "page": 120,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 54,
+   "lo": "LO09",
+   "page": 120,
+   "exercise": "16"
+  },
+  {
+   "revision_number": 56,
+   "lo": "LO10",
+   "page": 128,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 57,
+   "lo": "LO10",
+   "page": 128,
+   "exercise": "12"
+  },
+  {
+   "revision_number": 58,
+   "lo": "LO10",
+   "page": 128,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 59,
+   "lo": "LO10",
+   "page": 128,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 60,
+   "lo": "LO11",
+   "page": 120,
+   "exercise": "10"
+  },
+  {
+   "revision_number": 61,
+   "lo": "LO11",
+   "page": 120,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 63,
+   "lo": "LO11",
+   "page": 120,
+   "exercise": "17"
+  },
+  {
+   "revision_number": 64,
+   "lo": "LO11",
+   "page": 120,
+   "exercise": "18"
+  },
+  {
+   "revision_number": 65,
+   "lo": "LO12",
+   "page": 133,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 66,
+   "lo": "LO12",
+   "page": 133,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 67,
+   "lo": "LO12",
+   "page": 133,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 69,
+   "lo": "LO12",
+   "page": 133,
+   "exercise": "5"
+  },
+  {
+   "revision_number": 73,
+   "lo": "LO13",
+   "page": 146,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 74,
+   "lo": "LO13",
+   "page": 146,
+   "exercise": "12"
+  },
+  {
+   "revision_number": 75,
+   "lo": "LO13",
+   "page": 146,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 76,
+   "lo": "LO13",
+   "page": 146,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 79,
+   "lo": "LO14",
+   "page": 153,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 80,
+   "lo": "LO14",
+   "page": 153,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 81,
+   "lo": "LO14",
+   "page": 153,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 82,
+   "lo": "LO14",
+   "page": 153,
+   "exercise": "4"
+  },
+  {
+   "revision_number": 90,
+   "lo": "LO15",
+   "page": 165,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 91,
+   "lo": "LO15",
+   "page": 165,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 96,
+   "lo": "LO15",
+   "page": 165,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 99,
+   "lo": "LO15",
+   "page": 165,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 100,
+   "lo": "LO16",
+   "page": 171,
+   "exercise": "7"
+  },
+  {
+   "revision_number": 101,
+   "lo": "LO16",
+   "page": 171,
+   "exercise": "8"
+  },
+  {
+   "revision_number": 102,
+   "lo": "LO16",
+   "page": 171,
+   "exercise": "9"
+  },
+  {
+   "revision_number": 103,
+   "lo": "LO16",
+   "page": 171,
+   "exercise": "10"
+  },
+  {
+   "revision_number": 109,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "19"
+  },
+  {
+   "revision_number": 110,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "20"
+  },
+  {
+   "revision_number": 111,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "21"
+  },
+  {
+   "revision_number": 114,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "24"
+  },
+  {
+   "revision_number": 122,
+   "lo": "LO18",
+   "page": 192,
+   "exercise": "22"
+  },
+  {
+   "revision_number": 123,
+   "lo": "LO18",
+   "page": 192,
+   "exercise": "23"
+  },
+  {
+   "revision_number": 125,
+   "lo": "LO18",
+   "page": 192,
+   "exercise": "25"
+  },
+  {
+   "revision_number": 127,
+   "lo": "LO18",
+   "page": 192,
+   "exercise": "27"
+  },
+  {
+   "revision_number": 131,
+   "lo": "LO19",
+   "page": 199,
+   "exercise": "1"
+  },
+  {
+   "revision_number": 132,
+   "lo": "LO19",
+   "page": 199,
+   "exercise": "2"
+  },
+  {
+   "revision_number": 133,
+   "lo": "LO19",
+   "page": 199,
+   "exercise": "3"
+  },
+  {
+   "revision_number": 134,
+   "lo": "LO19",
+   "page": 199,
+   "exercise": "4"
+  },
+  {
+   "revision_number": 138,
+   "lo": "LO20",
+   "page": 200,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 139,
+   "lo": "LO20",
+   "page": 200,
+   "exercise": "14"
+  },
+  {
+   "revision_number": 140,
+   "lo": "LO20",
+   "page": 200,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 141,
+   "lo": "LO20",
+   "page": 200,
+   "exercise": "16"
+  },
+  {
+   "revision_number": 147,
+   "lo": "LO21",
+   "page": 680,
+   "exercise": "35"
+  },
+  {
+   "revision_number": 150,
+   "lo": "LO21",
+   "page": 680,
+   "exercise": "38"
+  },
+  {
+   "revision_number": 154,
+   "lo": "LO21",
+   "page": 681,
+   "exercise": "51"
+  },
+  {
+   "revision_number": 155,
+   "lo": "LO21",
+   "page": 681,
+   "exercise": "52"
+  },
+  {
+   "revision_number": 160,
+   "lo": "LO22",
+   "page": 64,
+   "exercise": "9"
+  },
+  {
+   "revision_number": 162,
+   "lo": "LO22",
+   "page": 64,
+   "exercise": "11"
+  },
+  {
+   "revision_number": 166,
+   "lo": "LO22",
+   "page": 64,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 169,
+   "lo": "LO22",
+   "page": 64,
+   "exercise": "18"
+  },
+  {
+   "revision_number": 170,
+   "lo": "LO23",
+   "page": 139,
+   "exercise": "5"
+  },
+  {
+   "revision_number": 171,
+   "lo": "LO23",
+   "page": 139,
+   "exercise": "6"
+  },
+  {
+   "revision_number": 172,
+   "lo": "LO23",
+   "page": 139,
+   "exercise": "7"
+  },
+  {
+   "revision_number": 173,
+   "lo": "LO23",
+   "page": 139,
+   "exercise": "8"
+  },
+  {
+   "revision_number": 177,
+   "lo": "LO24",
+   "page": 177,
+   "exercise": "13"
+  },
+  {
+   "revision_number": 179,
+   "lo": "LO24",
+   "page": 177,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 183,
+   "lo": "LO24",
+   "page": 178,
+   "exercise": "19"
+  },
+  {
+   "revision_number": 187,
+   "lo": "LO24",
+   "page": 178,
+   "exercise": "23"
+  },
+  {
+   "revision_number": 189,
+   "lo": "LO25",
+   "page": 208,
+   "exercise": "15"
+  },
+  {
+   "revision_number": 190,
+   "lo": "LO25",
+   "page": 208,
+   "exercise": "16"
+  },
+  {
+   "revision_number": 191,
+   "lo": "LO25",
+   "page": 208,
+   "exercise": "17"
+  },
+  {
+   "revision_number": 193,
+   "lo": "LO25",
+   "page": 208,
+   "exercise": "19"
+  }
+ ],
+ "held_back": [
+  {
+   "revision_number": 112,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "22",
+   "reason": "figure cropped: side x is not visible (Reveal p.184 ex 22)"
+  },
+  {
+   "revision_number": 113,
+   "lo": "LO17",
+   "page": 184,
+   "exercise": "23",
+   "reason": "figure cropped: top edge and side x are cut off (Reveal p.184 ex 23)"
+  },
+  {
+   "revision_number": 117,
+   "lo": "LO17",
+   "page": 185,
+   "exercise": "34",
+   "reason": "figure cropped on the right: 45 and the right half are cut off (Reveal p.185 ex 34)"
+  }
+ ],
+ "checks": [
+  {
+   "id": "G10A-REV-Q09-MCQ-01",
+   "check": "C′ = 2.5·(5,2) = (12.5,5)",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q12-MCQ-03",
+   "check": "4.5·100/3.333 = 135.0",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q13-MCQ-02",
+   "check": "AC = 2·DE = 20",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-01",
+   "check": "FG = ST·FJ/SH = 6·7/5 = 8.4",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q14-MCQ-02",
+   "check": "MN = AB·MQ/AD = 24·10.5/14 = 18",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-01",
+   "check": "√(4·25) = 10",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-02",
+   "check": "√(12·20) = 4*sqrt(15)",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-03",
+   "check": "√(17·3) = sqrt(51)",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q15-MCQ-04",
+   "check": "√(3·24) = 6*sqrt(2)",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-03",
+   "check": "5+12 vs 13: Acute",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-04",
+   "check": "4+8 vs 12: Right",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q16-MCQ-05",
+   "check": "81+1600 vs 1681: Right",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q17-MCQ-01",
+   "check": "40·sin 30° = 20",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-01",
+   "check": "atan(85.5/122) = 35.02°",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-02",
+   "check": "120/tan 19° = 348.51",
+   "agrees_with_booklet": true
+  },
+  {
+   "id": "G10A-REV-Q19-MCQ-03",
+   "check": "atan(528/2000) = 14.79°",
+   "agrees_with_booklet": true
+  }
+ ]
+}
