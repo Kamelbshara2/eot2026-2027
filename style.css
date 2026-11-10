@@ -238,3 +238,4 @@ img,svg,canvas{-webkit-user-drag:none;user-drag:none}
 .shield-cover[hidden]{display:none}
 .shield-cover div{display:grid;gap:8px}.shield-cover strong{font-size:26px}
 @media print{.shield-cover{display:none!important}.shield-away body>*{filter:none}}
+.question-watermark .wm-tile{position:absolute;inset:auto 8px 6px auto;font-size:12px!important;transform:none!important;opacity:.9}
