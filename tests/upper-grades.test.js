@@ -57,3 +57,13 @@ test('imported question totals match the supplied package (753 eligible of 760)'
   const total = Object.keys(CLASSES).reduce((n, c) => n + load(c).questions.length, 0);
   assert.equal(total, 753);
 });
+
+test('every text question and written-part prompt of Grades 11-12 has an Arabic translation', async () => {
+  const {translate} = await import('../lib/study-translate.js');
+  const table = JSON.parse(fs.readFileSync(new URL('../public/data/study/translations-ar.json', import.meta.url)));
+  for (const c of Object.keys(CLASSES)) for (const q of load(c).questions) {
+    if (q.figure_in_image) continue;
+    assert(translate(table, 'instruction', q.instruction), `${q.id}: ${q.instruction}`);
+    for (const p of q.parts || []) assert(translate(table, 'part', p.prompt), `${q.id}: ${p.prompt}`);
+  }
+});

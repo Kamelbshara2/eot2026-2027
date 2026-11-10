@@ -1,0 +1,1177 @@
+{
+ "11G": {
+  "LO01": {
+   "slot": "Q1",
+   "reference": "117, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": null
+  },
+  "LO02": {
+   "slot": "Q2",
+   "reference": "126, Example 4",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO03": {
+   "slot": "Q3",
+   "reference": "131, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO04": {
+   "slot": "Q4",
+   "reference": "134, Exercises 9–11",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO05": {
+   "slot": "Q5",
+   "reference": "135, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO06": {
+   "slot": "Q6",
+   "reference": "146, Exercises 11–12",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO07": {
+   "slot": "Q7",
+   "reference": "150, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO08": {
+   "slot": "Q8",
+   "reference": "162, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO09": {
+   "slot": "Q9",
+   "reference": "167, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": null
+  },
+  "LO10": {
+   "slot": "Q10",
+   "reference": "168, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO11": {
+   "slot": "Q11",
+   "reference": "176, Example 2",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO12": {
+   "slot": "Q12",
+   "reference": "183, Exercises 1–6",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO13": {
+   "slot": "Q13",
+   "reference": "181, Example 4",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO14": {
+   "slot": "Q14",
+   "reference": "188, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO15": {
+   "slot": "Q15",
+   "reference": "195, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO16": {
+   "slot": "Q16",
+   "reference": "366, Example 2",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO17": {
+   "slot": "Q17",
+   "reference": "365, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 5
+   },
+   "auto_checked": null
+  },
+  "LO18": {
+   "slot": "Q18",
+   "reference": "398, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 5
+   },
+   "auto_checked": null
+  },
+  "LO19": {
+   "slot": "Q19",
+   "reference": "400, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO20": {
+   "slot": "Q20",
+   "reference": "402, Exercises 13–15",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 5
+   },
+   "auto_checked": null
+  },
+  "LO21": {
+   "slot": "Q21",
+   "reference": "128, Exercises 11–14",
+   "type": "frq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO22": {
+   "slot": "Q22",
+   "reference": "145, Exercises 1–4",
+   "type": "frq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO23": {
+   "slot": "Q23",
+   "reference": "193, Exercises 30–32",
+   "type": "frq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": 5
+  },
+  "LO24": {
+   "slot": "Q24",
+   "reference": "195, Example 1",
+   "type": "frq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": 5
+  },
+  "LO25": {
+   "slot": "Q25",
+   "reference": "403, Exercises 18–20",
+   "type": "frq",
+   "questions": 7,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 3
+   },
+   "auto_checked": 7
+  },
+  "LO26": {
+   "slot": "Q26",
+   "reference": "408, Example 3",
+   "type": "frq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": 5
+  }
+ },
+ "11A": {
+  "LO01": {
+   "slot": "Q1",
+   "reference": "221, Exercises 11–13",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": null
+  },
+  "LO02": {
+   "slot": "Q2",
+   "reference": "230, Exercises 23, 29, 32, 34",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO03": {
+   "slot": "Q3",
+   "reference": "265, Exercises 1–12",
+   "type": "mcq",
+   "questions": 12,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 12
+   },
+   "auto_checked": null
+  },
+  "LO04": {
+   "slot": "Q4",
+   "reference": "273, Exercises 7–12",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO05": {
+   "slot": "Q5",
+   "reference": "279, Example 5",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO06": {
+   "slot": "Q6",
+   "reference": "286, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO07": {
+   "slot": "Q7",
+   "reference": "311, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO08": {
+   "slot": "Q8",
+   "reference": "323, Exercises 16–19",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO09": {
+   "slot": "Q9",
+   "reference": "333, Exercises 13–16",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 5
+   },
+   "auto_checked": null
+  },
+  "LO10": {
+   "slot": "Q10",
+   "reference": "356, Example 2",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO11": {
+   "slot": "Q11",
+   "reference": "372, Learn: Types of Studies",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 5
+   },
+   "auto_checked": null
+  },
+  "LO12": {
+   "slot": "Q12",
+   "reference": "379, Example 1",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 2,
+    "مؤلَّف": 3
+   },
+   "auto_checked": null
+  },
+  "LO13": {
+   "slot": "Q13",
+   "reference": "384, Exercises 7–8",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO14": {
+   "slot": "Q14",
+   "reference": "388, Example 1; 391, Exercises 1–2",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 5
+   },
+   "auto_checked": null
+  },
+  "LO15": {
+   "slot": "Q15",
+   "reference": "418, Example 3",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO16": {
+   "slot": "Q16",
+   "reference": "431, Exercises 1–6",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO17": {
+   "slot": "Q17",
+   "reference": "441, Exercises 13–18",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO18": {
+   "slot": "Q18",
+   "reference": "450, Example 6; 479, Exercise 11",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO19": {
+   "slot": "Q19",
+   "reference": "461, Exercises 7–15",
+   "type": "mcq",
+   "questions": 11,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 11
+   },
+   "auto_checked": null
+  },
+  "LO20": {
+   "slot": "Q20",
+   "reference": "475, Exercises 1–9",
+   "type": "mcq",
+   "questions": 9,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 9
+   },
+   "auto_checked": null
+  },
+  "LO21": {
+   "slot": "Q21",
+   "reference": "237, Exercises 10–12",
+   "type": "frq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 3,
+    "مؤلَّف": 2
+   },
+   "auto_checked": 5
+  },
+  "LO22": {
+   "slot": "Q22",
+   "reference": "297, Example 2",
+   "type": "frq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 5
+   },
+   "auto_checked": 5
+  },
+  "LO23": {
+   "slot": "Q23",
+   "reference": "341, Example 4; 344, Exercises 11–16",
+   "type": "frq",
+   "questions": 8,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 2,
+    "أصلي": 6
+   },
+   "auto_checked": 8
+  },
+  "LO24": {
+   "slot": "Q24",
+   "reference": "397, Example 5; 400, Example 8; 402, Exercise 14",
+   "type": "frq",
+   "questions": 5,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 3,
+    "أصلي": 2
+   },
+   "auto_checked": 5
+  },
+  "LO25": {
+   "slot": "Q25",
+   "reference": "420, Example 6; 422, Exercises 52–53; 469, Exercises 7–12",
+   "type": "frq",
+   "questions": 9,
+   "cards": 0,
+   "source_mix": {
+    "مؤلَّف": 1,
+    "أصلي": 8
+   },
+   "auto_checked": 9
+  }
+ },
+ "12G": {
+  "LO01": {
+   "slot": "Q1",
+   "reference": "Reveal 3; Bridge 5, Key Concept",
+   "type": "mcq",
+   "questions": 21,
+   "cards": 20,
+   "source_mix": {
+    "أصلي": 21
+   },
+   "auto_checked": null
+  },
+  "LO02": {
+   "slot": "Q2",
+   "reference": "Reveal 9, Exercises 2–3; Bridge 9, Examples 5/5A",
+   "type": "mcq",
+   "questions": 9,
+   "cards": 9,
+   "source_mix": {
+    "أصلي": 9
+   },
+   "auto_checked": null
+  },
+  "LO03": {
+   "slot": "Q3",
+   "reference": "Reveal 13–14, Examples 1–2; Bridge 17–18",
+   "type": "mcq",
+   "questions": 19,
+   "cards": 17,
+   "source_mix": {
+    "أصلي": 19
+   },
+   "auto_checked": null
+  },
+  "LO04": {
+   "slot": "Q4",
+   "reference": "Reveal 28, Example 2; Bridge 36, Example 4",
+   "type": "mcq",
+   "questions": 15,
+   "cards": 13,
+   "source_mix": {
+    "أصلي": 15
+   },
+   "auto_checked": null
+  },
+  "LO05": {
+   "slot": "Q5",
+   "reference": "Reveal 35, Example 4; Bridge 24–25, Example 1",
+   "type": "mcq",
+   "questions": 12,
+   "cards": 12,
+   "source_mix": {
+    "أصلي": 12
+   },
+   "auto_checked": null
+  },
+  "LO06": {
+   "slot": "Q6",
+   "reference": "Reveal 43–44, Examples 1–2; Bridge 55, Examples 2–3",
+   "type": "mcq",
+   "questions": 11,
+   "cards": 10,
+   "source_mix": {
+    "أصلي": 11
+   },
+   "auto_checked": null
+  },
+  "LO07": {
+   "slot": "Q7",
+   "reference": "Reveal 45; Bridge 57, Key Concept",
+   "type": "mcq",
+   "questions": 11,
+   "cards": 11,
+   "source_mix": {
+    "أصلي": 11
+   },
+   "auto_checked": null
+  },
+  "LO08": {
+   "slot": "Q8",
+   "reference": "Reveal 51–52, Examples 1–2; Bridge 73, Example 1",
+   "type": "mcq",
+   "questions": 11,
+   "cards": 11,
+   "source_mix": {
+    "أصلي": 11
+   },
+   "auto_checked": null
+  },
+  "LO09": {
+   "slot": "Q9",
+   "reference": "Reveal 79, Exercises 8–10; Bridge 118, Exercises 17–19",
+   "type": "mcq",
+   "questions": 11,
+   "cards": 11,
+   "source_mix": {
+    "أصلي": 11
+   },
+   "auto_checked": null
+  },
+  "LO10": {
+   "slot": "Q10",
+   "reference": "Reveal 73; Bridge 116, Key Concept",
+   "type": "mcq",
+   "questions": 12,
+   "cards": 12,
+   "source_mix": {
+    "أصلي": 12
+   },
+   "auto_checked": null
+  },
+  "LO11": {
+   "slot": "Q11",
+   "reference": "Reveal 89, Exercises 1–4; Bridge 126, Exercises 5–8",
+   "type": "mcq",
+   "questions": 15,
+   "cards": 11,
+   "source_mix": {
+    "أصلي": 15
+   },
+   "auto_checked": null
+  },
+  "LO12": {
+   "slot": "Q12",
+   "reference": "Reveal 84, Example 2; Bridge 124, Example 3",
+   "type": "mcq",
+   "questions": 7,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 7
+   },
+   "auto_checked": null
+  },
+  "LO13": {
+   "slot": "Q13",
+   "reference": "Reveal 102, Example 1; Bridge 105, Example 1",
+   "type": "mcq",
+   "questions": 12,
+   "cards": 12,
+   "source_mix": {
+    "أصلي": 12
+   },
+   "auto_checked": null
+  },
+  "LO14": {
+   "slot": "Q14",
+   "reference": "Reveal 103, Example 4; Bridge 107, Example 4",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO15": {
+   "slot": "Q15",
+   "reference": "Reveal 129, Exercises 39,40,43,45; Bridge 138, Exercises 34,35,44,47",
+   "type": "mcq",
+   "questions": 10,
+   "cards": 9,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": null
+  },
+  "LO16": {
+   "slot": "Q16",
+   "reference": "Reveal 221, Exercises 7,10; Bridge 179, Examples 5A,5B",
+   "type": "mcq",
+   "questions": 10,
+   "cards": 8,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": null
+  },
+  "LO17": {
+   "slot": "Q17",
+   "reference": "Reveal 219–220, Examples 6–7; Bridge 180, Example 6",
+   "type": "mcq",
+   "questions": 9,
+   "cards": 9,
+   "source_mix": {
+    "أصلي": 9
+   },
+   "auto_checked": null
+  },
+  "LO18": {
+   "slot": "Q18",
+   "reference": "Reveal 372; Bridge 235, Key Concept",
+   "type": "mcq",
+   "questions": 18,
+   "cards": 10,
+   "source_mix": {
+    "أصلي": 18
+   },
+   "auto_checked": null
+  },
+  "LO19": {
+   "slot": "Q19",
+   "reference": "Reveal 372; Bridge 237, Example 3",
+   "type": "mcq",
+   "questions": 13,
+   "cards": 9,
+   "source_mix": {
+    "أصلي": 13
+   },
+   "auto_checked": null
+  },
+  "LO20": {
+   "slot": "Q20",
+   "reference": "Reveal 396; Bridge 273, Key Concept",
+   "type": "mcq",
+   "questions": 14,
+   "cards": 13,
+   "source_mix": {
+    "أصلي": 14
+   },
+   "auto_checked": null
+  },
+  "LO21": {
+   "slot": "Q21",
+   "reference": "Reveal 35–36, Examples 5,7; Bridge 25, Examples 2–3",
+   "type": "frq",
+   "questions": 10,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": 10
+  },
+  "LO22": {
+   "slot": "Q22",
+   "reference": "Reveal 53, Examples 3–4; Bridge 74–75, Examples 2–3",
+   "type": "frq",
+   "questions": 7,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 7
+   },
+   "auto_checked": 7
+  },
+  "LO23": {
+   "slot": "Q23",
+   "reference": "Reveal 97, Exercises 5,10,19–22; 98, Exercises 36–38; Bridge 99–102",
+   "type": "frq",
+   "questions": 9,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 9
+   },
+   "auto_checked": 8
+  },
+  "LO24": {
+   "slot": "Q24",
+   "reference": "Reveal 230, Exercises 21,22,24,25; Bridge 218, Exercises 9,10,12,13",
+   "type": "frq",
+   "questions": 5,
+   "cards": 2,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO25": {
+   "slot": "Q25",
+   "reference": "Reveal 400, Example 8; 402, Exercise 14; Bridge 277, Example 5; 279, Exercise 17",
+   "type": "frq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 5
+   },
+   "auto_checked": 5
+  }
+ },
+ "12A": {
+  "LO01": {
+   "slot": "Q1",
+   "reference": "68 / Arabic 70, Exercises 7–12",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 0,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO02": {
+   "slot": "Q2",
+   "reference": "85 / Arabic 87, Exercises 21–24",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 3,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO03": {
+   "slot": "Q3",
+   "reference": "85 / Arabic 87, Exercises 29–32",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO04": {
+   "slot": "Q4",
+   "reference": "85 / Arabic 87, Exercises 7–16",
+   "type": "mcq",
+   "questions": 10,
+   "cards": 10,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": null
+  },
+  "LO05": {
+   "slot": "Q5",
+   "reference": "95 / Arabic 97, Exercises 21–28",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 8,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO06": {
+   "slot": "Q6",
+   "reference": "89 / Arabic 91, Example 4.2",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO07": {
+   "slot": "Q7",
+   "reference": "106 / Arabic 108, Exercises 9–14",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO08": {
+   "slot": "Q8",
+   "reference": "141, Exercises 19–22; review labels 143 /145",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 7,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO09": {
+   "slot": "Q9",
+   "reference": "147 / Arabic 149, Example 2.5",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO10": {
+   "slot": "Q10",
+   "reference": "152 / Arabic 154, Exercises 29–30",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO11": {
+   "slot": "Q11",
+   "reference": "160 / Arabic 162, Exercises 7–14",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO12": {
+   "slot": "Q12",
+   "reference": "169 / Arabic 171, Exercises 21–24",
+   "type": "mcq",
+   "questions": 12,
+   "cards": 12,
+   "source_mix": {
+    "أصلي": 12
+   },
+   "auto_checked": null
+  },
+  "LO13": {
+   "slot": "Q13",
+   "reference": "177 / Arabic 179, Exercises 31–36",
+   "type": "mcq",
+   "questions": 10,
+   "cards": 8,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": null
+  },
+  "LO14": {
+   "slot": "Q14",
+   "reference": "176 / Arabic 178, Exercises 17–22",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO15": {
+   "slot": "Q15",
+   "reference": "184 / Arabic 186, Exercises 9–18",
+   "type": "mcq",
+   "questions": 10,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 10
+   },
+   "auto_checked": null
+  },
+  "LO16": {
+   "slot": "Q16",
+   "reference": "194 / Arabic 196, Exercises 29–30",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": null
+  },
+  "LO17": {
+   "slot": "Q17",
+   "reference": "193 / Arabic 195, Exercises 20–22",
+   "type": "mcq",
+   "questions": 6,
+   "cards": 5,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": null
+  },
+  "LO18": {
+   "slot": "Q18",
+   "reference": "198 / Arabic 200, Example 8.2",
+   "type": "mcq",
+   "questions": 5,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 1,
+    "مؤلَّف": 4
+   },
+   "auto_checked": null
+  },
+  "LO19": {
+   "slot": "Q19",
+   "reference": "204 / Arabic 206, Exercises 29–32",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO20": {
+   "slot": "Q20",
+   "reference": "213 / Arabic 215, Theorem 10.1",
+   "type": "mcq",
+   "questions": 8,
+   "cards": 8,
+   "source_mix": {
+    "أصلي": 8
+   },
+   "auto_checked": null
+  },
+  "LO21": {
+   "slot": "Q21",
+   "reference": "88, Definition 4.1; 95, Exercises 29–32",
+   "type": "frq",
+   "questions": 9,
+   "cards": 9,
+   "source_mix": {
+    "أصلي": 9
+   },
+   "auto_checked": 9
+  },
+  "LO22": {
+   "slot": "Q22",
+   "reference": "106 / Arabic 108, Exercises 29–32",
+   "type": "frq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO23": {
+   "slot": "Q23",
+   "reference": "169 / Arabic 171, Exercises 17–20",
+   "type": "frq",
+   "questions": 5,
+   "cards": 4,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO24": {
+   "slot": "Q24",
+   "reference": "184 / Arabic 186, Exercises 3–8",
+   "type": "frq",
+   "questions": 6,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": 0
+  },
+  "LO25": {
+   "slot": "Q25",
+   "reference": "194 / Arabic 196, Exercises 35–38",
+   "type": "frq",
+   "questions": 5,
+   "cards": 1,
+   "source_mix": {
+    "أصلي": 4,
+    "مؤلَّف": 1
+   },
+   "auto_checked": 5
+  },
+  "LO26": {
+   "slot": "Q26",
+   "reference": "219 / Arabic 221, Exercises 1–6",
+   "type": "frq",
+   "questions": 6,
+   "cards": 6,
+   "source_mix": {
+    "أصلي": 6
+   },
+   "auto_checked": 6
+  }
+ }
+}
