@@ -1,0 +1,949 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p54-Q1-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Denominator zero.",
+       "latex": "x+2=0\\Rightarrow x=-2"
+      },
+      {
+       "text": "Domain and continuity: a rational function is continuous on its domain.",
+       "latex": "D=\\mathbb R\\setminus\\{-2\\},\\ \\text{continuous on }(-\\infty,-2)\\cup(-2,\\infty)"
+      },
+      {
+       "text": "Factor: the factor (x + 2) cancels, so x = −2 is a removable discontinuity (hole).",
+       "latex": "\\dfrac{(x+2)(x-1)}{x+2}=x-1\\ (x\\ne-2)"
+      },
+      {
+       "text": "Continuous extension: define g(−2) by the limit.",
+       "latex": "g(x)=x-1,\\quad g(-2)=-3"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p55-Q2-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Denominator zero.",
+       "latex": "x-3=0\\Rightarrow x=3"
+      },
+      {
+       "text": "Domain and continuity.",
+       "latex": "D=\\mathbb R\\setminus\\{3\\},\\ \\text{continuous on }(-\\infty,3)\\cup(3,\\infty)"
+      },
+      {
+       "text": "Factor: (x − 3) cancels, so x = 3 is removable.",
+       "latex": "\\dfrac{(x-3)(x+3)}{x-3}=x+3"
+      },
+      {
+       "text": "Fill the hole with the limit.",
+       "latex": "h(x)=x+3,\\quad h(3)=6"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p55-Q3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "Left limit at 10 000 (from 0.14x).",
+       "latex": "0.14(10000)=1400"
+      },
+      {
+       "text": "Right value (from c + 0.21x).",
+       "latex": "c+0.21(10000)=c+2100"
+      },
+      {
+       "text": "Set them equal.",
+       "latex": "c+2100=1400\\Rightarrow c=-700"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p56-Q4-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "At x = 0: left value 0, right limit a + 0.12·0.",
+       "latex": "a=0"
+      },
+      {
+       "text": "At x = 20 000: left a + 0.12(20 000), right b + 0.16·0.",
+       "latex": "0+2400=b\\Rightarrow b=2400"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p56-Q5-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "Left limit uses the special limit sin x / x → 1.",
+       "latex": "\\lim_{x\\to0^-}\\dfrac{2\\sin x}{x}=2"
+      },
+      {
+       "text": "Right limit.",
+       "latex": "\\lim_{x\\to0^+}b\\cos x=b"
+      },
+      {
+       "text": "All three equal.",
+       "latex": "a=2,\\quad b=2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p57-Q6-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "At x = 0: a(tan⁻¹0 + 2) = 2e⁰ + 1.",
+       "latex": "2a=3\\Rightarrow a=\\tfrac32"
+      },
+      {
+       "text": "At x = 3: 2e^{3b} + 1 = ln(3 − 2) + 3².",
+       "latex": "2e^{3b}+1=9\\Rightarrow e^{3b}=4"
+      },
+      {
+       "text": "Take ln.",
+       "latex": "b=\\dfrac{\\ln4}{3}\\approx0.4621"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p57-Q7-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "At x = 0: ae⁰ + 1 = sin⁻¹0.",
+       "latex": "a+1=0\\Rightarrow a=-1"
+      },
+      {
+       "text": "At x = 2: sin⁻¹(2/2) = 2² − 2 + b.",
+       "latex": "\\tfrac{\\pi}{2}=2+b\\Rightarrow b=\\tfrac{\\pi}{2}-2\\approx-0.4292"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p58-Q8-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "At x = −1: −2 = a(−1) − b.",
+       "latex": "-a-b=-2"
+      },
+      {
+       "text": "At x = 1: a(1) − b = 3.",
+       "latex": "a-b=3"
+      },
+      {
+       "text": "Add the equations: −2b = 1; then a.",
+       "latex": "b=-\\tfrac12,\\quad a=\\tfrac52"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p58-Q9-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "A piecewise function is continuous at a join when the left limit, the right limit and the value there are equal.",
+       "latex": "\\lim_{x\\to a^-}f=\\lim_{x\\to a^+}f=f(a)"
+      },
+      {
+       "text": "At x = 0: a·0 + 2b = 0² + 3a − b.",
+       "latex": "2b=3a-b\\Rightarrow a=b"
+      },
+      {
+       "text": "At x = 2: 4 + 3a − b = 3(2) − 5.",
+       "latex": "3a-b=-3"
+      },
+      {
+       "text": "Substitute a = b.",
+       "latex": "2a=-3\\Rightarrow a=b=-\\tfrac32"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p59-Q29-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x^{3}}{- \\left(x - 2\\right) \\left(x + 2\\right)}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "- \\left(x - 2\\right) \\left(x + 2\\right)=0\\ \\Rightarrow\\ x=-2,\\ 2"
+      },
+      {
+       "text": "x = -2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=-2"
+      },
+      {
+       "text": "x = 2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=2"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=3,\\quad \\deg D=2"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{3}}{- x^{2}}=- x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{3}}{4 - x^{2}}=- x+\\dfrac{4 x}{4 - x^{2}}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(4 - x^{2}\\right)\\left(- x\\right)+4 x=x^{3}"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=- x"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p60-Q30-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x^{2} + 1}{x - 2}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x - 2=0\\ \\Rightarrow\\ x=2"
+      },
+      {
+       "text": "x = 2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=2"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{2}}{x}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{2} + 1}{x - 2}=x + 2+\\dfrac{5}{x - 2}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x - 2\\right)\\left(x + 2\\right)+5=x^{2} + 1"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x + 2"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p60-Q31-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x^{3}}{x^{2} + x - 4}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x^{2} + x - 4=0\\ \\Rightarrow\\ x=- \\frac{\\sqrt{17}}{2} - \\frac{1}{2},\\ - \\frac{1}{2} + \\frac{\\sqrt{17}}{2}"
+      },
+      {
+       "text": "x = -sqrt(17)/2 - 1/2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=- \\frac{\\sqrt{17}}{2} - \\frac{1}{2}"
+      },
+      {
+       "text": "x = -1/2 + sqrt(17)/2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=- \\frac{1}{2} + \\frac{\\sqrt{17}}{2}"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=3,\\quad \\deg D=2"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{3}}{x^{2}}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{3}}{x^{2} + x - 4}=x - 1+\\dfrac{5 x - 4}{x^{2} + x - 4}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x^{2} + x - 4\\right)\\left(x - 1\\right)+5 x - 4=x^{3}"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x - 1"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p61-Q32-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x^{4}}{x^{3} + 2}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x^{3} + 2=0\\ \\Rightarrow\\ x=- \\sqrt[3]{2}"
+      },
+      {
+       "text": "x = -2**(1/3) makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=- \\sqrt[3]{2}"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=4,\\quad \\deg D=3"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{4}}{x^{3}}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{4}}{x^{3} + 2}=x-\\dfrac{2 x}{x^{3} + 2}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x^{3} + 2\\right)\\left(x\\right)-2 x=x^{4}"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-Q22-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x^{2} + 1}{x - 1}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x - 1=0\\ \\Rightarrow\\ x=1"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne 1\\}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{2}}{x}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{2} + 1}{x - 1}=x + 1+\\dfrac{2}{x - 1}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x - 1\\right)\\left(x + 1\\right)+2=x^{2} + 1"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x + 1"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p61-Q17-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Product Rule (fg)′ = f′g + fg′.",
+       "latex": "f\\prime(x)=\\left(2 x + 2\\right) \\left(x^{4} + x^{2} + 1\\right) + \\left(x^{2} + 2 x\\right) \\left(4 x^{3} + 2 x\\right)"
+      },
+      {
+       "text": "Evaluate at x = 0.",
+       "latex": "f(0)=0,\\quad f\\prime(0)=2"
+      },
+      {
+       "text": "Tangent line at x = a.",
+       "latex": "y-f(a)=f\\prime(a)(x-a)"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "y=2 x"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p62-Q18-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Product Rule (fg)′ = f′g + fg′.",
+       "latex": "f\\prime(x)=\\left(6 x + 2\\right) \\left(x^{3} + x + 1\\right) + \\left(3 x^{2} + 1\\right) \\left(3 x^{2} + 2 x - 1\\right)"
+      },
+      {
+       "text": "Evaluate at x = 1.",
+       "latex": "f(1)=12,\\quad f\\prime(1)=40"
+      },
+      {
+       "text": "Tangent line at x = a.",
+       "latex": "y-f(a)=f\\prime(a)(x-a)"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "y=40 x - 28"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p62-Q19-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Quotient Rule (f/g)′ = (f′g − fg′)/g².",
+       "latex": "f\\prime(x)=\\frac{1}{\\left(x + 2\\right)^{2}}"
+      },
+      {
+       "text": "Evaluate at x = 0.",
+       "latex": "f(0)=\\frac{1}{2},\\quad f\\prime(0)=\\frac{1}{4}"
+      },
+      {
+       "text": "Tangent line at x = a.",
+       "latex": "y-f(a)=f\\prime(a)(x-a)"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "y=\\frac{x}{4} + \\frac{1}{2}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p62-Q20-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Quotient Rule (f/g)′ = (f′g − fg′)/g².",
+       "latex": "f\\prime(x)=- \\frac{x^{2} + 6 x - 1}{\\left(x^{2} + 1\\right)^{2}}"
+      },
+      {
+       "text": "Evaluate at x = 1.",
+       "latex": "f(1)=2,\\quad f\\prime(1)=- \\frac{3}{2}"
+      },
+      {
+       "text": "Tangent line at x = a.",
+       "latex": "y-f(a)=f\\prime(a)(x-a)"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "y=\\frac{7}{2} - \\frac{3 x}{2}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-Q23-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Product Rule.",
+       "latex": "f\\prime(x)=2x(x^3-2)+3x^2(x^2+1)=5x^4+3x^2-4x"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Evaluate at x = 1.",
+       "latex": "f(1)=2(-1)=-2,\\quad f\\prime(1)=4"
+      },
+      {
+       "text": "Tangent line at x = a.",
+       "latex": "y-f(a)=f\\prime(a)(x-a)"
+      },
+      {
+       "text": "Simplify.",
+       "latex": "y=4x-6"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p63-Q3-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Chain Rule on tan³(2t): 3tan²(2t) · sec²(2t) · 2.",
+       "latex": "6\\tan^2(2t)\\sec^2(2t)"
+      },
+      {
+       "text": "Chain Rule on csc⁴(3t): 4csc³(3t) · (−csc(3t)cot(3t)) · 3; the minus in front makes it positive.",
+       "latex": "+12\\csc^4(3t)\\cot(3t)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p63-Q4-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Derivative of t².",
+       "latex": "2t"
+      },
+      {
+       "text": "Chain Rule on 2cos²(4t): 2 · 2cos(4t) · (−sin(4t)) · 4.",
+       "latex": "-16\\sin(4t)\\cos(4t)"
+      },
+      {
+       "text": "Double-angle identity 2 sin u cos u = sin 2u.",
+       "latex": "f\\prime(t)=2t-8\\sin(8t)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p63-Q5-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Product Rule with (cos 5x²)′ = −sin(5x²) · 10x.",
+       "latex": "f\\prime(x)=\\cos(5x^2)+x\\cdot(-10x\\sin(5x^2))"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p64-Q6-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Product Rule with (sec 4x)′ = 4 sec 4x tan 4x.",
+       "latex": "f\\prime(x)=2x\\sec(4x)+4x^2\\sec(4x)\\tan(4x)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p64-Q7-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Quotient Rule.",
+       "latex": "f\\prime(x)=\\dfrac{2x\\cos(x^2)\\cdot x^2-\\sin(x^2)\\cdot2x}{x^4}"
+      },
+      {
+       "text": "Simplify (x ≠ 0).",
+       "latex": "f\\prime(x)=\\dfrac{2\\cos(x^2)}{x}-\\dfrac{2\\sin(x^2)}{x^3}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p64-Q8-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "1/csc u = sin u, so rewrite first.",
+       "latex": "f(x)=x^2\\sin^4(2x)"
+      },
+      {
+       "text": "Product and Chain Rules: (sin⁴2x)′ = 4sin³(2x) · cos(2x) · 2.",
+       "latex": "f\\prime(x)=2x\\sin^4(2x)+8x^2\\sin^3(2x)\\cos(2x)"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p65-Q35-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Tripling every day: P(t) = P₀ · 3ᵗ.",
+       "latex": "P(t)=200\\cdot3^t"
+      },
+      {
+       "text": "(aᵗ)′ = aᵗ ln a.",
+       "latex": "P\\prime(t)=200\\cdot3^t\\ln3"
+      },
+      {
+       "text": "Instantaneous percentage rate.",
+       "latex": "100\\dfrac{P\\prime(t)}{P(t)}=100\\ln3\\approx109.86\\%\\ \\text{per day}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p66-Q36-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Tripling every day: P(t) = P₀ · 3ᵗ.",
+       "latex": "P(t)=500\\cdot3^t"
+      },
+      {
+       "text": "(aᵗ)′ = aᵗ ln a.",
+       "latex": "P\\prime(t)=500\\cdot3^t\\ln3"
+      },
+      {
+       "text": "Instantaneous percentage rate.",
+       "latex": "100\\dfrac{P\\prime(t)}{P(t)}=100\\ln3\\approx109.86\\%\\ \\text{per day}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p67-Q37-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Quotient (or Chain) Rule on A/(den).",
+       "latex": "c\\prime(t)=\\frac{96 e^{8 t}}{\\left(e^{8 t} + 2\\right)^{2}}"
+      },
+      {
+       "text": "Exponentials are always positive, so numerator and denominator are positive.",
+       "latex": "c\\prime(t)>0"
+      },
+      {
+       "text": "As t → ∞, e^(−kt) → 0, so the denominator decreases to its constant term and c(t) increases to its limit.",
+       "latex": "\\lim_{t\\to\\infty}c(t)=\\dfrac{6}{1}=6"
+      },
+      {
+       "text": "The denominator is always larger than that constant, so c(t) stays below the limit.",
+       "latex": "2e^{-8t}+1>1\\Rightarrow c(t)<6"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p68-Q37-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Quotient (or Chain) Rule on A/(den).",
+       "latex": "c\\prime(t)=\\frac{900 e^{10 t}}{\\left(2 e^{10 t} + 9\\right)^{2}}"
+      },
+      {
+       "text": "Exponentials are always positive, so numerator and denominator are positive.",
+       "latex": "c\\prime(t)>0"
+      },
+      {
+       "text": "As t → ∞, e^(−kt) → 0, so the denominator decreases to its constant term and c(t) increases to its limit.",
+       "latex": "\\lim_{t\\to\\infty}c(t)=\\dfrac{10}{2}=5"
+      },
+      {
+       "text": "The denominator is always larger than that constant, so c(t) stays below the limit.",
+       "latex": "9e^{-10t}+2>2\\Rightarrow c(t)<5"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-Q25-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "(e^{kt})′ = k e^{kt}.",
+       "latex": "P\\prime(t)=400(0.3)e^{0.3t}=120e^{0.3t}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Percentage rate.",
+       "latex": "100\\dfrac{P\\prime}{P}=100(0.3)=30\\%\\ \\text{per day}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Doubling: e^{0.3T} = 2.",
+       "latex": "0.3T=\\ln2"
+      },
+      {
+       "text": "Solve.",
+       "latex": "T=\\dfrac{\\ln2}{0.3}\\approx2.31\\ \\text{days}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p69-Q-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=x^{2} + 1"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{5-(5)}{2-(-2)}=0"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "2 c=0\\Rightarrow c=0"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p69-Q-2": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=x^{2} + 1"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{5-(1)}{2-(0)}=2"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "2 c=2\\Rightarrow c=1"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p70-Q-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=x^{3} + x^{2}"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{2-(0)}{1-(0)}=2"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "3 c^{2} + 2 c=2\\Rightarrow c=- \\frac{1}{3} + \\frac{\\sqrt{7}}{3}\\approx0.5486"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p70-Q-2": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=x^{3} + x^{2}"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{2-(0)}{1-(-1)}=1"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "3 c^{2} + 2 c=1\\Rightarrow c=\\frac{1}{3}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p71-Q-1": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=\\sin{\\left(x \\right)}"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{1-(0)}{\\frac{\\pi}{2}-(0)}=\\frac{2}{\\pi}"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "\\cos{\\left(c \\right)}=\\frac{2}{\\pi}\\Rightarrow c=\\operatorname{acos}{\\left(\\frac{2}{\\pi} \\right)}\\approx0.8807"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "12A-p71-Q-2": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Mean Value Theorem: f′(c) equals the slope of the secant from (a, f(a)) to (b, f(b)) for some c in (a, b).",
+       "latex": "f\\prime(c)=\\dfrac{f(b)-f(a)}{b-a}"
+      },
+      {
+       "text": "f is a polynomial / sine: continuous and differentiable everywhere.",
+       "latex": "f(x)=\\sin{\\left(x \\right)}"
+      },
+      {
+       "text": "Secant slope.",
+       "latex": "m=\\dfrac{0-(0)}{0-(- \\pi)}=0"
+      },
+      {
+       "text": "Solve f′(c) = m and keep c inside the interval.",
+       "latex": "\\cos{\\left(c \\right)}=0\\Rightarrow c=- \\frac{\\pi}{2}\\approx-1.5708"
+      }
+     ]
+    }
+   },
+   "verified": true
+  }
+ }
+}

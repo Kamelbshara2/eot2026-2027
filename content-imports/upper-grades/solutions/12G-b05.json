@@ -1,0 +1,192 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p09-Ex1-2": {
+   "steps": [
+    {
+     "text": "Move everything to one side.",
+     "latex": "10-x^2=4x+14\\ \\Rightarrow\\ x^2+4x+4=0"
+    },
+    {
+     "text": "Perfect square.",
+     "latex": "(x+2)^2=0"
+    },
+    {
+     "text": "One repeated solution; the graph touches the x-axis once.",
+     "latex": "x=-2"
+    },
+    {
+     "text": "Option b).",
+     "latex": "x=-2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p10-Ex2-1": {
+   "steps": [
+    {
+     "text": "Let the numbers be roots of t² − (sum)t + (product) = 0.",
+     "latex": "t^2-24t+143=0"
+    },
+    {
+     "text": "Find two numbers with product 143 and sum 24: 11 and 13.",
+     "latex": "(t-11)(t-13)=0"
+    },
+    {
+     "text": "Solutions.",
+     "latex": "t=11\\ \\text{or}\\ t=13"
+    },
+    {
+     "text": "The graph crosses the x-axis at 11 and 13: option a).",
+     "latex": "x=11,\\ 13"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p10-Q1-1": {
+   "steps": [
+    {
+     "text": "The graph crosses the x-axis at two symmetric points, x = −2 and x = 2 (vertex (0, −4)).",
+     "latex": "x^2-4=0"
+    },
+    {
+     "text": "Solutions = x-intercepts.",
+     "latex": "x=-2\\ \\text{or}\\ x=2"
+    },
+    {
+     "text": "Option a).",
+     "latex": "x=-2,\\ 2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p10-Q2-1": {
+   "steps": [
+    {
+     "text": "The parabola has vertex (0, −4) and crosses the x-axis at x = −2 and x = 2.",
+     "latex": "x^2-4=0"
+    },
+    {
+     "text": "Solutions of the equation are the x-intercepts.",
+     "latex": "x=\\pm2"
+    },
+    {
+     "text": "Option a).",
+     "latex": "x=-2,\\ 2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p11-Q3-1": {
+   "steps": [
+    {
+     "text": "The parabola opens upward and its vertex lies above the x-axis.",
+     "latex": "y_{\\min}>0"
+    },
+    {
+     "text": "A graph that never meets the x-axis has no real solutions.",
+     "latex": "f(x)=0\\ \\text{has no real solution}"
+    },
+    {
+     "text": "Option d).",
+     "latex": "\\text{no solution}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p11-Q4-1": {
+   "steps": [
+    {
+     "text": "The parabola opens downward and its vertex (the highest point) lies on the x-axis at the origin.",
+     "latex": "\\text{vertex }(0,\\,0)"
+    },
+    {
+     "text": "It touches the x-axis at one point, so there is one solution.",
+     "latex": "x=0"
+    },
+    {
+     "text": "Option c).",
+     "latex": "x=0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p11-Q5-1": {
+   "steps": [
+    {
+     "text": "Read where the graph crosses the x-axis (the points labelled (−2, 0) and (8, 0)).",
+     "latex": "(-2,0),\\ (8,0)"
+    },
+    {
+     "text": "Solutions are the x-coordinates.",
+     "latex": "x=-2\\ \\text{or}\\ x=8"
+    },
+    {
+     "text": "Option a).",
+     "latex": "x=-2,\\ 8"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q016": {
+   "steps": [
+    {
+     "text": "Factor x² − 3x − 10: numbers with product −10 and sum −3 are −5 and 2.",
+     "latex": "x^2-3x-10=(x-5)(x+2)"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=5\\ \\text{or}\\ x=-2"
+    },
+    {
+     "text": "Two real solutions, matching the two x-intercepts: option B.",
+     "latex": "x=-2,\\ 5"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q017": {
+   "steps": [
+    {
+     "text": "Set y = 0 to find the x-intercepts of y = x² + 2x.",
+     "latex": "x^2+2x=0"
+    },
+    {
+     "text": "Factor out x.",
+     "latex": "x(x+2)=0"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=0\\ \\text{or}\\ x=-2"
+    },
+    {
+     "text": "Two real solutions: option B.",
+     "latex": "x=0,\\ -2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q018": {
+   "steps": [
+    {
+     "text": "Use the discriminant b² − 4ac for x² + 2x + 3 = 0.",
+     "latex": "D=2^2-4(1)(3)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=4-12=-8<0"
+    },
+    {
+     "text": "A negative discriminant means no real solutions; the graph never meets the x-axis: option D.",
+     "latex": "\\text{no real solutions}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

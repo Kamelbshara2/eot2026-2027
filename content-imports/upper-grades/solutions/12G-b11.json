@@ -1,0 +1,234 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q052": {
+   "steps": [
+    {
+     "text": "Identify the coefficients.",
+     "latex": "a=2,\\ b=-5,\\ c=4"
+    },
+    {
+     "text": "Discriminant.",
+     "latex": "D=(-5)^2-4(2)(4)=25-32"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "D=-7<0"
+    },
+    {
+     "text": "D < 0: no real roots; the two roots are non-real (complex) numbers: option A.",
+     "latex": "\\text{two nonreal roots}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p19-Ex1-1": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=x^2+2x+1"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=-1,\\quad y_v=0"
+    },
+    {
+     "text": "The sign < or > excludes the curve: draw it dashed.",
+     "latex": "y\\,>\\,x^2+2x+1"
+    },
+    {
+     "text": "Shade above the parabola (\"y > curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph a) has this vertex, the dashed boundary and the shading above.",
+     "latex": "\\text{graph a)}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p20-1A-1": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=x^2+2x+4"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=-1,\\quad y_v=3"
+    },
+    {
+     "text": "The sign ≤ or ≥ includes the curve: draw it solid.",
+     "latex": "y\\,\\le\\,x^2+2x+4"
+    },
+    {
+     "text": "Shade below the parabola (\"y < curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph d) has this vertex, the solid boundary and the shading below.",
+     "latex": "\\text{graph d)}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p21-1B-1": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=-2x^2+3x+5"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=\\tfrac34,\\quad y_v=\\tfrac{49}{8}"
+    },
+    {
+     "text": "The sign < or > excludes the curve: draw it dashed.",
+     "latex": "y\\,<\\,-2x^2+3x+5"
+    },
+    {
+     "text": "Shade below the parabola (\"y < curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph b) has this vertex, the dashed boundary and the shading below.",
+     "latex": "\\text{graph b)}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p22-Ex1-1": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=x^2-2x+8"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=1,\\quad y_v=7"
+    },
+    {
+     "text": "The sign ≤ or ≥ includes the curve: draw it solid.",
+     "latex": "y\\,\\le\\,x^2-2x+8"
+    },
+    {
+     "text": "Shade below the parabola (\"y < curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph c) has this vertex, the solid boundary and the shading below.",
+     "latex": "\\text{graph c)}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p23-Ex2-1": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=-5x^2+10x"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=1,\\quad y_v=5"
+    },
+    {
+     "text": "The sign < or > excludes the curve: draw it dashed.",
+     "latex": "y\\,>\\,-5x^2+10x"
+    },
+    {
+     "text": "Shade above the parabola (\"y > curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph b) has this vertex, the dashed boundary and the shading above.",
+     "latex": "\\text{graph b)}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q053": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=x^2+4"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=0,\\quad y_v=4"
+    },
+    {
+     "text": "The sign ≤ or ≥ includes the curve: draw it solid.",
+     "latex": "y\\,\\le\\,x^2+4"
+    },
+    {
+     "text": "Shade below the parabola (\"y < curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph A has this vertex, the solid boundary and the shading below.",
+     "latex": "\\text{graph A}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q054": {
+   "steps": [
+    {
+     "text": "Boundary curve: replace the inequality sign by =.",
+     "latex": "y=2x^2-4x-2"
+    },
+    {
+     "text": "Vertex of the boundary parabola.",
+     "latex": "x_v=1,\\quad y_v=-4"
+    },
+    {
+     "text": "The sign ≤ or ≥ includes the curve: draw it solid.",
+     "latex": "y\\,\\le\\,2x^2-4x-2"
+    },
+    {
+     "text": "Shade below the parabola (\"y < curve\"). Confirm with a test point that is not on the curve.",
+     "latex": "\\text{test a point not on the curve}"
+    },
+    {
+     "text": "Graph A has this vertex, the solid boundary and the shading below.",
+     "latex": "\\text{graph A}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q055": {
+   "steps": [
+    {
+     "text": "Rewrite with y on the left.",
+     "latex": "-x^2+12x-36>y\\ \\Longleftrightarrow\\ y<-x^2+12x-36"
+    },
+    {
+     "text": "Factor the right side.",
+     "latex": "y<-(x-6)^2"
+    },
+    {
+     "text": "The boundary parabola opens downward with vertex (6, 0); the sign < makes it dashed.",
+     "latex": "\\text{dashed},\\ x_v=6,\\ y_v=0"
+    },
+    {
+     "text": "Shade below the curve (y is less than the curve).",
+     "latex": "\\text{shade below}"
+    },
+    {
+     "text": "Graph C matches.",
+     "latex": "\\text{graph C}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  }
+ }
+}

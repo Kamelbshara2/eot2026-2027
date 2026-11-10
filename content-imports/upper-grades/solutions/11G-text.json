@@ -1,0 +1,1165 @@
+{
+ "class": "11G",
+ "items": {
+  "11G-p02-1a": {
+   "steps": [
+    {
+     "text": "A dilation centred at the origin multiplies both coordinates by k.",
+     "latex": "(x,y)\\to(0.25x,\\ 0.25y)"
+    },
+    {
+     "text": "Test the image in each option.",
+     "latex": "H(-4,-8)\\to(-1,-2)"
+    },
+    {
+     "text": "Option A.",
+     "latex": "H\\prime(-1,-2)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p02-1b": {
+   "steps": [
+    {
+     "text": "A dilation centred at the origin multiplies both coordinates by k.",
+     "latex": "(x,y)\\to(1.25x,\\ 1.25y)"
+    },
+    {
+     "text": "Test the image in each option.",
+     "latex": "X(2,-1)\\to(2.5,-1.25)"
+    },
+    {
+     "text": "Option C.",
+     "latex": "X\\prime(2.5,-1.25)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q01-added-01": {
+   "steps": [
+    {
+     "text": "Multiply both coordinates by k.",
+     "latex": "P\\prime=(\\dfrac{3}{2}\\cdot3,\\ \\dfrac{3}{2}\\cdot-3)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "P\\prime=\\left(\\dfrac{9}{2},\\ \\dfrac{-9}{2}\\right)"
+    },
+    {
+     "text": "Option A.",
+     "latex": "(\\frac{9}{2},- \\frac{9}{2})"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q01-added-02": {
+   "steps": [
+    {
+     "text": "Multiply both coordinates by k.",
+     "latex": "P\\prime=(2\\cdot4,\\ 2\\cdot-5)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "P\\prime=\\left(8,\\ -10\\right)"
+    },
+    {
+     "text": "Option D.",
+     "latex": "(8,-10)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q02-added-01": {
+   "steps": [
+    {
+     "text": "Corresponding sides are in the same ratio.",
+     "latex": "\\dfrac{u\\prime}{u}=\\dfrac{b}{a}=\\dfrac{8}{4}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "u\\prime=6\\cdot\\dfrac{8}{4}=12"
+    },
+    {
+     "text": "Option D.",
+     "latex": "12"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q02-added-02": {
+   "steps": [
+    {
+     "text": "Corresponding sides are in the same ratio.",
+     "latex": "\\dfrac{u\\prime}{u}=\\dfrac{b}{a}=\\dfrac{10}{5}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "u\\prime=7\\cdot\\dfrac{10}{5}=14"
+    },
+    {
+     "text": "Option B.",
+     "latex": "14"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q02-added-03": {
+   "steps": [
+    {
+     "text": "Corresponding sides are in the same ratio.",
+     "latex": "\\dfrac{u\\prime}{u}=\\dfrac{b}{a}=\\dfrac{12}{6}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "u\\prime=8\\cdot\\dfrac{12}{6}=16"
+    },
+    {
+     "text": "Option A.",
+     "latex": "16"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q03-added-01": {
+   "steps": [
+    {
+     "text": "Two pairs of equal angles prove AA similarity.",
+     "latex": "\\angle D=\\angle A,\\ \\angle E=\\angle B\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
+    },
+    {
+     "text": "Third angle.",
+     "latex": "\\angle F=\\angle C=180^\\circ-35^\\circ-69^\\circ=76^\\circ"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\text{ABC is similar to DEF by AA, and angle F is }76^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q03-added-02": {
+   "steps": [
+    {
+     "text": "Two pairs of equal angles prove AA similarity.",
+     "latex": "\\angle D=\\angle A,\\ \\angle E=\\angle B\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
+    },
+    {
+     "text": "Third angle.",
+     "latex": "\\angle F=\\angle C=180^\\circ-40^\\circ-68^\\circ=72^\\circ"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\text{ABC is similar to DEF by AA, and angle F is }72^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q03-added-03": {
+   "steps": [
+    {
+     "text": "Two pairs of equal angles prove AA similarity.",
+     "latex": "\\angle D=\\angle A,\\ \\angle E=\\angle B\\ \\Rightarrow\\ \\triangle ABC\\sim\\triangle DEF"
+    },
+    {
+     "text": "Third angle.",
+     "latex": "\\angle F=\\angle C=180^\\circ-45^\\circ-67^\\circ=68^\\circ"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\text{ABC is similar to DEF by AA, and angle F is }68^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-original-p134-9": {
+   "steps": [
+    {
+     "text": "Name the similar triangles in matching vertex order (equal angles correspond).",
+     "latex": "\\triangle ABC\\sim\\triangle DBE"
+    },
+    {
+     "text": "Write the proportion of corresponding sides and solve (see the matching card solution).",
+     "latex": "\\ AC=16"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\triangle ABC\\sim\\triangle DBE;\\ AC=16"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-original-p134-10": {
+   "steps": [
+    {
+     "text": "Name the similar triangles in matching vertex order (equal angles correspond).",
+     "latex": "\\triangle JKL\\sim\\triangle MNL"
+    },
+    {
+     "text": "Write the proportion of corresponding sides and solve (see the matching card solution).",
+     "latex": "\\ JL=28"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\triangle JKL\\sim\\triangle MNL;\\ JL=28"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-original-p134-11": {
+   "steps": [
+    {
+     "text": "Name the similar triangles in matching vertex order (equal angles correspond).",
+     "latex": "\\triangle EHG\\sim\\triangle EFD"
+    },
+    {
+     "text": "Write the proportion of corresponding sides and solve (see the matching card solution).",
+     "latex": "\\ EH=9"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\triangle EHG\\sim\\triangle EFD;\\ EH=9"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-Q05-added-01": {
+   "steps": [
+    {
+     "text": "A similar triangle has every side multiplied by the same factor k.",
+     "latex": "(3k,\\ 4k,\\ 5k)"
+    },
+    {
+     "text": "Check the ratios of the keyed triple.",
+     "latex": "9/3=3,\\ 12/4=3,\\ 15/5=3"
+    },
+    {
+     "text": "Option D.",
+     "latex": "(9,12,15)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q05-added-02": {
+   "steps": [
+    {
+     "text": "A similar triangle has every side multiplied by the same factor k.",
+     "latex": "(3k,\\ 4k,\\ 5k)"
+    },
+    {
+     "text": "Check the ratios of the keyed triple.",
+     "latex": "12/3=4,\\ 16/4=4,\\ 20/5=4"
+    },
+    {
+     "text": "Option A.",
+     "latex": "(12,16,20)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q05-added-03": {
+   "steps": [
+    {
+     "text": "A similar triangle has every side multiplied by the same factor k.",
+     "latex": "(3k,\\ 4k,\\ 5k)"
+    },
+    {
+     "text": "Check the ratios of the keyed triple.",
+     "latex": "15/3=5,\\ 20/4=5,\\ 25/5=5"
+    },
+    {
+     "text": "Option D.",
+     "latex": "(15,20,25)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q05-added-04": {
+   "steps": [
+    {
+     "text": "A similar triangle has every side multiplied by the same factor k.",
+     "latex": "(3k,\\ 4k,\\ 5k)"
+    },
+    {
+     "text": "Check the ratios of the keyed triple.",
+     "latex": "18/3=6,\\ 24/4=6,\\ 30/5=6"
+    },
+    {
+     "text": "Option C.",
+     "latex": "(18,24,30)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q06-added-01": {
+   "steps": [
+    {
+     "text": "Triangle Proportionality Theorem.",
+     "latex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{3}{5}=\\dfrac{6}{EC}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "EC=\\dfrac{6\\cdot5}{3}=10"
+    },
+    {
+     "text": "Option D.",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q06-added-02": {
+   "steps": [
+    {
+     "text": "Triangle Proportionality Theorem.",
+     "latex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{4}{6}=\\dfrac{8}{EC}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "EC=\\dfrac{8\\cdot6}{4}=12"
+    },
+    {
+     "text": "Option B.",
+     "latex": "12"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q06-added-03": {
+   "steps": [
+    {
+     "text": "Triangle Proportionality Theorem.",
+     "latex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{5}{7}=\\dfrac{10}{EC}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "EC=\\dfrac{10\\cdot7}{5}=14"
+    },
+    {
+     "text": "Option A.",
+     "latex": "14"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q07-added-01": {
+   "steps": [
+    {
+     "text": "Corresponding altitudes have the same ratio as corresponding sides.",
+     "latex": "\\dfrac{H}{h}=\\dfrac{15}{5}=3"
+    },
+    {
+     "text": "Multiply.",
+     "latex": "H=3\\cdot5=15"
+    },
+    {
+     "text": "Option A.",
+     "latex": "15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q07-added-02": {
+   "steps": [
+    {
+     "text": "Corresponding altitudes have the same ratio as corresponding sides.",
+     "latex": "\\dfrac{H}{h}=\\dfrac{15}{5}=3"
+    },
+    {
+     "text": "Multiply.",
+     "latex": "H=3\\cdot6=18"
+    },
+    {
+     "text": "Option D.",
+     "latex": "18"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q07-added-03": {
+   "steps": [
+    {
+     "text": "Corresponding altitudes have the same ratio as corresponding sides.",
+     "latex": "\\dfrac{H}{h}=\\dfrac{15}{5}=3"
+    },
+    {
+     "text": "Multiply.",
+     "latex": "H=3\\cdot7=21"
+    },
+    {
+     "text": "Option C.",
+     "latex": "21"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q07-added-04": {
+   "steps": [
+    {
+     "text": "Corresponding altitudes have the same ratio as corresponding sides.",
+     "latex": "\\dfrac{H}{h}=\\dfrac{15}{5}=3"
+    },
+    {
+     "text": "Multiply.",
+     "latex": "H=3\\cdot8=24"
+    },
+    {
+     "text": "Option C.",
+     "latex": "24"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q08-added-01": {
+   "steps": [
+    {
+     "text": "Geometric mean = √(ab).",
+     "latex": "\\sqrt{2\\cdot8}=\\sqrt{16}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "4"
+    },
+    {
+     "text": "Option A.",
+     "latex": "4"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q08-added-02": {
+   "steps": [
+    {
+     "text": "Geometric mean = √(ab).",
+     "latex": "\\sqrt{3\\cdot12}=\\sqrt{36}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "6"
+    },
+    {
+     "text": "Option C.",
+     "latex": "6"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q08-added-03": {
+   "steps": [
+    {
+     "text": "Geometric mean = √(ab).",
+     "latex": "\\sqrt{4\\cdot16}=\\sqrt{64}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "8"
+    },
+    {
+     "text": "Option B.",
+     "latex": "8"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q09-added-01": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "c^2=6^2+8^2=100"
+    },
+    {
+     "text": "Positive root.",
+     "latex": "c=10"
+    },
+    {
+     "text": "Option C.",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q09-added-02": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "c^2=9^2+12^2=225"
+    },
+    {
+     "text": "Positive root.",
+     "latex": "c=15"
+    },
+    {
+     "text": "Option D.",
+     "latex": "15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q10-added-01": {
+   "steps": [
+    {
+     "text": "The ladder is the hypotenuse; foot distance and height are the legs.",
+     "latex": "h^2+10^2=26^2"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=\\sqrt{676-100}=\\sqrt{576}=24\\ \\text{m}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "24"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q10-added-02": {
+   "steps": [
+    {
+     "text": "The ladder is the hypotenuse; foot distance and height are the legs.",
+     "latex": "h^2+15^2=39^2"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=\\sqrt{1521-225}=\\sqrt{1296}=36\\ \\text{m}"
+    },
+    {
+     "text": "Option D.",
+     "latex": "36"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q10-added-03": {
+   "steps": [
+    {
+     "text": "The ladder is the hypotenuse; foot distance and height are the legs.",
+     "latex": "h^2+20^2=52^2"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=\\sqrt{2704-400}=\\sqrt{2304}=48\\ \\text{m}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "48"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q11-added-01": {
+   "steps": [
+    {
+     "text": "Distance formula.",
+     "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "d=\\sqrt{6^2+8^2}=\\sqrt{100}=10"
+    },
+    {
+     "text": "Option B.",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q11-added-02": {
+   "steps": [
+    {
+     "text": "Distance formula.",
+     "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "d=\\sqrt{6^2+8^2}=\\sqrt{100}=10"
+    },
+    {
+     "text": "Option A.",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q11-added-03": {
+   "steps": [
+    {
+     "text": "Distance formula.",
+     "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "d=\\sqrt{6^2+8^2}=\\sqrt{100}=10"
+    },
+    {
+     "text": "Option C.",
+     "latex": "10"
+    }
+   ],
+   "verified": true
+  },
+  "11G-original-p183-3": {
+   "steps": [
+    {
+     "text": "45°–45°–90° triangle: hypotenuse = leg × √2.",
+     "latex": "\\text{hyp}=\\text{leg}\\cdot\\sqrt2"
+    },
+    {
+     "text": "Substitute the leg from the figure.",
+     "latex": "x=6\\cdot\\sqrt2=6\\sqrt2"
+    },
+    {
+     "text": "Option B.",
+     "latex": "6 \\sqrt{2}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-original-p183-5": {
+   "steps": [
+    {
+     "text": "45°–45°–90° triangle: hypotenuse = leg × √2.",
+     "latex": "\\text{hyp}=\\text{leg}\\cdot\\sqrt2"
+    },
+    {
+     "text": "Substitute the leg from the figure.",
+     "latex": "x=5\\sqrt2\\cdot\\sqrt2=10"
+    },
+    {
+     "text": "Option D.",
+     "latex": "10"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-original-p183-6": {
+   "steps": [
+    {
+     "text": "45°–45°–90° triangle: hypotenuse = leg × √2.",
+     "latex": "\\text{hyp}=\\text{leg}\\cdot\\sqrt2"
+    },
+    {
+     "text": "Substitute the leg from the figure.",
+     "latex": "x=44\\sqrt2\\cdot\\sqrt2=88"
+    },
+    {
+     "text": "Option B.",
+     "latex": "88"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-Q13-added-01": {
+   "steps": [
+    {
+     "text": "Sides are in the ratio 1 : √3 : 2 (short leg : long leg : hypotenuse).",
+     "latex": "a:\\ a\\sqrt3:\\ 2a"
+    },
+    {
+     "text": "Substitute the short leg.",
+     "latex": "\\text{long leg}=5\\sqrt3,\\quad \\text{hyp}=10"
+    },
+    {
+     "text": "Option C.",
+     "latex": "(5 \\sqrt{3},10)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q13-added-02": {
+   "steps": [
+    {
+     "text": "Sides are in the ratio 1 : √3 : 2 (short leg : long leg : hypotenuse).",
+     "latex": "a:\\ a\\sqrt3:\\ 2a"
+    },
+    {
+     "text": "Substitute the short leg.",
+     "latex": "\\text{long leg}=7\\sqrt3,\\quad \\text{hyp}=14"
+    },
+    {
+     "text": "Option B.",
+     "latex": "(7 \\sqrt{3},14)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q13-added-03": {
+   "steps": [
+    {
+     "text": "Sides are in the ratio 1 : √3 : 2 (short leg : long leg : hypotenuse).",
+     "latex": "a:\\ a\\sqrt3:\\ 2a"
+    },
+    {
+     "text": "Substitute the short leg.",
+     "latex": "\\text{long leg}=9\\sqrt3,\\quad \\text{hyp}=18"
+    },
+    {
+     "text": "Option B.",
+     "latex": "(9 \\sqrt{3},18)"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q14-added-01": {
+   "steps": [
+    {
+     "text": "Opposite and adjacent are known: use tangent.",
+     "latex": "\\tan\\theta=\\dfrac{4}{7}"
+    },
+    {
+     "text": "Inverse tangent (Degree mode).",
+     "latex": "\\theta=\\tan^{-1}\\!\\left(\\dfrac{4}{7}\\right)\\approx29.7^\\circ"
+    },
+    {
+     "text": "Option C.",
+     "latex": "29.7^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q14-added-02": {
+   "steps": [
+    {
+     "text": "Opposite and adjacent are known: use tangent.",
+     "latex": "\\tan\\theta=\\dfrac{5}{8}"
+    },
+    {
+     "text": "Inverse tangent (Degree mode).",
+     "latex": "\\theta=\\tan^{-1}\\!\\left(\\dfrac{5}{8}\\right)\\approx32.0^\\circ"
+    },
+    {
+     "text": "Option B.",
+     "latex": "32.0^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q14-added-03": {
+   "steps": [
+    {
+     "text": "Opposite and adjacent are known: use tangent.",
+     "latex": "\\tan\\theta=\\dfrac{6}{9}"
+    },
+    {
+     "text": "Inverse tangent (Degree mode).",
+     "latex": "\\theta=\\tan^{-1}\\!\\left(\\dfrac{6}{9}\\right)\\approx33.7^\\circ"
+    },
+    {
+     "text": "Option B.",
+     "latex": "33.7^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q15-added-01": {
+   "steps": [
+    {
+     "text": "Height is opposite the angle; the distance is adjacent.",
+     "latex": "\\tan30^\\circ=\\dfrac{h}{25}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=25\\tan30^\\circ\\approx14.4\\ \\text{m}"
+    },
+    {
+     "text": "Option C.",
+     "latex": "14.4"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q15-added-02": {
+   "steps": [
+    {
+     "text": "Height is opposite the angle; the distance is adjacent.",
+     "latex": "\\tan35^\\circ=\\dfrac{h}{30}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=30\\tan35^\\circ\\approx21.0\\ \\text{m}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "21.0"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q15-added-03": {
+   "steps": [
+    {
+     "text": "Height is opposite the angle; the distance is adjacent.",
+     "latex": "\\tan40^\\circ=\\dfrac{h}{35}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "h=35\\tan40^\\circ\\approx29.4\\ \\text{m}"
+    },
+    {
+     "text": "Option D.",
+     "latex": "29.4"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q16-added-01": {
+   "steps": [
+    {
+     "text": "Pair every coin result with every spinner result: 2 × 3 = 6 outcomes.",
+     "latex": "2\\times3=6"
+    },
+    {
+     "text": "Sample space.",
+     "latex": "\\{(H,1),(H,2),(H,3),(T,1),(T,2),(T,3)\\}"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\text{{(H,1),(H,2),(H,3),(T,1),(T,2),(T,3)}}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q17-added-01": {
+   "steps": [
+    {
+     "text": "Fundamental Counting Principle: multiply the number of choices.",
+     "latex": "3\\times5"
+    },
+    {
+     "text": "Result.",
+     "latex": "15"
+    },
+    {
+     "text": "Option B.",
+     "latex": "15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q17-added-02": {
+   "steps": [
+    {
+     "text": "Fundamental Counting Principle: multiply the number of choices.",
+     "latex": "4\\times6"
+    },
+    {
+     "text": "Result.",
+     "latex": "24"
+    },
+    {
+     "text": "Option D.",
+     "latex": "24"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q17-added-03": {
+   "steps": [
+    {
+     "text": "Fundamental Counting Principle: multiply the number of choices.",
+     "latex": "5\\times7"
+    },
+    {
+     "text": "Result.",
+     "latex": "35"
+    },
+    {
+     "text": "Option D.",
+     "latex": "35"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q17-added-04": {
+   "steps": [
+    {
+     "text": "Fundamental Counting Principle: multiply the number of choices.",
+     "latex": "6\\times8"
+    },
+    {
+     "text": "Result.",
+     "latex": "48"
+    },
+    {
+     "text": "Option A.",
+     "latex": "48"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q17-added-05": {
+   "steps": [
+    {
+     "text": "Fundamental Counting Principle: multiply the number of choices.",
+     "latex": "7\\times9"
+    },
+    {
+     "text": "Result.",
+     "latex": "63"
+    },
+    {
+     "text": "Option D.",
+     "latex": "63"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p15-18a": {
+   "steps": [
+    {
+     "text": "Each pairing is not a friend with probability 40/50 (independent selections).",
+     "latex": "P(\\text{not friend})=\\dfrac{40}{50}=\\dfrac45"
+    },
+    {
+     "text": "Multiply.",
+     "latex": "\\left(\\dfrac45\\right)^2=\\dfrac{16}{25}"
+    },
+    {
+     "text": "Option C.",
+     "latex": "\\frac{16}{25}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p15-18b": {
+   "steps": [
+    {
+     "text": "Independent events: multiply.",
+     "latex": "0.20\\times0.50"
+    },
+    {
+     "text": "Result.",
+     "latex": "0.10=10\\%"
+    },
+    {
+     "text": "Option A.",
+     "latex": "10\\%"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q19-added-01": {
+   "steps": [
+    {
+     "text": "Conditional probability: restrict to the sport players.",
+     "latex": "P(\\text{instrument}\\mid\\text{sport})=\\dfrac{n(\\text{both})}{n(\\text{sport})}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{4}{10}=\\dfrac{2}{5}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\frac{2}{5}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q19-added-02": {
+   "steps": [
+    {
+     "text": "Conditional probability: restrict to the sport players.",
+     "latex": "P(\\text{instrument}\\mid\\text{sport})=\\dfrac{n(\\text{both})}{n(\\text{sport})}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{5}{12}=\\dfrac{5}{12}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\frac{5}{12}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q19-added-03": {
+   "steps": [
+    {
+     "text": "Conditional probability: restrict to the sport players.",
+     "latex": "P(\\text{instrument}\\mid\\text{sport})=\\dfrac{n(\\text{both})}{n(\\text{sport})}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\dfrac{6}{14}=\\dfrac{3}{7}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\frac{3}{7}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-book-p402-Q13": {
+   "steps": [
+    {
+     "text": "Four independent games each with probability ½.",
+     "latex": "\\left(\\tfrac12\\right)^4"
+    },
+    {
+     "text": "Result.",
+     "latex": "\\dfrac1{16}"
+    },
+    {
+     "text": "Option C.",
+     "latex": "\\frac1{16}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-book-p402-Q14": {
+   "steps": [
+    {
+     "text": "Ways to draw 4 of 6 names.",
+     "latex": "\\binom64=15"
+    },
+    {
+     "text": "Ways to get 3 directors and 1 assistant.",
+     "latex": "\\binom33\\binom31=3"
+    },
+    {
+     "text": "Probability.",
+     "latex": "\\dfrac3{15}=\\dfrac15"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\frac15"
+    }
+   ],
+   "verified": true
+  },
+  "11G-book-p402-Q15": {
+   "steps": [
+    {
+     "text": "Cards are kept, so the draws are dependent.",
+     "latex": "\\dfrac{13}{52}\\cdot\\dfrac{12}{51}\\cdot\\dfrac{11}{50}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "\\dfrac{1716}{132600}=\\dfrac{11}{850}"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\frac{11}{850}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q20-added-01": {
+   "steps": [
+    {
+     "text": "Not mutually exclusive in general: P(A or B) = P(A) + P(B) − P(A and B).",
+     "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+    },
+    {
+     "text": "Count outcomes.",
+     "latex": "n(A)=3,\\ n(B)=2,\\ n(A\\cap B)=1,\\ n(S)=6"
+    },
+    {
+     "text": "Probability.",
+     "latex": "\\dfrac{3+2-1}{6}=\\dfrac{2}{3}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\frac{2}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q20-added-02": {
+   "steps": [
+    {
+     "text": "Not mutually exclusive in general: P(A or B) = P(A) + P(B) − P(A and B).",
+     "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+    },
+    {
+     "text": "Count outcomes.",
+     "latex": "n(A)=2,\\ n(B)=2,\\ n(A\\cap B)=0,\\ n(S)=6"
+    },
+    {
+     "text": "Probability.",
+     "latex": "\\dfrac{2+2-0}{6}=\\dfrac{2}{3}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\frac{2}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q20-added-03": {
+   "steps": [
+    {
+     "text": "Not mutually exclusive in general: P(A or B) = P(A) + P(B) − P(A and B).",
+     "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+    },
+    {
+     "text": "Count outcomes.",
+     "latex": "n(A)=3,\\ n(B)=2,\\ n(A\\cap B)=1,\\ n(S)=6"
+    },
+    {
+     "text": "Probability.",
+     "latex": "\\dfrac{3+2-1}{6}=\\dfrac{2}{3}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\frac{2}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q20-added-04": {
+   "steps": [
+    {
+     "text": "Not mutually exclusive in general: P(A or B) = P(A) + P(B) − P(A and B).",
+     "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+    },
+    {
+     "text": "Count outcomes.",
+     "latex": "n(A)=5,\\ n(B)=3,\\ n(A\\cap B)=2,\\ n(S)=10"
+    },
+    {
+     "text": "Probability.",
+     "latex": "\\dfrac{5+3-2}{10}=\\dfrac{3}{5}"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\frac{3}{5}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-Q20-added-05": {
+   "steps": [
+    {
+     "text": "Mutually exclusive events have no outcome in common.",
+     "latex": "A\\cap B=\\varnothing"
+    },
+    {
+     "text": "Roll 1 and roll 6 cannot happen together; the other pairs share outcomes (e.g. 4, 1, 2).",
+     "latex": "\\{1\\}\\cap\\{6\\}=\\varnothing"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{Roll 1; roll 6.}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

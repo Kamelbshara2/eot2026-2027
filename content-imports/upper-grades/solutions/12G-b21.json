@@ -1,0 +1,267 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q123": {
+   "steps": [
+    {
+     "text": "A biased question uses loaded words or leads the respondent.",
+     "latex": "\\text{loaded words?}"
+    },
+    {
+     "text": "“exciting action movies or boring documentaries” describes one choice positively and the other negatively.",
+     "latex": "\\text{exciting / boring}"
+    },
+    {
+     "text": "Biased: option B.",
+     "latex": "\\text{B}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p48-Q1-1": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "About 68% lie within one standard deviation of the mean.",
+     "latex": "\\mu-\\sigma\\ \\text{to}\\ \\mu+\\sigma"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\mu+\\sigma,\\ \\mu-\\sigma"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p48-Q2-1": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Within two standard deviations: 13.5 + 34 + 34 + 13.5.",
+     "latex": "95\\%"
+    },
+    {
+     "text": "Option d).",
+     "latex": "95\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p49-Q3-1": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Right of μ + σ = half of the data minus the 34% between μ and μ + σ.",
+     "latex": "50\\%-34\\%=16\\%"
+    },
+    {
+     "text": "Option a).",
+     "latex": "16\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p49-Q4-1": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Write the limits in standard deviations: (x − μ)/σ.",
+     "latex": "\\dfrac{150-168}{6}=-3,\\qquad \\dfrac{174-168}{6}=1"
+    },
+    {
+     "text": "Add the areas from μ − 3σ to μ + σ.",
+     "latex": "2.35+13.5+34+34=83.85\\%"
+    },
+    {
+     "text": "Option a).",
+     "latex": "83.85\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p49-Q5-1": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Limits in standard deviations.",
+     "latex": "\\dfrac{156-168}{6}=-2,\\qquad \\dfrac{180-168}{6}=2"
+    },
+    {
+     "text": "Within two standard deviations.",
+     "latex": "95\\%"
+    },
+    {
+     "text": "Option a).",
+     "latex": "95\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q124": {
+   "steps": [
+    {
+     "text": "Positively skewed: most data are on the left (low values) and the tail stretches to the right.",
+     "latex": "\\text{tail on the right}"
+    },
+    {
+     "text": "Chart C has the tallest bars at 30–40 and bars getting shorter to the right.",
+     "latex": "\\text{chart C}"
+    },
+    {
+     "text": "Option C.",
+     "latex": "\\text{C}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q125": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Within one standard deviation.",
+     "latex": "68\\%"
+    },
+    {
+     "text": "Option B.",
+     "latex": "68\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q126": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Within two standard deviations.",
+     "latex": "95\\%"
+    },
+    {
+     "text": "Option C.",
+     "latex": "95\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q127": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Between μ + σ and μ + 2σ is one of the 13.5% bands.",
+     "latex": "13.5\\%"
+    },
+    {
+     "text": "Option C.",
+     "latex": "13.5\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q128": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Middle 95% = μ ± 2σ.",
+     "latex": "42\\pm2(6)"
+    },
+    {
+     "text": "Compute.",
+     "latex": "30\\ \\text{to}\\ 54"
+    },
+    {
+     "text": "Option D.",
+     "latex": "30\\text{–}54"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q130": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Middle 99.7% = μ ± 3σ.",
+     "latex": "186.4\\pm3(48.9)=186.4\\pm146.7"
+    },
+    {
+     "text": "Compute.",
+     "latex": "39.7\\ \\text{to}\\ 333.1"
+    },
+    {
+     "text": "Option C.",
+     "latex": "39.7\\text{–}333.1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q131": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "235.3 is one standard deviation above the mean.",
+     "latex": "\\dfrac{235.3-186.4}{48.9}=1"
+    },
+    {
+     "text": "Area above μ + σ.",
+     "latex": "50\\%-34\\%=16\\%"
+    },
+    {
+     "text": "Option C.",
+     "latex": "16\\%"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q132": {
+   "steps": [
+    {
+     "text": "Empirical rule: 68% of the data lie within μ ± σ, 95% within μ ± 2σ, 99.7% within μ ± 3σ. Each half is split into 34%, 13.5%, 2.35% (and 0.15% beyond 3σ).",
+     "latex": "34\\%\\ |\\ 13.5\\%\\ |\\ 2.35\\%\\ |\\ 0.15\\%"
+    },
+    {
+     "text": "Limits in standard deviations.",
+     "latex": "\\dfrac{35-40}{5}=-1,\\qquad \\dfrac{50-40}{5}=2"
+    },
+    {
+     "text": "Add the bands from μ − σ to μ + 2σ.",
+     "latex": "34+34+13.5=81.5\\%"
+    },
+    {
+     "text": "Option A.",
+     "latex": "81.5\\%"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

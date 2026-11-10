@@ -159,3 +159,14 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .opt-img{display:block;max-width:100%;max-height:220px;margin:0 0 6px;border:1px solid #d8e2e8;border-radius:8px;background:#fff}
 .calculator-solved-figure{margin:10px 0 0}.calculator-solved-figure img{display:block;max-width:100%;max-height:480px;border:1px solid #d8e2e8;border-radius:8px;background:#fff}
 .q-frame figure img{max-width:100%;height:auto}
+/* phones: long maths / pictures inside an answer option scroll inside the option instead of widening the page */
+.q-answer-box fieldset,.study-quiz-question,.mock-content fieldset{min-width:0;max-width:100%}
+.study-choice{min-width:0;max-width:100%}
+.study-choice .opt-wrap{min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden}
+.study-choice .opt-wrap .katex-display,.study-choice .opt-wrap>span{max-width:100%}
+.opt-img{max-width:100%;height:auto}
+.q-frame,.study-math{max-width:100%;overflow-x:auto}
+.solution-steps{margin:10px 0 0;padding:0 0 0 22px;counter-reset:st;list-style:none}
+.solution-steps li{position:relative;margin:0 0 10px;padding:6px 10px 6px 12px;border-left:3px solid #2f7d6d;background:#f3f9f7;border-radius:0 8px 8px 0}
+.solution-steps li::before{counter-increment:st;content:counter(st);position:absolute;left:-26px;top:6px;width:20px;height:20px;border-radius:50%;background:#2f7d6d;color:#fff;font:700 12px/20px Arial,sans-serif;text-align:center}
+.solution-steps p{margin:0 0 4px}.solution-steps .study-math{overflow-x:auto}

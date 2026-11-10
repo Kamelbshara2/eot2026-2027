@@ -1,0 +1,3676 @@
+{
+ "class": "11A",
+ "items": {
+  "11A-Q02-23": {
+   "steps": [
+    {
+     "text": "Write both sides as powers of the same base.",
+     "latex": "625=5^4"
+    },
+    {
+     "text": "Rewrite the inequality with base 5.",
+     "latex": "5^{4}\\ \\ge\\ 5^{a + 8}"
+    },
+    {
+     "text": "The base 5 is greater than 1, so the inequality between the exponents keeps the same direction.",
+     "latex": "4 \\geq a + 8"
+    },
+    {
+     "text": "Solve the linear inequality.",
+     "latex": "- a\\ \\ge\\ 4\\ \\Rightarrow\\ a\\ \\le\\ -4\\quad(\\text{dividing by }-1\\text{ reverses the sign})"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "a\\le-4"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q02-29": {
+   "steps": [
+    {
+     "text": "Write both sides as powers of the same base.",
+     "latex": "\\tfrac1{64}=2^{-6},\\quad 32=2^5"
+    },
+    {
+     "text": "Rewrite the inequality with base 2.",
+     "latex": "2^{12 - 6 c}\\ <\\ 2^{10 c}"
+    },
+    {
+     "text": "The base 2 is greater than 1, so the inequality between the exponents keeps the same direction.",
+     "latex": "12 - 6 c < 10 c"
+    },
+    {
+     "text": "Solve the linear inequality.",
+     "latex": "- 16 c\\ <\\ -12\\ \\Rightarrow\\ c\\ >\\ \\frac{3}{4}\\quad(\\text{dividing by }-16\\text{ reverses the sign})"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "c>\\tfrac34"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q02-32": {
+   "steps": [
+    {
+     "text": "Write both sides as powers of the same base.",
+     "latex": "\\tfrac19=3^{-2},\\quad \\tfrac1{243}=3^{-5}"
+    },
+    {
+     "text": "Rewrite the inequality with base 3.",
+     "latex": "3^{- 6 t - 10}\\ \\le\\ 3^{30 - 5 t}"
+    },
+    {
+     "text": "The base 3 is greater than 1, so the inequality between the exponents keeps the same direction.",
+     "latex": "- 6 t - 10 \\leq 30 - 5 t"
+    },
+    {
+     "text": "Solve the linear inequality.",
+     "latex": "- t\\ \\le\\ 40\\ \\Rightarrow\\ t\\ \\ge\\ -40\\quad(\\text{dividing by }-1\\text{ reverses the sign})"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "t\\ge-40"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q02-34": {
+   "steps": [
+    {
+     "text": "Write both sides as powers of the same base.",
+     "latex": "1000=10^3"
+    },
+    {
+     "text": "Rewrite the inequality with base 10.",
+     "latex": "10^{5 b + 2}\\ >\\ 10^{3}"
+    },
+    {
+     "text": "The base 10 is greater than 1, so the inequality between the exponents keeps the same direction.",
+     "latex": "5 b + 2 > 3"
+    },
+    {
+     "text": "Solve the linear inequality.",
+     "latex": "5 b\\ >\\ 1\\ \\Rightarrow\\ b\\ >\\ \\frac{1}{5}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "b>\\tfrac15"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q02-added-01": {
+   "steps": [
+    {
+     "text": "Write both sides as powers of the same base.",
+     "latex": "27=3^3"
+    },
+    {
+     "text": "Rewrite the inequality with base 3.",
+     "latex": "3^{2 x - 1}\\ \\le\\ 3^{3}"
+    },
+    {
+     "text": "The base 3 is greater than 1, so the inequality between the exponents keeps the same direction.",
+     "latex": "2 x - 1 \\leq 3"
+    },
+    {
+     "text": "Solve the linear inequality.",
+     "latex": "2 x\\ \\le\\ 4\\ \\Rightarrow\\ x\\ \\le\\ 2"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "x\\le2"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-1": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=15,\\quad a=225,\\quad c=2"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "15^{2}=225"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "15^{2}=225"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-2": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=3,\\quad a=\\frac1{27},\\quad c=-3"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "3^{-3}=\\frac1{27}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "3^{-3}=\\frac1{27}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-3": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=5,\\quad a=\\frac1{25},\\quad c=-2"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "5^{-2}=\\frac1{25}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "5^{-2}=\\frac1{25}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-4": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=3,\\quad a=243,\\quad c=5"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "3^{5}=243"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "3^{5}=243"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-5": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=4,\\quad a=64,\\quad c=3"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "4^{3}=64"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "4^{3}=64"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-6": {
+   "steps": [
+    {
+     "text": "Definition: log_b(a) = c means b raised to c equals a (the base stays the base).",
+     "latex": "\\log_b a=c\\iff b^c=a"
+    },
+    {
+     "text": "Identify base, argument and value.",
+     "latex": "b=4,\\quad a=32,\\quad c=\\frac52"
+    },
+    {
+     "text": "Write the exponential form.",
+     "latex": "4^{\\frac52}=32"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "4^{\\frac52}=32"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-7": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=2,\\quad c=7,\\quad a=128"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{2}(128)=7"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\log_{2}(128)=7"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-8": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=3,\\quad c=-4,\\quad a=\\frac1{81}"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{3}(\\frac1{81})=-4"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\log_{3}(\\frac1{81})=-4"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-9": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=7,\\quad c=-2,\\quad a=\\frac1{49}"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{7}(\\frac1{49})=-2"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\log_{7}(\\frac1{49})=-2"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-10": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=\\frac17,\\quad c=3,\\quad a=\\frac1{343}"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{\\frac17}(\\frac1{343})=3"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\log_{\\frac17}(\\frac1{343})=3"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-11": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=2,\\quad c=9,\\quad a=512"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{2}(512)=9"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\log_{2}(512)=9"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q03-book-12": {
+   "steps": [
+    {
+     "text": "Definition: b^c = a means log base b of a equals c.",
+     "latex": "b^c=a\\iff\\log_b a=c"
+    },
+    {
+     "text": "Identify base, exponent and result.",
+     "latex": "b=64,\\quad c=\\frac23,\\quad a=16"
+    },
+    {
+     "text": "Write the logarithmic form (the base of the power becomes the base of the logarithm).",
+     "latex": "\\log_{64}(16)=\\frac23"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\log_{64}(16)=\\frac23"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-7": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "2 x^{2} - 4=2 x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "2 x^{2} - 2 x - 4=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "2 \\left(x - 2\\right) \\left(x + 1\\right)=0\\ \\Rightarrow\\ x=-1,\\ 2"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=-1:\\ 2 x=-2,\\quad x=2:\\ 2 x=4"
+    },
+    {
+     "text": "Reject the value that makes an argument zero or negative (extraneous solution).",
+     "latex": "x=-1\\ \\text{rejected}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "x=2"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-8": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "x^{2} - 6=x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "x^{2} - x - 6=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "\\left(x - 3\\right) \\left(x + 2\\right)=0\\ \\Rightarrow\\ x=-2,\\ 3"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=-2:\\ x=-2,\\quad x=3:\\ x=3"
+    },
+    {
+     "text": "Reject the value that makes an argument zero or negative (extraneous solution).",
+     "latex": "x=-2\\ \\text{rejected}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "x=3"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-book-9": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "x^{2} - 8=2 x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "x^{2} - 2 x - 8=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "\\left(x - 4\\right) \\left(x + 2\\right)=0\\ \\Rightarrow\\ x=-2,\\ 4"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=-2:\\ 2 x=-4,\\quad x=4:\\ 2 x=8"
+    },
+    {
+     "text": "Reject the value that makes an argument zero or negative (extraneous solution).",
+     "latex": "x=-2\\ \\text{rejected}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "4"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-book-10": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "2 x^{2} - 20=6 x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "2 x^{2} - 6 x - 20=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "2 \\left(x - 5\\right) \\left(x + 2\\right)=0\\ \\Rightarrow\\ x=-2,\\ 5"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=-2:\\ 6 x=-12,\\quad x=5:\\ 6 x=30"
+    },
+    {
+     "text": "Reject the value that makes an argument zero or negative (extraneous solution).",
+     "latex": "x=-2\\ \\text{rejected}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "5"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-book-11": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "6 x^{2} + 1=5 x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "6 x^{2} - 5 x + 1=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "\\left(2 x - 1\\right) \\left(3 x - 1\\right)=0\\ \\Rightarrow\\ x=\\frac{1}{3},\\ \\frac{1}{2}"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=\\frac{1}{3}:\\ 5 x=\\frac{5}{3},\\quad x=\\frac{1}{2}:\\ 5 x=\\frac{5}{2}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\{\\tfrac13,\\tfrac12\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q04-book-12": {
+   "steps": [
+    {
+     "text": "Equal logarithms with the same base have equal arguments (one-to-one property).",
+     "latex": "6 x^{2} - 3=7 x"
+    },
+    {
+     "text": "Move everything to one side.",
+     "latex": "6 x^{2} - 7 x - 3=0"
+    },
+    {
+     "text": "Solve.",
+     "latex": "\\left(2 x - 3\\right) \\left(3 x + 1\\right)=0\\ \\Rightarrow\\ x=- \\frac{1}{3},\\ \\frac{3}{2}"
+    },
+    {
+     "text": "Check the domain: every logarithm argument must be positive.",
+     "latex": "x=- \\frac{1}{3}:\\ 7 x=- \\frac{7}{3},\\quad x=\\frac{3}{2}:\\ 7 x=\\frac{21}{2}"
+    },
+    {
+     "text": "Reject the value that makes an argument zero or negative (extraneous solution).",
+     "latex": "x=- \\frac{1}{3}\\ \\text{rejected}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\tfrac32"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q05-changebase": {
+   "steps": [
+    {
+     "text": "Change of base formula: divide the logarithm of the argument by the logarithm of the base (any common base).",
+     "latex": "\\log_b a=\\dfrac{\\log a}{\\log b}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\log_{2}11=\\dfrac{\\log 11}{\\log 2}"
+    },
+    {
+     "text": "Evaluate each common logarithm.",
+     "latex": "\\dfrac{1.04139}{0.30103}"
+    },
+    {
+     "text": "Round to four decimal places.",
+     "latex": "\\log_{2}11\\approx3.4594"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\frac{\\log11}{\\log2}\\approx3.4594"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q05-added-01": {
+   "steps": [
+    {
+     "text": "Change of base formula: divide the logarithm of the argument by the logarithm of the base (any common base).",
+     "latex": "\\log_b a=\\dfrac{\\log a}{\\log b}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\log_{3}11=\\dfrac{\\log 11}{\\log 3}"
+    },
+    {
+     "text": "Evaluate each common logarithm.",
+     "latex": "\\dfrac{1.04139}{0.47712}"
+    },
+    {
+     "text": "Round to four decimal places.",
+     "latex": "\\log_{3}11\\approx2.1827"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "2.1827"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q05-added-02": {
+   "steps": [
+    {
+     "text": "Change of base formula: divide the logarithm of the argument by the logarithm of the base (any common base).",
+     "latex": "\\log_b a=\\dfrac{\\log a}{\\log b}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\log_{4}13=\\dfrac{\\log 13}{\\log 4}"
+    },
+    {
+     "text": "Evaluate each common logarithm.",
+     "latex": "\\dfrac{1.11394}{0.60206}"
+    },
+    {
+     "text": "Round to four decimal places.",
+     "latex": "\\log_{4}13\\approx1.8502"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "1.8502"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q05-added-03": {
+   "steps": [
+    {
+     "text": "Change of base formula: divide the logarithm of the argument by the logarithm of the base (any common base).",
+     "latex": "\\log_b a=\\dfrac{\\log a}{\\log b}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\log_{5}15=\\dfrac{\\log 15}{\\log 5}"
+    },
+    {
+     "text": "Evaluate each common logarithm.",
+     "latex": "\\dfrac{1.17609}{0.69897}"
+    },
+    {
+     "text": "Round to four decimal places.",
+     "latex": "\\log_{5}15\\approx1.6826"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "1.6826"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q05-added-04": {
+   "steps": [
+    {
+     "text": "Change of base formula: divide the logarithm of the argument by the logarithm of the base (any common base).",
+     "latex": "\\log_b a=\\dfrac{\\log a}{\\log b}"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\log_{6}17=\\dfrac{\\log 17}{\\log 6}"
+    },
+    {
+     "text": "Evaluate each common logarithm.",
+     "latex": "\\dfrac{1.23045}{0.77815}"
+    },
+    {
+     "text": "Round to four decimal places.",
+     "latex": "\\log_{6}17\\approx1.5812"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "1.5812"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q06-ln": {
+   "steps": [
+    {
+     "text": "Power rule first: k·ln a = ln(aᵏ).",
+     "latex": "\\tfrac13\\ln8=\\ln8^{1/3}=\\ln2"
+    },
+    {
+     "text": "Now the expression is ln 2 − ln 3 + ln 9.",
+     "latex": "\\ln2-\\ln3+\\ln9"
+    },
+    {
+     "text": "Quotient and product rules: ln a − ln b = ln(a/b), ln a + ln b = ln(ab).",
+     "latex": "\\ln\\dfrac{2\\cdot9}{3}"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "\\ln6"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\ln6"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q06-added-01": {
+   "steps": [
+    {
+     "text": "Power rule: 2 ln a = ln(a²).",
+     "latex": "2\\ln3=\\ln9"
+    },
+    {
+     "text": "Quotient rule: ln A − ln B = ln(A/B).",
+     "latex": "\\ln9-\\ln6=\\ln\\dfrac{9}{6}"
+    },
+    {
+     "text": "This is a single logarithm.",
+     "latex": "\\ln\\dfrac{9}{6}=\\ln\\frac{3}{2}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\ln\\frac{9}{6}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q06-added-02": {
+   "steps": [
+    {
+     "text": "Power rule: 2 ln a = ln(a²).",
+     "latex": "2\\ln4=\\ln16"
+    },
+    {
+     "text": "Quotient rule: ln A − ln B = ln(A/B).",
+     "latex": "\\ln16-\\ln7=\\ln\\dfrac{16}{7}"
+    },
+    {
+     "text": "This is a single logarithm.",
+     "latex": "\\ln\\dfrac{16}{7}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\ln\\frac{16}{7}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q06-added-03": {
+   "steps": [
+    {
+     "text": "Power rule: 2 ln a = ln(a²).",
+     "latex": "2\\ln5=\\ln25"
+    },
+    {
+     "text": "Quotient rule: ln A − ln B = ln(A/B).",
+     "latex": "\\ln25-\\ln8=\\ln\\dfrac{25}{8}"
+    },
+    {
+     "text": "This is a single logarithm.",
+     "latex": "\\ln\\dfrac{25}{8}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\ln\\frac{25}{8}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q06-added-04": {
+   "steps": [
+    {
+     "text": "Power rule: 2 ln a = ln(a²).",
+     "latex": "2\\ln6=\\ln36"
+    },
+    {
+     "text": "Quotient rule: ln A − ln B = ln(A/B).",
+     "latex": "\\ln36-\\ln9=\\ln\\dfrac{36}{9}"
+    },
+    {
+     "text": "This is a single logarithm.",
+     "latex": "\\ln\\dfrac{36}{9}=\\ln4"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\ln\\frac{36}{9}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q07-simplify": {
+   "steps": [
+    {
+     "text": "Factor the numerator.",
+     "latex": "x^{2} - 2 x - 24=\\left(x - 6\\right) \\left(x + 4\\right)"
+    },
+    {
+     "text": "Factor the denominator (take out 2x first).",
+     "latex": "2 x^{3} + 6 x^{2} - 8 x=2x(x^2+3x-4)=2 x \\left(x - 1\\right) \\left(x + 4\\right)"
+    },
+    {
+     "text": "Cancel the common factor (x + 4); the restriction x ≠ −4 stays.",
+     "latex": "\\dfrac{(x-6)\\cancel{(x+4)}}{2x(x-1)\\cancel{(x+4)}}"
+    },
+    {
+     "text": "Simplified form.",
+     "latex": "\\dfrac{x-6}{2x(x-1)},\\quad x\\ne0,\\,1,\\,-4"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\frac{x-6}{2x(x-1)}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q07-domain": {
+   "steps": [
+    {
+     "text": "The expression is undefined where the denominator is 0.",
+     "latex": "2 x^{3} + 6 x^{2} - 8 x=0"
+    },
+    {
+     "text": "Factor.",
+     "latex": "2 x \\left(x - 1\\right) \\left(x + 4\\right)=0"
+    },
+    {
+     "text": "Zero-product property.",
+     "latex": "x=0,\\ x=-4,\\ x=1"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\{0,-4,1\\}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q07-added-01": {
+   "steps": [
+    {
+     "text": "Factor the numerator as a difference of squares.",
+     "latex": "x^2-9=(x-3)(x+3)"
+    },
+    {
+     "text": "Excluded values come from the ORIGINAL denominator.",
+     "latex": "(x-3)(x+5)=0\\Rightarrow x=3,\\ x=-5"
+    },
+    {
+     "text": "Cancel the common factor.",
+     "latex": "\\dfrac{\\cancel{(x-3)}(x+3)}{\\cancel{(x-3)}(x+5)}=\\dfrac{x+3}{x+5}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\frac{x+3}{x+5},\\ x\\ne3,-5"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q07-added-02": {
+   "steps": [
+    {
+     "text": "Factor the numerator as a difference of squares.",
+     "latex": "x^2-16=(x-4)(x+4)"
+    },
+    {
+     "text": "Excluded values come from the ORIGINAL denominator.",
+     "latex": "(x-4)(x+6)=0\\Rightarrow x=4,\\ x=-6"
+    },
+    {
+     "text": "Cancel the common factor.",
+     "latex": "\\dfrac{\\cancel{(x-4)}(x+4)}{\\cancel{(x-4)}(x+6)}=\\dfrac{x+4}{x+6}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\frac{x+4}{x+6},\\ x\\ne4,-6"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q07-added-03": {
+   "steps": [
+    {
+     "text": "Factor the numerator as a difference of squares.",
+     "latex": "x^2-25=(x-5)(x+5)"
+    },
+    {
+     "text": "Excluded values come from the ORIGINAL denominator.",
+     "latex": "(x-5)(x+7)=0\\Rightarrow x=5,\\ x=-7"
+    },
+    {
+     "text": "Cancel the common factor.",
+     "latex": "\\dfrac{\\cancel{(x-5)}(x+5)}{\\cancel{(x-5)}(x+7)}=\\dfrac{x+5}{x+7}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\frac{x+5}{x+7},\\ x\\ne5,-7"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q08-16": {
+   "steps": [
+    {
+     "text": "Find the LCD of all the small denominators.",
+     "latex": "\\text{LCD}=\\left(x - 3\\right) \\left(x + 3\\right)"
+    },
+    {
+     "text": "Multiply the main numerator by the LCD.",
+     "latex": "\\left(\\frac{3 x}{x^{2} - 9} + \\frac{2}{x - 3}\\right)\\cdot \\left(x - 3\\right) \\left(x + 3\\right)=5 x + 6"
+    },
+    {
+     "text": "Multiply the main denominator by the LCD.",
+     "latex": "\\left(- \\frac{4 x}{x^{2} - 9} + \\frac{3}{x + 3}\\right)\\cdot \\left(x - 3\\right) \\left(x + 3\\right)=- x - 9"
+    },
+    {
+     "text": "Write the simple fraction and check for common factors.",
+     "latex": "\\dfrac{5 x + 6}{- x - 9}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\frac{5x+6}{-x-9}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q08-17": {
+   "steps": [
+    {
+     "text": "Find the LCD of all the small denominators.",
+     "latex": "\\text{LCD}=\\left(x - 6\\right) \\left(x + 5\\right)"
+    },
+    {
+     "text": "Multiply the main numerator by the LCD.",
+     "latex": "\\left(\\frac{4}{x + 5} + \\frac{9}{x - 6}\\right)\\cdot \\left(x - 6\\right) \\left(x + 5\\right)=13 x + 21"
+    },
+    {
+     "text": "Multiply the main denominator by the LCD.",
+     "latex": "\\left(- \\frac{8}{x + 5} + \\frac{5}{x - 6}\\right)\\cdot \\left(x - 6\\right) \\left(x + 5\\right)=73 - 3 x"
+    },
+    {
+     "text": "Write the simple fraction and check for common factors.",
+     "latex": "\\dfrac{13 x + 21}{73 - 3 x}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\frac{13x+21}{-3x+73}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q08-book-18": {
+   "steps": [
+    {
+     "text": "Find the LCD of all the small denominators.",
+     "latex": "\\text{LCD}=\\left(x + 6\\right) \\left(2 x - 1\\right)"
+    },
+    {
+     "text": "Multiply the main numerator by the LCD.",
+     "latex": "\\left(- \\frac{2 x}{2 x - 1} + \\frac{5}{x + 6}\\right)\\cdot \\left(x + 6\\right) \\left(2 x - 1\\right)=- 2 x^{2} - 2 x - 5"
+    },
+    {
+     "text": "Multiply the main denominator by the LCD.",
+     "latex": "\\left(\\frac{x}{2 x - 1} + \\frac{4}{x + 6}\\right)\\cdot \\left(x + 6\\right) \\left(2 x - 1\\right)=x^{2} + 14 x - 4"
+    },
+    {
+     "text": "Write the simple fraction and check for common factors.",
+     "latex": "\\dfrac{- 2 x^{2} - 2 x - 5}{x^{2} + 14 x - 4}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\frac{-2x^2-2x-5}{x^2+14x-4}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q08-book-19": {
+   "steps": [
+    {
+     "text": "Find the LCD of all the small denominators.",
+     "latex": "\\text{LCD}=\\left(x - 9\\right) \\left(3 x + 2\\right)"
+    },
+    {
+     "text": "Multiply the main numerator by the LCD.",
+     "latex": "\\left(- \\frac{x}{3 x + 2} + \\frac{8}{x - 9}\\right)\\cdot \\left(x - 9\\right) \\left(3 x + 2\\right)=- x^{2} + 33 x + 16"
+    },
+    {
+     "text": "Multiply the main denominator by the LCD.",
+     "latex": "\\left(\\frac{4 x}{x - 9} + \\frac{3}{3 x + 2}\\right)\\cdot \\left(x - 9\\right) \\left(3 x + 2\\right)=12 x^{2} + 11 x - 27"
+    },
+    {
+     "text": "Write the simple fraction and check for common factors.",
+     "latex": "\\dfrac{- x^{2} + 33 x + 16}{12 x^{2} + 11 x - 27}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\frac{-x^2+33x+16}{12x^2+11x-27}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q08-added-01": {
+   "steps": [
+    {
+     "text": "Find the LCD of all the small denominators.",
+     "latex": "\\text{LCD}=x"
+    },
+    {
+     "text": "Multiply the main numerator by the LCD.",
+     "latex": "\\left(1 + \\frac{2}{x}\\right)\\cdot x=x + 2"
+    },
+    {
+     "text": "Multiply the main denominator by the LCD.",
+     "latex": "\\left(1 + \\frac{1}{x}\\right)\\cdot x=x + 1"
+    },
+    {
+     "text": "Write the simple fraction and check for common factors.",
+     "latex": "\\dfrac{x + 2}{x + 1}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\frac{x+2}{x+1}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q09-13": {
+   "steps": [
+    {
+     "text": "Compare with y = a/(x − h) + k: the parent graph 1/x moves h units horizontally and k units vertically.",
+     "latex": "h=-3,\\quad k=-3"
+    },
+    {
+     "text": "Vertical asymptote: the value that makes the denominator zero.",
+     "latex": "x=-3"
+    },
+    {
+     "text": "Horizontal asymptote: the vertical shift.",
+     "latex": "y=-3"
+    },
+    {
+     "text": "Domain and range exclude the asymptote values.",
+     "latex": "D:\\ x\\ne-3,\\qquad R:\\ y\\ne-3"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "D:\\ x\\ne-3;\\ R:\\ y\\ne-3"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q09-book-14": {
+   "steps": [
+    {
+     "text": "Compare with y = a/(x − h) + k: the parent graph 1/x moves h units horizontally and k units vertically.",
+     "latex": "h=-5,\\quad k=-6"
+    },
+    {
+     "text": "Vertical asymptote: the value that makes the denominator zero.",
+     "latex": "x=-5"
+    },
+    {
+     "text": "Horizontal asymptote: the vertical shift.",
+     "latex": "y=-6"
+    },
+    {
+     "text": "Domain and range exclude the asymptote values.",
+     "latex": "D:\\ x\\ne-5,\\qquad R:\\ y\\ne-6"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "D:x\\ne-5,\\ R:y\\ne-6;\\ x=-5,\\ y=-6\\ \\text{are asymptotes}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from the asymptotes"
+  },
+  "11A-Q09-book-15": {
+   "steps": [
+    {
+     "text": "Compare with y = a/(x − h) + k: the parent graph 1/x moves h units horizontally and k units vertically.",
+     "latex": "h=-1,\\quad k=3"
+    },
+    {
+     "text": "Vertical asymptote: the value that makes the denominator zero.",
+     "latex": "x=-1"
+    },
+    {
+     "text": "Horizontal asymptote: the vertical shift.",
+     "latex": "y=3"
+    },
+    {
+     "text": "Domain and range exclude the asymptote values.",
+     "latex": "D:\\ x\\ne-1,\\qquad R:\\ y\\ne3"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "D:x\\ne-1,\\ R:y\\ne3;\\ x=-1,\\ y=3\\ \\text{are asymptotes}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from the asymptotes"
+  },
+  "11A-Q09-book-16": {
+   "steps": [
+    {
+     "text": "Compare with y = a/(x − h) + k: the parent graph 1/x moves h units horizontally and k units vertically.",
+     "latex": "h=-4,\\quad k=-2"
+    },
+    {
+     "text": "Vertical asymptote: the value that makes the denominator zero.",
+     "latex": "x=-4"
+    },
+    {
+     "text": "Horizontal asymptote: the vertical shift.",
+     "latex": "y=-2"
+    },
+    {
+     "text": "Domain and range exclude the asymptote values.",
+     "latex": "D:\\ x\\ne-4,\\qquad R:\\ y\\ne-2"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "D:x\\ne-4,\\ R:y\\ne-2;\\ x=-4,\\ y=-2\\ \\text{are asymptotes}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from the asymptotes"
+  },
+  "11A-Q09-book-13-graph": {
+   "steps": [
+    {
+     "text": "Compare with y = a/(x − h) + k: the parent graph 1/x moves h units horizontally and k units vertically.",
+     "latex": "h=-3,\\quad k=-3"
+    },
+    {
+     "text": "Vertical asymptote: the value that makes the denominator zero.",
+     "latex": "x=-3"
+    },
+    {
+     "text": "Horizontal asymptote: the vertical shift.",
+     "latex": "y=-3"
+    },
+    {
+     "text": "Domain and range exclude the asymptote values.",
+     "latex": "D:\\ x\\ne-3,\\qquad R:\\ y\\ne-3"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "D:x\\ne-3;\\ R:y\\ne-3"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from the asymptotes"
+  },
+  "11A-Q10-rational": {
+   "steps": [
+    {
+     "text": "Factor every denominator.",
+     "latex": "m-4,\\quad 3m^2-18m+24=3(m-2)(m-4),\\quad 3m-6=3(m-2)"
+    },
+    {
+     "text": "Excluded values.",
+     "latex": "m\\ne2,\\ m\\ne4"
+    },
+    {
+     "text": "Multiply every term by the LCD 3(m − 2)(m − 4).",
+     "latex": "2m\\cdot3(m-2)-(m^2+7m+4)=4m(m-4)"
+    },
+    {
+     "text": "Expand and collect.",
+     "latex": "6m^2-12m-m^2-7m-4=4m^2-16m\\ \\Rightarrow\\ m^2-3m-4=0"
+    },
+    {
+     "text": "Factor.",
+     "latex": "(m-4)(m+1)=0\\ \\Rightarrow\\ m=4\\ \\text{or}\\ m=-1"
+    },
+    {
+     "text": "m = 4 is excluded (denominator 0), so only m = −1 remains.",
+     "latex": "m=-1"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "m=-1"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q10-book-check": {
+   "steps": [
+    {
+     "text": "Factor the denominators.",
+     "latex": "x-4,\\quad x^2-16=(x-4)(x+4),\\quad x+4"
+    },
+    {
+     "text": "Excluded values.",
+     "latex": "x\\ne4,\\ x\\ne-4"
+    },
+    {
+     "text": "Multiply by the LCD (x − 4)(x + 4).",
+     "latex": "3x(x+4)-(x^2-7x-4)=5(x-4)"
+    },
+    {
+     "text": "Expand and collect.",
+     "latex": "3x^2+12x-x^2+7x+4=5x-20\\ \\Rightarrow\\ 2x^2+14x+24=0"
+    },
+    {
+     "text": "Divide by 2 and factor.",
+     "latex": "x^2+7x+12=(x+3)(x+4)=0"
+    },
+    {
+     "text": "x = −4 is excluded; the valid solution is x = −3.",
+     "latex": "x=-3"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "x=-3"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q10-added-01": {
+   "steps": [
+    {
+     "text": "Excluded value.",
+     "latex": "x\\ne2"
+    },
+    {
+     "text": "Multiply both sides by (x − 2).",
+     "latex": "4=5(x-2)"
+    },
+    {
+     "text": "Expand and isolate x.",
+     "latex": "4=5x-10\\ \\Rightarrow\\ 5x=14"
+    },
+    {
+     "text": "Divide.",
+     "latex": "x=\\frac{14}{5}"
+    },
+    {
+     "text": "{14}{5} ≠ 2, so the solution is valid.",
+     "latex": "x=\\frac{14}{5}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\frac{14}{5}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q10-added-02": {
+   "steps": [
+    {
+     "text": "Excluded value.",
+     "latex": "x\\ne3"
+    },
+    {
+     "text": "Multiply both sides by (x − 3).",
+     "latex": "5=6(x-3)"
+    },
+    {
+     "text": "Expand and isolate x.",
+     "latex": "5=6x-18\\ \\Rightarrow\\ 6x=23"
+    },
+    {
+     "text": "Divide.",
+     "latex": "x=\\frac{23}{6}"
+    },
+    {
+     "text": "{23}{6} ≠ 3, so the solution is valid.",
+     "latex": "x=\\frac{23}{6}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\frac{23}{6}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q10-added-03": {
+   "steps": [
+    {
+     "text": "Excluded value.",
+     "latex": "x\\ne4"
+    },
+    {
+     "text": "Multiply both sides by (x − 4).",
+     "latex": "6=7(x-4)"
+    },
+    {
+     "text": "Expand and isolate x.",
+     "latex": "6=7x-28\\ \\Rightarrow\\ 7x=34"
+    },
+    {
+     "text": "Divide.",
+     "latex": "x=\\frac{34}{7}"
+    },
+    {
+     "text": "{34}{7} ≠ 4, so the solution is valid.",
+     "latex": "x=\\frac{34}{7}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\frac{34}{7}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q11-experiment": {
+   "steps": [
+    {
+     "text": "Definitions: survey = ask questions; observational study = observe without assigning a treatment; experiment = assign a treatment (often with a control group); census = whole population.",
+     "latex": "\\text{Who assigns the treatment?}"
+    },
+    {
+     "text": "Apply them to this situation.",
+     "latex": "\\text{Participants are randomly assigned to an experimental group and a control group: the researcher imposes the treatment.}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Experiment}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q11-observation": {
+   "steps": [
+    {
+     "text": "Definitions: survey = ask questions; observational study = observe without assigning a treatment; experiment = assign a treatment (often with a control group); census = whole population.",
+     "latex": "\\text{Who assigns the treatment?}"
+    },
+    {
+     "text": "Apply them to this situation.",
+     "latex": "\\text{Members are measured or observed and nothing is assigned or changed by the researcher.}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{Observational study}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q11-book-uniforms": {
+   "steps": [
+    {
+     "text": "Definitions: survey = ask questions; observational study = observe without assigning a treatment; experiment = assign a treatment (often with a control group); census = whole population.",
+     "latex": "\\text{Who assigns the treatment?}"
+    },
+    {
+     "text": "Apply them to this situation.",
+     "latex": "\\text{The team only observes and records reactions; no treatment is assigned to some and withheld from others.}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Observational study}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q11-book-activities": {
+   "steps": [
+    {
+     "text": "Definitions: survey = ask questions; observational study = observe without assigning a treatment; experiment = assign a treatment (often with a control group); census = whole population.",
+     "latex": "\\text{Who assigns the treatment?}"
+    },
+    {
+     "text": "Apply them to this situation.",
+     "latex": "\\text{Data are collected by asking questions (each student reports an answer).}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\text{Survey}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q11-book-colours": {
+   "steps": [
+    {
+     "text": "Definitions: survey = ask questions; observational study = observe without assigning a treatment; experiment = assign a treatment (often with a control group); census = whole population.",
+     "latex": "\\text{Who assigns the treatment?}"
+    },
+    {
+     "text": "Apply them to this situation.",
+     "latex": "\\text{The teacher randomly assigns students to bright or neutral rooms (a treatment) and compares the results.}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Experiment}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q12-book-check": {
+   "steps": [
+    {
+     "text": "Theoretical probability of a 5 on a fair die.",
+     "latex": "P=\\dfrac16\\approx16.7\\%"
+    },
+    {
+     "text": "Experimental probability = frequency ÷ number of trials.",
+     "latex": "\\dfrac{24}{150}=0.16=16.0\\%"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "16.7\\%,16.0\\%"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q12-added-01": {
+   "steps": [
+    {
+     "text": "Theoretical: one favourable face out of six equally likely faces.",
+     "latex": "P_{\\text{theoretical}}=\\dfrac16"
+    },
+    {
+     "text": "Experimental: observed frequency ÷ number of rolls.",
+     "latex": "P_{\\text{experimental}}=\\dfrac{13}{120}=\\frac{13}{120}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\frac16,\\ \\frac{13}{120}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q12-added-02": {
+   "steps": [
+    {
+     "text": "Theoretical: one favourable face out of six equally likely faces.",
+     "latex": "P_{\\text{theoretical}}=\\dfrac16"
+    },
+    {
+     "text": "Experimental: observed frequency ÷ number of rolls.",
+     "latex": "P_{\\text{experimental}}=\\dfrac{16}{120}=\\frac{2}{15}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\frac16,\\ \\frac{2}{15}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q12-added-03": {
+   "steps": [
+    {
+     "text": "Theoretical: one favourable face out of six equally likely faces.",
+     "latex": "P_{\\text{theoretical}}=\\dfrac16"
+    },
+    {
+     "text": "Experimental: observed frequency ÷ number of rolls.",
+     "latex": "P_{\\text{experimental}}=\\dfrac{19}{120}=\\frac{19}{120}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\frac16,\\ \\frac{19}{120}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q12-die": {
+   "steps": [
+    {
+     "text": "Theoretical probability of one face of a fair eight-sided die.",
+     "latex": "\\dfrac18=12.5\\%"
+    },
+    {
+     "text": "Experimental probability: read the frequency of 8 in the table and divide by 200 rolls.",
+     "latex": "\\dfrac{42}{200}=21\\%"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "12.5\\%,\\ 21\\%"
+    }
+   ],
+   "verified": true,
+   "note": "frequency read from the table"
+  },
+  "11A-Q13-spinner": {
+   "steps": [
+    {
+     "text": "A simulation must give each outcome the same probability as the real situation.",
+     "latex": "P(\\text{outcome})=\\dfrac{\\text{assigned numbers or sectors}}{\\text{total}}"
+    },
+    {
+     "text": "Check the correct assignment.",
+     "latex": "\\text{5 sectors: 3 for outcome 1, 2 for outcome 2.}"
+    },
+    {
+     "text": "The other options give different percentages, so they do not model the situation.",
+     "latex": "\\text{compare each fraction with the required probability}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\text{5 sectors: 3 for outcome 1, 2 for outcome 2.}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q13-randomdigits": {
+   "steps": [
+    {
+     "text": "A simulation must give each outcome the same probability as the real situation.",
+     "latex": "P(\\text{outcome})=\\dfrac{\\text{assigned numbers or sectors}}{\\text{total}}"
+    },
+    {
+     "text": "Check the correct assignment.",
+     "latex": "\\text{Blue 1–4; Green 5–6; Red 7–9; Purple 10.}"
+    },
+    {
+     "text": "The other options give different percentages, so they do not model the situation.",
+     "latex": "\\text{compare each fraction with the required probability}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{Blue 1–4; Green 5–6; Red 7–9; Purple 10.}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q13-added-01": {
+   "steps": [
+    {
+     "text": "A simulation must give each outcome the same probability as the real situation.",
+     "latex": "P(\\text{outcome})=\\dfrac{\\text{assigned numbers or sectors}}{\\text{total}}"
+    },
+    {
+     "text": "Check the correct assignment.",
+     "latex": "\\text{1–3: success; 4–10: failure.}"
+    },
+    {
+     "text": "The other options give different percentages, so they do not model the situation.",
+     "latex": "\\text{compare each fraction with the required probability}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{1–3: success; 4–10: failure.}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q13-added-02": {
+   "steps": [
+    {
+     "text": "A simulation must give each outcome the same probability as the real situation.",
+     "latex": "P(\\text{outcome})=\\dfrac{\\text{assigned numbers or sectors}}{\\text{total}}"
+    },
+    {
+     "text": "Check the correct assignment.",
+     "latex": "\\text{1–7: success; 8–10: failure.}"
+    },
+    {
+     "text": "The other options give different percentages, so they do not model the situation.",
+     "latex": "\\text{compare each fraction with the required probability}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{1–7: success; 8–10: failure.}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q13-added-03": {
+   "steps": [
+    {
+     "text": "A simulation must give each outcome the same probability as the real situation.",
+     "latex": "P(\\text{outcome})=\\dfrac{\\text{assigned numbers or sectors}}{\\text{total}}"
+    },
+    {
+     "text": "Check the correct assignment.",
+     "latex": "\\text{1–8: success; 9–10: failure.}"
+    },
+    {
+     "text": "The other options give different percentages, so they do not model the situation.",
+     "latex": "\\text{compare each fraction with the required probability}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "\\text{1–8: success; 9–10: failure.}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q14-shears": {
+   "steps": [
+    {
+     "text": "Mean = sum ÷ number of values.",
+     "latex": "\\mu=\\dfrac{581}{8}=72.62"
+    },
+    {
+     "text": "Square each deviation from the mean and add.",
+     "latex": "\\sum(x-\\mu)^2=11683.9"
+    },
+    {
+     "text": "Population variance divides by n (all values form the population).",
+     "latex": "\\sigma^2=\\dfrac{11683.9}{8}=1460.48"
+    },
+    {
+     "text": "Standard deviation is the square root.",
+     "latex": "\\sigma=\\sqrt{1460.48}\\approx38.2163"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "38.22"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q14-books": {
+   "steps": [
+    {
+     "text": "Mean = sum ÷ number of values.",
+     "latex": "\\mu=\\dfrac{89}{9}=9.889"
+    },
+    {
+     "text": "Square each deviation from the mean and add.",
+     "latex": "\\sum(x-\\mu)^2=54.8889"
+    },
+    {
+     "text": "Population variance divides by n (all values form the population).",
+     "latex": "\\sigma^2=\\dfrac{54.8889}{9}=6.09877"
+    },
+    {
+     "text": "Standard deviation is the square root.",
+     "latex": "\\sigma=\\sqrt{6.09877}\\approx2.4696"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "2.5"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q14-added-01": {
+   "steps": [
+    {
+     "text": "Mean = sum ÷ number of values.",
+     "latex": "\\mu=\\dfrac{35}{5}=7"
+    },
+    {
+     "text": "Square each deviation from the mean and add.",
+     "latex": "\\sum(x-\\mu)^2=40"
+    },
+    {
+     "text": "Population variance divides by n (all values form the population).",
+     "latex": "\\sigma^2=\\dfrac{40}{5}=8"
+    },
+    {
+     "text": "Standard deviation is the square root.",
+     "latex": "\\sigma=\\sqrt{8}\\approx2.8284"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "7.00,\\ 2.83"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q14-added-02": {
+   "steps": [
+    {
+     "text": "Mean = sum ÷ number of values.",
+     "latex": "\\mu=\\dfrac{40}{5}=8"
+    },
+    {
+     "text": "Square each deviation from the mean and add.",
+     "latex": "\\sum(x-\\mu)^2=40"
+    },
+    {
+     "text": "Population variance divides by n (all values form the population).",
+     "latex": "\\sigma^2=\\dfrac{40}{5}=8"
+    },
+    {
+     "text": "Standard deviation is the square root.",
+     "latex": "\\sigma=\\sqrt{8}\\approx2.8284"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "8.00,\\ 2.83"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q14-added-03": {
+   "steps": [
+    {
+     "text": "Mean = sum ÷ number of values.",
+     "latex": "\\mu=\\dfrac{45}{5}=9"
+    },
+    {
+     "text": "Square each deviation from the mean and add.",
+     "latex": "\\sum(x-\\mu)^2=40"
+    },
+    {
+     "text": "Population variance divides by n (all values form the population).",
+     "latex": "\\sigma^2=\\dfrac{40}{5}=8"
+    },
+    {
+     "text": "Standard deviation is the square root.",
+     "latex": "\\sigma=\\sqrt{8}\\approx2.8284"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "9.00,\\ 2.83"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q15-35": {
+   "steps": [
+    {
+     "text": "Coterminal angles differ by a multiple of 360°.",
+     "latex": "\\theta\\pm360^\\circ k"
+    },
+    {
+     "text": "Positive coterminal angle: add 360°.",
+     "latex": "35^\\circ+360^\\circ=395^\\circ"
+    },
+    {
+     "text": "Negative coterminal angle: subtract 360°.",
+     "latex": "35^\\circ-360^\\circ=-325^\\circ"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "395^\\circ,\\ -325^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q15-added-01": {
+   "steps": [
+    {
+     "text": "Coterminal angles differ by a multiple of 360°.",
+     "latex": "\\theta\\pm360^\\circ k"
+    },
+    {
+     "text": "Positive coterminal angle: add 360°.",
+     "latex": "75^\\circ+360^\\circ=435^\\circ"
+    },
+    {
+     "text": "Negative coterminal angle: subtract 360°.",
+     "latex": "75^\\circ-360^\\circ=-285^\\circ"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "435^\\circ,\\ -285^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q15-added-02": {
+   "steps": [
+    {
+     "text": "Coterminal angles differ by a multiple of 360°.",
+     "latex": "\\theta\\pm360^\\circ k"
+    },
+    {
+     "text": "Positive coterminal angle: add 360°.",
+     "latex": "100^\\circ+360^\\circ=460^\\circ"
+    },
+    {
+     "text": "Negative coterminal angle: subtract 360°.",
+     "latex": "100^\\circ-360^\\circ=-260^\\circ"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "460^\\circ,\\ -260^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q15-added-03": {
+   "steps": [
+    {
+     "text": "Coterminal angles differ by a multiple of 360°.",
+     "latex": "\\theta\\pm360^\\circ k"
+    },
+    {
+     "text": "Positive coterminal angle: add 360°.",
+     "latex": "125^\\circ+360^\\circ=485^\\circ"
+    },
+    {
+     "text": "Negative coterminal angle: subtract 360°.",
+     "latex": "125^\\circ-360^\\circ=-235^\\circ"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "485^\\circ,\\ -235^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q15-added-04": {
+   "steps": [
+    {
+     "text": "Coterminal angles differ by a multiple of 360°.",
+     "latex": "\\theta\\pm360^\\circ k"
+    },
+    {
+     "text": "Positive coterminal angle: add 360°.",
+     "latex": "150^\\circ+360^\\circ=510^\\circ"
+    },
+    {
+     "text": "Negative coterminal angle: subtract 360°.",
+     "latex": "150^\\circ-360^\\circ=-210^\\circ"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "510^\\circ,\\ -210^\\circ"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q18-spring2": {
+   "steps": [
+    {
+     "text": "Amplitude = half the distance between the maximum and minimum.",
+     "latex": "A=4"
+    },
+    {
+     "text": "Frequency = cycles per second; angular frequency B = 2π × frequency (period = 1 ÷ frequency).",
+     "latex": "B=2\\pi\\cdot 2=4 \\pi"
+    },
+    {
+     "text": "Model with equilibrium at 0.",
+     "latex": "y=4\\sin\\left(4 \\pi t\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "y=4\\sin(4\\pi t)"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q18-spring3": {
+   "steps": [
+    {
+     "text": "Amplitude = half the distance between the maximum and minimum.",
+     "latex": "A=5"
+    },
+    {
+     "text": "Frequency = cycles per second; angular frequency B = 2π × frequency (period = 1 ÷ frequency).",
+     "latex": "B=2\\pi\\cdot 3=6 \\pi"
+    },
+    {
+     "text": "Model with equilibrium at 0.",
+     "latex": "y=5\\sin\\left(6 \\pi t\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "y=5\\sin(6\\pi t)"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q18-book-voltage": {
+   "steps": [
+    {
+     "text": "Amplitude = half the distance between the maximum and minimum.",
+     "latex": "A=120"
+    },
+    {
+     "text": "Frequency = cycles per second; angular frequency B = 2π × frequency (period = 1 ÷ frequency).",
+     "latex": "B=2\\pi\\cdot 50=100 \\pi"
+    },
+    {
+     "text": "Model with equilibrium at 0.",
+     "latex": "y=120\\sin\\left(100 \\pi t\\right)"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "V(t)=120\\sin(100\\pi t)"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q18-book-11": {
+   "steps": [
+    {
+     "text": "Amplitude = half the distance between the maximum and minimum.",
+     "latex": "A=\\frac{3}{2}"
+    },
+    {
+     "text": "Frequency = cycles per second; angular frequency B = 2π × frequency (period = 1 ÷ frequency).",
+     "latex": "B=2\\pi\\cdot 1=2 \\pi"
+    },
+    {
+     "text": "Model with equilibrium at 0.",
+     "latex": "y=\\frac{3}{2}\\sin\\left(2 \\pi t\\right)"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "y=1.5\\sin(2\\pi t)"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q18-added-01": {
+   "steps": [
+    {
+     "text": "Amplitude = half the distance between the maximum and minimum.",
+     "latex": "A=2"
+    },
+    {
+     "text": "Frequency = cycles per second; angular frequency B = 2π × frequency (period = 1 ÷ frequency).",
+     "latex": "B=2\\pi\\cdot \\frac{1}{5}=\\frac{2 \\pi}{5}"
+    },
+    {
+     "text": "Model with equilibrium at 0.",
+     "latex": "y=2\\sin\\left(\\frac{2 \\pi t}{5}\\right)"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "y=2\\sin(2\\pi t/5)"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q19-cot": {
+   "steps": [
+    {
+     "text": "cot is the reciprocal of tan: its period is π/|b|.",
+     "latex": "T=\\pi/\\frac{1}{2}=2 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{\\frac{1}{2}}"
+    },
+    {
+     "text": "Range of cot: all real numbers.",
+     "latex": "\\mathbb{R}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "2\\pi;\\ x=\\pi+2n\\pi"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q19-sec": {
+   "steps": [
+    {
+     "text": "sec is the reciprocal of cos: its period is 2π/|b|.",
+     "latex": "T=2\\pi/\\frac{1}{3}=6 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{\\pi/2+n\\pi}{\\frac{1}{3}}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 1"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "6\\pi;\\ x=3\\pi/2+3n\\pi"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q19-book-7": {
+   "steps": [
+    {
+     "text": "csc is the reciprocal of sin: its period is 2π/|b|.",
+     "latex": "T=2\\pi/\\frac{3}{4}=\\frac{8 \\pi}{3}"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{\\frac{3}{4}}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 1"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "T=\\frac{8 \\pi}{3};\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{\\frac{3}{4}};\\ \\text{extrema at }x=\\frac{\\pi/2+n\\pi}{\\frac{3}{4}},\\ y=1(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-8": {
+   "steps": [
+    {
+     "text": "csc is the reciprocal of sin: its period is 2π/|b|.",
+     "latex": "T=2\\pi/3=\\frac{2 \\pi}{3}"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{3}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 1"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "T=\\frac{2 \\pi}{3};\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{3};\\ \\text{extrema at }x=\\frac{\\pi/2+n\\pi}{3},\\ y=1(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-9": {
+   "steps": [
+    {
+     "text": "csc is the reciprocal of sin: its period is 2π/|b|.",
+     "latex": "T=2\\pi/1=2 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{1}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge \\frac{1}{2}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "T=2 \\pi;\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{1};\\ \\text{extrema at }x=\\frac{\\pi/2+n\\pi}{1},\\ y=\\frac{1}{2}(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-10": {
+   "steps": [
+    {
+     "text": "cot is the reciprocal of tan: its period is π/|b|.",
+     "latex": "T=\\pi/2=\\frac{\\pi}{2}"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{2}"
+    },
+    {
+     "text": "Range of cot: all real numbers.",
+     "latex": "\\mathbb{R}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "T=\\frac{\\pi}{2};\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{2};\\ \\text{x-intercepts }x=\\frac{\\pi/2+n\\pi}{2}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-11": {
+   "steps": [
+    {
+     "text": "cot is the reciprocal of tan: its period is π/|b|.",
+     "latex": "T=\\pi/\\frac{1}{2}=2 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{\\frac{1}{2}}"
+    },
+    {
+     "text": "Range of cot: all real numbers.",
+     "latex": "\\mathbb{R}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "T=2 \\pi;\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{\\frac{1}{2}};\\ \\text{x-intercepts }x=\\frac{\\pi/2+n\\pi}{\\frac{1}{2}}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-12": {
+   "steps": [
+    {
+     "text": "cot is the reciprocal of tan: its period is π/|b|.",
+     "latex": "T=\\pi/1=\\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{n\\pi}{1}"
+    },
+    {
+     "text": "Range of cot: all real numbers.",
+     "latex": "\\mathbb{R}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "T=\\pi;\\ \\text{vertical asymptotes }x=\\frac{n\\pi}{1};\\ \\text{x-intercepts }x=\\frac{\\pi/2+n\\pi}{1}"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-13": {
+   "steps": [
+    {
+     "text": "sec is the reciprocal of cos: its period is 2π/|b|.",
+     "latex": "T=2\\pi/1=2 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{\\pi/2+n\\pi}{1}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 3"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "T=2 \\pi;\\ \\text{vertical asymptotes }x=\\frac{\\pi/2+n\\pi}{1};\\ \\text{extrema at }x=\\frac{n\\pi}{1},\\ y=3(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-14": {
+   "steps": [
+    {
+     "text": "sec is the reciprocal of cos: its period is 2π/|b|.",
+     "latex": "T=2\\pi/\\frac{1}{3}=6 \\pi"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{\\pi/2+n\\pi}{\\frac{1}{3}}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 1"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "T=6 \\pi;\\ \\text{vertical asymptotes }x=\\frac{\\pi/2+n\\pi}{\\frac{1}{3}};\\ \\text{extrema at }x=\\frac{n\\pi}{\\frac{1}{3}},\\ y=1(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q19-book-15": {
+   "steps": [
+    {
+     "text": "sec is the reciprocal of cos: its period is 2π/|b|.",
+     "latex": "T=2\\pi/4=\\frac{\\pi}{2}"
+    },
+    {
+     "text": "Vertical asymptotes occur where the reciprocal function is 0.",
+     "latex": "x=\\dfrac{\\pi/2+n\\pi}{4}"
+    },
+    {
+     "text": "Range: csc and sec never take values strictly between −|a| and |a|.",
+     "latex": "|y|\\ge 1"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "T=\\frac{\\pi}{2};\\ \\text{vertical asymptotes }x=\\frac{\\pi/2+n\\pi}{4};\\ \\text{extrema at }x=\\frac{n\\pi}{4},\\ y=1(-1)^n"
+    }
+   ],
+   "verified": true,
+   "note": "graph chosen from these properties"
+  },
+  "11A-Q20-book-1": {
+   "steps": [
+    {
+     "text": "The principal value of arccos lies in its restricted range.",
+     "latex": "\\arccos:\\ [0^\\circ,180^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arccos\\left(\\frac{sqrt_{3}}{2}\\right)=\\frac{180 \\operatorname{acos}{\\left(\\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "\\frac{180 \\operatorname{acos}{\\left(\\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ=\\operatorname{acos}{\\left(\\frac{sqrt_{3}}{2} \\right)}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "30^\\circ,\\ \\frac{\\pi}{6}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-2": {
+   "steps": [
+    {
+     "text": "The principal value of arcsin lies in its restricted range.",
+     "latex": "\\arcsin:\\ [-90^\\circ,90^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arcsin\\left(- \\frac{sqrt_{3}}{2}\\right)=- \\frac{180 \\operatorname{asin}{\\left(\\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "- \\frac{180 \\operatorname{asin}{\\left(\\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ=- \\operatorname{asin}{\\left(\\frac{sqrt_{3}}{2} \\right)}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "-60^\\circ,\\ - \\frac{\\pi}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-3": {
+   "steps": [
+    {
+     "text": "The principal value of arccos lies in its restricted range.",
+     "latex": "\\arccos:\\ [0^\\circ,180^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arccos\\left(- \\frac{1}{2}\\right)=120^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "120^\\circ=\\frac{2 \\pi}{3}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "120^\\circ,\\ \\frac{2 \\pi}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-4": {
+   "steps": [
+    {
+     "text": "The principal value of arctan lies in its restricted range.",
+     "latex": "\\arctan:\\ (-90^\\circ,90^\\circ)"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arctan\\left(sqrt_{3}\\right)=\\frac{180 \\operatorname{atan}{\\left(sqrt_{3} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "\\frac{180 \\operatorname{atan}{\\left(sqrt_{3} \\right)}}{\\pi}^\\circ=\\operatorname{atan}{\\left(sqrt_{3} \\right)}"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "60^\\circ,\\ \\frac{\\pi}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-5": {
+   "steps": [
+    {
+     "text": "The principal value of arccos lies in its restricted range.",
+     "latex": "\\arccos:\\ [0^\\circ,180^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arccos\\left(- \\frac{sqrt_{2}}{2}\\right)=\\frac{180 \\operatorname{acos}{\\left(- \\frac{sqrt_{2}}{2} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "\\frac{180 \\operatorname{acos}{\\left(- \\frac{sqrt_{2}}{2} \\right)}}{\\pi}^\\circ=\\operatorname{acos}{\\left(- \\frac{sqrt_{2}}{2} \\right)}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "135^\\circ,\\ \\frac{3 \\pi}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-6": {
+   "steps": [
+    {
+     "text": "The principal value of arctan lies in its restricted range.",
+     "latex": "\\arctan:\\ (-90^\\circ,90^\\circ)"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arctan\\left(-1\\right)=-45^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "-45^\\circ=- \\frac{\\pi}{4}"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "-45^\\circ,\\ - \\frac{\\pi}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-7": {
+   "steps": [
+    {
+     "text": "The principal value of arcsin lies in its restricted range.",
+     "latex": "\\arcsin:\\ [-90^\\circ,90^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arcsin\\left(\\frac{sqrt_{2}}{2}\\right)=\\frac{180 \\operatorname{asin}{\\left(\\frac{sqrt_{2}}{2} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "\\frac{180 \\operatorname{asin}{\\left(\\frac{sqrt_{2}}{2} \\right)}}{\\pi}^\\circ=\\operatorname{asin}{\\left(\\frac{sqrt_{2}}{2} \\right)}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "45^\\circ,\\ \\frac{\\pi}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-8": {
+   "steps": [
+    {
+     "text": "The principal value of arccos lies in its restricted range.",
+     "latex": "\\arccos:\\ [0^\\circ,180^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arccos\\left(- \\frac{sqrt_{3}}{2}\\right)=\\frac{180 \\operatorname{acos}{\\left(- \\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "\\frac{180 \\operatorname{acos}{\\left(- \\frac{sqrt_{3}}{2} \\right)}}{\\pi}^\\circ=\\operatorname{acos}{\\left(- \\frac{sqrt_{3}}{2} \\right)}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "150^\\circ,\\ \\frac{5 \\pi}{6}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q20-book-9": {
+   "steps": [
+    {
+     "text": "The principal value of arcsin lies in its restricted range.",
+     "latex": "\\arcsin:\\ [-90^\\circ,90^\\circ]"
+    },
+    {
+     "text": "Find the angle in that range with the given ratio (special triangles / unit circle).",
+     "latex": "\\arcsin\\left(1\\right)=90^\\circ"
+    },
+    {
+     "text": "Convert to radians: multiply by π/180.",
+     "latex": "90^\\circ=\\frac{\\pi}{2}"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "90^\\circ,\\ \\frac{\\pi}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "11A-Q16-sec": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "13/12"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "13/12"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-csc": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "5/4"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "5/4"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-1": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{5}{13},\\frac{12}{13},\\frac{5}{12},\\frac{13}{5},\\frac{13}{12},\\frac{12}{5}\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\left(\\frac{5}{13},\\frac{12}{13},\\frac{5}{12},\\frac{13}{5},\\frac{13}{12},\\frac{12}{5}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-2": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{4}{5},\\frac{3}{5},\\frac{4}{3},\\frac{5}{4},\\frac{5}{3},\\frac{3}{4}\\right)"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\left(\\frac{4}{5},\\frac{3}{5},\\frac{4}{3},\\frac{5}{4},\\frac{5}{3},\\frac{3}{4}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-3": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{8}{17},\\frac{15}{17},\\frac{8}{15},\\frac{17}{8},\\frac{17}{15},\\frac{15}{8}\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\left(\\frac{8}{17},\\frac{15}{17},\\frac{8}{15},\\frac{17}{8},\\frac{17}{15},\\frac{15}{8}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-4": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{15}{17},\\frac{8}{17},\\frac{15}{8},\\frac{17}{15},\\frac{17}{8},\\frac{8}{15}\\right)"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "\\left(\\frac{15}{17},\\frac{8}{17},\\frac{15}{8},\\frac{17}{15},\\frac{17}{8},\\frac{8}{15}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-5": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{5}{11},\\frac{4 \\sqrt{6}}{11},\\frac{5 \\sqrt{6}}{24},\\frac{11}{5},\\frac{11 \\sqrt{6}}{24},\\frac{4 \\sqrt{6}}{5}\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\left(\\frac{5}{11},\\frac{4 \\sqrt{6}}{11},\\frac{5 \\sqrt{6}}{24},\\frac{11}{5},\\frac{11 \\sqrt{6}}{24},\\frac{4 \\sqrt{6}}{5}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q16-book-6": {
+   "steps": [
+    {
+     "text": "Label the sides relative to θ: opposite, adjacent and hypotenuse (the hypotenuse is opposite the right angle). Use the Pythagorean theorem for a missing side.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Definitions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj; csc, sec and cot are their reciprocals.",
+     "latex": "\\csc\\theta=\\dfrac1{\\sin\\theta},\\ \\sec\\theta=\\dfrac1{\\cos\\theta},\\ \\cot\\theta=\\dfrac1{\\tan\\theta}"
+    },
+    {
+     "text": "Substitute the side lengths from the triangle.",
+     "latex": "\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{3},2,\\frac{2 \\sqrt{3}}{3},\\sqrt{3}\\right)"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{\\sqrt{3}}{3},2,\\frac{2 \\sqrt{3}}{3},\\sqrt{3}\\right)"
+    }
+   ],
+   "verified": true,
+   "note": "side lengths read from the figure"
+  },
+  "11A-Q21-10": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = a·e^(x−h) + k: the graph of eˣ is stretched by |a| and shifted.",
+       "latex": "f(x)=3 e^{x - 1} + 3"
+      },
+      {
+       "text": "Horizontal asymptote: e^(…) → 0 as x → −∞, so y → k.",
+       "latex": "y=3"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\frac{3}{e} + 3\\approx4.104"
+      },
+      {
+       "text": "Plot the intercept and two more points, draw the curve approaching the asymptote on the left and rising to the right.",
+       "latex": "f(1)\\approx6.00,\\quad f(-1)\\approx3.41"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "An exponential function accepts every real x.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "a > 0: every output is above the asymptote.",
+       "latex": "R=(3,\\ \\infty)"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Average rate of change on [a, b] = (f(b) − f(a)) / (b − a).",
+       "latex": "\\dfrac{f(-2)-f(-5)}{-2-(-5)}"
+      },
+      {
+       "text": "Evaluate the function at both endpoints.",
+       "latex": "f(-2)=\\frac{3}{e^{3}} + 3\\approx3.1494,\\quad f(-5)=\\frac{3}{e^{6}} + 3\\approx3.0074"
+      },
+      {
+       "text": "Divide.",
+       "latex": "\\dfrac{3.1494-(3.0074)}{3}\\approx0.0473"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q21-11": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = a·e^(x−h) + k: the graph of eˣ is stretched by |a| and shifted.",
+       "latex": "f(x)=4 e^{2 x} - 1"
+      },
+      {
+       "text": "Horizontal asymptote: e^(…) → 0 as x → −∞, so y → k.",
+       "latex": "y=-1"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=3\\approx3.000"
+      },
+      {
+       "text": "Plot the intercept and two more points, draw the curve approaching the asymptote on the left and rising to the right.",
+       "latex": "f(1)\\approx28.56,\\quad f(-1)\\approx-0.46"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "An exponential function accepts every real x.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "a > 0: every output is above the asymptote.",
+       "latex": "R=(-1,\\ \\infty)"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Average rate of change on [a, b] = (f(b) − f(a)) / (b − a).",
+       "latex": "\\dfrac{f(-1)-f(-3)}{-1-(-3)}"
+      },
+      {
+       "text": "Evaluate the function at both endpoints.",
+       "latex": "f(-1)=-1 + \\frac{4}{e^{2}}\\approx-0.4587,\\quad f(-3)=-1 + \\frac{4}{e^{6}}\\approx-0.9901"
+      },
+      {
+       "text": "Divide.",
+       "latex": "\\dfrac{-0.4587-(-0.9901)}{2}\\approx0.2657"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q21-12": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = a·e^(x−h) + k: the graph of eˣ is stretched by |a|, reflected in the x-axis (a < 0) and shifted.",
+       "latex": "f(x)=2 - 2 e^{x + 3}"
+      },
+      {
+       "text": "Horizontal asymptote: e^(…) → 0 as x → −∞, so y → k.",
+       "latex": "y=2"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=2 - 2 e^{3}\\approx-38.171"
+      },
+      {
+       "text": "Plot the intercept and two more points, draw the curve approaching the asymptote on the left and falling to the right.",
+       "latex": "f(1)\\approx-107.20,\\quad f(-1)\\approx-12.78"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "An exponential function accepts every real x.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "a < 0: every output is below the asymptote.",
+       "latex": "R=(-\\infty,\\ 2)"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Average rate of change on [a, b] = (f(b) − f(a)) / (b − a).",
+       "latex": "\\dfrac{f(-4)-f(-7)}{-4-(-7)}"
+      },
+      {
+       "text": "Evaluate the function at both endpoints.",
+       "latex": "f(-4)=2 - \\frac{2}{e}\\approx1.2642,\\quad f(-7)=2 - \\frac{2}{e^{4}}\\approx1.9634"
+      },
+      {
+       "text": "Divide.",
+       "latex": "\\dfrac{1.2642-(1.9634)}{3}\\approx-0.2330"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q21-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = a·e^(x−h) + k: the graph of eˣ is stretched by |a| and shifted.",
+       "latex": "f(x)=2 e^{x} - 3"
+      },
+      {
+       "text": "Horizontal asymptote: e^(…) → 0 as x → −∞, so y → k.",
+       "latex": "y=-3"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=-1\\approx-1.000"
+      },
+      {
+       "text": "Plot the intercept and two more points, draw the curve approaching the asymptote on the left and rising to the right.",
+       "latex": "f(1)\\approx2.44,\\quad f(-1)\\approx-2.26"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "An exponential function accepts every real x.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "a > 0: every output is above the asymptote.",
+       "latex": "R=(-3,\\ \\infty)"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Average rate of change on [a, b] = (f(b) − f(a)) / (b − a).",
+       "latex": "\\dfrac{f(2)-f(0)}{2-(0)}"
+      },
+      {
+       "text": "Evaluate the function at both endpoints.",
+       "latex": "f(2)=-3 + 2 e^{2}\\approx11.7781,\\quad f(0)=-1\\approx-1.0000"
+      },
+      {
+       "text": "Divide.",
+       "latex": "\\dfrac{11.7781-(-1.0000)}{2}\\approx6.3891"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q21-added-02": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = a·e^(x−h) + k: the graph of eˣ is stretched by |a| and shifted.",
+       "latex": "f(x)=3 e^{x} - 4"
+      },
+      {
+       "text": "Horizontal asymptote: e^(…) → 0 as x → −∞, so y → k.",
+       "latex": "y=-4"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=-1\\approx-1.000"
+      },
+      {
+       "text": "Plot the intercept and two more points, draw the curve approaching the asymptote on the left and rising to the right.",
+       "latex": "f(1)\\approx4.15,\\quad f(-1)\\approx-2.90"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "An exponential function accepts every real x.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "a > 0: every output is above the asymptote.",
+       "latex": "R=(-4,\\ \\infty)"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Average rate of change on [a, b] = (f(b) − f(a)) / (b − a).",
+       "latex": "\\dfrac{f(2)-f(0)}{2-(0)}"
+      },
+      {
+       "text": "Evaluate the function at both endpoints.",
+       "latex": "f(2)=-4 + 3 e^{2}\\approx18.1672,\\quad f(0)=-1\\approx-1.0000"
+      },
+      {
+       "text": "Divide.",
+       "latex": "\\dfrac{18.1672-(-1.0000)}{2}\\approx9.5836"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q22-thorium": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "After one half-life T the amount halves: a e^(−kT) = a/2.",
+       "latex": "e^{-kT}=\\tfrac12"
+      },
+      {
+       "text": "Take ln of both sides: −kT = ln(1/2) = −ln 2.",
+       "latex": "k=\\dfrac{\\ln2}{T}"
+      },
+      {
+       "text": "Substitute the half-life.",
+       "latex": "k=\\dfrac{\\ln2}{75381}\\approx9.195250535e-06"
+      },
+      {
+       "text": "Decay equation.",
+       "latex": "y=a\\,e^{-kt}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Substitute the initial mass and the time (use the unrounded k).",
+       "latex": "y=2\\,e^{-k\\cdot1500}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "y\\approx1.9726\\ \\text{g}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q22-iodine": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "After one half-life T the amount halves: a e^(−kT) = a/2.",
+       "latex": "e^{-kT}=\\tfrac12"
+      },
+      {
+       "text": "Take ln of both sides: −kT = ln(1/2) = −ln 2.",
+       "latex": "k=\\dfrac{\\ln2}{T}"
+      },
+      {
+       "text": "Substitute the half-life.",
+       "latex": "k=\\dfrac{\\ln2}{\\frac{401}{50}}\\approx0.08642732925\\approx0.086"
+      },
+      {
+       "text": "Decay equation.",
+       "latex": "y=a\\,e^{-kt}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Substitute the initial mass and the time (use the unrounded k).",
+       "latex": "y=15\\,e^{-k\\cdot20}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "y\\approx2.6631\\ \\text{g}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q22-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "k = ln 2 ÷ half-life.",
+       "latex": "k=\\dfrac{\\ln2}{6}"
+      },
+      {
+       "text": "Model.",
+       "latex": "M(t)=100e^{-t\\ln2/6}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "18 days = 3 half-lives, so the mass halves 3 times.",
+       "latex": "M(18)=100\\cdot\\left(\\tfrac12\\right)^{3}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "M(18)=\\frac{25}{2}\\ \\text{g}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "One quarter = (1/2)² remains after two half-lives.",
+       "latex": "\\tfrac14=\\left(\\tfrac12\\right)^2"
+      },
+      {
+       "text": "Time.",
+       "latex": "t=2\\times6=12\\ \\text{days}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q22-added-02": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "k = ln 2 ÷ half-life.",
+       "latex": "k=\\dfrac{\\ln2}{8}"
+      },
+      {
+       "text": "Model.",
+       "latex": "M(t)=120e^{-t\\ln2/8}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "24 days = 3 half-lives, so the mass halves 3 times.",
+       "latex": "M(24)=120\\cdot\\left(\\tfrac12\\right)^{3}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "M(24)=15\\ \\text{g}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "One quarter = (1/2)² remains after two half-lives.",
+       "latex": "\\tfrac14=\\left(\\tfrac12\\right)^2"
+      },
+      {
+       "text": "Time.",
+       "latex": "t=2\\times8=16\\ \\text{days}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q22-added-03": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "k = ln 2 ÷ half-life.",
+       "latex": "k=\\dfrac{\\ln2}{10}"
+      },
+      {
+       "text": "Model.",
+       "latex": "M(t)=140e^{-t\\ln2/10}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "30 days = 3 half-lives, so the mass halves 3 times.",
+       "latex": "M(30)=140\\cdot\\left(\\tfrac12\\right)^{3}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "M(30)=\\frac{35}{2}\\ \\text{g}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "One quarter = (1/2)² remains after two half-lives.",
+       "latex": "\\tfrac14=\\left(\\tfrac12\\right)^2"
+      },
+      {
+       "text": "Time.",
+       "latex": "t=2\\times10=20\\ \\text{days}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q24-empirical": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Middle 95% lies within two standard deviations of the mean.",
+       "latex": "\\mu\\pm2\\sigma"
+      },
+      {
+       "text": "Substitute μ = 42, σ = 6.",
+       "latex": "[42-12,\\ 42+12]=[30,\\ 54]"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "36 = μ − σ. Half of the data are above the mean, plus half of the 68% between μ − σ and μ.",
+       "latex": "P(X>36)=50\\%+34\\%"
+      },
+      {
+       "text": "Result.",
+       "latex": "\\approx84\\%"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q24-traffic": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standardise: z = (x − μ)/σ.",
+       "latex": "z=\\dfrac{100000-98452}{10325}"
+      },
+      {
+       "text": "Evaluate.",
+       "latex": "z\\approx0.1499\\approx0.15"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "“At least” is the right tail: 1 − Φ(z).",
+       "latex": "P(X\\ge100000)=1-\\Phi(0.15)"
+      },
+      {
+       "text": "From the table Φ(0.15) = 0.5596.",
+       "latex": "1-0.5596=0.4404"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q24-14": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standardise both ends.",
+       "latex": "z_1=\\dfrac{70-100}{12.3}\\approx-2.44,\\quad z_2=\\dfrac{80-100}{12.3}\\approx-1.63"
+      },
+      {
+       "text": "Area between them.",
+       "latex": "\\Phi(-1.63)-\\Phi(-2.44)=0.0516-0.0073=0.0443\\approx4.42\\%"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Standardise.",
+       "latex": "z=\\dfrac{115-100}{12.3}\\approx1.22"
+      },
+      {
+       "text": "Right tail.",
+       "latex": "1-\\Phi(1.22)=1-0.8888=0.1112\\approx11.12\\%"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Standardise 75.",
+       "latex": "z=\\dfrac{75-100}{12.3}\\approx-2.03"
+      },
+      {
+       "text": "Proportion below 75, then multiply by 75 people.",
+       "latex": "75\\times\\Phi(-2.03)=75\\times0.0212\\approx1.59\\approx2\\ \\text{people}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q24-book-service": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Standardise.",
+       "latex": "z=\\dfrac{30-21.3}{3.8}\\approx2.29"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Right tail from the table.",
+       "latex": "1-\\Phi(2.29)=1-0.9890=0.0110"
+      },
+      {
+       "text": "As a percentage.",
+       "latex": "\\approx1.10\\%"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q24-added-01": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "90th percentile: left-tail area 0.90, so z ≈ 1.2816 (table / inverse normal).",
+       "latex": "z\\approx1.2816"
+      },
+      {
+       "text": "Convert back: x = μ + zσ.",
+       "latex": "x=70+1.2816\\times8\\approx80.3"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Standardise both ends.",
+       "latex": "z=\\dfrac{62-70}{8}=-1,\\quad z=\\dfrac{78-70}{8}=1"
+      },
+      {
+       "text": "Area within one standard deviation.",
+       "latex": "\\Phi(1)-\\Phi(-1)\\approx0.6827"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-example": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Fraction of a full turn × 360°.",
+       "latex": "270^\\circ"
+      },
+      {
+       "text": "Convert to radians: multiply by π/180.",
+       "latex": "270\\cdot\\dfrac{\\pi}{180}=\\frac{3 \\pi}{2}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Arc length s = rθ with θ in radians (radius = diameter ÷ 2).",
+       "latex": "r=80"
+      },
+      {
+       "text": "Substitute.",
+       "latex": "s=80\\cdot\\frac{3 \\pi}{2}=120 \\pi\\approx376.99\\ \\text{ft}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-52": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Fraction of a full turn × 360°.",
+       "latex": "90^\\circ"
+      },
+      {
+       "text": "Convert to radians: multiply by π/180.",
+       "latex": "90\\cdot\\dfrac{\\pi}{180}=\\frac{\\pi}{2}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Arc length s = rθ with θ in radians (radius = diameter ÷ 2).",
+       "latex": "r=100"
+      },
+      {
+       "text": "Substitute.",
+       "latex": "s=100\\cdot\\frac{\\pi}{2}=50 \\pi\\approx157.08\\ \\text{m}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-53": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "40 minutes is 40/60 = 2/3 of a turn.",
+       "latex": "240^\\circ"
+      },
+      {
+       "text": "Convert to radians: multiply by π/180.",
+       "latex": "240\\cdot\\dfrac{\\pi}{180}=\\frac{4 \\pi}{3}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Arc length s = rθ with θ in radians (radius = hand length).",
+       "latex": "r=5"
+      },
+      {
+       "text": "Substitute.",
+       "latex": "s=5\\cdot\\frac{4 \\pi}{3}=\\frac{20 \\pi}{3}\\approx20.94\\ \\text{in}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig7": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·cos(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=3,\\quad B=1,\\quad h=45^\\circ"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=3,\\quad T=360.0^\\circ"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "45^\\circ\\ \\text{right}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic cos cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-3,\\ 3]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig8": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·sin(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=2,\\quad B=1,\\quad h=-60^\\circ"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=2,\\quad T=360.0^\\circ"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "60^\\circ\\ \\text{left}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic sin cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-2,\\ 2]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig9": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·sin(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=\\frac{1}{2},\\quad B=3,\\quad h=\\frac{\\pi}{3}"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=\\frac{1}{2},\\quad T=\\frac{2 \\pi}{3}"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "\\frac{\\pi}{3}\\ \\text{right}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic sin cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-\\frac{1}{2},\\ \\frac{1}{2}]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig10": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·cos(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=\\frac{1}{2},\\quad B=3,\\quad h=\\frac{\\pi}{2}"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=\\frac{1}{2},\\quad T=\\frac{2 \\pi}{3}"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "\\frac{\\pi}{2}\\ \\text{right}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic cos cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-\\frac{1}{2},\\ \\frac{1}{2}]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig11": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·cos(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=2,\\quad B=1,\\quad h=-90^\\circ"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=2,\\quad T=360.0^\\circ"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "90^\\circ\\ \\text{left}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic cos cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-2,\\ 2]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q25-trig12": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Compare with y = A·sin(B(θ − h)): amplitude |A|, period 360°/B (or 2π/B), phase shift h.",
+       "latex": "A=\\frac{1}{4},\\quad B=1,\\quad h=30^\\circ"
+      },
+      {
+       "text": "Amplitude and period.",
+       "latex": "|A|=\\frac{1}{4},\\quad T=360.0^\\circ"
+      },
+      {
+       "text": "Phase shift: θ − h with h > 0 moves right; θ + h moves left.",
+       "latex": "30^\\circ\\ \\text{right}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Start the basic sin cycle at θ = h, divide one period into four equal steps and plot max / zero / min points.",
+       "latex": "\\theta=h,\\ h+\\tfrac{T}4,\\ h+\\tfrac{T}2,\\ h+\\tfrac{3T}4,\\ h+T"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Domain: every θ.",
+       "latex": "D=\\mathbb{R}"
+      },
+      {
+       "text": "Range: between −|A| and |A|.",
+       "latex": "R=[-\\frac{1}{4},\\ \\frac{1}{4}]"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q01-11": {
+   "steps": [
+    {
+     "text": "g(x) = 2ˣ + k is the graph of 2ˣ shifted k units vertically; its horizontal asymptote moves from y = 0 to y = k.",
+     "latex": "g(x)=2^x+k"
+    },
+    {
+     "text": "On the graph the left end levels off at y = −3, so the asymptote is y = −3.",
+     "latex": "k=-3"
+    },
+    {
+     "text": "Check: g(0) = 1 − 3 = −2 matches the y-intercept.",
+     "latex": "g(x)=2^x-3"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "k=-3,\\ g(x)=2^x-3"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q01-book-12": {
+   "steps": [
+    {
+     "text": "g(x) = 3ˣ + k shifts the asymptote of 3ˣ (y = 0) to y = k.",
+     "latex": "g(x)=3^x+k"
+    },
+    {
+     "text": "The graph levels off at y = 2 on the left.",
+     "latex": "k=2"
+    },
+    {
+     "text": "Check: g(0) = 1 + 2 = 3.",
+     "latex": "g(x)=3^x+2"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "k=2;\\ g(x)=3^x+2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q01-book-13": {
+   "steps": [
+    {
+     "text": "g(x) = k·f(x) stretches or reflects f; the asymptote stays y = 0.",
+     "latex": "g(x)=k\\left(\\tfrac32\\right)^x"
+    },
+    {
+     "text": "The graph passes through (0, −1) and lies below the x-axis: it is the reflection of f.",
+     "latex": "g(0)=k\\cdot1=-1"
+    },
+    {
+     "text": "So k = −1.",
+     "latex": "g(x)=-\\left(\\tfrac32\\right)^x"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "k=-1;\\ g(x)=-(3/2)^x"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q01-added-01": {
+   "steps": [
+    {
+     "text": "g(x) = 2ˣ + 2: asymptote y = 2, y-intercept g(0) = 1 + 2 = 3, increasing.",
+     "latex": "y=2,\\quad g(0)=3"
+    },
+    {
+     "text": "Graph A is the only increasing curve that levels off at y = 2 and passes through (0, 3).",
+     "latex": "\\text{Graph A}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{Graph A}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q01-added-02": {
+   "steps": [
+    {
+     "text": "g(x) = 2ˣ + 3: asymptote y = 3, y-intercept g(0) = 1 + 3 = 4, increasing.",
+     "latex": "y=3,\\quad g(0)=4"
+    },
+    {
+     "text": "Graph A is the only increasing curve that levels off at y = 3 and passes through (0, 4).",
+     "latex": "\\text{Graph A}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "\\text{Graph A}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-13": {
+   "steps": [
+    {
+     "text": "The period is the horizontal length of one complete cycle (the smallest distance after which the graph repeats).",
+     "latex": "f(x+T)=f(x)"
+    },
+    {
+     "text": "Consecutive peaks are 10 units apart on the scale.",
+     "latex": "T=10"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "10"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-14": {
+   "steps": [
+    {
+     "text": "Measure from one peak to the next.",
+     "latex": "\\text{peaks at }x=0\\text{ and }x=6"
+    },
+    {
+     "text": "One full cycle takes 6 units.",
+     "latex": "T=6"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "6"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-15": {
+   "steps": [
+    {
+     "text": "Find where the pattern starts to repeat exactly.",
+     "latex": "\\text{one cycle}"
+    },
+    {
+     "text": "Reading the marked multiples of π, one full cycle spans 5π/2.",
+     "latex": "T=\\tfrac{5\\pi}{2}"
+    },
+    {
+     "text": "The answer is option B.",
+     "latex": "5\\pi/2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-16": {
+   "steps": [
+    {
+     "text": "Each arch above and below the axis together form one cycle.",
+     "latex": "\\text{up-arch + down-arch}"
+    },
+    {
+     "text": "One cycle spans 2π.",
+     "latex": "T=2\\pi"
+    },
+    {
+     "text": "The answer is option A.",
+     "latex": "2\\pi"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-17": {
+   "steps": [
+    {
+     "text": "Measure between consecutive highest points.",
+     "latex": "\\text{peaks at }x=1,\\ 5,\\ 9"
+    },
+    {
+     "text": "They are 4 units apart.",
+     "latex": "T=4"
+    },
+    {
+     "text": "The answer is option C.",
+     "latex": "4"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "11A-Q17-book-18": {
+   "steps": [
+    {
+     "text": "Find the length of one high step plus one low step.",
+     "latex": "\\text{one full pattern}"
+    },
+    {
+     "text": "One cycle spans 2π.",
+     "latex": "T=2\\pi"
+    },
+    {
+     "text": "The answer is option D.",
+     "latex": "2\\pi"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  }
+ }
+}

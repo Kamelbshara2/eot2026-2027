@@ -1,0 +1,287 @@
+{
+ "class": "11G",
+ "items": {
+  "11G-p08-9b": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "15 is the hypotenuse; legs 9 and x.",
+     "latex": "x^2=15^2-9^2=225-81=144"
+    },
+    {
+     "text": "Positive root.",
+     "latex": "x=12"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "12"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p08-9c": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "65 is the hypotenuse; legs 25 and x.",
+     "latex": "x^2=65^2-25^2=4225-625=3600"
+    },
+    {
+     "text": "Positive root.",
+     "latex": "x=60"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "60"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p08-10a": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Legs: height 450 m and horizontal 775 m; L is the hypotenuse.",
+     "latex": "L^2=450^2+775^2=202500+600625=803125"
+    },
+    {
+     "text": "Square root.",
+     "latex": "L\\approx896.17\\ \\text{m}"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "896.17\\ \\text{m}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p09-10b": {
+   "steps": [
+    {
+     "text": "Pythagorean Theorem.",
+     "latex": "a^2+b^2=c^2"
+    },
+    {
+     "text": "Legs 12 ft and 1 ft.",
+     "latex": "L^2=12^2+1^2=145"
+    },
+    {
+     "text": "Exact length.",
+     "latex": "L=\\sqrt{145}\\ \\text{ft}"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "\\sqrt{145}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p09-11a": {
+   "steps": [
+    {
+     "text": "Distance in space.",
+     "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"
+    },
+    {
+     "text": "Substitute (5, 0, 65) and (3, 0, −6).",
+     "latex": "d=\\sqrt{(5-3)^2+0^2+(65+6)^2}=\\sqrt{4+5041}"
+    },
+    {
+     "text": "Evaluate.",
+     "latex": "d=\\sqrt{5045}\\approx71\\ \\text{cm}"
+    },
+    {
+     "text": "Option 4 (D).",
+     "latex": "71\\ \\text{cm}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p10-11b": {
+   "steps": [
+    {
+     "text": "Distance in space.",
+     "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"
+    },
+    {
+     "text": "From (0, 0, 0) to (17, −14, 23).",
+     "latex": "d=\\sqrt{17^2+(-14)^2+23^2}=\\sqrt{289+196+529}"
+    },
+    {
+     "text": "Evaluate.",
+     "latex": "d=\\sqrt{1014}\\approx31.8\\ \\text{km}"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "31.8\\ \\text{km}"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p10-12a": {
+   "steps": [
+    {
+     "text": "45°–45°–90° triangle: hypotenuse = leg × √2.",
+     "latex": "x=7\\sqrt2"
+    },
+    {
+     "text": "Option 4 (D).",
+     "latex": "7\\sqrt2"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p10-12b": {
+   "steps": [
+    {
+     "text": "45°–45°–90°: x is the hypotenuse and 3√2 a leg.",
+     "latex": "x=3\\sqrt2\\cdot\\sqrt2"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "x=6"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "6"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p11-12c": {
+   "steps": [
+    {
+     "text": "45°–45°–90°: leg 25, x is the hypotenuse.",
+     "latex": "x=25\\sqrt2"
+    },
+    {
+     "text": "Decimal.",
+     "latex": "x\\approx35.36"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "35.36"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p11-13a": {
+   "steps": [
+    {
+     "text": "30°–60°–90°: sides short : long : hyp = 1 : √3 : 2. The side 12 is opposite the 60° angle (long leg).",
+     "latex": "\\text{long leg}=12"
+    },
+    {
+     "text": "Short leg x = long leg ÷ √3.",
+     "latex": "x=\\dfrac{12}{\\sqrt3}=4\\sqrt3"
+    },
+    {
+     "text": "Hypotenuse y = 2x.",
+     "latex": "y=8\\sqrt3"
+    },
+    {
+     "text": "Option 2 (B).",
+     "latex": "x=4\\sqrt3,\\ y=8\\sqrt3"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p11-13b": {
+   "steps": [
+    {
+     "text": "30°–60°–90°: the side 15 is opposite the 60° angle (long leg); x is the short leg.",
+     "latex": "x\\sqrt3=15"
+    },
+    {
+     "text": "Short leg.",
+     "latex": "x=\\dfrac{15}{\\sqrt3}=5\\sqrt3"
+    },
+    {
+     "text": "Hypotenuse y = 2x.",
+     "latex": "y=10\\sqrt3"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "x=5\\sqrt3,\\ y=10\\sqrt3"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure"
+  },
+  "11G-p12-14a": {
+   "steps": [
+    {
+     "text": "The 12-ft ramp is the hypotenuse; 4° is at the ground.",
+     "latex": "\\cos4^\\circ=\\dfrac{x}{12},\\quad \\sin4^\\circ=\\dfrac{y}{12}"
+    },
+    {
+     "text": "Horizontal distance.",
+     "latex": "x=12\\cos4^\\circ\\approx11.97\\ \\text{ft}"
+    },
+    {
+     "text": "Height.",
+     "latex": "y=12\\sin4^\\circ\\approx0.84\\ \\text{ft}"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "x=11.97,\\ y=0.84"
+    }
+   ],
+   "verified": true
+  },
+  "11G-p12-14b": {
+   "steps": [
+    {
+     "text": "32 is opposite the 41° angle and x is adjacent: use tan.",
+     "latex": "\\tan41^\\circ=\\dfrac{32}{x}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "x=\\dfrac{32}{\\tan41^\\circ}\\approx36.8"
+    },
+    {
+     "text": "Option 1 (A).",
+     "latex": "36.8"
+    }
+   ],
+   "verified": true,
+   "note": "read from the figure (32 is the side opposite the 41° angle)"
+  },
+  "11G-p12-15a": {
+   "steps": [
+    {
+     "text": "Height of the drone above Rakeem's eyes.",
+     "latex": "102-6=96\\ \\text{ft}"
+    },
+    {
+     "text": "96 is opposite the 30° angle; the distance AB is the hypotenuse.",
+     "latex": "\\sin30^\\circ=\\dfrac{96}{AB}"
+    },
+    {
+     "text": "Solve.",
+     "latex": "AB=\\dfrac{96}{0.5}=192\\ \\text{ft}"
+    },
+    {
+     "text": "Option 3 (C).",
+     "latex": "192\\ \\text{ft}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

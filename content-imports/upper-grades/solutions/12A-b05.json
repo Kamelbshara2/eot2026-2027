@@ -1,0 +1,416 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p34-Q24c-1": {
+   "steps": [
+    {
+     "text": "Quotient Rule for x²/g(x).",
+     "latex": "h\\prime(x)=\\dfrac{2x\\,g(x)-x^2g\\prime(x)}{g(x)^2}"
+    },
+    {
+     "text": "At x = 1 (g(1) = 1, g′(1) = −2).",
+     "latex": "h(1)=\\dfrac{1}{1}=1,\\quad h\\prime(1)=\\dfrac{2(1)(1)-(1)(-2)}{1^2}=4"
+    },
+    {
+     "text": "Tangent line.",
+     "latex": "y-1=4(x-1)\\Rightarrow y=4x-3"
+    },
+    {
+     "text": "Option A).",
+     "latex": "y=4x-3"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p34-Q31-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "h′(1) = f′(g(1))·g′(1) with g(1) = 2.",
+     "latex": "h\\prime(1)=f\\prime(2)\\cdot g\\prime(1)"
+    },
+    {
+     "text": "Substitute f′(2) = 3, g′(1) = −2.",
+     "latex": "h\\prime(1)=3(-2)=-6"
+    },
+    {
+     "text": "Option B).",
+     "latex": "-6"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p35-Q34-1": {
+   "steps": [
+    {
+     "text": "Symmetry about x = a means f(a + h) = f(a − h).",
+     "latex": "f(a+h)=f(a-h)"
+    },
+    {
+     "text": "Differentiate with respect to h.",
+     "latex": "f\\prime(a+h)=-f\\prime(a-h)"
+    },
+    {
+     "text": "So f′ is symmetric about the point (a, 0) (point symmetry).",
+     "latex": "(a,\\ 0)"
+    },
+    {
+     "text": "Option A).",
+     "latex": "(a,0)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p36-Q35a-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Outer f, inner x³ with derivative 3x².",
+     "latex": "\\dfrac{d}{dx}f(x^3)=f\\prime(x^3)\\cdot3x^2"
+    },
+    {
+     "text": "Option A).",
+     "latex": "3f\\prime(x^3)\\,x^2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p36-Q35b-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Outer u², inner f(x).",
+     "latex": "\\dfrac{d}{dx}[f(x)]^2=2f(x)\\,f\\prime(x)"
+    },
+    {
+     "text": "Option A).",
+     "latex": "2f(x)f\\prime(x)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p36-Q35c-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Outer f, inner f(x).",
+     "latex": "\\dfrac{d}{dx}f(f(x))=f\\prime(f(x))\\,f\\prime(x)"
+    },
+    {
+     "text": "Option B).",
+     "latex": "f\\prime(f(x))f\\prime(x)"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p37-Q36a-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Inner √x has derivative 1/(2√x).",
+     "latex": "\\dfrac{d}{dx}f(\\sqrt x)=f\\prime(\\sqrt x)\\cdot\\dfrac1{2\\sqrt x}"
+    },
+    {
+     "text": "Option D).",
+     "latex": "\\dfrac{f\\prime(\\sqrt x)}{2\\sqrt x}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p37-Q36b-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Outer √u has derivative 1/(2√u); inner f(x).",
+     "latex": "\\dfrac{d}{dx}\\sqrt{f(x)}=\\dfrac{f\\prime(x)}{2\\sqrt{f(x)}}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\dfrac{f\\prime(x)}{2\\sqrt{f(x)}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p37-Q36c-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Inner x·f(x) needs the Product Rule.",
+     "latex": "\\dfrac{d}{dx}[xf(x)]=f(x)+xf\\prime(x)"
+    },
+    {
+     "text": "Combine.",
+     "latex": "\\dfrac{d}{dx}f(xf(x))=f\\prime(xf(x))\\,(f(x)+xf\\prime(x))"
+    },
+    {
+     "text": "Option D).",
+     "latex": "f\\prime(xf(x))(f(x)+xf\\prime(x))"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p38-Q17-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = -1 (try small integers).",
+     "latex": "f(0)=-1\\ \\Rightarrow\\ a=0"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=3 x^{2} + 4"
+    },
+    {
+     "text": "Evaluate at a = 0.",
+     "latex": "f\\prime(0)=4"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(-1)=\\frac{1}{4}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\frac{1}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p38-Q18-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = -2 (try small integers).",
+     "latex": "f(0)=-2\\ \\Rightarrow\\ a=0"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=5 x^{4} + 4"
+    },
+    {
+     "text": "Evaluate at a = 0.",
+     "latex": "f\\prime(0)=4"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(-2)=\\frac{1}{4}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\frac{1}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p39-Q19-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = 5 (try small integers).",
+     "latex": "f(1)=5\\ \\Rightarrow\\ a=1"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=5 x^{4} + 9 x^{2} + 1"
+    },
+    {
+     "text": "Evaluate at a = 1.",
+     "latex": "f\\prime(1)=15"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(5)=\\frac{1}{15}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\frac{1}{15}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p39-Q20-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = -2 (try small integers).",
+     "latex": "f(-1)=-2\\ \\Rightarrow\\ a=-1"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=3 x^{2} + 2"
+    },
+    {
+     "text": "Evaluate at a = -1.",
+     "latex": "f\\prime(-1)=5"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(-2)=\\frac{1}{5}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\frac{1}{5}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p39-Q21-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = 2 (try small integers).",
+     "latex": "f(0)=2\\ \\Rightarrow\\ a=0"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=\\frac{\\frac{3 x^{2}}{2} + 1}{\\sqrt{x^{3} + 2 x + 4}}"
+    },
+    {
+     "text": "Evaluate at a = 0.",
+     "latex": "f\\prime(0)=\\frac{1}{2}"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(2)=2"
+    },
+    {
+     "text": "Option B).",
+     "latex": "2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p40-Q22-1": {
+   "steps": [
+    {
+     "text": "Inverse-function derivative: if g = f⁻¹ and f(a) = b, then g′(b) = 1 / f′(a).",
+     "latex": "g\\prime(b)=\\dfrac1{f\\prime(a)}"
+    },
+    {
+     "text": "Find a with f(a) = 3 (try small integers).",
+     "latex": "f(1)=3\\ \\Rightarrow\\ a=1"
+    },
+    {
+     "text": "Differentiate f.",
+     "latex": "f\\prime(x)=\\frac{\\frac{5 x^{4}}{2} + 6 x^{2} + \\frac{3}{2}}{\\sqrt{x^{5} + 4 x^{3} + 3 x + 1}}"
+    },
+    {
+     "text": "Evaluate at a = 1.",
+     "latex": "f\\prime(1)=\\frac{10}{3}"
+    },
+    {
+     "text": "Reciprocal.",
+     "latex": "g\\prime(3)=\\frac{3}{10}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{3}{10}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p41-Q11-1": {
+   "steps": [
+    {
+     "text": "Write as a power.",
+     "latex": "f(x)=(\\sin4x)^{-1}"
+    },
+    {
+     "text": "Chain Rule: power, then sine, then 4x.",
+     "latex": "f\\prime(x)=-(\\sin4x)^{-2}\\cdot\\cos4x\\cdot4"
+    },
+    {
+     "text": "Option D).",
+     "latex": "- \\frac{4 \\cos{\\left(4 x \\right)}}{\\sin^{2}{\\left(4 x \\right)}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p41-Q12-1": {
+   "steps": [
+    {
+     "text": "Product Rule: (w²)′·sec²3w + w²·(sec²3w)′.",
+     "latex": "2w\\sec^23w+w^2\\cdot\\dfrac{d}{dw}\\sec^23w"
+    },
+    {
+     "text": "Chain Rule: (sec²u)′ = 2 sec u · sec u tan u · u′ with u = 3w.",
+     "latex": "\\dfrac{d}{dw}\\sec^23w=2\\sec3w\\cdot\\sec3w\\tan3w\\cdot3=6\\sec^23w\\tan3w"
+    },
+    {
+     "text": "Option A).",
+     "latex": "6 w^{2} \\tan{\\left(3 w \\right)} \\sec^{2}{\\left(3 w \\right)} + 2 w \\sec^{2}{\\left(3 w \\right)}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p42-Q14-1": {
+   "steps": [
+    {
+     "text": "Factor out 4 and use sin²θ + cos²θ = 1.",
+     "latex": "f(x)=4(\\sin^23x+\\cos^23x)=4"
+    },
+    {
+     "text": "The derivative of a constant is 0.",
+     "latex": "f\\prime(x)=0"
+    },
+    {
+     "text": "Option B).",
+     "latex": "0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p42-Q15-1": {
+   "steps": [
+    {
+     "text": "Chain Rule.",
+     "latex": "\\dfrac{d}{dx}f(u(x))=f\\prime(u(x))\\,u\\prime(x)"
+    },
+    {
+     "text": "Outer tan u → sec²u; inner √(x²+1) → x/√(x²+1).",
+     "latex": "f\\prime(x)=\\sec^2\\!\\left(\\sqrt{x^2+1}\\right)\\cdot\\dfrac{2x}{2\\sqrt{x^2+1}}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\frac{x \\sec^{2}{\\left(\\sqrt{x^{2} + 1} \\right)}}{\\sqrt{x^{2} + 1}}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

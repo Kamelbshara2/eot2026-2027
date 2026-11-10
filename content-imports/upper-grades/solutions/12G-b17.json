@@ -1,0 +1,244 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q095": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (0 for any missing power).",
+     "latex": "\\left(3 x^{3} - 8 x^{2} + 11 x - 14\\right)\\div\\left(x - 2\\right)"
+    },
+    {
+     "text": "Synthetic division with the zero of the divisor, x = 2: bring down, multiply by 2, add.",
+     "latex": "2\\ \\big|\\ 3\\ \\ -8\\ \\ 11\\ \\ -14\\ \\Rightarrow\\ 3\\ \\ -2\\ \\ 7\\ \\ 0"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q=3 x^{2} - 2 x + 7,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x - 2\\right)\\left(3 x^{2} - 2 x + 7\\right)+0=3 x^{3} - 8 x^{2} + 11 x - 14"
+    },
+    {
+     "text": "Option A.",
+     "latex": "3 x^{2} - 2 x + 7"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q096": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (0 for any missing power).",
+     "latex": "\\left(6 b^{3} - 8 b^{2} + 12 b - 14\\right)\\div\\left(b - 2\\right)"
+    },
+    {
+     "text": "Synthetic division with the zero of the divisor, b = 2: bring down, multiply by 2, add.",
+     "latex": "2\\ \\big|\\ 6\\ \\ -8\\ \\ 12\\ \\ -14\\ \\Rightarrow\\ 6\\ \\ 4\\ \\ 20\\ \\ 26"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q=6 b^{2} + 4 b + 20,\\qquad r=26"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(b - 2\\right)\\left(6 b^{2} + 4 b + 20\\right)+26=6 b^{3} - 8 b^{2} + 12 b - 14"
+    },
+    {
+     "text": "Option A.",
+     "latex": "6 b^{2} + 4 b + 20+\\dfrac{26}{b-2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p32-34-1": {
+   "steps": [
+    {
+     "text": "Isolate x³.",
+     "latex": "x^3=-216"
+    },
+    {
+     "text": "Take the real cube root (a cube root of a negative number is negative).",
+     "latex": "x=\\sqrt[3]{-216}=-6"
+    },
+    {
+     "text": "Check.",
+     "latex": "0=0"
+    },
+    {
+     "text": "Option a).",
+     "latex": "x=-6"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p33-35-1": {
+   "steps": [
+    {
+     "text": "Isolate x³.",
+     "latex": "x^3=- \\frac{1}{64}"
+    },
+    {
+     "text": "Take the real cube root (a cube root of a negative number is negative).",
+     "latex": "x=\\sqrt[3]{- \\frac{1}{64}}=- \\frac{1}{4}"
+    },
+    {
+     "text": "Check.",
+     "latex": "0=0"
+    },
+    {
+     "text": "Option b).",
+     "latex": "x=- \\frac{1}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p33-43-1": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "20 u^{2} - 53 u + 18=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "\\left(4 u - 9\\right) \\left(5 u - 2\\right)=0\\ \\Rightarrow\\ u=\\frac{2}{5},\\ \\frac{9}{4}"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{\\sqrt{10}}{5},\\quad x=\\pm\\frac{3}{2}"
+    },
+    {
+     "text": "Option a).",
+     "latex": "- \\frac{3}{2},\\ - \\frac{\\sqrt{10}}{5},\\ \\frac{\\sqrt{10}}{5},\\ \\frac{3}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p33-44-1": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "4 u^{2} - 14 u + 12=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "2 \\left(u - 2\\right) \\left(2 u - 3\\right)=0\\ \\Rightarrow\\ u=\\frac{3}{2},\\ 2"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{\\sqrt{6}}{2},\\quad x=\\pm\\sqrt{2}"
+    },
+    {
+     "text": "Option b).",
+     "latex": "- \\sqrt{2},\\ - \\frac{\\sqrt{6}}{2},\\ \\frac{\\sqrt{6}}{2},\\ \\sqrt{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p33-45-1": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "8 u^{2} - 18 u + 4=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "2 \\left(u - 2\\right) \\left(4 u - 1\\right)=0\\ \\Rightarrow\\ u=\\frac{1}{4},\\ 2"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{1}{2},\\quad x=\\pm\\sqrt{2}"
+    },
+    {
+     "text": "Option c).",
+     "latex": "- \\sqrt{2},\\ - \\frac{1}{2},\\ \\frac{1}{2},\\ \\sqrt{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q097": {
+   "steps": [
+    {
+     "text": "Isolate x³.",
+     "latex": "x^3=-216"
+    },
+    {
+     "text": "Take the real cube root (a cube root of a negative number is negative).",
+     "latex": "x=\\sqrt[3]{-216}=-6"
+    },
+    {
+     "text": "Check.",
+     "latex": "0=0"
+    },
+    {
+     "text": "Option A.",
+     "latex": "x=-6"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q098": {
+   "steps": [
+    {
+     "text": "Isolate x³.",
+     "latex": "x^3=- \\frac{1}{64}"
+    },
+    {
+     "text": "Take the real cube root (a cube root of a negative number is negative).",
+     "latex": "x=\\sqrt[3]{- \\frac{1}{64}}=- \\frac{1}{4}"
+    },
+    {
+     "text": "Check.",
+     "latex": "0=0"
+    },
+    {
+     "text": "Option A.",
+     "latex": "x=- \\frac{1}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q099": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "20 u^{2} - 53 u + 18=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "\\left(4 u - 9\\right) \\left(5 u - 2\\right)=0\\ \\Rightarrow\\ u=\\frac{2}{5},\\ \\frac{9}{4}"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{\\sqrt{10}}{5},\\quad x=\\pm\\frac{3}{2}"
+    },
+    {
+     "text": "Option B.",
+     "latex": "- \\frac{3}{2},\\ - \\frac{\\sqrt{10}}{5},\\ \\frac{\\sqrt{10}}{5},\\ \\frac{3}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q100": {
+   "steps": [
+    {
+     "text": "The equation is quadratic in x²: substitute u = x².",
+     "latex": "8 u^{2} - 18 u + 4=0"
+    },
+    {
+     "text": "Factor (or use the quadratic formula).",
+     "latex": "2 \\left(u - 2\\right) \\left(4 u - 1\\right)=0\\ \\Rightarrow\\ u=\\frac{1}{4},\\ 2"
+    },
+    {
+     "text": "Return to x: x² = u, so x = ±√u (only u ≥ 0 gives real x).",
+     "latex": "x=\\pm\\frac{1}{2},\\quad x=\\pm\\sqrt{2}"
+    },
+    {
+     "text": "Option A.",
+     "latex": "- \\sqrt{2},\\ - \\frac{1}{2},\\ \\frac{1}{2},\\ \\sqrt{2}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

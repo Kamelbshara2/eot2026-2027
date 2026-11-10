@@ -1,0 +1,277 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-p42-Q3-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Two existing groups (took physics / did not) are compared; nobody is assigned to take the course.",
+     "latex": "\\text{Observational study: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Observational study: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p43-Q5-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "People answer a mailed questionnaire.",
+     "latex": "\\text{Survey: a)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Survey: a)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p43-Q6-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "The team shows the uniforms and only observes and records reactions; no treatment groups are compared.",
+     "latex": "\\text{Observational study: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Observational study: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p44-Q7-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Customers are asked to give feedback.",
+     "latex": "\\text{Survey: a)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Survey: a)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p44-Q8-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Existing groups (founded the business or not) are compared without assigning anything.",
+     "latex": "\\text{Observational study: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Observational study: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p45-Q10-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "A questionnaire is mailed to randomly selected people.",
+     "latex": "\\text{Survey: a)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Survey: a)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p45-Q1-1": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "Only the engineer applies a test condition to samples and compares the new alloy with another: that is an experiment. a) and d) ask questions (surveys), b) only observes.",
+     "latex": "\\text{Experiment: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Experiment: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q117": {
+   "steps": [
+    {
+     "text": "Survey: data come from asking questions. Observational study: subjects are observed or measured; no treatment is assigned. Experiment: the researcher applies a treatment or condition and compares results.",
+     "latex": "\\text{who assigns a treatment?}"
+    },
+    {
+     "text": "The teens are asked questions about their jobs.",
+     "latex": "\\text{Survey: A}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Survey: A}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p46-Q1-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "“Don’t you agree that reading is the best way…” pushes the respondent to agree.",
+     "latex": "\\text{Biased: b)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Biased: b)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p46-Q2-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "a) and b) lead the respondent; d) uses loaded words (harmful, healthy). “How much do you exercise?” is neutral.",
+     "latex": "\\text{Unbiased: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p46-Q1-2": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "a) and c) lead the respondent, b) uses loaded words (exciting, boring). The pizza question is neutral.",
+     "latex": "\\text{Unbiased: d)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: d)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p47-Q2-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "“Barcelona or Real Madrid?” allows only two teams, so other favourites cannot be given.",
+     "latex": "\\text{Biased: d)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Biased: d)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p47-Q3-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "a) uses the loaded word “poisons”, b) assumes an answer, d) asks two things at once. “What is your favorite type of music?” is neutral.",
+     "latex": "\\text{Unbiased: c)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: c)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p47-Q4-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "a) is loaded, c) limits the choices, d) leads the respondent. “How long have you lived at your current address?” is neutral.",
+     "latex": "\\text{Unbiased: b)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: b)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p47-Q5-1": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "a) limits the choices, b) asks two things at once, c) leads the respondent. d) is neutral.",
+     "latex": "\\text{Unbiased: d)}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: d)}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q122": {
+   "steps": [
+    {
+     "text": "A survey question is biased when it leads the respondent (“Don’t you agree…”, loaded words such as harmful, boring, delicious), forces a choice between only some answers, or asks two things at once. An unbiased question is neutral and open.",
+     "latex": "\\text{neutral wording, one question, open choice}"
+    },
+    {
+     "text": "A samples only museum visitors for a city-wide question (biased sample); B asks two things; D uses loaded words (plain / delicious). C asks a random sample of campers about the campers.",
+     "latex": "\\text{Unbiased: C}"
+    },
+    {
+     "text": "Answer.",
+     "latex": "\\text{Unbiased: C}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

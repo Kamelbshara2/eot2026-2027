@@ -1,0 +1,633 @@
+{
+ "class": "11A",
+ "items": {
+  "11A-Q23-example": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{\\left(x + 1\\right)^{2}}{x + 4}"
+      },
+      {
+       "text": "Zeros: set the (simplified) numerator equal to 0. A value is a zero only if it is in the domain.",
+       "latex": "\\left(x + 1\\right)^{2}=0\\ \\Rightarrow\\ x=-1"
+      },
+      {
+       "text": "x = -1 comes from a squared factor (even multiplicity): the graph touches the x-axis there without crossing.",
+       "latex": "(x + 1)^{2}"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{1}{4}=\\frac{1}{4}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x + 4=0\\ \\Rightarrow\\ x=-4"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne -4\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = -4 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=-4"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{2}}{x}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{2} + 2 x + 1}{x + 4}=x - 2+\\dfrac{9}{x + 4}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x + 4\\right)\\left(x - 2\\right)+9=x^{2} + 2 x + 1"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x - 2"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = -4: test values on each side.",
+       "latex": "x\\to -4^-:\\ f(x)\\to-\\infty,\\qquad x\\to -4^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-11": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{\\left(x - 4\\right)^{2}}{x + 2}"
+      },
+      {
+       "text": "Zeros: set the (simplified) numerator equal to 0. A value is a zero only if it is in the domain.",
+       "latex": "\\left(x - 4\\right)^{2}=0\\ \\Rightarrow\\ x=4"
+      },
+      {
+       "text": "x = 4 comes from a squared factor (even multiplicity): the graph touches the x-axis there without crossing.",
+       "latex": "(x - 4)^{2}"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{16}{2}=8"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x + 2=0\\ \\Rightarrow\\ x=-2"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne -2\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = -2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=-2"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{2}}{x}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{2} - 8 x + 16}{x + 2}=x - 10+\\dfrac{36}{x + 2}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x + 2\\right)\\left(x - 10\\right)+36=x^{2} - 8 x + 16"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x - 10"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = -2: test values on each side.",
+       "latex": "x\\to -2^-:\\ f(x)\\to-\\infty,\\qquad x\\to -2^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-12": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{\\left(x + 3\\right)^{2}}{x - 5}"
+      },
+      {
+       "text": "Zeros: set the (simplified) numerator equal to 0. A value is a zero only if it is in the domain.",
+       "latex": "\\left(x + 3\\right)^{2}=0\\ \\Rightarrow\\ x=-3"
+      },
+      {
+       "text": "x = -3 comes from a squared factor (even multiplicity): the graph touches the x-axis there without crossing.",
+       "latex": "(x + 3)^{2}"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{9}{-5}=- \\frac{9}{5}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x - 5=0\\ \\Rightarrow\\ x=5"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne 5\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = 5 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=5"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{x^{2}}{x}=x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{x^{2} + 6 x + 9}{x - 5}=x + 11+\\dfrac{64}{x - 5}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x - 5\\right)\\left(x + 11\\right)+64=x^{2} + 6 x + 9"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=x + 11"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = 5: test values on each side.",
+       "latex": "x\\to 5^-:\\ f(x)\\to-\\infty,\\qquad x\\to 5^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-13": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{2 \\left(3 x^{2} + 2 x + 1\\right)}{x + 2}"
+      },
+      {
+       "text": "Zeros: set the numerator equal to 0.",
+       "latex": "6 x^{2} + 4 x + 2=0"
+      },
+      {
+       "text": "The discriminant is negative, so the numerator has no real roots: f has no real zeros (no x-intercepts).",
+       "latex": "b^2-4ac=-32<0"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{2}{2}=1"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x + 2=0\\ \\Rightarrow\\ x=-2"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne -2\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = -2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=-2"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{6 x^{2}}{x}=6 x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{6 x^{2} + 4 x + 2}{x + 2}=6 x - 8+\\dfrac{18}{x + 2}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x + 2\\right)\\left(6 x - 8\\right)+18=6 x^{2} + 4 x + 2"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=6 x - 8"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = -2: test values on each side.",
+       "latex": "x\\to -2^-:\\ f(x)\\to-\\infty,\\qquad x\\to -2^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-14": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{x \\left(2 x + 7\\right)}{x - 2}"
+      },
+      {
+       "text": "Zeros: set the (simplified) numerator equal to 0. A value is a zero only if it is in the domain.",
+       "latex": "x \\left(2 x + 7\\right)=0\\ \\Rightarrow\\ x=- \\frac{7}{2},\\ 0"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{0}{-2}=0"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "x - 2=0\\ \\Rightarrow\\ x=2"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne 2\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = 2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=2"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{2 x^{2}}{x}=2 x"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{2 x^{2} + 7 x}{x - 2}=2 x + 11+\\dfrac{22}{x - 2}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(x - 2\\right)\\left(2 x + 11\\right)+22=2 x^{2} + 7 x"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=2 x + 11"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = 2: test values on each side.",
+       "latex": "x\\to 2^-:\\ f(x)\\to-\\infty,\\qquad x\\to 2^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-15": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{3 x^{2} + 8}{2 x - 1}"
+      },
+      {
+       "text": "Zeros: set the numerator equal to 0.",
+       "latex": "3 x^{2} + 8=0"
+      },
+      {
+       "text": "The discriminant is negative, so the numerator has no real roots: f has no real zeros (no x-intercepts).",
+       "latex": "b^2-4ac=-96<0"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{8}{-1}=-8"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "2 x - 1=0\\ \\Rightarrow\\ x=\\frac{1}{2}"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne \\frac{1}{2}\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = 1/2 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=\\frac{1}{2}"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{3 x^{2}}{2 x}=\\frac{3 x}{2}"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{3 x^{2} + 8}{2 x - 1}=\\frac{3 x}{2} + \\frac{3}{4}+\\dfrac{\\frac{35}{4}}{2 x - 1}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(2 x - 1\\right)\\left(\\frac{3 x}{2} + \\frac{3}{4}\\right)+\\frac{35}{4}=3 x^{2} + 8"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=\\frac{3 x}{2} + \\frac{3}{4}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = 1/2: test values on each side.",
+       "latex": "x\\to \\frac{1}{2}^-:\\ f(x)\\to-\\infty,\\qquad x\\to \\frac{1}{2}^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-16": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{2 x^{2} + 5}{3 x + 4}"
+      },
+      {
+       "text": "Zeros: set the numerator equal to 0.",
+       "latex": "2 x^{2} + 5=0"
+      },
+      {
+       "text": "The discriminant is negative, so the numerator has no real roots: f has no real zeros (no x-intercepts).",
+       "latex": "b^2-4ac=-40<0"
+      },
+      {
+       "text": "y-intercept: substitute x = 0.",
+       "latex": "f(0)=\\dfrac{5}{4}=\\frac{5}{4}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "3 x + 4=0\\ \\Rightarrow\\ x=- \\frac{4}{3}"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne - \\frac{4}{3}\\}"
+      },
+      {
+       "text": "No factor is common to the numerator and denominator, so there is no hole.",
+       "latex": "\\text{no hole}"
+      },
+      {
+       "text": "x = −4/3 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=- \\frac{4}{3}"
+      },
+      {
+       "text": "The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.",
+       "latex": "\\deg N=2,\\quad \\deg D=1"
+      },
+      {
+       "text": "Divide the leading terms, multiply back, subtract; repeat.",
+       "latex": "\\dfrac{2 x^{2}}{3 x}=\\frac{2 x}{3}"
+      },
+      {
+       "text": "Result of the division (quotient + remainder/divisor).",
+       "latex": "\\dfrac{2 x^{2} + 5}{3 x + 4}=\\frac{2 x}{3} - \\frac{8}{9}+\\dfrac{\\frac{77}{9}}{3 x + 4}"
+      },
+      {
+       "text": "Check: divisor × quotient + remainder gives back the numerator.",
+       "latex": "\\left(3 x + 4\\right)\\left(\\frac{2 x}{3} - \\frac{8}{9}\\right)+\\frac{77}{9}=2 x^{2} + 5"
+      },
+      {
+       "text": "As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.",
+       "latex": "\\text{Oblique asymptote: }y=\\frac{2 x}{3} - \\frac{8}{9}"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts.",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = −4/3: test values on each side.",
+       "latex": "x\\to - \\frac{4}{3}^-:\\ f(x)\\to-\\infty,\\qquad x\\to - \\frac{4}{3}^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  },
+  "11A-Q23-hole": {
+   "parts": {
+    "a": {
+     "steps": [
+      {
+       "text": "Factor the numerator and the denominator completely.",
+       "latex": "f(x)=\\dfrac{\\left(x - 6\\right) \\left(x + 4\\right)}{2 x \\left(x - 1\\right) \\left(x + 4\\right)}"
+      },
+      {
+       "text": "The denominator cannot be zero: solve D(x) = 0 to find the excluded values.",
+       "latex": "2 x \\left(x - 1\\right) \\left(x + 4\\right)=0\\ \\Rightarrow\\ x=-4,\\ 0,\\ 1"
+      },
+      {
+       "text": "Domain.",
+       "latex": "\\{x\\in\\mathbb{R}\\mid x\\ne -4,\\ x\\ne 0,\\ x\\ne 1\\}"
+      },
+      {
+       "text": "The factor (x + 4) cancels, so x = -4 is a hole, not an asymptote. Its y-value comes from the simplified function.",
+       "latex": "f(x)=\\dfrac{x - 6}{2 x \\left(x - 1\\right)},\\quad x\\ne-4;\\qquad y=\\dfrac{-10}{40}=- \\frac{1}{4}"
+      }
+     ]
+    },
+    "b": {
+     "steps": [
+      {
+       "text": "Zeros: set the (simplified) numerator equal to 0. A value is a zero only if it is in the domain.",
+       "latex": "x - 6=0\\ \\Rightarrow\\ x=6"
+      },
+      {
+       "text": "x = 0 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=0"
+      },
+      {
+       "text": "x = 1 makes the denominator zero but not the numerator: vertical asymptote.",
+       "latex": "x=1"
+      },
+      {
+       "text": "The degree of the numerator is less than the degree of the denominator: horizontal asymptote y = 0.",
+       "latex": "y=0"
+      }
+     ]
+    },
+    "c": {
+     "steps": [
+      {
+       "text": "Draw the asymptotes as dashed lines, mark the intercepts and the hole (open circle).",
+       "latex": "\\text{dashed asymptotes}"
+      },
+      {
+       "text": "Behaviour next to x = 0: test values on each side.",
+       "latex": "x\\to 0^-:\\ f(x)\\to-\\infty,\\qquad x\\to 0^+:\\ f(x)\\to\\infty"
+      },
+      {
+       "text": "Behaviour next to x = 1: test values on each side.",
+       "latex": "x\\to 1^-:\\ f(x)\\to\\infty,\\qquad x\\to 1^+:\\ f(x)\\to-\\infty"
+      },
+      {
+       "text": "Plot a few points (TABLE on the calculator helps) on both sides of each vertical asymptote and join them, following the asymptotes.",
+       "latex": "\\text{one branch on each side of each vertical asymptote}"
+      }
+     ]
+    }
+   },
+   "verified": true
+  }
+ }
+}

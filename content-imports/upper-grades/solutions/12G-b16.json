@@ -1,0 +1,214 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q086": {
+   "steps": [
+    {
+     "text": "A factor to the power −1 means dividing by it.",
+     "latex": "(4f^5-6f^4+12f^3-8f^2)(4f^2)^{-1}=\\dfrac{4f^5-6f^4+12f^3-8f^2}{4f^2}"
+    },
+    {
+     "text": "Term by term.",
+     "latex": "\\dfrac{- 8 f^{2}}{4 f^{2}}=-2,\\quad \\dfrac{- 6 f^{4}}{4 f^{2}}=- \\frac{3 f^{2}}{2},\\quad \\dfrac{4 f^{5}}{4 f^{2}}=f^{3},\\quad \\dfrac{12 f^{3}}{4 f^{2}}=3 f"
+    },
+    {
+     "text": "Option C.",
+     "latex": "f^{3} - \\frac{3 f^{2}}{2} + 3 f - 2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q087": {
+   "steps": [
+    {
+     "text": "Divide every term of the numerator by the divisor (subtract exponents of equal bases).",
+     "latex": "\\dfrac{6 j^{2} k - 9 j k^{2}}{3 j k}"
+    },
+    {
+     "text": "Term by term.",
+     "latex": "\\dfrac{- 9 j k^{2}}{3 j k}=- 3 k,\\quad \\dfrac{6 j^{2} k}{3 j k}=2 j"
+    },
+    {
+     "text": "Option D.",
+     "latex": "2 j - 3 k"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q088": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(x^{3} + 2 x^{2} - 5 x - 6\\right)\\div\\left(x + 3\\right)"
+    },
+    {
+     "text": "Divide the leading term of the dividend by the leading term of the divisor, multiply back and subtract; repeat with the remainder.",
+     "latex": "\\dfrac{x^{3}}{x}=x^{2}"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(x)=x^{2} - x - 2,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x + 3\\right)\\left(x^{2} - x - 2\\right)+0=x^{3} + 2 x^{2} - 5 x - 6"
+    },
+    {
+     "text": "Option A.",
+     "latex": "x^{2} - x - 2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q089": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(3 v^{2} - 7 v - 10\\right)\\div\\left(v - 4\\right)"
+    },
+    {
+     "text": "Divide the leading term of the dividend by the leading term of the divisor, multiply back and subtract; repeat with the remainder.",
+     "latex": "\\dfrac{3 v^{2}}{v}=3 v"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(v)=3 v + 5,\\qquad r=10"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(v - 4\\right)\\left(3 v + 5\\right)+10=3 v^{2} - 7 v - 10"
+    },
+    {
+     "text": "Option C.",
+     "latex": "3 v + 5+\\dfrac{10}{v - 4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q090": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(4 t^{4} + 4 t^{3} - 32 t^{2} - 5 t - 20\\right)\\div\\left(t + 4\\right)"
+    },
+    {
+     "text": "Synthetic division uses the zero of the divisor, t = -4. Bring down, multiply by -4, add.",
+     "latex": "-4\\ \\big|\\ 4\\ \\ 4\\ \\ -32\\ \\ -5\\ \\ -20\\ \\Rightarrow\\ 4\\ \\ -12\\ \\ 16\\ \\ -69\\ \\ 256"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(t)=4 t^{3} - 12 t^{2} + 16 t - 69,\\qquad r=256"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(t + 4\\right)\\left(4 t^{3} - 12 t^{2} + 16 t - 69\\right)+256=4 t^{4} + 4 t^{3} - 32 t^{2} - 5 t - 20"
+    },
+    {
+     "text": "Option B.",
+     "latex": "4 t^{3} - 12 t^{2} + 16 t - 69+\\dfrac{256}{t + 4}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q091": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(6 x^{3} + x^{2} + x\\right)\\div\\left(2 x + 1\\right)"
+    },
+    {
+     "text": "Divide the leading term of the dividend by the leading term of the divisor, multiply back and subtract; repeat with the remainder.",
+     "latex": "\\dfrac{6 x^{3}}{2 x}=3 x^{2}"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(x)=3 x^{2} - x + 1,\\qquad r=-1"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(2 x + 1\\right)\\left(3 x^{2} - x + 1\\right)+-1=6 x^{3} + x^{2} + x"
+    },
+    {
+     "text": "Option A.",
+     "latex": "3 x^{2} - x + 1-\\dfrac{1}{2 x + 1}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q092": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(4 p^{3} - p^{2} + 2 p\\right)\\div\\left(3 p - 1\\right)"
+    },
+    {
+     "text": "Divide the leading term of the dividend by the leading term of the divisor, multiply back and subtract; repeat with the remainder.",
+     "latex": "\\dfrac{4 p^{3}}{3 p}=\\frac{4 p^{2}}{3}"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(p)=\\frac{4 p^{2}}{3} + \\frac{p}{9} + \\frac{19}{27},\\qquad r=\\frac{19}{27}"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(3 p - 1\\right)\\left(\\frac{4 p^{2}}{3} + \\frac{p}{9} + \\frac{19}{27}\\right)+\\frac{19}{27}=4 p^{3} - p^{2} + 2 p"
+    },
+    {
+     "text": "Option D.",
+     "latex": "\\frac{4 p^{2}}{3} + \\frac{p}{9} + \\frac{19}{27}+\\dfrac{\\frac{19}{27}}{3 p - 1}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q093": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(n^{3} + 3 n^{2} - 5 n - 4\\right)\\div\\left(n + 4\\right)"
+    },
+    {
+     "text": "Synthetic division uses the zero of the divisor, n = -4. Bring down, multiply by -4, add.",
+     "latex": "-4\\ \\big|\\ 1\\ \\ 3\\ \\ -5\\ \\ -4\\ \\Rightarrow\\ 1\\ \\ -1\\ \\ -1\\ \\ 0"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(n)=n^{2} - n - 1,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(n + 4\\right)\\left(n^{2} - n - 1\\right)+0=n^{3} + 3 n^{2} - 5 n - 4"
+    },
+    {
+     "text": "Option B.",
+     "latex": "n^{2} - n - 1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q094": {
+   "steps": [
+    {
+     "text": "Write the dividend in descending powers (insert 0 for any missing power).",
+     "latex": "\\left(2 x^{3} - 13 x^{2} + 26 x - 24\\right)\\div\\left(x - 4\\right)"
+    },
+    {
+     "text": "Synthetic division uses the zero of the divisor, x = 4. Bring down, multiply by 4, add.",
+     "latex": "4\\ \\big|\\ 2\\ \\ -13\\ \\ 26\\ \\ -24\\ \\Rightarrow\\ 2\\ \\ -5\\ \\ 6\\ \\ 0"
+    },
+    {
+     "text": "Quotient and remainder.",
+     "latex": "q(x)=2 x^{2} - 5 x + 6,\\qquad r=0"
+    },
+    {
+     "text": "Check: divisor × quotient + remainder = dividend.",
+     "latex": "\\left(x - 4\\right)\\left(2 x^{2} - 5 x + 6\\right)+0=2 x^{3} - 13 x^{2} + 26 x - 24"
+    },
+    {
+     "text": "Option A.",
+     "latex": "2 x^{2} - 5 x + 6"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

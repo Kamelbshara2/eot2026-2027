@@ -1,0 +1,357 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p26-Q1-1": {
+   "steps": [
+    {
+     "text": "Differentiable at x = 2 needs continuity and equal left/right slopes.",
+     "latex": "f\\prime(2^-)=f\\prime(2^+)"
+    },
+    {
+     "text": "In A: both pieces give 4 at x = 2 (continuous), but the left slope is 0 (constant 4) and the right slope is 2 (from 2x).",
+     "latex": "0\\ne2"
+    },
+    {
+     "text": "B, C (= (x − 2)²) and D are smooth at x = 2. Option A.",
+     "latex": "\\text{A has a corner at }x=2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p26-Q2-1": {
+   "steps": [
+    {
+     "text": "Check continuity and equal one-sided slopes at x = 0.",
+     "latex": "f\\prime(0^-)=f\\prime(0^+)"
+    },
+    {
+     "text": "A: 3x → 0 and x² + 3x → 0 (continuous); slopes 3 and 2x + 3 = 3 at 0: equal.",
+     "latex": "3=3"
+    },
+    {
+     "text": "B and D jump at 0; C is continuous but its slopes are 2 and 3. Option A.",
+     "latex": "\\text{A}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p27-Q7-1": {
+   "steps": [
+    {
+     "text": "Rewrite the root as a power.",
+     "latex": "h(x)=10x^{-1/3}-2x+\\pi"
+    },
+    {
+     "text": "Power Rule term by term (the derivative of the constant π is 0).",
+     "latex": "h\\prime(x)=10\\cdot\\left(-\\tfrac13\\right)x^{-4/3}-2"
+    },
+    {
+     "text": "Option A).",
+     "latex": "-2 - \\frac{10}{3 x^{\\frac{4}{3}}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p27-Q8-1": {
+   "steps": [
+    {
+     "text": "Rewrite.",
+     "latex": "h(x)=12x-x^2-3x^{-2/3}"
+    },
+    {
+     "text": "Power Rule.",
+     "latex": "h\\prime(x)=12-2x-3\\left(-\\tfrac23\\right)x^{-5/3}=12-2x+2x^{-5/3}"
+    },
+    {
+     "text": "x^(5/3) = x·∛(x²).",
+     "latex": "2x^{-5/3}=\\dfrac{2}{x\\sqrt[3]{x^2}}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "- 2 x + 12 + \\frac{2}{x^{\\frac{5}{3}}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p28-Q9-1": {
+   "steps": [
+    {
+     "text": "Power Rule term by term.",
+     "latex": "\\tfrac32\\cdot2s^{1/2}-3\\cdot\\left(-\\tfrac13\\right)s^{-4/3}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "3 \\sqrt{s} + \\frac{1}{s^{\\frac{4}{3}}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p28-Q11-1": {
+   "steps": [
+    {
+     "text": "Divide each term by 2x first.",
+     "latex": "f(x)=\\tfrac32x-\\tfrac32+\\tfrac12x^{-1}"
+    },
+    {
+     "text": "Power Rule.",
+     "latex": "f\\prime(x)=\\tfrac32-\\tfrac12x^{-2}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{3}{2} - \\frac{1}{2 x^{2}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p29-Q13-1": {
+   "steps": [
+    {
+     "text": "Expand.",
+     "latex": "f(x)=3x^3-x^{3/2}"
+    },
+    {
+     "text": "Power Rule.",
+     "latex": "f\\prime(x)=9x^2-\\tfrac32x^{1/2}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "- \\frac{3 \\sqrt{x}}{2} + 9 x^{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p29-Q14-1": {
+   "steps": [
+    {
+     "text": "Product Rule (or expand first).",
+     "latex": "f\\prime=(1)(3x^2-4)+(x+1)(6x)"
+    },
+    {
+     "text": "Simplify.",
+     "latex": "3x^2-4+6x^2+6x"
+    },
+    {
+     "text": "Option A).",
+     "latex": "9 x^{2} + 6 x - 4"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p30-Q21a-1": {
+   "steps": [
+    {
+     "text": "Given values.",
+     "latex": "f(0)=-1,\\ f(1)=-2,\\ f\\prime(0)=-1,\\ f\\prime(1)=3,\\ g(0)=3,\\ g(1)=1,\\ g\\prime(0)=-1,\\ g\\prime(1)=-2"
+    },
+    {
+     "text": "Product Rule.",
+     "latex": "(fg)\\prime=f\\prime g+fg\\prime"
+    },
+    {
+     "text": "At x = 0.",
+     "latex": "h\\prime(0)=(-1)(3)+(-1)(-1)=-3+1=-2"
+    },
+    {
+     "text": "Option B).",
+     "latex": "-2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p30-Q21b-1": {
+   "steps": [
+    {
+     "text": "Given values.",
+     "latex": "f(0)=-1,\\ f(1)=-2,\\ f\\prime(0)=-1,\\ f\\prime(1)=3,\\ g(0)=3,\\ g(1)=1,\\ g\\prime(0)=-1,\\ g\\prime(1)=-2"
+    },
+    {
+     "text": "Product Rule.",
+     "latex": "(fg)\\prime=f\\prime g+fg\\prime"
+    },
+    {
+     "text": "At x = 1.",
+     "latex": "h\\prime(1)=(3)(1)+(-2)(-2)=3+4=7"
+    },
+    {
+     "text": "Option B).",
+     "latex": "7"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p31-Q21c-1": {
+   "steps": [
+    {
+     "text": "Product Rule.",
+     "latex": "(fg)\\prime=f\\prime g+fg\\prime"
+    },
+    {
+     "text": "h(0) = f(0)g(0) and h′(0) from the Product Rule.",
+     "latex": "h(0)=(-1)(3)=-3,\\quad h\\prime(0)=-2"
+    },
+    {
+     "text": "Tangent line at x = a.",
+     "latex": "y-h(a)=h\\prime(a)(x-a)"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "y+3=-2x\\Rightarrow y=-2x-3"
+    },
+    {
+     "text": "Option A).",
+     "latex": "y=-2x-3"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p31-Q22a-1": {
+   "steps": [
+    {
+     "text": "Given values.",
+     "latex": "f(0)=-1,\\ f(1)=-2,\\ f\\prime(0)=-1,\\ f\\prime(1)=3,\\ g(0)=3,\\ g(1)=1,\\ g\\prime(0)=-1,\\ g\\prime(1)=-2"
+    },
+    {
+     "text": "Quotient Rule.",
+     "latex": "\\left(\\dfrac fg\\right)\\prime=\\dfrac{f\\prime g-fg\\prime}{g^2}"
+    },
+    {
+     "text": "At x = 0.",
+     "latex": "h\\prime(0)=\\dfrac{(-1)(3)-(-1)(-1)}{3^2}=\\dfrac{-4}{9}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "-\\dfrac49"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p31-Q22b-1": {
+   "steps": [
+    {
+     "text": "Quotient Rule.",
+     "latex": "\\left(\\dfrac fg\\right)\\prime=\\dfrac{f\\prime g-fg\\prime}{g^2}"
+    },
+    {
+     "text": "At x = 1.",
+     "latex": "h\\prime(1)=\\dfrac{(3)(1)-(-2)(-2)}{1^2}=3-4=-1"
+    },
+    {
+     "text": "Option A).",
+     "latex": "-1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p32-Q22c-1": {
+   "steps": [
+    {
+     "text": "h(1) = f(1)/g(1) and h′(1) from the Quotient Rule.",
+     "latex": "h(1)=\\dfrac{-2}{1}=-2,\\quad h\\prime(1)=-1"
+    },
+    {
+     "text": "Tangent line at x = a.",
+     "latex": "y-h(a)=h\\prime(a)(x-a)"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "y+2=-(x-1)\\Rightarrow y=-x-1"
+    },
+    {
+     "text": "Option A).",
+     "latex": "y=-x-1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p32-Q23a-1": {
+   "steps": [
+    {
+     "text": "Product Rule with x² and f(x).",
+     "latex": "h\\prime(x)=2xf(x)+x^2f\\prime(x)"
+    },
+    {
+     "text": "At x = 0 both terms contain a factor 0.",
+     "latex": "h\\prime(0)=0+0=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p32-Q23b-1": {
+   "steps": [
+    {
+     "text": "Product Rule.",
+     "latex": "h\\prime(x)=2xf(x)+x^2f\\prime(x)"
+    },
+    {
+     "text": "At x = 1.",
+     "latex": "h\\prime(1)=2(1)(-2)+(1)(3)=-4+3=-1"
+    },
+    {
+     "text": "Option B).",
+     "latex": "-1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p33-Q23c-1": {
+   "steps": [
+    {
+     "text": "h(1) = 1²·f(1) and h′(1).",
+     "latex": "h(1)=-2,\\quad h\\prime(1)=-1"
+    },
+    {
+     "text": "Tangent line at x = a.",
+     "latex": "y-h(a)=h\\prime(a)(x-a)"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "y+2=-(x-1)\\Rightarrow y=-x-1"
+    },
+    {
+     "text": "Option A).",
+     "latex": "y=-x-1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p33-Q24a-1": {
+   "steps": [
+    {
+     "text": "Quotient Rule.",
+     "latex": "h\\prime(x)=\\dfrac{2x\\,g(x)-x^2g\\prime(x)}{g(x)^2}"
+    },
+    {
+     "text": "At x = 0 the numerator is 0.",
+     "latex": "h\\prime(0)=\\dfrac{0-0}{9}=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p33-Q24b-1": {
+   "steps": [
+    {
+     "text": "Quotient Rule.",
+     "latex": "h\\prime(x)=\\dfrac{2x\\,g(x)-x^2g\\prime(x)}{g(x)^2}"
+    },
+    {
+     "text": "The card asks for a = 0: the numerator is 0.",
+     "latex": "h\\prime(0)=0"
+    },
+    {
+     "text": "Option B). (For a = 1 the value would be 4.)",
+     "latex": "0"
+    }
+   ],
+   "verified": true,
+   "note": "As printed the card asks for a = 0 again (same as Q24a), so the answer is 0. If a = 1 was intended the answer would be (2·1·1 − 1·(−2))/1² = 4 (option D)."
+  }
+ }
+}

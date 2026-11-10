@@ -1,0 +1,263 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p13-Q6-1": {
+   "steps": [
+    {
+     "text": "Factor the numerator.",
+     "latex": "\\dfrac{(x+3)(x-2)}{x-2}=x+3\\ (x\\ne2)"
+    },
+    {
+     "text": "The removable discontinuity is filled by the limit.",
+     "latex": "\\lim_{x\\to2}(x+3)=5"
+    },
+    {
+     "text": "Define f(2) = 5.",
+     "latex": "f(2)=5"
+    },
+    {
+     "text": "Option D).",
+     "latex": "\\lim=5"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p14-Q9-1": {
+   "steps": [
+    {
+     "text": "Divide numerator and denominator by the highest power of x in the denominator; terms with x in the denominator tend to 0.",
+     "latex": "\\dfrac{a}{x^k}\\to0"
+    },
+    {
+     "text": "Divide by x².",
+     "latex": "\\dfrac{1+3/x-2/x^2}{3+4/x-1/x^2}\\to\\dfrac{1}{3}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=\\frac{1}{3}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p14-Q10-1": {
+   "steps": [
+    {
+     "text": "Divide numerator and denominator by the highest power of x in the denominator; terms with x in the denominator tend to 0.",
+     "latex": "\\dfrac{a}{x^k}\\to0"
+    },
+    {
+     "text": "Divide by x².",
+     "latex": "\\dfrac{2-1/x+1/x^2}{4-3/x-1/x^2}\\to\\dfrac24=\\dfrac12"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=\\frac{1}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p14-Q11-1": {
+   "steps": [
+    {
+     "text": "For x < 0, √(x²) = |x| = −x, so divide numerator and denominator by −x = √(x²).",
+     "latex": "\\dfrac{-x}{\\sqrt{4+x^2}}=\\dfrac{1}{\\sqrt{4/x^2+1}}"
+    },
+    {
+     "text": "As x → −∞, 4/x² → 0.",
+     "latex": "\\dfrac{1}{\\sqrt{0+1}}=1"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p15-Q12-1": {
+   "steps": [
+    {
+     "text": "Divide numerator and denominator by the highest power of x in the denominator; terms with x in the denominator tend to 0.",
+     "latex": "\\dfrac{a}{x^k}\\to0"
+    },
+    {
+     "text": "Degree of the numerator (2) < degree of the denominator (3).",
+     "latex": "\\dfrac{1/x-1/x^3}{4-5/x^2-1/x^3}\\to\\dfrac04=0"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\lim=0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p15-Q13-1": {
+   "steps": [
+    {
+     "text": "First find the limit of the inside (degree 2 over degree 1).",
+     "latex": "\\dfrac{x^2+1}{x-3}\\to\\infty"
+    },
+    {
+     "text": "ln grows without bound as its argument → ∞.",
+     "latex": "\\ln(u)\\to\\infty\\ \\text{as }u\\to\\infty"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=\\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p15-Q14-1": {
+   "steps": [
+    {
+     "text": "As x → 0⁺, x sin x → 0⁺ (both factors positive and → 0).",
+     "latex": "x\\sin x\\to0^+"
+    },
+    {
+     "text": "ln u → −∞ as u → 0⁺.",
+     "latex": "\\ln(u)\\to-\\infty"
+    },
+    {
+     "text": "Option D).",
+     "latex": "\\lim=-\\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p16-Q19a-1": {
+   "steps": [
+    {
+     "text": "Average velocity = change in position ÷ change in time.",
+     "latex": "v_{avg}=\\dfrac{s(2)-s(1)}{2-1}"
+    },
+    {
+     "text": "Evaluate the positions.",
+     "latex": "s(2)=74,\\quad s(1)=26"
+    },
+    {
+     "text": "Divide.",
+     "latex": "v_{avg}=48\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "48\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p16-Q19b-1": {
+   "steps": [
+    {
+     "text": "Instantaneous velocity is the derivative of position.",
+     "latex": "v(t)=s\\prime(t)=32 t"
+    },
+    {
+     "text": "Substitute t = 2.",
+     "latex": "v(2)=64\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "64\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p16-Q20a-1": {
+   "steps": [
+    {
+     "text": "Average velocity = change in position ÷ change in time.",
+     "latex": "v_{avg}=\\dfrac{s(2)-s(0)}{2-0}"
+    },
+    {
+     "text": "Evaluate the positions.",
+     "latex": "s(2)=21,\\quad s(0)=-3"
+    },
+    {
+     "text": "Divide.",
+     "latex": "v_{avg}=12\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "12\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p17-Q20b-1": {
+   "steps": [
+    {
+     "text": "Instantaneous velocity is the derivative of position.",
+     "latex": "v(t)=s\\prime(t)=9 t^{2}"
+    },
+    {
+     "text": "Substitute t = 2.",
+     "latex": "v(2)=36\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "36\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p17-Q21a-1": {
+   "steps": [
+    {
+     "text": "Average velocity = change in position ÷ change in time.",
+     "latex": "v_{avg}=\\dfrac{s(1)-s(0)}{1-0}"
+    },
+    {
+     "text": "Evaluate the positions.",
+     "latex": "s(1)=3,\\quad s(0)=0"
+    },
+    {
+     "text": "Divide.",
+     "latex": "v_{avg}=3\\ \\text{m/s}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "3\\ \\text{m/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p18-Q22a-1": {
+   "steps": [
+    {
+     "text": "Average velocity = change in position ÷ change in time.",
+     "latex": "v_{avg}=\\dfrac{s(2)-s(0)}{2-0}"
+    },
+    {
+     "text": "Evaluate the positions.",
+     "latex": "s(2)=0,\\quad s(0)=- 3 \\sin{\\left(2 \\right)}"
+    },
+    {
+     "text": "Divide.",
+     "latex": "v_{avg}=\\frac{3 \\sin{\\left(2 \\right)}}{2}\\approx1.364\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "1.364\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p18-Q22b-1": {
+   "steps": [
+    {
+     "text": "Instantaneous velocity is the derivative of position.",
+     "latex": "v(t)=s\\prime(t)=3 \\cos{\\left(t - 2 \\right)}"
+    },
+    {
+     "text": "Substitute t = 2.",
+     "latex": "v(2)=3\\ \\text{ft/s}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "3\\ \\text{ft/s}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

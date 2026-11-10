@@ -1,0 +1,266 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p48-Q29b-1": {
+   "steps": [
+    {
+     "text": "(sin⁻¹u)′ = u′/√(1 − u²) with u = √x, u′ = 1/(2√x).",
+     "latex": "f\\prime=\\dfrac{1}{\\sqrt{1-x}}\\cdot\\dfrac{1}{2\\sqrt x}=\\dfrac{1}{2\\sqrt{x(1-x)}}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{1}{2 \\sqrt{x} \\sqrt{1 - x}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p49-Q31a-1": {
+   "steps": [
+    {
+     "text": "(tan⁻¹u)′ = u′/(1 + u²) with u = √x.",
+     "latex": "f\\prime=\\dfrac{1}{1+x}\\cdot\\dfrac{1}{2\\sqrt x}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{1}{2 \\sqrt{x} \\left(x + 1\\right)}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p50-Q31b-1": {
+   "steps": [
+    {
+     "text": "(tan⁻¹u)′ = u′/(1 + u²) with u = 1/x, u′ = −1/x².",
+     "latex": "f\\prime=\\dfrac{-1/x^2}{1+1/x^2}"
+    },
+    {
+     "text": "Multiply top and bottom by x².",
+     "latex": "f\\prime=\\dfrac{-1}{x^2+1}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "- \\frac{1}{x^{2} + 1}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p50-Q32a-1": {
+   "steps": [
+    {
+     "text": "Chain Rule: (√u)′ = u′/(2√u) with u = 2 + tan⁻¹x, u′ = 1/(1 + x²).",
+     "latex": "f\\prime=\\dfrac{1}{2\\sqrt{2+\\tan^{-1}x}}\\cdot\\dfrac{1}{1+x^2}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{1}{\\left(2 x^{2} + 2\\right) \\sqrt{\\operatorname{atan}{\\left(x \\right)} + 2}}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p50-Q32b-1": {
+   "steps": [
+    {
+     "text": "Chain Rule: (e^u)′ = e^u·u′ with u = tan⁻¹x.",
+     "latex": "f\\prime=e^{\\tan^{-1}x}\\cdot\\dfrac1{1+x^2}"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\frac{e^{\\operatorname{atan}{\\left(x \\right)}}}{x^{2} + 1}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p51-Ex1-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(0)=2,\\quad f(1)=2"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=3 x^{2} - 6 x + 2=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=1 - \\frac{\\sqrt{3}}{3}\\approx 0.42265"
+    },
+    {
+     "text": "Option D).",
+     "latex": "c\\approx0.42265"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p51-Ex1-2": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Test f(a) = f(b) for each option.",
+     "latex": "A:\\ 1\\ne5,\\quad B:\\ 0\\ne2,\\quad C:\\ 0\\ne1"
+    },
+    {
+     "text": "D: sin(−π) = 0 = sin 0, and sin x is continuous and differentiable everywhere.",
+     "latex": "\\sin(-\\pi)=\\sin0=0"
+    },
+    {
+     "text": "Option D).",
+     "latex": "f(x)=\\sin x\\ \\text{on}\\ [-\\pi,0]"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p51-Ex1-3": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(- \\sqrt{2})=0,\\quad f(\\sqrt{2})=0"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=4 x^{3} - 4 x=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=-1,\\ 0,\\ 1"
+    },
+    {
+     "text": "Option C).",
+     "latex": "c=-1,\\ 0,\\ 1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p52-Q1-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(-2)=8,\\quad f(2)=8"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=4 x^{3} - 4 x=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=-1,\\ 0,\\ 1"
+    },
+    {
+     "text": "Option b).",
+     "latex": "c=-1,\\ 1,\\ 0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p52-Q2-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(1)=0,\\quad f(3)=0"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=2 x - 4=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=2"
+    },
+    {
+     "text": "Option c).",
+     "latex": "c=2"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p52-Q3-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(0)=0,\\quad f(\\pi)=0"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=\\cos{\\left(x \\right)}=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=\\frac{\\pi}{2}\\approx 1.57080"
+    },
+    {
+     "text": "Option b).",
+     "latex": "c=\\dfrac{\\pi}{2}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p53-Q4-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Compare f(0) and f(2) for each function.",
+     "latex": "a)\\ 0=0,\\ b)\\ 1\\ne5,\\ c)\\ 0\\ne e^2-1,\\ d)\\ 0\\ne2"
+    },
+    {
+     "text": "Only x² − 2x has equal endpoint values (and it is a polynomial: continuous and differentiable).",
+     "latex": "f(0)=f(2)=0"
+    },
+    {
+     "text": "Option a).",
+     "latex": "f(x)=x^2-2x"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p53-Q5-1": {
+   "steps": [
+    {
+     "text": "Rolle's Theorem: if f is continuous on [a, b], differentiable on (a, b) and f(a) = f(b), then f′(c) = 0 for some c in (a, b).",
+     "latex": "f(a)=f(b)\\ \\Rightarrow\\ f\\prime(c)=0"
+    },
+    {
+     "text": "Check the endpoint values (a polynomial/sine is continuous and differentiable everywhere).",
+     "latex": "f(0)=1,\\quad f(1)=1"
+    },
+    {
+     "text": "Solve f′(c) = 0.",
+     "latex": "f\\prime(x)=2 x - 1=0"
+    },
+    {
+     "text": "Keep only c strictly inside the interval.",
+     "latex": "c=\\frac{1}{2}"
+    },
+    {
+     "text": "Option b).",
+     "latex": "[0,1],\\ c=\\tfrac12"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

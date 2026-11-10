@@ -1,0 +1,228 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q062": {
+   "steps": [
+    {
+     "text": "Standard form.",
+     "latex": "7y^6-y^5+5y^2-3y+18"
+    },
+    {
+     "text": "Highest power 6: degree 6.",
+     "latex": "\\deg=6"
+    },
+    {
+     "text": "Leading coefficient 7.",
+     "latex": "\\text{leading coefficient}=7"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\text{degree }6,\\ \\text{leading coefficient }7"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q063": {
+   "steps": [
+    {
+     "text": "The highest power is 5: degree 5.",
+     "latex": "-5x^5+3x^3-8"
+    },
+    {
+     "text": "The coefficient of x⁵ is −5.",
+     "latex": "\\text{leading coefficient}=-5"
+    },
+    {
+     "text": "Option A.",
+     "latex": "\\text{degree }5,\\ \\text{leading coefficient }-5"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p26-Q1-1": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }4,\\ \\text{leading coefficient }positive"
+    },
+    {
+     "text": "Degree 4 is even: both ends point the same way; the leading coefficient is positive.",
+     "latex": "\\text{even}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to \\infty,\\qquad x\\to\\infty:\\ f(x)\\to \\infty"
+    },
+    {
+     "text": "Option b).",
+     "latex": "x\\to-\\infty:\\ f(x)\\to \\infty;\\quad x\\to\\infty:\\ f(x)\\to \\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p26-Q2-1": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }5,\\ \\text{leading coefficient }positive"
+    },
+    {
+     "text": "Degree 5 is odd: the ends point in opposite directions; the leading coefficient is positive.",
+     "latex": "\\text{odd}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty,\\qquad x\\to\\infty:\\ f(x)\\to \\infty"
+    },
+    {
+     "text": "Option c).",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty;\\quad x\\to\\infty:\\ f(x)\\to \\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p27-Q3-1": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }2,\\ \\text{leading coefficient }negative"
+    },
+    {
+     "text": "Degree 2 is even: both ends point the same way; the leading coefficient is negative.",
+     "latex": "\\text{even}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty,\\qquad x\\to\\infty:\\ f(x)\\to -\\infty"
+    },
+    {
+     "text": "Range from the shape of the graph.",
+     "latex": "y\\le0"
+    },
+    {
+     "text": "Option c).",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty;\\quad x\\to\\infty:\\ f(x)\\to -\\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p27-Q4-1": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }3,\\ \\text{leading coefficient }negative"
+    },
+    {
+     "text": "Degree 3 is odd: the ends point in opposite directions; the leading coefficient is negative.",
+     "latex": "\\text{odd}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to \\infty,\\qquad x\\to\\infty:\\ f(x)\\to -\\infty"
+    },
+    {
+     "text": "Option b).",
+     "latex": "x\\to-\\infty:\\ f(x)\\to \\infty;\\quad x\\to\\infty:\\ f(x)\\to -\\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q064": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }5,\\ \\text{leading coefficient }positive"
+    },
+    {
+     "text": "Degree 5 is odd: the ends point in opposite directions; the leading coefficient is positive.",
+     "latex": "\\text{odd}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty,\\qquad x\\to\\infty:\\ f(x)\\to \\infty"
+    },
+    {
+     "text": "Option C.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty;\\quad x\\to\\infty:\\ f(x)\\to \\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q065": {
+   "steps": [
+    {
+     "text": "End behaviour depends only on the leading term (highest degree) of the polynomial.",
+     "latex": "\\text{leading term: degree }3,\\ \\text{leading coefficient }positive"
+    },
+    {
+     "text": "Degree 3 is odd: the ends point in opposite directions; the leading coefficient is positive.",
+     "latex": "\\text{odd}"
+    },
+    {
+     "text": "Left end and right end.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty,\\qquad x\\to\\infty:\\ f(x)\\to \\infty"
+    },
+    {
+     "text": "Option C.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to -\\infty;\\quad x\\to\\infty:\\ f(x)\\to \\infty"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q066": {
+   "steps": [
+    {
+     "text": "Find the leading term by multiplying the leading terms of the factors.",
+     "latex": "x\\cdot x\\cdot x^2=x^4"
+    },
+    {
+     "text": "Degree 4 (even) with leading coefficient 1 (positive): both ends rise.",
+     "latex": "\\deg=4,\\quad \\text{leading coefficient}=1>0"
+    },
+    {
+     "text": "End behaviour.",
+     "latex": "x\\to-\\infty:\\ f(x)\\to\\infty,\\qquad x\\to\\infty:\\ f(x)\\to\\infty"
+    },
+    {
+     "text": "Option B.",
+     "latex": "\\text{both ends up}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q067": {
+   "steps": [
+    {
+     "text": "Every polynomial is defined for all real x.",
+     "latex": "D=\\mathbb{R}"
+    },
+    {
+     "text": "An odd-degree polynomial has opposite end behaviour, so the graph goes from +∞ to −∞ and takes every y-value.",
+     "latex": "x\\to-\\infty:\\ f\\to\\infty,\\quad x\\to\\infty:\\ f\\to-\\infty"
+    },
+    {
+     "text": "Range is all real numbers: option A.",
+     "latex": "R=\\mathbb{R}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q068": {
+   "steps": [
+    {
+     "text": "Every polynomial is defined for all real x.",
+     "latex": "D=\\mathbb{R}"
+    },
+    {
+     "text": "Degree 5 is odd, so the ends go in opposite directions and every real y is reached.",
+     "latex": "x\\to-\\infty:\\ f\\to\\infty,\\quad x\\to\\infty:\\ f\\to-\\infty"
+    },
+    {
+     "text": "Range is all real numbers: option A.",
+     "latex": "R=\\mathbb{R}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

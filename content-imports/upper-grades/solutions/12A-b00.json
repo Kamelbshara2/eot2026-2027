@@ -1,0 +1,291 @@
+{
+ "class": "12A",
+ "items": {
+  "12A-p04-Q21-1": {
+   "steps": [
+    {
+     "text": "A limit at a boundary of a piecewise function: find both one-sided limits.",
+     "latex": "x\\to2"
+    },
+    {
+     "text": "Left side uses 2x.",
+     "latex": "\\lim_{x\\to2^-}f(x)=4"
+    },
+    {
+     "text": "Right side uses x².",
+     "latex": "\\lim_{x\\to2^+}f(x)=4"
+    },
+    {
+     "text": "Equal one-sided limits: the limit exists and equals that value.",
+     "latex": "\\lim_{x\\to2}f(x)=4"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\lim_{x\\to2}f(x)=4"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p04-Q22-1": {
+   "steps": [
+    {
+     "text": "A limit at a boundary of a piecewise function: find both one-sided limits.",
+     "latex": "x\\to-1"
+    },
+    {
+     "text": "Left side uses x² + 1.",
+     "latex": "\\lim_{x\\to-1^-}f(x)=2"
+    },
+    {
+     "text": "Right side uses 3x + 1.",
+     "latex": "\\lim_{x\\to-1^+}f(x)=-2"
+    },
+    {
+     "text": "Different one-sided limits: the limit does not exist.",
+     "latex": "\\text{does not exist}"
+    },
+    {
+     "text": "Option d).",
+     "latex": "\\text{does not exist}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p05-Q24-1": {
+   "steps": [
+    {
+     "text": "A limit at a boundary of a piecewise function: find both one-sided limits.",
+     "latex": "x\\to1"
+    },
+    {
+     "text": "Left side uses the constant 3.",
+     "latex": "\\lim_{x\\to1^-}f(x)=3"
+    },
+    {
+     "text": "Right side uses 2x + 1.",
+     "latex": "\\lim_{x\\to1^+}f(x)=3"
+    },
+    {
+     "text": "Equal one-sided limits: the limit exists and equals that value.",
+     "latex": "\\lim_{x\\to1}f(x)=3"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\lim_{x\\to1}f(x)=3"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p05-Q29-1": {
+   "steps": [
+    {
+     "text": "sin(1/x) oscillates, but it is bounded.",
+     "latex": "-1\\le\\sin\\tfrac1x\\le1"
+    },
+    {
+     "text": "Multiply by x² ≥ 0.",
+     "latex": "-x^2\\le x^2\\sin\\tfrac1x\\le x^2"
+    },
+    {
+     "text": "Both bounds tend to 0, so by the Squeeze Theorem the limit is 0.",
+     "latex": "\\lim(-x^2)=\\lim x^2=0"
+    },
+    {
+     "text": "Option c).",
+     "latex": "\\lim=0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p05-Q30-1": {
+   "steps": [
+    {
+     "text": "The Squeeze Theorem needs bounds g(x) ≤ f(x) ≤ h(x) with equal limits. For cos(1/x) we have −1 ≤ cos(1/x) ≤ 1.",
+     "latex": "-x^2\\le x^2\\cos\\tfrac1x\\le x^2"
+    },
+    {
+     "text": "sec(1/x) = 1/cos(1/x) takes all values ≤ −1 or ≥ 1: it is not bounded, so no pair of bounds of the form ±x² exists.",
+     "latex": "\\sec\\tfrac1x\\in(-\\infty,-1]\\cup[1,\\infty)"
+    },
+    {
+     "text": "Option a).",
+     "latex": "\\text{sec is unbounded}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p06-Q31-1": {
+   "steps": [
+    {
+     "text": "Bound the oscillating factor.",
+     "latex": "0\\le\\sin^2\\tfrac1x\\le1"
+    },
+    {
+     "text": "Multiply by √x ≥ 0.",
+     "latex": "0\\le\\sqrt x\\sin^2\\tfrac1x\\le\\sqrt x"
+    },
+    {
+     "text": "√x → 0 as x → 0⁺, so the Squeeze Theorem gives 0.",
+     "latex": "\\lim_{x\\to0^+}\\sqrt x=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\lim=0"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p06-Q32-1": {
+   "steps": [
+    {
+     "text": "Rewrite the absolute-value inequality.",
+     "latex": "-2(2-x)^2\\le g(x)+4\\le2(2-x)^2"
+    },
+    {
+     "text": "Both bounds tend to 0 as x → 2.",
+     "latex": "\\lim_{x\\to2}\\pm2(2-x)^2=0"
+    },
+    {
+     "text": "Squeeze Theorem: g(x) + 4 → 0.",
+     "latex": "\\lim_{x\\to2}(g(x)+4)=0"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\lim_{x\\to2}g(x)=-4"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p06-Q7-1": {
+   "steps": [
+    {
+     "text": "Direct substitution gives 0/0: factor.",
+     "latex": "\\dfrac{(x-2)(x+1)}{(x-2)(x+2)}"
+    },
+    {
+     "text": "Cancel (x − 2) (allowed because x ≠ 2 near the limit).",
+     "latex": "\\dfrac{x+1}{x+2}"
+    },
+    {
+     "text": "Substitute x = 2.",
+     "latex": "\\dfrac{3}{4}"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\lim=\\frac{3}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p07-Q8-1": {
+   "steps": [
+    {
+     "text": "0/0 at x = 1: factor (difference of cubes).",
+     "latex": "\\dfrac{(x-1)(x^2+x+1)}{(x-1)(x+3)}"
+    },
+    {
+     "text": "Cancel (x − 1).",
+     "latex": "\\dfrac{x^2+x+1}{x+3}"
+    },
+    {
+     "text": "Substitute x = 1.",
+     "latex": "\\dfrac{3}{4}"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=\\frac{3}{4}"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p07-Q9-1": {
+   "steps": [
+    {
+     "text": "tan x = sin x / cos x.",
+     "latex": "\\dfrac{\\sin x}{\\tan x}=\\dfrac{\\sin x\\cos x}{\\sin x}=\\cos x\\ (x\\ne0)"
+    },
+    {
+     "text": "Substitute.",
+     "latex": "\\cos0=1"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p07-Q10-1": {
+   "steps": [
+    {
+     "text": "Write tan x = sin x / cos x.",
+     "latex": "\\dfrac{\\tan x}{x}=\\dfrac{\\sin x}{x}\\cdot\\dfrac1{\\cos x}"
+    },
+    {
+     "text": "Use the special limit sin x / x → 1.",
+     "latex": "1\\cdot\\dfrac1{\\cos0}=1"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p08-Q11-1": {
+   "steps": [
+    {
+     "text": "0/0: factor x out of the denominator.",
+     "latex": "\\dfrac{xe^{-2x+1}}{x(x+1)}=\\dfrac{e^{-2x+1}}{x+1}"
+    },
+    {
+     "text": "Substitute x = 0.",
+     "latex": "\\dfrac{e^{1}}{1}=e"
+    },
+    {
+     "text": "Option C).",
+     "latex": "\\lim=e"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p08-Q12-1": {
+   "steps": [
+    {
+     "text": "csc x = 1/sin x.",
+     "latex": "x^2\\csc^2x=\\left(\\dfrac{x}{\\sin x}\\right)^2"
+    },
+    {
+     "text": "Special limit x / sin x → 1.",
+     "latex": "1^2=1"
+    },
+    {
+     "text": "Option A).",
+     "latex": "\\lim=1"
+    }
+   ],
+   "verified": true
+  },
+  "12A-p08-Q13-1": {
+   "steps": [
+    {
+     "text": "0/0: multiply by the conjugate.",
+     "latex": "\\dfrac{\\sqrt{4+x}-2}{x}\\cdot\\dfrac{\\sqrt{4+x}+2}{\\sqrt{4+x}+2}=\\dfrac{x}{x(\\sqrt{4+x}+2)}"
+    },
+    {
+     "text": "Cancel x.",
+     "latex": "\\dfrac{1}{\\sqrt{4+x}+2}"
+    },
+    {
+     "text": "Substitute x = 0.",
+     "latex": "\\dfrac1{2+2}=\\dfrac14"
+    },
+    {
+     "text": "Option B).",
+     "latex": "\\lim=\\frac{1}{4}"
+    }
+   ],
+   "verified": true
+  }
+ }
+}

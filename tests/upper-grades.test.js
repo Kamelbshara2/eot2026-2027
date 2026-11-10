@@ -67,3 +67,64 @@ test('every text question and written-part prompt of Grades 11-12 has an Arabic 
     for (const p of q.parts || []) assert(translate(table, 'part', p.prompt), `${q.id}: ${p.prompt}`);
   }
 });
+
+test('reviewed corrections stay applied (no stray "5k" in the 11G hypotenuse explanations)', () => {
+  const q = load('11G').questions.filter(q => q.id.startsWith('11G-Q09-added'));
+  assert.equal(q.length, 2);
+  for (const x of q) assert.match(x.answer.explanation, /^c=√\(a²\+b²\)=√\(\d+²\+\d+²\)=√\d+=\d+\.$/);
+});
+
+// solution derived from the card disagrees with the keyed option; listed for teacher review in UPPER_GRADES_KEY_ISSUES.md
+const KNOWN_KEY_CONFLICTS = ['12G-en-Q057'];
+
+test('worked solutions: every authored solution has steps with LaTeX and the final answer matches the key', () => {
+  let n = 0;
+  for (const c of Object.keys(CLASSES)) for (const q of load(c).questions) {
+    const steps = q.answer?.steps; if (!steps) continue; n++;
+    assert(steps.length >= 2 && steps.every(s => s.text && s.latex), q.id);
+    if (!KNOWN_KEY_CONFLICTS.includes(q.id)) assert.equal(q.answer.steps_verified, true, `${q.id}: derived answer differs from the key`);
+  }
+  assert(n >= 100);
+});
+
+test('corrected answer keys stay corrected', () => {
+  const q = Object.fromEntries(load('12G').questions.map(q => [q.id, q]));
+  assert.equal(q['12G-en-Q059'].answer.correct_option_id, 'B');
+  assert.equal(q['12G-en-Q060'].answer.correct_option_id, 'C');
+});
+
+test('no auto-checked blank expects a non-real or machine-formatted answer (I, **, sqrt(…), *)', () => {
+  for (const c of Object.keys(CLASSES)) for (const q of load(c).questions) for (const p of q.parts || []) for (const l of p.blanks?.lines || [])
+    for (const [, b] of l.matchAll(/\[\[(.+?)\]\]/g)) assert(!/\bI\b|\*\*|\*|sqrt\(/.test(b), `${q.id}: ${b}`);
+});
+test('11A oblique-asymptote questions: no real zeros means the blank asks for the number of zeros (0); every part has worked steps', () => {
+  const q = Object.fromEntries(load('11A').questions.map(q => [q.id, q]));
+  for (const id of ['11A-Q23-13', '11A-Q23-15', '11A-Q23-16']) assert.match(q[id].parts[0].blanks.lines[0], /Number of real zeros: \}\[\[0\]\]/);
+  for (const id of Object.keys(q).filter(k => k.startsWith('11A-Q23'))) for (const p of q[id].parts) assert(p.answer.steps?.length >= 2, `${id} ${p.id}`);
+});
+
+for (const c of ['11A', '12G', '12A', '11G']) test(`${c}: every question has a full worked solution (every MCQ and every written part)`, () => {
+  for (const q of load(c).questions) {
+    if (q.type === 'mcq') assert(q.answer.steps?.length >= 2, q.id);
+    else for (const p of q.parts) assert(p.answer.steps?.length >= 1, `${q.id} ${p.id}`);
+  }
+});
+test('11A-Q08-book-19 now has a correct option (LCD gives 12x² in the denominator)', () => {
+  const q = load('11A').questions.find(q => q.id === '11A-Q08-book-19');
+  assert.equal(q.options.find(o => o.id === q.answer.correct_option_id).math_latex, '\\frac{-x^2+33x+16}{12x^2+11x-27}');
+});
+
+test('12A reference answers that differentiated the wrong function are corrected', () => {
+  const q = Object.fromEntries(load('12A').questions.map(q => [q.id, q]));
+  assert.match(q['12A-p63-Q4-1'].parts[0].answer.model_answer_and_marking, /2t−8sin\(8t\)/);
+  assert.match(q['12A-p64-Q8-1'].parts[0].answer.model_answer_and_marking, /x²sin⁴\(2x\)/);
+});
+
+test('every worked-solution step and every option renders with KaTeX on all seven classes', async () => {
+  const {bankMath} = await import('../lib/exam-bank-math.js');
+  const {normalizeStudyMath} = await import('../lib/study-math.js');
+  for (const c of ['9G3', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
+    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex)].filter(Boolean);
+    for (const l of tex) assert(!/katex-error/.test(bankMath(normalizeStudyMath(l))), `${q.id}: ${l}`);
+  }
+});
