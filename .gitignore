@@ -10,3 +10,4 @@ dist/
 artifacts/assessment-transfer/
 .claude-flow/
 .swarm/
+__pycache__/
