@@ -8,7 +8,7 @@ def steps(N, D):
     N, D = S.expand(N), S.expand(D)
     g = S.gcd(N, D); n2, d2 = S.cancel(N / g), S.cancel(D / g)
     nf, df = S.factor(N), S.factor(D)
-    excl = sorted(S.solve(D, x), key=float)
+    excl = sorted([r for r in S.solve(D, x) if r.is_real], key=float)
     holes = [r for r in excl if S.simplify(g.subs(x, r)) == 0]
     va = [r for r in excl if r not in holes]
     zeros = sorted([z for z in S.solve(n2, x) if z.is_real], key=float)
@@ -39,8 +39,8 @@ def steps(N, D):
     if degN == degD + 1:
         a['asym'].append(('The degree of the numerator is one more than the degree of the denominator, so there is an oblique (slant) asymptote and no horizontal asymptote. Use long division.', f'\\deg N={degN},\\quad \\deg D={degD}'))
         a['asym'].append(('Divide the leading terms, multiply back, subtract; repeat.', f'\\dfrac{{{L(S.LT(N, x))}}}{{{L(S.LT(D, x))}}}={L(S.LT(N, x) / S.LT(D, x))}'))
-        a['asym'].append(('Result of the division (quotient + remainder/divisor).', f'\\dfrac{{{L(N)}}}{{{L(D)}}}={L(q)}+\\dfrac{{{L(r)}}}{{{L(D)}}}'))
-        a['asym'].append(('Check: divisor × quotient + remainder gives back the numerator.', f'\\left({L(D)}\\right)\\left({L(q)}\\right)+{L(r)}={L(S.expand(D * q + r))}'))
+        a['asym'].append(('Result of the division (quotient + remainder/divisor).', f'\\dfrac{{{L(N)}}}{{{L(D)}}}={L(q)}' + (f'-\\dfrac{{{L(-r)}}}{{{L(D)}}}' if S.sympify(r).could_extract_minus_sign() else f'+\\dfrac{{{L(r)}}}{{{L(D)}}}')))
+        a['asym'].append(('Check: divisor × quotient + remainder gives back the numerator.', f'\\left({L(D)}\\right)\\left({L(q)}\\right)' + (f'-{L(-r)}' if S.sympify(r).could_extract_minus_sign() else f'+{L(r)}') + f'={L(S.expand(D * q + r))}'))
         a['asym'].append(('As x → ±∞ the remainder fraction → 0, so the graph approaches the quotient line.', f'\\text{{Oblique asymptote: }}y={L(q)}'))
     elif degN < degD:
         a['asym'].append(('The degree of the numerator is less than the degree of the denominator: horizontal asymptote y = 0.', 'y=0'))
