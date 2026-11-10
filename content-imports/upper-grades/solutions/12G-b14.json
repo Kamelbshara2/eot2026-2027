@@ -1,0 +1,223 @@
+{
+ "class": "12G",
+ "items": {
+  "12G-en-Q069": {
+   "steps": [
+    {
+     "text": "Domain: a polynomial is defined for every real x.",
+     "latex": "D=\\mathbb{R}"
+    },
+    {
+     "text": "Degree 5 is odd, so the ends go in opposite directions and every y is reached.",
+     "latex": "x\\to-\\infty:\\ f\\to-\\infty,\\quad x\\to\\infty:\\ f\\to\\infty"
+    },
+    {
+     "text": "Range: all real numbers: option A.",
+     "latex": "R=\\mathbb{R}"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q070": {
+   "steps": [
+    {
+     "text": "The graph extends left and right forever: domain all real numbers.",
+     "latex": "D=\\mathbb{R}"
+    },
+    {
+     "text": "Both ends point up and the lowest point is on the x-axis at the origin.",
+     "latex": "y_{\\min}=0"
+    },
+    {
+     "text": "Range y ≥ 0: option C.",
+     "latex": "y\\ge0"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-en-Q071": {
+   "steps": [
+    {
+     "text": "The graph extends left and right forever: domain all real numbers.",
+     "latex": "D=\\mathbb{R}"
+    },
+    {
+     "text": "One end goes down and the other goes up, so every y-value is reached.",
+     "latex": "x\\to-\\infty:\\ f\\to-\\infty,\\quad x\\to\\infty:\\ f\\to\\infty"
+    },
+    {
+     "text": "Range: all real numbers: option A.",
+     "latex": "R=\\mathbb{R}"
+    }
+   ],
+   "verified": true,
+   "note": "read from the graph"
+  },
+  "12G-p27-Q5-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=x^{3} - 2 x^{2} + 5"
+    },
+    {
+     "text": "f(-2) and f(-1) have opposite signs, so f has a real zero between -2 and -1.",
+     "latex": "f(-2)=-11,\\qquad f(-1)=2"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option a).",
+     "latex": "-2<x<-1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p28-Q8-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=2 x^{4} - x^{3} - 3 x^{2} + 2 x - 4"
+    },
+    {
+     "text": "f(-2) and f(-1) have opposite signs, so f has a real zero between -2 and -1.",
+     "latex": "f(-2)=20,\\qquad f(-1)=-6"
+    },
+    {
+     "text": "f(1) and f(2) have opposite signs, so f has a real zero between 1 and 2.",
+     "latex": "f(1)=-4,\\qquad f(2)=12"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option a).",
+     "latex": "-2<x<-1,\\ 1<x<2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p29-Q1-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=x^{3} + 3 x - 1"
+    },
+    {
+     "text": "f(0) and f(1) have opposite signs, so f has a real zero between 0 and 1.",
+     "latex": "f(0)=-1,\\qquad f(1)=3"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option c).",
+     "latex": "0<x<1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p29-Q2-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=- x^{3} + 2 x^{2} - 4"
+    },
+    {
+     "text": "f(-2) and f(-1) have opposite signs, so f has a real zero between -2 and -1.",
+     "latex": "f(-2)=12,\\qquad f(-1)=-1"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option a).",
+     "latex": "-2<x<-1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p29-Q3-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=x^{3} + 4 x^{2} - 5 x + 5"
+    },
+    {
+     "text": "f(-6) and f(-5) have opposite signs, so f has a real zero between -6 and -5.",
+     "latex": "f(-6)=-37,\\qquad f(-5)=5"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option a).",
+     "latex": "-6<x<-5"
+    }
+   ],
+   "verified": true
+  },
+  "12G-p30-Q4-1": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=- x^{4} - x^{3} + 4"
+    },
+    {
+     "text": "f(-2) and f(-1) have opposite signs, so f has a real zero between -2 and -1.",
+     "latex": "f(-2)=-4,\\qquad f(-1)=4"
+    },
+    {
+     "text": "f(1) and f(2) have opposite signs, so f has a real zero between 1 and 2.",
+     "latex": "f(1)=2,\\qquad f(2)=-20"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option a).",
+     "latex": "-2<x<-1,\\ 1<x<2"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q073": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=- x^{3} + 2 x^{2} - 4"
+    },
+    {
+     "text": "f(-2) and f(-1) have opposite signs, so f has a real zero between -2 and -1.",
+     "latex": "f(-2)=12,\\qquad f(-1)=-1"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option A.",
+     "latex": "-2<x<-1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q074": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=x^{2} + 3 x - 1"
+    },
+    {
+     "text": "f(-4) and f(-3) have opposite signs, so f has a real zero between -4 and -3.",
+     "latex": "f(-4)=3,\\qquad f(-3)=-1"
+    },
+    {
+     "text": "f(0) and f(1) have opposite signs, so f has a real zero between 0 and 1.",
+     "latex": "f(0)=-1,\\qquad f(1)=3"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option C.",
+     "latex": "-4<x<-3,\\ 0<x<1"
+    }
+   ],
+   "verified": true
+  },
+  "12G-en-Q075": {
+   "steps": [
+    {
+     "text": "Evaluate f at consecutive integers; a zero lies where the sign changes (Intermediate Value Theorem).",
+     "latex": "f(x)=- x^{5} - x^{3} + 4"
+    },
+    {
+     "text": "f(1) and f(2) have opposite signs, so f has a real zero between 1 and 2.",
+     "latex": "f(1)=2,\\qquad f(2)=-36"
+    },
+    {
+     "text": "No other sign change occurs, so these are all the real zeros. Option B.",
+     "latex": "1<x<2"
+    }
+   ],
+   "verified": true
+  }
+ }
+}
