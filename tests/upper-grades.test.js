@@ -74,8 +74,8 @@ test('reviewed corrections stay applied (no stray "5k" in the 11G hypotenuse exp
   for (const x of q) assert.match(x.answer.explanation, /^c=√\(a²\+b²\)=√\(\d+²\+\d+²\)=√\d+=\d+\.$/);
 });
 
-// solution derived from the card disagrees with the keyed option; listed for teacher review in UPPER_GRADES_KEY_ISSUES.md
-const KNOWN_KEY_CONFLICTS = ['12G-en-Q057'];
+// solution derived from the card disagrees with the keyed option (none open after the 2026-11-11 teacher review)
+const KNOWN_KEY_CONFLICTS = [];
 
 test('worked solutions: every authored solution has steps with LaTeX and the final answer matches the key', () => {
   let n = 0;
@@ -91,6 +91,9 @@ test('corrected answer keys stay corrected', () => {
   const q = Object.fromEntries(load('12G').questions.map(q => [q.id, q]));
   assert.equal(q['12G-en-Q059'].answer.correct_option_id, 'B');
   assert.equal(q['12G-en-Q060'].answer.correct_option_id, 'C');
+  assert.equal(q['12G-en-Q057'].answer.correct_option_id, 'A');   // solid boundary, shaded below
+  const r = Object.fromEntries(load('12A').questions.map(q => [q.id, q]))['12A-p33-Q24b-1'];
+  assert.equal(r.answer.correct_option_id, 'D'); assert.match(r.instruction, /h′\(1\)/); assert.equal(r.diagram_asset_ids.length, 0);
 });
 
 test('no auto-checked blank expects a non-real or machine-formatted answer (I, **, sqrt(…), *)', () => {
@@ -120,11 +123,11 @@ test('12A reference answers that differentiated the wrong function are corrected
   assert.match(q['12A-p64-Q8-1'].parts[0].answer.model_answer_and_marking, /x²sin⁴\(2x\)/);
 });
 
-test('every worked-solution step and every option renders with KaTeX on all seven classes', async () => {
+test('every worked-solution step, option, question and blank line renders with KaTeX on all eight classes', async () => {
   const {bankMath} = await import('../lib/exam-bank-math.js');
   const {normalizeStudyMath} = await import('../lib/study-math.js');
-  for (const c of ['9G3', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
-    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex)].filter(Boolean);
+  for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
+    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex), q.math_latex, ...(q.parts || []).flatMap(p => (p.blanks?.lines || []).map(l => l.replace(/\[\[(.+?)\]\]/g, '\\square')))].filter(Boolean);
     for (const l of tex) assert(!/katex-error/.test(bankMath(normalizeStudyMath(l))), `${q.id}: ${l}`);
   }
 });

@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "9A-LO01",
+    "class_id": "9A",
+    "official_slot": 1,
+    "type": "mcq",
+    "title": "Solve equations involving more than one operation",
+    "reference_count": 12,
+    "question_count": 12,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 88,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "3",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 88,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q01-p88-exercise-12"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q01-p88-exercise-1",
+      "9A-Q01-p88-exercise-2",
+      "9A-Q01-p88-exercise-3",
+      "9A-Q01-p88-exercise-4",
+      "9A-Q01-p88-exercise-5",
+      "9A-Q01-p88-exercise-6",
+      "9A-Q01-p88-exercise-7",
+      "9A-Q01-p88-exercise-8",
+      "9A-Q01-p88-exercise-9",
+      "9A-Q01-p88-exercise-10",
+      "9A-Q01-p88-exercise-11",
+      "9A-Q01-p88-exercise-12"
+    ]
+  },
+  {
+    "id": "9A-LO02",
+    "class_id": "9A",
+    "official_slot": 2,
+    "type": "mcq",
+    "title": "Translate sentences into equations",
+    "reference_count": 4,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 71,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q02-p71-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 71,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q02-p71-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 71,
+        "exercise": "3",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q02-p71-exercise-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 71,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q02-p71-exercise-4"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q02-p71-exercise-1",
+      "9A-Q02-p71-exercise-2",
+      "9A-Q02-p71-exercise-3",
+      "9A-Q02-p71-exercise-4",
+      "9A-Q02-p71-variant-variant"
+    ]
+  },
+  {
+    "id": "9A-LO03",
+    "class_id": "9A",
+    "official_slot": 3,
+    "type": "mcq",
+    "title": "Solve equations with the variable on each side",
+    "reference_count": 6,
+    "question_count": 6,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 97,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "3",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q03-p97-exercise-6"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q03-p97-exercise-1",
+      "9A-Q03-p97-exercise-2",
+      "9A-Q03-p97-exercise-3",
+      "9A-Q03-p97-exercise-4",
+      "9A-Q03-p97-exercise-5",
+      "9A-Q03-p97-exercise-6"
+    ]
+  },
+  {
+    "id": "9A-LO04",
+    "class_id": "9A",
+    "official_slot": 4,
+    "type": "mcq",
+    "title": "Solve absolute value equations",
+    "reference_count": 5,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 106,
+        "exercise": "19",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q04-p106-exercise-19"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 106,
+        "exercise": "20",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q04-p106-exercise-20"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 106,
+        "exercise": "21",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q04-p106-exercise-21"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 106,
+        "exercise": "22",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q04-p106-exercise-22"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 106,
+        "exercise": "23",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q04-p106-exercise-23"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q04-p106-exercise-19",
+      "9A-Q04-p106-exercise-20",
+      "9A-Q04-p106-exercise-21",
+      "9A-Q04-p106-exercise-22",
+      "9A-Q04-p106-exercise-23"
+    ]
+  },
+  {
+    "id": "9A-LO05",
+    "class_id": "9A",
+    "official_slot": 5,
+    "type": "mcq",
+    "title": "Find the slope of a line",
+    "reference_count": 3,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 227,
+        "exercise": "50",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q05-p227-exercise-50"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 227,
+        "exercise": "51",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q05-p227-exercise-51"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 227,
+        "exercise": "52",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q05-p227-exercise-52"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q05-p227-variant-variant1",
+      "9A-Q05-p227-variant-variant2",
+      "9A-Q05-p227-exercise-50",
+      "9A-Q05-p227-exercise-51",
+      "9A-Q05-p227-exercise-52"
+    ]
+  },
+  {
+    "id": "9A-LO06",
+    "class_id": "9A",
+    "official_slot": 6,
+    "type": "mcq",
+    "title": "Solve proportions",
+    "reference_count": 8,
+    "question_count": 8,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 113,
+        "exercise": "19",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-19"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "20",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-20"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "21",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-21"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "22",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-22"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "23",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-23"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "24",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-24"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "25",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-25"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 113,
+        "exercise": "26",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q06-p113-exercise-26"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q06-p113-exercise-19",
+      "9A-Q06-p113-exercise-20",
+      "9A-Q06-p113-exercise-21",
+      "9A-Q06-p113-exercise-22",
+      "9A-Q06-p113-exercise-23",
+      "9A-Q06-p113-exercise-24",
+      "9A-Q06-p113-exercise-25",
+      "9A-Q06-p113-exercise-26"
+    ]
+  },
+  {
+    "id": "9A-LO07",
+    "class_id": "9A",
+    "official_slot": 7,
+    "type": "mcq",
+    "title": "Graph and interpret linear functions",
+    "reference_count": 3,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 236,
+        "exercise": "37",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q07-p236-exercise-37",
+          "9A-Q07-p236-exercise-37-intercept",
+          "9A-Q07-p236-exercise-37-zero"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 236,
+        "exercise": "38",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q07-p236-exercise-38"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 236,
+        "exercise": "39",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q07-p236-exercise-39"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q07-p236-exercise-37",
+      "9A-Q07-p236-exercise-37-intercept",
+      "9A-Q07-p236-exercise-37-zero",
+      "9A-Q07-p236-exercise-38",
+      "9A-Q07-p236-exercise-39"
+    ]
+  },
+  {
+    "id": "9A-LO08",
+    "class_id": "9A",
+    "official_slot": 8,
+    "type": "mcq",
+    "title": "Apply translations to absolute value functions",
+    "reference_count": 1,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 267,
+        "exercise": "1",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q08-p267-example-1-original",
+          "9A-Q08-p267-example-1-variant1",
+          "9A-Q08-p267-example-1-variant2",
+          "9A-Q08-p267-example-1-variant3",
+          "9A-Q08-p267-example-1-variant4"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q08-p267-example-1-original",
+      "9A-Q08-p267-example-1-variant1",
+      "9A-Q08-p267-example-1-variant2",
+      "9A-Q08-p267-example-1-variant3",
+      "9A-Q08-p267-example-1-variant4"
+    ]
+  },
+  {
+    "id": "9A-LO09",
+    "class_id": "9A",
+    "official_slot": 9,
+    "type": "mcq",
+    "title": "Graph the solutions of an inequality",
+    "reference_count": 6,
+    "question_count": 6,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 347,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 347,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 347,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 347,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 347,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 347,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q09-p347-exercise-12"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q09-p347-exercise-7",
+      "9A-Q09-p347-exercise-8",
+      "9A-Q09-p347-exercise-9",
+      "9A-Q09-p347-exercise-10",
+      "9A-Q09-p347-exercise-11",
+      "9A-Q09-p347-exercise-12"
+    ]
+  },
+  {
+    "id": "9A-LO10",
+    "class_id": "9A",
+    "official_slot": 10,
+    "type": "mcq",
+    "title": "Construct arithmetic sequences",
+    "reference_count": 8,
+    "question_count": 8,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 255,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "3",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 255,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q10-p255-exercise-8"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q10-p255-exercise-1",
+      "9A-Q10-p255-exercise-2",
+      "9A-Q10-p255-exercise-3",
+      "9A-Q10-p255-exercise-4",
+      "9A-Q10-p255-exercise-5",
+      "9A-Q10-p255-exercise-6",
+      "9A-Q10-p255-exercise-7",
+      "9A-Q10-p255-exercise-8"
+    ]
+  },
+  {
+    "id": "9A-LO11",
+    "class_id": "9A",
+    "official_slot": 11,
+    "type": "mcq",
+    "title": "Solve linear inequalities involving more than one operation",
+    "reference_count": 8,
+    "question_count": 8,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 352,
+        "exercise": "2",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q11-p352-example-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 352,
+        "exercise": "3",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q11-p352-example-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "16",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-16"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "17",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-17"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "18",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-18"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "19",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-19"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "20",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-20"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 354,
+        "exercise": "21",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q11-p354-exercise-21"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q11-p352-example-2",
+      "9A-Q11-p352-example-3",
+      "9A-Q11-p354-exercise-16",
+      "9A-Q11-p354-exercise-17",
+      "9A-Q11-p354-exercise-18",
+      "9A-Q11-p354-exercise-19",
+      "9A-Q11-p354-exercise-20",
+      "9A-Q11-p354-exercise-21"
+    ]
+  },
+  {
+    "id": "9A-LO12",
+    "class_id": "9A",
+    "official_slot": 12,
+    "type": "mcq",
+    "title": "Solve and graph absolute value inequalities (<)",
+    "reference_count": 10,
+    "question_count": 10,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 371,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "3",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-3"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 371,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q12-p371-exercise-10"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q12-p371-exercise-1",
+      "9A-Q12-p371-exercise-2",
+      "9A-Q12-p371-exercise-3",
+      "9A-Q12-p371-exercise-4",
+      "9A-Q12-p371-exercise-5",
+      "9A-Q12-p371-exercise-6",
+      "9A-Q12-p371-exercise-7",
+      "9A-Q12-p371-exercise-8",
+      "9A-Q12-p371-exercise-9",
+      "9A-Q12-p371-exercise-10"
+    ]
+  },
+  {
+    "id": "9A-LO13",
+    "class_id": "9A",
+    "official_slot": 13,
+    "type": "mcq",
+    "title": "Apply dilations to linear functions",
+    "reference_count": 6,
+    "question_count": 6,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 248,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 248,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 248,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-12"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 248,
+        "exercise": "13",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-13"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 248,
+        "exercise": "14",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-14"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 248,
+        "exercise": "15",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q13-p248-exercise-15"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q13-p248-exercise-10",
+      "9A-Q13-p248-exercise-11",
+      "9A-Q13-p248-exercise-12",
+      "9A-Q13-p248-exercise-13",
+      "9A-Q13-p248-exercise-14",
+      "9A-Q13-p248-exercise-15"
+    ]
+  },
+  {
+    "id": "9A-LO14",
+    "class_id": "9A",
+    "official_slot": 14,
+    "type": "mcq",
+    "title": "Write equations of lines in point-slope form given two points",
+    "reference_count": 5,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 297,
+        "exercise": "2",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q14-p297-example-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 303,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q14-p303-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 303,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q14-p303-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 303,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q14-p303-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 303,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q14-p303-exercise-7"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q14-p297-example-2",
+      "9A-Q14-p303-exercise-4",
+      "9A-Q14-p303-exercise-5",
+      "9A-Q14-p303-exercise-6",
+      "9A-Q14-p303-exercise-7"
+    ]
+  },
+  {
+    "id": "9A-LO15",
+    "class_id": "9A",
+    "official_slot": 15,
+    "type": "mcq",
+    "title": "Create and identify equations of parallel or perpendicular lines",
+    "reference_count": 8,
+    "question_count": 8,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 300,
+        "exercise": "7",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q15-p300-example-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 301,
+        "exercise": "8",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q15-p301-example-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "25",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-25"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "26",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-26"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "27",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-27"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "28",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-28"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "29",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-29"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "30",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q15-p304-exercise-30"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q15-p300-example-7",
+      "9A-Q15-p301-example-8",
+      "9A-Q15-p304-exercise-25",
+      "9A-Q15-p304-exercise-26",
+      "9A-Q15-p304-exercise-27",
+      "9A-Q15-p304-exercise-28",
+      "9A-Q15-p304-exercise-29",
+      "9A-Q15-p304-exercise-30"
+    ]
+  },
+  {
+    "id": "9A-LO16",
+    "class_id": "9A",
+    "official_slot": 16,
+    "type": "mcq",
+    "title": "Construct the inverses of relations",
+    "reference_count": 6,
+    "question_count": 6,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 331,
+        "exercise": "4",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 331,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 331,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 331,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 331,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 331,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q16-p331-exercise-9"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q16-p331-exercise-4",
+      "9A-Q16-p331-exercise-5",
+      "9A-Q16-p331-exercise-6",
+      "9A-Q16-p331-exercise-7",
+      "9A-Q16-p331-exercise-8",
+      "9A-Q16-p331-exercise-9"
+    ]
+  },
+  {
+    "id": "9A-LO17",
+    "class_id": "9A",
+    "official_slot": 17,
+    "type": "mcq",
+    "title": "Identify and graph piecewise-defined functions",
+    "reference_count": 1,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 259,
+        "exercise": "1",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q17-p259-example-1",
+          "9A-Q17-p259-example-1-boundary",
+          "9A-Q17-p259-example-1-evaluate1",
+          "9A-Q17-p259-example-1-evaluate2",
+          "9A-Q17-p259-example-1-evaluate3"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q17-p259-example-1",
+      "9A-Q17-p259-example-1-boundary",
+      "9A-Q17-p259-example-1-evaluate1",
+      "9A-Q17-p259-example-1-evaluate2",
+      "9A-Q17-p259-example-1-evaluate3"
+    ]
+  },
+  {
+    "id": "9A-LO18",
+    "class_id": "9A",
+    "official_slot": 18,
+    "type": "mcq",
+    "title": "Identify and graph step functions",
+    "reference_count": 1,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 261,
+        "exercise": "2",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q18-p261-example-2",
+          "9A-Q18-p261-example-2-e1",
+          "9A-Q18-p261-example-2-e2",
+          "9A-Q18-p261-example-2-e3",
+          "9A-Q18-p261-example-2-e4"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q18-p261-example-2",
+      "9A-Q18-p261-example-2-e1",
+      "9A-Q18-p261-example-2-e2",
+      "9A-Q18-p261-example-2-e3",
+      "9A-Q18-p261-example-2-e4"
+    ]
+  },
+  {
+    "id": "9A-LO19",
+    "class_id": "9A",
+    "official_slot": 19,
+    "type": "mcq",
+    "title": "Graph absolute value functions",
+    "reference_count": 8,
+    "question_count": 8,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 269,
+        "exercise": "4",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q19-p269-example-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 269,
+        "exercise": "5",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q19-p269-example-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 277,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q19-p277-exercise-12"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q19-p269-example-4",
+      "9A-Q19-p269-example-5",
+      "9A-Q19-p277-exercise-7",
+      "9A-Q19-p277-exercise-8",
+      "9A-Q19-p277-exercise-9",
+      "9A-Q19-p277-exercise-10",
+      "9A-Q19-p277-exercise-11",
+      "9A-Q19-p277-exercise-12"
+    ]
+  },
+  {
+    "id": "9A-LO20",
+    "class_id": "9A",
+    "official_slot": 20,
+    "type": "mcq",
+    "title": "Write a line in slope-intercept form given slope and one point",
+    "reference_count": 10,
+    "question_count": 15,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 293,
+        "exercise": "33",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-33"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "34",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-34"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "35",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-35"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "36",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-36"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "37",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-37"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "38",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-38"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "39",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-39"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "40",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-40"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "41",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-41"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 293,
+        "exercise": "42",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q20-p293-exercise-42"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q20-p293-concept-concept1",
+      "9A-Q20-p293-concept-concept2",
+      "9A-Q20-p293-concept-concept3",
+      "9A-Q20-p293-concept-concept4",
+      "9A-Q20-p293-concept-concept5",
+      "9A-Q20-p293-exercise-33",
+      "9A-Q20-p293-exercise-34",
+      "9A-Q20-p293-exercise-35",
+      "9A-Q20-p293-exercise-36",
+      "9A-Q20-p293-exercise-37",
+      "9A-Q20-p293-exercise-38",
+      "9A-Q20-p293-exercise-39",
+      "9A-Q20-p293-exercise-40",
+      "9A-Q20-p293-exercise-41",
+      "9A-Q20-p293-exercise-42"
+    ]
+  },
+  {
+    "id": "9A-LO21",
+    "class_id": "9A",
+    "official_slot": 21,
+    "type": "frq",
+    "title": "Solve and graph compound inequalities with AND; solve equations using distribution",
+    "reference_count": 18,
+    "question_count": 18,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 363,
+        "exercise": "1",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-1"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "2",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-2"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "5",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-5"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "6",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-6"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 363,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p363-exercise-12"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "7",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-7"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "8",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-12"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "13",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-13"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "14",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-14"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "15",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-15"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 97,
+        "exercise": "16",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q21-p97-exercise-16"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q21-p97-exercise-7",
+      "9A-Q21-p97-exercise-8",
+      "9A-Q21-p97-exercise-9",
+      "9A-Q21-p97-exercise-10",
+      "9A-Q21-p97-exercise-11",
+      "9A-Q21-p97-exercise-12",
+      "9A-Q21-p97-exercise-13",
+      "9A-Q21-p97-exercise-14",
+      "9A-Q21-p97-exercise-15",
+      "9A-Q21-p97-exercise-16",
+      "9A-Q21-p363-exercise-1",
+      "9A-Q21-p363-exercise-2",
+      "9A-Q21-p363-exercise-5",
+      "9A-Q21-p363-exercise-6",
+      "9A-Q21-p363-exercise-7",
+      "9A-Q21-p363-exercise-10",
+      "9A-Q21-p363-exercise-11",
+      "9A-Q21-p363-exercise-12"
+    ]
+  },
+  {
+    "id": "9A-LO22",
+    "class_id": "9A",
+    "official_slot": 22,
+    "type": "frq",
+    "title": "Graph linear functions using x- and y-intercepts",
+    "reference_count": 6,
+    "question_count": 6,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 216,
+        "exercise": "9",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 216,
+        "exercise": "10",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-10"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 216,
+        "exercise": "11",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-11"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 216,
+        "exercise": "12",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-12"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 216,
+        "exercise": "13",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-13"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 216,
+        "exercise": "14",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q22-p216-exercise-14"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q22-p216-exercise-9",
+      "9A-Q22-p216-exercise-10",
+      "9A-Q22-p216-exercise-11",
+      "9A-Q22-p216-exercise-12",
+      "9A-Q22-p216-exercise-13",
+      "9A-Q22-p216-exercise-14"
+    ]
+  },
+  {
+    "id": "9A-LO23",
+    "class_id": "9A",
+    "official_slot": 23,
+    "type": "frq",
+    "title": "Create and identify equations of parallel or perpendicular lines",
+    "reference_count": 13,
+    "question_count": 13,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 301,
+        "exercise": "8",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q23-p301-example-8"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 302,
+        "exercise": "9",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q23-p302-example-9"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "29",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-29"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "30",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-30"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "31",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-31"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "32",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-32"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "33",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-33"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "34",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-34"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "35",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-35"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 304,
+        "exercise": "36",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p304-exercise-36"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 306,
+        "exercise": "50",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p306-exercise-50"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 306,
+        "exercise": "51",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p306-exercise-51"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 306,
+        "exercise": "52",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q23-p306-exercise-52"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q23-p301-example-8",
+      "9A-Q23-p302-example-9",
+      "9A-Q23-p304-exercise-29",
+      "9A-Q23-p304-exercise-30",
+      "9A-Q23-p304-exercise-31",
+      "9A-Q23-p304-exercise-32",
+      "9A-Q23-p304-exercise-33",
+      "9A-Q23-p304-exercise-34",
+      "9A-Q23-p304-exercise-35",
+      "9A-Q23-p304-exercise-36",
+      "9A-Q23-p306-exercise-50",
+      "9A-Q23-p306-exercise-51",
+      "9A-Q23-p306-exercise-52"
+    ]
+  },
+  {
+    "id": "9A-LO24",
+    "class_id": "9A",
+    "official_slot": 24,
+    "type": "frq",
+    "title": "Apply the arithmetic sequence formula",
+    "reference_count": 4,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 256,
+        "exercise": "23",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q24-p256-exercise-23"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 256,
+        "exercise": "24",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q24-p256-exercise-24"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 256,
+        "exercise": "25",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q24-p256-exercise-25"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 256,
+        "exercise": "26",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q24-p256-exercise-26"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q24-p256-exercise-23",
+      "9A-Q24-p256-exercise-24",
+      "9A-Q24-p256-exercise-25",
+      "9A-Q24-p256-exercise-26",
+      "9A-Q24-p256-variant-variant"
+    ]
+  },
+  {
+    "id": "9A-LO25",
+    "class_id": "9A",
+    "official_slot": 25,
+    "type": "frq",
+    "title": "Solve equations for specific variables",
+    "reference_count": 3,
+    "question_count": 5,
+    "minimum_passed": true,
+    "missing_references": [],
+    "references": [
+      {
+        "printed_page": 120,
+        "exercise": "4",
+        "kind": "example",
+        "question_ids": [
+          "9A-Q25-p120-example-4"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 126,
+        "exercise": "23",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q25-p126-exercise-23"
+        ],
+        "status": "included"
+      },
+      {
+        "printed_page": 126,
+        "exercise": "24",
+        "kind": "exercise",
+        "question_ids": [
+          "9A-Q25-p126-exercise-24"
+        ],
+        "status": "included"
+      }
+    ],
+    "question_ids": [
+      "9A-Q25-p120-example-4",
+      "9A-Q25-p126-exercise-23",
+      "9A-Q25-p126-exercise-24",
+      "9A-Q25-p126-variant-variant-coffee",
+      "9A-Q25-p126-variant-variant-pizza"
+    ]
+  }
+]

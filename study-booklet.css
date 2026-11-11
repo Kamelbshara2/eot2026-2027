@@ -170,3 +170,15 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .solution-steps li{position:relative;margin:0 0 10px;padding:6px 10px 6px 12px;border-left:3px solid #2f7d6d;background:#f3f9f7;border-radius:0 8px 8px 0}
 .solution-steps li::before{counter-increment:st;content:counter(st);position:absolute;left:-26px;top:6px;width:20px;height:20px;border-radius:50%;background:#2f7d6d;color:#fff;font:700 12px/20px Arial,sans-serif;text-align:center}
 .solution-steps p{margin:0 0 4px}.solution-steps .study-math{overflow-x:auto}
+/* number-line answers and folded maths editor */
+.nl-box{margin:10px 0}.nl-svg{display:block;width:100%;max-width:720px;height:auto;background:#fbfdfe;border:1px solid #d3dfe6;border-radius:10px;touch-action:manipulation;cursor:crosshair;user-select:none}
+.nl-box .plot-tools button[aria-pressed=true]{background:#e6f2f1;border-color:#006d68;font-weight:700}
+.study-writing-extra{margin:10px 0;border:1px dashed #b9cbd6;border-radius:10px;padding:6px 10px}.study-writing-extra>summary{cursor:pointer;font-weight:600;color:#205a7a}
+.nl-box .plot-tools{flex-wrap:wrap}
+.print-numberline{display:block;width:100%;max-width:150mm;margin:8px 0}
+.img-guard{position:relative;display:inline-block;max-width:100%}.opt-wrap .img-guard,figure .img-guard{display:table;margin:0 0 6px}.img-guard>.opt-img{margin:0;max-width:min(100%,520px)}.img-guard::after{content:"";position:absolute;inset:0;z-index:2}.img-guard img{display:block;max-width:100%}
+.fill-table caption{caption-side:top;text-align:left;font-weight:600;padding:4px 0;color:#205a7a}.fill-table td.fill-end{background:#fff6e5}.fill-table td.fill-end small{display:block;font-size:10px;color:#8a5a00;font-weight:600}.fill-table+.fill-table{margin-top:12px}
+@media (max-width:560px){.fill-table th,.fill-table td{padding:4px 5px}.fill-table .fill-blank{width:54px}.fill-table td.fill-end small{font-size:9px}}
+.fill-table-cap{margin:12px 0 2px;color:#205a7a;font-size:14px}.fill-table-cap b{margin-inline-end:6px}
+.fill-box>.fill-table{justify-self:start;width:auto}.fill-box>.fill-table-cap{justify-self:start}
+.solution-steps .step-ar{font-weight:600;margin:2px 0}.solution-steps .step-why{font-size:.88em;color:#4a5f6e;background:#f3f7fa;border-inline-start:3px solid #9fc2d6;padding:4px 8px;margin:4px 0 0;border-radius:4px}

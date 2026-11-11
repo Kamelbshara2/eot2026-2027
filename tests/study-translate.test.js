@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {translate, translationKey} from '../lib/study-translate.js';
+import {translate, translationKey, isProseOption} from '../lib/study-translate.js';
 
 const table = JSON.parse(fs.readFileSync(new URL('../public/data/study/translations-ar.json', import.meta.url)));
 const gap = JSON.parse(fs.readFileSync(new URL('../content-imports/coverage-gap.json', import.meta.url)));
@@ -14,14 +14,15 @@ test('numbers are carried into the Arabic translation in order', () => {
   assert.equal(translationKey('Find the 7th term.'), 'Find the #th term.');
 });
 
-for (const c of ['9G3', '10G3', '10A1']) {
-  test(`${c}: every question instruction and written-part prompt has an Arabic translation`, () => {
+for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) {
+  test(`${c}: every question instruction, written-part prompt and written option has an Arabic translation`, () => {
     const bank = JSON.parse(fs.readFileSync(new URL(`../public/data/study/${c}.json`, import.meta.url)));
     for (const q of bank.questions) {
       assert.ok(translate(table, 'instruction', q.instruction), q.id + ' instruction');
       for (const p of q.parts || []) assert.ok(translate(table, 'part', p.prompt), q.id + ' part ' + p.id);
       const ar = translate(table, 'instruction', q.instruction);
       assert.equal((ar.match(/#/g) || []).length, 0, q.id + ' unfilled number placeholder');
+      for (const o of q.options || []) if (isProseOption(o) && /[A-Za-z]{3}/.test(o.text)) assert.ok(translate(table, 'option', o.text), q.id + ' option ' + o.id + ' (written words need Arabic)');
     }
   });
 }
@@ -37,4 +38,18 @@ test('bidi never splits an HTML entity (a&lt;0 and “quoted” text stay intact
   const out = bidi('فتحة لأعلى a&lt;0 و &quot;abc&quot;');
   assert(out.includes('&lt;') && out.includes('&quot;'));
   assert(!/<bdi[^>]*>[^<]*(?:lt|quot|amp)<\/bdi>/.test(out.replace('<bdi dir="ltr">a&lt;0</bdi>', '')));
+});
+
+test('Grade 9 banks never ask the same equation twice (sides may be swapped or reordered)', async () => {
+  const {sameValue} = await import('../lib/study-fill.js');
+  for (const c of ['9G3', '9A']) {
+    const eqs = JSON.parse(fs.readFileSync(new URL(`../public/data/study/${c}.json`, import.meta.url))).questions
+      .filter(q => (q.math_latex || '').split('=').length === 2 && !/text|begin|,|;|\\le|\\ge|<|>|f\(x\)|y=/.test(q.math_latex))
+      .map(q => ({id: q.id, sides: q.math_latex.replace(/\\left|\\right/g, '').split('=')}));
+    for (let i = 0; i < eqs.length; i++) for (let j = i + 1; j < eqs.length; j++) {
+      const [a, b] = [eqs[i].sides, eqs[j].sides];
+      const same = (sameValue(a[0], b[0]) && sameValue(a[1], b[1])) || (sameValue(a[0], b[1]) && sameValue(a[1], b[0]));
+      assert.ok(!same, `${c}: ${eqs[i].id} repeats ${eqs[j].id}`);
+    }
+  }
 });

@@ -89,9 +89,11 @@ test('print sheet covers every written question with working space, graph paper 
   const html = frqs.map(q => printableQuestion(bank, q)).join('');
   assert.equal((html.match(/class="print-q"/g) || []).length, frqs.length);
   assert.ok((html.match(/print-lines/g) || []).length >= frqs.reduce((n, q) => n + q.parts.length, 0));
-  assert.equal((html.match(/print-graph/g) || []).length, 8); assert.equal((html.match(/print-table/g) || []).length, 4);
+  assert.equal((html.match(/print-graph/g) || []).length, 11); assert.equal((html.match(/print-table/g) || []).length, 17);
   assert.ok(!html.includes('model_answer') && !/Substitution \(3\)/.test(html), 'no answer key on the student sheet');
   assert.ok(graphPaper([-5, 5, -5, 5]).includes('<svg'));
+  const a = load('9A'), nl = a.questions.filter(q => q.parts?.some(p => p.numberline));
+  assert.equal(nl.length, 8); assert.equal((nl.map(q => printableQuestion(a, q)).join('').match(/print-numberline/g) || []).length, 8);
 });
 
 test('exam bank routes include mock and print', () => {
@@ -112,5 +114,20 @@ test('plot: x values given by the question — student supplies y; all given poi
   for (const q of bank.questions.filter(q => q.parts?.[0]?.plot?.kind === 'line')) {
     const p = q.parts[0].plot; assert.equal(p.xs.length, 3, q.id);
     assert.ok(p.xs.every(x => Number.isInteger(p.line.m * x + p.line.b)), q.id + ': y values should be exact integers for the given x');
+  }
+});
+
+test('9 General piecewise written questions: two tables per question, endpoint is the 3rd point, all values on the piece', () => {
+  const qs = load('9G3').questions.filter(q => q.parts?.some(p => p.plot?.kind === 'piecewise'));
+  assert.equal(qs.length, 6);
+  for (const q of qs) {
+    const part = q.parts.find(p => p.plot?.kind === 'piecewise'), tables = part.blanks.tables;
+    assert.equal(tables.length, 2, q.id);
+    tables.forEach((t, k) => {
+      const pc = part.plot.pieces[k], f = x => pc.m * x + pc.b, xs = t.xs.map(Number);
+      assert.equal(t.end, 2); assert.equal(xs[2], pc.x0, q.id + ' endpoint is 3rd');
+      for (const x of xs.slice(0, 2)) assert.ok(pc.side === 'right' ? x > pc.x0 : x < pc.x0, `${q.id} point ${x} inside piece ${k + 1}`);
+      t.ys.forEach((y, i) => { const [a, b] = String(y).split('|')[0].split('/').map(Number); assert.ok(Math.abs((b ? a / b : a) - f(xs[i])) < 1e-9, `${q.id} piece ${k + 1} x=${xs[i]}`); });
+    });
   }
 });

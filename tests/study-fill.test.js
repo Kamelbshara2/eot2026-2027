@@ -27,7 +27,7 @@ test('unordered groups cannot be filled with the same answer twice', () => {
   assert.deepEqual(checkBlanks(b, ['2', '2']), [true, false]);
 });
 
-for (const c of ['9G3', '10G3', '10A1']) {
+for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) {
   test(`${c}: every authored blank template parses, renders and accepts its own answers`, () => {
     const bank = load(c); let parts = 0;
     for (const q of bank.questions.filter(q => q.type === 'frq')) for (const part of q.parts) {
@@ -52,7 +52,7 @@ test('10A1 sin B = 1 triangle is corrected to a single right triangle everywhere
   assert.doesNotMatch(q.parts[1].answer.model_answer_and_marking, /B≈90°.*B≈90°/);
 });
 
-for (const c of ['9G3', '10G3', '10A1']) {
+for (const c of ['9G3', '9A', '10G3', '10A1']) {
   test(`${c}: quiz builder balances outcomes, shuffles options and grades correct answers as 100%`, () => {
     const bank = load(c), los = bank.learning_outcomes.map(l => l.id);
     const quiz = buildQuiz(bank, {los, count: 20, mix: 'all', random: seeded()});

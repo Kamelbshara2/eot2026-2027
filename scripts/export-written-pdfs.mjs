@@ -8,7 +8,7 @@ import {watermarkCss, questionWatermark} from '../lib/watermark.js';
 
 const {chromium} = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
-const files = {'9G3': ['grade-9-general', '9 عام'], '10G3': ['grade-10-general', '10 عام'], '10A1': ['grade-10-advanced', '10 متقدم'], '11G': ['grade-11-general', '11 عام'], '11A': ['grade-11-advanced', '11 متقدم'], '12G': ['grade-12-general', '12 عام'], '12A': ['grade-12-advanced', '12 متقدم']};
+const files = {'9G3': ['grade-9-general', '9 عام'], '9A': ['grade-9-advanced', '9 متقدم'], '10G3': ['grade-10-general', '10 عام'], '10A1': ['grade-10-advanced', '10 متقدم'], '11G': ['grade-11-general', '11 عام'], '11A': ['grade-11-advanced', '11 متقدم'], '12G': ['grade-12-general', '12 عام'], '12A': ['grade-12-advanced', '12 متقدم']};
 const only = (process.env.ONLY || '').split(',').filter(Boolean);
 const katexCss = pathToFileURL(resolve('node_modules/katex/dist/katex.min.css')).href;
 const base = pathToFileURL(resolve('public')).href + '/';
@@ -20,7 +20,7 @@ h1{font-size:20px;margin:0 0 4px}.meta{font-size:12px;margin:6px 0 14px;border-b
 .print-q p{margin:4px 0}.print-part{margin:8px 0}.print-marks{color:#486273;font-size:11px}
 .print-lines{border:1px solid #9fb0ba;border-radius:5px;background:repeating-linear-gradient(#fff 0 8mm,#d5dee3 8mm calc(8mm + .5px))}
 .print-table{border-collapse:collapse;margin:6px 0}.print-table th,.print-table td{border:1px solid #6b7f8b;width:21mm;height:8mm;text-align:center}.print-table th{width:9mm;background:#eef3f6}
-.print-graph{display:block;width:100%;max-width:118mm;margin:6px 0}figure{margin:6px 0}figure img{max-width:100%;max-height:60mm}
+.print-graph{display:block;width:100%;max-width:118mm;margin:6px 0}.print-numberline{display:block;width:100%;max-width:150mm;margin:6px 0}figure{margin:6px 0}figure img{max-width:100%;max-height:60mm}
 .study-math{overflow:hidden;padding:4px 0;font-size:15px}${watermarkCss}.question-watermark{opacity:.1!important}.question-watermark span{color:#9aa!important}`;
 
 const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH, args: ['--no-sandbox']});
