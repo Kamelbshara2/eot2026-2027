@@ -339,19 +339,19 @@
    "steps": [
     {
      "text": "Quotient Rule.",
-     "latex": "h\\prime(x)=\\dfrac{2x\\,g(x)-x^2g\\prime(x)}{g(x)^2}"
+     "latex": "h'(x)=\\dfrac{2x\\,g(x)-x^2\\,g'(x)}{g(x)^2}"
     },
     {
-     "text": "The card asks for a = 0: the numerator is 0.",
-     "latex": "h\\prime(0)=0"
+     "text": "Substitute x = 1, g(1) = 1, g′(1) = −2.",
+     "latex": "h'(1)=\\dfrac{2(1)(1)-(1)^2(-2)}{(1)^2}"
     },
     {
-     "text": "Option B). (For a = 1 the value would be 4.)",
-     "latex": "0"
+     "text": "Simplify: option D.",
+     "latex": "h'(1)=\\dfrac{2+2}{1}=4"
     }
    ],
    "verified": true,
-   "note": "As printed the card asks for a = 0 again (same as Q24a), so the answer is 0. If a = 1 was intended the answer would be (2·1·1 − 1·(−2))/1² = 4 (option D)."
+   "note": "Clarified 2026-11-11 to ask h′(1); answer 4 (D)."
   }
  }
 }

@@ -43,11 +43,11 @@
     },
     {
      "text": "This is option A.",
-     "latex": "y\\le-x^2+2x+6"
+     "latex": "y\\le -x^2+2x+6"
     }
    ],
-   "verified": false,
-   "note": "The boundary is drawn as a solid line, which gives option A (y ≤ −x²+2x+6); the keyed option C uses a strict inequality (dashed line). Teacher review needed."
+   "verified": true,
+   "note": "Teacher review 2026-11-11: solid boundary, key is A."
   },
   "12G-en-Q058": {
    "steps": [

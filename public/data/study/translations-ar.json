@@ -404,7 +404,9 @@
   "Plain coffee costs $# per package and flavored coffee costs $# per package. The budget is $#. Let p and f count the packages.": "سعر عبوة القهوة العادية $# والمنكّهة $#، والميزانية $#. ليكن p وf عددي العبوات.",
   "A party budget is $#. Cheese pizzas cost $# each and pepperoni pizzas cost $# each; c and p count the two types.": "ميزانية حفلة $#. سعر بيتزا الجبن $# وبيتزا البيبروني $#؛ وc وp عددا النوعين.",
   "Study the full question in the image, then choose the matching answer.": "ادرس السؤال كاملاً في الصورة، ثم اختر الإجابة المطابقة.",
-  "Complete every part of the question shown in the image. Write your working in the space below.": "أجب عن جميع أجزاء السؤال الظاهر في الصورة، واكتب خطوات الحل في المساحة أدناه."
+  "Complete every part of the question shown in the image. Write your working in the space below.": "أجب عن جميع أجزاء السؤال الظاهر في الصورة، واكتب خطوات الحل في المساحة أدناه.",
+  "Write a quadratic inequality for the graph.": "اكتب متباينة تربيعية تمثل التمثيل البياني.",
+  "f and g are differentiable with the values given. Let h(x) = x²/g(x). Find h′(#).": "الدالتان f وg قابلتان للاشتقاق بالقيم المعطاة. لتكن h(x) = x²/g(x). أوجد h′(#)."
  },
  "part": {
   "Apply the power rules and explain the sign.": "طبّق قوانين الأسس وفسّر الإشارة.",

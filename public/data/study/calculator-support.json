@@ -63551,15 +63551,15 @@
           "outcome": "LO08",
           "outcome_title": "Quadratic inequalities in two variables",
           "role": "manual_setup",
-          "prepare": "Graph the boundary (dashed for < or >), then test a point to choose the shaded side. Rearrange to standard form first; the Equation/Func solver gives every root to check your factorisation or formula. Read the whole question from the image (all labels, scales and options) before choosing a method.",
+          "prepare": "Graph the boundary (dashed for < or >), then test a point to choose the shaded side. Rearrange to standard form first; the Equation/Func solver gives every root to check your factorisation or formula.",
           "operations": [],
           "tables": [],
           "solutions": [
             {
               "part": "Answer",
-              "math": "",
-              "text": "Reviewed answer key. A written step-by-step solution has not been transcribed for this source card; use the lesson rule and the calculator guide.",
-              "answer_text": "Option c) in the image"
+              "math": "y\\le -x^2+2x+6",
+              "text": "Vertex (1, 7) and point (0, 6) give y = −(x−1)² + 7 = −x² + 2x + 6. The curve is solid and the region below it is shaded, so y ≤ −x² + 2x + 6.",
+              "answer_text": "y\\le -x^2+2x+6"
             }
           ],
           "source_ids": [
@@ -70405,15 +70405,15 @@
           "outcome": "LO12",
           "outcome_title": "Product and Quotient Rules",
           "role": "manual_setup",
-          "prepare": "(fg)′=f′g+fg′; (f/g)′=(f′g−fg′)/g². Differentiate by hand with the rules; the calculator can check a derivative value at a point. Read the whole question from the image (all labels, scales and options) before choosing a method.",
+          "prepare": "(fg)′=f′g+fg′; (f/g)′=(f′g−fg′)/g². Differentiate by hand with the rules; the calculator can check a derivative value at a point.",
           "operations": [],
           "tables": [],
           "solutions": [
             {
               "part": "Answer",
-              "math": "",
-              "text": "Reviewed answer key. A written step-by-step solution has not been transcribed for this source card; use the lesson rule and the calculator guide.",
-              "answer_text": "Option b) in the image"
+              "math": "4",
+              "text": "h′(x) = (2x·g(x) − x²·g′(x))/g(x)². At x = 1: (2·1·1 − 1·(−2))/1² = 4.",
+              "answer_text": "4"
             }
           ],
           "source_ids": [

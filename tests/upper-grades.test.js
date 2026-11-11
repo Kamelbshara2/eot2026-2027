@@ -74,8 +74,8 @@ test('reviewed corrections stay applied (no stray "5k" in the 11G hypotenuse exp
   for (const x of q) assert.match(x.answer.explanation, /^c=√\(a²\+b²\)=√\(\d+²\+\d+²\)=√\d+=\d+\.$/);
 });
 
-// solution derived from the card disagrees with the keyed option; listed for teacher review in UPPER_GRADES_KEY_ISSUES.md
-const KNOWN_KEY_CONFLICTS = ['12G-en-Q057'];
+// solution derived from the card disagrees with the keyed option (none open after the 2026-11-11 teacher review)
+const KNOWN_KEY_CONFLICTS = [];
 
 test('worked solutions: every authored solution has steps with LaTeX and the final answer matches the key', () => {
   let n = 0;
@@ -91,6 +91,9 @@ test('corrected answer keys stay corrected', () => {
   const q = Object.fromEntries(load('12G').questions.map(q => [q.id, q]));
   assert.equal(q['12G-en-Q059'].answer.correct_option_id, 'B');
   assert.equal(q['12G-en-Q060'].answer.correct_option_id, 'C');
+  assert.equal(q['12G-en-Q057'].answer.correct_option_id, 'A');   // solid boundary, shaded below
+  const r = Object.fromEntries(load('12A').questions.map(q => [q.id, q]))['12A-p33-Q24b-1'];
+  assert.equal(r.answer.correct_option_id, 'D'); assert.match(r.instruction, /h′\(1\)/); assert.equal(r.diagram_asset_ids.length, 0);
 });
 
 test('no auto-checked blank expects a non-real or machine-formatted answer (I, **, sqrt(…), *)', () => {
