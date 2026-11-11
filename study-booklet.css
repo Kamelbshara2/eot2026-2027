@@ -176,3 +176,4 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .study-writing-extra{margin:10px 0;border:1px dashed #b9cbd6;border-radius:10px;padding:6px 10px}.study-writing-extra>summary{cursor:pointer;font-weight:600;color:#205a7a}
 .nl-box .plot-tools{flex-wrap:wrap}
 .print-numberline{display:block;width:100%;max-width:150mm;margin:8px 0}
+.img-guard{position:relative;display:inline-block;max-width:100%}.opt-wrap .img-guard,figure .img-guard{display:table;margin:0 0 6px}.img-guard>.opt-img{margin:0;max-width:min(100%,520px)}.img-guard::after{content:"";position:absolute;inset:0;z-index:2}.img-guard img{display:block;max-width:100%}

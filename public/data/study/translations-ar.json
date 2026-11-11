@@ -406,7 +406,13 @@
   "Study the full question in the image, then choose the matching answer.": "ادرس السؤال كاملاً في الصورة، ثم اختر الإجابة المطابقة.",
   "Complete every part of the question shown in the image. Write your working in the space below.": "أجب عن جميع أجزاء السؤال الظاهر في الصورة، واكتب خطوات الحل في المساحة أدناه.",
   "Write a quadratic inequality for the graph.": "اكتب متباينة تربيعية تمثل التمثيل البياني.",
-  "f and g are differentiable with the values given. Let h(x) = x²/g(x). Find h′(#).": "الدالتان f وg قابلتان للاشتقاق بالقيم المعطاة. لتكن h(x) = x²/g(x). أوجد h′(#)."
+  "f and g are differentiable with the values given. Let h(x) = x²/g(x). Find h′(#).": "الدالتان f وg قابلتان للاشتقاق بالقيم المعطاة. لتكن h(x) = x²/g(x). أوجد h′(#).",
+  "Which numerical expression represents the difference of eleven and four, multiplied by five?": "أي عبارة عددية تمثل الفرق بين أحد عشر وأربعة، مضروباً في خمسة؟",
+  "Which numerical expression represents the sum of one and two, divided by twenty?": "أي عبارة عددية تمثل مجموع واحد واثنين، مقسوماً على عشرين؟",
+  "Which numerical expression represents the sum of two, four and six, multiplied by eight?": "أي عبارة عددية تمثل مجموع اثنين وأربعة وستة، مضروباً في ثمانية؟",
+  "Which numerical expression represents the sum of twelve and sixteen, divided by the sum of three and four?": "أي عبارة عددية تمثل مجموع اثني عشر وستة عشر، مقسوماً على مجموع ثلاثة وأربعة؟",
+  "Which numerical expression represents the difference of twenty-two and six, divided by the sum of five and three?": "أي عبارة عددية تمثل الفرق بين اثنين وعشرين وستة، مقسوماً على مجموع خمسة وثلاثة؟",
+  "Which numerical expression represents the sum of thirty-six and fourteen, divided by the product of two and five?": "أي عبارة عددية تمثل مجموع ستة وثلاثين وأربعة عشر، مقسوماً على حاصل ضرب اثنين في خمسة؟"
  },
  "part": {
   "Apply the power rules and explain the sign.": "طبّق قوانين الأسس وفسّر الإشارة.",
