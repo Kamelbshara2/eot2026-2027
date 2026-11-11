@@ -31,3 +31,13 @@ for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) {
     }
   });
 }
+
+test('every question on all eight classes has worked steps (MCQ answer or every written part), each step with text and a why', () => {
+  for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
+    const lists = q.type === 'mcq' ? [q.answer.steps] : q.parts.map(p => p.answer.steps);
+    for (const st of lists) {
+      assert.ok(st && st.length >= 1, `${c} ${q.id} has no steps`);
+      for (const s of st) { assert.ok((s.text || '').trim(), `${q.id} step text`); assert.ok(s.why, `${q.id} step why`); assert.ok(!String(s.latex || '').includes('\\boxed{!'), `${q.id} leaked exact marker`); }
+    }
+  }
+});

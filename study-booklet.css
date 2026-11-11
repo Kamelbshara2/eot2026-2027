@@ -181,3 +181,4 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 @media (max-width:560px){.fill-table th,.fill-table td{padding:4px 5px}.fill-table .fill-blank{width:54px}.fill-table td.fill-end small{font-size:9px}}
 .fill-table-cap{margin:12px 0 2px;color:#205a7a;font-size:14px}.fill-table-cap b{margin-inline-end:6px}
 .fill-box>.fill-table{justify-self:start;width:auto}.fill-box>.fill-table-cap{justify-self:start}
+.solution-steps .step-ar{font-weight:600;margin:2px 0}.solution-steps .step-why{font-size:.88em;color:#4a5f6e;background:#f3f7fa;border-inline-start:3px solid #9fc2d6;padding:4px 8px;margin:4px 0 0;border-radius:4px}
