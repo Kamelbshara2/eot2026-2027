@@ -8,7 +8,7 @@ import {watermarkCss, questionWatermark} from '../lib/watermark.js';
 
 const {chromium} = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
-const files = {'9G3': ['grade-9-general', '9 عام'], '10G3': ['grade-10-general', '10 عام'], '10A1': ['grade-10-advanced', '10 متقدم'], '11G': ['grade-11-general', '11 عام'], '11A': ['grade-11-advanced', '11 متقدم'], '12G': ['grade-12-general', '12 عام'], '12A': ['grade-12-advanced', '12 متقدم']};
+const files = {'9G3': ['grade-9-general', '9 عام'], '9A': ['grade-9-advanced', '9 متقدم'], '10G3': ['grade-10-general', '10 عام'], '10A1': ['grade-10-advanced', '10 متقدم'], '11G': ['grade-11-general', '11 عام'], '11A': ['grade-11-advanced', '11 متقدم'], '12G': ['grade-12-general', '12 عام'], '12A': ['grade-12-advanced', '12 متقدم']};
 const only = (process.env.ONLY || '').split(',').filter(Boolean);
 const katexCss = pathToFileURL(resolve('node_modules/katex/dist/katex.min.css')).href;
 const base = pathToFileURL(resolve('public')).href + '/';
