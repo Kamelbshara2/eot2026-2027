@@ -123,11 +123,11 @@ test('12A reference answers that differentiated the wrong function are corrected
   assert.match(q['12A-p64-Q8-1'].parts[0].answer.model_answer_and_marking, /x²sin⁴\(2x\)/);
 });
 
-test('every worked-solution step and every option renders with KaTeX on all seven classes', async () => {
+test('every worked-solution step, option, question and blank line renders with KaTeX on all eight classes', async () => {
   const {bankMath} = await import('../lib/exam-bank-math.js');
   const {normalizeStudyMath} = await import('../lib/study-math.js');
-  for (const c of ['9G3', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
-    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex)].filter(Boolean);
+  for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) for (const q of load(c).questions) {
+    const tex = [...(q.answer?.steps || []).map(s => s.latex), ...(q.parts || []).flatMap(p => (p.answer?.steps || []).map(s => s.latex)), ...(q.options || []).map(o => o.math_latex), q.math_latex, ...(q.parts || []).flatMap(p => (p.blanks?.lines || []).map(l => l.replace(/\[\[(.+?)\]\]/g, '\\square')))].filter(Boolean);
     for (const l of tex) assert(!/katex-error/.test(bankMath(normalizeStudyMath(l))), `${q.id}: ${l}`);
   }
 });

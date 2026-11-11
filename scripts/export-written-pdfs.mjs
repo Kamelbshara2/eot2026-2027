@@ -20,7 +20,7 @@ h1{font-size:20px;margin:0 0 4px}.meta{font-size:12px;margin:6px 0 14px;border-b
 .print-q p{margin:4px 0}.print-part{margin:8px 0}.print-marks{color:#486273;font-size:11px}
 .print-lines{border:1px solid #9fb0ba;border-radius:5px;background:repeating-linear-gradient(#fff 0 8mm,#d5dee3 8mm calc(8mm + .5px))}
 .print-table{border-collapse:collapse;margin:6px 0}.print-table th,.print-table td{border:1px solid #6b7f8b;width:21mm;height:8mm;text-align:center}.print-table th{width:9mm;background:#eef3f6}
-.print-graph{display:block;width:100%;max-width:118mm;margin:6px 0}figure{margin:6px 0}figure img{max-width:100%;max-height:60mm}
+.print-graph{display:block;width:100%;max-width:118mm;margin:6px 0}.print-numberline{display:block;width:100%;max-width:150mm;margin:6px 0}figure{margin:6px 0}figure img{max-width:100%;max-height:60mm}
 .study-math{overflow:hidden;padding:4px 0;font-size:15px}${watermarkCss}.question-watermark{opacity:.1!important}.question-watermark span{color:#9aa!important}`;
 
 const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH, args: ['--no-sandbox']});

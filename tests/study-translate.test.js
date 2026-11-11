@@ -39,3 +39,17 @@ test('bidi never splits an HTML entity (a&lt;0 and “quoted” text stay intact
   assert(out.includes('&lt;') && out.includes('&quot;'));
   assert(!/<bdi[^>]*>[^<]*(?:lt|quot|amp)<\/bdi>/.test(out.replace('<bdi dir="ltr">a&lt;0</bdi>', '')));
 });
+
+test('Grade 9 banks never ask the same equation twice (sides may be swapped or reordered)', async () => {
+  const {sameValue} = await import('../lib/study-fill.js');
+  for (const c of ['9G3', '9A']) {
+    const eqs = JSON.parse(fs.readFileSync(new URL(`../public/data/study/${c}.json`, import.meta.url))).questions
+      .filter(q => (q.math_latex || '').split('=').length === 2 && !/text|begin|,|;|\\le|\\ge|<|>|f\(x\)|y=/.test(q.math_latex))
+      .map(q => ({id: q.id, sides: q.math_latex.replace(/\\left|\\right/g, '').split('=')}));
+    for (let i = 0; i < eqs.length; i++) for (let j = i + 1; j < eqs.length; j++) {
+      const [a, b] = [eqs[i].sides, eqs[j].sides];
+      const same = (sameValue(a[0], b[0]) && sameValue(a[1], b[1])) || (sameValue(a[0], b[1]) && sameValue(a[1], b[0]));
+      assert.ok(!same, `${c}: ${eqs[i].id} repeats ${eqs[j].id}`);
+    }
+  }
+});

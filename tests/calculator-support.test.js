@@ -15,7 +15,7 @@ test('every study question has outcome-specific calculator or manual reasoning s
   assert.equal(Object.keys(support.outcomes).length,bank.learning_outcomes.length);
   for(const q of bank.questions){const g=support.questions[q.id];assert.equal(g.outcome,q.learning_outcome_id);assert(g.prepare&&g.interpret&&g.solutions.length);assert(calculatorGuide({...q,calculatorSupport:g},'/').includes('Use the output in your written answer'));total++;}
  }
- assert.equal(total,1545);
+ assert.equal(total,1539);
 });
 test('generated key sequences agree with independently computed arithmetic and table values',()=>{
  let count=0;

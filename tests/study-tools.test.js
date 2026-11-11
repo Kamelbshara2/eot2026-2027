@@ -89,9 +89,11 @@ test('print sheet covers every written question with working space, graph paper 
   const html = frqs.map(q => printableQuestion(bank, q)).join('');
   assert.equal((html.match(/class="print-q"/g) || []).length, frqs.length);
   assert.ok((html.match(/print-lines/g) || []).length >= frqs.reduce((n, q) => n + q.parts.length, 0));
-  assert.equal((html.match(/print-graph/g) || []).length, 8); assert.equal((html.match(/print-table/g) || []).length, 4);
+  assert.equal((html.match(/print-graph/g) || []).length, 11); assert.equal((html.match(/print-table/g) || []).length, 5);
   assert.ok(!html.includes('model_answer') && !/Substitution \(3\)/.test(html), 'no answer key on the student sheet');
   assert.ok(graphPaper([-5, 5, -5, 5]).includes('<svg'));
+  const a = load('9A'), nl = a.questions.filter(q => q.parts?.some(p => p.numberline));
+  assert.equal(nl.length, 8); assert.equal((nl.map(q => printableQuestion(a, q)).join('').match(/print-numberline/g) || []).length, 8);
 });
 
 test('exam bank routes include mock and print', () => {

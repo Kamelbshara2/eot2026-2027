@@ -82,12 +82,6 @@
    "9G-Q21-p19-exercise-50",
    "9G-Q23-p96-example-6",
    "9G-Q23-p96-example-7",
-   "9G-Q23-p97-exercise-1",
-   "9G-Q23-p97-exercise-2",
-   "9G-Q23-p97-exercise-3",
-   "9G-Q23-p97-exercise-4",
-   "9G-Q23-p97-exercise-5",
-   "9G-Q23-p97-exercise-6",
    "9G-Q23-p97-exercise-8",
    "9G-Q23-p97-exercise-9",
    "9G-Q23-p97-exercise-10",
@@ -225,6 +219,14 @@
    "9G-Q26-p255-exercise-20",
    "9G-Q26-p255-exercise-21",
    "9G-Q26-p255-exercise-22"
+  ],
+  "removed_as_repeats": [
+   "9G-Q23-p97-exercise-1",
+   "9G-Q23-p97-exercise-2",
+   "9G-Q23-p97-exercise-3",
+   "9G-Q23-p97-exercise-4",
+   "9G-Q23-p97-exercise-5",
+   "9G-Q23-p97-exercise-6"
   ]
  }
 }
