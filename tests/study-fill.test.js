@@ -27,7 +27,7 @@ test('unordered groups cannot be filled with the same answer twice', () => {
   assert.deepEqual(checkBlanks(b, ['2', '2']), [true, false]);
 });
 
-for (const c of ['9G3', '9A', '10G3', '10A1']) {
+for (const c of ['9G3', '9A', '10G3', '10A1', '11G', '11A', '12G', '12A']) {
   test(`${c}: every authored blank template parses, renders and accepts its own answers`, () => {
     const bank = load(c); let parts = 0;
     for (const q of bank.questions.filter(q => q.type === 'frq')) for (const part of q.parts) {

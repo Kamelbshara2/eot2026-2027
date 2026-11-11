@@ -5,7 +5,7 @@
 Shown under "describe the dilation of g(x)=5x" it looked like a wrong graph of g, so the caption now says what it is.
 All keys were re-checked by hand (text items) and against the figures (picture items); no key changed.
 """
-import json
+import json, re
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 p = ROOT / 'public/data/study/9A.json'; b = json.loads(p.read_text())
@@ -19,7 +19,7 @@ p.write_text(json.dumps(b, ensure_ascii=False, separators=(',', ':'))); print('c
 # 9G3 LO11: same parent-only textbook grid as 9A LO13
 g = ROOT / 'public/data/study/9G3.json'; G = json.loads(g.read_text())
 for q in G['questions']:
-    if q.get('import') and q['learning_outcome_id'] == 'LO11':
+    if q['learning_outcome_id'] == 'LO11' and re.search(r'dilation', q['instruction'], re.I):
         for a in q.get('diagram_asset_ids', []): G['assets'][a]['alt_text'] = CAP
 
 # 9G3 LO01 (p.9 ex.16-21): "the difference of eleven and four times five" also reads as 11 - 4*5 (an option), while the key is (11-4)*5.
