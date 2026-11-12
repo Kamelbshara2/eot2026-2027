@@ -23,3 +23,10 @@ for (const [classroom,count] of [['9G3',26],['10G3',25],['10A1',25]]) {
   }
  });
 }
+test('10A1 LO11 dilation figures use clear redraws that keep the original textbook crop',async()=>{
+ const fs=await import('node:fs');const b=JSON.parse(fs.readFileSync(new URL('../public/data/study/10A1.json',import.meta.url)));
+ const qs=b.questions.filter(q=>q.learning_outcome_id==='LO11');assert.equal(qs.length,5);
+ for(const q of qs){const [id]=q.diagram_asset_ids;const a=b.assets[id];assert(id.endsWith('_redraw'),q.id);assert.equal(a.source.adaptation,'redrawn_for_clarity');assert(b.assets[a.original_asset_id],q.id);
+  const svg=fs.readFileSync(new URL('../public/'+a.src,import.meta.url),'utf8');assert(svg.includes('′'),q.id);assert(!/<script|onload=|href=|foreignObject/i.test(svg))}
+ const r=qs.find(q=>q.id==='G10A-BOOK-Q11-MCQ-04');assert.match(r.answer.steps[0].text,/R\(−4, 2\) → R′\(−6, 3\)/);
+});

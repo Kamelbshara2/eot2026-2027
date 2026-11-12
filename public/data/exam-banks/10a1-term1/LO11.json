@@ -425,7 +425,13 @@
         0.713,
         0.23,
         0.812
-      ]
+      ],
+      "redraw": {
+        "src": "assets/q11_17_redraw.svg",
+        "width": 440,
+        "height": 474,
+        "alt_text": "Clear redraw of this textbook diagram: original in blue, primed image in green, labels with primes."
+      }
     },
     "q11_18": {
       "src": "assets/q11_18.png",
@@ -445,7 +451,13 @@
         0.713,
         0.59,
         0.812
-      ]
+      ],
+      "redraw": {
+        "src": "assets/q11_18_redraw.svg",
+        "width": 440,
+        "height": 474,
+        "alt_text": "Clear redraw of this textbook diagram: original in blue, primed image in green, labels with primes."
+      }
     },
     "q11_10": {
       "src": "assets/q11_10.png",
@@ -465,7 +477,13 @@
         0.15,
         0.26,
         0.275
-      ]
+      ],
+      "redraw": {
+        "src": "assets/q11_10_redraw.svg",
+        "width": 440,
+        "height": 474,
+        "alt_text": "Clear redraw of this textbook diagram: original in blue, primed image in green, labels with primes."
+      }
     },
     "q11_11": {
       "src": "assets/q11_11.png",
@@ -485,7 +503,13 @@
         0.15,
         0.62,
         0.275
-      ]
+      ],
+      "redraw": {
+        "src": "assets/q11_11_redraw.svg",
+        "width": 440,
+        "height": 474,
+        "alt_text": "Clear redraw of this textbook diagram: original in blue, primed image in green, labels with primes."
+      }
     }
   }
 }
