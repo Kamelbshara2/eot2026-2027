@@ -9,7 +9,7 @@
     "preview": "vite preview --host 0.0.0.0",
     "db:migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
     "test": "node --test",
-    "build:vercel": "npm run db:migrate && npm run build",
+    "build:vercel": "node scripts/vercel-build.mjs",
     "start": "node --env-file-if-exists=.env server.mjs"
   },
   "dependencies": {

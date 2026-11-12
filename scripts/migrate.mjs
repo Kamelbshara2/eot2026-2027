@@ -5,6 +5,15 @@ const sql=neon(process.env.DATABASE_URL);
 await sql`CREATE TABLE IF NOT EXISTS questions (id text PRIMARY KEY, data jsonb, revision integer NOT NULL DEFAULT 1 CHECK (revision>0), deleted boolean NOT NULL DEFAULT false, updated_at timestamptz NOT NULL DEFAULT now())`;
 await sql`CREATE TABLE IF NOT EXISTS student_logins (id uuid PRIMARY KEY,name text NOT NULL CHECK (char_length(name) BETWEEN 2 AND 100),school text NOT NULL CHECK (char_length(school) BETWEEN 2 AND 150),grade smallint NOT NULL,classroom text NOT NULL,created_at timestamptz NOT NULL DEFAULT now(),CHECK ((classroom IN ('10A1','10G3') AND grade=10) OR (classroom='9G3' AND grade=9)))`;
 await sql`CREATE INDEX IF NOT EXISTS student_logins_recent ON student_logins(created_at DESC)`;
+// All eight study classrooms may check in (the first table version allowed only 10A1, 10G3 and 9G3).
+await sql`DO $$ DECLARE c record; BEGIN
+ FOR c IN SELECT conname FROM pg_constraint WHERE conrelid='student_logins'::regclass AND contype='c' AND conname<>'student_logins_classroom_grade' AND pg_get_constraintdef(oid) LIKE '%classroom%' LOOP
+  EXECUTE format('ALTER TABLE student_logins DROP CONSTRAINT %I', c.conname);
+ END LOOP;
+ IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid='student_logins'::regclass AND conname='student_logins_classroom_grade') THEN
+  ALTER TABLE student_logins ADD CONSTRAINT student_logins_classroom_grade CHECK ((classroom IN ('10A1','10G3') AND grade=10) OR (classroom IN ('9G3','9A') AND grade=9) OR (classroom IN ('11G','11A') AND grade=11) OR (classroom IN ('12G','12A') AND grade=12));
+ END IF;
+END $$`;
 await sql`CREATE TABLE IF NOT EXISTS admin_users (username text PRIMARY KEY,password_hash text NOT NULL,failed_attempts integer NOT NULL DEFAULT 0,locked_until timestamptz)`;
 await sql`CREATE TABLE IF NOT EXISTS admin_sessions (token_hash text PRIMARY KEY,username text NOT NULL REFERENCES admin_users(username) ON DELETE CASCADE,expires_at timestamptz NOT NULL)`;
 await sql`CREATE TABLE IF NOT EXISTS practice_responses (login_id uuid NOT NULL REFERENCES student_logins(id) ON DELETE CASCADE,question_id text NOT NULL REFERENCES questions(id),response jsonb NOT NULL,correct boolean,updated_at timestamptz NOT NULL DEFAULT now(),PRIMARY KEY(login_id,question_id))`;
