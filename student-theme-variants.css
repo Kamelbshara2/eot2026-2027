@@ -36,3 +36,25 @@ body.theme-studio:not(.admin-mode) .outcome-cards{direction:rtl}
 body.theme-studio:not(.admin-mode) .outcome-card>p{direction:ltr;text-align:right}
 }
 @media print{.student-theme-picker,.masar-theme-rail,.theme-copy-studio,.theme-copy-masar,.studio-theme-art,.masar-theme-art{display:none!important}}
+/* ---- Contrast fixes (WCAG AA, scripts/contrast-audit.cjs, 2026-11-12) ---- */
+/* Masar: the booklet, mock and quiz were dark ink on the dark-green page. They now sit on a light paper sheet. */
+body.theme-masar:not(.admin-mode) .study-booklet,body.theme-masar:not(.admin-mode) .study-quiz{background:#f8f9ef;color:#14293b;border-radius:18px;padding:18px clamp(12px,2.5vw,28px);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+body.theme-masar:not(.admin-mode) .study-booklet .study-toolbar a{color:#0b5a44}
+body.theme-masar:not(.admin-mode) .masar-rail-brand small,body.theme-masar:not(.admin-mode) .masar-rail-label,body.theme-masar:not(.admin-mode) .masar-rail-note,body.theme-masar:not(.admin-mode) .masar-theme-rail>a:not(.masar-rail-brand):not([aria-current]),body.theme-masar:not(.admin-mode) .masar-theme-rail>a:not(.masar-rail-brand):not([aria-current]) b,body.theme-masar:not(.admin-mode) .masar-theme-rail>a:not(.masar-rail-brand):not([aria-current]) span{color:#4a5e3c}
+body.theme-masar:not(.admin-mode) .classroom-card-title p,body.theme-masar:not(.admin-mode) .classroom-card-metrics{color:#4f6142}
+/* Default + Studio: pale labels */
+header{color:#5b6a60}header b{color:#76837a}
+.student-path>div>span{color:#4f6245}
+body.theme-studio:not(.admin-mode) .classroom-code{color:#c2410c}
+body.theme-studio:not(.admin-mode) .student-facts .facts-week{background:#c2410c}
+header b{color:#5f6b63}body.theme-masar:not(.admin-mode) header b{color:#b9c9b3}
+.platform-brand small{color:#4f6158}.hero-cta-row span,.student-facts span{color:#56664f}.hero-english,.classroom-card-title p{color:#55634e}
+.classroom-section-heading .eyebrow{color:#56664f}body.theme-studio:not(.admin-mode) .hero-english,body.theme-studio:not(.admin-mode) .classroom-card-title p{color:#565770}
+.classroom-card .classroom-code[style],.classroom-card .classroom-code{filter:none}
+.student-design .student-classroom-card:nth-child(3){--card-accent:#8f4f33}
+.student-design .student-classroom-card p,.student-design .classroom-overline,.student-design .classroom-card-bottom small,.student-design .student-path small,.student-design .classroom-section-heading>p{color:#5d6b57}
+.student-design .classroom-card-metrics{color:#56664f}.student-design footer{color:#5d6b57}
+body.theme-studio:not(.admin-mode).student-design .student-classroom-card p,body.theme-studio:not(.admin-mode) .student-design .student-classroom-card p{color:#565770}
+body.theme-masar:not(.admin-mode) .student-facts span{color:#c6d6b5}
+.platform-masthead .platform-brand small{color:#4f6158}body.theme-masar:not(.admin-mode) .platform-masthead .platform-brand small{color:#c9d8bf}
+@media(min-width:1100px){body.theme-masar:not(.admin-mode) .study-ribbon{right:175px}}
