@@ -182,3 +182,8 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .fill-table-cap{margin:12px 0 2px;color:#205a7a;font-size:14px}.fill-table-cap b{margin-inline-end:6px}
 .fill-box>.fill-table{justify-self:start;width:auto}.fill-box>.fill-table-cap{justify-self:start}
 .solution-steps .step-ar{font-weight:600;margin:2px 0}.solution-steps .step-why{font-size:.88em;color:#4a5f6e;background:#f3f7fa;border-inline-start:3px solid #9fc2d6;padding:4px 8px;margin:4px 0 0;border-radius:4px}
+
+/* Redrawn figures keep the original textbook crop one tap away */
+.original-figure{margin-top:.4rem;font-size:.85rem}
+.original-figure summary{cursor:pointer;color:var(--study-ink,#1f2937);text-decoration:underline;text-underline-offset:3px}
+.original-figure img{opacity:.95;margin-top:.35rem;max-width:100%}

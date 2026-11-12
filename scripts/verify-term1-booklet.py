@@ -39,6 +39,11 @@ def pixels(pixmap):
 
 pdf_images = {pixels(fitz.Pixmap(pdf, image[0])) for page in pdf for image in page.get_images()}
 used = {asset for q in selected for asset in q['diagram_asset_ids']}
+import base64 as _b64, re as _re
+_html = (root / f'public/worksheets/{slug}-term1-study-booklet.html').read_text(encoding='utf-8')
+_svgs = {_b64.b64decode(m) for m in _re.findall(r'data:image/svg\+xml;base64,([A-Za-z0-9+/=]+)', _html)}
+html_redraws_ids = {k for k, a in bank['assets'].items() if a.get('redraw') and (folder / a['redraw']['src']).read_bytes() in _svgs}
+html_redraws = {a['redraw']['src'] for a in bank['assets'].values() if a.get('redraw') and (folder / a['redraw']['src']).read_bytes() in _svgs}
 book = None
 books = {}
 if len(sys.argv) > 2:
@@ -55,7 +60,11 @@ if len(sys.argv) > 2:
 for asset_id in bank['assets']:
     asset = bank['assets'][asset_id]
     original = fitz.Pixmap(folder / asset['src'])
-    if asset_id in used:
+    if asset_id in used and asset.get('redraw'):
+        # clear vector redraw (same coordinates) printed instead of the low-resolution crop
+        assert (folder / asset['redraw']['src']).exists(), f'Missing redraw: {asset_id}'
+        assert asset['redraw']['src'] in html_redraws, f'PDF source HTML lacks the redraw: {asset_id}'
+    elif asset_id in used:
         assert pixels(original) in pdf_images, f'PDF image changed or missing: {asset_id}'
     if book or books:
         document=books[asset['source']['book_part']] if books else book
@@ -64,4 +73,4 @@ for asset_id in bank['assets']:
         clip = fitz.Rect(box[0]*page.rect.width, box[1]*page.rect.height, box[2]*page.rect.width, box[3]*page.rect.height)
         extracted = page.get_pixmap(matrix=fitz.Matrix(3, 3), clip=clip)
         assert pixels(extracted) == pixels(original), f'Image differs from original book crop: {asset_id}'
-print(f'{classroom}: {len(pdf)} PDF pages; all {len(mcqs)} printed MCQ keys match the bank and LO downloads; all {len(used)} diagrams preserve exact image pixels.' + (f' All {len(bank["assets"])} bank images also match their original textbook crops.' if book or books else ''))
+print(f'{classroom}: {len(pdf)} PDF pages; all {len(mcqs)} printed MCQ keys match the bank and LO downloads; all {len(used)} diagrams present ({len(used & html_redraws_ids)} as clear redraws, the rest with exact original pixels).' + (f' All {len(bank["assets"])} bank images also match their original textbook crops.' if book or books else ''))
