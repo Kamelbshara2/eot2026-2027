@@ -9,7 +9,9 @@ return async function handler(req,res){res.setHeader('Cache-Control','no-store')
  if(req.method==='POST'){try{if(!await getAdmin(req,getSql))return res.status(401).json({error:'Admin sign-in required'})}catch{return res.status(503).json({error:'Admin authorization unavailable'})}}
  if(!process.env.DATABASE_URL)return res.status(503).json({error:'Database not configured'});
  try{const sql=getSql();
- if(req.method==='GET'){const rows=await sql`SELECT id, data, revision, deleted FROM questions ORDER BY id`;return res.status(200).json({rows})}
+ if(req.method==='GET'){const rows=await sql`SELECT id, data, revision, deleted FROM questions ORDER BY id`;let admin=null;try{admin=await getAdmin(req,getSql)}catch{}
+ // Students only need live questions; retired (deleted) content stays with signed-in admins.
+ return res.status(200).json({rows:admin?rows:rows.map(r=>r.deleted?{...r,data:null}:r)})}
  let input;try{input=typeof req.body==='string'?JSON.parse(req.body):req.body}catch{return res.status(400).json({error:'Invalid JSON'})}
  if(!input||typeof input.id!=='string'||input.id.length>150||!Number.isSafeInteger(input.revision)||input.revision<0||(input.data!==null&&(!valid(input.data)||input.data.id!==input.id)))return res.status(400).json({error:'Invalid question'});
  if(Buffer.byteLength(JSON.stringify(input))>4_000_000)return res.status(413).json({error:'Question exceeds 4 MB'});

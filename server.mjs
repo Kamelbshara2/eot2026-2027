@@ -12,7 +12,7 @@ import paperHandler from './api/practice-paper.js';
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff':'font/woff','.woff2':'font/woff2','.ttf':'font/ttf','.ico':'image/x-icon'};
 export function createApp({root=resolve('dist'),api=questionsHandler,students=studentHandler,admin=adminHandler,practice=practiceHandler,outcomes=outcomeHandler,paper=paperHandler}={}){
  return createServer(async(req,res)=>{
-  res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');
+  res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=(), payment=()');res.setHeader('Cross-Origin-Opener-Policy','same-origin');
   res.status=code=>{res.statusCode=code;return res};res.json=value=>{res.setHeader('Content-Type','application/json; charset=utf-8');res.end(JSON.stringify(value));return res};
   try{
    const path=decodeURIComponent(new URL(req.url,'http://localhost').pathname);

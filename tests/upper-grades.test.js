@@ -49,13 +49,13 @@ test('written questions: text-only ones are all auto-checked; image cards are au
     if (q.figure_in_image) { cards++; assert(q.parts.length && q.diagram_asset_ids.length); } else { textOnly++; assert(has, `${c} ${q.id} has no auto-checked blanks`); }
     if (has) auto++; else paper.push(q.id);
   }
-  assert.equal(textOnly, 69); assert.equal(cards, 67); assert.equal(auto, 129);
+  assert.equal(textOnly, 75); assert.equal(cards, 67); assert.equal(auto, 135);
   assert.deepEqual(paper.sort(), ['12A-p63-Q3-1', '12A-p63-Q4-1', '12A-p63-Q5-1', '12A-p64-Q6-1', '12A-p64-Q7-1', '12A-p64-Q8-1', '12G-p54-32/19-1']);
 });
 
 test('imported question totals match the supplied package (753 eligible of 760)', () => {
-  const total = Object.keys(CLASSES).reduce((n, c) => n + load(c).questions.length, 0);
-  assert.equal(total, 753);
+  const total = Object.keys(CLASSES).reduce((n, c) => n + load(c).questions.filter(q => !q.coverage_note).length, 0);
+  assert.equal(total, 753);   // + authored coverage questions (coverage_note), audit 2026-11-12
 });
 
 test('every text question and written-part prompt of Grades 11-12 has an Arabic translation', async () => {
