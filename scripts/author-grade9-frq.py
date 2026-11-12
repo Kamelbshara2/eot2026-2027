@@ -107,7 +107,9 @@ def solve_one(var, lhs, op, rhs):
     bound = sp.nsimplify(c / a)
     sset = sp.solveset(REL[op](l, r), x, sp.S.Reals)
     assert sset == sp.solveset(REL[o](x, bound), x, sp.S.Reals)
-    return o, bound, sset, a
+    al, ar = l.coeff(x, 1), r.coeff(x, 1)
+    k = (al - ar) if al != 0 else ar          # coefficient the student divides by: variable kept on its own side
+    return o, bound, sset, (-1 if k < 0 else 1)
 
 
 def compound(q):

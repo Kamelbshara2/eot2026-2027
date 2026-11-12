@@ -43,3 +43,14 @@ for q in G['questions']:
         T['instruction'][en] = ar
 g.write_text(json.dumps(G, ensure_ascii=False, separators=(',', ':')))
 tp.write_text(json.dumps(T, ensure_ascii=False, indent=1)); print('9G3 wording', len(WORDING))
+
+# 2026-11-12: G9G-BOOK-Q22-FRQ-03 used g in the formula without saying what g counts.
+G = json.loads(g.read_text()); T = json.loads(tp.read_text())
+for q in G['questions']:
+    if q['id'] == 'G9G-BOOK-Q22-FRQ-03':
+        new = 'Videogames cost $13.50 each and g is the number of videogames bought. Controllers cost p dollars; c is the total cost.'
+        if q['instruction'] != new:
+            q.setdefault('source', {})['original_wording'] = q['instruction']; q['review_note'] = 'States what g counts (it appeared only in the formula).'
+            q['instruction'] = new; q['stem'] = new + ' ' + q['math_latex']
+        T['instruction']['Videogames cost $# each and g is the number of videogames bought. Controllers cost p dollars; c is the total cost.'] = 'سعر لعبة الفيديو $# للواحدة، و g عدد ألعاب الفيديو المشتراة. سعر وحدات التحكم p دولار، و c التكلفة الكلية.'
+g.write_text(json.dumps(G, ensure_ascii=False, separators=(',', ':'))); tp.write_text(json.dumps(T, ensure_ascii=False, indent=1)); print('Q22-FRQ-03 clarified')

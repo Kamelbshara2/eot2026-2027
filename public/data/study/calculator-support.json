@@ -37626,6 +37626,126 @@
           "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
           "use_calculator": false,
           "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة."
+        },
+        "11G-Q04-cov-sas": {
+          "outcome": "LO04",
+          "outcome_title": "Triangle similarity: AA, SSS and SAS",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\text{Similar by SAS: 6/9 = 8/12 and the included angles are equal.}",
+              "text": "Two pairs of sides are in the same ratio 2/3 and the angles between them are equal, so SAS similarity applies.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11G-Q04-cov-sss": {
+          "outcome": "LO04",
+          "outcome_title": "Triangle similarity: AA, SSS and SAS",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\text{Similar by SSS: every ratio of corresponding sides is 3/2.}",
+              "text": "Ordered sides give 6/4 = 9/6 = 12/8 = 3/2, so SSS similarity applies.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11G-Q05-cov-sas": {
+          "outcome": "LO05",
+          "outcome_title": "Triangle similarity: AA, SSS and SAS",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\text{△PQR ∼ △XYZ by SAS, scale factor 2.}",
+              "text": "PQ/XY = QR/YZ = 1/2 with the included angles Q and Y equal: SAS similarity with factor 2.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11G-Q07-cov-bisector": {
+          "outcome": "LO07",
+          "outcome_title": "Corresponding bisectors, altitudes and medians",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "6 cm",
+              "text": "Corresponding angle bisectors have the same ratio as corresponding sides: 4 × 9/6 = 6 cm.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11G-Q07-cov-median": {
+          "outcome": "LO07",
+          "outcome_title": "Corresponding bisectors, altitudes and medians",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "7.5 m",
+              "text": "Medians scale like the sides: 5 × 12/8 = 7.5 m.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
         }
       }
     },
@@ -44296,6 +44416,238 @@
           "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
           "use_calculator": false,
           "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة."
+        },
+        "11A-Q14-cov-shape": {
+          "outcome": "LO14",
+          "outcome_title": "Distribution: center, spread and shape",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\text{Skewed right: a few large values pull the mean above the median.}",
+              "text": "Mean > median means a tail of large values on the right: skewed right.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11A-Q14-cov-center": {
+          "outcome": "LO14",
+          "outcome_title": "Distribution: center, spread and shape",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\text{Median and interquartile range}",
+              "text": "Skewed data: use measures that resist extreme values, the median and the IQR.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11A-Q21-cov-eval": {
+          "outcome": "LO21",
+          "outcome_title": "Evaluate expressions involving the natural base and logarithms",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "ln and e^x undo each other: ln(e⁵) = 5 and e^(ln 3) = 3, so the sum is 8.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "11A-Q21-cov-solve": {
+          "outcome": "LO21",
+          "outcome_title": "Evaluate expressions involving the natural base and logarithms",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "Take ln of both sides: x = ln 7 ≈ 1.9459.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "evaluate",
+          "use_calculator": true,
+          "operations": [
+            {
+              "input": "ln(7)",
+              "exact": "\\log{\\left(7 \\right)}",
+              "decimal": "1.94591014906",
+              "purpose": "Evaluate this expression from the worked solution, then round as the question asks.",
+              "keys": [
+                "AC",
+                "LN",
+                "7",
+                "RP",
+                "EQ"
+              ],
+              "key_labels": [
+                "AC",
+                "LN",
+                "7",
+                ")",
+                "="
+              ]
+            }
+          ],
+          "prepare": "Set up the equation by hand, then evaluate the final expression on the calculator and round as asked.",
+          "setup": [
+            "MENU → Calculate. Use the ln key for natural logarithms and keep full precision until the final rounding."
+          ]
+        },
+        "11A-Q22-cov-double": {
+          "outcome": "LO22",
+          "outcome_title": "Exponential growth and decay using logarithms",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "Double means 1000 = 500e^{0.04t}, so t = ln 2 / 0.04 ≈ 17.3 years.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "evaluate",
+          "use_calculator": true,
+          "operations": [
+            {
+              "input": "ln(2)/0.04",
+              "exact": "\\log{\\left(33554432 \\right)}",
+              "decimal": "17.3286795140",
+              "purpose": "Evaluate this expression from the worked solution, then round as the question asks.",
+              "keys": [
+                "AC",
+                "LP",
+                "LN",
+                "2",
+                "RP",
+                "DIV",
+                "0",
+                "DOT",
+                "0",
+                "4",
+                "RP",
+                "EQ"
+              ],
+              "key_labels": [
+                "AC",
+                "(",
+                "LN",
+                "2",
+                ")",
+                "÷",
+                "0",
+                ".",
+                "0",
+                "4",
+                ")",
+                "="
+              ]
+            }
+          ],
+          "prepare": "Set up the equation by hand, then evaluate the final expression on the calculator and round as asked.",
+          "setup": [
+            "MENU → Calculate. Use the ln key for natural logarithms and keep full precision until the final rounding."
+          ]
+        },
+        "11A-Q22-cov-rate": {
+          "outcome": "LO22",
+          "outcome_title": "Exponential growth and decay using logarithms",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "800 = 200e^{6k} gives e^{6k} = 4, so k = ln 4 / 6 ≈ 0.2310.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "evaluate",
+          "use_calculator": true,
+          "operations": [
+            {
+              "input": "ln(4)/6",
+              "exact": "\\frac{\\log{\\left(2 \\right)}}{3}",
+              "decimal": "0.231049060187",
+              "purpose": "Evaluate this expression from the worked solution, then round as the question asks.",
+              "keys": [
+                "AC",
+                "LP",
+                "LN",
+                "4",
+                "RP",
+                "DIV",
+                "6",
+                "RP",
+                "EQ"
+              ],
+              "key_labels": [
+                "AC",
+                "(",
+                "LN",
+                "4",
+                ")",
+                "÷",
+                "6",
+                ")",
+                "="
+              ]
+            }
+          ],
+          "prepare": "Set up the equation by hand, then evaluate the final expression on the calculator and round as asked.",
+          "setup": [
+            "MENU → Calculate. Use the ln key for natural logarithms and keep full precision until the final rounding."
+          ]
         }
       }
     },
@@ -53266,6 +53618,192 @@
           ],
           "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
           "use_calculator": true
+        },
+        "12G-Q25-cov-inv90": {
+          "outcome": "LO25",
+          "outcome_title": "Normal probabilities and inverse values",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "Inverse normal: x = μ + zσ = 170 + 1.28 × 8 = 180.24 ≈ 180.2 cm.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "evaluate",
+          "use_calculator": true,
+          "operations": [
+            {
+              "input": "170+1.28*8",
+              "exact": "\\frac{4506}{25}",
+              "decimal": "180.240000000",
+              "purpose": "Evaluate this expression from the worked solution, then round as the question asks.",
+              "keys": [
+                "AC",
+                "LP",
+                "1",
+                "7",
+                "0",
+                "ADD",
+                "LP",
+                "1",
+                "DOT",
+                "2",
+                "8",
+                "MUL",
+                "8",
+                "RP",
+                "RP",
+                "EQ"
+              ],
+              "key_labels": [
+                "AC",
+                "(",
+                "1",
+                "7",
+                "0",
+                "+",
+                "(",
+                "1",
+                ".",
+                "2",
+                "8",
+                "×",
+                "8",
+                ")",
+                ")",
+                "="
+              ]
+            }
+          ],
+          "prepare": "Set up the equation by hand, then evaluate the final expression on the calculator and round as asked.",
+          "setup": [
+            "MENU → Calculate. Use the ln key for natural logarithms and keep full precision until the final rounding."
+          ]
+        },
+        "12G-Q25-cov-inv5": {
+          "outcome": "LO25",
+          "outcome_title": "Normal probabilities and inverse values",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "",
+              "text": "x = μ + zσ = 60 − 1.645 × 10 = 43.55 ≈ 43.6.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "evaluate",
+          "use_calculator": true,
+          "operations": [
+            {
+              "input": "60-1.645*10",
+              "exact": "\\frac{871}{20}",
+              "decimal": "43.5500000000",
+              "purpose": "Evaluate this expression from the worked solution, then round as the question asks.",
+              "keys": [
+                "AC",
+                "LP",
+                "6",
+                "0",
+                "SUB",
+                "LP",
+                "1",
+                "DOT",
+                "6",
+                "4",
+                "5",
+                "MUL",
+                "1",
+                "0",
+                "RP",
+                "RP",
+                "EQ"
+              ],
+              "key_labels": [
+                "AC",
+                "(",
+                "6",
+                "0",
+                "−",
+                "(",
+                "1",
+                ".",
+                "6",
+                "4",
+                "5",
+                "×",
+                "1",
+                "0",
+                ")",
+                ")",
+                "="
+              ]
+            }
+          ],
+          "prepare": "Set up the equation by hand, then evaluate the final expression on the calculator and round as asked.",
+          "setup": [
+            "MENU → Calculate. Use the ln key for natural logarithms and keep full precision until the final rounding."
+          ]
+        },
+        "12G-Q09-cov-eval1": {
+          "outcome": "LO09",
+          "outcome_title": "Evaluate and analyze polynomial functions",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "-16",
+              "text": "f(−2) = 2(−8) − 4 + 4 = −16.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "12G-Q09-cov-eval2": {
+          "outcome": "LO09",
+          "outcome_title": "Evaluate and analyze polynomial functions",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "6",
+              "text": "f(2) = 16 − 12 + 2 = 6.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
         }
       }
     },
@@ -59244,6 +59782,54 @@
           "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
           "use_calculator": false,
           "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة."
+        },
+        "12A-Q06-cov-comp1": {
+          "outcome": "LO06",
+          "outcome_title": "Continuity of functions and compositions",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "\\mathbb{R}",
+              "text": "g is continuous everywhere and x² + 5 ≥ 5 > 0, so √(x² + 5) is defined and continuous for all real x.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
+        },
+        "12A-Q06-cov-comp2": {
+          "outcome": "LO06",
+          "outcome_title": "Continuity of functions and compositions",
+          "source_ids": [
+            "reviewed-bank",
+            "upstream-modes"
+          ],
+          "tables": [],
+          "solutions": [
+            {
+              "part": "Answer",
+              "math": "x\\ne3",
+              "text": "f is discontinuous only where its input is 0, i.e. g(x) = x − 3 = 0, so f(g(x)) is continuous for x ≠ 3.",
+              "answer_text": ""
+            }
+          ],
+          "interpret": "Write the method, the substitution and the final answer with units. Calculator output alone does not justify the answer.",
+          "role": "by_hand",
+          "use_calculator": false,
+          "operations": [],
+          "prepare": "This question is solved by hand: the steps are short and exact, and the method itself is what is being assessed. No calculator is needed.",
+          "prepare_ar": "هذا السؤال يُحل يدوياً: الخطوات قصيرة ودقيقة، والطريقة نفسها هي المقصودة بالتقييم. لا حاجة للحاسبة.",
+          "setup": []
         }
       }
     },
