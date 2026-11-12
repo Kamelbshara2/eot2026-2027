@@ -59,7 +59,7 @@ for (const c of ['9G3']) {
 test('solution mode labels: manual, calculator and hybrid come from the calculator role', () => {
   const modes = {};
   for (const [c, v] of Object.entries(support.classes)) for (const q of Object.values(v.questions)) modes[q.role] = solutionMode({calculatorSupport: q}).key;
-  assert.equal(modes.reasoning, 'manual'); assert.equal(modes.evaluate, 'calculator'); assert.equal(modes.check, 'hybrid'); assert.equal(modes.table, 'hybrid');
+  assert.equal(modes.by_hand, 'manual'); assert.equal(modes.evaluate, 'calculator'); assert.equal(modes.check, 'hybrid'); assert.equal(modes.table, 'hybrid');
   assert.equal(solutionMode({}).key, 'manual');
 });
 
