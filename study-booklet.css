@@ -187,3 +187,6 @@ select.fill-blank{width:auto;display:inline-block;padding:5px 8px;max-width:100%
 .original-figure{margin-top:.4rem;font-size:.85rem}
 .original-figure summary{cursor:pointer;color:var(--study-ink,#1f2937);text-decoration:underline;text-underline-offset:3px}
 .original-figure img{opacity:.95;margin-top:.35rem;max-width:100%}
+
+/* Multi-line property choices (e.g. 11A LO19) fit a phone-width answer box */
+@media (max-width:560px){.opt-wrap .katex:has(.mtable){font-size:.8em}}

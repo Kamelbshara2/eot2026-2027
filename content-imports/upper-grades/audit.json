@@ -3,7 +3,7 @@
  "equivalent_options": [],
  "key_mismatch": [],
  "key_verified": 60,
- "unverified": 556,
+ "unverified": 567,
  "numeric_key_checked": 1,
  "frq_consistency": [
   {
@@ -85,6 +85,12 @@
    "key": "−3<x<2. The upward-opening parabola is negative between its two zeros."
   },
   {
+   "class": "12G",
+   "id": "12G-Q25-cov-inv5",
+   "blank": "-1.645",
+   "key": "x = μ + zσ = 60 − 1.645 × 10 = 43.55 ≈ 43.6."
+  },
+  {
    "class": "12A",
    "id": "12A-p57-Q6-1",
    "blank": "0.4621",
@@ -129,19 +135,19 @@
  ],
  "totals": {
   "11G": {
-   "mcq": 105,
+   "mcq": 110,
    "verified_independently": 22
   },
   "11A": {
-   "mcq": 122,
+   "mcq": 124,
    "verified_independently": 36
   },
   "12G": {
-   "mcq": 246,
+   "mcq": 248,
    "verified_independently": 3
   },
   "12A": {
-   "mcq": 144,
+   "mcq": 146,
    "verified_independently": 0
   }
  }

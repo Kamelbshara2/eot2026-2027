@@ -75,7 +75,7 @@ def fam_check(q):
         if ins.startswith('Which exponential equation'):
             b, a, c = re.match(r'\\log_\{(.+?)\}\((.+)\)=(.+)$', m).groups(); return flat(opts[key]) == flat(f'{b}^{{{c}}}={a}') and unique(lambda t: flat(t) == flat(f'{b}^{{{c}}}={a}'))
         if ins.startswith('Which logarithmic equation'):
-            b, c, a = re.match(r'\((.+?)\)\^\{(.+?)\}=(.+)$', m).groups(); return unique(lambda t: flat(t) == flat(f'\\log_{{{b}}}({a})={c}'))
+            g = re.match(r'(?:\((.+?)\)|(\d+))\^\{(.+?)\}=(.+)$', m).groups(); b, c, a = g[0] or g[1], g[2], g[3]; return unique(lambda t: flat(t) == flat(f'\\log_{{{b}}}({a})={c}'))
         if ins.startswith('Find the distance between A and B'):
             x1, y1, x2, y2 = map(float, re.findall(r'-?\d+(?:\.\d+)?', m)); d = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** .5; return unique(lambda t: abs(float(t) - d) < 1e-6)
         if ins.startswith('A meal consists'):
